@@ -1,0 +1,32 @@
+# Job Alert Configuration - HIGH SPEED
+
+email:
+  sender_email: "hemant.k1539@gmail.com"
+  app_password: "qwerty" 
+  recipient_email: "hemant.k1539@gmail.com"
+
+search:
+  # Optimized Boolean Strings (Covers all 45+ variations in 1/10th the time)
+  search_terms:
+    - '("Quality Engineering Manager" OR "QE Manager" OR "SDET Manager" OR "SET Manager")'
+    - '("Quality Assurance Manager" OR "QA Manager" OR "Test Manager")'
+    - '("Senior Quality Engineering Manager" OR "Sr. QE Manager" OR "Senior Manager QE")'
+    - '("Senior Quality Assurance Manager" OR "Sr. QA Manager" OR "Senior Manager QA")'
+    - '("Director of Quality Engineering" OR "Director of QE" OR "QE Director" OR "Dir QE")'
+    - '("Director of Quality Assurance" OR "Director of QA" OR "QA Director" OR "Dir QA")'
+    - '("Head of Quality" OR "VP of Quality" OR "Global Head of Quality")'
+    - '("Engineering Manager Quality" OR "Engineering Manager Test" OR "EM Quality")'
+
+  india_locations:
+    - "Bengaluru"
+    - "Pune"
+    - "Gurugram"
+    - "India" 
+
+  foreign_locations:
+    - "United States"
+    - "EMEA"
+    - "Canada"
+
+  results_wanted: 20
+  hours_old: 24
