@@ -1,0 +1,43 @@
+name: Job Alert Bot
+    2
+    3 on:
+    4   schedule:
+    5     - cron: '*/30 * * * *'
+    6   workflow_dispatch:
+    7
+    8 jobs:
+    9   build:
+   10     runs-on: ubuntu-latest
+   11     permissions:
+   12       contents: write
+   13
+   14     steps:
+   15     - name: Checkout code
+   16       uses: actions/checkout@v3
+   17
+   18     - name: Set up Python
+   19       uses: actions/setup-python@v4
+   20       with:
+   21         python-version: '3.10'
+   22
+   23     - name: Install dependencies
+   24       run: |
+   25         python -m pip install --upgrade pip
+   26         pip install python-jobspy pyyaml pandas
+   27
+   28     - name: Run Job Bot
+   29       env:
+   30         GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+   31       run: |
+   32         sed -i "s/YOUR_APP_PASSWORD_HERE/$GMAIL_APP_PASSWORD/g" job_alert_config.yaml
+   33         sed -i "s/qwerty/$GMAIL_APP_PASSWORD/g" job_alert_config.yaml
+   34         python job_alert_bot_github.py
+   35
+   36     - name: Commit and push changes
+   37       run: |
+   38         git config --global user.name 'JobBot-Automated'
+   39         git config --global user.email 'bot@noreply.github.com'
+   40         git add job_history.json
+   41         git diff --quiet && git diff --staged --quiet || (git commit -m "Update job history" && git push)
+   42       env:
+   43         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
