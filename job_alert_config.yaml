@@ -1,0 +1,91 @@
+# Job Alert Configuration - LOCAL MASTER
+
+# -----------------------------------------------------------------------------
+# EMAIL SETTINGS
+# -----------------------------------------------------------------------------
+email:
+  sender_email: "hemant.k1539@gmail.com"
+  app_password: "qwerty" 
+  recipient_email: "hemant.k1539@gmail.com"
+
+# -----------------------------------------------------------------------------
+# SEARCH CRITERIA
+# -----------------------------------------------------------------------------
+search:
+  # EXHAUSTIVE roles (Includes all abbreviations and seniority levels)
+  search_terms:
+    # Manager Level
+    - "Quality Engineering Manager"
+    - "Quality Assurance Manager"
+    - "QE Manager"
+    - "QA Manager"
+    - "SDET Manager"
+    - "SET Manager"
+    - "Test Manager"
+    - "Engineering Manager, Quality"
+    - "Engineering Manager, Test"
+    - "EM, Quality"
+    - "EM, QA"
+    - "Quality Manager"
+    
+    # Senior Manager Level
+    - "Senior Quality Engineering Manager"
+    - "Senior Quality Assurance Manager"
+    - "Sr. Quality Engineering Manager"
+    - "Sr. Quality Assurance Manager"
+    - "Sr. QE Manager"
+    - "Sr. QA Manager"
+    - "Senior Manager, Quality Engineering"
+    - "Senior Manager, Quality Assurance"
+    - "Senior Manager, QE"
+    - "Senior Manager, QA"
+    - "Sr. Manager, SDET"
+    
+    # Director Level
+    - "Director of Quality Engineering"
+    - "Director of Quality Assurance"
+    - "Director, Quality Engineering"
+    - "Director, Quality Assurance"
+    - "Director of QE"
+    - "Director of QA"
+    - "QE Director"
+    - "QA Director"
+    - "Director of Test"
+    - "Director of Testing"
+    - "Dir, Quality Engineering"
+    - "Dir, QA"
+    - "Dir, QE"
+    
+    # Head & VP Level
+    - "Head of Quality Engineering"
+    - "Head of Quality Assurance"
+    - "Head of QE"
+    - "Head of QA"
+    - "Head of Quality"
+    - "Head of Test"
+    - "Head of Testing"
+    - "VP of Quality"
+    - "VP, Quality Engineering"
+    - "VP, QA"
+    - "Global Head of Quality"
+
+  # India Locations
+  india_locations:
+    - "Pune"
+    - "Bengaluru"
+    - "Gurugram"
+    - "Mumbai"
+    - "New Delhi"
+    - "India" 
+
+  # International Locations
+  foreign_locations:
+    - "United States"
+    - "EMEA"
+    - "Southeast Asia"
+    - "Australia"
+    - "Canada"
+    - "New Zealand"
+
+  results_wanted: 15
+  hours_old: 1 
