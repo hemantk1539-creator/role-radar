@@ -27,8 +27,7 @@ def load_history():
         try:
             with open(HISTORY_FILE, "r") as f:
                 return json.load(f)
-        except:
-            return []
+        except: return []
     return []
 
 def save_history(history):
@@ -40,8 +39,7 @@ def send_email(subject, jobs, config):
     sender_email = config["email"]["sender_email"]
     sender_password = os.environ.get("GMAIL_APP_PASSWORD") or config["email"].get("app_password")
     recipient_email = config["email"]["recipient_email"]
-    if not sender_password or "qwerty" in sender_password:
-        return False
+    if not sender_password or "qwerty" in sender_password: return False
 
     msg = MIMEMultipart()
     msg["From"] = sender_email
@@ -62,11 +60,10 @@ def send_email(subject, jobs, config):
         server.sendmail(sender_email, recipient_email, msg.as_string())
         server.quit()
         return True
-    except:
-        return False
+    except: return False
 
 def run():
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] --- STEALTH BOT STARTING ---")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] --- OPTIMIZED STEALTH STARTING ---")
     config = load_config()
     history = load_history()
     seen_ids = {item["id"] for item in history}
@@ -74,59 +71,59 @@ def run():
     search_terms = config["search"]["search_terms"]
     india_locs = config["search"]["india_locations"]
     foreign_locs = config["search"]["foreign_locations"]
-    
-    # Supported sites
     sites = ["linkedin", "indeed", "glassdoor", "zip_recruiter"]
     
     def fetch(terms, locations, is_india):
         found = []
         for loc in locations:
             for term in terms:
-                # Search EACH site one by one to prevent one block from killing the whole term
-                for site in sites:
-                    print(f"  > {site.upper()}: '{term}' in '{loc}'...")
-                    try:
-                        # Variable delay (2-5s) per site call
-                        time.sleep(random.uniform(2, 5))
-                        
-                        res = scrape_jobs(
-                            site_name=[site], 
-                            search_term=term, 
-                            location=loc, 
-                            results_wanted=15, # LOWER COUNT = STEALTHIER
-                            hours_old=config["search"].get("hours_old", 24),
-                            country_indeed='india' if is_india else 'usa'
-                        )
-                        
-                        if res is not None and not res.empty:
-                            print(f"    - Found {len(res)} raw results. Filtering...")
-                            new_results = res.to_dict('records')
-                            for job in new_results:
-                                jid = f"{job.get('title')}-{job.get('company')}-{job.get('location')}"
-                                if jid not in seen_ids:
-                                    job['uid'] = jid
-                                    found.append(job)
-                                    seen_ids.add(jid)
-                                    print(f"    [FOUND] {job.get('title')} @ {job.get('company')}")
-                    except Exception as e:
-                        print(f"    [SKIP] {site} blocked or failed.")
-                        continue
+                print(f"  > Searching: '{term}' in '{loc}'...")
+                try:
+                    # Healthy delay between searches to stay stealthy
+                    time.sleep(random.uniform(4, 7))
+                    
+                    res = scrape_jobs(
+                        site_name=sites, 
+                        search_term=term, 
+                        location=loc, 
+                        results_wanted=15,
+                        hours_old=config["search"].get("hours_old", 24),
+                        country_indeed='india' if is_india else 'usa'
+                    )
+                    
+                    if res is not None and not res.empty:
+                        new_results = res.to_dict('records')
+                        added = 0
+                        for job in new_results:
+                            jid = f"{job.get('title')}-{job.get('company')}-{job.get('location')}"
+                            if jid not in seen_ids:
+                                job['uid'] = jid
+                                found.append(job)
+                                seen_ids.add(jid)
+                                added += 1
+                                # print(f"    [FOUND] {job.get('title')} @ {job.get('company')}")
+                        if added > 0: print(f"    [NEW] Found {added} new roles.")
+                except Exception as e:
+                    print(f"    [ERROR] Search failed for {term}: {str(e)[:50]}")
+                    continue
         return found
 
-    print("\n--- SEARCHING INDIA ---")
+    print("\n--- INDIA LOCATIONS ---")
     new_india = fetch(search_terms, india_locs, True)
     
-    print("\n--- SEARCHING INTERNATIONAL ---")
+    print("\n--- INTERNATIONAL LOCATIONS ---")
     new_foreign = fetch(search_terms, foreign_locs, False)
+
+    total = len(new_india) + len(new_foreign)
+    print(f"\n--- DONE. Found {total} New Jobs ---")
 
     if new_india: send_email(f"Job Alert: {len(new_india)} New Roles (India)", new_india, config)
     if new_foreign: send_email(f"Job Alert: {len(new_foreign)} New Roles (Intl)", new_foreign, config)
 
-    if new_india or new_foreign:
+    if total > 0:
         for j in new_india + new_foreign:
             history.append({"id": j['uid'], "date": datetime.now().isoformat()})
         save_history(history)
-    print("--- FINISHED ---")
 
 if __name__ == "__main__":
     run()
