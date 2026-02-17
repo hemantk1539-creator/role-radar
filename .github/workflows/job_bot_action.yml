@@ -2,9 +2,10 @@ name: Job Alert Bot
 
 on:
   schedule:
-    # Runs every 30 minutes
-    - cron: '*/30 * * * *'
-  workflow_dispatch: # Allows you to run it manually from the GitHub UI
+    # Run at irregular intervals (15 and 45 past the hour)
+    # This helps avoid the "top of the hour" congestion on GitHub Actions
+    - cron: '15,45 * * * *'
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   build:
@@ -28,18 +29,19 @@ jobs:
 
     - name: Run Job Bot
       env:
+        # Pass the secret directly to the environment
         GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       run: |
-        # Inject the secret password into the config file
-        sed -i "s/YOUR_APP_PASSWORD_HERE/$GMAIL_APP_PASSWORD/g" job_alert_config.yaml
-        sed -i "s/qwerty/$GMAIL_APP_PASSWORD/g" job_alert_config.yaml
+        # No more sed commands needed!
         python job_alert_bot_github.py
 
     - name: Commit and push changes
       run: |
         git config --global user.name 'JobBot-Automated'
         git config --global user.email 'bot@noreply.github.com'
+        # Check if job_history.json changed
         git add job_history.json
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update job history" && git push)
+        # Only commit if there are changes
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update job history [skip ci]" && git push)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
