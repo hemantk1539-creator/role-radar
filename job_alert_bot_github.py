@@ -110,19 +110,26 @@ def run():
                             title_str = str(job.get('title', '')).lower()
                             loc_str = str(job.get('location', '')).lower()
                             
-                            # --- MASTER 45-ROLE WHITELIST ---
+                            # 1. MASTER 45-ROLE WHITELIST (Seniority + Quality Domain)
                             levels = ["manager", "director", "head", "vp", "em", "staff", "engineering manager", "lead", "principal", "chief"]
                             domains = ["quality", "qe", "qa", "sdet", "set", "test", "testing", "automation"]
-                            
                             has_level = any(l in title_str for l in levels)
                             has_domain = any(d in title_str for d in domains)
                             
-                            # --- RESIDENCY FILTER (Blunt: Remove US-Only Noise) ---
-                            blacklist = ["junior", "jr", "associate", "trainee", "intern", "fresher", "marketing", "sales", "control", "us citizen", "green card", "authorized to work in the us"]
+                            # 2. STRICT BLACKLIST (Noise + Entry Level + US-Only Restrictions)
+                            blacklist = ["junior", "jr", "associate", "trainee", "intern", "fresher", "marketing", "sales", "control", "us citizen", "green card", "authorized to work in the us", "us only", "north america only"]
                             is_blacklisted = any(b in title_str or b in loc_str for b in blacklist)
 
+                            # CRITICAL: Reject if not leadership/quality OR if it's junk/restricted
                             if not (has_level and has_domain) or is_blacklisted:
                                 continue
+
+                            # 3. GLOBAL SIGNAL CHECK (For Worldwide relevance)
+                            is_india_explicit = 'india' in loc_str or 'india' in title_str
+                            if loc == "Remote" and not is_india_explicit:
+                                global_signals = ["anywhere", "global", "worldwide", "international", "apac", "asia", "distributed", "remote-first", "time zone", "overlap"]
+                                has_signal = any(s in title_str or s in loc_str for s in global_signals)
+                                if not has_signal: continue
 
                             # --- UNIQUE ID & CATEGORIZATION ---
                             jurl = job.get('job_url', '')
@@ -133,9 +140,11 @@ def run():
                                 job['uid'] = jid
                                 seen_ids.add(jid)
                                 
-                                # Categorize as remote if searched via Remote or contains keywords
-                                if loc == "Remote" or any(r in loc_str or r in title_str for r in ['remote', 'anywhere', 'global']):
-                                    found_remote.append(job)
+                                if (loc == "Remote" or any(r in loc_str or r in title_str for r in ['remote', 'anywhere', 'global'])) or is_india_explicit:
+                                    if 'remote' in loc_str or 'remote' in title_str or 'anywhere' in loc_str or loc == "Remote":
+                                        found_remote.append(job)
+                                    else:
+                                        found_local.append(job)
                                 else:
                                     found_local.append(job)
 
