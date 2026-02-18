@@ -1,4 +1,4 @@
-# Job Alert Configuration - 4X DAILY ZERO-MISS STRATEGY
+# Job Alert Configuration - GLOBAL & HUB STRATEGY
 
 email:
   sender_email: "hemant.k1539@gmail.com"
@@ -22,7 +22,7 @@ search:
     - "Pune"
     - "Mumbai"
     - "Hyderabad"
-    - "Remote"
+    - "Remote" # Will be searched globally in the script
 
-  results_wanted: 15 # Optimized for 4x daily frequency
-  hours_old: 24      # Maintains safety overlap
+  results_wanted: 15
+  hours_old: 24
