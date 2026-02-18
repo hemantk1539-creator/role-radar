@@ -2,9 +2,12 @@ name: Job Alert Bot
 
 on:
   schedule:
-    # Run at irregular intervals (15 and 45 past the hour)
-    # This helps avoid the "top of the hour" congestion on GitHub Actions
-    - cron: '15,45 * * * *'
+    # 4 Strategic Runs (UTC):
+    # 02:15 UTC -> 07:45 AM IST (Inbox Prep / US Night Catch)
+    # 05:15 UTC -> 10:45 AM IST (India Morning)
+    # 11:15 UTC -> 04:45 PM IST (India Eve / EMEA Morning)
+    # 17:15 UTC -> 10:45 PM IST (US East Coast Morning)
+    - cron: '15 2,5,11,17 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:
