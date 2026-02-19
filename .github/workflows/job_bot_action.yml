@@ -30,7 +30,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install python-jobspy pyyaml pandas
+        pip install -r requirements.txt
 
     - name: Run Job Bot
       env:
