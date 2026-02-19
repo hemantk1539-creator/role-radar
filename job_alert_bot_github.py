@@ -3,6 +3,7 @@ import json
 import smtplib
 import time
 import random
+import hashlib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
@@ -188,7 +189,8 @@ def run():
                             jurl = job.get('job_url', '')
                             if not jurl: continue
                             
-                            jid = str(hash(jurl))
+                            # RATIONAL FIX: Use stable MD5 instead of unstable hash()
+                            jid = hashlib.md5(jurl.encode('utf-8')).hexdigest()
                             if jid not in seen_ids:
                                 job['uid'] = jid
                                 seen_ids.add(jid)
