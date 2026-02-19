@@ -44,9 +44,9 @@ jobs:
       run: |
         git config --global user.name 'JobBot-Automated'
         git config --global user.email 'bot@noreply.github.com'
-        # Check if job_history.json changed
-        git add job_history.json
-        # Only commit if there are changes
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update job history [skip ci]" && git push)
+        # HEARTBEAT: Always track heartbeat.txt to prove repository activity
+        git add job_history.json heartbeat.txt
+        # Only commit if there are changes (Heartbeat will always change)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Update job history and heartbeat [skip ci]" && git push)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

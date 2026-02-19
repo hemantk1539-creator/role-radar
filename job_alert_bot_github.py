@@ -90,6 +90,14 @@ def send_email(subject, jobs, config):
 
 def run():
     print(f"[{datetime.now().strftime('%H:%M:%S')}] --- GLOBAL HUB & REMOTE SEARCH STARTING ---")
+    
+    # HEARTBEAT: Force a file change to keep GitHub Actions scheduler active
+    try:
+        with open("heartbeat.txt", "w") as f:
+            f.write(f"Last Run (UTC): {datetime.now().isoformat()}")
+    except Exception as e:
+        print(f"Heartbeat failed: {e}")
+
     config = load_config()
     history = load_history()
     seen_ids = {item["id"] for item in history}
