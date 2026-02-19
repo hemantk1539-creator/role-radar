@@ -2,19 +2,20 @@ name: Job Alert Bot
 
 on:
   schedule:
-    # 4 Strategic Runs (UTC):
-    # 02:15 UTC -> 07:45 AM IST (Inbox Prep / US Night Catch)
-    # 05:15 UTC -> 10:45 AM IST (India Morning)
-    # 11:15 UTC -> 04:45 PM IST (India Eve / EMEA Morning)
-    # 17:15 UTC -> 10:45 PM IST (US East Coast Morning)
-    - cron: '15 2,5,11,17 * * *'
+    # 3 Strategic Runs (UTC) - 'Night Owl' Global Market Optimization
+    # 07:00 UTC -> 12:30 PM IST (India Morning/Noon Surge)
+    # 12:30 UTC -> 06:00 PM IST (EMEA Morning/Midday Surge)
+    # 20:00 UTC -> 01:30 AM IST (US Silicon Valley/East Coast Peak)
+    - cron: '0 7 * * *'
+    - cron: '30 12 * * *'
+    - cron: '0 20 * * *'
   workflow_dispatch: # Allows manual trigger
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Important: allows the bot to update job_history.json
+      contents: write
 
     steps:
     - name: Checkout code
@@ -24,6 +25,7 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
+        cache: 'pip' # Enable caching for pip dependencies
 
     - name: Install dependencies
       run: |

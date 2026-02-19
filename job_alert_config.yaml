@@ -7,14 +7,12 @@ email:
 
 search:
   search_terms:
-    - '("Quality Engineering Manager" OR "QE Manager" OR "SDET Manager" OR "SET Manager")'
-    - '("Quality Assurance Manager" OR "QA Manager" OR "Test Manager")'
-    - '("Senior Quality Engineering Manager" OR "Sr. QE Manager" OR "Senior Manager QE")'
-    - '("Senior Quality Assurance Manager" OR "Sr. QA Manager" OR "Senior Manager QA")'
-    - '("Director of Quality Engineering" OR "Director of QE" OR "QE Director")'
-    - '("Director of Quality Assurance" OR "Director of QA" OR "QA Director")'
-    - '("Head of Quality" OR "VP of Quality" OR "Global Head of Quality")'
-    - '("Engineering Manager Quality" OR "Engineering Manager Test" OR "EM Quality")'
+    - '("Quality Engineering Manager" OR "QE Manager" OR "SDET Manager" OR "SET Manager" OR "QA Manager" OR "Test Manager" OR "Software Test Manager" OR "Automation Manager")'
+    - '("Senior Quality Engineering Manager" OR "Sr. QE Manager" OR "Senior Manager QE" OR "Sr. QA Manager" OR "Senior Manager QA" OR "Sr. Test Manager" OR "Senior Test Manager")'
+    - '("Director of Quality Engineering" OR "Director of QE" OR "QE Director" OR "Director of Quality Assurance" OR "Director of QA" OR "QA Director" OR "Director of Test" OR "Director of Testing")'
+    - '("Head of Quality" OR "Head of QA" OR "Head of Quality Assurance" OR "Global Head of Quality" OR "Global Head of QA")'
+    - '("Engineering Manager Quality" OR "Engineering Manager Test" OR "EM Quality" OR "EM Test" OR "Quality Engineering Lead" OR "QA Lead" OR "QE Lead" OR "Lead SDET" OR "SDET Lead" OR "Quality Lead")'
+    - '("Staff Quality Engineer" OR "Staff QE" OR "Staff QA" OR "Principal Quality Engineer" OR "Principal QE" OR "Principal QA" OR "Principal SDET" OR "Quality Architect" OR "Test Architect")'
 
   india_locations:
     - "Bengaluru"

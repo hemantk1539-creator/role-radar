@@ -18,6 +18,11 @@ except ImportError:
 CONFIG_FILE = "job_alert_config.yaml"
 HISTORY_FILE = "job_history.json"
 
+# RATIONAL GLOBAL HUB GRID: 10 High-Signal Hubs
+VALID_COUNTRIES = ['india', 'usa', 'uk', 'canada', 'australia', 'singapore', 'germany', 'ireland', 'netherlands', 'united arab emirates']
+GLOBAL_OR_LOC = "USA OR UK OR Canada OR Australia OR Singapore OR Germany OR Ireland OR Netherlands OR United Arab Emirates"
+BLOCKED_SITES = ["glassdoor", "bayt", "zip_recruiter"] # Quota drainers (403/400 failures)
+
 def load_config():
     with open(CONFIG_FILE, "r") as f:
         return yaml.safe_load(f)
@@ -48,7 +53,22 @@ def send_email(subject, jobs, config):
     msg["To"] = recipient_email
     msg["Subject"] = subject
     
-    html = f"<h3>{subject}</h3><table border='1' style='border-collapse: collapse; width: 100%;'>"
+    # RATIONAL ENHANCEMENT: Add a summary header for quick review
+    loc_counts = {}
+    for j in jobs:
+        l = j.get('location', 'Unknown')
+        loc_counts[l] = loc_counts.get(l, 0) + 1
+    
+    summary_html = "<ul>"
+    for loc, count in sorted(loc_counts.items()):
+        summary_html += f"<li><b>{loc}:</b> {count} jobs</li>"
+    summary_html += "</ul>"
+
+    html = f"<h3>{subject}</h3>"
+    html += f"<p><b>Total Found:</b> {len(jobs)}</p>"
+    html += "<h4>Breakdown by Location:</h4>"
+    html += summary_html
+    html += "<hr><table border='1' style='border-collapse: collapse; width: 100%;'>"
     html += "<tr style='background-color: #eee;'><th>Title</th><th>Company</th><th>Location</th><th>Site</th><th>Link</th></tr>"
     for job in jobs:
         html += f"<tr><td>{job.get('title')}</td><td>{job.get('company')}</td><td>{job.get('location')}</td><td>{job.get('site')}</td><td><a href='{job.get('job_url')}'>Apply</a></td></tr>"
@@ -74,31 +94,57 @@ def run():
     history = load_history()
     seen_ids = {item["id"] for item in history}
     
+    # RATIONAL CONFIG SANITY: Stop early if credentials are missing
+    sender_password = os.environ.get("GMAIL_APP_PASSWORD") or config["email"].get("app_password")
+    if not sender_password or "qwerty" in sender_password: 
+        print(f"  [FATAL ERROR] GMAIL_APP_PASSWORD missing. Aborting run.")
+        return False
+
     search_terms = config["search"]["search_terms"]
     locations = config["search"]["india_locations"]
-    
-    site_batches = [
-        ["linkedin", "indeed"], 
-        ["glassdoor"],           
-        ["zip_recruiter"]        
-    ]
     
     found_local = []
     found_remote = []
 
     for loc in locations:
-        # ABSOLUTE BEST: Search USA site for 'Remote' to catch 'Anywhere' roles, India site for cities.
-        country_code = 'usa' if loc == "Remote" else 'india'
-        
-        for term in search_terms:
-            for sites in site_batches:
-                print(f"  > Searching: '{term}' in '{loc}' on {sites} via [{country_code}]...")
+        search_tasks = []
+        if loc == "Remote":
+            # 1. DEEP INDIA (Naukri, Indeed, LinkedIn)
+            for site in ["naukri", "indeed", "linkedin"]:
+                search_tasks.append({"site": site, "country": "india", "loc": loc})
+            
+            # 2. DEEP GLOBAL (Indeed) - All 9 foreign countries individually
+            for c in [c for c in VALID_COUNTRIES if c != 'india']:
+                search_tasks.append({"site": "indeed", "country": c, "loc": loc})
+            
+            # 3. WIDE GLOBAL (LinkedIn) - Grouped OR-logic (9 countries)
+            search_tasks.append({"site": "linkedin", "country": "usa", "loc": GLOBAL_OR_LOC})
+        else:
+            # Local City Search (India Only)
+            for site in ["linkedin", "indeed", "naukri"]:
+                search_tasks.append({"site": site, "country": "india", "loc": loc})
+
+        for task in search_tasks:
+            for term in search_terms:
+                site = task["site"]
+                country_code = task["country"]
+                search_loc = task["loc"]
+                
+                # RATIONAL FILTER: Force skip blocked/failing sites to save quota
+                if site in BLOCKED_SITES:
+                    continue
+
+                # RATIONAL FILTER: Naukri is India-only
+                if site == "naukri" and country_code != "india":
+                    continue
+                
+                print(f"  > Searching: '{term}' in '{search_loc}' on '{site}' via [{country_code}]...")
                 try:
                     time.sleep(random.uniform(4, 6))
                     res = scrape_jobs(
-                        site_name=sites, 
+                        site_name=[site], 
                         search_term=term, 
-                        location=loc, 
+                        location=search_loc, 
                         results_wanted=config["search"].get("results_wanted", 15),
                         hours_old=config["search"].get("hours_old", 24),
                         country_indeed=country_code
@@ -110,8 +156,8 @@ def run():
                             title_str = str(job.get('title', '')).lower()
                             loc_str = str(job.get('location', '')).lower()
                             
-                            # 1. MASTER 45-ROLE WHITELIST (Seniority + Quality Domain)
-                            levels = ["manager", "director", "head", "vp", "em", "staff", "engineering manager", "lead", "principal", "chief"]
+                            # 1. MASTER WHITELIST (Seniority + Quality Domain) - Removed VP/Chief
+                            levels = ["manager", "director", "head", "em", "staff", "engineering manager", "lead", "principal"]
                             domains = ["quality", "qe", "qa", "sdet", "set", "test", "testing", "automation"]
                             has_level = any(l in title_str for l in levels)
                             has_domain = any(d in title_str for d in domains)
@@ -120,11 +166,10 @@ def run():
                             blacklist = ["junior", "jr", "associate", "trainee", "intern", "fresher", "marketing", "sales", "control", "us citizen", "green card", "authorized to work in the us", "us only", "north america only"]
                             is_blacklisted = any(b in title_str or b in loc_str for b in blacklist)
 
-                            # CRITICAL: Reject if not leadership/quality OR if it's junk/restricted
                             if not (has_level and has_domain) or is_blacklisted:
                                 continue
 
-                            # 3. GLOBAL SIGNAL CHECK (For Worldwide relevance)
+                            # 3. GLOBAL SIGNAL CHECK
                             is_india_explicit = 'india' in loc_str or 'india' in title_str
                             if loc == "Remote" and not is_india_explicit:
                                 global_signals = ["anywhere", "global", "worldwide", "international", "apac", "asia", "distributed", "remote-first", "time zone", "overlap"]
@@ -147,9 +192,8 @@ def run():
                                         found_local.append(job)
                                 else:
                                     found_local.append(job)
-
                 except Exception as e:
-                    print(f"    [SITE ERROR] {sites} failed: {str(e)[:50]}")
+                    print(f"    [SITE ERROR] '{site}' failed: {str(e)[:100]}")
                     continue
 
     total = len(found_local) + len(found_remote)
@@ -162,6 +206,9 @@ def run():
         for j in found_local + found_remote:
             history.append({"id": j['uid'], "date": datetime.now().isoformat()})
         save_history(history)
+    
+    return True
 
 if __name__ == "__main__":
-    run()
+    if not run():
+        sys.exit(1)
