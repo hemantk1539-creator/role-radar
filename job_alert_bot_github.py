@@ -19,10 +19,10 @@ except ImportError:
 CONFIG_FILE = "job_alert_config.yaml"
 HISTORY_FILE = "job_history.json"
 
-# RATIONAL GLOBAL HUB GRID: 10 High-Signal Hubs
-VALID_COUNTRIES = ['india', 'usa', 'uk', 'canada', 'australia', 'singapore', 'germany', 'ireland', 'netherlands', 'united arab emirates']
-GLOBAL_OR_LOC = "USA OR UK OR Canada OR Australia OR Singapore OR Germany OR Ireland OR Netherlands OR United Arab Emirates"
-BLOCKED_SITES = ["glassdoor", "bayt", "zip_recruiter"] # Quota drainers (403/400 failures)
+# RATIONAL GLOBAL HUB GRID: 15 High-Signal Hubs
+VALID_COUNTRIES = ['india', 'usa', 'uk', 'canada', 'australia', 'singapore', 'germany', 'ireland', 'netherlands', 'united arab emirates', 'poland', 'hong kong', 'qatar', 'malaysia', 'new zealand']
+GLOBAL_OR_LOC = "USA OR UK OR Canada OR Australia OR Singapore OR Germany OR Ireland OR Netherlands OR United Arab Emirates OR Poland OR Hong Kong OR Qatar OR Malaysia OR New Zealand"
+BLOCKED_SITES = ["glassdoor", "bayt", "zip_recruiter"] 
 
 def load_config():
     with open(CONFIG_FILE, "r") as f:
@@ -54,7 +54,6 @@ def send_email(subject, jobs, config):
     msg["To"] = recipient_email
     msg["Subject"] = subject
     
-    # RATIONAL ENHANCEMENT: Add a summary header for quick review
     loc_counts = {}
     for j in jobs:
         l = j.get('location', 'Unknown')
@@ -92,7 +91,6 @@ def send_email(subject, jobs, config):
 def run():
     print(f"[{datetime.now().strftime('%H:%M:%S')}] --- GLOBAL HUB & REMOTE SEARCH STARTING ---")
     
-    # HEARTBEAT: Force a file change to keep GitHub Actions scheduler active
     try:
         with open("heartbeat.txt", "w") as f:
             f.write(f"Last Run (UTC): {datetime.now().isoformat()}")
@@ -103,7 +101,6 @@ def run():
     history = load_history()
     seen_ids = {item["id"] for item in history}
     
-    # RATIONAL CONFIG SANITY: Stop early if credentials are missing
     sender_password = os.environ.get("GMAIL_APP_PASSWORD") or config["email"].get("app_password")
     if not sender_password or "qwerty" in sender_password: 
         print(f"  [FATAL ERROR] GMAIL_APP_PASSWORD missing. Aborting run.")
@@ -120,13 +117,17 @@ def run():
         if loc == "Remote":
             # 1. DEEP INDIA (Naukri, Indeed, LinkedIn)
             for site in ["naukri", "indeed", "linkedin"]:
-                search_tasks.append({"site": site, "country": "india", "loc": loc})
+                # RATIONAL FIX: LinkedIn "Remote" search from US IP needs "India" location to target correctly
+                if site == "linkedin":
+                    search_tasks.append({"site": site, "country": "india", "loc": "India"})
+                else:
+                    search_tasks.append({"site": site, "country": "india", "loc": loc})
             
-            # 2. DEEP GLOBAL (Indeed) - All 9 foreign countries individually
+            # 2. DEEP GLOBAL (Indeed) - Remaining 14 countries individually
             for c in [c for c in VALID_COUNTRIES if c != 'india']:
                 search_tasks.append({"site": "indeed", "country": c, "loc": loc})
             
-            # 3. WIDE GLOBAL (LinkedIn) - Grouped OR-logic (9 countries)
+            # 3. WIDE GLOBAL (LinkedIn) - Grouped OR-logic (15 countries)
             search_tasks.append({"site": "linkedin", "country": "usa", "loc": GLOBAL_OR_LOC})
         else:
             # Local City Search (India Only)
@@ -139,22 +140,17 @@ def run():
                 country_code = task["country"]
                 search_loc = task["loc"]
                 
-                # RATIONAL FILTER: Force skip blocked/failing sites to save quota
-                if site in BLOCKED_SITES:
-                    continue
-
-                # RATIONAL FILTER: Naukri is India-only
-                if site == "naukri" and country_code != "india":
-                    continue
+                if site in BLOCKED_SITES: continue
+                if site == "naukri" and country_code != "india": continue
                 
-                print(f"  > Searching: '{term}' in '{search_loc}' on '{site}' via [{country_code}]...")
+                print(f"  > Searching: '{term[:50]}...' in '{search_loc}' on '{site}' via [{country_code}]...")
                 try:
                     time.sleep(random.uniform(4, 6))
                     res = scrape_jobs(
                         site_name=[site], 
                         search_term=term, 
                         location=search_loc, 
-                        results_wanted=config["search"].get("results_wanted", 15),
+                        results_wanted=config["search"].get("results_wanted", 40),
                         hours_old=config["search"].get("hours_old", 24),
                         country_indeed=country_code
                     )
@@ -165,36 +161,42 @@ def run():
                             title_str = str(job.get('title', '')).lower()
                             loc_str = str(job.get('location', '')).lower()
                             
-                            # 1. MASTER WHITELIST (Seniority + Quality Domain) - Removed VP/Chief
+                            # 1. MASTER WHITELIST (Seniority + Quality Domain)
                             levels = ["manager", "director", "head", "em", "staff", "engineering manager", "lead", "principal"]
                             domains = ["quality", "qe", "qa", "sdet", "set", "test", "testing", "automation"]
                             has_level = any(l in title_str for l in levels)
                             has_domain = any(d in title_str for d in domains)
                             
-                            # 2. STRICT BLACKLIST (Noise + Entry Level + US-Only Restrictions)
                             blacklist = ["junior", "jr", "associate", "trainee", "intern", "fresher", "marketing", "sales", "control", "us citizen", "green card", "authorized to work in the us", "us only", "north america only"]
                             is_blacklisted = any(b in title_str or b in loc_str for b in blacklist)
 
                             if not (has_level and has_domain) or is_blacklisted:
                                 continue
 
-                            # 3. GLOBAL SIGNAL CHECK
+                            # 2. GLOBAL SIGNAL CHECK (Fixed Net)
                             is_india_explicit = 'india' in loc_str or 'india' in title_str
-                            if loc == "Remote" and not is_india_explicit:
-                                global_signals = ["anywhere", "global", "worldwide", "international", "apac", "asia", "distributed", "remote-first", "time zone", "overlap"]
-                                has_signal = any(s in title_str or s in loc_str for s in global_signals)
-                                if not has_signal: continue
+                            
+                            if loc == "Remote":
+                                # RATIONAL FIX: If searching in India, we TRUST it's an India-Remote role.
+                                if country_code == "india":
+                                    pass 
+                                else:
+                                    # For Global Hubs (USA, UK, etc.), we keep a relaxed signal check 
+                                    global_signals = ["anywhere", "global", "worldwide", "international", "apac", "asia", "emea", "distributed", "remote-first", "time zone", "overlap", "timezone", "remote-friendly"]
+                                    has_signal = any(s in title_str or s in loc_str for s in global_signals)
+                                    if not (has_signal or is_india_explicit):
+                                        continue
 
                             # --- UNIQUE ID & CATEGORIZATION ---
                             jurl = job.get('job_url', '')
                             if not jurl: continue
                             
-                            # RATIONAL FIX: Use stable MD5 instead of unstable hash()
                             jid = hashlib.md5(jurl.encode('utf-8')).hexdigest()
                             if jid not in seen_ids:
                                 job['uid'] = jid
                                 seen_ids.add(jid)
                                 
+                                # Category Logic
                                 if (loc == "Remote" or any(r in loc_str or r in title_str for r in ['remote', 'anywhere', 'global'])) or is_india_explicit:
                                     if 'remote' in loc_str or 'remote' in title_str or 'anywhere' in loc_str or loc == "Remote":
                                         found_remote.append(job)
