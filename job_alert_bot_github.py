@@ -117,7 +117,8 @@ def run():
     blocked_sites = config["search"].get("blocked_sites", [])
     
     found_local = []
-    found_remote = []
+    found_india_remote = []
+    found_global_remote = []
 
     all_tasks = []
     
@@ -179,31 +180,39 @@ def run():
                             job['uid'] = jid
                             seen_ids.add(jid)
                             
-                            is_remote_signal = any(r in loc_str or r in title_str for r in ['remote', 'anywhere', 'global'])
+                            # --- 3-BUCKET CATEGORIZATION (Rigor + Separation) ---
+                            remote_signals = ['remote', 'anywhere', 'global', 'work from home', 'wfh', 'telecommute', 'fully remote', 'distributed', 'virtual', 'remote-first']
+                            is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
                             is_local_city = any(city.lower() in loc_str for city in india_locations if city != "Remote")
                             
-                            if search_loc == "Remote" or is_remote_signal:
-                                found_remote.append(job)
+                            if is_remote_explicit:
+                                if country_code == "india":
+                                    found_india_remote.append(job)
+                                else:
+                                    found_global_remote.append(job)
                             elif is_local_city:
                                 found_local.append(job)
-                            elif country_code == "india":
-                                found_remote.append(job)
+                            elif country_code != "india":
+                                # Global Hub leak (e.g. US local job with no Remote tag) -> REJECT
+                                continue
                             else:
-                                found_remote.append(job)
+                                # India local job with no specific city match or remote tag -> Local Fallback
+                                found_local.append(job)
                 
                 time.sleep(1) # Cooldown between terms
             except Exception as e:
                 print(f"    [SITE ERROR] '{site}' failed: {str(e)[:100]}")
                 continue
 
-    total = len(found_local) + len(found_remote)
+    total = len(found_local) + len(found_india_remote) + len(found_global_remote)
     print(f"\n--- DONE. Found {total} New Jobs ---")
 
     if found_local: send_email(f"Local Alert: {len(found_local)} New City Roles", found_local, config)
-    if found_remote: send_email(f"Remote Alert: {len(found_remote)} New Global Remote Roles", found_remote, config)
+    if found_india_remote: send_email(f"India Remote Alert: {len(found_india_remote)} New Remote Roles", found_india_remote, config)
+    if found_global_remote: send_email(f"Global Remote Alert: {len(found_global_remote)} New Global Remote Roles", found_global_remote, config)
 
     if total > 0:
-        for j in found_local + found_remote:
+        for j in found_local + found_india_remote + found_global_remote:
             history.append({"id": j['uid'], "date": datetime.now().isoformat()})
         save_history(history)
     
