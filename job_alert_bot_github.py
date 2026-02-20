@@ -88,15 +88,14 @@ def send_email(subject, jobs, config):
         return False
 
 def run():
-    # AUTOMATIC MODE DETECTION (Based on cron-job.org windows)
-    # 06:41 UTC (12:11 PM IST) -> Deep
-    # 12:41 UTC (06:11 PM IST) -> Deep
-    # 19:41 UTC (01:11 AM IST) -> Velocity (LinkedIn Only)
+    # RUN MODE IDENTIFICATION (UTC)
+    # 02:30 UTC -> 08:00 AM IST (Deep)
+    # 11:00 UTC -> 04:30 PM IST (Deep)
+    # 18:00 UTC -> 11:30 PM IST (Velocity - LinkedIn Only)
     now_hour = datetime.now().hour
-    # Trigger Velocity mode for the 01:11 AM IST window (19:00 - 22:00 UTC)
-    is_velocity = (19 <= now_hour <= 22)
+    is_velocity = (19 <= now_hour <= 22) # Trigger for 01:11 AM IST window
     
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] --- DATA-PROVEN MASTERPIECE STARTING (Mode: {'Velocity' if is_velocity else 'Deep'}) ---")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] --- DEFINITIVE HIGH-PRECISION SEARCH (Mode: {'Velocity' if is_velocity else 'Deep'}) STARTING ---")
     
     try:
         with open("heartbeat.txt", "w") as f:
@@ -114,8 +113,8 @@ def run():
         return False
 
     search_terms = config["search"]["search_terms"]
-    # HIGH-PRECISION CITY LIST (Mandate 1 & 2)
-    india_locations = ["Bengaluru", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Noida", "Remote"]
+    # DYNAMIC CONFIG LOADING (No Hardcoding)
+    india_locations = config["search"]["india_locations"]
     
     found_local = []
     found_remote = []
@@ -150,8 +149,8 @@ def run():
                     site_name=[site], 
                     search_term=term, 
                     location=search_loc, 
-                    results_wanted=30,
-                    hours_old=24,
+                    results_wanted=config["search"].get("results_wanted", 30),
+                    hours_old=config["search"].get("hours_old", 24),
                     country_indeed=country_code
                 )
                 
@@ -193,7 +192,8 @@ def run():
                             seen_ids.add(jid)
                             
                             is_remote_signal = any(r in loc_str or r in title_str for r in ['remote', 'anywhere', 'global'])
-                            is_local_city = any(city.lower() in loc_str for city in ["bengaluru", "pune", "mumbai", "hyderabad", "delhi", "gurgaon", "noida", "gurugram"])
+                            # Dynamic city check from config
+                            is_local_city = any(city.lower() in loc_str for city in india_locations if city != "Remote")
                             
                             if search_loc == "Remote" or is_remote_signal:
                                 found_remote.append(job)
@@ -204,7 +204,7 @@ def run():
                             else:
                                 found_remote.append(job)
                 
-                time.sleep(1) # Term Cooldown
+                time.sleep(1) # Cooldown between terms
             except Exception as e:
                 print(f"    [SITE ERROR] '{site}' failed: {str(e)[:100]}")
                 continue
