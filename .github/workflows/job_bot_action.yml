@@ -1,7 +1,15 @@
 name: Job Alert Bot
 
 on:
-  workflow_dispatch: # Allows manual and external API triggers
+  schedule:
+    # 3 Strategic High-Precision Runs (UTC)
+    # 02:30 UTC -> 08:00 AM IST (Deep Full Search)
+    # 11:00 UTC -> 04:30 PM IST (Deep Full Search)
+    # 18:00 UTC -> 11:30 PM IST (LinkedIn-Only Velocity Search)
+    - cron: '30 2 * * *'
+    - cron: '0 11 * * *'
+    - cron: '0 18 * * *'
+  workflow_dispatch: # Allows manual trigger
 
 jobs:
   build:
@@ -17,7 +25,7 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-        cache: 'pip' # Enable caching for pip dependencies
+        cache: 'pip'
 
     - name: Install dependencies
       run: |
@@ -26,19 +34,15 @@ jobs:
 
     - name: Run Job Bot
       env:
-        # Pass the secret directly to the environment
         GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       run: |
-        # No more sed commands needed!
         python job_alert_bot_github.py
 
     - name: Commit and push changes
       run: |
         git config --global user.name 'JobBot-Automated'
         git config --global user.email 'bot@noreply.github.com'
-        # HEARTBEAT: Always track heartbeat.txt to prove repository activity
         git add job_history.json heartbeat.txt
-        # Only commit if there are changes (Heartbeat will always change)
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update job history and heartbeat [skip ci]" && git push)
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
