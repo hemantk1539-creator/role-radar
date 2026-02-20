@@ -111,7 +111,7 @@ def run():
     # LOAD ALL DATA FROM CONFIG
     search_terms = config["search"]["search_terms"]
     india_search_cities = config["search"].get("india_search_cities", [])
-    india_city_aliases = config["search"].get("india_city_aliases", [])
+    india_city_aliases = [c.lower() for c in config["search"].get("india_city_aliases", [])]
     global_hubs = config["search"]["global_hubs"]
     blacklist = [b.lower() for b in config["search"]["blacklist"]]
     levels = [l.lower() for l in config["search"]["levels"]]
@@ -119,7 +119,7 @@ def run():
     blocked_sites = config["search"].get("blocked_sites", [])
     india_code = config["search"].get("india_country_code", "india")
     global_loc = config["search"].get("global_search_loc", "Remote")
-    remote_signals = config["search"].get("remote_signals", ["remote"])
+    remote_signals = [r.lower() for r in config["search"].get("remote_signals", ["remote"])]
     
     found_local = []
     found_india_remote = []
@@ -188,7 +188,7 @@ def run():
                             # --- 3-BUCKET CATEGORIZATION (Rigor + Separation) ---
                             # Note: Reading Title/Location Header (not full JD)
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
-                            is_local_city = any(city.lower() in loc_str for city in india_city_aliases if city != "Remote" and city != global_loc)
+                            is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
                             
                             if is_remote_explicit:
                                 if country_code == india_code:
