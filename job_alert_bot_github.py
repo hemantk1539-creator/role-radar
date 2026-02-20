@@ -18,9 +18,6 @@ except ImportError:
 
 CONFIG_FILE = "job_alert_config.yaml"
 HISTORY_FILE = "job_history.json"
-
-# RATIONAL GLOBAL HUB GRID: 15 High-Signal Hubs
-VALID_COUNTRIES = ['india', 'usa', 'uk', 'canada', 'australia', 'singapore', 'germany', 'ireland', 'netherlands', 'united arab emirates', 'poland', 'hong kong', 'qatar', 'malaysia', 'new zealand']
 BLOCKED_SITES = ["glassdoor", "bayt", "zip_recruiter"] 
 
 def load_config():
@@ -88,14 +85,10 @@ def send_email(subject, jobs, config):
         return False
 
 def run():
-    # RUN MODE IDENTIFICATION (UTC)
-    # 02:30 UTC -> 08:00 AM IST (Deep)
-    # 11:00 UTC -> 04:30 PM IST (Deep)
-    # 18:00 UTC -> 11:30 PM IST (Velocity - LinkedIn Only)
     now_hour = datetime.now().hour
-    is_velocity = (19 <= now_hour <= 22) # Trigger for 01:11 AM IST window
+    is_velocity = (19 <= now_hour <= 22)
     
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] --- DEFINITIVE HIGH-PRECISION SEARCH (Mode: {'Velocity' if is_velocity else 'Deep'}) STARTING ---")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] --- DYNAMIC ENGINE (Mode: {'Velocity' if is_velocity else 'Deep'}) STARTING ---")
     
     try:
         with open("heartbeat.txt", "w") as f:
@@ -112,9 +105,13 @@ def run():
         print(f"  [FATAL ERROR] GMAIL_APP_PASSWORD missing. Aborting run.")
         return False
 
+    # LOAD ALL DATA FROM CONFIG
     search_terms = config["search"]["search_terms"]
-    # DYNAMIC CONFIG LOADING (No Hardcoding)
     india_locations = config["search"]["india_locations"]
+    global_hubs = config["search"]["global_hubs"]
+    blacklist = [b.lower() for b in config["search"]["blacklist"]]
+    levels = [l.lower() for l in config["search"]["levels"]]
+    domains = [d.lower() for d in config["search"]["domains"]]
     
     found_local = []
     found_remote = []
@@ -129,7 +126,7 @@ def run():
             all_tasks.append({"site": "indeed", "country": "india", "loc": loc})
             
     # 2. GLOBAL HUB GRID (Mandate 3)
-    for country in [c for c in VALID_COUNTRIES if c != 'india']:
+    for country in global_hubs:
         all_tasks.append({"site": "linkedin", "country": country, "loc": "Remote"})
         if not is_velocity:
             all_tasks.append({"site": "indeed", "country": country, "loc": "Remote"})
@@ -144,7 +141,7 @@ def run():
             
             print(f"  > Searching: '{term[:40]}...' in '{search_loc}' [{country_code}] via {site}...")
             try:
-                time.sleep(random.uniform(4, 6)) # Stealth delay
+                time.sleep(random.uniform(4, 6))
                 res = scrape_jobs(
                     site_name=[site], 
                     search_term=term, 
@@ -160,25 +157,13 @@ def run():
                         title_str = str(job.get('title', '')).lower()
                         loc_str = str(job.get('location', '')).lower()
                         
-                        # A. EXHAUSTIVE UNIVERSAL HUB-APPLICABILITY GUARD
-                        blacklist = [
-                            "us citizen", "green card", "authorized to work in the us", "us only", "north america only", "canadian citizen", "canadian pr",
-                            "uk resident", "eu citizen", "right to work in the uk", "british citizen", "eu resident", "eu work permit", "german resident", "blue card holder",
-                            "australian citizen", "nz resident", "australian resident", "permanent resident", "singaporean only", "sc/pr", "hk permanent resident", "hkid holder", "malaysian only", "malaysian citizen",
-                            "emirati national", "emirati only", "gcc national", "qatari national", "local hire only", "in-country hire", "visa transfer",
-                            "visa sponsorship not available", "no sponsorship", "citizen only", "work authorization required", "residency required", "relocation required",
-                            "junior", "jr", "associate", "trainee", "intern", "fresher", "marketing", "sales"
-                        ]
-                        blacklisted_word = next((b for b in blacklist if b in title_str or b in loc_str), None)
-                        if blacklisted_word:
+                        # A. HUB-APPLICABILITY GUARD
+                        if any(b in title_str or b in loc_str for b in blacklist):
                             continue
 
-                        # B. SENIORITY WHITELIST (Aligned with 10.5+ Year Profile)
-                        levels = ["manager", "director", "head", "em", "staff", "engineering manager", "lead", "principal", "architect"]
-                        domains = ["quality", "qe", "qa", "sdet", "set", "test", "testing", "automation"]
+                        # B. SENIORITY WHITELIST
                         has_level = any(l in title_str for l in levels)
                         has_domain = any(d in title_str for d in domains)
-                        
                         if not (has_level and has_domain):
                             continue
 
@@ -192,7 +177,6 @@ def run():
                             seen_ids.add(jid)
                             
                             is_remote_signal = any(r in loc_str or r in title_str for r in ['remote', 'anywhere', 'global'])
-                            # Dynamic city check from config
                             is_local_city = any(city.lower() in loc_str for city in india_locations if city != "Remote")
                             
                             if search_loc == "Remote" or is_remote_signal:
