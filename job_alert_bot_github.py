@@ -110,7 +110,8 @@ def run():
 
     # LOAD ALL DATA FROM CONFIG
     search_terms = config["search"]["search_terms"]
-    india_locations = config["search"]["india_locations"]
+    india_search_cities = config["search"].get("india_search_cities", [])
+    india_city_aliases = config["search"].get("india_city_aliases", [])
     global_hubs = config["search"]["global_hubs"]
     blacklist = [b.lower() for b in config["search"]["blacklist"]]
     levels = [l.lower() for l in config["search"]["levels"]]
@@ -127,7 +128,7 @@ def run():
     all_tasks = []
     
     # 1. INDIA CITIES (Mandate 1 & 2)
-    for loc in india_locations:
+    for loc in india_search_cities:
         all_tasks.append({"site": "linkedin", "country": india_code, "loc": loc})
         if not is_velocity:
             all_tasks.append({"site": "naukri", "country": india_code, "loc": loc})
@@ -187,7 +188,7 @@ def run():
                             # --- 3-BUCKET CATEGORIZATION (Rigor + Separation) ---
                             # Note: Reading Title/Location Header (not full JD)
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
-                            is_local_city = any(city.lower() in loc_str for city in india_locations if city != "Remote" and city != global_loc)
+                            is_local_city = any(city.lower() in loc_str for city in india_city_aliases if city != "Remote" and city != global_loc)
                             
                             if is_remote_explicit:
                                 if country_code == india_code:

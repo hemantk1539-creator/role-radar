@@ -17,7 +17,8 @@ search:
     - '("Quality Architect" OR "Test Architect" OR "Head of Quality" OR "Head of QA" OR "Global Head of QA" OR "Staff Quality Engineer" OR "Principal Quality Engineer" OR "Principal SDET")'
 
   # MANDATE 1 & 2: India Precision
-  india_locations: ["Bengaluru", "Bangalore", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Gurgaon", "Noida", "Remote"]
+  india_search_cities: ["Bengaluru", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Noida", "Remote"]
+  india_city_aliases: ["Bengaluru", "Bangalore", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Gurgaon", "Noida"]
 
   # MANDATE 3: Global Grid Hubs
   global_hubs: ["united states", "united kingdom", "canada", "australia", "singapore", "germany", "ireland", "netherlands", "united arab emirates", "malaysia", "new zealand"]
