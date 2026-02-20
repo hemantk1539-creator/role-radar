@@ -31,9 +31,10 @@ def load_history():
         except: return []
     return []
 
-def save_history(history):
+def save_history(history, config):
+    max_h = config["search"].get("max_history", 2000)
     with open(HISTORY_FILE, "w") as f:
-        json.dump(history[-2000:], f, indent=4)
+        json.dump(history[-max_h:], f, indent=4)
 
 def send_email(subject, jobs, config):
     if not jobs: return False
@@ -115,6 +116,9 @@ def run():
     levels = [l.lower() for l in config["search"]["levels"]]
     domains = [d.lower() for d in config["search"]["domains"]]
     blocked_sites = config["search"].get("blocked_sites", [])
+    india_code = config["search"].get("india_country_code", "india")
+    global_loc = config["search"].get("global_search_loc", "Remote")
+    remote_signals = config["search"].get("remote_signals", ["remote"])
     
     found_local = []
     found_india_remote = []
@@ -124,16 +128,16 @@ def run():
     
     # 1. INDIA CITIES (Mandate 1 & 2)
     for loc in india_locations:
-        all_tasks.append({"site": "linkedin", "country": "india", "loc": loc})
+        all_tasks.append({"site": "linkedin", "country": india_code, "loc": loc})
         if not is_velocity:
-            all_tasks.append({"site": "naukri", "country": "india", "loc": loc})
-            all_tasks.append({"site": "indeed", "country": "india", "loc": loc})
+            all_tasks.append({"site": "naukri", "country": india_code, "loc": loc})
+            all_tasks.append({"site": "indeed", "country": india_code, "loc": loc})
             
     # 2. GLOBAL HUB GRID (Mandate 3)
     for country in global_hubs:
-        all_tasks.append({"site": "linkedin", "country": country, "loc": "Remote"})
+        all_tasks.append({"site": "linkedin", "country": country, "loc": global_loc})
         if not is_velocity:
-            all_tasks.append({"site": "indeed", "country": country, "loc": "Remote"})
+            all_tasks.append({"site": "indeed", "country": country, "loc": global_loc})
 
     for task in all_tasks:
         for term in search_terms:
@@ -181,18 +185,18 @@ def run():
                             seen_ids.add(jid)
                             
                             # --- 3-BUCKET CATEGORIZATION (Rigor + Separation) ---
-                            remote_signals = ['remote', 'anywhere', 'global', 'work from home', 'wfh', 'telecommute', 'fully remote', 'distributed', 'virtual', 'remote-first']
+                            # Note: Reading Title/Location Header (not full JD)
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
-                            is_local_city = any(city.lower() in loc_str for city in india_locations if city != "Remote")
+                            is_local_city = any(city.lower() in loc_str for city in india_locations if city != "Remote" and city != global_loc)
                             
                             if is_remote_explicit:
-                                if country_code == "india":
+                                if country_code == india_code:
                                     found_india_remote.append(job)
                                 else:
                                     found_global_remote.append(job)
                             elif is_local_city:
                                 found_local.append(job)
-                            elif country_code != "india":
+                            elif country_code != india_code:
                                 # Global Hub leak (e.g. US local job with no Remote tag) -> REJECT
                                 continue
                             else:
@@ -214,7 +218,7 @@ def run():
     if total > 0:
         for j in found_local + found_india_remote + found_global_remote:
             history.append({"id": j['uid'], "date": datetime.now().isoformat()})
-        save_history(history)
+        save_history(history, config)
     
     return True
 
