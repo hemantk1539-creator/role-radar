@@ -32,5 +32,11 @@ search:
     "junior", "jr", "associate", "trainee", "intern", "fresher", "marketing", "sales"
   ]
 
+  # SITE PROTECTION
+  blocked_sites: ["glassdoor", "bayt", "zip_recruiter"] 
+
+  # TIMING & DEPTH
   results_wanted: 30
   hours_old: 24
+  # UTC hours that trigger Velocity mode (LinkedIn Only)
+  velocity_window: [19, 20, 21, 22] 

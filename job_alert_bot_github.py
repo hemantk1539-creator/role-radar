@@ -18,7 +18,6 @@ except ImportError:
 
 CONFIG_FILE = "job_alert_config.yaml"
 HISTORY_FILE = "job_history.json"
-BLOCKED_SITES = ["glassdoor", "bayt", "zip_recruiter"] 
 
 def load_config():
     with open(CONFIG_FILE, "r") as f:
@@ -85,8 +84,12 @@ def send_email(subject, jobs, config):
         return False
 
 def run():
+    config = load_config()
+    
+    # DYNAMIC MODE DETECTION
     now_hour = datetime.now().hour
-    is_velocity = (19 <= now_hour <= 22)
+    velocity_window = config["search"].get("velocity_window", [19, 20, 21, 22])
+    is_velocity = (now_hour in velocity_window)
     
     print(f"[{datetime.now().strftime('%H:%M:%S')}] --- DYNAMIC ENGINE (Mode: {'Velocity' if is_velocity else 'Deep'}) STARTING ---")
     
@@ -96,7 +99,6 @@ def run():
     except Exception as e:
         print(f"Heartbeat failed: {e}")
 
-    config = load_config()
     history = load_history()
     seen_ids = {item["id"] for item in history}
     
@@ -112,6 +114,7 @@ def run():
     blacklist = [b.lower() for b in config["search"]["blacklist"]]
     levels = [l.lower() for l in config["search"]["levels"]]
     domains = [d.lower() for d in config["search"]["domains"]]
+    blocked_sites = config["search"].get("blocked_sites", [])
     
     found_local = []
     found_remote = []
@@ -137,7 +140,7 @@ def run():
             country_code = task["country"]
             search_loc = task["loc"]
             
-            if site in BLOCKED_SITES: continue
+            if site in blocked_sites: continue
             
             print(f"  > Searching: '{term[:40]}...' in '{search_loc}' [{country_code}] via {site}...")
             try:

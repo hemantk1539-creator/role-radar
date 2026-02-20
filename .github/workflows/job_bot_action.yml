@@ -1,15 +1,7 @@
 name: Job Alert Bot
 
 on:
-  schedule:
-    # 3 Strategic High-Precision Runs (UTC)
-    # 02:30 UTC -> 08:00 AM IST (Deep Full Search)
-    # 11:00 UTC -> 04:30 PM IST (Deep Full Search)
-    # 18:00 UTC -> 11:30 PM IST (LinkedIn-Only Velocity Search)
-    - cron: '30 2 * * *'
-    - cron: '0 11 * * *'
-    - cron: '0 18 * * *'
-  workflow_dispatch: # Allows manual trigger
+  workflow_dispatch: # Allows manual and external API triggers (e.g. from cron-job.org)
 
 jobs:
   build:
