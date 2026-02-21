@@ -266,14 +266,37 @@ def run():
                 print(f"    [SITE ERROR] '{task_sites}' failed: {str(e)[:100]}")
                 continue
 
-    total = len(found_local) + len(found_india_remote) + len(found_global_remote)
-    print(f"\n--- DONE. Found {total} New Jobs ---")
+    total_found = len(found_local) + len(found_india_remote) + len(found_global_remote)
+    
+    # --- FINAL QUALITY GATE (The Trash Compactor) ---
+    def finalize_list(job_list):
+        clean_list = []
+        for j in job_list:
+            t = str(j.get('title', '')).lower()
+            c = str(j.get('company', '')).lower()
+            l = str(j.get('location', '')).lower()
+            # 1. Final Blacklist pass (Check Company too)
+            if any(b in t or b in l or b in c for b in blacklist):
+                continue
+            # 2. Strict Seniority check (No "Assistant Manager" or "Junior Lead")
+            if any(jr in t for jr in ["assistant", "junior", "trainee", "associate"]):
+                if not ("senior associate" in t or "lead associate" in t): # Allowed patterns
+                    continue
+            clean_list.append(j)
+        return clean_list
+
+    found_local = finalize_list(found_local)
+    found_india_remote = finalize_list(found_india_remote)
+    found_global_remote = finalize_list(found_global_remote)
+
+    total_applicable = len(found_local) + len(found_india_remote) + len(found_global_remote)
+    print(f"\n--- DONE. Found {total_found} New (Scraped) | {total_applicable} Applicable ---")
 
     if found_local: send_email(f"Local Alert: {len(found_local)} New City Roles", found_local, config)
     if found_india_remote: send_email(f"India Remote Alert: {len(found_india_remote)} New Remote Roles", found_india_remote, config)
     if found_global_remote: send_email(f"Global Remote Alert: {len(found_global_remote)} New Global Remote Roles", found_global_remote, config)
 
-    if total > 0:
+    if total_applicable > 0:
         for j in found_local + found_india_remote + found_global_remote:
             history.append({
                 "id": j['uid'], 
