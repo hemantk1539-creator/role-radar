@@ -210,7 +210,7 @@ def run():
                             
                             # --- 3-BUCKET CATEGORIZATION (Rigor + Separation) ---
                             # Note: Reading Title/Location Header (not full JD)
-                            global_signals = ["global", "anywhere", "remote-first", "distributed", "worldwide", "emea", "apac", "virtual"]
+                            global_signals = ["global", "anywhere", "remote-first", "distributed", "worldwide", "emea", "apac", "virtual", "wfa", "work from anywhere", "telecommute"]
                             has_global_signal = any(gs in title_str or gs in loc_str for gs in global_signals)
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
                             is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
@@ -226,11 +226,11 @@ def run():
                             if is_remote_explicit or is_remote_task:
                                 # Categorize as Remote
                                 if country_code == india_code:
-                                    # Leak Check: If searching India Remote but LinkedIn surfaces 'Sydney' -> Discard
+                                    # Naukri/India Bypass: If found in India task, we don't need a 'Global' signal
                                     if is_india_job:
                                         found_india_remote.append(job)
                                     else:
-                                        print(f"    [LEAK DISCARDED] International job '{title_str[:30]}' in India Remote task.")
+                                        print(f"    [LEAK DISCARDED] International job '{title_str[:30]}' in India task.")
                                 elif country_code == "worldwide" or has_global_signal or is_remote_explicit:
                                     # Global Remote bucket must be truly global/worldwide or found in specific worldwide task
                                     found_global_remote.append(job)
