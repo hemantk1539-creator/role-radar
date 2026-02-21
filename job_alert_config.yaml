@@ -21,7 +21,7 @@ search:
   india_city_aliases: ["Bengaluru", "Bangalore", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Gurgaon", "Noida"]
 
   # MANDATE 3: Global Grid Hubs
-  global_hubs: ["united states", "united kingdom", "canada", "australia", "singapore", "germany", "ireland", "netherlands", "united arab emirates", "malaysia", "new zealand"]
+  global_hubs: ["worldwide", "united states", "united kingdom", "canada", "australia", "singapore", "germany", "ireland", "netherlands", "united arab emirates", "malaysia", "new zealand"]
 
   # UNIVERSAL APPLICABILITY GUARD (India-Citizen Safety)
   blacklist: [
