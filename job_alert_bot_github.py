@@ -132,6 +132,7 @@ def run():
     india_code = config["search"].get("india_country_code", "india")
     global_loc = config["search"].get("global_search_loc", "Remote")
     remote_signals = [r.lower() for r in config["search"].get("remote_signals", ["remote"])]
+    global_remote_signals = [gs.lower() for gs in config["search"].get("global_remote_signals", [])]
     hub_map_config = config["search"].get("hub_map", {})
     
     found_local = []
@@ -210,8 +211,7 @@ def run():
                             
                             # --- 3-BUCKET CATEGORIZATION (Rigor + Separation) ---
                             # Note: Reading Title/Location Header (not full JD)
-                            global_signals = ["global", "anywhere", "remote-first", "distributed", "worldwide", "emea", "apac", "virtual", "wfa", "work from anywhere", "telecommute"]
-                            has_global_signal = any(gs in title_str or gs in loc_str for gs in global_signals)
+                            has_global_signal = any(gs in title_str or gs in loc_str for gs in global_remote_signals)
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
                             is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
                             
