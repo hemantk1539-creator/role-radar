@@ -83,7 +83,7 @@ def send_email(subject, jobs, config, sniped_jobs=None):
     html += "</table>"
     
     if sniped_jobs:
-        html += "<br><hr><h3>⚠️ Filtered Out (Review):</h3>"
+        html += "<br><hr><h3>FILTERED OUT (Review):</h3>"
         html += "<p>The following jobs matched the search but were blocked by your Blacklist/Seniority settings:</p>"
         html += "<table border='1' style='border-collapse: collapse; width: 100%; color: #555;'>"
         html += "<tr style='background-color: #f9f9f9;'><th>Reason</th><th>Title</th><th>Company</th><th>Location</th></tr>"
