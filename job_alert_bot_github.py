@@ -48,8 +48,8 @@ def save_history(history, config):
     with open(HISTORY_FILE, "w") as f:
         json.dump(history[-max_h:], f, indent=4)
 
-def send_email(subject, jobs, config):
-    if not jobs: return False
+def send_email(subject, jobs, config, sniped_jobs=None):
+    if not jobs and not sniped_jobs: return False
     sender_email = config["email"]["sender_email"]
     sender_password = os.environ.get("GMAIL_APP_PASSWORD") or config["email"].get("app_password")
     recipient_email = config["email"]["recipient_email"]
@@ -81,6 +81,16 @@ def send_email(subject, jobs, config):
     for job in jobs:
         html += f"<tr><td>{job.get('title')}</td><td>{job.get('company')}</td><td>{job.get('location')}</td><td>{job.get('site')}</td><td><a href='{job.get('job_url')}'>Apply</a></td></tr>"
     html += "</table>"
+    
+    if sniped_jobs:
+        html += "<br><hr><h3>⚠️ Filtered Out (Review):</h3>"
+        html += "<p>The following jobs matched the search but were blocked by your Blacklist/Seniority settings:</p>"
+        html += "<table border='1' style='border-collapse: collapse; width: 100%; color: #555;'>"
+        html += "<tr style='background-color: #f9f9f9;'><th>Reason</th><th>Title</th><th>Company</th><th>Location</th></tr>"
+        for j in sniped_jobs:
+            html += f"<tr><td>{j.get('sniped_reason')}</td><td>{j.get('title')}</td><td>{j.get('company')}</td><td>{j.get('location')}</td></tr>"
+        html += "</table>"
+
     msg.attach(MIMEText(html, "html"))
 
     try:
@@ -274,30 +284,43 @@ def run():
     # --- FINAL QUALITY GATE (The Trash Compactor) ---
     def finalize_list(job_list):
         clean_list = []
+        sniped_list = []
         for j in job_list:
             t = str(j.get('title', '')).lower()
             c = str(j.get('company', '')).lower()
             l = str(j.get('location', '')).lower()
+            
+            reason = None
             # 1. Final Blacklist pass (Check Company too)
-            if any(b in t or b in l or b in c for b in blacklist):
-                continue
-            # 2. Strict Seniority check (No "Assistant Manager" or "Junior Lead")
-            if any(jr in t for jr in ["assistant", "junior", "trainee", "associate"]):
-                if not ("senior associate" in t or "lead associate" in t): # Allowed patterns
-                    continue
-            clean_list.append(j)
-        return clean_list
+            for b in blacklist:
+                if b in t or b in l or b in c:
+                    reason = f"Blacklist: {b}"
+                    break
+            
+            # 2. Strict Seniority check
+            if not reason:
+                if any(jr in t for jr in ["assistant", "junior", "trainee", "associate"]):
+                    if not ("senior associate" in t or "lead associate" in t):
+                        reason = "Junior/Associate Role"
 
-    found_local = finalize_list(found_local)
-    found_india_remote = finalize_list(found_india_remote)
-    found_global_remote = finalize_list(found_global_remote)
+            if reason:
+                j['sniped_reason'] = reason
+                sniped_list.append(j)
+            else:
+                clean_list.append(j)
+                
+        return clean_list, sniped_list
+
+    found_local, sniped_local = finalize_list(found_local)
+    found_india_remote, sniped_india = finalize_list(found_india_remote)
+    found_global_remote, sniped_global = finalize_list(found_global_remote)
 
     total_applicable = len(found_local) + len(found_india_remote) + len(found_global_remote)
     print(f"\n--- DONE. Found {total_found} New (Scraped) | {total_applicable} Applicable ---")
 
-    if found_local: send_email(f"Local Alert: {len(found_local)} New City Roles", found_local, config)
-    if found_india_remote: send_email(f"India Remote Alert: {len(found_india_remote)} New Remote Roles", found_india_remote, config)
-    if found_global_remote: send_email(f"Global Remote Alert: {len(found_global_remote)} New Global Remote Roles", found_global_remote, config)
+    if found_local: send_email(f"Local Alert: {len(found_local)} New City Roles", found_local, config, sniped_local)
+    if found_india_remote: send_email(f"India Remote Alert: {len(found_india_remote)} New Remote Roles", found_india_remote, config, sniped_india)
+    if found_global_remote: send_email(f"Global Remote Alert: {len(found_global_remote)} New Global Remote Roles", found_global_remote, config, sniped_global)
 
     if total_applicable > 0:
         for j in found_local + found_india_remote + found_global_remote:

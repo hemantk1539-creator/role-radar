@@ -28,7 +28,7 @@ def audit():
         return False
 
     # 2. Hardcode Check
-    with open(BOT_SCRIPT, "r") as f:
+    with open(BOT_SCRIPT, "r", encoding="utf-8") as f:
         content = f.read()
         # Look for hardcoded lists with more than 2 items (indicates strategy data)
         if re.search(r'\["[^"]+",\s*"[^"]+",\s*"[^"]+"\]', content):
