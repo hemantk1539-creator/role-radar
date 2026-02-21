@@ -145,8 +145,9 @@ def run():
             
     # 2. GLOBAL HUB GRID (Mandate 3)
     for country in global_hubs:
-        # Search for Remote jobs *within* that specific hub country
-        all_tasks.append({"sites": global_sites, "country": country, "loc": country})
+        # LinkedIn supports 'worldwide' special location; Indeed does not.
+        target_sites = ["linkedin"] if country == "worldwide" else global_sites
+        all_tasks.append({"sites": target_sites, "country": country, "loc": country})
 
     for task in all_tasks:
         for term in search_terms:
@@ -224,9 +225,9 @@ def run():
                                         found_india_remote.append(job)
                                     else:
                                         print(f"    [LEAK DISCARDED] International job '{title_str[:30]}' in India task.")
-                                elif country_code == "worldwide" or is_remote_explicit or (is_hub_match and has_global_signal):
-                                    # Global Remote bucket: Must be 'worldwide' search, explicitly remote title, 
-                                    # OR match the hub country AND have a global signal.
+                                elif country_code == "worldwide" or (is_hub_match and has_global_signal):
+                                    # Global Remote bucket: Must be 'worldwide' search context
+                                    # OR match the hub country terms AND have a global signal.
                                     found_global_remote.append(job)
                                 else:
                                     # This is likely a 'Domestic-Only Remote' job in the hub country (Fodder)
