@@ -47,7 +47,7 @@ search:
 
   # PEAK RIGOR FILTERS (De-hardcoded)
   remote_signals: ["remote", "anywhere", "global", "work from home", "wfh", "telecommute", "fully remote", "full remote", "distributed", "virtual", "remote-first", "wfa", "work anywhere"]
-  global_remote_signals: ["global", "anywhere", "remote-first", "distributed", "worldwide", "world-wide", "emea", "apac", "virtual", "wfa", "work from anywhere", "work anywhere", "telecommute", "hiring globally", "any country", "no relocation", "wfh"]
+  global_remote_signals: ["global", "anywhere", "remote-first", "distributed", "worldwide", "world-wide", "emea", "apac", "virtual", "wfa", "work from anywhere", "work anywhere", "hiring globally", "any country", "no relocation"]
   
   # SNIPER GATES (Rule 9)
   residency_signals: ["us citizen", "green card", "authorized to work in the us", "us only", "uk resident", "eu citizen", "permanent resident", "visa sponsorship not available", "no sponsorship", "citizen only", "residency required"]
