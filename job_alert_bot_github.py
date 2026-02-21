@@ -125,10 +125,12 @@ def run():
     levels = [l.lower() for l in config["search"]["levels"]]
     domains = [d.lower() for d in config["search"]["domains"]]
     blocked_sites = config["search"].get("blocked_sites", [])
-    india_code = config["search"].get("india_country_code", "india")
+    india_code = config["search"].get("india_country_code", "in")
     global_loc = config["search"].get("global_search_loc", "Remote")
-    remote_signals = [r.lower() for r in config["search"].get("remote_signals", ["remote"])]
+    remote_signals = [r.lower() for r in config["search"].get("remote_signals", [])]
     global_remote_signals = [gs.lower() for gs in config["search"].get("global_remote_signals", [])]
+    india_sites = config["search"].get("india_sites", [])
+    global_sites = config["search"].get("global_sites", [])
     hub_map_config = config["search"].get("hub_map", {})
     
     found_local = []
@@ -139,37 +141,35 @@ def run():
     
     # 1. INDIA CITIES (Mandate 1 & 2)
     for loc in india_search_cities:
-        all_tasks.append({"site": "linkedin", "country": india_code, "loc": loc})
-        all_tasks.append({"site": "naukri", "country": india_code, "loc": loc})
-        all_tasks.append({"site": "indeed", "country": india_code, "loc": loc})
+        all_tasks.append({"sites": india_sites, "country": india_code, "loc": loc})
             
     # 2. GLOBAL HUB GRID (Mandate 3)
     for country in global_hubs:
         # Search for Remote jobs *within* that specific hub country
-        all_tasks.append({"site": "linkedin", "country": country, "loc": country})
-        all_tasks.append({"site": "indeed", "country": country, "loc": country})
+        all_tasks.append({"sites": global_sites, "country": country, "loc": country})
 
     for task in all_tasks:
         for term in search_terms:
-            site = task["site"]
             country_code = task["country"]
             search_loc = task["loc"]
-            # A task is remote if we are in the India 'Remote' loop OR any Global Hub country search
+            task_sites = [s for s in task["sites"] if s not in blocked_sites]
+            if not task_sites: continue
+            
             is_remote_task = (search_loc.lower() == global_loc.lower()) or (country_code != india_code)
             
-            if site in blocked_sites: continue
-            
-            print(f"  > Searching: '{term[:40]}...' in '{search_loc}' [{country_code}] via {site}...")
+            print(f"  > Searching: '{term[:40]}...' in '{search_loc}' [{country_code}] via {task_sites}...")
             try:
                 time.sleep(random.uniform(4, 6))
                 
-                # Site-specific results depth
+                # Site-specific results depth calculation
                 rw = config["search"].get("results_wanted", 30)
-                if site == "naukri": rw = config["search"].get("naukri_results_wanted", rw)
-                elif site == "indeed": rw = config["search"].get("indeed_results_wanted", rw)
+                # Note: jobspy uses a single results_wanted for all sites in a call. 
+                # We use the max depth requested across the active sites.
+                if "naukri" in task_sites: rw = max(rw, config["search"].get("naukri_results_wanted", 0))
+                if "indeed" in task_sites: rw = max(rw, config["search"].get("indeed_results_wanted", 0))
 
                 res = scrape_jobs(
-                    site_name=[site], 
+                    site_name=task_sites, 
                     search_term=term, 
                     location=search_loc, 
                     is_remote=is_remote_task,
@@ -243,7 +243,7 @@ def run():
                 
                 time.sleep(1) # Cooldown between terms
             except Exception as e:
-                print(f"    [SITE ERROR] '{site}' failed: {str(e)[:100]}")
+                print(f"    [SITE ERROR] '{task_sites}' failed: {str(e)[:100]}")
                 continue
 
     total = len(found_local) + len(found_india_remote) + len(found_global_remote)
