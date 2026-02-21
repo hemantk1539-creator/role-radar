@@ -209,13 +209,6 @@ def run():
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
                             is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
                             
-                            # Hub-Integrity Check
-                            hub_map_config = config["search"].get("hub_map", {})
-                            hub_key = country_code.lower()
-                            target_hub_terms = hub_map_config.get(hub_key, [hub_key])
-                            # Final Rigor: Check title as well for hub names (e.g. 'Senior QA Manager - US')
-                            is_hub_match = any(term in loc_str or term in title_str for term in target_hub_terms)
-                            
                             is_india_job = (country_code == india_code) if (not loc_str or any(r in loc_str for r in remote_signals)) else ("india" in loc_str or is_local_city)
                             
                             if is_remote_explicit or is_remote_task:
