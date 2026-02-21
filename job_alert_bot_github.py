@@ -237,8 +237,10 @@ def run():
                             if is_remote_explicit or is_remote_task:
                                 # Categorize as Remote
                                 if country_code == india_code:
-                                    # Naukri/India Bypass: If found in India task, we don't need a 'Global' signal
-                                    if is_india_job:
+                                    # Logic: If it has a Global signal, it belongs in Global bucket regardless of task
+                                    if has_global_signal:
+                                        found_global_remote.append(job)
+                                    elif is_india_job:
                                         found_india_remote.append(job)
                                     else:
                                         print(f"    [LEAK DISCARD] International job '{title_str[:30]}' in India task.")
