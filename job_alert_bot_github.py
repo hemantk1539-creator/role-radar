@@ -204,9 +204,20 @@ def run():
                         if any(b in title_str or b in loc_str for b in blacklist):
                             continue
 
-                        # B. SENIORITY WHITELIST
-                        has_level = any(l in title_str for l in levels)
-                        has_domain = any(d in title_str for d in domains)
+                        # B. SENIORITY WHITELIST (Strict Word Boundaries)
+                        # Prevents "system" matching "em", "asset" matching "set", etc.
+                        def has_word_match(text, term_list):
+                            for term in term_list:
+                                # Regex: \b = Word Boundary. 
+                                # Matches "EM" but not "System". Matches "QA" but not "Aqua".
+                                pattern = r'\b' + re.escape(term) + r'\b'
+                                if re.search(pattern, text, re.IGNORECASE):
+                                    return True
+                            return False
+
+                        has_level = has_word_match(title_str, levels)
+                        has_domain = has_word_match(title_str, domains)
+                        
                         if not (has_level and has_domain):
                             continue
 
