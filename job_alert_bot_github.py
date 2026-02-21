@@ -164,12 +164,18 @@ def run():
             print(f"  > Searching: '{term[:40]}...' in '{search_loc}' [{country_code}] via {site}...")
             try:
                 time.sleep(random.uniform(4, 6))
+                
+                # Site-specific results depth
+                rw = config["search"].get("results_wanted", 30)
+                if site == "naukri": rw = config["search"].get("naukri_results_wanted", rw)
+                elif site == "indeed": rw = config["search"].get("indeed_results_wanted", rw)
+
                 res = scrape_jobs(
                     site_name=[site], 
                     search_term=term, 
                     location=search_loc, 
                     is_remote=is_remote_task,
-                    results_wanted=config["search"].get("results_wanted", 30),
+                    results_wanted=rw,
                     hours_old=config["search"].get("hours_old", 24),
                     country_indeed=country_code
                 )
