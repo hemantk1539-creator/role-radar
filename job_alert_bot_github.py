@@ -231,7 +231,8 @@ def run():
                             # Final Rigor: Check title as well for hub names
                             is_hub_match = any(term in loc_str or term in title_str for term in target_hub_terms)
                             
-                            is_india_job = (country_code == india_code) if (not loc_str or any(r in loc_str for r in remote_signals)) else ("india" in loc_str or is_local_city)
+                            # Rigorous India Check: MUST contain 'india' or a local city alias
+                            is_india_job = ("india" in loc_str or is_local_city)
                             
                             if is_remote_explicit or is_remote_task:
                                 # Categorize as Remote
