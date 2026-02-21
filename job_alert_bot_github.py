@@ -100,11 +100,7 @@ def run():
     config = load_config()
     
     # DYNAMIC MODE DETECTION
-    now_hour = datetime.now().hour
-    velocity_window = config["search"].get("velocity_window", [19, 20, 21, 22])
-    is_velocity = (now_hour in velocity_window)
-    
-    print(f"[{datetime.now().strftime('%H:%M:%S')}] --- DYNAMIC ENGINE (Mode: {'Velocity' if is_velocity else 'Deep'}) STARTING ---")
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] --- DEEP ENGINE STARTING ---")
     
     try:
         with open("heartbeat.txt", "w") as f:
@@ -144,16 +140,14 @@ def run():
     # 1. INDIA CITIES (Mandate 1 & 2)
     for loc in india_search_cities:
         all_tasks.append({"site": "linkedin", "country": india_code, "loc": loc})
-        if not is_velocity:
-            all_tasks.append({"site": "naukri", "country": india_code, "loc": loc})
-            all_tasks.append({"site": "indeed", "country": india_code, "loc": loc})
+        all_tasks.append({"site": "naukri", "country": india_code, "loc": loc})
+        all_tasks.append({"site": "indeed", "country": india_code, "loc": loc})
             
     # 2. GLOBAL HUB GRID (Mandate 3)
     for country in global_hubs:
         # Search for Remote jobs *within* that specific hub country
         all_tasks.append({"site": "linkedin", "country": country, "loc": country})
-        if not is_velocity:
-            all_tasks.append({"site": "indeed", "country": country, "loc": country})
+        all_tasks.append({"site": "indeed", "country": country, "loc": country})
 
     for task in all_tasks:
         for term in search_terms:
