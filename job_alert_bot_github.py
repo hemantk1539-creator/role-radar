@@ -148,6 +148,12 @@ def run():
     global_sites = config["search"].get("global_sites", [])
     hub_map_config = config["search"].get("hub_map", {})
     
+    # DEEP DIVE CONFIG (Zero-Yield Hubs)
+    deep_scrape_hubs = [h.lower() for h in config["search"].get("deep_scrape_hubs", [])]
+    deep_scrape_limit = config["search"].get("deep_scrape_limit", 5)
+    deep_scrape_keyword = config["search"].get("deep_scrape_keyword", "remote")
+    deep_scrape_description_check = config["search"].get("deep_scrape_description_check", False)
+
     found_local = []
     found_india_remote = []
     found_global_remote = []
@@ -171,19 +177,27 @@ def run():
             task_sites = [s for s in task["sites"] if s not in blocked_sites]
             if not task_sites: continue
             
-            is_remote_task = (search_loc.lower() == global_loc.lower()) or (country_code != india_code)
+            # --- DEEP DIVE STRATEGY (Zero-Yield Hubs) ---
+            is_deep_dive = country_code.lower() in deep_scrape_hubs
             
-            print(f"  > Searching: '{term[:40]}...' in '{search_loc}' [{country_code}] via {task_sites}...")
+            if is_deep_dive:
+                # Relaxed Scraping: Disable platform filter, Force Keyword
+                is_remote_task = False 
+                term = f"{term} {deep_scrape_keyword}"
+                rw = deep_scrape_limit
+                print(f"  > [DEEP DIVE] Searching: '{term[:40]}...' in '{search_loc}' (Top {rw})")
+            else:
+                # Standard Logic: Platform Filter
+                is_remote_task = (search_loc.lower() == global_loc.lower()) or (country_code != india_code)
+                # Site-specific results depth calculation
+                rw = config["search"].get("results_wanted", 30)
+                if "naukri" in task_sites: rw = max(rw, config["search"].get("naukri_results_wanted", 0))
+                if "indeed" in task_sites: rw = max(rw, config["search"].get("indeed_results_wanted", 0))
+                print(f"  > Searching: '{term[:40]}...' in '{search_loc}' [{country_code}] via {task_sites}...")
+
             try:
                 time.sleep(random.uniform(4, 6))
                 
-                # Site-specific results depth calculation
-                rw = config["search"].get("results_wanted", 30)
-                # Note: jobspy uses a single results_wanted for all sites in a call. 
-                # We use the max depth requested across the active sites.
-                if "naukri" in task_sites: rw = max(rw, config["search"].get("naukri_results_wanted", 0))
-                if "indeed" in task_sites: rw = max(rw, config["search"].get("indeed_results_wanted", 0))
-
                 res = scrape_jobs(
                     site_name=task_sites, 
                     search_term=term, 
@@ -199,6 +213,7 @@ def run():
                     for job in new_results:
                         title_str = str(job.get('title', '')).lower()
                         loc_str = str(job.get('location', '')).lower()
+                        desc_str = str(job.get('description', '')).lower()
                         
                         # A. HUB-APPLICABILITY GUARD
                         if any(b in title_str or b in loc_str for b in blacklist):
@@ -220,6 +235,15 @@ def run():
                         
                         if not (has_level and has_domain):
                             continue
+                            
+                        # --- DEEP DIVE JD CHECK ---
+                        if is_deep_dive and deep_scrape_description_check:
+                            # Must verify "Remote" in description since we disabled platform filter
+                            # Also check title/location for redundancy
+                            has_remote_kw = any(r in desc_str or r in title_str or r in loc_str for r in remote_signals)
+                            if not has_remote_kw:
+                                # DISCARD: Local job caught by relaxed scraping
+                                continue
 
                         # C. ID & CATEGORIZATION
                         jurl = job.get('job_url', '')

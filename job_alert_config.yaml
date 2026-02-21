@@ -23,6 +23,13 @@ search:
   # MANDATE 3: Global Grid Hubs
   global_hubs: ["worldwide", "united states", "united kingdom", "canada", "australia", "singapore", "germany", "ireland", "netherlands", "united arab emirates", "malaysia", "new zealand"]
 
+  # DEEP DIVE STRATEGY (Zero-Yield Hubs)
+  # Relaxed Scraping (is_remote=False) + Forced Keyword + JD Fetch (Top 5 Only)
+  deep_scrape_hubs: ["united arab emirates", "singapore", "germany", "netherlands", "malaysia", "new zealand", "ireland", "australia"]
+  deep_scrape_limit: 5
+  deep_scrape_keyword: "remote"
+  deep_scrape_description_check: True
+
   # UNIVERSAL APPLICABILITY GUARD (India-Citizen Safety)
   blacklist: [
     "us citizen", "green card", "authorized to work in the us", "us only", "north america only", "canadian citizen", "canadian pr",
