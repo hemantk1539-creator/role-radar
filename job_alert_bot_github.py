@@ -231,8 +231,11 @@ def run():
                             # Final Rigor: Check title as well for hub names
                             is_hub_match = any(term in loc_str or term in title_str for term in target_hub_terms)
                             
-                            # Rigorous India Check: MUST contain 'india' or a local city alias
-                            is_india_job = ("india" in loc_str or is_local_city)
+                            # Rigorous India Check: 
+                            # 1. Contains 'india' or a local city alias
+                            # 2. OR is exactly 'remote'/'wfh' (common on Naukri) without foreign country text
+                            is_india_job = ("india" in loc_str or is_local_city) or \
+                                           (country_code == india_code and loc_str.strip() in ["remote", "wfh", "work from home", "telecommute"])
                             
                             if is_remote_explicit or is_remote_task:
                                 # Categorize as Remote
