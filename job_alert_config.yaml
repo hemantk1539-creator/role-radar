@@ -46,6 +46,6 @@ search:
 
   # PEAK RIGOR FILTERS (De-hardcoded)
   remote_signals: ["remote", "anywhere", "global", "work from home", "wfh", "telecommute", "fully remote", "distributed", "virtual", "remote-first"]
-  india_country_code: "india"
+  india_country_code: "in"
   global_search_loc: "Remote"
   max_history: 2000

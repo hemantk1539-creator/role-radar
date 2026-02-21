@@ -148,16 +148,18 @@ def run():
             
     # 2. GLOBAL HUB GRID (Mandate 3)
     for country in global_hubs:
-        all_tasks.append({"site": "linkedin", "country": country, "loc": global_loc})
+        # Search for Remote jobs *within* that specific hub country
+        all_tasks.append({"site": "linkedin", "country": country, "loc": country})
         if not is_velocity:
-            all_tasks.append({"site": "indeed", "country": country, "loc": global_loc})
+            all_tasks.append({"site": "indeed", "country": country, "loc": country})
 
     for task in all_tasks:
         for term in search_terms:
             site = task["site"]
             country_code = task["country"]
             search_loc = task["loc"]
-            is_remote_task = (search_loc.lower() == global_loc.lower())
+            # A task is remote if we are in the India 'Remote' loop OR any Global Hub country search
+            is_remote_task = (search_loc.lower() == global_loc.lower()) or (country_code != india_code)
             
             if site in blocked_sites: continue
             
