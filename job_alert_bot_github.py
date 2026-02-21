@@ -76,19 +76,19 @@ def send_email(subject, jobs, config, sniped_jobs=None):
     html += f"<p><b>Total Found:</b> {len(jobs)}</p>"
     html += "<h4>Breakdown by Location:</h4>"
     html += summary_html
-    html += "<hr><table border='1' style='border-collapse: collapse; width: 100%;'>"
-    html += "<tr style='background-color: #eee;'><th>Title</th><th>Company</th><th>Location</th><th>Site</th><th>Link</th></tr>"
+    html += "<hr><table border='1' cellpadding='5' style='border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;'>"
+    html += "<tr style='background-color: #f2f2f2;'><th>Title</th><th>Company</th><th>Location (Signal)</th><th>Site</th><th>Link</th></tr>"
     for job in jobs:
         html += f"<tr><td>{job.get('title')}</td><td>{job.get('company')}</td><td>{job.get('location')}</td><td>{job.get('site')}</td><td><a href='{job.get('job_url')}'>Apply</a></td></tr>"
     html += "</table>"
     
     if sniped_jobs:
-        html += "<br><hr><h3>FILTERED OUT (Review):</h3>"
+        html += "<br><hr><h3 style='color: #d9534f;'>FILTERED OUT (Review):</h3>"
         html += "<p>The following jobs matched the search but were blocked by your Blacklist/Seniority settings:</p>"
-        html += "<table border='1' style='border-collapse: collapse; width: 100%; color: #555;'>"
-        html += "<tr style='background-color: #f9f9f9;'><th>Reason</th><th>Title</th><th>Company</th><th>Location</th></tr>"
+        html += "<table border='1' cellpadding='5' style='border-collapse: collapse; width: 100%; color: #777; font-size: 0.9em;'>"
+        html += "<tr style='background-color: #ffe6e6;'><th>Reason</th><th>Title</th><th>Company</th><th>Location</th></tr>"
         for j in sniped_jobs:
-            html += f"<tr><td>{j.get('sniped_reason')}</td><td>{j.get('title')}</td><td>{j.get('company')}</td><td>{j.get('location')}</td></tr>"
+            html += f"<tr><td><b>{j.get('sniped_reason')}</b></td><td>{j.get('title')}</td><td>{j.get('company')}</td><td>{j.get('location')}</td></tr>"
         html += "</table>"
 
     msg.attach(MIMEText(html, "html"))
@@ -250,18 +250,22 @@ def run():
                             if is_remote_explicit or is_remote_task:
                                 # Categorize as Remote
                                 if country_code == india_code:
-                                    # Logic: If it has a Global signal, it belongs in Global bucket regardless of task
+                                    # Naukri/India Bypass
                                     if has_global_signal:
+                                        job['location'] = f"{loc_str} [Signal: Global-In-India]"
                                         found_global_remote.append(job)
                                     elif is_india_job:
+                                        job['location'] = f"{loc_str} [Signal: India-Remote]"
                                         found_india_remote.append(job)
                                     else:
                                         print(f"    [LEAK DISCARD] International job '{title_str[:30]}' in India task.")
-                                elif country_code == "worldwide" or has_global_signal:
-                                    # Global Remote bucket: 
-                                    # 1. 'worldwide' task (Open)
-                                    # 2. Global Signal (Anywhere/Global) -> Open
-                                    # STRICT: 'Remote' tag alone in a US Hub is NOT enough. Must have global signal.
+                                elif country_code == "worldwide":
+                                    job['location'] = f"{loc_str} [Signal: Worldwide Task]"
+                                    found_global_remote.append(job)
+                                elif has_global_signal:
+                                    # Identify which signal triggered it
+                                    sig = next((s for s in global_remote_signals if s in title_str or s in loc_str), "Global")
+                                    job['location'] = f"{loc_str} [Signal: {sig}]"
                                     found_global_remote.append(job)
                                 else:
                                     # This is likely a 'Domestic-Only Remote' job in the hub country (Fodder)
