@@ -12,9 +12,21 @@ import sys
 
 try:
     from jobspy import scrape_jobs
+    from jobspy.model import Country
 except ImportError:
     print("Error: 'python-jobspy' is not installed.")
     sys.exit(1)
+
+# MONKEY-PATCH: Prevent JobSpy from crashing on unknown international countries
+# LinkedIn sometimes returns 3-part locations (e.g. "City, State, Country") for countries 
+# not in JobSpy's whitelist. This patch ensures the search continues.
+_original_from_string = Country.from_string
+def patched_from_string(cls, country_str: str):
+    try:
+        return _original_from_string(country_str)
+    except ValueError:
+        return Country.WORLDWIDE
+Country.from_string = classmethod(patched_from_string)
 
 CONFIG_FILE = "job_alert_config.yaml"
 HISTORY_FILE = "job_history.json"
