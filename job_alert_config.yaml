@@ -49,3 +49,18 @@ search:
   india_country_code: "in"
   global_search_loc: "Remote"
   max_history: 2000
+
+  # HUB INTEGRITY MAPPINGS
+  hub_map:
+    "in": ["india"]
+    "united states": ["united states", "usa", "us", "america"]
+    "united kingdom": ["united kingdom", "uk", "gb", "britain"]
+    "canada": ["canada", "ca"]
+    "australia": ["australia", "au"]
+    "singapore": ["singapore", "sg"]
+    "germany": ["germany", "de"]
+    "ireland": ["ireland", "ie"]
+    "netherlands": ["netherlands", "nl", "holland"]
+    "united arab emirates": ["united arab emirates", "uae", "ae"]
+    "malaysia": ["malaysia", "my"]
+    "new zealand": ["new zealand", "nz"]

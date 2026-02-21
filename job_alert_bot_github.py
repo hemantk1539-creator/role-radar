@@ -132,6 +132,7 @@ def run():
     india_code = config["search"].get("india_country_code", "india")
     global_loc = config["search"].get("global_search_loc", "Remote")
     remote_signals = [r.lower() for r in config["search"].get("remote_signals", ["remote"])]
+    hub_map_config = config["search"].get("hub_map", {})
     
     found_local = []
     found_india_remote = []
@@ -212,7 +213,12 @@ def run():
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
                             is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
                             
-                            # Guard: If location is missing/remote, rely on country_code of the task
+                            # Guard: Is this job actually in the country we are searching?
+                            # Use country_code directly if it's already the hub name (like 'canada')
+                            hub_key = country_code.lower()
+                            target_hub_terms = hub_map_config.get(hub_key, [hub_key])
+                            is_hub_match = any(term in loc_str for term in target_hub_terms)
+                            
                             is_india_job = (country_code == india_code) if (not loc_str or any(r in loc_str for r in remote_signals)) else ("india" in loc_str or is_local_city)
                             
                             if is_remote_explicit or is_remote_task:
@@ -223,16 +229,18 @@ def run():
                                         found_india_remote.append(job)
                                     else:
                                         print(f"    [LEAK DISCARDED] International job '{title_str[:30]}' in India Remote task.")
-                                else:
-                                    # Global Remote task
+                                elif is_hub_match or is_remote_explicit:
+                                    # Global Remote task - must match hub or be explicitly remote
                                     found_global_remote.append(job)
+                                else:
+                                    print(f"    [LEAK DISCARDED] Cross-hub job '{title_str[:30]}' ({loc_str}) in {country_code} task.")
                             elif is_local_city:
                                 found_local.append(job)
                             elif country_code == india_code and is_india_job:
                                 # India local job fallback
                                 found_local.append(job)
                             else:
-                                # Global Hub on-site job leak -> DISCARD
+                                # Non-remote global job or invalid leak -> DISCARD
                                 continue
                 
                 time.sleep(1) # Cooldown between terms
