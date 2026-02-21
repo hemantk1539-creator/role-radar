@@ -46,7 +46,7 @@ search:
 
   # PEAK RIGOR FILTERS (De-hardcoded)
   remote_signals: ["remote", "anywhere", "global", "work from home", "wfh", "telecommute", "fully remote", "distributed", "virtual", "remote-first"]
-  global_remote_signals: ["global", "anywhere", "remote-first", "distributed", "worldwide", "emea", "apac", "virtual", "wfa", "work from anywhere", "telecommute"]
+  global_remote_signals: ["global", "anywhere", "remote-first", "distributed", "worldwide", "world-wide", "emea", "apac", "virtual", "wfa", "work from anywhere", "work anywhere", "telecommute", "hiring globally", "any country", "no relocation"]
   india_country_code: "in"
   india_sites: ["linkedin", "naukri", "indeed"]
   global_sites: ["linkedin", "indeed"]

@@ -225,9 +225,10 @@ def run():
                                         found_india_remote.append(job)
                                     else:
                                         print(f"    [LEAK DISCARDED] International job '{title_str[:30]}' in India task.")
-                                elif country_code == "worldwide" or (is_hub_match and has_global_signal):
+                                elif country_code == "worldwide" or has_global_signal or is_remote_explicit:
                                     # Global Remote bucket: Must be 'worldwide' search context
-                                    # OR match the hub country terms AND have a global signal.
+                                    # OR contain an explicit global keyword (Anywhere, Global, etc.)
+                                    # OR have 'Remote' explicitly in the title/loc.
                                     found_global_remote.append(job)
                                 else:
                                     # This is likely a 'Domestic-Only Remote' job in the hub country (Fodder)
