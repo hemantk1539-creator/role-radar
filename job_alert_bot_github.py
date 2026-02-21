@@ -211,6 +211,11 @@ def run():
                             
                             is_india_job = (country_code == india_code) if (not loc_str or any(r in loc_str for r in remote_signals)) else ("india" in loc_str or is_local_city)
                             
+                            # Hub-Integrity Check (Re-introduced for Rigor)
+                            hub_key = country_code.lower()
+                            target_hub_terms = hub_map_config.get(hub_key, [hub_key])
+                            is_hub_match = any(term in loc_str or term in title_str for term in target_hub_terms)
+
                             if is_remote_explicit or is_remote_task:
                                 # Categorize as Remote
                                 if country_code == india_code:
@@ -219,8 +224,9 @@ def run():
                                         found_india_remote.append(job)
                                     else:
                                         print(f"    [LEAK DISCARDED] International job '{title_str[:30]}' in India task.")
-                                elif country_code == "worldwide" or has_global_signal or is_remote_explicit:
-                                    # Global Remote bucket must be truly global/worldwide or found in specific worldwide task
+                                elif country_code == "worldwide" or is_remote_explicit or (is_hub_match and has_global_signal):
+                                    # Global Remote bucket: Must be 'worldwide' search, explicitly remote title, 
+                                    # OR match the hub country AND have a global signal.
                                     found_global_remote.append(job)
                                 else:
                                     # This is likely a 'Domestic-Only Remote' job in the hub country (Fodder)
