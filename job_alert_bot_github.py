@@ -201,20 +201,29 @@ def run():
                             # Note: Reading Title/Location Header (not full JD)
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
                             is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
+                            is_india_job = "india" in loc_str or is_local_city or not loc_str # Assume India if loc empty during India task
                             
-                            if is_remote_explicit:
+                            is_searching_remote = (search_loc.lower() == global_loc.lower())
+
+                            if is_remote_explicit or is_searching_remote:
+                                # Categorize as Remote
                                 if country_code == india_code:
-                                    found_india_remote.append(job)
+                                    # Leak Check: If searching India Remote but LinkedIn surfaces 'Sydney' -> Discard
+                                    if is_india_job:
+                                        found_india_remote.append(job)
+                                    else:
+                                        print(f"    [LEAK DISCARDED] International job '{title_str[:30]}' in India Remote task.")
                                 else:
+                                    # Global Remote task
                                     found_global_remote.append(job)
                             elif is_local_city:
                                 found_local.append(job)
-                            elif country_code != india_code:
-                                # Global Hub leak (e.g. US local job with no Remote tag) -> REJECT
-                                continue
-                            else:
-                                # India local job with no specific city match or remote tag -> Local Fallback
+                            elif country_code == india_code and is_india_job:
+                                # India local job fallback
                                 found_local.append(job)
+                            else:
+                                # Global Hub on-site job leak -> DISCARD
+                                continue
                 
                 time.sleep(1) # Cooldown between terms
             except Exception as e:
