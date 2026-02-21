@@ -157,6 +157,7 @@ def run():
             site = task["site"]
             country_code = task["country"]
             search_loc = task["loc"]
+            is_remote_task = (search_loc.lower() == global_loc.lower())
             
             if site in blocked_sites: continue
             
@@ -167,6 +168,7 @@ def run():
                     site_name=[site], 
                     search_term=term, 
                     location=search_loc, 
+                    is_remote=is_remote_task,
                     results_wanted=config["search"].get("results_wanted", 30),
                     hours_old=config["search"].get("hours_old", 24),
                     country_indeed=country_code
@@ -201,11 +203,11 @@ def run():
                             # Note: Reading Title/Location Header (not full JD)
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
                             is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
-                            is_india_job = "india" in loc_str or is_local_city or not loc_str # Assume India if loc empty during India task
                             
-                            is_searching_remote = (search_loc.lower() == global_loc.lower())
-
-                            if is_remote_explicit or is_searching_remote:
+                            # Guard: If location is missing/remote, rely on country_code of the task
+                            is_india_job = (country_code == india_code) if (not loc_str or any(r in loc_str for r in remote_signals)) else ("india" in loc_str or is_local_city)
+                            
+                            if is_remote_explicit or is_remote_task:
                                 # Categorize as Remote
                                 if country_code == india_code:
                                     # Leak Check: If searching India Remote but LinkedIn surfaces 'Sydney' -> Discard

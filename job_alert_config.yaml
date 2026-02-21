@@ -37,8 +37,8 @@ search:
   blocked_sites: ["glassdoor", "bayt", "zip_recruiter"] 
 
   # TIMING & DEPTH
-  results_wanted: 30
-  hours_old: 24
+  results_wanted: 40
+  hours_old: 48
   # UTC hours that trigger Velocity mode (LinkedIn Only)
   velocity_window: [99] 
 
