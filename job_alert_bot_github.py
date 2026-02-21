@@ -110,6 +110,8 @@ def run():
 
     history = load_history()
     seen_ids = {item["id"] for item in history}
+    # Duplicate Sniper (Rule 9): Track fingerprint (Title + Company)
+    seen_fingerprints = {item.get("fingerprint") for item in history if item.get("fingerprint")}
     
     sender_password = os.environ.get("GMAIL_APP_PASSWORD") or config["email"].get("app_password")
     if not sender_password or "qwerty" in sender_password: 
@@ -122,6 +124,9 @@ def run():
     india_city_aliases = [c.lower() for c in config["search"].get("india_city_aliases", [])]
     global_hubs = config["search"]["global_hubs"]
     blacklist = [b.lower() for b in config["search"]["blacklist"]]
+    # JD Sniper Terms (Rule 9)
+    residency_signals = [r.lower() for r in config["search"].get("residency_signals", [])]
+    
     levels = [l.lower() for l in config["search"]["levels"]]
     domains = [d.lower() for d in config["search"]["domains"]]
     blocked_sites = config["search"].get("blocked_sites", [])
@@ -200,23 +205,34 @@ def run():
                         if not jurl: continue
                         
                         jid = hashlib.md5(jurl.encode('utf-8')).hexdigest()
-                        if jid not in seen_ids:
+                        company_str = str(job.get('company', '')).lower()
+                        fingerprint = f"{title_str}|{company_str}"
+
+                        if jid not in seen_ids and fingerprint not in seen_fingerprints:
                             job['uid'] = jid
+                            job['fingerprint'] = fingerprint
                             seen_ids.add(jid)
+                            seen_fingerprints.add(fingerprint)
                             
-                            # --- 3-BUCKET CATEGORIZATION (Rigor + Separation) ---
+                            # --- 3-BUCKET CATEGORIZATION (Enablement Master Logic) ---
                             # Note: Reading Title/Location Header (not full JD)
                             has_global_signal = any(gs in title_str or gs in loc_str for gs in global_remote_signals)
                             is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
                             is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
                             
-                            is_india_job = (country_code == india_code) if (not loc_str or any(r in loc_str for r in remote_signals)) else ("india" in loc_str or is_local_city)
-                            
-                            # Hub-Integrity Check (Re-introduced for Rigor)
+                            # JD Sniper (Rule 9): Immediate discard for residency-based signals
+                            if any(rs in title_str or rs in loc_str for rs in residency_signals):
+                                print(f"    [SNIPER DISCARD] Residency terms found in '{title_str[:30]}'.")
+                                continue
+
+                            # Hub-Integrity Check
                             hub_key = country_code.lower()
                             target_hub_terms = hub_map_config.get(hub_key, [hub_key])
+                            # Final Rigor: Check title as well for hub names
                             is_hub_match = any(term in loc_str or term in title_str for term in target_hub_terms)
-
+                            
+                            is_india_job = (country_code == india_code) if (not loc_str or any(r in loc_str for r in remote_signals)) else ("india" in loc_str or is_local_city)
+                            
                             if is_remote_explicit or is_remote_task:
                                 # Categorize as Remote
                                 if country_code == india_code:
@@ -224,7 +240,7 @@ def run():
                                     if is_india_job:
                                         found_india_remote.append(job)
                                     else:
-                                        print(f"    [LEAK DISCARDED] International job '{title_str[:30]}' in India task.")
+                                        print(f"    [LEAK DISCARD] International job '{title_str[:30]}' in India task.")
                                 elif country_code == "worldwide" or has_global_signal or is_remote_explicit:
                                     # Global Remote bucket: Must be 'worldwide' search context
                                     # OR contain an explicit global keyword (Anywhere, Global, etc.)
@@ -232,7 +248,7 @@ def run():
                                     found_global_remote.append(job)
                                 else:
                                     # This is likely a 'Domestic-Only Remote' job in the hub country (Fodder)
-                                    print(f"    [FODDER DISCARDED] Domestic hub job '{title_str[:30]}' ({loc_str}) - No global signal.")
+                                    print(f"    [FODDER DISCARD] Domestic hub job '{title_str[:30]}' ({loc_str}) - No global signal.")
                             elif is_local_city:
                                 found_local.append(job)
                             elif country_code == india_code and is_india_job:
@@ -256,7 +272,11 @@ def run():
 
     if total > 0:
         for j in found_local + found_india_remote + found_global_remote:
-            history.append({"id": j['uid'], "date": datetime.now().isoformat()})
+            history.append({
+                "id": j['uid'], 
+                "fingerprint": j.get('fingerprint'),
+                "date": datetime.now().isoformat()
+            })
         save_history(history, config)
     
     return True
