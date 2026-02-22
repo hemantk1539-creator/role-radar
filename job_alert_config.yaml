@@ -63,14 +63,36 @@ search:
   arc_dev_feed: "https://arc.dev/jobs.rss"
   otta_discovery: "https://otta.com/discovery" # Discovery source
   
-  # Hub 6: The Elite ATS Crawler
+  # Hub 6: The Elite ATS Crawler (The Elite 150)
   ats_atlas:
-    greenhouse: ["gitlab", "zapier", "elastic", "hashicorp", "stripe", "doist", "automattic", "checkly", "dovetail", "unbabel"]
-    lever: ["1password", "buffer", "toggl", "wealthsimple", "docker", "revolut", "kraken", "figma"]
-    ashby: ["deel", "notion", "snowflake", "replit", "posthog", "linear", "vercel"]
-    workable: ["appfollow", "hotjar"]
-    breezy: ["dovetail", "unbabel"]
-    pinpoint: ["checkly", "kaluza"]
+    greenhouse: [
+      "gitlab", "zapier", "elastic", "hashicorp", "stripe", "doist", "automattic", "checkly", "dovetail", "unbabel",
+      "canonical", "mozilla", "sourcegraph", "grafana", "circleci", "invision", "auth0", "brave", "cockroachdb", "confluent",
+      "datadog", "docker", "envoy", "fivetran", "mural", "okta", "pagerduty", "postman", "segment", "sentry",
+      "lattice", "gusto", "front", "retool", "webflow", "notion", "supabase", "railway", "upstash", "planetscale",
+      "tailscale", "teleport", "wiz", "panther", "clickup", "monday", "asana", "miro", "intercom", "hubspot",
+      "anthropic", "mistral", "cohere", "huggingface", "weightsandbiases", "discord", "spotify", "wise", "personio", "contentful",
+      "booking", "deliveroo", "monzo", "revolut", "kraken", "figma", "unity", "epicgames", "roblox", "twitch",
+      "airbnb", "uber", "lyft", "doorDash", "instacart", "peloton", "strava", "headspace", "calm", "duolingo"
+    ]
+    lever: [
+      "1password", "buffer", "toggl", "wealthsimple", "revolut", "kraken", "figma",
+      "hotjar", "netlify", "digitalocean", "modern-treasury", "hopin", "close", "fullstory", "gurobi", "ironclad", "lob", "loom",
+      "amplitude", "affinity", "airtable", "bench", "bolt", "brex", "chainalysis", "checkr", "discord", "envoy",
+      "framer", "gem", "gumroad", "honeybook", "kaltura", "mural", "outreach", "pendo", "plaid", "quizlet"
+    ]
+    ashby: [
+      "deel", "notion", "snowflake", "replit", "posthog", "linear", "vercel", "ramp", "perplexitiy", "openai", 
+      "clerk", "fly", "glitch", "honeycomb", "mode", "mux", "ngrok", "planetscale", "skiff", "stytch"
+    ]
+    workable: [
+      "appfollow", "hotjar", "toptal", "transferwise", "booking", "deliveroo", "monzo",
+      "getyourguide", "hellofresh", "n26", "skyscanner", "viator", "wolt", "zalando"
+    ]
+    breezy: ["dovetail", "unbabel", "basecamp", "convertkit", "ghost", "scrapingbee", "buffer", "toggl"]
+    pinpoint: ["checkly", "kaluza", "oatly", "gymshark", "innercircle", "plentific"]
+
+
 
   # UNIVERSAL APPLICABILITY GUARD (India-Citizen Safety)
   blacklist: [
