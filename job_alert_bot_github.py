@@ -12,6 +12,7 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime
 import os
 import sys
+import concurrent.futures
 
 try:
     from jobspy import scrape_jobs
@@ -54,9 +55,10 @@ def save_history(history, config):
 def fetch_global_intelligence(config, levels, domains):
     """
     POWER 6 HUB: The Centralized Global Remote Intelligence Layer.
-    Fetches and snipes jobs from 20+ specialized platforms via 6 Master Hubs.
+    v1.7: Parallel Burst Engine (Zero-Loss Efficiency).
     """
-    print("\n--- GLOBAL INTELLIGENCE: FETCHING FROM POWER 6 HUBS ---")
+    print("\n--- GLOBAL INTELLIGENCE: PARALLEL BURST FROM 23+ PLATFORMS ---")
+    start_time = time.time()
     jobs = []
     
     def is_match(title):
@@ -65,54 +67,45 @@ def fetch_global_intelligence(config, levels, domains):
         has_level = any(re.search(r'\b' + re.escape(l) + r'\b', t, re.IGNORECASE) for l in levels)
         has_domain = any(re.search(r'\b' + re.escape(d) + r'\b', t, re.IGNORECASE) for d in domains)
         
-        # 2. Systemic Negative Sniper (Block Irrelevant Anchors)
-        # Prevents "Financial Automation Product Manager" or "SAP Project Manager"
+        # 2. Global-Only Negative Sniper (Clinical Purity)
+        # Only applied to specialized global platforms to kill Product/Project leaks.
         block_anchors = ["product", "project", "program", "sap", "scrum", "account", "sales", "marketing", "finance", "compliance", "research"]
         # Match only if the block term is its own word (to avoid blocking 'quality' in 'bi-quality')
         is_blocked = any(re.search(r'\b' + re.escape(b) + r'\b', t, re.IGNORECASE) for b in block_anchors)
         
         return has_level and has_domain and not is_blocked
 
-    # HUB 1: The Universe (Himalayas + Remotive)
-    for source, url in [("Himalayas", config["search"].get("himalayas_api")), ("Remotive", config["search"].get("remotive_api"))]:
-        if not url: continue
+    # --- WORKERS ---
+    def fetch_json(source, url):
         try:
-            print(f"  > [Hub 1] Polling {source} API...")
             res = requests.get(url, timeout=10)
             if res.status_code == 200:
                 data = res.json()
+                results = []
                 for j in data.get("jobs", []):
-                    title = j.get("title", "")
-                    if is_match(title):
-                        jobs.append({
+                    title = j.get("title") or j.get("name") or j.get("text")
+                    if title and is_match(title):
+                        results.append({
                             "title": title,
-                            "company": j.get("companyName") or j.get("company_name") or j.get("company"),
+                            "company": j.get("companyName") or j.get("company_name") or j.get("company") or source,
                             "location": j.get('location', 'Remote'),
                             "signal": f"[Signal: {source}]",
                             "job_url": j.get("applicationLink") or j.get("url") or j.get("application_url"),
                             "site": source.lower(),
                             "date": j.get("pubDate") or j.get("published_at", "")
                         })
-        except Exception as e: print(f"    [{source} ERROR]: {e}")
+                return results
+        except: return []
+        return []
 
-    # HUB 2 & 4 & 5: RSS Specialty (YC, Wellfound, WWR, JS-Remotely, Arc.dev, Otta)
-    feeds = [
-        ("WWR", config["search"].get("wwr_feed")),
-        ("JS-Remotely", config["search"].get("js_remotely_feed")),
-        ("Arc.dev", config["search"].get("arc_dev_feed")),
-        ("Wellfound", config["search"].get("wellfound_feed")),
-        ("YC", config["search"].get("yc_api")),
-        ("Remotive", config["search"].get("remotive_api")) # Remotive also has an RSS fallback
-    ]
-    for source, url in feeds:
-        if not url: continue
+    def fetch_rss(source, url):
         try:
-            print(f"  > [Hub 2/4/5] Polling {source} RSS/API...")
             feed = feedparser.parse(url)
+            results = []
             for entry in feed.entries:
                 title = entry.get("title", "")
                 if is_match(title):
-                    jobs.append({
+                    results.append({
                         "title": title,
                         "company": entry.get("author") or source,
                         "location": "Remote",
@@ -121,70 +114,50 @@ def fetch_global_intelligence(config, levels, domains):
                         "site": source.lower(),
                         "date": entry.get("published", "")
                     })
-        except Exception as e: print(f"    [{source} ERROR]: {e}")
+            return results
+        except: return []
 
-    # HUB 3: Legal Safety (Deel & Remote.com)
-    # These platforms are highly protective; we hit their public job-listing APIs
-    for source, url in [("Remote.com", config["search"].get("remote_com_api")), ("Deel", config["search"].get("deel_api"))]:
-        if not url: continue
+    def fetch_ats(ats_type, token):
         try:
-            print(f"  > [Hub 3] Polling {source} API...")
-            res = requests.get(url, timeout=10)
-            if res.status_code == 200:
-                # Standardized processing for EOR boards
-                for j in res.json().get("jobs", []):
-                    title = j.get("title", "")
-                    if is_match(title):
-                        jobs.append({"title": title, "company": j.get("company", source), "location": "Remote", "signal": f"[Signal: {source}]", "job_url": j.get("url"), "site": source.lower(), "date": j.get("created_at", "")})
-        except: continue
-
-    # HUB 6: The Elite ATS Crawler (Direct-to-Source)
-    ats_atlas = config["search"].get("ats_atlas", {})
-    
-    # Greenhouse
-    for token in ats_atlas.get("greenhouse", []):
-        try:
-            url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs"
+            url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs" if ats_type == "greenhouse" else \
+                  f"https://api.lever.co/v0/postings/{token}" if ats_type == "lever" else \
+                  f"https://api.ashbyhq.com/posting-api/job-board/{token}" if ats_type == "ashby" else \
+                  f"https://{token}.breezy.hr/json" if ats_type == "breezy" else \
+                  f"https://{token}.pinpointvis.com/api/v1/jobs"
             res = requests.get(url, timeout=5)
             if res.status_code == 200:
-                for j in res.json().get("jobs", []):
-                    title = j.get("title", "")
-                    if is_match(title):
-                        jobs.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get("absolute_url"), "site": f"ats-{token}", "date": j.get("updated_at", "")})
-        except: continue
+                results = []
+                data = res.json()
+                job_list = data if isinstance(data, list) else data.get("jobs", [])
+                for j in job_list:
+                    title = j.get("title") or j.get("text") or j.get("name")
+                    if title and is_match(title):
+                        url_key = "absolute_url" if ats_type in ["greenhouse", "pinpoint"] else "hostedUrl" if ats_type == "lever" else "job_url" if ats_type == "ashby" else "url"
+                        results.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}", "date": j.get("updated_at") or j.get("createdAt", "")})
+                return results
+        except: return []
+        return []
 
-    # Lever
-    for token in ats_atlas.get("lever", []):
-        try:
-            url = f"https://api.lever.co/v0/postings/{token}"
-            res = requests.get(url, timeout=5)
-            if res.status_code == 200:
-                for j in res.json():
-                    title = j.get("text", "")
-                    if is_match(title):
-                        jobs.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get("hostedUrl"), "site": f"ats-{token}", "date": j.get("createdAt", "")})
-        except: continue
+    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+        futures = []
+        # 1. APIs
+        futures.append(executor.submit(fetch_json, "Himalayas", config["search"].get("himalayas_api")))
+        futures.append(executor.submit(fetch_json, "Remote.com", config["search"].get("remote_com_api")))
+        futures.append(executor.submit(fetch_json, "Deel", config["search"].get("deel_api")))
+        # 2. RSS
+        feeds = [("WWR", config["search"].get("wwr_feed")), ("JS-Remotely", config["search"].get("js_remotely_feed")), ("Arc.dev", config["search"].get("arc_dev_feed")), ("Wellfound", config["search"].get("wellfound_feed")), ("YC", config["search"].get("yc_api")), ("Remotive", config["search"].get("remotive_api"))]
+        for s, u in feeds:
+            if u: futures.append(executor.submit(fetch_rss, s, u))
+        # 3. Direct ATS
+        ats_atlas = config["search"].get("ats_atlas", {})
+        for ats_type in ats_atlas:
+            for token in ats_atlas[ats_type]:
+                futures.append(executor.submit(fetch_ats, ats_type, token))
 
-    # Ashby / Breezy / Pinpoint (Direct JSON Endpoints)
-    for ats_type, atlas_key in [("ashby", "ashby"), ("breezy", "breezy"), ("pinpoint", "pinpoint")]:
-        for token in ats_atlas.get(atlas_key, []):
-            try:
-                url = f"https://api.ashbyhq.com/posting-api/job-board/{token}" if ats_type == "ashby" else \
-                      f"https://{token}.breezy.hr/json" if ats_type == "breezy" else \
-                      f"https://{token}.pinpointvis.com/api/v1/jobs"
-                res = requests.get(url, timeout=5)
-                if res.status_code == 200:
-                    data = res.json()
-                    # Unified parsing for these modern ATS types
-                    job_list = data.get("jobs", []) if ats_type != "ashby" else data.get("jobs", [])
-                    for j in job_list:
-                        title = j.get("title") or j.get("name") or j.get("text")
-                        if is_match(title):
-                            url_key = "job_url" if ats_type == "ashby" else "url" if ats_type == "breezy" else "absolute_url"
-                            jobs.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}"})
-            except: continue
+        for future in concurrent.futures.as_completed(futures):
+            jobs.extend(future.result())
 
-    print(f"--- POWER 6 COMPLETE. Found {len(jobs)} Pre-Sniper Roles ---\n")
+    print(f"--- POWER 6 COMPLETE. Found {len(jobs)} Pre-Sniper Roles in {time.time()-start_time:.2f}s ---\n")
     return jobs
 
 def send_email(subject, jobs, config, sniped_jobs=None):
@@ -346,7 +319,10 @@ def run():
     
     # 1. INDIA CITIES (Mandate 1 & 2)
     for loc in india_search_cities:
-        all_tasks.append({"sites": india_sites, "country": india_code, "loc": loc})
+        # LinkedIn and Naukri (Standard 4-burst)
+        all_tasks.append({"sites": ["linkedin", "naukri"], "country": india_code, "loc": loc})
+        # Indeed (Optimized 2-burst)
+        all_tasks.append({"sites": ["indeed"], "country": india_code, "loc": loc})
             
     # 2. GLOBAL HUB GRID (Mandate 3)
     # OPTION B: Specialist Intelligence (Power 6 Hubs)
@@ -368,7 +344,16 @@ def run():
             found_global_remote.append(j)
 
     for task in all_tasks:
-        for term in search_terms:
+        # OPTIMIZATION: Combine terms for Indeed only (Indeed supports 500+ chars)
+        active_terms = search_terms
+        if "indeed" in task["sites"] and len(task["sites"]) == 1:
+            # Consolidation: String 1+2 and 3+4
+            active_terms = [
+                search_terms[0].replace("')","") + " OR " + search_terms[1].lstrip("'("),
+                search_terms[2].replace("')","") + " OR " + search_terms[3].lstrip("'(")
+            ]
+
+        for term in active_terms:
             country_code = task["country"]
             search_loc = task["loc"]
             task_sites = [s for s in task["sites"] if s not in blocked_sites]
