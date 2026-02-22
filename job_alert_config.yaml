@@ -10,11 +10,13 @@ search:
   levels: ["manager", "director", "head", "em", "staff", "engineering manager", "lead", "principal", "architect"]
   domains: ["quality", "qe", "qa", "sdet", "set", "test", "testing", "automation"]
 
-  # TRUNCATION-PROOF TERMS (< 250 Chars)
+  # TRUNCATION-PROOF TERMS (Elite 26 Spectrum - Covers 43 Variations)
   search_terms:
-    - '("QE Manager" OR "SDET Manager" OR "QA Manager" OR "Quality Engineering Manager" OR "Test Manager" OR "Automation Manager" OR "Engineering Manager Quality" OR "EM Quality" OR "QA Lead" OR "Lead SDET")'
-    - '("Director Quality" OR "Director QA" OR "QE Director" OR "Director of Test" OR "Sr. QE Manager" OR "Senior Manager QA" OR "Sr. Test Manager" OR "Senior Quality Engineering Manager")'
-    - '("Quality Architect" OR "Test Architect" OR "Head of Quality" OR "Head of QA" OR "Global Head of QA" OR "Staff Quality Engineer" OR "Principal Quality Engineer" OR "Principal SDET")'
+    - '("Quality Engineering Manager" OR "QE Manager" OR "QE Director" OR "Staff Quality Engineer" OR "Principal Quality Engineer" OR "Quality Engineering Lead")'
+    - '("Quality Assurance Manager" OR "QA Manager" OR "QA Director" OR "QA Lead" OR "SDET Manager" OR "Lead SDET" OR "Principal SDET")'
+    - '("Staff SDET" OR "SET Manager" OR "Automation Manager" OR "Automation Lead" OR "Automation Architect" OR "Staff Automation Engineer")'
+    - '("Engineering Manager Quality" OR "Engineering Manager Test" OR "EM Automation" OR "Test Manager" OR "Director Quality" OR "Director of Test" OR "Head of Quality")'
+
 
   # MANDATE 1 & 2: India Precision
   india_search_cities: ["Bengaluru", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Noida", "Chennai", "Ahmedabad", "Remote"]

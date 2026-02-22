@@ -61,9 +61,17 @@ def fetch_global_intelligence(config, levels, domains):
     
     def is_match(title):
         t = title.lower()
+        # 1. Seniority & Domain Whitelist
         has_level = any(re.search(r'\b' + re.escape(l) + r'\b', t, re.IGNORECASE) for l in levels)
         has_domain = any(re.search(r'\b' + re.escape(d) + r'\b', t, re.IGNORECASE) for d in domains)
-        return has_level and has_domain
+        
+        # 2. Systemic Negative Sniper (Block Irrelevant Anchors)
+        # Prevents "Financial Automation Product Manager" or "SAP Project Manager"
+        block_anchors = ["product", "project", "program", "sap", "scrum", "account", "sales", "marketing", "finance", "compliance", "research"]
+        # Match only if the block term is its own word (to avoid blocking 'quality' in 'bi-quality')
+        is_blocked = any(re.search(r'\b' + re.escape(b) + r'\b', t, re.IGNORECASE) for b in block_anchors)
+        
+        return has_level and has_domain and not is_blocked
 
     # HUB 1: The Universe (Himalayas + Remotive)
     for source, url in [("Himalayas", config["search"].get("himalayas_api")), ("Remotive", config["search"].get("remotive_api"))]:
@@ -422,7 +430,11 @@ def run():
                         has_level = has_word_match(title_str, levels)
                         has_domain = has_word_match(title_str, domains)
                         
-                        if not (has_level and has_domain):
+                        # Systemic Negative Sniper (Block Irrelevant Anchors)
+                        block_anchors = ["product", "project", "program", "sap", "scrum", "account", "sales", "marketing", "finance", "compliance", "research"]
+                        is_blocked = any(re.search(r'\b' + re.escape(b) + r'\b', title_str, re.IGNORECASE) for b in block_anchors)
+
+                        if not (has_level and has_domain) or is_blocked:
                             continue
                             
                         # --- DEEP DIVE JD CHECK ---
