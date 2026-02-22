@@ -341,6 +341,7 @@ def run():
     # This replaces the noisy LinkedIn Worldwide search with 20+ specialized platforms.
     global_intel_raw = fetch_global_intelligence(config, levels, domains)
     for j in global_intel_raw:
+        if not j.get('job_url'): continue
         # Purity Audit: Standardize for categorization
         j['location'] = j.get('location', 'Remote')
         j['description'] = j.get('description', '') # Optional
