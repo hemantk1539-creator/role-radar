@@ -430,11 +430,7 @@ def run():
                         has_level = has_word_match(title_str, levels)
                         has_domain = has_word_match(title_str, domains)
                         
-                        # Systemic Negative Sniper (Block Irrelevant Anchors)
-                        block_anchors = ["product", "project", "program", "sap", "scrum", "account", "sales", "marketing", "finance", "compliance", "research"]
-                        is_blocked = any(re.search(r'\b' + re.escape(b) + r'\b', title_str, re.IGNORECASE) for b in block_anchors)
-
-                        if not (has_level and has_domain) or is_blocked:
+                        if not (has_level and has_domain):
                             continue
                             
                         # --- DEEP DIVE JD CHECK ---

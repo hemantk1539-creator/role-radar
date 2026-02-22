@@ -6,9 +6,19 @@ email:
   recipient_email: "hemant.k1539@gmail.com"
 
 search:
-  # SENIORITY & DOMAIN FILTERS
-  levels: ["manager", "director", "head", "em", "staff", "engineering manager", "lead", "principal", "architect"]
-  domains: ["quality", "qe", "qa", "sdet", "set", "test", "testing", "automation"]
+  # SENIORITY & DOMAIN ANCHORS (Sniper Verification)
+  levels: [
+    "manager", "director", "head", "em", "staff", "lead", "principal", "architect", 
+    "vp", "v.p.", "vice president", "mgr", "dir", "eng", "leader", "chief", 
+    "senior manager", "sr manager", "snr manager", "assistant manager", "asst manager",
+    "eng manager", "engineering manager", "lead engineer", "staff engineer"
+  ]
+  domains: [
+    "quality", "qe", "qa", "q.a.", "q.e.", "sdet", "set", "test", "testing", 
+    "automation", "quality engineering", "quality assurance", "test engineering",
+    "automation engineering", "test automation", "software development engineer in test"
+  ]
+
 
   # TRUNCATION-PROOF TERMS (Elite 26 Spectrum - Covers 43 Variations)
   search_terms:
