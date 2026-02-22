@@ -433,9 +433,11 @@ def run():
                         
                         jid = hashlib.md5(jurl.encode('utf-8')).hexdigest()
                         company_str = str(job.get('company', '')).lower()
-                        fingerprint = f"{title_str}|{company_str}"
+                        # TRIPLE-ANCHOR FINGERPRINT (Title + Company + City)
+                        # loc_str can be messy ("Pune, India"); we use search_loc ("Pune") as the anchor
+                        fingerprint = f"{title_str}|{company_str}|{search_loc.lower()}"
 
-                        # RULE 9: Duplicate Sniper (Cross-Site Deduplication)
+                        # RULE 9: Duplicate Sniper (Cross-Site Deduplication with City Hub Fence)
                         if jid in seen_ids or fingerprint in seen_fingerprints:
                             continue
 
