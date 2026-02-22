@@ -35,20 +35,20 @@ CONFIG_FILE = "job_alert_config.yaml"
 HISTORY_FILE = "job_history.json"
 
 def load_config():
-    with open(CONFIG_FILE, "r") as f:
+    with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 def load_history():
     if os.path.exists(HISTORY_FILE):
         try:
-            with open(HISTORY_FILE, "r") as f:
+            with open(HISTORY_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
         except: return []
     return []
 
 def save_history(history, config):
     max_h = config["search"].get("max_history", 2000)
-    with open(HISTORY_FILE, "w") as f:
+    with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history[-max_h:], f, indent=4)
 
 def fetch_global_intelligence(config, levels, domains):
@@ -191,20 +191,10 @@ def send_email(subject, jobs, config, sniped_jobs=None):
     msg["To"] = recipient_email
     msg["Subject"] = subject
     
-    # --- DIAMOND INTELLIGENCE TIER MAPPING ---
-    tier_config = {
-        "tier1": {"name": "🛡️ TIER 1: THE ELITE DIRECTS (Apply Immediately)", "color": "#27ae60", "btn": "⚡ Apply"},
-        "tier2": {"name": "🚀 TIER 2: VC & TALENT ELITE (High Prestige)", "color": "#8e44ad", "btn": "🔍 View"},
-        "tier3": {"name": "🛠️ TIER 3: DOMAIN SPECIALISTS (Pure Tech)", "color": "#2980b9", "btn": "🔗 Link"},
-        "tier4": {"name": "🌐 TIER 4: THE UNIVERSE (Broad Market)", "color": "#7f8c8d", "btn": "🔗 Link"}
-    }
-    
-    site_to_tier = {
-        "deel": "tier1", "remote.com": "tier1",
-        "yc": "tier2", "wellfound": "tier2", "arc.dev": "tier2", "otta": "tier2",
-        "wwr": "tier3", "js_remotely": "tier3",
-        "himalayas": "tier4", "remotive": "tier4"
-    }
+    # LOAD UI STRATEGY FROM CONFIG
+    hub_map = config["search"].get("global_hub_map", {})
+    india_tier_cfg = config["search"].get("india_tiers", {})
+    global_tier_cfg = config["search"].get("global_tiers", {})
 
     html = f"<div style='font-family: Arial, sans-serif; color: #333; max-width: 800px; margin: auto;'>"
     html += f"<div style='background-color: #2c3e50; color: white; padding: 20px; border-radius: 8px 8px 0 0;'>"
@@ -216,12 +206,14 @@ def send_email(subject, jobs, config, sniped_jobs=None):
         tiers = {"tier1": [], "tier2": [], "tier3": [], "tier4": []}
         for j in jobs:
             s = j.get('site', '').lower()
-            tier_key = "tier1" if s.startswith("ats") else site_to_tier.get(s, "tier4")
+            tier_key = "tier1" if s.startswith("ats") else "tier1" if s in ["deel", "remote.com"] else \
+                       "tier2" if s in ["yc", "wellfound", "arc.dev", "otta"] else \
+                       "tier3" if s in ["wwr", "js_remotely"] else "tier4"
             tiers[tier_key].append(j)
         
         for t_key in ["tier1", "tier2", "tier3", "tier4"]:
             if not tiers[t_key]: continue
-            t_info = tier_config[t_key]
+            t_info = global_tier_cfg.get(t_key, {"name": t_key, "color": "#333", "btn": "Link"})
             html += f"<div style='margin-top: 30px;'>"
             html += f"<h3 style='color: {t_info['color']}; border-left: 5px solid {t_info['color']}; padding-left: 10px; margin-bottom: 15px;'>{t_info['name']}</h3>"
             html += "<table border='0' cellpadding='10' style='border-collapse: collapse; width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.1);'>"
@@ -235,18 +227,29 @@ def send_email(subject, jobs, config, sniped_jobs=None):
                 html += f"</tr>"
             html += "</table></div>"
     else:
-        # Standard High-Efficiency India Table
-        html += f"<div style='margin-top: 20px;'><p><b>Found {len(jobs)} applicable roles in India hubs.</b></p>"
-        html += "<table border='0' cellpadding='10' style='border-collapse: collapse; width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.1);'>"
-        html += "<tr style='background-color: #34495e; color: white;'><th>Title</th><th>Company</th><th>Location</th><th style='width: 80px;'>Action</th></tr>"
-        for job in jobs:
-            html += f"<tr style='border-bottom: 1px solid #eee;'>"
-            html += f"<td><b>{job.get('title')}</b></td>"
-            html += f"<td>{job.get('company')}</td>"
-            html += f"<td>{job.get('location')}</td>"
-            html += f"<td style='text-align: center;'><a href='{job.get('job_url')}' style='background-color: #3498db; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.85em;'>Apply</a></td>"
-            html += f"</tr>"
-        html += "</table></div>"
+        # --- TRI-CATEGORY INDIA BUCKETING ---
+        in_jobs = {"prio1": [], "prio2": [], "prio3": []}
+        for j in jobs:
+            loc = j.get('location', '').lower()
+            if "hybrid" in loc or "remote-local" in loc: in_jobs["prio1"].append(j)
+            elif "india-wfa" in loc or "wfa" in loc: in_jobs["prio2"].append(j)
+            else: in_jobs["prio3"].append(j)
+
+        for p_key in sorted(in_jobs.keys()):
+            if not in_jobs[p_key]: continue
+            t_data = india_tier_cfg.get(p_key, {"name": p_key, "color": "#333"})
+            html += f"<div style='margin-top: 30px;'>"
+            html += f"<h3 style='color: {t_data['color']}; border-left: 5px solid {t_data['color']}; padding-left: 10px; margin-bottom: 15px;'>{t_data['name']}</h3>"
+            html += "<table border='0' cellpadding='10' style='border-collapse: collapse; width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.1);'>"
+            html += f"<tr style='background-color: {t_data['color']}; color: white;'><th>Title</th><th>Company</th><th>Location</th><th style='width: 80px;'>Action</th></tr>"
+            for job in in_jobs[p_key]:
+                html += f"<tr style='border-bottom: 1px solid #eee;'>"
+                html += f"<td><b>{job.get('title')}</b></td>"
+                html += f"<td>{job.get('company')}</td>"
+                html += f"<td style='color: #666; font-size: 0.9em;'>{job.get('location')}</td>"
+                html += f"<td style='text-align: center;'><a href='{job.get('job_url')}' style='background-color: #3498db; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.85em;'>Apply</a></td>"
+                html += f"</tr>"
+            html += "</table></div>"
     
     if sniped_jobs:
         html += "<div style='margin-top: 40px; padding: 15px; background-color: #fdf2f2; border-radius: 8px; border: 1px solid #fadbd8;'>"

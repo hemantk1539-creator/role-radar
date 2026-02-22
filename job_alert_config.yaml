@@ -80,3 +80,29 @@ search:
   india_sites: ["linkedin", "naukri", "indeed"]
   global_sites: ["linkedin", "indeed"]
   max_history: 2000
+
+  # --- EMAIL UI STRATEGY (Diamond Format) ---
+  global_hub_map:
+    "himalayas": "Hub 1: The Universe (Aggregators)"
+    "remotive": "Hub 1: The Universe (Aggregators)"
+    "yc": "Hub 2: The Startups (Elite VC)"
+    "wellfound": "Hub 2: The Startups (Elite VC)"
+    "remote.com": "Hub 3: The Legal Safety (EOR)"
+    "deel": "Hub 3: The Legal Safety (EOR)"
+    "wwr": "Hub 4: The Tech Purity (Specialists)"
+    "js_remotely": "Hub 4: The Tech Purity (Specialists)"
+    "arc.dev": "Hub 5: The Talent Elite (Curated)"
+    "otta": "Hub 5: The Talent Elite (Curated)"
+  
+  india_tiers:
+    prio1: { "name": "⚡ HYBRID & REMOTE-LOCAL (Flexible Residency)", "color": "#27ae60" }
+    prio2: { "name": "🇮🇳 INDIA WFA (Work From Anywhere)", "color": "#2980b9" }
+    prio3: { "name": "🏢 ONSITE / CITY-STANDARD", "color": "#34495e" }
+
+  global_tiers:
+    tier1: { "name": "🛡️ TIER 1: THE ELITE DIRECTS (Apply Immediately)", "color": "#27ae60", "btn": "⚡ Apply" }
+    tier2: { "name": "🚀 TIER 2: VC & TALENT ELITE (High Prestige)", "color": "#8e44ad", "btn": "🔍 View" }
+    tier3: { "name": "🛠️ TIER 3: DOMAIN SPECIALISTS (Pure Tech)", "color": "#2980b9", "btn": "🔗 Link" }
+    tier4: { "name": "🌐 TIER 4: THE UNIVERSE (Broad Market)", "color": "#7f8c8d", "btn": "🔗 Link" }
+
+
