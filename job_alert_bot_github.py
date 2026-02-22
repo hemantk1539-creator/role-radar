@@ -166,10 +166,13 @@ def run():
         all_tasks.append({"sites": india_sites, "country": india_code, "loc": loc})
             
     # 2. GLOBAL HUB GRID (Mandate 3)
-    for country in global_hubs:
-        # LinkedIn supports 'worldwide' special location; Indeed does not.
-        target_sites = ["linkedin"] if country == "worldwide" else global_sites
-        all_tasks.append({"sites": target_sites, "country": country, "loc": country})
+    # TEMPORARY FREEZE (Session 105.2): Skipping Global Hubs to focus on India Purity.
+    # Code preserved for Option B (Specialist Intelligence) integration.
+    if False:
+        for country in global_hubs:
+            # LinkedIn supports 'worldwide' special location; Indeed does not.
+            target_sites = ["linkedin"] if country == "worldwide" else global_sites
+            all_tasks.append({"sites": target_sites, "country": country, "loc": country})
 
     for task in all_tasks:
         for term in search_terms:
