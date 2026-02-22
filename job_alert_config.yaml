@@ -20,15 +20,38 @@ search:
   india_search_cities: ["Bengaluru", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Noida", "Remote"]
   india_city_aliases: ["Bengaluru", "Bangalore", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Gurgaon", "Noida"]
 
-  # MANDATE 3: Global Grid Hubs
+  # MANDATE 3: Global Grid Hubs (PRESERVED)
   global_hubs: ["worldwide", "united states", "united kingdom", "canada", "australia", "singapore", "germany", "ireland", "netherlands", "united arab emirates", "malaysia", "new zealand"]
 
-  # DEEP DIVE STRATEGY (Zero-Yield Hubs)
-  # Relaxed Scraping (is_remote=False) + Forced Keyword + JD Fetch (Top 5 Only)
-  deep_scrape_hubs: ["united arab emirates", "singapore", "germany", "netherlands", "malaysia", "new zealand", "ireland", "australia"]
-  deep_scrape_limit: 5
-  deep_scrape_keyword: "remote"
-  deep_scrape_description_check: True
+  # --- GLOBAL ATLAS (POWER 6 HUBS) ---
+  # Hub 1: The Universe
+  himalayas_api: "https://himalayas.app/jobs/api?search=qa+manager"
+  remotive_api: "https://remotive.com/remote-jobs/feed"
+  
+  # Hub 2: The Startups
+  yc_api: "https://www.workatastartup.com/api/job_postings"
+  wellfound_feed: "https://wellfound.com/jobs/feed" # Placeholder for discovery
+  
+  # Hub 3: The Legal Safety
+  deel_api: "https://deel.com/jobs/api" # Placeholder
+  remote_com_api: "https://remote.com/jobs/api"
+  
+  # Hub 4: The Tech Purity
+  wwr_feed: "https://weworkremotely.com/remote-jobs.rss"
+  js_remotely_feed: "https://jsremotely.com/rss"
+  
+  # Hub 5: The Talent Elite
+  arc_dev_feed: "https://arc.dev/jobs.rss"
+  otta_discovery: "https://otta.com/discovery" # Discovery source
+  
+  # Hub 6: The Elite ATS Crawler
+  ats_atlas:
+    greenhouse: ["gitlab", "zapier", "elastic", "hashicorp", "stripe", "doist", "automattic", "checkly", "dovetail", "unbabel"]
+    lever: ["1password", "buffer", "toggl", "wealthsimple", "docker", "revolut", "kraken", "figma"]
+    ashby: ["deel", "notion", "snowflake", "replit", "posthog", "linear", "vercel"]
+    workable: ["appfollow", "hotjar"]
+    breezy: ["dovetail", "unbabel"]
+    pinpoint: ["checkly", "kaluza"]
 
   # UNIVERSAL APPLICABILITY GUARD (India-Citizen Safety)
   blacklist: [
@@ -41,41 +64,12 @@ search:
     "jobot", "cybercoders", "lensa", "dice", "workvantage", "revature", "synergisticit"
   ]
 
-  # SITE PROTECTION
-  blocked_sites: ["glassdoor", "bayt", "zip_recruiter"] 
-
-  # TIMING & DEPTH
-  results_wanted: 40
-  naukri_results_wanted: 60
-  indeed_results_wanted: 50
-  hours_old: 48
-  # UTC hours that trigger Velocity mode (LinkedIn Only)
-  velocity_window: [99] 
-
-  # PEAK RIGOR FILTERS (De-hardcoded)
+  # PEAK RIGOR FILTERS
   remote_signals: ["remote", "anywhere", "global", "work from home", "wfh", "telecommute", "fully remote", "full remote", "distributed", "virtual", "remote-first", "wfa", "work anywhere"]
   global_remote_signals: ["global", "anywhere", "remote-first", "distributed", "worldwide", "world-wide", "emea", "apac", "virtual", "wfa", "work from anywhere", "work anywhere", "hiring globally", "any country", "no relocation"]
-  
-  # SNIPER GATES (Rule 9)
   residency_signals: ["us citizen", "green card", "authorized to work in the us", "us only", "uk resident", "eu citizen", "permanent resident", "visa sponsorship not available", "no sponsorship", "citizen only", "residency required"]
   
   india_country_code: "in"
   india_sites: ["linkedin", "naukri", "indeed"]
   global_sites: ["linkedin", "indeed"]
-  global_search_loc: "Remote"
   max_history: 2000
-
-  # HUB INTEGRITY MAPPINGS
-  hub_map:
-    "in": ["india"]
-    "united states": ["united states", "usa", "us", "america"]
-    "united kingdom": ["united kingdom", "uk", "gb", "britain"]
-    "canada": ["canada", "ca"]
-    "australia": ["australia", "au"]
-    "singapore": ["singapore", "sg"]
-    "germany": ["germany", "de"]
-    "ireland": ["ireland", "ie"]
-    "netherlands": ["netherlands", "nl", "holland"]
-    "united arab emirates": ["united arab emirates", "uae", "ae"]
-    "malaysia": ["malaysia", "my"]
-    "new zealand": ["new zealand", "nz"]

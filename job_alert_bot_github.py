@@ -1,6 +1,8 @@
 import yaml
 import re
 import json
+import requests
+import feedparser
 import smtplib
 import time
 import random
@@ -48,6 +50,132 @@ def save_history(history, config):
     max_h = config["search"].get("max_history", 2000)
     with open(HISTORY_FILE, "w") as f:
         json.dump(history[-max_h:], f, indent=4)
+
+def fetch_global_intelligence(config, levels, domains):
+    """
+    POWER 6 HUB: The Centralized Global Remote Intelligence Layer.
+    Fetches and snipes jobs from 20+ specialized platforms via 6 Master Hubs.
+    """
+    print("\n--- GLOBAL INTELLIGENCE: FETCHING FROM POWER 6 HUBS ---")
+    jobs = []
+    
+    def is_match(title):
+        t = title.lower()
+        has_level = any(re.search(r'\b' + re.escape(l) + r'\b', t, re.IGNORECASE) for l in levels)
+        has_domain = any(re.search(r'\b' + re.escape(d) + r'\b', t, re.IGNORECASE) for d in domains)
+        return has_level and has_domain
+
+    # HUB 1: The Universe (Himalayas + Remotive)
+    for source, url in [("Himalayas", config["search"].get("himalayas_api")), ("Remotive", config["search"].get("remotive_api"))]:
+        if not url: continue
+        try:
+            print(f"  > [Hub 1] Polling {source} API...")
+            res = requests.get(url, timeout=10)
+            if res.status_code == 200:
+                data = res.json()
+                for j in data.get("jobs", []):
+                    title = j.get("title", "")
+                    if is_match(title):
+                        jobs.append({
+                            "title": title,
+                            "company": j.get("companyName") or j.get("company_name") or j.get("company"),
+                            "location": f"Remote [Signal: {source}]",
+                            "job_url": j.get("applicationLink") or j.get("url") or j.get("application_url"),
+                            "site": source.lower(),
+                            "date": j.get("pubDate") or j.get("published_at", "")
+                        })
+        except Exception as e: print(f"    [{source} ERROR]: {e}")
+
+    # HUB 2 & 4 & 5: RSS Specialty (YC, Wellfound, WWR, JS-Remotely, Arc.dev, Otta)
+    feeds = [
+        ("WWR", config["search"].get("wwr_feed")),
+        ("JS-Remotely", config["search"].get("js_remotely_feed")),
+        ("Arc.dev", config["search"].get("arc_dev_feed")),
+        ("Wellfound", config["search"].get("wellfound_feed")),
+        ("YC", config["search"].get("yc_api")),
+        ("Remotive", config["search"].get("remotive_api")) # Remotive also has an RSS fallback
+    ]
+    for source, url in feeds:
+        if not url: continue
+        try:
+            print(f"  > [Hub 2/4/5] Polling {source} RSS/API...")
+            feed = feedparser.parse(url)
+            for entry in feed.entries:
+                title = entry.get("title", "")
+                if is_match(title):
+                    jobs.append({
+                        "title": title,
+                        "company": entry.get("author") or source,
+                        "location": f"Remote [Signal: {source}]",
+                        "job_url": entry.get("link"),
+                        "site": source.lower(),
+                        "date": entry.get("published", "")
+                    })
+        except Exception as e: print(f"    [{source} ERROR]: {e}")
+
+    # HUB 3: Legal Safety (Deel & Remote.com)
+    # These platforms are highly protective; we hit their public job-listing APIs
+    for source, url in [("Remote.com", config["search"].get("remote_com_api")), ("Deel", config["search"].get("deel_api"))]:
+        if not url: continue
+        try:
+            print(f"  > [Hub 3] Polling {source} API...")
+            res = requests.get(url, timeout=10)
+            if res.status_code == 200:
+                # Standardized processing for EOR boards
+                for j in res.json().get("jobs", []):
+                    title = j.get("title", "")
+                    if is_match(title):
+                        jobs.append({"title": title, "company": j.get("company", source), "location": f"Remote [Signal: {source}]", "job_url": j.get("url"), "site": source.lower(), "date": j.get("created_at", "")})
+        except: continue
+
+    # HUB 6: The Elite ATS Crawler (Direct-to-Source)
+    ats_atlas = config["search"].get("ats_atlas", {})
+    
+    # Greenhouse
+    for token in ats_atlas.get("greenhouse", []):
+        try:
+            url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs"
+            res = requests.get(url, timeout=5)
+            if res.status_code == 200:
+                for j in res.json().get("jobs", []):
+                    title = j.get("title", "")
+                    if is_match(title):
+                        jobs.append({"title": title, "company": token.capitalize(), "location": f"Remote [Signal: ATS-{token}]", "job_url": j.get("absolute_url"), "site": f"ats-{token}", "date": j.get("updated_at", "")})
+        except: continue
+
+    # Lever
+    for token in ats_atlas.get("lever", []):
+        try:
+            url = f"https://api.lever.co/v0/postings/{token}"
+            res = requests.get(url, timeout=5)
+            if res.status_code == 200:
+                for j in res.json():
+                    title = j.get("text", "")
+                    if is_match(title):
+                        jobs.append({"title": title, "company": token.capitalize(), "location": f"Remote [Signal: ATS-{token}]", "job_url": j.get("hostedUrl"), "site": f"ats-{token}", "date": j.get("createdAt", "")})
+        except: continue
+
+    # Ashby / Breezy / Pinpoint (Direct JSON Endpoints)
+    for ats_type, atlas_key in [("ashby", "ashby"), ("breezy", "breezy"), ("pinpoint", "pinpoint")]:
+        for token in ats_atlas.get(atlas_key, []):
+            try:
+                url = f"https://api.ashbyhq.com/posting-api/job-board/{token}" if ats_type == "ashby" else \
+                      f"https://{token}.breezy.hr/json" if ats_type == "breezy" else \
+                      f"https://{token}.pinpointvis.com/api/v1/jobs"
+                res = requests.get(url, timeout=5)
+                if res.status_code == 200:
+                    data = res.json()
+                    # Unified parsing for these modern ATS types
+                    job_list = data.get("jobs", []) if ats_type != "ashby" else data.get("jobs", [])
+                    for j in job_list:
+                        title = j.get("title") or j.get("name") or j.get("text")
+                        if is_match(title):
+                            url_key = "job_url" if ats_type == "ashby" else "url" if ats_type == "breezy" else "absolute_url"
+                            jobs.append({"title": title, "company": token.capitalize(), "location": f"Remote [Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}"})
+            except: continue
+
+    print(f"--- POWER 6 COMPLETE. Found {len(jobs)} Pre-Sniper Roles ---\n")
+    return jobs
 
 def send_email(subject, jobs, config, sniped_jobs=None):
     if not jobs and not sniped_jobs: return False
@@ -166,13 +294,21 @@ def run():
         all_tasks.append({"sites": india_sites, "country": india_code, "loc": loc})
             
     # 2. GLOBAL HUB GRID (Mandate 3)
-    # TEMPORARY FREEZE (Session 105.2): Skipping Global Hubs to focus on India Purity.
-    # Code preserved for Option B (Specialist Intelligence) integration.
-    if False:
-        for country in global_hubs:
-            # LinkedIn supports 'worldwide' special location; Indeed does not.
-            target_sites = ["linkedin"] if country == "worldwide" else global_sites
-            all_tasks.append({"sites": target_sites, "country": country, "loc": country})
+    # OPTION B: Specialist Intelligence (Power 6 Hubs)
+    # This replaces the noisy LinkedIn Worldwide search with 20+ specialized platforms.
+    global_intel_raw = fetch_global_intelligence(config, levels, domains)
+    for j in global_intel_raw:
+        # Purity Audit: Standardize for categorization
+        j['location'] = j.get('location', 'Remote')
+        j['description'] = j.get('description', '') # Optional
+        j['uid'] = hashlib.md5(j['job_url'].encode('utf-8')).hexdigest()
+        j['fingerprint'] = f"{j['title'].lower()}|{j['company'].lower()}"
+        
+        # Deduplication & Bucketing
+        if j['uid'] not in seen_ids and j['fingerprint'] not in seen_fingerprints:
+            seen_ids.add(j['uid'])
+            seen_fingerprints.add(j['fingerprint'])
+            found_global_remote.append(j)
 
     for task in all_tasks:
         for term in search_terms:
