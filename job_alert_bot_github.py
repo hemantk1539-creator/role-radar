@@ -387,7 +387,7 @@ def run():
                     location=search_loc, 
                     is_remote=is_remote_task,
                     results_wanted=rw,
-                    hours_old=config["search"].get("hours_old", 24),
+                    hours_old=config["search"].get("hours_old", 48),
                     country_indeed=country_code
                 )
                 
