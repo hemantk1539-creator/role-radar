@@ -191,35 +191,75 @@ def send_email(subject, jobs, config, sniped_jobs=None):
     msg["To"] = recipient_email
     msg["Subject"] = subject
     
-    loc_counts = {}
-    for j in jobs:
-        l = j.get('location', 'Unknown')
-        loc_counts[l] = loc_counts.get(l, 0) + 1
+    # --- DIAMOND INTELLIGENCE TIER MAPPING ---
+    tier_config = {
+        "tier1": {"name": "🛡️ TIER 1: THE ELITE DIRECTS (Apply Immediately)", "color": "#27ae60", "btn": "⚡ Apply"},
+        "tier2": {"name": "🚀 TIER 2: VC & TALENT ELITE (High Prestige)", "color": "#8e44ad", "btn": "🔍 View"},
+        "tier3": {"name": "🛠️ TIER 3: DOMAIN SPECIALISTS (Pure Tech)", "color": "#2980b9", "btn": "🔗 Link"},
+        "tier4": {"name": "🌐 TIER 4: THE UNIVERSE (Broad Market)", "color": "#7f8c8d", "btn": "🔗 Link"}
+    }
     
-    summary_html = "<ul>"
-    for loc, count in sorted(loc_counts.items()):
-        summary_html += f"<li><b>{loc}:</b> {count} jobs</li>"
-    summary_html += "</ul>"
+    site_to_tier = {
+        "deel": "tier1", "remote.com": "tier1",
+        "yc": "tier2", "wellfound": "tier2", "arc.dev": "tier2", "otta": "tier2",
+        "wwr": "tier3", "js_remotely": "tier3",
+        "himalayas": "tier4", "remotive": "tier4"
+    }
 
-    html = f"<h3>{subject}</h3>"
-    html += f"<p><b>Total Found:</b> {len(jobs)}</p>"
-    html += "<h4>Breakdown by Location:</h4>"
-    html += summary_html
-    html += "<hr><table border='1' cellpadding='5' style='border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;'>"
-    html += "<tr style='background-color: #f2f2f2;'><th>Title</th><th>Company</th><th>Location (Signal)</th><th>Site</th><th>Link</th></tr>"
-    for job in jobs:
-        html += f"<tr><td>{job.get('title')}</td><td>{job.get('company')}</td><td>{job.get('location')}</td><td>{job.get('site')}</td><td><a href='{job.get('job_url')}'>Apply</a></td></tr>"
-    html += "</table>"
+    html = f"<div style='font-family: Arial, sans-serif; color: #333; max-width: 800px; margin: auto;'>"
+    html += f"<div style='background-color: #2c3e50; color: white; padding: 20px; border-radius: 8px 8px 0 0;'>"
+    html += f"<h1 style='margin: 0; font-size: 24px;'>{subject}</h1>"
+    html += f"<p style='margin: 5px 0 0; opacity: 0.8;'>EM/Director Intelligence Report | {datetime.now().strftime('%Y-%m-%d')}</p></div>"
+
+    if "Global" in subject:
+        # Group jobs by Tier
+        tiers = {"tier1": [], "tier2": [], "tier3": [], "tier4": []}
+        for j in jobs:
+            s = j.get('site', '').lower()
+            tier_key = "tier1" if s.startswith("ats") else site_to_tier.get(s, "tier4")
+            tiers[tier_key].append(j)
+        
+        for t_key in ["tier1", "tier2", "tier3", "tier4"]:
+            if not tiers[t_key]: continue
+            t_info = tier_config[t_key]
+            html += f"<div style='margin-top: 30px;'>"
+            html += f"<h3 style='color: {t_info['color']}; border-left: 5px solid {t_info['color']}; padding-left: 10px; margin-bottom: 15px;'>{t_info['name']}</h3>"
+            html += "<table border='0' cellpadding='10' style='border-collapse: collapse; width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.1);'>"
+            html += f"<tr style='background-color: {t_info['color']}; color: white;'><th>Title</th><th>Company</th><th>Signal</th><th style='width: 80px;'>Action</th></tr>"
+            for job in tiers[t_key]:
+                html += f"<tr style='border-bottom: 1px solid #eee;'>"
+                html += f"<td><b>{job.get('title')}</b></td>"
+                html += f"<td>{job.get('company')}</td>"
+                html += f"<td style='color: #7f8c8d; font-size: 0.85em;'>{job.get('location')}</td>"
+                html += f"<td style='text-align: center;'><a href='{job.get('job_url')}' style='background-color: {t_info['color']}; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.85em;'>{t_info['btn']}</a></td>"
+                html += f"</tr>"
+            html += "</table></div>"
+    else:
+        # Standard High-Efficiency India Table
+        html += f"<div style='margin-top: 20px;'><p><b>Found {len(jobs)} applicable roles in India hubs.</b></p>"
+        html += "<table border='0' cellpadding='10' style='border-collapse: collapse; width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.1);'>"
+        html += "<tr style='background-color: #34495e; color: white;'><th>Title</th><th>Company</th><th>Location</th><th style='width: 80px;'>Action</th></tr>"
+        for job in jobs:
+            html += f"<tr style='border-bottom: 1px solid #eee;'>"
+            html += f"<td><b>{job.get('title')}</b></td>"
+            html += f"<td>{job.get('company')}</td>"
+            html += f"<td>{job.get('location')}</td>"
+            html += f"<td style='text-align: center;'><a href='{job.get('job_url')}' style='background-color: #3498db; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.85em;'>Apply</a></td>"
+            html += f"</tr>"
+        html += "</table></div>"
     
     if sniped_jobs:
-        html += "<br><hr><h3 style='color: #d9534f;'>FILTERED OUT (Review):</h3>"
-        html += "<p>The following jobs matched the search but were blocked by your Blacklist/Seniority settings:</p>"
-        html += "<table border='1' cellpadding='5' style='border-collapse: collapse; width: 100%; color: #777; font-size: 0.9em;'>"
-        html += "<tr style='background-color: #ffe6e6;'><th>Reason</th><th>Title</th><th>Company</th><th>Location</th></tr>"
-        for j in sniped_jobs:
-            html += f"<tr><td><b>{j.get('sniped_reason')}</b></td><td>{j.get('title')}</td><td>{j.get('company')}</td><td>{j.get('location')}</td></tr>"
-        html += "</table>"
+        html += "<div style='margin-top: 40px; padding: 15px; background-color: #fdf2f2; border-radius: 8px; border: 1px solid #fadbd8;'>"
+        html += "<h4 style='color: #c0392b; margin-top: 0;'>🧪 SNIPER LOG (Transparency Pass)</h4>"
+        html += "<p style='font-size: 0.85em; color: #7b241c;'>The following jobs were detected but automatically discarded based on your purity rules:</p>"
+        html += "<table border='0' cellpadding='5' style='width: 100%; font-size: 0.8em; color: #666;'>"
+        for j in sniped_jobs[:15]: # Show top 15 only to keep email clean
+            html += f"<tr><td style='color: #c0392b;'><b>[{j.get('sniped_reason')}]</b></td><td>{j.get('title')}</td><td>{j.get('company')}</td></tr>"
+        html += "</table></div>"
 
+    html += "<div style='margin-top: 30px; text-align: center; color: #95a5a6; font-size: 0.8em; border-top: 1px solid #eee; padding-top: 20px;'>"
+    html += "This is an automated intelligence report from your Job Alert Bot v1.2. Hub Logic: Power 6 Tiered Grid.</div></div>"
+    
     msg.attach(MIMEText(html, "html"))
 
     try:
