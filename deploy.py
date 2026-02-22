@@ -19,6 +19,14 @@ def log(msg, success=True):
 def audit():
     print("--- STARTING DEPLOYMENT AUDIT ---")
     
+    # 0. Syntax/Import Check (Rule 13)
+    res_syntax = run_cmd(f'python -c "import {BOT_SCRIPT[:-3]}"')
+    if res_syntax.returncode == 0:
+        log("Syntax/Import Check: OK.")
+    else:
+        log("Syntax/Import Check: FAILED.", False)
+        return False
+
     # 1. Sanity
     res = run_cmd(f"python {BOT_SCRIPT}")
     if "STARTING" in res.stdout or "STARTING" in res.stderr:
