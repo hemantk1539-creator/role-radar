@@ -433,66 +433,61 @@ def run():
                         company_str = str(job.get('company', '')).lower()
                         fingerprint = f"{title_str}|{company_str}"
 
-                        if jid not in seen_ids and fingerprint not in seen_fingerprints:
-                            job['uid'] = jid
-                            job['fingerprint'] = fingerprint
-                            seen_ids.add(jid)
-                            seen_fingerprints.add(fingerprint)
-                            
-                            # --- 3-BUCKET CATEGORIZATION (Enablement Master Logic) ---
-                            # Note: Reading Title/Location Header (not full JD)
-                            has_global_signal = any(gs in title_str or gs in loc_str for gs in global_remote_signals)
-                            is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
-                            is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
-                            
-                            # JD Sniper (Rule 9): Immediate discard for residency-based signals
-                            if any(rs in title_str or rs in loc_str for rs in residency_signals):
-                                print(f"    [SNIPER DISCARD] Residency terms found in '{title_str[:30]}'.")
-                                continue
+                        # RULE 9: Duplicate Sniper (Cross-Site Deduplication)
+                        if jid in seen_ids or fingerprint in seen_fingerprints:
+                            continue
 
-                            # Hub-Integrity Check
-                            hub_key = country_code.lower()
-                            target_hub_terms = hub_map_config.get(hub_key, [hub_key])
-                            # Final Rigor: Check title as well for hub names
-                            is_hub_match = any(term in loc_str or term in title_str for term in target_hub_terms)
-                            
-                            # Rigorous India Check: 
-                            # 1. Contains 'india' or a local city alias
-                            # 2. OR is exactly 'remote'/'wfh' (common on Naukri) without foreign country text
-                            is_india_job = ("india" in loc_str or is_local_city) or \
-                                           (country_code == india_code and loc_str.strip() in ["remote", "wfh", "work from home", "telecommute"])
-                            
-                            if is_remote_explicit or is_remote_task:
-                                # Categorize as Remote
-                                if country_code == india_code:
-                                    # Naukri/India Bypass
-                                    if has_global_signal:
-                                        job['location'] = f"{loc_str} [Signal: Global-In-India]"
-                                        found_global_remote.append(job)
-                                    elif is_india_job:
-                                        job['location'] = f"{loc_str} [Signal: India-Remote]"
-                                        found_india_remote.append(job)
-                                    else:
-                                        print(f"    [LEAK DISCARD] International job '{title_str[:30]}' in India task.")
-                                elif country_code == "worldwide":
-                                    job['location'] = f"{loc_str} [Signal: Worldwide Task]"
+                        job['uid'] = jid
+                        job['fingerprint'] = fingerprint
+                        seen_ids.add(jid)
+                        seen_fingerprints.add(fingerprint)
+                        
+                        # --- 3-BUCKET CATEGORIZATION (v1.3 Intelligence) ---
+                        has_global_signal = any(gs in title_str or gs in loc_str for gs in global_remote_signals)
+                        is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
+                        is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
+                        is_hybrid_signal = any(h in loc_str or h in title_str for h in ["hybrid", "flexible", "flex", "partially", "office optional", "wfo"])
+                        
+                        # JD Sniper (Rule 9): Residency discard
+                        if any(rs in title_str or rs in loc_str for rs in residency_signals):
+                            continue
+
+                        is_india_job = ("india" in loc_str or is_local_city) or \
+                                       (country_code == india_code and loc_str.strip() in ["remote", "wfh", "work from home", "telecommute", "pan india"])
+                        
+                        if is_remote_explicit or is_remote_task:
+                            # Categorize as Remote
+                            if country_code == india_code:
+                                if has_global_signal:
+                                    job['location'] = f"{loc_str} [Signal: Global-In-India]"
                                     found_global_remote.append(job)
-                                elif has_global_signal:
-                                    # Identify which signal triggered it
-                                    sig = next((s for s in global_remote_signals if s in title_str or s in loc_str), "Global")
-                                    job['location'] = f"{loc_str} [Signal: {sig}]"
-                                    found_global_remote.append(job)
+                                elif is_local_city:
+                                    # HYBRID/REMOTE-LOCAL PRIORITY
+                                    sig_type = "Hybrid" if is_hybrid_signal else "Remote"
+                                    job['location'] = f"{loc_str} [Signal: {sig_type}-Local]"
+                                    found_local.append(job)
+                                elif is_india_job:
+                                    job['location'] = f"{loc_str} [Signal: India-WFA]"
+                                    found_india_remote.append(job)
                                 else:
-                                    # This is likely a 'Domestic-Only Remote' job in the hub country (Fodder)
-                                    print(f"    [FODDER DISCARD] Domestic hub job '{title_str[:30]}' ({loc_str}) - No global signal.")
-                            elif is_local_city:
-                                found_local.append(job)
-                            elif country_code == india_code and is_india_job:
-                                # India local job fallback
-                                found_local.append(job)
+                                    # International leak in India task
+                                    continue
+                            elif country_code == "worldwide":
+                                job['location'] = f"{loc_str} [Signal: Worldwide Task]"
+                                found_global_remote.append(job)
+                            elif has_global_signal:
+                                sig = next((s for s in global_remote_signals if s in title_str or s in loc_str), "Global")
+                                job['location'] = f"{loc_str} [Signal: {sig}]"
+                                found_global_remote.append(job)
                             else:
-                                # Non-remote global job or invalid leak -> DISCARD
+                                # Domestic fodder (e.g. US Remote only)
                                 continue
+                        elif is_local_city:
+                            found_local.append(job)
+                        elif country_code == india_code and is_india_job:
+                            found_local.append(job)
+                        else:
+                            continue
                 
                 time.sleep(1) # Cooldown between terms
             except Exception as e:

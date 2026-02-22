@@ -17,8 +17,15 @@ search:
     - '("Quality Architect" OR "Test Architect" OR "Head of Quality" OR "Head of QA" OR "Global Head of QA" OR "Staff Quality Engineer" OR "Principal Quality Engineer" OR "Principal SDET")'
 
   # MANDATE 1 & 2: India Precision
-  india_search_cities: ["Bengaluru", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Noida", "Remote"]
-  india_city_aliases: ["Bengaluru", "Bangalore", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Gurgaon", "Noida"]
+  india_search_cities: ["Bengaluru", "Pune", "Mumbai", "Hyderabad", "Delhi", "Gurugram", "Noida", "Chennai", "Ahmedabad", "Remote"]
+  india_city_aliases: [
+    "Bengaluru", "Bangalore", "Whitefield", "Electronic City", "Sarjapur", "Marathahalli",
+    "Pune", "Hinjewadi", "Magarpatta", "Baner", "Kharadi",
+    "Mumbai", "Thane", "Navi Mumbai", "Powai",
+    "Hyderabad", "HITEC City", "Gachibowli",
+    "Delhi", "NCR", "Gurugram", "Gurgaon", "Noida", "Faridabad", "Ghaziabad",
+    "Chennai", "OMR", "Ahmedabad"
+  ]
 
   # MANDATE 3: Global Grid Hubs (PRESERVED)
   global_hubs: ["worldwide", "united states", "united kingdom", "canada", "australia", "singapore", "germany", "ireland", "netherlands", "united arab emirates", "malaysia", "new zealand"]
@@ -65,7 +72,7 @@ search:
   ]
 
   # PEAK RIGOR FILTERS
-  remote_signals: ["remote", "anywhere", "global", "work from home", "wfh", "telecommute", "fully remote", "full remote", "distributed", "virtual", "remote-first", "wfa", "work anywhere"]
+  remote_signals: ["remote", "anywhere", "global", "work from home", "wfh", "telecommute", "fully remote", "full remote", "distributed", "virtual", "remote-first", "wfa", "work anywhere", "hybrid", "flexible", "flex", "partially remote", "remote-friendly", "occasional wfh", "remote optional", "blended", "flexible location", "pan india", "anywhere in india", "virtual hiring", "teleworking"]
   global_remote_signals: ["global", "anywhere", "remote-first", "distributed", "worldwide", "world-wide", "emea", "apac", "virtual", "wfa", "work from anywhere", "work anywhere", "hiring globally", "any country", "no relocation"]
   residency_signals: ["us citizen", "green card", "authorized to work in the us", "us only", "uk resident", "eu citizen", "permanent resident", "visa sponsorship not available", "no sponsorship", "citizen only", "residency required"]
   
