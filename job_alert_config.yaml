@@ -71,6 +71,15 @@ search:
     "jobot", "cybercoders", "lensa", "dice", "workvantage", "revature", "synergisticit"
   ]
 
+  # SITE PROTECTION
+  blocked_sites: ["glassdoor", "bayt", "zip_recruiter"]
+
+  # TIMING & DEPTH (India Saturation)
+  results_wanted: 50
+  naukri_results_wanted: 100
+  indeed_results_wanted: 50
+  hours_old: 48
+
   # PEAK RIGOR FILTERS
   remote_signals: ["remote", "anywhere", "global", "work from home", "wfh", "telecommute", "fully remote", "full remote", "distributed", "virtual", "remote-first", "wfa", "work anywhere", "hybrid", "flexible", "flex", "partially remote", "remote-friendly", "occasional wfh", "remote optional", "blended", "flexible location", "pan india", "anywhere in india", "virtual hiring", "teleworking"]
   global_remote_signals: ["global", "anywhere", "remote-first", "distributed", "worldwide", "world-wide", "emea", "apac", "virtual", "wfa", "work from anywhere", "work anywhere", "hiring globally", "any country", "no relocation"]
