@@ -86,10 +86,10 @@ search:
   # SITE PROTECTION
   blocked_sites: ["glassdoor", "bayt", "zip_recruiter"]
 
-  # TIMING & DEPTH (India Saturation)
-  results_wanted: 50
-  naukri_results_wanted: 100
-  indeed_results_wanted: 50
+  # TIMING & DEPTH (v1.8 Efficiency)
+  results_wanted: 30
+  naukri_results_wanted: 50
+  indeed_results_wanted: 30
   hours_old: 48
 
   # PEAK RIGOR FILTERS
