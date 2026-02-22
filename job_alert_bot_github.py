@@ -79,7 +79,8 @@ def fetch_global_intelligence(config, levels, domains):
                         jobs.append({
                             "title": title,
                             "company": j.get("companyName") or j.get("company_name") or j.get("company"),
-                            "location": f"Remote [Signal: {source}]",
+                            "location": j.get('location', 'Remote'),
+                            "signal": f"[Signal: {source}]",
                             "job_url": j.get("applicationLink") or j.get("url") or j.get("application_url"),
                             "site": source.lower(),
                             "date": j.get("pubDate") or j.get("published_at", "")
@@ -106,7 +107,8 @@ def fetch_global_intelligence(config, levels, domains):
                     jobs.append({
                         "title": title,
                         "company": entry.get("author") or source,
-                        "location": f"Remote [Signal: {source}]",
+                        "location": "Remote",
+                        "signal": f"[Signal: {source}]",
                         "job_url": entry.get("link"),
                         "site": source.lower(),
                         "date": entry.get("published", "")
@@ -125,7 +127,7 @@ def fetch_global_intelligence(config, levels, domains):
                 for j in res.json().get("jobs", []):
                     title = j.get("title", "")
                     if is_match(title):
-                        jobs.append({"title": title, "company": j.get("company", source), "location": f"Remote [Signal: {source}]", "job_url": j.get("url"), "site": source.lower(), "date": j.get("created_at", "")})
+                        jobs.append({"title": title, "company": j.get("company", source), "location": "Remote", "signal": f"[Signal: {source}]", "job_url": j.get("url"), "site": source.lower(), "date": j.get("created_at", "")})
         except: continue
 
     # HUB 6: The Elite ATS Crawler (Direct-to-Source)
@@ -140,7 +142,7 @@ def fetch_global_intelligence(config, levels, domains):
                 for j in res.json().get("jobs", []):
                     title = j.get("title", "")
                     if is_match(title):
-                        jobs.append({"title": title, "company": token.capitalize(), "location": f"Remote [Signal: ATS-{token}]", "job_url": j.get("absolute_url"), "site": f"ats-{token}", "date": j.get("updated_at", "")})
+                        jobs.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get("absolute_url"), "site": f"ats-{token}", "date": j.get("updated_at", "")})
         except: continue
 
     # Lever
@@ -152,7 +154,7 @@ def fetch_global_intelligence(config, levels, domains):
                 for j in res.json():
                     title = j.get("text", "")
                     if is_match(title):
-                        jobs.append({"title": title, "company": token.capitalize(), "location": f"Remote [Signal: ATS-{token}]", "job_url": j.get("hostedUrl"), "site": f"ats-{token}", "date": j.get("createdAt", "")})
+                        jobs.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get("hostedUrl"), "site": f"ats-{token}", "date": j.get("createdAt", "")})
         except: continue
 
     # Ashby / Breezy / Pinpoint (Direct JSON Endpoints)
@@ -171,7 +173,7 @@ def fetch_global_intelligence(config, levels, domains):
                         title = j.get("title") or j.get("name") or j.get("text")
                         if is_match(title):
                             url_key = "job_url" if ats_type == "ashby" else "url" if ats_type == "breezy" else "absolute_url"
-                            jobs.append({"title": title, "company": token.capitalize(), "location": f"Remote [Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}"})
+                            jobs.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}"})
             except: continue
 
     print(f"--- POWER 6 COMPLETE. Found {len(jobs)} Pre-Sniper Roles ---\n")
@@ -217,12 +219,13 @@ def send_email(subject, jobs, config, sniped_jobs=None):
             html += f"<div style='margin-top: 30px;'>"
             html += f"<h3 style='color: {t_info['color']}; border-left: 5px solid {t_info['color']}; padding-left: 10px; margin-bottom: 15px;'>{t_info['name']}</h3>"
             html += "<table border='0' cellpadding='10' style='border-collapse: collapse; width: 100%; box-shadow: 0 2px 5px rgba(0,0,0,0.1);'>"
-            html += f"<tr style='background-color: {t_info['color']}; color: white;'><th>Title</th><th>Company</th><th>Signal</th><th style='width: 80px;'>Action</th></tr>"
+            html += f"<tr style='background-color: {t_info['color']}; color: white;'><th>Title</th><th>Company</th><th>Location</th><th>Signal</th><th style='width: 80px;'>Action</th></tr>"
             for job in tiers[t_key]:
                 html += f"<tr style='border-bottom: 1px solid #eee;'>"
                 html += f"<td><b>{job.get('title')}</b></td>"
                 html += f"<td>{job.get('company')}</td>"
-                html += f"<td style='color: #7f8c8d; font-size: 0.85em;'>{job.get('location')}</td>"
+                html += f"<td>{job.get('location')}</td>"
+                html += f"<td style='color: #7f8c8d; font-size: 0.85em;'>{job.get('signal')}</td>"
                 html += f"<td style='text-align: center;'><a href='{job.get('job_url')}' style='background-color: {t_info['color']}; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.85em;'>{t_info['btn']}</a></td>"
                 html += f"</tr>"
             html += "</table></div>"
@@ -345,6 +348,7 @@ def run():
         if not j.get('job_url'): continue
         # Purity Audit: Standardize for categorization
         j['location'] = j.get('location', 'Remote')
+        j['signal'] = j.get('signal', '[Signal: Global-Intel]')
         j['description'] = j.get('description', '') # Optional
         j['uid'] = hashlib.md5(j['job_url'].encode('utf-8')).hexdigest()
         j['fingerprint'] = f"{j['title'].lower()}|{j['company'].lower()}"
