@@ -18,16 +18,23 @@
 | **Global Intel** | Power 6 Hubs | **Hardened** | **Tier 1-4 (Diamond Sorted)** |
 
 ## ⚙️ Current Runtime Config
-- **Strategy:** **Absolute Market Saturation (v2.6)**.
-- **Search Engine:** Boolean Intersection (Fluence-Proofed).
-- **Seniority:** EM, SEM, Manager, Sr Manager, Director, Head, Architect, Principal, Staff.
-- **Domain:** QE, QA, SDET, SET, Automation, Software Quality, Software Test.
+- **Strategy:** **Elastic Saturation Engine (v2.8)**.
+- **Search Engine:** Atomic Keyword Intersection (Anti-Phrase-Trap).
+- **Seniority:** EM, SEM, Manager, Sr Manager, Director, Head, Architect, Principal, Staff, Chief, Leader.
+- **Domain:** Quality, QA, QE, SDET, SET, Test, Testing, Automation.
 - **Lookback:** 72-Hour sliding window.
-- **Status:** **DEPLOYED & VERIFIED.** 
+- **Status:** **DEPLOYED & VERIFIED (v2.8).** 
 
 ---
 
 # 📜 Session History (Log)
+
+### Session 105.5: Strategy Pivot to v2.8 Elastic Engine
+- **Date:** 2026-02-23
+- **Audit:** Identified critical gap in v2.6; rigid phrase matching (`"Quality Engineering"`) was missing roles with connecting words like "of" (e.g., "Director of Quality").
+- **Action:** Formulated and deployed v2.8 Elastic Engine using atomic keywords (`Director AND Quality`) to ensure absolute coverage.
+- **Parity:** Synchronized all Sniper abbreviations (`Mgr`, `Dir`, `Snr`, `Sr.`, `Eng Manager`) and single-word anchors (`Quality`, `Test`, `Testing`, `QA`) into search strings.
+- **Result:** Successfully pushed to production. Absolute parity between search net and sniper gate achieved.
 
 ### Session 105.4: Production Deployment (v2.6)
 - **Date:** 2026-02-23

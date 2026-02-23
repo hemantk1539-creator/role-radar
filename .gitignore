@@ -4,5 +4,9 @@ test_*.py
 *proto.py
 verify_*.py
 dry_run_*.py
+*_test.py
+*_check.py
+*_sat.py
+GEMINI.md
 heartbeat.txt
 .env
