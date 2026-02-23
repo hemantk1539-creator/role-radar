@@ -9,23 +9,32 @@ search:
   # SENIORITY & DOMAIN ANCHORS (Sniper Verification)
   levels: [
     "manager", "director", "head", "em", "staff", "lead", "principal", "architect", 
-    "vp", "v.p.", "vice president", "mgr", "dir", "eng", "leader", "chief", 
-    "senior manager", "sr manager", "snr manager", "assistant manager", "asst manager",
-    "eng manager", "engineering manager", "lead engineer", "staff engineer"
+    "mgr", "dir", "eng", "leader", "chief", 
+    "senior manager", "sr manager", "snr manager", "sr. manager",
+    "engineering manager", "senior engineering manager", "sr. engineering manager", "sr engineering manager",
+    "eng manager", "lead engineer", "staff engineer"
   ]
   domains: [
     "quality", "qe", "qa", "q.a.", "q.e.", "sdet", "set", "test", "testing", 
     "automation", "quality engineering", "quality assurance", "test engineering",
-    "automation engineering", "test automation", "software development engineer in test"
+    "automation engineering", "test automation", "software quality", "software test",
+    "software development engineer in test", "software engineer in test"
   ]
 
 
-  # TRUNCATION-PROOF TERMS (Elite 26 Spectrum - Covers 43 Variations)
+
+  # v2.6 ABSOLUTE SATURATION INTERSECTIONS (Lexical Purity)
   search_terms:
-    - '("Quality Engineering Manager" OR "QE Manager" OR "QE Director" OR "Staff Quality Engineer" OR "Principal Quality Engineer" OR "Quality Engineering Lead")'
-    - '("Quality Assurance Manager" OR "QA Manager" OR "QA Director" OR "QA Lead" OR "SDET Manager" OR "Lead SDET" OR "Principal SDET")'
-    - '("Staff SDET" OR "SET Manager" OR "Automation Manager" OR "Automation Lead" OR "Automation Architect" OR "Staff Automation Engineer")'
-    - '("Engineering Manager Quality" OR "Engineering Manager Test" OR "EM Automation" OR "Test Manager" OR "Director Quality" OR "Director Software Quality" OR "Director of Test" OR "Head of Quality")'
+    - '((Director OR Head OR "Senior Manager" OR "Sr Manager" OR "Sr. Manager") AND ("Quality Engineering" OR "Quality Assurance" OR "Software Quality" OR "Automation" OR "QA" OR "QE" OR "SDET" OR "SET" OR "Software Test" OR "Software Development Engineer in Test" OR "Software Engineer in Test"))'
+    - '(("Senior Engineering Manager" OR "Sr. Engineering Manager" OR "Sr Engineering Manager" OR "Engineering Manager" OR "EM" OR "Manager") AND ("Quality Engineering" OR "Quality Assurance" OR "Software Quality" OR "Automation" OR "QA" OR "QE" OR "SDET" OR "SET" OR "Software Test" OR "Software Development Engineer in Test" OR "Software Engineer in Test"))'
+    - '((Architect OR Principal OR Staff OR Lead) AND ("Quality Engineering" OR "Quality Assurance" OR "Software Quality" OR "Automation" OR "QA" OR "QE" OR "SDET" OR "SET" OR "Software Test" OR "Software Development Engineer in Test" OR "Software Engineer in Test"))'
+    - '(("Quality Engineering" OR "Quality Assurance" OR "Software Quality" OR "Automation" OR "QA" OR "QE" OR "SDET" OR "SET" OR "Software Test" OR "Software Development Engineer in Test" OR "Software Engineer in Test") AND (Manager OR Director OR Lead OR Head))'
+
+
+
+
+
+
 
 
   # MANDATE 1 & 2: India Precision
@@ -107,6 +116,9 @@ search:
 
   # SITE PROTECTION
   blocked_sites: ["glassdoor", "bayt", "zip_recruiter"]
+  
+  # GLOBAL SNIPER ANCHORS
+  global_block_anchors: ["product", "project", "program", "sap", "scrum", "account", "sales", "marketing", "finance", "compliance", "research", "grc", "legal"]
 
   # TIMING & DEPTH (v1.8 Efficiency)
   results_wanted: 30

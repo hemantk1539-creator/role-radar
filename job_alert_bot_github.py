@@ -69,8 +69,9 @@ def fetch_global_intelligence(config, levels, domains):
         
         # 2. Global-Only Negative Sniper (Clinical Purity)
         # Only applied to specialized global platforms to kill Product/Project leaks.
-        block_anchors = ["product", "project", "program", "sap", "scrum", "account", "sales", "marketing", "finance", "compliance", "research", "grc", "legal"]
+        block_anchors = config["search"].get("global_block_anchors", [])
         # Match only if the block term is its own word (to avoid blocking 'quality' in 'bi-quality')
+
         is_blocked = any(re.search(r'\b' + re.escape(b) + r'\b', t, re.IGNORECASE) for b in block_anchors)
         
         return has_level and has_domain and not is_blocked
