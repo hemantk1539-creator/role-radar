@@ -25,7 +25,7 @@ search:
     - '("Quality Engineering Manager" OR "QE Manager" OR "QE Director" OR "Staff Quality Engineer" OR "Principal Quality Engineer" OR "Quality Engineering Lead")'
     - '("Quality Assurance Manager" OR "QA Manager" OR "QA Director" OR "QA Lead" OR "SDET Manager" OR "Lead SDET" OR "Principal SDET")'
     - '("Staff SDET" OR "SET Manager" OR "Automation Manager" OR "Automation Lead" OR "Automation Architect" OR "Staff Automation Engineer")'
-    - '("Engineering Manager Quality" OR "Engineering Manager Test" OR "EM Automation" OR "Test Manager" OR "Director Quality" OR "Director of Test" OR "Head of Quality")'
+    - '("Engineering Manager Quality" OR "Engineering Manager Test" OR "EM Automation" OR "Test Manager" OR "Director Quality" OR "Director Software Quality" OR "Director of Test" OR "Head of Quality")'
 
 
   # MANDATE 1 & 2: India Precision
@@ -112,7 +112,7 @@ search:
   results_wanted: 30
   naukri_results_wanted: 50
   indeed_results_wanted: 30
-  hours_old: 48
+  hours_old: 72
 
   # PEAK RIGOR FILTERS
   remote_signals: ["remote", "anywhere", "global", "work from home", "wfh", "telecommute", "fully remote", "full remote", "distributed", "virtual", "remote-first", "wfa", "work anywhere", "hybrid", "flexible", "flex", "partially remote", "remote-friendly", "occasional wfh", "remote optional", "blended", "flexible location", "pan india", "anywhere in india", "virtual hiring", "teleworking"]
