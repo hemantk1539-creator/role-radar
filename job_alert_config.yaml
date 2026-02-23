@@ -23,12 +23,12 @@ search:
 
 
 
-  # v2.8 ELASTIC SATURATION INTERSECTIONS (Atomic Coverage)
+  # v2.8.2 CLINICAL SATURATION (Truncation-Proof < 250 chars)
   search_terms:
-    - '((Director OR Head OR "Senior Manager" OR "Sr Manager" OR "Sr. Manager" OR "Snr Manager" OR "Dir" OR "Chief" OR "Leader") AND (Quality OR QA OR QE OR SDET OR SET OR Test OR Testing OR Automation OR "Software Quality" OR "Software Test"))'
-    - '(("Engineering Manager" OR "Senior Engineering Manager" OR "Sr. Engineering Manager" OR "Sr Engineering Manager" OR "EM" OR "Manager" OR "Mgr" OR "Eng Manager") AND (Quality OR QA OR QE OR SDET OR SET OR Test OR Testing OR Automation OR "Software Quality" OR "Software Test"))'
-    - '((Architect OR Principal OR Staff OR Lead OR "Lead Engineer" OR "Staff Engineer") AND (Quality OR QA OR QE OR SDET OR SET OR Test OR Testing OR Automation OR "Software Quality" OR "Software Test"))'
-    - '((Quality OR QA OR QE OR SDET OR SET OR Test OR Testing OR Automation OR "Software Quality" OR "Software Test") AND (Manager OR Director OR Lead OR Head OR EM OR Architect))'
+    - '((Director OR Head OR "Sr Manager" OR "Sr. Manager" OR "Snr Manager" OR Dir OR Chief OR Leader) AND (Quality OR QA OR QE OR SDET OR SET OR Test OR Testing OR Automation OR "Quality Engineering" OR "Quality Assurance" OR "Software Quality" OR "Software Test"))'
+    - '((Manager OR EM OR Mgr OR "Eng Manager" OR "Engineering Manager") AND (Quality OR QA OR QE OR SDET OR SET OR Test OR Testing OR Automation OR "Quality Engineering" OR "Quality Assurance" OR "Software Quality" OR "Software Test"))'
+    - '((Architect OR Principal OR Staff OR Lead OR "Lead Engineer" OR "Staff Engineer") AND (Quality OR QA OR QE OR SDET OR SET OR Test OR Testing OR Automation OR "Quality Engineering" OR "Quality Assurance" OR "Software Quality" OR "Software Test"))'
+    - '((Quality OR QA OR QE OR SDET OR SET OR Test OR Testing OR Automation OR "Quality Engineering" OR "Quality Assurance" OR "Software Quality" OR "Software Test") AND (Manager OR Director OR Lead OR Head OR EM OR Architect))'
 
 
 

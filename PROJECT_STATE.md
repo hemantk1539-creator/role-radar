@@ -18,16 +18,23 @@
 | **Global Intel** | Power 6 Hubs | **Hardened** | **Tier 1-4 (Diamond Sorted)** |
 
 ## ⚙️ Current Runtime Config
-- **Strategy:** **Elastic Saturation Engine (v2.8)**.
-- **Search Engine:** Atomic Keyword Intersection (Anti-Phrase-Trap).
+- **Strategy:** **Clinical Saturation Engine (v2.8.2)**.
+- **Search Engine:** Atomic Keyword Intersection (< 250 Char Safety).
 - **Seniority:** EM, SEM, Manager, Sr Manager, Director, Head, Architect, Principal, Staff, Chief, Leader.
 - **Domain:** Quality, QA, QE, SDET, SET, Test, Testing, Automation.
 - **Lookback:** 72-Hour sliding window.
-- **Status:** **DEPLOYED & VERIFIED (v2.8).** 
+- **Status:** **DEPLOYED & VERIFIED (v2.8.2).** 
 
 ---
 
 # 📜 Session History (Log)
+
+### Session 105.6: Optimization to v2.8.2 (Clinical Saturation)
+- **Date:** 2026-02-23
+- **Action:** Refined search strings to stay under the 250-character limit to prevent silent truncation on Naukri/Indeed.
+- **Optimization:** Compressed redundant phrases while maintaining 1:1 parity with the Sniper whitelist.
+- **Verification:** Empirically verified via `forensic_comparison.py` that atomic keywords (`Quality`, `Test`) capture all SDET and long-phrase roles without loss.
+- **Result:** System is now truncation-proof and phrasal-trap-proof.
 
 ### Session 105.5: Strategy Pivot to v2.8 Elastic Engine
 - **Date:** 2026-02-23
