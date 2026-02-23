@@ -329,9 +329,24 @@ def run():
     # OPTION B: Specialist Intelligence (Power 6 Hubs)
     # This replaces the noisy LinkedIn Worldwide search with 20+ specialized platforms.
     global_intel_raw = fetch_global_intelligence(config, levels, domains)
+    global_hrs = config["search"].get("global_hours_old", 72)
+    now_ts = time.time()
+    
     for j in global_intel_raw:
         if not j.get('job_url'): continue
         
+        # Freshness Check (Rule 19): respect global_hours_old for API/RSS results
+        # Note: We use 72h for global to ensure zero loss despite weekend gaps.
+        if j.get('date'):
+            try:
+                # Basic parsing for RSS/API dates (usually ISO or RFC 2822)
+                # If parsing fails, we default to including it for safety.
+                import dateutil.parser
+                job_ts = dateutil.parser.parse(j['date']).timestamp()
+                if (now_ts - job_ts) / 3600 > global_hrs:
+                    continue 
+            except: pass
+
         # JD Sniper (Rule 9) - Apply to API results too
         title_str = j.get('title', '').lower()
         if any(rs in title_str for rs in residency_signals):

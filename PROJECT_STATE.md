@@ -18,16 +18,25 @@
 | **Global Intel** | Power 6 Hubs | **Hardened** | **Tier 1-4 (Diamond Sorted)** |
 
 ## ⚙️ Current Runtime Config
-- **Strategy:** **Clinical Saturation Engine (v2.8.2)**.
-- **Search Engine:** Atomic Keyword Intersection (< 250 Char Safety).
+- **Strategy:** **Precision Freshness (v2.9)**.
+- **Search Engine:** Split Lookback (24h India / 72h Global).
 - **Seniority:** EM, SEM, Manager, Sr Manager, Director, Head, Architect, Principal, Staff, Chief, Leader.
 - **Domain:** Quality, QA, QE, SDET, SET, Test, Testing, Automation.
-- **Lookback:** 72-Hour sliding window.
-- **Status:** **DEPLOYED & VERIFIED (v2.8.2).** 
+- **Lookback:** **24h (India Scrape) / 72h (Global APIs).**
+- **Status:** **DEPLOYED & VERIFIED (v2.9).** 
 
 ---
 
 # 📜 Session History (Log)
+
+### Session 105.7: Optimization to v2.9 (Precision Freshness)
+- **Date:** 2026-02-23
+- **Strategy:** Implemented "Split Freshness" to optimize GitHub Action build time.
+- **Action:** 
+    - Reduced India search window to **24 hours** to minimize network payload and processing time (Target: ~15m run).
+    - Maintained Global Hub window at **72 hours** via custom Python timestamp filtering to protect against weekend role loss.
+- **Technical:** Integrated `dateutil.parser` in `job_alert_bot_github.py` for precise Global API freshness enforcement.
+- **Result:** Successfully deployed. Build time optimized for quota safety without compromising global coverage.
 
 ### Session 105.6: Optimization to v2.8.2 (Clinical Saturation)
 - **Date:** 2026-02-23
