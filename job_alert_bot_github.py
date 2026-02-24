@@ -372,11 +372,13 @@ def run():
         task_results = []
         active_terms = search_terms
         if "indeed" in task["sites"] and len(task["sites"]) == 1:
-            # Consolidation: String 1+2 and 3+4
-            active_terms = [
-                search_terms[0].replace("')","") + " OR " + search_terms[1].lstrip("'("),
-                search_terms[2].replace("')","") + " OR " + search_terms[3].lstrip("'(")
-            ]
+            # Consolidation: Combine search terms in pairs dynamically
+            active_terms = []
+            for i in range(0, len(search_terms), 2):
+                if i + 1 < len(search_terms):
+                    active_terms.append(search_terms[i].replace("')","") + " OR " + search_terms[i+1].lstrip("'("))
+                else:
+                    active_terms.append(search_terms[i])
 
         for term in active_terms:
             country_code = task["country"]
@@ -429,7 +431,6 @@ def run():
 
                     title_str = str(job.get('title', '')).lower()
                     loc_str = str(job.get('location', '')).lower()
-                    desc_str = str(job.get('description', '')).lower()
                     
                     # A. HUB-APPLICABILITY GUARD
                     if any(b in title_str or b in loc_str for b in blacklist):
@@ -520,7 +521,9 @@ def run():
             reason = None
             # 1. Final Blacklist pass (Check Company too)
             for b in blacklist:
-                if b in t or b in l or b in c:
+                # Use word boundaries to prevent 'sales' blocking 'salesforce'
+                pattern = r'\b' + re.escape(b) + r'\b'
+                if re.search(pattern, t) or re.search(pattern, l) or re.search(pattern, c):
                     reason = f"Blacklist: {b}"
                     break
             
