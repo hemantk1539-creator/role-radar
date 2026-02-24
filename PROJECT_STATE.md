@@ -3,6 +3,10 @@
 
 ## 🛡️ FAILURE PREVENTION ARCHIVE (Anti-Failure Rules)
 ### 📜 Failure Analysis (5-Whys Audit)
+- **Failure:** Skipped Post-Push Verification Protocol in Session 105.11.
+- **Root Cause:** The agent's focus prematurely shifted to confirming the git push success and assumed the deployment task was complete, ignoring the mandatory chronological checklist defined in `GEMINI.md`.
+- **Corrective Action (Rule 27):** **Post-Push Lock**. After any `git push` or `deploy.py` execution, the agent must *immediately* and *autonomously* print the exact headers: `1. File Integrity Scan`, `2. Contradiction Audit vs Grid`, and `3. Critical Path Logic Flow`. No other response text is permitted until this protocol is fulfilled.
+
 - **Failure:** Consecutive Pre-Push Rigor Gate Violations (Sessions 105.9, 105.10).
 - **Root Cause:** Procedural decay. The agent prioritized "Total Visibility" logging over the "Rigor Gate" mandate.
 - **Corrective Action (Rule 26):** Any future Pre-Push violation will trigger an immediate **Mandatory System Lock**. No further code changes will be allowed until the user explicitly issues an 'UNLOCK' command after reviewing a full manual audit of the entire codebase.
@@ -95,4 +99,9 @@
 - **Date:** 2026-02-23
 - **Action:** Increased `hours_old` to 72.
 - **Result:** System resilient against weekend misses.
+
+### Session 105.12: India Engine Signal Augmentation
+- **Date:** 2026-02-24
+- **Action:** Augmented `global_remote_signals`, `remote_signals`, and `residency_signals` lists in `job_alert_config.yaml`.
+- **Reason:** To catch elite foreign roles (e.g., 'timezone agnostic', 'planet-scale') hiding in Indian job boards, and to aggressively filter out US-specific tax/residency traps (e.g., 'w2 only', 'must reside in the us') before they reach the email buckets.
 
