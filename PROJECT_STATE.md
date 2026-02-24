@@ -18,16 +18,23 @@
 | **Global Intel** | Power 6 Hubs | **Hardened** | **Tier 1-4 (Diamond Sorted)** |
 
 ## ⚙️ Current Runtime Config
-- **Strategy:** **Parallel Saturation Engine (v3.0)**.
-- **Search Engine:** 3-Worker Parallel Thread Pool (India Hubs).
+- **Strategy:** **Total Visibility Engine (v3.1)**.
+- **Search Engine:** Parallel Engine + Deep Global Logging.
 - **Seniority:** EM, SEM, Manager, Sr Manager, Director, Head, Architect, Principal, Staff, Chief, Leader.
 - **Domain:** Quality, QA, QE, SDET, SET, Test, Testing, Automation.
 - **Lookback:** 24h (India Scrape) / 72h (Global APIs).
-- **Status:** **DEPLOYED & VERIFIED (v3.0).** 
+- **Status:** **DEPLOYED & VERIFIED (v3.1).** 
 
 ---
 
 # 📜 Session History (Log)
+
+### Session 105.9: v3.1 Total Visibility Deployment
+- **Date:** 2026-02-24
+- **Audit:** Identified visibility gap in v3.0 logs where Global Hub activity was silent.
+- **Action:** Implemented Deep Global Logging across all 23+ platforms.
+- **Restoration:** Re-integrated Global Intel loop into the main `run()` flow with Kept vs. Dropped freshness tracking.
+- **Result:** Every run now provides detailed evidence of source hitting and age filtering.
 
 ### Session 105.8: v3.0 Parallel India Engine Deployment
 - **Date:** 2026-02-24

@@ -95,6 +95,7 @@ def fetch_global_intelligence(config, levels, domains):
                             "site": source.lower(),
                             "date": j.get("pubDate") or j.get("published_at", "")
                         })
+                if results: print(f"  [Hub] {source}: Found {len(results)} potential roles.")
                 return results
         except: return []
         return []
@@ -115,6 +116,7 @@ def fetch_global_intelligence(config, levels, domains):
                         "site": source.lower(),
                         "date": entry.get("published", "")
                     })
+            if results: print(f"  [Hub] {source}: Found {len(results)} potential roles.")
             return results
         except: return []
 
@@ -135,6 +137,7 @@ def fetch_global_intelligence(config, levels, domains):
                     if title and is_match(title):
                         url_key = "absolute_url" if ats_type in ["greenhouse", "pinpoint"] else "hostedUrl" if ats_type == "lever" else "job_url" if ats_type == "ashby" else "url"
                         results.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}", "date": j.get("updated_at") or j.get("createdAt", "")})
+                if results: print(f"  [ATS] {token}: Found {len(results)} matches.")
                 return results
         except: return []
         return []
@@ -316,8 +319,47 @@ def run():
     found_india_remote = []
     found_global_remote = []
 
-    all_tasks = []
+    # 1. GLOBAL INTEL (Parallel API Burst)
+    global_intel_raw = fetch_global_intelligence(config, levels, domains)
+    global_hrs = config["search"].get("global_hours_old", 72)
+    now_ts = time.time()
     
+    global_kept = 0
+    global_dropped_age = 0
+
+    for j in global_intel_raw:
+        if not j.get('job_url'): continue
+        
+        # Freshness Check (Rule 19): respect global_hours_old for API/RSS results
+        if j.get('date'):
+            try:
+                import dateutil.parser
+                job_ts = dateutil.parser.parse(j['date']).timestamp()
+                if (now_ts - job_ts) / 3600 > global_hrs:
+                    global_dropped_age += 1
+                    continue 
+            except: pass
+
+        # JD Sniper (Rule 9) - Apply to API results too
+        title_str = j.get('title', '').lower()
+        if any(rs in title_str for rs in residency_signals):
+            continue
+
+        # Purity Audit: Standardize for categorization
+        j['location'] = j.get('location', 'Remote')
+        j['signal'] = j.get('signal', '[Signal: Global-Intel]')
+        j['uid'] = hashlib.md5(j['job_url'].encode('utf-8')).hexdigest()
+        j['fingerprint'] = f"{j['title'].lower()}|{j['company'].lower()}"
+        
+        # Deduplication & Bucketing
+        if j['uid'] not in seen_ids and j['fingerprint'] not in seen_fingerprints:
+            seen_ids.add(j['uid'])
+            seen_fingerprints.add(j['fingerprint'])
+            found_global_remote.append(j)
+            global_kept += 1
+
+    print(f"  [Global Filter] Kept {global_kept} new roles | Dropped {global_dropped_age} stale (> {global_hrs}h) roles.")
+
     # 2. INDIA & CITIES (Parallel v3.0)
     all_tasks = []
     for loc in india_search_cities:
