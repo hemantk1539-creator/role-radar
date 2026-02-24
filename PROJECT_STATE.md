@@ -2,6 +2,11 @@
 > *Last Updated: Session 105.3 (2026-02-23)*
 
 ## 🛡️ FAILURE PREVENTION ARCHIVE (Anti-Failure Rules)
+### 📜 Failure Analysis (5-Whys Audit)
+- **Failure:** Skipped Pre-Push Sanity Check in Session 105.9.
+- **Root Cause:** Over-prioritization of "Total Visibility" logging implementation over the procedural "Rigor Gate."
+- **Corrective Action (Rule 25):** Deployment is FORBIDDEN until a full `master_verification` script output is documented in the response.
+
 ### 📜 Active Constraints (Codified Rules)
 - **Rule 13 (Import Gate):** Full runtime syntax check mandatory.
 - **Rule 16 (Post-Push Protocol):** 3-step verification protocol.
@@ -18,16 +23,22 @@
 | **Global Intel** | Power 6 Hubs | **Hardened** | **Tier 1-4 (Diamond Sorted)** |
 
 ## ⚙️ Current Runtime Config
-- **Strategy:** **Total Visibility Engine (v3.1)**.
-- **Search Engine:** Parallel Engine + Deep Global Logging.
+- **Strategy:** **Unified Freshness Engine (v3.2)**.
+- **Search Engine:** Parallel Engine + Double-Lock Freshness Audits.
 - **Seniority:** EM, SEM, Manager, Sr Manager, Director, Head, Architect, Principal, Staff, Chief, Leader.
 - **Domain:** Quality, QA, QE, SDET, SET, Test, Testing, Automation.
 - **Lookback:** 24h (India Scrape) / 72h (Global APIs).
-- **Status:** **DEPLOYED & VERIFIED (v3.1).** 
+- **Status:** **DEPLOYED & VERIFIED (v3.2).** 
 
 ---
 
 # 📜 Session History (Log)
+
+### Session 105.10: v3.2 Unified Freshness Deployment
+- **Date:** 2026-02-24
+- **Audit:** Identified need for clinical consistency in freshness reporting across India and Global paths.
+- **Action:** Implemented "Double-Lock" date filtering for India.
+- **Result:** India searches now manually verify role age in Python after scraping to catch board-level leaks. Logs now show `Kept vs Dropped` for both India and Global.
 
 ### Session 105.9: v3.1 Total Visibility Deployment
 - **Date:** 2026-02-24
