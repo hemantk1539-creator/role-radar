@@ -318,55 +318,16 @@ def run():
 
     all_tasks = []
     
-    # 1. INDIA CITIES (Mandate 1 & 2)
+    # 2. INDIA & CITIES (Parallel v3.0)
+    all_tasks = []
     for loc in india_search_cities:
         # LinkedIn and Naukri (Standard 4-burst)
         all_tasks.append({"sites": ["linkedin", "naukri"], "country": india_code, "loc": loc})
         # Indeed (Optimized 2-burst)
         all_tasks.append({"sites": ["indeed"], "country": india_code, "loc": loc})
-            
-    # 2. GLOBAL HUB GRID (Mandate 3)
-    # OPTION B: Specialist Intelligence (Power 6 Hubs)
-    # This replaces the noisy LinkedIn Worldwide search with 20+ specialized platforms.
-    global_intel_raw = fetch_global_intelligence(config, levels, domains)
-    global_hrs = config["search"].get("global_hours_old", 72)
-    now_ts = time.time()
-    
-    for j in global_intel_raw:
-        if not j.get('job_url'): continue
-        
-        # Freshness Check (Rule 19): respect global_hours_old for API/RSS results
-        # Note: We use 72h for global to ensure zero loss despite weekend gaps.
-        if j.get('date'):
-            try:
-                # Basic parsing for RSS/API dates (usually ISO or RFC 2822)
-                # If parsing fails, we default to including it for safety.
-                import dateutil.parser
-                job_ts = dateutil.parser.parse(j['date']).timestamp()
-                if (now_ts - job_ts) / 3600 > global_hrs:
-                    continue 
-            except: pass
 
-        # JD Sniper (Rule 9) - Apply to API results too
-        title_str = j.get('title', '').lower()
-        if any(rs in title_str for rs in residency_signals):
-            continue
-
-        # Purity Audit: Standardize for categorization
-        j['location'] = j.get('location', 'Remote')
-        j['signal'] = j.get('signal', '[Signal: Global-Intel]')
-        j['description'] = j.get('description', '') # Optional
-        j['uid'] = hashlib.md5(j['job_url'].encode('utf-8')).hexdigest()
-        j['fingerprint'] = f"{j['title'].lower()}|{j['company'].lower()}"
-        
-        # Deduplication & Bucketing
-        if j['uid'] not in seen_ids and j['fingerprint'] not in seen_fingerprints:
-            seen_ids.add(j['uid'])
-            seen_fingerprints.add(j['fingerprint'])
-            found_global_remote.append(j)
-
-    for task in all_tasks:
-        # OPTIMIZATION: Combine terms for Indeed only (Indeed supports 500+ chars)
+    def execute_scrape(task):
+        task_results = []
         active_terms = search_terms
         if "indeed" in task["sites"] and len(task["sites"]) == 1:
             # Consolidation: String 1+2 and 3+4
@@ -381,146 +342,103 @@ def run():
             task_sites = [s for s in task["sites"] if s not in blocked_sites]
             if not task_sites: continue
             
-            # --- DEEP DIVE STRATEGY (Zero-Yield Hubs) ---
-            is_deep_dive = country_code.lower() in deep_scrape_hubs
-            
-            if is_deep_dive:
-                # Relaxed Scraping: Disable platform filter, Force Keyword
-                is_remote_task = False 
-                term = f"{term} {deep_scrape_keyword}"
-                rw = deep_scrape_limit
-                print(f"  > [DEEP DIVE] Searching: '{term[:40]}...' in '{search_loc}' (Top {rw})")
-            else:
-                # Standard Logic: Platform Filter
-                is_remote_task = (search_loc.lower() == global_loc.lower()) or (country_code != india_code)
-                # Site-specific results depth calculation
-                rw = config["search"].get("results_wanted", 30)
-                if "naukri" in task_sites: rw = max(rw, config["search"].get("naukri_results_wanted", 0))
-                if "indeed" in task_sites: rw = max(rw, config["search"].get("indeed_results_wanted", 0))
-                print(f"  > Searching: '{term[:40]}...' in '{search_loc}' [{country_code}] via {task_sites}...")
-
             try:
-                time.sleep(random.uniform(4, 6))
+                # Conservative delay for parallel safety
+                time.sleep(random.uniform(3, 5))
                 
                 res = scrape_jobs(
                     site_name=task_sites, 
                     search_term=term, 
                     location=search_loc, 
-                    is_remote=is_remote_task,
-                    results_wanted=rw,
-                    hours_old=config["search"].get("hours_old", 48),
+                    results_wanted=config["search"].get("results_wanted", 30) if "naukri" not in task_sites else config["search"].get("naukri_results_wanted", 0),
+                    hours_old=config["search"].get("hours_old", 24),
                     country_indeed=country_code
                 )
                 
                 if res is not None and not res.empty:
-                    new_results = res.to_dict('records')
-                    for job in new_results:
-                        title_str = str(job.get('title', '')).lower()
-                        loc_str = str(job.get('location', '')).lower()
-                        desc_str = str(job.get('description', '')).lower()
-                        
-                        # A. HUB-APPLICABILITY GUARD
-                        if any(b in title_str or b in loc_str for b in blacklist):
-                            continue
+                    task_results.extend(res.to_dict('records'))
+            except: pass
+        return task_results, task["loc"], task["country"]
 
-                        # B. SENIORITY WHITELIST (Strict Word Boundaries)
-                        # Prevents "system" matching "em", "asset" matching "set", etc.
-                        def has_word_match(text, term_list):
-                            for term in term_list:
-                                # Regex: \b = Word Boundary. 
-                                # Matches "EM" but not "System". Matches "QA" but not "Aqua".
-                                pattern = r'\b' + re.escape(term) + r'\b'
-                                if re.search(pattern, text, re.IGNORECASE):
-                                    return True
-                            return False
-
-                        has_level = has_word_match(title_str, levels)
-                        has_domain = has_word_match(title_str, domains)
-                        
-                        if not (has_level and has_domain):
-                            continue
-                            
-                        # --- DEEP DIVE JD CHECK ---
-                        if is_deep_dive and deep_scrape_description_check:
-                            # Must verify "Remote" in description since we disabled platform filter
-                            # Also check title/location for redundancy
-                            has_remote_kw = any(r in desc_str or r in title_str or r in loc_str for r in remote_signals)
-                            if not has_remote_kw:
-                                # DISCARD: Local job caught by relaxed scraping
-                                continue
-
-                        # C. ID & CATEGORIZATION
-                        jurl = job.get('job_url', '')
-                        if not jurl: continue
-                        
-                        jid = hashlib.md5(jurl.encode('utf-8')).hexdigest()
-                        company_str = str(job.get('company', '')).lower()
-                        # TRIPLE-ANCHOR FINGERPRINT (Title + Company + City)
-                        # loc_str can be messy ("Pune, India"); we use search_loc ("Pune") as the anchor
-                        fingerprint = f"{title_str}|{company_str}|{search_loc.lower()}"
-
-                        # RULE 9: Duplicate Sniper (Cross-Site Deduplication with City Hub Fence)
-                        if jid in seen_ids or fingerprint in seen_fingerprints:
-                            continue
-
-                        job['uid'] = jid
-                        job['fingerprint'] = fingerprint
-                        seen_ids.add(jid)
-                        seen_fingerprints.add(fingerprint)
-                        
-                        # --- 3-BUCKET CATEGORIZATION (v1.3 Intelligence) ---
-                        has_global_signal = any(gs in title_str or gs in loc_str for gs in global_remote_signals)
-                        is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
-                        is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
-                        is_hybrid_signal = any(h in loc_str or h in title_str for h in ["hybrid", "flexible", "flex", "partially", "office optional", "wfo"])
-                        
-                        # JD Sniper (Rule 9): Residency discard
-                        if any(rs in title_str or rs in loc_str for rs in residency_signals):
-                            continue
-
-                        is_india_job = ("india" in loc_str or is_local_city) or \
-                                       (country_code == india_code and loc_str.strip() in ["remote", "wfh", "work from home", "telecommute", "pan india"])
-                        
-                        if is_remote_explicit or is_remote_task:
-                            # Categorize as Remote
-                            if country_code == india_code:
-                                if has_global_signal:
-                                    job['location'] = f"{loc_str} [Signal: Global-In-India]"
-                                    found_global_remote.append(job)
-                                elif is_local_city:
-                                    # HYBRID/REMOTE-LOCAL PRIORITY
-                                    sig_type = "Hybrid" if is_hybrid_signal else "Remote"
-                                    job['location'] = f"{loc_str} [Signal: {sig_type}-Local]"
-                                    found_local.append(job)
-                                elif is_india_job:
-                                    job['location'] = f"{loc_str} [Signal: India-WFA]"
-                                    found_india_remote.append(job)
-                                else:
-                                    # International leak in India task
-                                    continue
-                            elif country_code == "worldwide":
-                                job['location'] = f"{loc_str} [Signal: Worldwide Task]"
-                                found_global_remote.append(job)
-                            elif has_global_signal:
-                                sig = next((s for s in global_remote_signals if s in title_str or s in loc_str), "Global")
-                                job['location'] = f"{loc_str} [Signal: {sig}]"
-                                found_global_remote.append(job)
-                            else:
-                                # Domestic fodder (e.g. US Remote only)
-                                continue
-                        elif is_local_city:
-                            found_local.append(job)
-                        elif country_code == india_code and is_india_job:
-                            found_local.append(job)
-                        else:
-                            continue
+    print(f"  > Launching Parallel India Engine (3 Workers)...")
+    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {executor.submit(execute_scrape, t): t for t in all_tasks}
+        for future in concurrent.futures.as_completed(futures):
+            new_results, search_loc, country_code = future.result()
+            for job in new_results:
+                title_str = str(job.get('title', '')).lower()
+                loc_str = str(job.get('location', '')).lower()
+                desc_str = str(job.get('description', '')).lower()
                 
-                time.sleep(1) # Cooldown between terms
-            except Exception as e:
-                print(f"    [SITE ERROR] '{task_sites}' failed: {str(e)[:100]}")
-                continue
+                # A. HUB-APPLICABILITY GUARD
+                if any(b in title_str or b in loc_str for b in blacklist):
+                    continue
+
+                # B. SENIORITY WHITELIST (Strict Word Boundaries)
+                def has_word_match(text, term_list):
+                    for term in term_list:
+                        pattern = r'\b' + re.escape(term) + r'\b'
+                        if re.search(pattern, text, re.IGNORECASE):
+                            return True
+                    return False
+
+                if not (has_word_match(title_str, levels) and has_word_match(title_str, domains)):
+                    continue
+                    
+                # C. ID & CATEGORIZATION
+                jurl = job.get('job_url', '')
+                if not jurl: continue
+                
+                jid = hashlib.md5(jurl.encode('utf-8')).hexdigest()
+                company_str = str(job.get('company', '')).lower()
+                fingerprint = f"{title_str}|{company_str}|{search_loc.lower()}"
+
+                if jid in seen_ids or fingerprint in seen_fingerprints:
+                    continue
+
+                job['uid'] = jid
+                job['fingerprint'] = fingerprint
+                seen_ids.add(jid)
+                seen_fingerprints.add(fingerprint)
+                
+                # --- 3-BUCKET CATEGORIZATION (v1.3 Intelligence) ---
+                has_global_signal = any(gs in title_str or gs in loc_str for gs in global_remote_signals)
+                is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
+                is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
+                is_hybrid_signal = any(h in loc_str or h in title_str for h in ["hybrid", "flexible", "flex", "partially", "office optional", "wfo"])
+                
+                if any(rs in title_str or rs in loc_str for rs in residency_signals):
+                    continue
+
+                is_india_job = ("india" in loc_str or is_local_city) or \
+                               (country_code == india_code and loc_str.strip() in ["remote", "wfh", "work from home", "telecommute", "pan india"])
+                
+                if is_remote_explicit:
+                    if country_code == india_code:
+                        if has_global_signal:
+                            job['location'] = f"{loc_str} [Signal: Global-In-India]"
+                            found_global_remote.append(job)
+                        elif is_local_city:
+                            sig_type = "Hybrid" if is_hybrid_signal else "Remote"
+                            job['location'] = f"{loc_str} [Signal: {sig_type}-Local]"
+                            found_local.append(job)
+                        elif is_india_job:
+                            job['location'] = f"{loc_str} [Signal: India-WFA]"
+                            found_india_remote.append(job)
+                    elif country_code == "worldwide":
+                        job['location'] = f"{loc_str} [Signal: Worldwide Task]"
+                        found_global_remote.append(job)
+                    elif has_global_signal:
+                        sig = next((s for s in global_remote_signals if s in title_str or s in loc_str), "Global")
+                        job['location'] = f"{loc_str} [Signal: {sig}]"
+                        found_global_remote.append(job)
+                elif is_local_city:
+                    found_local.append(job)
+                elif country_code == india_code and is_india_job:
+                    found_local.append(job)
 
     total_found = len(found_local) + len(found_india_remote) + len(found_global_remote)
+
     
     # --- FINAL QUALITY GATE (The Trash Compactor) ---
     def finalize_list(job_list):
