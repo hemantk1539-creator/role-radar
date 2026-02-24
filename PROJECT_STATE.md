@@ -105,3 +105,10 @@
 - **Action:** Augmented `global_remote_signals`, `remote_signals`, and `residency_signals` lists in `job_alert_config.yaml`.
 - **Reason:** To catch elite foreign roles (e.g., 'timezone agnostic', 'planet-scale') hiding in Indian job boards, and to aggressively filter out US-specific tax/residency traps (e.g., 'w2 only', 'must reside in the us') before they reach the email buckets.
 
+### Session 105.13: Total Visibility Logging Deployment
+- **Date:** 2026-02-24
+- **Action:** Implemented granular logging across Global Hubs and India Engine.
+- **Global:** Removed conditional suppression of 0-match results. Bot now explicitly logs every hub/ATS check.
+- **India:** Workers now announce active city/site scrapes.
+- **Reason:** To provide a verifiable "heartbeat" in GitHub Action logs, ensuring every configured source is being actively hit and processed, and allowing for easier remote debugging.
+

@@ -95,7 +95,7 @@ def fetch_global_intelligence(config, levels, domains):
                             "site": source.lower(),
                             "date": j.get("pubDate") or j.get("published_at", "")
                         })
-                if results: print(f"  [Hub] {source}: Found {len(results)} potential roles.")
+                print(f"  [Hub] {source}: Found {len(results)} potential roles.")
                 return results
         except: return []
         return []
@@ -116,7 +116,7 @@ def fetch_global_intelligence(config, levels, domains):
                         "site": source.lower(),
                         "date": entry.get("published", "")
                     })
-            if results: print(f"  [Hub] {source}: Found {len(results)} potential roles.")
+            print(f"  [Hub] {source}: Found {len(results)} potential roles.")
             return results
         except: return []
 
@@ -137,7 +137,7 @@ def fetch_global_intelligence(config, levels, domains):
                     if title and is_match(title):
                         url_key = "absolute_url" if ats_type in ["greenhouse", "pinpoint"] else "hostedUrl" if ats_type == "lever" else "job_url" if ats_type == "ashby" else "url"
                         results.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}", "date": j.get("updated_at") or j.get("createdAt", "")})
-                if results: print(f"  [ATS] {token}: Found {len(results)} matches.")
+                print(f"  [ATS] {token}: Found {len(results)} matches.")
                 return results
         except: return []
         return []
@@ -369,6 +369,7 @@ def run():
         all_tasks.append({"sites": ["indeed"], "country": india_code, "loc": loc})
 
     def execute_scrape(task):
+        print(f"    [India Worker] Scraping {task['loc']} on {', '.join(task['sites'])}...")
         task_results = []
         active_terms = search_terms
         if "indeed" in task["sites"] and len(task["sites"]) == 1:
