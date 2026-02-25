@@ -377,7 +377,7 @@ def run():
             active_terms = []
             for i in range(0, len(search_terms), 2):
                 if i + 1 < len(search_terms):
-                    active_terms.append(search_terms[i].replace("')","") + " OR " + search_terms[i+1].lstrip("'("))
+                    active_terms.append(f"({search_terms[i]}) OR ({search_terms[i+1]})")
                 else:
                     active_terms.append(search_terms[i])
 
@@ -433,11 +433,6 @@ def run():
                     title_str = str(job.get('title', '')).lower()
                     loc_str = str(job.get('location', '')).lower()
                     
-                    # A. HUB-APPLICABILITY GUARD
-                    if any(b in title_str or b in loc_str for b in blacklist):
-                        continue
-
-                    # B. SENIORITY WHITELIST (Strict Word Boundaries)
                     def has_word_match(text, term_list):
                         for term in term_list:
                             pattern = r'\b' + re.escape(term) + r'\b'
@@ -445,6 +440,11 @@ def run():
                                 return True
                         return False
 
+                    # A. HUB-APPLICABILITY GUARD
+                    if has_word_match(title_str, blacklist) or has_word_match(loc_str, blacklist):
+                        continue
+
+                    # B. SENIORITY WHITELIST (Strict Word Boundaries)
                     if not (has_word_match(title_str, levels) and has_word_match(title_str, domains)):
                         continue
                         

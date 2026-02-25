@@ -112,3 +112,16 @@
 - **India:** Workers now announce active city/site scrapes.
 - **Reason:** To provide a verifiable "heartbeat" in GitHub Action logs, ensuring every configured source is being actively hit and processed, and allowing for easier remote debugging.
 
+
+### Session 105.14: Context Alignment & Directory Migration
+- Date: 2026-02-25
+- Action: Synchronized with v3.2 state and project mandates. Identified technical debt (JD Check, Substring Trap, Indeed Fragility).
+- Status: Session ended to allow restart from the correct project-specific directory.
+
+### Session 105.15: v3.2.1 Structural Integrity Fixes
+- **Date:** 2026-02-25
+- **Audit:** Analyzed pending technical debt affecting India Pipeline Categorization and Indeed stability. Confirmed JD Check is unfeasible due to strict GitHub Action quota limits (abandoned). 
+- **Action:** 
+    1. Implemented regex word boundaries `\b` for `blacklist` matching in Hub-Applicability Guard to prevent "Substring Traps" (e.g. 'sales' blocking 'salesforce').
+    2. Replaced fragile `')'` stripping in Indeed worker with robust `f-string` grouping `f"({t1}) OR ({t2})"`.
+- **Result:** Pipeline is now immune to false-positive blacklist drops and index-crash vulnerabilities. Ready for deployment.
