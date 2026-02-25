@@ -7556,5 +7556,80 @@
         "id": "0b904512efb2fac544577ed416fd553f",
         "fingerprint": "engineering manager, load testing|okta",
         "date": "2026-02-24T19:50:50.559439"
+    },
+    {
+        "id": "91fe33ed6ab93a6a090464b4e8f80071",
+        "fingerprint": "test manager (hardware)|texas instruments|bengaluru",
+        "date": "2026-02-25T06:49:40.699831"
+    },
+    {
+        "id": "211dc4b34ba04c78a3ab28cc5d8ff240",
+        "fingerprint": "quality engineering architect (test arch|accenture|bengaluru",
+        "date": "2026-02-25T06:49:40.699847"
+    },
+    {
+        "id": "57d0c9e5e5f31f5b1b2ed07fc245a52b",
+        "fingerprint": "manager - instrumentation and automation|biocon biologics|bengaluru",
+        "date": "2026-02-25T06:49:40.699850"
+    },
+    {
+        "id": "17a1b593f1ba90b33e95f67533c40de1",
+        "fingerprint": "manager \u2013 lidar testing & automotive compliance|evnek|bengaluru",
+        "date": "2026-02-25T06:49:40.699853"
+    },
+    {
+        "id": "d98b194dccdef0dba21c0421a9630043",
+        "fingerprint": "murex test manager|luxoft|bengaluru",
+        "date": "2026-02-25T06:49:40.699855"
+    },
+    {
+        "id": "d4efc0e57f009a06ae3d2fd1a1d83eb3",
+        "fingerprint": "senior product manager - nutanix test drive|nutanix|bengaluru",
+        "date": "2026-02-25T06:49:40.699858"
+    },
+    {
+        "id": "a0e2fb6e9295ca373eafb832bd3d277d",
+        "fingerprint": "quality assurance lead|accenture|pune",
+        "date": "2026-02-25T06:49:40.699860"
+    },
+    {
+        "id": "e9d5679a0c185e90f4a8c44023d8426a",
+        "fingerprint": "manager, software engineering (quality) \u2013 full stack|mastercard|pune",
+        "date": "2026-02-25T06:49:40.699863"
+    },
+    {
+        "id": "efd06162c8626ba7ffdc3de2e0c97953",
+        "fingerprint": "manager, software engineering ( quality) \u2013 full stack|mastercard|pune",
+        "date": "2026-02-25T06:49:40.699865"
+    },
+    {
+        "id": "8e12078cfa3aab2e85c7914de5c2b021",
+        "fingerprint": "test lead|learningmate|mumbai",
+        "date": "2026-02-25T06:49:40.699868"
+    },
+    {
+        "id": "921473cdd64fad4833c8dabef35fd021",
+        "fingerprint": "quality assurance asst.manager|promea therapeutics|hyderabad",
+        "date": "2026-02-25T06:49:40.699870"
+    },
+    {
+        "id": "c4343159b9283c4d5f753d627e15a6bc",
+        "fingerprint": "automation test lead|people prime worldwide|hyderabad",
+        "date": "2026-02-25T06:49:40.699873"
+    },
+    {
+        "id": "cfc47c55a4bfb15af0122fab53fc0c1a",
+        "fingerprint": "quality assurance lead|accenture|chennai",
+        "date": "2026-02-25T06:49:40.699875"
+    },
+    {
+        "id": "57f368a68ec1d68ccc8a9c30d9f2e463",
+        "fingerprint": "manager consulting expert -testing manager \u2013 banking|cgi|chennai",
+        "date": "2026-02-25T06:49:40.699877"
+    },
+    {
+        "id": "c7039dc3cc587fbb66d12acf58fbdd45",
+        "fingerprint": "lead \u2013 optical payload ait (assembly, integration & testing)|azista space|ahmedabad",
+        "date": "2026-02-25T06:49:40.699880"
     }
 ]
