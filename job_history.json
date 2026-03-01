@@ -9021,5 +9021,65 @@
         "id": "b2720edbb6f9ca3ce260209df047a541",
         "fingerprint": "global quality director|kidde global solutions|remote",
         "date": "2026-03-01T12:49:23.621175"
+    },
+    {
+        "id": "3fb960c1a514e4fd081049aabed61dd4",
+        "fingerprint": "qa manager|mihup.ai|pune",
+        "date": "2026-03-01T19:49:47.958745"
+    },
+    {
+        "id": "8ef805af4970e216a4e6e8e452120237",
+        "fingerprint": "lead .net automation test engineer|epam systems|pune",
+        "date": "2026-03-01T19:49:47.958763"
+    },
+    {
+        "id": "c48cae426501fff1fb51eb66c548db3c",
+        "fingerprint": "lead python automation test engineer|epam systems|pune",
+        "date": "2026-03-01T19:49:47.958767"
+    },
+    {
+        "id": "043b24d76b0677af8e634fc88147c2c8",
+        "fingerprint": "test manager - digital gcc|rockwell automation|bengaluru",
+        "date": "2026-03-01T19:49:47.958770"
+    },
+    {
+        "id": "6e83261a73ce66068fb8dff099c52eb7",
+        "fingerprint": "delivery quality assurance manager digital gcc|lektronix|bengaluru",
+        "date": "2026-03-01T19:49:47.958773"
+    },
+    {
+        "id": "c3aec721d9aa2acdf829bac9c517f615",
+        "fingerprint": "delivery quality assurance manager digital gcc|rockwell automation|bengaluru",
+        "date": "2026-03-01T19:49:47.958775"
+    },
+    {
+        "id": "c961deaac5afd48948de047586e4baec",
+        "fingerprint": "quality architect|epam systems|bengaluru",
+        "date": "2026-03-01T19:49:47.958778"
+    },
+    {
+        "id": "0c956eabe1941cc830768d0df526778c",
+        "fingerprint": "principal software development engineer - test - automation testing|sampoorna consultants|bengaluru",
+        "date": "2026-03-01T19:49:47.958780"
+    },
+    {
+        "id": "a5c12c75f0c6eb052b90b044a9f2e51f",
+        "fingerprint": "sr staff engineer-cpu software test engineer (server)|qualcomm|bengaluru",
+        "date": "2026-03-01T19:49:47.958783"
+    },
+    {
+        "id": "3852200437d3e99438207c6de6859358",
+        "fingerprint": "lead sdet - revex|highlevel|gurugram",
+        "date": "2026-03-01T19:49:47.958785"
+    },
+    {
+        "id": "82966d1a166f63875117b76d729cb6a8",
+        "fingerprint": "gpon - staff test engineer|qualcomm|chennai",
+        "date": "2026-03-01T19:49:47.958788"
+    },
+    {
+        "id": "13aa15f5933bdca668d486f7d0da39f2",
+        "fingerprint": "senior manager, factory automation engineering|dandy|remote",
+        "date": "2026-03-01T19:49:47.958790"
     }
 ]
