@@ -1,45 +1,5 @@
 [
     {
-        "id": "initial-wake-up",
-        "date": "2026-02-16T21:00:00Z"
-    },
-    {
-        "id": "Sr. Test Manager-Standard Chartered Bank-KA, IN",
-        "date": "2026-02-17T20:27:44.262016"
-    },
-    {
-        "id": "Quality Assurance Manager-THE BARE BAR-",
-        "date": "2026-02-17T20:27:44.262024"
-    },
-    {
-        "id": "Senior Manager, QA-Fiery-Bengaluru, Karnataka, India",
-        "date": "2026-02-17T20:27:44.262027"
-    },
-    {
-        "id": "Sr. Test Manager-Standard Chartered India-Bengaluru East, Karnataka, India",
-        "date": "2026-02-17T20:27:44.262028"
-    },
-    {
-        "id": "Sr. Test Manager-myGwork - LGBTQ+ Business Community-Bengaluru, Karnataka, India",
-        "date": "2026-02-17T20:27:44.262030"
-    },
-    {
-        "id": "Lead Software Engineer(backend)-Elevate Global-Bengaluru, Karnataka, India",
-        "date": "2026-02-17T20:27:44.262032"
-    },
-    {
-        "id": "Security Engineer-Shell-Bengaluru East, Karnataka, India",
-        "date": "2026-02-17T20:27:44.262034"
-    },
-    {
-        "id": "Automation Testing _ Director _ QA Engineering-Morgan Stanley-Bengaluru, Karnataka, India",
-        "date": "2026-02-17T20:27:44.262035"
-    },
-    {
-        "id": "QA Automation Engineer_Director_QA Engineering-Morgan Stanley-Bengaluru, Karnataka, India",
-        "date": "2026-02-17T20:27:44.262037"
-    },
-    {
         "id": "Measurement and Reporting Analyst-Accenture in India-Pune, Maharashtra, India",
         "date": "2026-02-17T20:27:44.262039"
     },
@@ -9081,5 +9041,55 @@
         "id": "13aa15f5933bdca668d486f7d0da39f2",
         "fingerprint": "senior manager, factory automation engineering|dandy|remote",
         "date": "2026-03-01T19:49:47.958790"
+    },
+    {
+        "id": "f0c136829602d2e367b24f51016700af",
+        "fingerprint": "lead javascript automation test engineer|epam systems|pune",
+        "date": "2026-03-02T06:49:28.458645"
+    },
+    {
+        "id": "07854e551aec0e744bb4b574dc4303c4",
+        "fingerprint": "quality & training manager|lifebridge group|bengaluru",
+        "date": "2026-03-02T06:49:28.458663"
+    },
+    {
+        "id": "0edd09a34027f85d649d7dae02996fed",
+        "fingerprint": "qa qc manager|rainbow hr consulting services|mumbai",
+        "date": "2026-03-02T06:49:28.458666"
+    },
+    {
+        "id": "32b9466d688cf31fb09e31de4901b5d8",
+        "fingerprint": "sap quality engineering - program director|capgemini|mumbai",
+        "date": "2026-03-02T06:49:28.458669"
+    },
+    {
+        "id": "c4a826f2f4e4458c8363b465e75e447c",
+        "fingerprint": "quality manager plastic packaging|plastemartjobs|hyderabad",
+        "date": "2026-03-02T06:49:28.458671"
+    },
+    {
+        "id": "9b7622016f3d03a8182f65b409532421",
+        "fingerprint": "lead i, quality engineering|s&p global market intelligence|delhi",
+        "date": "2026-03-02T06:49:28.458674"
+    },
+    {
+        "id": "e7079f2e6212b1dc447911175a69d2c3",
+        "fingerprint": "asst manager quality auditor|access healthcare|noida",
+        "date": "2026-03-02T06:49:28.458676"
+    },
+    {
+        "id": "d9fcb71002c20ad9e76da73b94338534",
+        "fingerprint": "quality assurance manager|sameta metal pro|chennai",
+        "date": "2026-03-02T06:49:28.458678"
+    },
+    {
+        "id": "0d402929accce328e025383a8d7dfef1",
+        "fingerprint": "quality manager bpo/manager quality/ bpo quality manager|selectica international solutions|chennai",
+        "date": "2026-03-02T06:49:28.458681"
+    },
+    {
+        "id": "929f89e9704aef258ecb1416e05e2526",
+        "fingerprint": "testing lead|larsen & toubro|ahmedabad",
+        "date": "2026-03-02T06:49:28.458683"
     }
 ]
