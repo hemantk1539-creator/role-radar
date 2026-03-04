@@ -1,89 +1,5 @@
 [
     {
-        "id": "Quality Assurance Specialist (DDD)-APluscare Behavioral Health-East Brunswick, NJ",
-        "date": "2026-02-17T20:27:44.262133"
-    },
-    {
-        "id": "Analyst, Operations QA-ConnectiveRx-Pittsburgh, PA",
-        "date": "2026-02-17T20:27:44.262134"
-    },
-    {
-        "id": "Product Complaints Quality Engineer-Noctrix Health, Inc.-Pleasanton, CA",
-        "date": "2026-02-17T20:27:44.262135"
-    },
-    {
-        "id": "QC Inspector-Vaughn Construction-Austin, TX",
-        "date": "2026-02-17T20:27:44.262136"
-    },
-    {
-        "id": "QA Supervisor - Raw Materials-PCI Pharma Services-Bedford, NH",
-        "date": "2026-02-17T20:27:44.262137"
-    },
-    {
-        "id": "Clinical Risk Analyst-Bayhealth-Dover, DE, US",
-        "date": "2026-02-17T20:27:44.262138"
-    },
-    {
-        "id": "Quality Engineer-Mid-Continent Engineering-Minneapolis, MN, US",
-        "date": "2026-02-17T20:27:44.262139"
-    },
-    {
-        "id": "Dir, HR Business Partner-ANI Pharmaceuticals, Inc.-Baudette, MN, US",
-        "date": "2026-02-17T20:27:44.262140"
-    },
-    {
-        "id": "VP, Quality Central Florida-AdventHealth-Orlando, FL",
-        "date": "2026-02-17T20:27:44.262141"
-    },
-    {
-        "id": "Head of Quality & Build Reliability-Hermeus-Atlanta, GA",
-        "date": "2026-02-17T20:27:44.262142"
-    },
-    {
-        "id": "Sr. Manager, Quality Systems-Climb Bio-Wellesley, MA",
-        "date": "2026-02-17T20:27:44.262143"
-    },
-    {
-        "id": "Head of Quality Control-FPC of Greensboro, NC-Sacramento, CA",
-        "date": "2026-02-17T20:27:44.262144"
-    },
-    {
-        "id": "Distinguished Engineer \u2013 Quality Engineering & Performance, Wallet, Payments & Commerce-Apple-Cupertino, CA",
-        "date": "2026-02-17T20:27:44.262145"
-    },
-    {
-        "id": "Distinguished Engineer \u2013 Quality Engineering & Performance, Wallet, Payments & Commerce-Apple-Austin, TX",
-        "date": "2026-02-17T20:27:44.262146"
-    },
-    {
-        "id": "Associate Vice President Quality Management - Quality Management-CHRISTUS Health-Corpus Christi, TX",
-        "date": "2026-02-17T20:27:44.262147"
-    },
-    {
-        "id": "Clinical Risk Analyst-Bayhealth-Dover, DE",
-        "date": "2026-02-17T20:27:44.262148"
-    },
-    {
-        "id": "R&D Tax Credits | Co-Head of Quality Assurance - Remote Working-Leonid Group Ltd-New York, United States",
-        "date": "2026-02-17T20:27:44.262149"
-    },
-    {
-        "id": "Senior Manager - R&D Tax Compliance (Remote Working)-Leonid Group Ltd-New York, United States",
-        "date": "2026-02-17T20:27:44.262150"
-    },
-    {
-        "id": "Institutional & Specialty Sales Consultant, Cardiology - Washington, DC-Bayer-Washington, DC",
-        "date": "2026-02-17T20:27:44.262151"
-    },
-    {
-        "id": "Institutional & Specialty Sales Consultant, Cardiology - Birmingham, AL-Bayer-Birmingham, AL",
-        "date": "2026-02-17T20:27:44.262152"
-    },
-    {
-        "id": "Engineering Manager - Test Equipment-Woodward, Inc.-Niles, IL",
-        "date": "2026-02-17T20:27:44.262153"
-    },
-    {
         "id": "Internal Tools Quality Engineering Manager-Apple-Vancouver, British Columbia, Canada",
         "date": "2026-02-17T20:27:44.262154"
     },
@@ -9179,5 +9095,110 @@
         "id": "15211e14b1b7447abd7f7d0de4892432",
         "fingerprint": "school quality assurance & standards lead|witherslack group",
         "date": "2026-03-04T06:50:22.522571"
+    },
+    {
+        "id": "335e7acd0e48001a2634ec6bef5f8235",
+        "fingerprint": "qa manager, middle and back office, information technology|clsa|pune",
+        "date": "2026-03-04T12:50:00.843112"
+    },
+    {
+        "id": "ef4c5ccf223b5891b44a3e689e25d3f0",
+        "fingerprint": "quality engineering architect (test arch|accenture services pvt ltd|pune",
+        "date": "2026-03-04T12:50:00.843128"
+    },
+    {
+        "id": "d561598a100d5059cb1410c181fe3599",
+        "fingerprint": "[blr] senior director of qa engineering|arrcus, inc.|bengaluru",
+        "date": "2026-03-04T12:50:00.843131"
+    },
+    {
+        "id": "4543de18406859ab9474b3f0c60743c9",
+        "fingerprint": "principal cloud test \u2013 network & security|aviatrix|bengaluru",
+        "date": "2026-03-04T12:50:00.843134"
+    },
+    {
+        "id": "73f87d9f2d5ca2c15a74c7a5772c0e97",
+        "fingerprint": "manual test lead|indium|bengaluru",
+        "date": "2026-03-04T12:50:00.843136"
+    },
+    {
+        "id": "5950c906f136aecc4b0f672791759eca",
+        "fingerprint": "quality engineering lead (test lead)|accenture services pvt ltd|bengaluru",
+        "date": "2026-03-04T12:50:00.843139"
+    },
+    {
+        "id": "c0e7751c424ee0e765b8b210f2f60e47",
+        "fingerprint": "lead etl qa engineer|bahwan cybertek|bengaluru",
+        "date": "2026-03-04T12:50:00.843141"
+    },
+    {
+        "id": "ca33744cf615f1cf4488bef001c81883",
+        "fingerprint": "automation test lead|qualitest acq|bengaluru",
+        "date": "2026-03-04T12:50:00.843143"
+    },
+    {
+        "id": "6acbbf2cfc5be131af6c44c742813647",
+        "fingerprint": "quality engineering lead (test lead)|accenture in india|bengaluru",
+        "date": "2026-03-04T12:50:00.843145"
+    },
+    {
+        "id": "d6255c22ff9398733210074c5a2cf576",
+        "fingerprint": "product technology manager, tools automation and infrastructure|googleplex|hyderabad",
+        "date": "2026-03-04T12:50:00.843148"
+    },
+    {
+        "id": "59cd85a09d4a277e0c4bbe4c22161c5d",
+        "fingerprint": "automation test lead|paltech|hyderabad",
+        "date": "2026-03-04T12:50:00.843150"
+    },
+    {
+        "id": "e5ebac1945424adacc1333d833bedfb5",
+        "fingerprint": "quality engineering lead (test lead)|accenture in india|gurugram",
+        "date": "2026-03-04T12:50:00.843152"
+    },
+    {
+        "id": "07ea1b4f334c1f7c4d69956627ee0d86",
+        "fingerprint": "controls testing manager, avp|natwest group|gurugram",
+        "date": "2026-03-04T12:50:00.843155"
+    },
+    {
+        "id": "a8351eda3beca6d8946738044c9d832b",
+        "fingerprint": "deputy manager quality assurance|tempel a worthington steel company|chennai",
+        "date": "2026-03-04T12:50:00.843157"
+    },
+    {
+        "id": "0af84b7d940fd09ece3e59299239f2e7",
+        "fingerprint": "rcm process expert (process improvement & quality) \u2013 manager|acurus|chennai",
+        "date": "2026-03-04T12:50:00.843160"
+    },
+    {
+        "id": "51f1b1b5a756d23da4f14a1a5b2ce78b",
+        "fingerprint": "controls testing manager, avp|natwest group|chennai",
+        "date": "2026-03-04T12:50:00.843162"
+    },
+    {
+        "id": "d4f84c06f7bed59d51d02ec06b01b7c7",
+        "fingerprint": "senior quality manager automotive|agrasen engineering industries pvt. ltd.|remote",
+        "date": "2026-03-04T12:50:00.843165"
+    },
+    {
+        "id": "33a71e2ac359be1c2501cdcd6d32fe92",
+        "fingerprint": "quality manager/director|acurus|remote",
+        "date": "2026-03-04T12:50:00.843184"
+    },
+    {
+        "id": "6504eb181bc898589364da263fa27a1f",
+        "fingerprint": "head of quality control|precision group of companies|remote",
+        "date": "2026-03-04T12:50:00.843187"
+    },
+    {
+        "id": "58e58c41374cb1534094a8a5c4059864",
+        "fingerprint": "global support quality manager|qad|pune",
+        "date": "2026-03-04T12:50:00.843189"
+    },
+    {
+        "id": "24d4c5fb3ca298487fb895c9e62e79dd",
+        "fingerprint": "global qa manager, senior|astrix|remote",
+        "date": "2026-03-04T12:50:00.843192"
     }
 ]
