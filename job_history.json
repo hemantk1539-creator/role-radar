@@ -1,65 +1,5 @@
 [
     {
-        "id": "Director of Quality-Round-Peg Solutions (RPS)-Torrance, CA",
-        "date": "2026-02-17T20:27:44.262120"
-    },
-    {
-        "id": "Director, Quality Engineering-HHAeXchange-",
-        "date": "2026-02-17T20:27:44.262121"
-    },
-    {
-        "id": "Analyst, Operations QA-ConnectiveRx-Pittsburgh, PA, US",
-        "date": "2026-02-17T20:27:44.262121"
-    },
-    {
-        "id": "QA Supervisor - Raw Materials-PCI Pharma Services-Bedford, NH, US",
-        "date": "2026-02-17T20:27:44.262122"
-    },
-    {
-        "id": "Manager of Environmental Health & Safety-ARL Bio Pharma-Oklahoma City, OK, US",
-        "date": "2026-02-17T20:27:44.262123"
-    },
-    {
-        "id": "Allegany County Community Engagement Program Manager-Spectrum Support, Inc.-Cumberland, MD, US",
-        "date": "2026-02-17T20:27:44.262124"
-    },
-    {
-        "id": "Director of Quality Assurance-TalentOla-",
-        "date": "2026-02-17T20:27:44.262125"
-    },
-    {
-        "id": "Director of Quality Assurance-Robert Half-Calabasas, CA",
-        "date": "2026-02-17T20:27:44.262126"
-    },
-    {
-        "id": "Healthcare QA Director-Mindsprint-",
-        "date": "2026-02-17T20:27:44.262127"
-    },
-    {
-        "id": "Director of Quality Assurance & Regulatory Affairs-DemeTECH Corporation-Miami, FL",
-        "date": "2026-02-17T20:27:44.262127"
-    },
-    {
-        "id": "Senior Director of Quality Assurance GCP-BioPhase-",
-        "date": "2026-02-17T20:27:44.262129"
-    },
-    {
-        "id": "Director of Quality Assurance-Germer International - Pharmaceutical Recruiting-Moorestown, NJ",
-        "date": "2026-02-17T20:27:44.262130"
-    },
-    {
-        "id": "Senior Manager, Quality Assurance, Drug Product-Vaxcyte-San Carlos, CA",
-        "date": "2026-02-17T20:27:44.262131"
-    },
-    {
-        "id": "QA Director (Testing) - Healthcare compliances-Jobs via Dice-",
-        "date": "2026-02-17T20:27:44.262131"
-    },
-    {
-        "id": "Quality Assurance - LP2 CSQA and Data Lead-Eli Lilly and Company-Lebanon, IN",
-        "date": "2026-02-17T20:27:44.262133"
-    },
-    {
         "id": "Quality Assurance Specialist (DDD)-APluscare Behavioral Health-East Brunswick, NJ",
         "date": "2026-02-17T20:27:44.262133"
     },
@@ -9164,5 +9104,80 @@
         "id": "55ff083055b1f97b58e1c4e73be9e1e2",
         "fingerprint": "quality assurance manager|e2m|ahmedabad",
         "date": "2026-03-03T12:50:07.468502"
+    },
+    {
+        "id": "bd668c83e3d7cbe1a8a538d7cb19ce2d",
+        "fingerprint": "software qa engineering manager|dover india|bengaluru",
+        "date": "2026-03-04T06:50:22.522456"
+    },
+    {
+        "id": "bd3f4a52ea428faaf6d0aa85da68fc43",
+        "fingerprint": "qa architect|indee|bengaluru",
+        "date": "2026-03-04T06:50:22.522471"
+    },
+    {
+        "id": "f426ed1764cc8620aafe804acdde4a8e",
+        "fingerprint": "manager \u2013 quality assurance|lupin|pune",
+        "date": "2026-03-04T06:50:22.522474"
+    },
+    {
+        "id": "25e27a65a8ca1236bfb37876f5e8e868",
+        "fingerprint": "quality assurance automation lead - java/selenium|persistent systems pvt.ltd|pune",
+        "date": "2026-03-04T06:50:22.522476"
+    },
+    {
+        "id": "7c2485740cdbdc7d53818e2ab86a8a9a",
+        "fingerprint": "manager\u2013 integrated management system and quality assurance|tkil industries (formerly known as thyssenkrupp industries india)|pune",
+        "date": "2026-03-04T06:50:22.522479"
+    },
+    {
+        "id": "34fe6317d9c83a186a907894bdf82df3",
+        "fingerprint": "quality engineering lead (test lead)|accenture services pvt ltd|pune",
+        "date": "2026-03-04T06:50:22.522526"
+    },
+    {
+        "id": "0326c94d07eb6437a2e5a00c4eb759a1",
+        "fingerprint": "lead automation engineer|williams-sonoma, inc.|pune",
+        "date": "2026-03-04T06:50:22.522533"
+    },
+    {
+        "id": "8b7b3dfaf8cff126596585fa7ce36c1d",
+        "fingerprint": "deputy general manager - quality assurance & control|adani realty|mumbai",
+        "date": "2026-03-04T06:50:22.522538"
+    },
+    {
+        "id": "5ebb557b893052a4ea4680c5a31e862d",
+        "fingerprint": "qa/qc manager - pre cast yard|larsen & toubro|mumbai",
+        "date": "2026-03-04T06:50:22.522543"
+    },
+    {
+        "id": "540bc57112d41cb206aed38b26ce461b",
+        "fingerprint": "manager, engineer test|graphik dimensions|hyderabad",
+        "date": "2026-03-04T06:50:22.522548"
+    },
+    {
+        "id": "14798b5a2b4d62d83f6dd4893c6ea6c5",
+        "fingerprint": "qa/qc manager - data center|jll|hyderabad",
+        "date": "2026-03-04T06:50:22.522553"
+    },
+    {
+        "id": "5bab7a9d9ccf5fb4ec2680f7012bcaa2",
+        "fingerprint": "quality control manager (shift incharge)|mukund corrupack private limited|hyderabad",
+        "date": "2026-03-04T06:50:22.522558"
+    },
+    {
+        "id": "f1162e8ea9d99ad25372898da1731132",
+        "fingerprint": "qa lead - automation|ginesys|gurugram",
+        "date": "2026-03-04T06:50:22.522562"
+    },
+    {
+        "id": "b6961c7cdbebe8f01d0f4ca2650cbb72",
+        "fingerprint": "manager \u2013 data steward & quality|kraft heinz|ahmedabad",
+        "date": "2026-03-04T06:50:22.522567"
+    },
+    {
+        "id": "15211e14b1b7447abd7f7d0de4892432",
+        "fingerprint": "school quality assurance & standards lead|witherslack group",
+        "date": "2026-03-04T06:50:22.522571"
     }
 ]
