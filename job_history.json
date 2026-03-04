@@ -1,53 +1,5 @@
 [
     {
-        "id": "Internal Tools Quality Engineering Manager-Apple-Vancouver, British Columbia, Canada",
-        "date": "2026-02-17T20:27:44.262154"
-    },
-    {
-        "id": "Claims Analyst-City of Vaughan-Vaughan, Ontario, Canada",
-        "date": "2026-02-17T20:27:44.262155"
-    },
-    {
-        "id": "Senior CAD Technician - Highways-Egis in Canada-Toronto, Ontario, Canada",
-        "date": "2026-02-17T20:27:44.262156"
-    },
-    {
-        "id": "Senior CAD Technician - Highways-L'Usine Nouvelle-Toronto, Ontario, Canada",
-        "date": "2026-02-17T20:27:44.262157"
-    },
-    {
-        "id": "Senior CAD Technician - Municipal-L'Usine Nouvelle-Ottawa, Ontario, Canada",
-        "date": "2026-02-17T20:27:44.262158"
-    },
-    {
-        "id": "QA Lead (Automation & Delivery Management) / Test Manager-RELQ TECHNOLOGIES-",
-        "date": "2026-02-17T20:27:44.262159"
-    },
-    {
-        "id": "Quality Assurance Coordinator (Food Industry)-Just Quality International Inc.-North York, Ontario, Canada",
-        "date": "2026-02-17T20:27:44.262160"
-    },
-    {
-        "id": "Quality Assurance Automation Lead-INVOKE-Montreal, Quebec, Canada",
-        "date": "2026-02-17T20:27:44.262161"
-    },
-    {
-        "id": "Quality Inspector-Savage Arms (Canada), Inc.-Lakefield, Ontario, Canada",
-        "date": "2026-02-17T20:27:44.262161"
-    },
-    {
-        "id": "Quality Assurance Technology Enablement Analyst - NFT (Non-Functional Testing)-Air Canada-Toronto, Ontario, Canada",
-        "date": "2026-02-17T20:27:44.262162"
-    },
-    {
-        "id": "Software Developer Automation Tester-Air Canada-Toronto, Ontario, Canada",
-        "date": "2026-02-17T20:27:44.262164"
-    },
-    {
-        "id": "Sr. Test Manager-Standard Chartered-Bengaluru",
-        "date": "2026-02-17T21:03:52.918676"
-    },
-    {
         "id": "Banking ICB QA Automation Specialist-Barclays-Pune",
         "date": "2026-02-17T21:03:52.918684"
     },
@@ -9200,5 +9152,65 @@
         "id": "24d4c5fb3ca298487fb895c9e62e79dd",
         "fingerprint": "global qa manager, senior|astrix|remote",
         "date": "2026-03-04T12:50:00.843192"
+    },
+    {
+        "id": "d576cdb23e102fe69ec533092e57e00e",
+        "fingerprint": "director, quality engineering|symplr|bengaluru",
+        "date": "2026-03-04T19:50:48.533543"
+    },
+    {
+        "id": "0904381d539346d8fd3932369c641fc9",
+        "fingerprint": "quality manager|thermo fisher scientific|bengaluru",
+        "date": "2026-03-04T19:50:48.533557"
+    },
+    {
+        "id": "df431229a00f261e862b174806d89767",
+        "fingerprint": "senior program manager, quality|ge healthcare|bengaluru",
+        "date": "2026-03-04T19:50:48.533559"
+    },
+    {
+        "id": "2d41b899626072fec6632cdc914d677a",
+        "fingerprint": "test manager test & deployment services|vanderlande|pune",
+        "date": "2026-03-04T19:50:48.533562"
+    },
+    {
+        "id": "852236106cfb7ff48adc9a4645fa5f2f",
+        "fingerprint": "manager - quality, ehs and business excellence|skf group|pune",
+        "date": "2026-03-04T19:50:48.533564"
+    },
+    {
+        "id": "1bcb3a94bd662979062f3df780a49afa",
+        "fingerprint": "engineering leader for industrial automation - work location :mumbai/thane/navi mumbai|capgemini engineering|pune",
+        "date": "2026-03-04T19:50:48.533566"
+    },
+    {
+        "id": "466fdbe3e389b6aff7888ab329de2001",
+        "fingerprint": "senior principal quality assurance eng|f5|hyderabad",
+        "date": "2026-03-04T19:50:48.533568"
+    },
+    {
+        "id": "82e94a888e6a763c1ac371b56f89221c",
+        "fingerprint": "quality assurance lead irc286776|globallogic|gurugram",
+        "date": "2026-03-04T19:50:48.533570"
+    },
+    {
+        "id": "d0e08e1c5abf82ef0c461d8707ef44b9",
+        "fingerprint": "quality senior manager|citi|chennai",
+        "date": "2026-03-04T19:50:48.533573"
+    },
+    {
+        "id": "412213f1e291f1a856ccac72a8c164e0",
+        "fingerprint": "manager, enterprise automation platforms|pfizer|chennai",
+        "date": "2026-03-04T19:50:48.533575"
+    },
+    {
+        "id": "adc33d8a0a91c2fe3bd3e8e09b286755",
+        "fingerprint": "qa manager|genea|ahmedabad",
+        "date": "2026-03-04T19:50:48.533577"
+    },
+    {
+        "id": "b18bb186d1ef4ba7b848db0894dcb72d",
+        "fingerprint": "knit fabric quality manager|shahi exports pvt ltd|remote",
+        "date": "2026-03-04T19:50:48.533579"
     }
 ]
