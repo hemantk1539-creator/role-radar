@@ -1,77 +1,5 @@
 [
     {
-        "id": "Material Specialist-WireCo WorldGroup-Montgomeryville, PA, US",
-        "date": "2026-02-17T21:03:52.918716"
-    },
-    {
-        "id": "Quality Assurance Manager-Ambio, Inc.-Grovetown, GA, US",
-        "date": "2026-02-17T21:03:52.918717"
-    },
-    {
-        "id": "QA SR Technician-Saint-Gobain-Brownsville, TX, US",
-        "date": "2026-02-17T21:03:52.918717"
-    },
-    {
-        "id": "Area Manager I, Quality-HelloFresh-Goodyear, AZ, US",
-        "date": "2026-02-17T21:03:52.918718"
-    },
-    {
-        "id": "Senior Operations Manager I-Ryder System-Tonawanda, NY, US",
-        "date": "2026-02-17T21:03:52.918719"
-    },
-    {
-        "id": "Quality Assurance Manager-Grote Industries-Avon, NY, US",
-        "date": "2026-02-17T21:03:52.918720"
-    },
-    {
-        "id": "Field Structural Coordinator-Black & Veatch-Newnan, GA, US",
-        "date": "2026-02-17T21:03:52.918721"
-    },
-    {
-        "id": "Quality Technician-nan-Vancouver, WA, US",
-        "date": "2026-02-17T21:03:52.918722"
-    },
-    {
-        "id": "QA MANAGER-Signature Sauces-Independence, OH, US",
-        "date": "2026-02-17T21:03:52.918723"
-    },
-    {
-        "id": "Quality Assurance Technician - 1st Shift-Lassonde-Boardman, OH, US",
-        "date": "2026-02-17T21:03:52.918724"
-    },
-    {
-        "id": "Test Manager-viewsoft-Washington, DC, US",
-        "date": "2026-02-17T21:03:52.918725"
-    },
-    {
-        "id": "Inventory Control and Quality Assurance Manager-NAPA Auto Parts-Minneapolis, MN, US",
-        "date": "2026-02-17T21:03:52.918726"
-    },
-    {
-        "id": "QA Specialist (Regulated Industry) 3541955-nan-PR, US",
-        "date": "2026-02-17T21:03:52.918727"
-    },
-    {
-        "id": "Senior Quality Assurance Manager-Storm Search-Cincinnati, OH",
-        "date": "2026-02-17T21:03:52.918728"
-    },
-    {
-        "id": "SAP Quality Assurance Manager-Vidorra Consulting Group-San Francisco, CA",
-        "date": "2026-02-17T21:03:52.918729"
-    },
-    {
-        "id": "Quality Assurance Manager (External GxP Auditor)-Arrowhead Pharmaceuticals-San Diego, CA",
-        "date": "2026-02-17T21:03:52.918730"
-    },
-    {
-        "id": "Quality Assurance Manager II-DHL Supply Chain-Vista, CA",
-        "date": "2026-02-17T21:03:52.918731"
-    },
-    {
-        "id": "Quality Assurance Manager-Insight Global-Dallas, TX",
-        "date": "2026-02-17T21:03:52.918732"
-    },
-    {
         "id": "Quality Assurance Manager - Food - Bilingual-CSG Talent-",
         "date": "2026-02-17T21:03:52.918733"
     },
@@ -9233,5 +9161,95 @@
         "id": "36c67d76d2a88b0e80c0e6b151cb283a",
         "fingerprint": "team lead \u2013 packaging quality|siemens energy|ahmedabad",
         "date": "2026-03-05T12:50:12.357051"
+    },
+    {
+        "id": "8aa71eba8c3a94355ad6ed9f139398de",
+        "fingerprint": "quality manager individual contributor|dana incorporated|pune",
+        "date": "2026-03-05T19:50:18.904385"
+    },
+    {
+        "id": "f9435b2cd372c75c747bf4f3003216d3",
+        "fingerprint": "quality manager|dana incorporated|pune",
+        "date": "2026-03-05T19:50:18.904402"
+    },
+    {
+        "id": "3e93c98f8ea219bbb66ebb232511df47",
+        "fingerprint": "automation engineering lead (qa), avp|state street|pune",
+        "date": "2026-03-05T19:50:18.904404"
+    },
+    {
+        "id": "05c098df93970aedfe6dfe9188a77547",
+        "fingerprint": "performance engineering lead (qa), avp|state street|pune",
+        "date": "2026-03-05T19:50:18.904407"
+    },
+    {
+        "id": "7de5bb68e93c2a0d973324fcb2ad937c",
+        "fingerprint": "software qa technical leader|cisco|bengaluru",
+        "date": "2026-03-05T19:50:18.904409"
+    },
+    {
+        "id": "f35d9a098bc4785afddabebb5c3dfaac",
+        "fingerprint": "quality manager, vp|natwest group|bengaluru",
+        "date": "2026-03-05T19:50:18.904411"
+    },
+    {
+        "id": "6de2e38e6a17fc36c12b9f6633218192",
+        "fingerprint": "test architect|gyansys inc.|bengaluru",
+        "date": "2026-03-05T19:50:18.904413"
+    },
+    {
+        "id": "3cf95cd0549eda7f4c9f64572919cf02",
+        "fingerprint": "lead qa automation engineer|impact analytics|bengaluru",
+        "date": "2026-03-05T19:50:18.904415"
+    },
+    {
+        "id": "7a9b3d0bfc040a7b06cd3f3352f288ff",
+        "fingerprint": "test lead - lead|happiest minds technologies|bengaluru",
+        "date": "2026-03-05T19:50:18.904418"
+    },
+    {
+        "id": "0a0c1c02424a5b6459e8c79951445928",
+        "fingerprint": "technical program manager, engineering excellence, ui automation|google|bengaluru",
+        "date": "2026-03-05T19:50:18.904420"
+    },
+    {
+        "id": "0ab5234e45f2a9a6bddcc4ddf07ae352",
+        "fingerprint": "manager, biospecimen reporting and automation|amgen|hyderabad",
+        "date": "2026-03-05T19:50:18.904422"
+    },
+    {
+        "id": "85e778dfdf8f1fcef54022dc3b29e6b2",
+        "fingerprint": "lead qa (data engineering) - senior manager|state street|hyderabad",
+        "date": "2026-03-05T19:50:18.904424"
+    },
+    {
+        "id": "47cd467cc31381ba41f09624d5f729ee",
+        "fingerprint": "manager, egrc quality assurance (l09)|synchrony|gurugram",
+        "date": "2026-03-05T19:50:18.904426"
+    },
+    {
+        "id": "8a59579ff22c955980a646a953f2c29b",
+        "fingerprint": "quality manager|turner & townsend|gurugram",
+        "date": "2026-03-05T19:50:18.904427"
+    },
+    {
+        "id": "7c93f34dd040f01c8f1ac105d8d90dfb",
+        "fingerprint": "manager, quality control|google|noida",
+        "date": "2026-03-05T19:50:18.904429"
+    },
+    {
+        "id": "a326d9cb0053c6b7e83fc8c62db97b37",
+        "fingerprint": "technical manager \u2013 air quality|humming bird consulting|ahmedabad",
+        "date": "2026-03-05T19:50:18.904431"
+    },
+    {
+        "id": "2de045323b354f52a9a1d76cacd71614",
+        "fingerprint": "quality manager|octavia hospital|remote",
+        "date": "2026-03-05T19:50:18.904433"
+    },
+    {
+        "id": "b3c718326cdadf05473df2fc34cf191d",
+        "fingerprint": "quality improvement and regulation manager|barchester healthcare",
+        "date": "2026-03-05T19:50:18.904452"
     }
 ]
