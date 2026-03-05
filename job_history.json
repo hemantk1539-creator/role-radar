@@ -1,69 +1,5 @@
 [
     {
-        "id": "Test Engineer-Equiniti-Chennai",
-        "date": "2026-02-17T21:03:52.918693"
-    },
-    {
-        "id": "Mgr, QA & Testing-Standard Chartered-Chennai",
-        "date": "2026-02-17T21:03:52.918695"
-    },
-    {
-        "id": "Senior Quality Engineer - Automation-Platform Science-Chennai, Tamil Nadu, India",
-        "date": "2026-02-17T21:03:52.918697"
-    },
-    {
-        "id": "Test Engineer-Equiniti-Chennai, Tamil Nadu, India",
-        "date": "2026-02-17T21:03:52.918698"
-    },
-    {
-        "id": "Quality Head-Profile Data Center Solution Pvt. Ltd.-India",
-        "date": "2026-02-17T21:03:52.918700"
-    },
-    {
-        "id": "Grand Seiko Boutique Sales Specialist-Ben Bridge Jeweler-Honolulu, HI",
-        "date": "2026-02-17T21:03:52.918702"
-    },
-    {
-        "id": "Sr. Software Test Engineer-Integres, LLC-Baltimore, MD, US",
-        "date": "2026-02-17T21:03:52.918704"
-    },
-    {
-        "id": "Lab Technician- 12 Hour Nights Rotating Weekends-Fairlife, LLC-Coopersville, MI, US",
-        "date": "2026-02-17T21:03:52.918705"
-    },
-    {
-        "id": "Supervisor Customer Service-Sterigenics-West Memphis, AR, US",
-        "date": "2026-02-17T21:03:52.918707"
-    },
-    {
-        "id": "Quality Assurance Manager-Chance Rides, LLC-Wichita, KS, US",
-        "date": "2026-02-17T21:03:52.918708"
-    },
-    {
-        "id": "Quality Assurance Technician-Liquiteria-Buena Park, CA, US",
-        "date": "2026-02-17T21:03:52.918709"
-    },
-    {
-        "id": "Shipping Supervisor --Alpha Baking Co., Inc.-Cudahy, WI, US",
-        "date": "2026-02-17T21:03:52.918710"
-    },
-    {
-        "id": "Line Operator-Bay State Milling-Platteville, CO, US",
-        "date": "2026-02-17T21:03:52.918711"
-    },
-    {
-        "id": "IT Business Analyst /Project Lead (Hybrid)(SC)-Resource Management Associates, LLC-Columbia, SC, US",
-        "date": "2026-02-17T21:03:52.918713"
-    },
-    {
-        "id": "Helical 1-TrueNorth Steel-West Fargo, ND, US",
-        "date": "2026-02-17T21:03:52.918714"
-    },
-    {
-        "id": "Quality Control Inspector-Serrmi Products, LLC-Shawnee, KS, US",
-        "date": "2026-02-17T21:03:52.918715"
-    },
-    {
         "id": "Material Specialist-WireCo WorldGroup-Montgomeryville, PA, US",
         "date": "2026-02-17T21:03:52.918716"
     },
@@ -9217,5 +9153,85 @@
         "id": "8e992effbe881c5fdf83f1c36838c319",
         "fingerprint": "it architect - windows server & automation|galderma|mumbai",
         "date": "2026-03-05T06:50:13.865889"
+    },
+    {
+        "id": "a71be7014503a77e88d112d7d35ab8ab",
+        "fingerprint": "manager - quality, ehs and business excellence|skf seals|pune",
+        "date": "2026-03-05T12:50:12.357002"
+    },
+    {
+        "id": "ebc5666387a032a71bd8418675c609fd",
+        "fingerprint": "test lead (telecom domain)|qualitest acq|bengaluru",
+        "date": "2026-03-05T12:50:12.357018"
+    },
+    {
+        "id": "deae8b9c5fc28733dc84b87bcdc656d6",
+        "fingerprint": "lead qa (data engineering) - senior manager|state street|bengaluru",
+        "date": "2026-03-05T12:50:12.357021"
+    },
+    {
+        "id": "782a401ae704bd9e1c3a279b3b077f7a",
+        "fingerprint": "manager sw test development engineering|dexcom|bengaluru",
+        "date": "2026-03-05T12:50:12.357023"
+    },
+    {
+        "id": "7eb6b5bebd59bcd45d39a7d2ba35182f",
+        "fingerprint": "quality engineering lead (test lead)|accenture in india|hyderabad",
+        "date": "2026-03-05T12:50:12.357026"
+    },
+    {
+        "id": "97512f546ff675cf7bcc72b4c5d96c61",
+        "fingerprint": "manager, quality systems|thermo fisher scientific|hyderabad",
+        "date": "2026-03-05T12:50:12.357028"
+    },
+    {
+        "id": "a6973c791e561d648913fb1c66d15cae",
+        "fingerprint": "quality engineering lead (test lead)|accenture services pvt ltd|hyderabad",
+        "date": "2026-03-05T12:50:12.357031"
+    },
+    {
+        "id": "31b7b8ab5885aa742b75b50c190551e8",
+        "fingerprint": "team leader business intelligence & automation|amrit cement limited|gurugram",
+        "date": "2026-03-05T12:50:12.357033"
+    },
+    {
+        "id": "a73e61186a646c10ae87a80ef0292049",
+        "fingerprint": "quality control manager|google|gurugram",
+        "date": "2026-03-05T12:50:12.357035"
+    },
+    {
+        "id": "caec8e8efe9c93bc14d73481597ea888",
+        "fingerprint": "general manager quality|iccs digx|gurugram",
+        "date": "2026-03-05T12:50:12.357038"
+    },
+    {
+        "id": "c62992734575c7f2b28c304105ff4e69",
+        "fingerprint": "is test manager|74software|gurugram",
+        "date": "2026-03-05T12:50:12.357040"
+    },
+    {
+        "id": "0258beed77d3292b99ab99fde236be37",
+        "fingerprint": "controls testing manager, avp|natwest group|noida",
+        "date": "2026-03-05T12:50:12.357042"
+    },
+    {
+        "id": "92d5d22adf656509b720f2ea178fd891",
+        "fingerprint": "quality manager \u2013 infrastructure management|hexaware technologies|chennai",
+        "date": "2026-03-05T12:50:12.357045"
+    },
+    {
+        "id": "4a156b4ecea009a0e97ccac6ca1a190c",
+        "fingerprint": "qa/qc manager - civil in constrcution|casagrand premier builder limited|chennai",
+        "date": "2026-03-05T12:50:12.357047"
+    },
+    {
+        "id": "5684177d4d51d028ece93cac6984511b",
+        "fingerprint": "head of qa|yash medicare pvt ltd|ahmedabad",
+        "date": "2026-03-05T12:50:12.357049"
+    },
+    {
+        "id": "36c67d76d2a88b0e80c0e6b151cb283a",
+        "fingerprint": "team lead \u2013 packaging quality|siemens energy|ahmedabad",
+        "date": "2026-03-05T12:50:12.357051"
     }
 ]
