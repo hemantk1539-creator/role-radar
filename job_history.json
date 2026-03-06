@@ -1,45 +1,5 @@
 [
     {
-        "id": "Quality Assurance Technician (1st Shift)-INW: Innovations in Nutrition and Wellness-Tempe, AZ",
-        "date": "2026-02-17T21:03:52.918750"
-    },
-    {
-        "id": "Quality Assurance Supervisor - Weekend 2nd Shift-The Marzetti Company-Columbus, OH",
-        "date": "2026-02-17T21:03:52.918751"
-    },
-    {
-        "id": "Quality Assurance Manager - Laboratory-RMB Environmental Laboratories INC-Burnsville, MN",
-        "date": "2026-02-17T21:03:52.918752"
-    },
-    {
-        "id": "Lab Technician- 12 Hour Nights Rotating Weekends-fairlife, LLC-Coopersville, MI",
-        "date": "2026-02-17T21:03:52.918752"
-    },
-    {
-        "id": "Senior Quality Assurance Manager-Teleflex-Chelmsford, MA",
-        "date": "2026-02-17T21:03:52.918753"
-    },
-    {
-        "id": "Director, Quality Assurance (Systems)-Ladders-",
-        "date": "2026-02-17T21:03:52.918754"
-    },
-    {
-        "id": "Director/Sr. Director, Quality Assurance-BridgeBio-",
-        "date": "2026-02-17T21:03:52.918755"
-    },
-    {
-        "id": "Lab Manager-Labcorp-Sumter, SC",
-        "date": "2026-02-17T21:03:52.918756"
-    },
-    {
-        "id": "Social Worker III - Behavioral Health-Shasta Regional Medical Center-Redding, CA",
-        "date": "2026-02-17T21:03:52.918757"
-    },
-    {
-        "id": "Quality Assurance Technician-Jealous Fruits-Kelowna",
-        "date": "2026-02-17T21:03:52.918758"
-    },
-    {
         "id": "QA Lead (Automation & Delivery Management) / Test Manager-RELQ TECHNOLOGIES LLC-Toronto",
         "date": "2026-02-17T21:03:52.918759"
     },
@@ -9267,5 +9227,55 @@
         "id": "8ae3b916610522e6b540dfb66725fbe7",
         "fingerprint": "staff platform manager- payments, evaluations and automation|airbnb",
         "date": "2026-03-06T06:49:45.097822"
+    },
+    {
+        "id": "4a721665c2141bf2da85a2fb280f3e41",
+        "fingerprint": "deputy manager - quality|ge aerospace|pune",
+        "date": "2026-03-06T12:49:39.486781"
+    },
+    {
+        "id": "d0d4f462d9a38629431af14af08e6632",
+        "fingerprint": "product innovation & quality manager (food / snacks)|flavours of calicut|bengaluru",
+        "date": "2026-03-06T12:49:39.486797"
+    },
+    {
+        "id": "7557d88ce91596c638314fd1d59ed813",
+        "fingerprint": "quality assurance manager- hardware( do-254/160/178c)|thales|bengaluru",
+        "date": "2026-03-06T12:49:39.486800"
+    },
+    {
+        "id": "748cdcc07a239e4dd5cc1ac5cbebd412",
+        "fingerprint": "qa automation engineer - director- qa engineering|morgan stanley|bengaluru",
+        "date": "2026-03-06T12:49:39.486802"
+    },
+    {
+        "id": "7b95a6f26cc75398afb102f8b22e0d6a",
+        "fingerprint": "lead software engineer - test|freshworks|hyderabad",
+        "date": "2026-03-06T12:49:39.486805"
+    },
+    {
+        "id": "4cb3c629770e10026bcaa11607902c4e",
+        "fingerprint": "automation engineer lead analyst - hih evernorth|evernorth health services|hyderabad",
+        "date": "2026-03-06T12:49:39.486807"
+    },
+    {
+        "id": "cb549c11a2523fd9fb860ffcdeab1c17",
+        "fingerprint": "quality assurance manager (iron foundry)|valam solutions|chennai",
+        "date": "2026-03-06T12:49:39.486810"
+    },
+    {
+        "id": "818b8ac66b6945810ca6018fd99d6e0f",
+        "fingerprint": "manager, quality engineering|strategy|chennai",
+        "date": "2026-03-06T12:49:39.486812"
+    },
+    {
+        "id": "a5e7625a6e13c134ad1d0d417c69f22f",
+        "fingerprint": "quality architect|strategy|chennai",
+        "date": "2026-03-06T12:49:39.486814"
+    },
+    {
+        "id": "13c1f02e0358482117b0904ba3e07cdb",
+        "fingerprint": "qa - asst. manager|sltl group - sahajanand laser technology ltd|ahmedabad",
+        "date": "2026-03-06T12:49:39.486817"
     }
 ]
