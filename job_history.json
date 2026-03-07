@@ -1,45 +1,5 @@
 [
     {
-        "id": "Clinical Quality Assurance Manager-Science 37-Morrisville, NC, US",
-        "date": "2026-02-17T19:40:00.617259"
-    },
-    {
-        "id": "Quality Control Manager-Adura-Corona, CA, US",
-        "date": "2026-02-17T19:40:00.617262"
-    },
-    {
-        "id": "MRI Technologist, QA Specialist-The General Hospital Corporation-Boston, MA, US",
-        "date": "2026-02-17T19:40:00.617264"
-    },
-    {
-        "id": "Quality Assurance Manager-Harris Computer-SC, US",
-        "date": "2026-02-17T19:40:00.617266"
-    },
-    {
-        "id": "Assistant QA Manager-Dessert Holdings Inc.-Pembroke, NC, US",
-        "date": "2026-02-17T19:40:00.617268"
-    },
-    {
-        "id": "FSQA Technician-DO & CO-Detroit, MI, US",
-        "date": "2026-02-17T19:40:00.617271"
-    },
-    {
-        "id": "Quality Assurance Manager II-DHL-Memphis, TN, US",
-        "date": "2026-02-17T19:40:00.617273"
-    },
-    {
-        "id": "Supervisor Quality Assurance-Champion Petfoods-Auburn, KY, US",
-        "date": "2026-02-17T19:40:00.617275"
-    },
-    {
-        "id": "In-House Sales Professional-Hilton Grand Vacations-Celebration, FL, US",
-        "date": "2026-02-17T19:40:00.617277"
-    },
-    {
-        "id": "Laboratory Technician-Darigold-Jerome, ID, US",
-        "date": "2026-02-17T19:40:00.617279"
-    },
-    {
         "id": "Quality Assurance Specialist-Rise Baking Company-Lancaster, NY, US",
         "date": "2026-02-17T19:40:00.617282"
     },
@@ -9317,5 +9277,55 @@
         "id": "6ce10fe540d97b1344500b2947909c82",
         "fingerprint": "automation architect - senior member of technical staff|omnissa|chennai",
         "date": "2026-03-07T12:49:47.608196"
+    },
+    {
+        "id": "0174e795e64df3067763939e713fb49c",
+        "fingerprint": "group lead - quality system & compliance|elanco|bengaluru",
+        "date": "2026-03-07T19:49:44.226952"
+    },
+    {
+        "id": "21c186610ff9536cbcd82f6fab8366a5",
+        "fingerprint": "manager, quality assurance - digital analytics (l09)|synchrony|pune",
+        "date": "2026-03-07T19:49:44.226968"
+    },
+    {
+        "id": "8ab82e3fa1ab98c428cf14a31b7e1589",
+        "fingerprint": "senior manager, qa documentation|amneal pharmaceuticals|hyderabad",
+        "date": "2026-03-07T19:49:44.226971"
+    },
+    {
+        "id": "b28c48320f89c50d5941dc76e624d6ba",
+        "fingerprint": "lead testing services consultant|simcorp|hyderabad",
+        "date": "2026-03-07T19:49:44.226974"
+    },
+    {
+        "id": "7fd5842bacdb6cac13938bb1447ab6fe",
+        "fingerprint": "lead testing services consultant|simcorp|gurugram",
+        "date": "2026-03-07T19:49:44.226976"
+    },
+    {
+        "id": "88a3c7e7d276202050c80eee4f836d2b",
+        "fingerprint": "qa manager|hid|chennai",
+        "date": "2026-03-07T19:49:44.226979"
+    },
+    {
+        "id": "efbe802c2d07568d051b9c8b1e6610f5",
+        "fingerprint": "deputy general manager, quality-training management|amneal pharmaceuticals|ahmedabad",
+        "date": "2026-03-07T19:49:44.226981"
+    },
+    {
+        "id": "b32a73bcf46c29f9b230e8f5215195b6",
+        "fingerprint": "senior manager, automation engineering|amneal pharmaceuticals|ahmedabad",
+        "date": "2026-03-07T19:49:44.226984"
+    },
+    {
+        "id": "57f09fc9685d4918c6c8b647165fadf0",
+        "fingerprint": "head of quality assurance|murtuza foods pvt ltd|remote",
+        "date": "2026-03-07T19:49:44.226986"
+    },
+    {
+        "id": "60f7e53c40a9ec898ad2db41cca102ad",
+        "fingerprint": "global head of quality & continuous improvement - semiconductors|hitachi energy|remote",
+        "date": "2026-03-07T19:49:44.226989"
     }
 ]
