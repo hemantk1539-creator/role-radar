@@ -1,53 +1,5 @@
 [
     {
-        "id": "Guest Experience Manager-Four Seasons-MH, IN",
-        "date": "2026-02-17T17:23:22.409047"
-    },
-    {
-        "id": "Automation Test Engineer-WPP-Chennai, Tamil Nadu, India",
-        "date": "2026-02-17T17:23:22.409061"
-    },
-    {
-        "id": "Preschool Quality Assurance Specialist (3253)-Lutheran Services Florida-West Palm Beach, FL, US",
-        "date": "2026-02-17T17:23:22.409064"
-    },
-    {
-        "id": "Director of Quality Assurance-Robert Half-Los Angeles, CA",
-        "date": "2026-02-17T17:23:22.409066"
-    },
-    {
-        "id": "Technical Architect - QA-Adobe-Bengaluru East, Karnataka, India",
-        "date": "2026-02-17T19:40:00.617208"
-    },
-    {
-        "id": "SDET Manager-Arrise Solutions (India) Pvt. Ltd.-Hyderabad, Telangana, India",
-        "date": "2026-02-17T19:40:00.617233"
-    },
-    {
-        "id": "Senior Quality Engineering Manager - Remote-Optum-Basking Ridge, NJ",
-        "date": "2026-02-17T19:40:00.617236"
-    },
-    {
-        "id": "Quality Engineering Manager-EPM Scientific-Chicago, IL",
-        "date": "2026-02-17T19:40:00.617239"
-    },
-    {
-        "id": "Sr. Manager, Supplier Quality and Development (Hybrid)-Pratt & Whitney-East Hartford, CT",
-        "date": "2026-02-17T19:40:00.617241"
-    },
-    {
-        "id": "Territory Manager-Royal Cup, Inc.-Fort Myers, FL",
-        "date": "2026-02-17T19:40:00.617252"
-    },
-    {
-        "id": "Associate QA Engineer-Funnel Leasing-Remote, US",
-        "date": "2026-02-17T19:40:00.617255"
-    },
-    {
-        "id": "Quality Assurance Manager Food Packaging 1st Shift-Airlite Plastics-Dallas, TX, US",
-        "date": "2026-02-17T19:40:00.617257"
-    },
-    {
         "id": "Clinical Quality Assurance Manager-Science 37-Morrisville, NC, US",
         "date": "2026-02-17T19:40:00.617259"
     },
@@ -9305,5 +9257,65 @@
         "id": "d0be4f2bf6625331c4bde5e0153f3e1e",
         "fingerprint": "head of global manufacturing test & pcba engineering|dyson|remote",
         "date": "2026-03-07T06:49:47.923683"
+    },
+    {
+        "id": "7a10c48fc7960393db566592838da74d",
+        "fingerprint": "senior staff software engineer (sdet)|uniphore|bengaluru",
+        "date": "2026-03-07T12:49:47.608158"
+    },
+    {
+        "id": "14684e3a5ced853ad1d9cd3ff7f93252",
+        "fingerprint": "manager - automation|vertiv|pune",
+        "date": "2026-03-07T12:49:47.608173"
+    },
+    {
+        "id": "e22e48755c8f0b5cbe15e0f1d56e60af",
+        "fingerprint": "head of quality control & quality assurance|haribol|mumbai",
+        "date": "2026-03-07T12:49:47.608175"
+    },
+    {
+        "id": "7b7b46a6abeaf508290cf99190226df2",
+        "fingerprint": "quality manager|idfc first bank|mumbai",
+        "date": "2026-03-07T12:49:47.608178"
+    },
+    {
+        "id": "f025359e0763bca5a3948d234099893d",
+        "fingerprint": "quality assurance manager|msn laboratories|hyderabad",
+        "date": "2026-03-07T12:49:47.608180"
+    },
+    {
+        "id": "766db61329417e58c31a47351901d198",
+        "fingerprint": "legal, governance & compliance operations manager, automation|s&p global|gurugram",
+        "date": "2026-03-07T12:49:47.608183"
+    },
+    {
+        "id": "fa604db437fde0b0902946cd44adbeb6",
+        "fingerprint": "quality lead \u2013 footwear manufacturing|taavie|noida",
+        "date": "2026-03-07T12:49:47.608185"
+    },
+    {
+        "id": "d87d6a019b7e523b770c86d7280772c3",
+        "fingerprint": "lead sdet|bold|noida",
+        "date": "2026-03-07T12:49:47.608187"
+    },
+    {
+        "id": "f52e1a211dcb105a1364366bd557c43b",
+        "fingerprint": "manager - quality (centac & blower)|ingersoll rand compressor systems & services|ahmedabad",
+        "date": "2026-03-07T12:49:47.608189"
+    },
+    {
+        "id": "c1966769e7aef2be456c161ccaf3ecb3",
+        "fingerprint": "quality engineer, principal|strategy|chennai",
+        "date": "2026-03-07T12:49:47.608192"
+    },
+    {
+        "id": "2512746ffaf0b631a345f319f4dfec20",
+        "fingerprint": "manager, quality assurance 1|ses satellites|chennai",
+        "date": "2026-03-07T12:49:47.608194"
+    },
+    {
+        "id": "6ce10fe540d97b1344500b2947909c82",
+        "fingerprint": "automation architect - senior member of technical staff|omnissa|chennai",
+        "date": "2026-03-07T12:49:47.608196"
     }
 ]
