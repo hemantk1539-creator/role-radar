@@ -1,57 +1,5 @@
 [
     {
-        "id": "Quality Assurance Manager - Nursery-Driscoll's-Watsonville, CA",
-        "date": "2026-02-17T16:21:12.011022"
-    },
-    {
-        "id": "QA Tech Lead-Amcor-Ames, IA",
-        "date": "2026-02-17T16:21:12.011024"
-    },
-    {
-        "id": "Oracle Cloud ERP Test Manager-Coforge-Houston, TX",
-        "date": "2026-02-17T16:21:12.011027"
-    },
-    {
-        "id": "Quality Assurance Coordinator - Clinical Research-CenExel-Riverside, CA",
-        "date": "2026-02-17T16:21:12.011029"
-    },
-    {
-        "id": "QA Analyst I-The Marzetti Company-Wareham, MA",
-        "date": "2026-02-17T16:21:12.011032"
-    },
-    {
-        "id": "Supervisor Quality Assurance-Champion Petfoods-Auburn, KY",
-        "date": "2026-02-17T16:21:12.011034"
-    },
-    {
-        "id": "Raw Ingredient Tech - 1st Shift-Lassonde Pappas & Company, Inc.-Selah, WA",
-        "date": "2026-02-17T16:21:12.011036"
-    },
-    {
-        "id": "Director, Quality Assurance-ICON Strategic Solutions-",
-        "date": "2026-02-17T16:21:12.011039"
-    },
-    {
-        "id": "xCelle Americas - Lead Technician (Repairman)-AAR-Hot Springs, AR",
-        "date": "2026-02-17T16:21:12.011041"
-    },
-    {
-        "id": "Senior Quality Engineering Manager - Remote-Optum-Basking Ridge, NJ, US",
-        "date": "2026-02-17T17:04:21.104674"
-    },
-    {
-        "id": "QA/QC Technician-barrett-Jamesville, NY, US",
-        "date": "2026-02-17T17:04:21.104701"
-    },
-    {
-        "id": "Quality Assurance Manager-First Search Inc.-Mobile, AL",
-        "date": "2026-02-17T17:04:21.104705"
-    },
-    {
-        "id": "District Medical Director-Cano Health-West Palm Beach, FL, US",
-        "date": "2026-02-17T17:04:21.104707"
-    },
-    {
         "id": "Guest Experience Manager-Four Seasons-MH, IN",
         "date": "2026-02-17T17:23:22.409047"
     },
@@ -9292,5 +9240,70 @@
         "id": "a770f9336af0175c3c6b2f2e9b146864",
         "fingerprint": "testing - automation-senior manager|ey|chennai",
         "date": "2026-03-06T19:50:04.555914"
+    },
+    {
+        "id": "f47f14298678717cd5118d7d3869d867",
+        "fingerprint": "head of quality systems (digital therapeutics / samd)|lumos labs (lumosity)|bengaluru",
+        "date": "2026-03-07T06:49:47.923643"
+    },
+    {
+        "id": "8da57b37bd0f5e882598f270f8cee74f",
+        "fingerprint": "test manager-cloud migration & modernization|datamatics|bengaluru",
+        "date": "2026-03-07T06:49:47.923658"
+    },
+    {
+        "id": "60e85958430a794f0a3cc7ef15907d73",
+        "fingerprint": "sdet lead|osfin.ai|bengaluru",
+        "date": "2026-03-07T06:49:47.923661"
+    },
+    {
+        "id": "a234020515bb5438191c8eafa72d03ae",
+        "fingerprint": "manager, infra testing|northern trust|pune",
+        "date": "2026-03-07T06:49:47.923663"
+    },
+    {
+        "id": "a273d01190dd4cce9147b6760e87473a",
+        "fingerprint": "product qa architect|zyoin group|pune",
+        "date": "2026-03-07T06:49:47.923666"
+    },
+    {
+        "id": "31ae6a8c4278f137682392da3458ca85",
+        "fingerprint": "lead i - software testing|ust|pune",
+        "date": "2026-03-07T06:49:47.923668"
+    },
+    {
+        "id": "8a7d834d954346a4b4416a4801cb2fbd",
+        "fingerprint": "lead quality engineer|hackajob|pune",
+        "date": "2026-03-07T06:49:47.923670"
+    },
+    {
+        "id": "574736c839ccbf77d872b4ca4fba2c58",
+        "fingerprint": "quality manager|perceptive inc.|hyderabad",
+        "date": "2026-03-07T06:49:47.923672"
+    },
+    {
+        "id": "4df5a7e8f25c502fd945a1bf9a44f803",
+        "fingerprint": "lead qe|s&p global|hyderabad",
+        "date": "2026-03-07T06:49:47.923674"
+    },
+    {
+        "id": "4d19d90da8f6c4ceffc65d4ab2e3d7cf",
+        "fingerprint": "lead qe|s&p global|gurugram",
+        "date": "2026-03-07T06:49:47.923677"
+    },
+    {
+        "id": "9a875aafc036ce2e82b01f562270f316",
+        "fingerprint": "lead - ai governance & qa auditor \u2013 data scientist, ai systems audit, compliance, ai governance, ai explainability, python|ups|chennai",
+        "date": "2026-03-07T06:49:47.923679"
+    },
+    {
+        "id": "b2fa6b63f3264d5c8d39231df17383ac",
+        "fingerprint": "lead qe|s&p global|ahmedabad",
+        "date": "2026-03-07T06:49:47.923681"
+    },
+    {
+        "id": "d0be4f2bf6625331c4bde5e0153f3e1e",
+        "fingerprint": "head of global manufacturing test & pcba engineering|dyson|remote",
+        "date": "2026-03-07T06:49:47.923683"
     }
 ]
