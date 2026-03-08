@@ -1,25 +1,5 @@
 [
     {
-        "id": "QA Manager-CG Life-",
-        "date": "2026-02-17T19:40:00.617293"
-    },
-    {
-        "id": "Commissary Maintenance Lead - Irvine-Northgate Market-Irvine, CA, US",
-        "date": "2026-02-17T19:40:00.617295"
-    },
-    {
-        "id": "Commissary Mechanic - Irvine-Northgate Market-Irvine, CA, US",
-        "date": "2026-02-17T19:40:00.617297"
-    },
-    {
-        "id": "Director of Quality Assurance-Kelly Science, Engineering, Technology & Telecom-Chicago, IL",
-        "date": "2026-02-17T19:40:00.617299"
-    },
-    {
-        "id": "Manager II, Quality Assurance (Commercial)-Tarsus Pharmaceuticals, Inc.-Orange County, CA",
-        "date": "2026-02-17T19:40:00.617301"
-    },
-    {
         "id": "Head of Quality, Device and Combination Products-Biogen-",
         "date": "2026-02-17T19:40:00.617303"
     },
@@ -9332,5 +9312,30 @@
         "id": "3c2246165018444a51bb542fdae5dc5e",
         "fingerprint": "senior manager software engineering - performance & system test architecture|caterpillar inc.|chennai",
         "date": "2026-03-08T06:49:48.787858"
+    },
+    {
+        "id": "a6571e50945e3aac270e5525084d661d",
+        "fingerprint": "gpp test lead|hackajob|pune",
+        "date": "2026-03-08T12:49:53.058519"
+    },
+    {
+        "id": "2d544f235ab21b68a9753eb3dfd65b5c",
+        "fingerprint": "principal testing services consultant|simcorp|hyderabad",
+        "date": "2026-03-08T12:49:53.058534"
+    },
+    {
+        "id": "28bc0d65ba37f8dea07e9a4005e5341d",
+        "fingerprint": "quality engineering manager|strategy|chennai",
+        "date": "2026-03-08T12:49:53.058538"
+    },
+    {
+        "id": "14c59a341d242e96fe0ef910b5d44ef4",
+        "fingerprint": "technical lead \u2013 automation & application development (python)|gt solve|chennai",
+        "date": "2026-03-08T12:49:53.058540"
+    },
+    {
+        "id": "fb7fe00c6d7abeb020267c298e16c7fd",
+        "fingerprint": "senior software quality eng - automation|ups|chennai",
+        "date": "2026-03-08T12:49:53.058542"
     }
 ]
