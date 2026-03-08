@@ -1,25 +1,5 @@
 [
     {
-        "id": "Quality Assurance Specialist-Rise Baking Company-Lancaster, NY, US",
-        "date": "2026-02-17T19:40:00.617282"
-    },
-    {
-        "id": "Sentinel - OBTE Integration & Test Manager 3 (17526)-Northrop Grumman-Roy, UT, US",
-        "date": "2026-02-17T19:40:00.617284"
-    },
-    {
-        "id": "Quality Assurance Manager-Momentara-Katy, TX",
-        "date": "2026-02-17T19:40:00.617286"
-    },
-    {
-        "id": "Quality Assurance Manager-Slate Auto-Troy, MI",
-        "date": "2026-02-17T19:40:00.617288"
-    },
-    {
-        "id": "Quality Assurance Manager-Sonstegard Foods Company-Springdale, AR",
-        "date": "2026-02-17T19:40:00.617290"
-    },
-    {
         "id": "QA Manager-CG Life-",
         "date": "2026-02-17T19:40:00.617293"
     },
@@ -9327,5 +9307,30 @@
         "id": "60f7e53c40a9ec898ad2db41cca102ad",
         "fingerprint": "global head of quality & continuous improvement - semiconductors|hitachi energy|remote",
         "date": "2026-03-07T19:49:44.226989"
+    },
+    {
+        "id": "7204cf5bc2db409a379ae4cafd3755e2",
+        "fingerprint": "emmvee - head - quality|emmvee photovoltaic power limited|bengaluru",
+        "date": "2026-03-08T06:49:48.787833"
+    },
+    {
+        "id": "81a6b68b612c5c7522ff46930ce4cd91",
+        "fingerprint": "staff software engineer in test|okta|bengaluru",
+        "date": "2026-03-08T06:49:48.787850"
+    },
+    {
+        "id": "569a7338550a0307d12fa1ea4a87805a",
+        "fingerprint": "quality assurance manager|iks health|mumbai",
+        "date": "2026-03-08T06:49:48.787853"
+    },
+    {
+        "id": "4bce43cf90ae84c828d26b523a2b42ac",
+        "fingerprint": "manager - quality|kauvery hospital|chennai",
+        "date": "2026-03-08T06:49:48.787856"
+    },
+    {
+        "id": "3c2246165018444a51bb542fdae5dc5e",
+        "fingerprint": "senior manager software engineering - performance & system test architecture|caterpillar inc.|chennai",
+        "date": "2026-03-08T06:49:48.787858"
     }
 ]
