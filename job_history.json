@@ -1,49 +1,5 @@
 [
     {
-        "id": "Clinic Coordinator - Physical Therapist-Engage Senior Therapy-Concord, NH, US",
-        "date": "2026-02-17T21:30:09.947679"
-    },
-    {
-        "id": "Clinic Coordinator - Physical Therapist-nan-Concord, NH, US",
-        "date": "2026-02-17T21:30:09.947681"
-    },
-    {
-        "id": "Clinic Coordinator - Physical Therapist-Engage Senior Therapy-Dover, NH, US",
-        "date": "2026-02-17T21:30:09.947683"
-    },
-    {
-        "id": "Clinic Coordinator - Physical Therapist-nan-Dover, NH, US",
-        "date": "2026-02-17T21:30:09.947685"
-    },
-    {
-        "id": "Quality Assurance Operations Lead-BA Sciences-Morrisville, NC",
-        "date": "2026-02-17T21:30:09.947687"
-    },
-    {
-        "id": "Quality Audit and Program Manager-Stratas Foods-Memphis, TN",
-        "date": "2026-02-17T21:30:09.947689"
-    },
-    {
-        "id": "Vice President of Quality-OKLAHOMA CITY INDIAN CLINIC-Oklahoma City, OK, US",
-        "date": "2026-02-17T21:30:09.947692"
-    },
-    {
-        "id": "Senior Director, Clinical Quality Compliance-Stoke Therapeutics-Bedford, MA",
-        "date": "2026-02-17T21:30:09.947693"
-    },
-    {
-        "id": "Branch Manager-Triple-S Steel-Farmington, NM",
-        "date": "2026-02-17T21:30:09.947695"
-    },
-    {
-        "id": "Executive Administrative Assistant-Planet Pharma-Northwood, OH",
-        "date": "2026-02-17T21:30:09.947698"
-    },
-    {
-        "id": "Production Quality Manager-GE Vernova-Markham, Ontario, Canada",
-        "date": "2026-02-17T21:30:09.947700"
-    },
-    {
         "id": "Quality Surveyor-BWXT-Peterborough, Ontario, Canada",
         "date": "2026-02-17T21:30:09.947702"
     },
@@ -9357,5 +9313,60 @@
         "id": "73e215b9882e25a76730d9953b48d36a",
         "fingerprint": "global head of cts quality|cubic transportation systems|hyderabad",
         "date": "2026-03-09T12:49:49.025367"
+    },
+    {
+        "id": "dcd493152b89a286bc3b91ff0a0e0f02",
+        "fingerprint": "director of quality engineering, flasharray|pure storage|bengaluru",
+        "date": "2026-03-09T19:49:51.473453"
+    },
+    {
+        "id": "74e50a262fc0415951b985b9c557a488",
+        "fingerprint": "lead -senior software development engineer test|swiggy|bengaluru",
+        "date": "2026-03-09T19:49:51.473461"
+    },
+    {
+        "id": "f84cc2e6e339aed6868e68fbae8fd060",
+        "fingerprint": "sr director ges intelligent process automation & specialized business services (ipa & sbs)|dsm-firmenich|hyderabad",
+        "date": "2026-03-09T19:49:51.473463"
+    },
+    {
+        "id": "2763f02d2bd6debd82e44cbd76de8971",
+        "fingerprint": "quality assurance manager (product engineering)|oolio|hyderabad",
+        "date": "2026-03-09T19:49:51.473465"
+    },
+    {
+        "id": "54d0c4dea50d50f884c80437425f676c",
+        "fingerprint": "software development manager, fixed asset automation (faa)|amazon|hyderabad",
+        "date": "2026-03-09T19:49:51.473466"
+    },
+    {
+        "id": "0c3c81c1f3dc548e4b3df4de81976c57",
+        "fingerprint": "team leader, quality|colgate-palmolive|chennai",
+        "date": "2026-03-09T19:49:51.473468"
+    },
+    {
+        "id": "c21e4e27e1815085f3f2832b6dc2e942",
+        "fingerprint": "ibu security test manager|infosys|chennai",
+        "date": "2026-03-09T19:49:51.473470"
+    },
+    {
+        "id": "eaf495265316d0a9591d72e616411de3",
+        "fingerprint": "senior manual test lead with us healthcare/medicaid|gainwell technologies|chennai",
+        "date": "2026-03-09T19:49:51.473471"
+    },
+    {
+        "id": "40908742c7500e12f95988efacb5c98c",
+        "fingerprint": "quality assurance (qa) lead l2|wipro|chennai",
+        "date": "2026-03-09T19:49:51.473473"
+    },
+    {
+        "id": "17ed925a5279a3da43563810c53d2482",
+        "fingerprint": "quality assurance (qa) lead l1|wipro|chennai",
+        "date": "2026-03-09T19:49:51.473475"
+    },
+    {
+        "id": "1138d3bddf9c26a06484e4bff36b91fc",
+        "fingerprint": "head quality & safety|adani electricity|ahmedabad",
+        "date": "2026-03-09T19:49:51.473476"
     }
 ]
