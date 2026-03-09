@@ -1,25 +1,5 @@
 [
     {
-        "id": "Quality Assurance Specialist-Equus Workforce Solutions-Odessa, TX, US",
-        "date": "2026-02-17T21:30:09.947626"
-    },
-    {
-        "id": "Quality Inspector I-PERFORMANCE DESIGNS-DeLand, FL, US",
-        "date": "2026-02-17T21:30:09.947630"
-    },
-    {
-        "id": "Quality Assurance Specialist-Glanbia Nutritionals-Carlsbad, CA, US",
-        "date": "2026-02-17T21:30:09.947634"
-    },
-    {
-        "id": "Specialist QA (Regulated Industry) 3542617-nan-PR, US",
-        "date": "2026-02-17T21:30:09.947638"
-    },
-    {
-        "id": "Plant Quality Technician-Niagara Bottling-Hazle Township, PA, US",
-        "date": "2026-02-17T21:30:09.947643"
-    },
-    {
         "id": "Sr Aseptic Quality Technician-Niagara Bottling-Temple, TX, US",
         "date": "2026-02-17T21:30:09.947647"
     },
@@ -9343,5 +9323,30 @@
         "id": "08bf78b96cf849cba65b558fb5d54f65",
         "fingerprint": "global quality manager|abb|remote",
         "date": "2026-03-08T19:49:23.739066"
+    },
+    {
+        "id": "6f5326aaa04c60251effd9bcfbfbb11e",
+        "fingerprint": "quality assurance manager/ sr manager|disto pharmaceuticals pvt ltd|hyderabad",
+        "date": "2026-03-09T06:50:03.019134"
+    },
+    {
+        "id": "be36f4a89a09bbc0f4f50c637f3fa138",
+        "fingerprint": "quality assurance manager|unison international consulting (the recruitment company)|gurugram",
+        "date": "2026-03-09T06:50:03.019150"
+    },
+    {
+        "id": "c82702be4ea348be9f80699d2a5d28f6",
+        "fingerprint": "quality control head for pharmaceutical|intracin pharmaceutical pvt ltd|ahmedabad",
+        "date": "2026-03-09T06:50:03.019153"
+    },
+    {
+        "id": "a41988129762facd904ecc6204b75610",
+        "fingerprint": "architect, test automation|valgenesis|chennai",
+        "date": "2026-03-09T06:50:03.019155"
+    },
+    {
+        "id": "bcb5742c366c0388741f10005fd02b68",
+        "fingerprint": "qms & quality manager|rij engineering pvt ltd|remote",
+        "date": "2026-03-09T06:50:03.019158"
     }
 ]
