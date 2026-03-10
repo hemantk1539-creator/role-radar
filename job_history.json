@@ -1,73 +1,5 @@
 [
     {
-        "id": "Regional Food Safety Manager - Americas-Barry Callebaut-Chicago, IL, US",
-        "date": "2026-02-17T23:08:20.775016"
-    },
-    {
-        "id": "Quality Assurance Manager-Blue Nalu, Inc.-Bridgeton, NJ, US",
-        "date": "2026-02-17T23:08:20.775018"
-    },
-    {
-        "id": "Quality Engineer-RETRACTABLE TECHNOLOGIES INC-Little Elm, TX, US",
-        "date": "2026-02-17T23:08:20.775020"
-    },
-    {
-        "id": "Quality Assurance Manager-BakeMark-Spartanburg County, SC",
-        "date": "2026-02-17T23:08:20.775022"
-    },
-    {
-        "id": "Quality Assurance Manager-Laurelcrest-McMinnville, OR",
-        "date": "2026-02-17T23:08:20.775024"
-    },
-    {
-        "id": "Intake/Recertification Coordinator-Overstanding Wellness LLC-Remote, US",
-        "date": "2026-02-17T23:08:20.775026"
-    },
-    {
-        "id": "Director of Quality Assurance-LHH-Chicago, IL",
-        "date": "2026-02-17T23:08:20.775028"
-    },
-    {
-        "id": "Director, QA Systems (Contract)-Adverum Biotechnologies-Redwood City, CA",
-        "date": "2026-02-17T23:08:20.775031"
-    },
-    {
-        "id": "Associate Director, QA-QC Operations (Contract)-Adverum Biotechnologies-Redwood City, CA",
-        "date": "2026-02-17T23:08:20.775033"
-    },
-    {
-        "id": "Associate Director, Quality Assurance Auditing-Science 37-Morrisville, NC",
-        "date": "2026-02-17T23:08:20.775035"
-    },
-    {
-        "id": "VP Quality-HCA Florida Memorial Hospital\u200b-Jacksonville, FL, US",
-        "date": "2026-02-17T23:08:20.775037"
-    },
-    {
-        "id": "Sr. QA Lead (Automation & Delivery Management) / Test Manager-RELQ TECHNOLOGIES-",
-        "date": "2026-02-17T23:08:20.775047"
-    },
-    {
-        "id": "Quality Engineering Manager-LHH-Glenview, IL",
-        "date": "2026-02-18T00:09:10.865847"
-    },
-    {
-        "id": "Clinic Director - Physical Therapist-OrthoSportsMED Physical Therapy-Dracut, MA, US",
-        "date": "2026-02-18T00:09:10.865864"
-    },
-    {
-        "id": "Clinic Director - Physical Therapist-nan-Dracut, MA, US",
-        "date": "2026-02-18T00:09:10.865866"
-    },
-    {
-        "id": "Clinic Director - Physical Therapist-nan-Hooksett, NH, US",
-        "date": "2026-02-18T00:09:10.865868"
-    },
-    {
-        "id": "Process Improvement - Intern-SHI International-Piscataway, NJ, US",
-        "date": "2026-02-18T00:09:10.865871"
-    },
-    {
         "id": "Head of Quality, Device and Combination Products-Biogen-Remote, US",
         "date": "2026-02-18T00:09:10.865873"
     },
@@ -9379,5 +9311,90 @@
         "id": "c360f42dac3f5262e2dfa8619735cb86",
         "fingerprint": "controls testing manager|natwest group|chennai",
         "date": "2026-03-10T06:49:47.097090"
+    },
+    {
+        "id": "c60272f55e0446a7411134ccb44b90c1",
+        "fingerprint": "manager supplier quality (electrical only) -renewables- large utility solar projects|engie india|pune",
+        "date": "2026-03-10T12:49:52.651106"
+    },
+    {
+        "id": "f30316c691b45b22d898f42fe0b5bf5c",
+        "fingerprint": "quality assurance manager|codvo.ai|pune",
+        "date": "2026-03-10T12:49:52.651122"
+    },
+    {
+        "id": "dca2f1c1b4aef200518b113eccffabf4",
+        "fingerprint": "senior manager - quality validation & engineering|apotex inc.|bengaluru",
+        "date": "2026-03-10T12:49:52.651125"
+    },
+    {
+        "id": "4b8d23e4b59d9f3331d9991ff8accca1",
+        "fingerprint": "national delivery excellence- qa manager|pwc acceleration center india|bengaluru",
+        "date": "2026-03-10T12:49:52.651127"
+    },
+    {
+        "id": "d52084acfdca15d2e5fa23af61f170e3",
+        "fingerprint": "qa head / manager|brfm india|bengaluru",
+        "date": "2026-03-10T12:49:52.651129"
+    },
+    {
+        "id": "80e7516885d4c30b44d1becb6b135f15",
+        "fingerprint": "assc dir mgr-qa engineering|moody's corporation|bengaluru",
+        "date": "2026-03-10T12:49:52.651131"
+    },
+    {
+        "id": "dd63aa36b8fe42a71e213397b2e9f8cb",
+        "fingerprint": "deputy manager quality assurance|ennovi|bengaluru",
+        "date": "2026-03-10T12:49:52.651134"
+    },
+    {
+        "id": "c5610cf29b041397e60b4dda40b55ef1",
+        "fingerprint": "principal network architect - automation ecosystem|abb|bengaluru",
+        "date": "2026-03-10T12:49:52.651136"
+    },
+    {
+        "id": "280a6aa75475eacbeea8829adbf6ae3d",
+        "fingerprint": "lead software development engineer in test (ios)|swiggy|bengaluru",
+        "date": "2026-03-10T12:49:52.651138"
+    },
+    {
+        "id": "05a1926e69b0127ee377ca33d040217e",
+        "fingerprint": "sr technical program manager - prime video, ai automation|amazon|bengaluru",
+        "date": "2026-03-10T12:49:52.651140"
+    },
+    {
+        "id": "339ddd90fab3f95f720532110a81510e",
+        "fingerprint": "sr. manager quality -  account receivable  us healthcare rcm|gebbs healthcare solutions|mumbai",
+        "date": "2026-03-10T12:49:52.651142"
+    },
+    {
+        "id": "8338293d0c7d6eec214ae0883b5057a1",
+        "fingerprint": "quality control (qc) lead \u2013 osp / fiber design|sutherland|hyderabad",
+        "date": "2026-03-10T12:49:52.651144"
+    },
+    {
+        "id": "6276893e96cb426a97acdaf97374a206",
+        "fingerprint": "senior quality manager|dimple creations private limited|noida",
+        "date": "2026-03-10T12:49:52.651146"
+    },
+    {
+        "id": "86eb4517787a01dd7feb8e5db681703a",
+        "fingerprint": "senior qualdev (sdet) architect|aeris|noida",
+        "date": "2026-03-10T12:49:52.651149"
+    },
+    {
+        "id": "f2911b3719eb68688f3ee297a7b11d08",
+        "fingerprint": "quality manager|ingredion incorporated|ahmedabad",
+        "date": "2026-03-10T12:49:52.651151"
+    },
+    {
+        "id": "af70d05b1a4576af592ef1528f42aff6",
+        "fingerprint": "quality assurance lead|e2m|ahmedabad",
+        "date": "2026-03-10T12:49:52.651153"
+    },
+    {
+        "id": "eb0d71ffe184ca865a1d5300ce1386cb",
+        "fingerprint": "plant quality manager level 2|faurecia|chennai",
+        "date": "2026-03-10T12:49:52.651155"
     }
 ]
