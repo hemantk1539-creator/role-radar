@@ -1,49 +1,5 @@
 [
     {
-        "id": "Quality Surveyor-BWXT-Peterborough, Ontario, Canada",
-        "date": "2026-02-17T21:30:09.947702"
-    },
-    {
-        "id": "Member of Technical Staff - Sys-Aptiv-TN, IN",
-        "date": "2026-02-17T23:08:20.774981"
-    },
-    {
-        "id": "QUALITY ENGINEERING MANAGER-Amtec Staffing-Brea, CA",
-        "date": "2026-02-17T23:08:20.774997"
-    },
-    {
-        "id": "SDET Manager-Continental General-Austin, TX",
-        "date": "2026-02-17T23:08:20.774999"
-    },
-    {
-        "id": "Quality Assurance Manager-Royal Basket Trucks, Inc-Darien, WI, US",
-        "date": "2026-02-17T23:08:20.775001"
-    },
-    {
-        "id": "FSQA Analyst-Boar's Head-Jarratt, VA, US",
-        "date": "2026-02-17T23:08:20.775004"
-    },
-    {
-        "id": "Assistant QA Manager-Dessert Holdings Inc.-Aurora, CO, US",
-        "date": "2026-02-17T23:08:20.775006"
-    },
-    {
-        "id": "Senior Quality Assurance (QA) Review Specialist-Dime Community Bank-Hauppauge, NY, US",
-        "date": "2026-02-17T23:08:20.775008"
-    },
-    {
-        "id": "Food Safety & Quality Assurance Manager-DO & CO-Des Plaines, IL, US",
-        "date": "2026-02-17T23:08:20.775010"
-    },
-    {
-        "id": "Quality Assurance Manager-Sonstegard Foods Company-Springdale, AR, US",
-        "date": "2026-02-17T23:08:20.775012"
-    },
-    {
-        "id": "Quality Assurance Technician-Blue Nalu, Inc.-Bridgeton, NJ, US",
-        "date": "2026-02-17T23:08:20.775014"
-    },
-    {
         "id": "Regional Food Safety Manager - Americas-Barry Callebaut-Chicago, IL, US",
         "date": "2026-02-17T23:08:20.775016"
     },
@@ -9368,5 +9324,60 @@
         "id": "1138d3bddf9c26a06484e4bff36b91fc",
         "fingerprint": "head quality & safety|adani electricity|ahmedabad",
         "date": "2026-03-09T19:49:51.473476"
+    },
+    {
+        "id": "080c63eac8ad36957db4809811b688d6",
+        "fingerprint": "qa architect (10+ years)|incubxperts|pune",
+        "date": "2026-03-10T06:49:47.096982"
+    },
+    {
+        "id": "2d5320829c37823e21b60a7067c5a995",
+        "fingerprint": "quality assurance manager|peoplefy|pune",
+        "date": "2026-03-10T06:49:47.096998"
+    },
+    {
+        "id": "ab04474251269cd0a4cddf598aae0415",
+        "fingerprint": "gpp test lead|barclays|pune",
+        "date": "2026-03-10T06:49:47.097050"
+    },
+    {
+        "id": "60a616a88debc41830763a0ba8c7b633",
+        "fingerprint": "manager - industrial automation|lightspeed automation solutions pvt ltd|bengaluru",
+        "date": "2026-03-10T06:49:47.097055"
+    },
+    {
+        "id": "1fe0c8a74712408922d93041398318fb",
+        "fingerprint": "engineering manager - qe|cloudera|bengaluru",
+        "date": "2026-03-10T06:49:47.097059"
+    },
+    {
+        "id": "0436142aad5aff49a35fe576ea8c6696",
+        "fingerprint": "test manager - enterprise applications - tosca|globalfoundries|bengaluru",
+        "date": "2026-03-10T06:49:47.097065"
+    },
+    {
+        "id": "da5a1e749070d92e78a591b77903daf4",
+        "fingerprint": "quality and process excellence lead l4|wipro|hyderabad",
+        "date": "2026-03-10T06:49:47.097070"
+    },
+    {
+        "id": "66a9e22d142856b7bd37b9169deee48f",
+        "fingerprint": "manager ii, operations (automation and business intelligence)|kroll|gurugram",
+        "date": "2026-03-10T06:49:47.097077"
+    },
+    {
+        "id": "a02a7172211d59d56c94f14ca6810c63",
+        "fingerprint": "asst manager qa|sceptre medical india pvt. ltd.|gurugram",
+        "date": "2026-03-10T06:49:47.097083"
+    },
+    {
+        "id": "2b2190aa519a3de8971880b4c6a2085d",
+        "fingerprint": "manager, ai & automation|tech data apac|chennai",
+        "date": "2026-03-10T06:49:47.097087"
+    },
+    {
+        "id": "c360f42dac3f5262e2dfa8619735cb86",
+        "fingerprint": "controls testing manager|natwest group|chennai",
+        "date": "2026-03-10T06:49:47.097090"
     }
 ]
