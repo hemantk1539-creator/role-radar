@@ -1,61 +1,5 @@
 [
     {
-        "id": "Head of Quality, Device and Combination Products-Biogen-Remote, US",
-        "date": "2026-02-18T00:09:10.865873"
-    },
-    {
-        "id": "Sr. Product Quality Engineer - NDT Level III-Archer-San Jose, CA",
-        "date": "2026-02-18T00:09:10.865874"
-    },
-    {
-        "id": "Release Test Manager \u2013 Customer Integration-Sonatus-",
-        "date": "2026-02-18T05:46:45.771337"
-    },
-    {
-        "id": "Test Manager-Standard Chartered Bank-TN, IN",
-        "date": "2026-02-18T05:46:45.771360"
-    },
-    {
-        "id": "Test Manager-Standard Chartered India-Chennai, Tamil Nadu, India",
-        "date": "2026-02-18T05:46:45.771364"
-    },
-    {
-        "id": "Senior Water Resources / Stream Restoration Engineer-nan-Wilkesboro, NC, US",
-        "date": "2026-02-18T05:46:45.771368"
-    },
-    {
-        "id": "Senior Water Resources / Stream Restoration Engineer-nan-Raleigh, NC, US",
-        "date": "2026-02-18T05:46:45.771372"
-    },
-    {
-        "id": "Senior Water Resources / Stream Restoration Engineer-nan-Charlotte, NC, US",
-        "date": "2026-02-18T05:46:45.771375"
-    },
-    {
-        "id": "Senior UAT Quality Engineering Manager/Leader with Healthcare Payer Provider Claims Experience-Infinite Computer Solutions-",
-        "date": "2026-02-18T05:46:45.771377"
-    },
-    {
-        "id": "Software Develop Engineer in Test Manager, Creativity Apps-Apple-Cupertino, CA",
-        "date": "2026-02-18T05:46:45.771379"
-    },
-    {
-        "id": "Inventory Control Supervisor-Lensa-Durham, NC",
-        "date": "2026-02-18T05:46:45.771382"
-    },
-    {
-        "id": "Accounts Receivable Coordinator - Onsite-AMEDISYS HOME HEALTH-Baton Rouge, LA",
-        "date": "2026-02-18T05:46:45.771384"
-    },
-    {
-        "id": "Senior Water Resources / Stream Restoration Engineer-Stratus\u00ae-Raleigh, NC",
-        "date": "2026-02-18T05:46:45.771386"
-    },
-    {
-        "id": "Head of Sales/Director of Sales CA Office-Liberty1 FInancial-Irvine, CA, US",
-        "date": "2026-02-18T05:46:45.771388"
-    },
-    {
         "id": "Quality Assurance Manager-Royal Basket Trucks, Inc.-Darien, WI, US",
         "date": "2026-02-18T05:46:45.771390"
     },
@@ -9396,5 +9340,75 @@
         "id": "eb0d71ffe184ca865a1d5300ce1386cb",
         "fingerprint": "plant quality manager level 2|faurecia|chennai",
         "date": "2026-03-10T12:49:52.651155"
+    },
+    {
+        "id": "d530ab5e5c4562f70934dea301d2de95",
+        "fingerprint": "quality, risk & compliance manager|jll|bengaluru",
+        "date": "2026-03-10T19:50:03.848854"
+    },
+    {
+        "id": "8e93249dc554e9ee7231b1e28ae9b3bb",
+        "fingerprint": "test lead|infinite computer solutions|bengaluru",
+        "date": "2026-03-10T19:50:03.848870"
+    },
+    {
+        "id": "896f00fbc505e89db66dc2a328d0ef8b",
+        "fingerprint": "manager software test engineering (etl)|calix|bengaluru",
+        "date": "2026-03-10T19:50:03.848873"
+    },
+    {
+        "id": "5a4ee1ac401ac18c2c8072aa791699f8",
+        "fingerprint": "director quality & regulatory affairs coe|thermo fisher scientific|bengaluru",
+        "date": "2026-03-10T19:50:03.848875"
+    },
+    {
+        "id": "c7ad434fbb6aa2f8972dfb3751cf26f8",
+        "fingerprint": "director quality rcm us healthcare|gebbs healthcare solutions|mumbai",
+        "date": "2026-03-10T19:50:03.848877"
+    },
+    {
+        "id": "c80fb1c9aa6a2432975255ca8040258e",
+        "fingerprint": "sap test program manager|capgemini|mumbai",
+        "date": "2026-03-10T19:50:03.848879"
+    },
+    {
+        "id": "6d3d28116b3bfe26b1f6a2db38ec900b",
+        "fingerprint": "(support ops) customer support quality manager / training|multiplier|pune",
+        "date": "2026-03-10T19:50:03.848882"
+    },
+    {
+        "id": "2cccd3a96a8d10e43efc6a992950a032",
+        "fingerprint": "dy.manager-quality assurance|commercial vehicle group, inc.|pune",
+        "date": "2026-03-10T19:50:03.848884"
+    },
+    {
+        "id": "0e2f1afc2e2b44034cf333d6fe54d5f8",
+        "fingerprint": "manager i quality|concentrix|hyderabad",
+        "date": "2026-03-10T19:50:03.848886"
+    },
+    {
+        "id": "541a833a945b9f2ec9701f44498fa936",
+        "fingerprint": "director \u2013 quality engineering (iot, bms & genai programs) | work model: hybrid | location: noida | exp: 16+ years|unicorn workforce|gurugram",
+        "date": "2026-03-10T19:50:03.848889"
+    },
+    {
+        "id": "3000bf6131062e1ae12d552ee681926f",
+        "fingerprint": "manager, quality engineering|zoominfo|chennai",
+        "date": "2026-03-10T19:50:03.848891"
+    },
+    {
+        "id": "60fb5effd73f52baa191870668238cbf",
+        "fingerprint": "automation technical lead|tata consultancy services|chennai",
+        "date": "2026-03-10T19:50:03.848893"
+    },
+    {
+        "id": "a73bb88c9cb84d22e6d208c900cbb029",
+        "fingerprint": "qa lead|azista space|ahmedabad",
+        "date": "2026-03-10T19:50:03.848895"
+    },
+    {
+        "id": "9f3d215fca3c2059cb235dcf2a1b547e",
+        "fingerprint": "director global quality|relate search|remote",
+        "date": "2026-03-10T19:50:03.848897"
     }
 ]
