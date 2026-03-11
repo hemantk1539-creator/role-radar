@@ -1,37 +1,5 @@
 [
     {
-        "id": "QA Manager - WordPress-E2M-Ahmedabad, Gujarat, India",
-        "date": "2026-02-18T08:09:44.198660"
-    },
-    {
-        "id": "Building Engineer- Anne Arundel County-Thomas Park-Annapolis, MD",
-        "date": "2026-02-18T08:09:44.198662"
-    },
-    {
-        "id": "Building Engineer- Anne Arundel County-Thomas Park-Edgewater, MD",
-        "date": "2026-02-18T08:09:44.198664"
-    },
-    {
-        "id": "Building Engineer- Anne Arundel County-Thomas Park-Waldorf, MD",
-        "date": "2026-02-18T08:09:44.198666"
-    },
-    {
-        "id": "Quality Assurance Manager-Vibrant America-Santa Clara, CA, US",
-        "date": "2026-02-18T08:09:44.198668"
-    },
-    {
-        "id": "Plant QA Manager-Niagara Bottling-Vernon, CA, US",
-        "date": "2026-02-18T08:09:44.198671"
-    },
-    {
-        "id": "QC Repair Technician-Siddons-Martin Emergency Group-Hillsboro, TX, US",
-        "date": "2026-02-18T08:09:44.198680"
-    },
-    {
-        "id": "QA Manager-Lexitas Pharma Services-Erie, PA",
-        "date": "2026-02-18T08:09:44.198685"
-    },
-    {
         "id": "Quality Assurance Administrator-Community Solutions-Gilroy, CA, US",
         "date": "2026-02-18T08:09:44.198689"
     },
@@ -9437,5 +9405,45 @@
         "id": "7a25b47b1964e6b35a3c6ed17a2d9301",
         "fingerprint": "quality assurance test lead|brainvire|ahmedabad",
         "date": "2026-03-11T12:50:33.451694"
+    },
+    {
+        "id": "457709dae20e14311647053bb67000e3",
+        "fingerprint": "murex testing| 8-12 yrs|manager|capgemini|pune",
+        "date": "2026-03-11T19:49:53.637548"
+    },
+    {
+        "id": "607cbf0ed5320df58df76ae2b0a18b4f",
+        "fingerprint": "qa team leader|aec overseas - abroad education consultants|noida",
+        "date": "2026-03-11T19:49:53.637565"
+    },
+    {
+        "id": "e98c2c4bcc5ba5dc8f41d01d41752c94",
+        "fingerprint": "training and quality manager|datamark, inc.|chennai",
+        "date": "2026-03-11T19:49:53.637568"
+    },
+    {
+        "id": "e3e5f6321daff15db33589a8d8d53c1b",
+        "fingerprint": "sr manufacturing staff manager - production quality|ge vernova|chennai",
+        "date": "2026-03-11T19:49:53.637571"
+    },
+    {
+        "id": "1a2e157e7535c9a5255c59f3ea4a8369",
+        "fingerprint": "manager - quality|parker hannifin|chennai",
+        "date": "2026-03-11T19:49:53.637573"
+    },
+    {
+        "id": "9070c322209755ec231bddad942eec65",
+        "fingerprint": "qa test lead (new)|ai certs\u00ae - india|ahmedabad",
+        "date": "2026-03-11T19:49:53.637576"
+    },
+    {
+        "id": "4ba975447b2af5ed911c0d1acb47436b",
+        "fingerprint": "automation lead|adani enterprises limited|ahmedabad",
+        "date": "2026-03-11T19:49:53.637578"
+    },
+    {
+        "id": "8a7cc968dbce463d86e52891cc4b0335",
+        "fingerprint": "quality control lead|lupin|remote",
+        "date": "2026-03-11T19:49:53.637580"
     }
 ]
