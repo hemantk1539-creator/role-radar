@@ -1,65 +1,5 @@
 [
     {
-        "id": "Quality Assurance Manager-Harris Computer-Illinois, United States",
-        "date": "2026-02-18T05:46:45.771413"
-    },
-    {
-        "id": "Quality Assurance Manager-Harris Computer-Massachusetts, United States",
-        "date": "2026-02-18T05:46:45.771415"
-    },
-    {
-        "id": "Batch Records Auditor-1st Shift-Fresenius Kabi USA-Grand Island, NY",
-        "date": "2026-02-18T05:46:45.771417"
-    },
-    {
-        "id": "Director of Quality & Engineering - OEM-MSC Industrial Supply Co.-Grand Rapids, MI",
-        "date": "2026-02-18T05:46:45.771419"
-    },
-    {
-        "id": "NDT Manager/Level III-Arrowhead Products-Los Alamitos, CA, US",
-        "date": "2026-02-18T05:46:45.771421"
-    },
-    {
-        "id": "Senior Director Quality Assurance Head, Small Molecules-Lensa-Foster City, CA",
-        "date": "2026-02-18T05:46:45.771423"
-    },
-    {
-        "id": "Senior Director, Quality Assurance - Gene Therapy-Insmed Incorporated-San Diego, CA",
-        "date": "2026-02-18T05:46:45.771425"
-    },
-    {
-        "id": "Director/Senior Director, Quality-Sail Biomedicines-Cambridge, MA",
-        "date": "2026-02-18T05:46:45.771427"
-    },
-    {
-        "id": "Pharmaceutical Manufacturing Investigator-Lensa-Monroe, NC",
-        "date": "2026-02-18T05:46:45.771429"
-    },
-    {
-        "id": "Manufacturing Test Technician-CoolIT Systems-Calgary, Alberta, Canada",
-        "date": "2026-02-18T05:46:45.771431"
-    },
-    {
-        "id": "Mobile Field Supervisor-GardaWorld-Calgary, Alberta, Canada",
-        "date": "2026-02-18T05:46:45.771433"
-    },
-    {
-        "id": "Quality intern-Trexo Robotics-Mississauga, Ontario, Canada",
-        "date": "2026-02-18T05:46:45.771435"
-    },
-    {
-        "id": "Assistant Quality Assurance Manager-Impetus Career Consultants-Gurugram, Haryana, India",
-        "date": "2026-02-18T08:09:44.198639"
-    },
-    {
-        "id": "Senior Qulaity Engineering Manager [T500-23481]-Marriott Tech Accelerator-Hyderabad, Telangana, India",
-        "date": "2026-02-18T08:09:44.198655"
-    },
-    {
-        "id": "Quality Assurance Manager-Kusumgar-Surat, Gujarat, India",
-        "date": "2026-02-18T08:09:44.198658"
-    },
-    {
         "id": "QA Manager - WordPress-E2M-Ahmedabad, Gujarat, India",
         "date": "2026-02-18T08:09:44.198660"
     },
@@ -9422,5 +9362,80 @@
         "id": "a95b06c1ad9c875091a3a6c36f4ee2de",
         "fingerprint": "head of quality assurance|s3v vascular technologies|chennai",
         "date": "2026-03-11T06:50:20.032935"
+    },
+    {
+        "id": "bdfb97458a52d551fc5c0ee353f8d99f",
+        "fingerprint": "quality assurance automation lead|osmos|pune",
+        "date": "2026-03-11T12:50:33.451651"
+    },
+    {
+        "id": "892e7aa93192b9f60e8c1130da304729",
+        "fingerprint": "head of quality assurance|comviva|bengaluru",
+        "date": "2026-03-11T12:50:33.451666"
+    },
+    {
+        "id": "623e4c20b207fe884126669debad6ecf",
+        "fingerprint": "manager - qa (coated)|saint-gobain group in india|bengaluru",
+        "date": "2026-03-11T12:50:33.451669"
+    },
+    {
+        "id": "0646cbcc169efe52b727297eae85fd85",
+        "fingerprint": "head of quality assurance|career141|mumbai",
+        "date": "2026-03-11T12:50:33.451671"
+    },
+    {
+        "id": "64189057d15b791eb5eabb1cfd35ce75",
+        "fingerprint": "lead software qa engineer|ss&c technologies|mumbai",
+        "date": "2026-03-11T12:50:33.451673"
+    },
+    {
+        "id": "5a85b073ab5ee68e63649d7b6dd30f39",
+        "fingerprint": "senior manager, quality engineering [t500-24265]|cibc india|hyderabad",
+        "date": "2026-03-11T12:50:33.451674"
+    },
+    {
+        "id": "6f49573334dbd835519540ebeff7d2d1",
+        "fingerprint": "head of quality control|dhawan box sheet containers|gurugram",
+        "date": "2026-03-11T12:50:33.451676"
+    },
+    {
+        "id": "d15649f95793d760d5063e0561410217",
+        "fingerprint": "parts quality manager|statiq|gurugram",
+        "date": "2026-03-11T12:50:33.451678"
+    },
+    {
+        "id": "a42766dddbddde2112404755d6a74d7f",
+        "fingerprint": "senior manager\u2013 lean & quality|genpact|chennai",
+        "date": "2026-03-11T12:50:33.451681"
+    },
+    {
+        "id": "d9a53f1bbd5f07296029dbc783ca30c0",
+        "fingerprint": "test automation lead|accenture services pvt ltd|chennai",
+        "date": "2026-03-11T12:50:33.451683"
+    },
+    {
+        "id": "c14164b3ca2c753e797950c2a2f2e5c6",
+        "fingerprint": "solution architect - test automation|epam systems|chennai",
+        "date": "2026-03-11T12:50:33.451685"
+    },
+    {
+        "id": "5dba6d9a8d76dd4f0829ff19c8496dc0",
+        "fingerprint": "manager supplier quality|larsen & toubro|ahmedabad",
+        "date": "2026-03-11T12:50:33.451687"
+    },
+    {
+        "id": "bcfc59348e63c1521cf479d169f77b34",
+        "fingerprint": "manager - quality (centac & blower)|ingersoll rand|ahmedabad",
+        "date": "2026-03-11T12:50:33.451689"
+    },
+    {
+        "id": "fd8d747853795e5486f799af7fc403ed",
+        "fingerprint": "quality assurance team lead|actowiz solutions|ahmedabad",
+        "date": "2026-03-11T12:50:33.451692"
+    },
+    {
+        "id": "7a25b47b1964e6b35a3c6ed17a2d9301",
+        "fingerprint": "quality assurance test lead|brainvire|ahmedabad",
+        "date": "2026-03-11T12:50:33.451694"
     }
 ]
