@@ -1,45 +1,5 @@
 [
     {
-        "id": "Lab Technician-Dairy Farmers of America, Inc.-Cass City, MI, US",
-        "date": "2026-02-18T10:37:56.594288"
-    },
-    {
-        "id": "Director of Quality Engineering-AMETEK-Hidalgo, TX",
-        "date": "2026-02-18T10:37:56.594290"
-    },
-    {
-        "id": "Director of Quality Assurance - Active Implantables-Cirtec Medical-Brooklyn Park, MN",
-        "date": "2026-02-18T10:37:56.594292"
-    },
-    {
-        "id": "Quality Engineer-Boeing-Winnipeg, Manitoba, Canada",
-        "date": "2026-02-18T10:37:56.594294"
-    },
-    {
-        "id": "Watermelon Test Manager-Virtusa-Bangalore Urban, Karnataka, India",
-        "date": "2026-02-18T12:11:00.514166"
-    },
-    {
-        "id": "QA Automation Engineer, 2-Bread Financial-KA, IN",
-        "date": "2026-02-18T12:11:00.514183"
-    },
-    {
-        "id": "Quality Assurance Manager required in Singapore-Vinfinity Immigration (Official Page)-Pune, Maharashtra, India",
-        "date": "2026-02-18T12:11:00.514185"
-    },
-    {
-        "id": "Senior Test Engineer-QualityKiosk-HR, IN",
-        "date": "2026-02-18T12:11:00.514188"
-    },
-    {
-        "id": "Manager - Accounts Payable-Genpact-UP, IN",
-        "date": "2026-02-18T12:11:00.514190"
-    },
-    {
-        "id": "Quality Assurance Manager-Welspun New Energy Ltd.-Jamnagar, Gujarat, India",
-        "date": "2026-02-18T12:11:00.514192"
-    },
-    {
         "id": "Quality Assurance Manager-ATV Precision Components Pvt. Ltd.-Chennai, Tamil Nadu, India",
         "date": "2026-02-18T12:11:00.514194"
     },
@@ -9455,5 +9415,55 @@
         "id": "165d0380eb128a4133cadf022a759dc2",
         "fingerprint": "environmental testing head|azista space|ahmedabad",
         "date": "2026-03-12T06:49:39.003392"
+    },
+    {
+        "id": "bdad5f1e5ccca318305079ba76ea6d0b",
+        "fingerprint": "servicenow- process mapping & automation - manager|state street|pune",
+        "date": "2026-03-12T12:50:04.750467"
+    },
+    {
+        "id": "d7d6e7417c8605fb2e712c7e18d076c5",
+        "fingerprint": "manager, data quality and governance|hsbc|bengaluru",
+        "date": "2026-03-12T12:50:04.750482"
+    },
+    {
+        "id": "1f3ae2ec2573890154ff2c6dad44bbf2",
+        "fingerprint": "senior automation & ai testing lead|synechron|bengaluru",
+        "date": "2026-03-12T12:50:04.750485"
+    },
+    {
+        "id": "524caad1b70e035363aaa336c9d2a456",
+        "fingerprint": "quality manager-stt|blue star limited|mumbai",
+        "date": "2026-03-12T12:50:04.750487"
+    },
+    {
+        "id": "4b32a13c29d05933f8a4d5b2e4bac8f2",
+        "fingerprint": "manager, gtech, tools automation and infrastructure|google|hyderabad",
+        "date": "2026-03-12T12:50:04.750489"
+    },
+    {
+        "id": "50edafe7021ad0864da6202284f477e3",
+        "fingerprint": "manager / senior manager - quality|igt solutions|gurugram",
+        "date": "2026-03-12T12:50:04.750491"
+    },
+    {
+        "id": "0a380079fafbe17f02e72a4275160f90",
+        "fingerprint": "staff software development engineer in test|poshmark|chennai",
+        "date": "2026-03-12T12:50:04.750493"
+    },
+    {
+        "id": "3cbffd598e64ddcee02af906f423494c",
+        "fingerprint": "quality head \u2013 wires & cables|fybros|noida",
+        "date": "2026-03-12T12:50:04.750495"
+    },
+    {
+        "id": "802aee86b73af5e27e7cc86c0cc87488",
+        "fingerprint": "lead quality management system specialist|arabelle solutions|ahmedabad",
+        "date": "2026-03-12T12:50:04.750497"
+    },
+    {
+        "id": "708bddb373051937668801193620e64b",
+        "fingerprint": "qa manager|sanolet lifecare pvt ltd|ahmedabad",
+        "date": "2026-03-12T12:50:04.750500"
     }
 ]
