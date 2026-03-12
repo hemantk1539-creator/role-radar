@@ -1,37 +1,5 @@
 [
     {
-        "id": "Quality Assurance Manager-ATV Precision Components Pvt. Ltd.-Chennai, Tamil Nadu, India",
-        "date": "2026-02-18T12:11:00.514194"
-    },
-    {
-        "id": "Quality Assurance Manager- Wordpress-E2M-",
-        "date": "2026-02-18T12:11:00.514196"
-    },
-    {
-        "id": "Test Manager-myGwork - LGBTQ+ Business Community-Chennai, Tamil Nadu, India",
-        "date": "2026-02-18T12:11:00.514197"
-    },
-    {
-        "id": "Quality Engineering Manager, Wentzville-General Motors-Wentzville, MO",
-        "date": "2026-02-18T12:11:00.514200"
-    },
-    {
-        "id": "QA Manager, Quality Assurance-Grow Therapy-New York, NY",
-        "date": "2026-02-18T12:11:00.514202"
-    },
-    {
-        "id": "Quality Assurance Manager-The Fordy Group-Nashville, TN",
-        "date": "2026-02-18T12:11:00.514204"
-    },
-    {
-        "id": "Executive Director, Quality Assurance- Clinical QA & Drug Safety-Savara Inc.-",
-        "date": "2026-02-18T12:11:00.514206"
-    },
-    {
-        "id": "Associate Director, Quality Assurance-Rapport Therapeutics-Boston, MA",
-        "date": "2026-02-18T12:11:00.514208"
-    },
-    {
         "id": "Vice President Quality Assurance-Arevna-Houston, TX",
         "date": "2026-02-18T12:11:00.514210"
     },
@@ -9465,5 +9433,45 @@
         "id": "708bddb373051937668801193620e64b",
         "fingerprint": "qa manager|sanolet lifecare pvt ltd|ahmedabad",
         "date": "2026-03-12T12:50:04.750500"
+    },
+    {
+        "id": "fd1f5e8e0e7af887173e83df73ed0cd5",
+        "fingerprint": "automation manager (india)|vertech|pune",
+        "date": "2026-03-12T19:50:10.788548"
+    },
+    {
+        "id": "3cb23bf4a777ea51cb03028ca0d43538",
+        "fingerprint": "manager - supplier quality (electrical)|ge aerospace|pune",
+        "date": "2026-03-12T19:50:10.788564"
+    },
+    {
+        "id": "262212d29d9169fc66564e4bbb839ba5",
+        "fingerprint": "director clinical supply quality|johnson & johnson innovative medicine|mumbai",
+        "date": "2026-03-12T19:50:10.788567"
+    },
+    {
+        "id": "1de49265c762ee8a19d6f118f571778f",
+        "fingerprint": "head qa (pss07935)|personnel search services group|hyderabad",
+        "date": "2026-03-12T19:50:10.788570"
+    },
+    {
+        "id": "d92ffc2e6ea499e95b0d03956860574d",
+        "fingerprint": "servicenow- process mapping & automation - manager|state street|hyderabad",
+        "date": "2026-03-12T19:50:10.788572"
+    },
+    {
+        "id": "8e939d839b1c4d74424268df0b0795ef",
+        "fingerprint": "head of quality (pss07812)|personnel search services group|gurugram",
+        "date": "2026-03-12T19:50:10.788574"
+    },
+    {
+        "id": "b3e6a8c808a33525f0f499f0f7a0feef",
+        "fingerprint": "senior quality assurance manager|mrm procom pvt ltd|gurugram",
+        "date": "2026-03-12T19:50:10.788576"
+    },
+    {
+        "id": "521f04130d4d97c0955a3090c8d64ba8",
+        "fingerprint": "manager, software test automation|kla|chennai",
+        "date": "2026-03-12T19:50:10.788578"
     }
 ]
