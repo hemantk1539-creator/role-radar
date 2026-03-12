@@ -1,45 +1,5 @@
 [
     {
-        "id": "Quality Assurance Administrator-Community Solutions-Gilroy, CA, US",
-        "date": "2026-02-18T08:09:44.198689"
-    },
-    {
-        "id": "manufacturing quality assurance (QA) director-Soleterra d'Italia-Acme, Alberta, Canada",
-        "date": "2026-02-18T08:09:44.198693"
-    },
-    {
-        "id": "Quality Assurance Manager-Champion Plastics(India) Private Limited-Hosur, Tamil Nadu, India",
-        "date": "2026-02-18T10:37:56.594257"
-    },
-    {
-        "id": "SET I - India-CME Group-Bengaluru, Karnataka, India",
-        "date": "2026-02-18T10:37:56.594273"
-    },
-    {
-        "id": "Senior Test Automation Developer-Dolby Laboratories-Bengaluru, Karnataka, India",
-        "date": "2026-02-18T10:37:56.594276"
-    },
-    {
-        "id": "Quality Assurance Manager-TekniPlex-",
-        "date": "2026-02-18T10:37:56.594278"
-    },
-    {
-        "id": "Quality Control Laboratory Manager-Paras Lubricants Limited-Daman, Daman and Diu, India",
-        "date": "2026-02-18T10:37:56.594280"
-    },
-    {
-        "id": "Quality Engineering Manager-Moog Inc.-Torrance, CA",
-        "date": "2026-02-18T10:37:56.594282"
-    },
-    {
-        "id": "Quality Assurance Manager-Boeing EnCore Interiors, LLC-Huntington Beach, CA, US",
-        "date": "2026-02-18T10:37:56.594284"
-    },
-    {
-        "id": "Senior Quality Coordinator - Wastewater-The Haskell Company-Stratford Hall, VA, US",
-        "date": "2026-02-18T10:37:56.594286"
-    },
-    {
         "id": "Lab Technician-Dairy Farmers of America, Inc.-Cass City, MI, US",
         "date": "2026-02-18T10:37:56.594288"
     },
@@ -9445,5 +9405,55 @@
         "id": "8a7cc968dbce463d86e52891cc4b0335",
         "fingerprint": "quality control lead|lupin|remote",
         "date": "2026-03-11T19:49:53.637580"
+    },
+    {
+        "id": "6e29c5e6169228762291023b6c686cff",
+        "fingerprint": "quality engineering manager (incoming & supplier quality)|tonbo imaging|bengaluru",
+        "date": "2026-03-12T06:49:39.003358"
+    },
+    {
+        "id": "e641d17341dc350aa9576681c87ce9cc",
+        "fingerprint": "software test manager|siemens|bengaluru",
+        "date": "2026-03-12T06:49:39.003374"
+    },
+    {
+        "id": "ab9aa0fda7d344fba120869c9ec4b4c4",
+        "fingerprint": "android qa lead|hp|bengaluru",
+        "date": "2026-03-12T06:49:39.003377"
+    },
+    {
+        "id": "1fb0f5cad1765a4028b3f441f99be79b",
+        "fingerprint": "manager / sr. manager / team lead - liquidity operations & market quality|peoplenomic consulting|mumbai",
+        "date": "2026-03-12T06:49:39.003379"
+    },
+    {
+        "id": "e9d74a11d1149b03f1e6b3ea53aef71c",
+        "fingerprint": "quality assurance manager|akasa air|mumbai",
+        "date": "2026-03-12T06:49:39.003381"
+    },
+    {
+        "id": "9f18afd416bed37cd59cd6a7f973d2bc",
+        "fingerprint": "qa/qc head at head office gurgaon|minda infrastructure llp|hyderabad",
+        "date": "2026-03-12T06:49:39.003383"
+    },
+    {
+        "id": "e0226e522cf1fb58eb3eb7ce5eeb3486",
+        "fingerprint": "development manager qa/qv|electronic arts (ea)|hyderabad",
+        "date": "2026-03-12T06:49:39.003385"
+    },
+    {
+        "id": "47cd173e07c20ee0ec4c1f4d651a9dd3",
+        "fingerprint": "lead quality assurance - manager|state street|hyderabad",
+        "date": "2026-03-12T06:49:39.003387"
+    },
+    {
+        "id": "8115d68e7f4d87bc6de42bd13ee7c473",
+        "fingerprint": "head - training and quality - gurgaon - go/jc/1338/2025|golden opportunities|hyderabad",
+        "date": "2026-03-12T06:49:39.003389"
+    },
+    {
+        "id": "165d0380eb128a4133cadf022a759dc2",
+        "fingerprint": "environmental testing head|azista space|ahmedabad",
+        "date": "2026-03-12T06:49:39.003392"
     }
 ]
