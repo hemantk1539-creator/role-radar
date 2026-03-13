@@ -1,45 +1,5 @@
 [
     {
-        "id": "Vice President Quality Assurance-Arevna-Houston, TX",
-        "date": "2026-02-18T12:11:00.514210"
-    },
-    {
-        "id": "Manager, Quality Process Improvement-Benecard Services, LLC-Mechanicsburg, PA",
-        "date": "2026-02-18T12:11:00.514211"
-    },
-    {
-        "id": "Senior Engineer- QA-Alight Solutions-Gurgaon, Haryana, India",
-        "date": "2026-02-18T15:16:16.339405"
-    },
-    {
-        "id": "QA Automation Engineer (AW)(opens in a new tab)-Rave digital-Remote, IN",
-        "date": "2026-02-18T15:16:16.339421"
-    },
-    {
-        "id": "Test Manager - ServiceNow-YASH Technologies-TS, IN",
-        "date": "2026-02-18T15:16:16.339424"
-    },
-    {
-        "id": "QA Manager (Food Factory)-sankalp recreation-Chhata, UP, IN",
-        "date": "2026-02-18T15:16:16.339426"
-    },
-    {
-        "id": "Business Excellence / Quality Assurance Manager-NCS GLOBAL-GJ, IN",
-        "date": "2026-02-18T15:16:16.339428"
-    },
-    {
-        "id": "QA Engineer- II-Trek Bicycle-Haryana, HR, IN",
-        "date": "2026-02-18T15:16:16.339431"
-    },
-    {
-        "id": "Quality Head (Bus)-SV Management Consultants-Indore, Madhya Pradesh, India",
-        "date": "2026-02-18T15:16:16.339434"
-    },
-    {
-        "id": "Quality Supervisor-Seneca Foods-Glencoe, MN, US",
-        "date": "2026-02-18T15:16:16.339512"
-    },
-    {
         "id": "Quality Assurance Manager-Teklysium Inc.-Newport, TN",
         "date": "2026-02-18T15:16:16.339518"
     },
@@ -9473,5 +9433,55 @@
         "id": "521f04130d4d97c0955a3090c8d64ba8",
         "fingerprint": "manager, software test automation|kla|chennai",
         "date": "2026-03-12T19:50:10.788578"
+    },
+    {
+        "id": "c25911abfd8c43a60ce82490d079c348",
+        "fingerprint": "technology and innovation -  rpa & intelligent automation lead consultant|riveron|pune",
+        "date": "2026-03-13T06:49:50.239613"
+    },
+    {
+        "id": "8adea84e32f090d2fae95cc27741e650",
+        "fingerprint": "manager, business process automation - genai development|nasdaq|bengaluru",
+        "date": "2026-03-13T06:49:50.239629"
+    },
+    {
+        "id": "911fc3bddec4c89ab8f18d992530c7ef",
+        "fingerprint": "deputy manager-mis & qa|piramal pharma ltd|mumbai",
+        "date": "2026-03-13T06:49:50.239631"
+    },
+    {
+        "id": "586b024df4f55664fabcf9282560dcc5",
+        "fingerprint": "manager - quality control|t\u00fcv s\u00fcd|hyderabad",
+        "date": "2026-03-13T06:49:50.239633"
+    },
+    {
+        "id": "5ff79a8a0a4f5cea34e633086481c313",
+        "fingerprint": "deputy manager quality analyst|policybazaar.com|hyderabad",
+        "date": "2026-03-13T06:49:50.239635"
+    },
+    {
+        "id": "0a4d57a12ab526c74e932108e5ef165f",
+        "fingerprint": "quality control manager|lars medicare pvt. ltd.|gurugram",
+        "date": "2026-03-13T06:49:50.239637"
+    },
+    {
+        "id": "632bbbf5aa12d2444f4ca613f5fbb69a",
+        "fingerprint": "qa architect|leapwork|gurugram",
+        "date": "2026-03-13T06:49:50.239638"
+    },
+    {
+        "id": "dbd9e7667b6d5c3b5d073e69eb98d7f8",
+        "fingerprint": "gerenral manager - qc/qa/ra|lars medicare pvt. ltd.|gurugram",
+        "date": "2026-03-13T06:49:50.239640"
+    },
+    {
+        "id": "095791bf3677b677bcff1c6a53294f5d",
+        "fingerprint": "test architect|triad square infosec|chennai",
+        "date": "2026-03-13T06:49:50.239642"
+    },
+    {
+        "id": "ff1fc441924f88218837968a81bc216b",
+        "fingerprint": "quality engineering lead (test lead)|accenture in india|ahmedabad",
+        "date": "2026-03-13T06:49:50.239645"
     }
 ]
