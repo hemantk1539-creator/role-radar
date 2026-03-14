@@ -1,41 +1,5 @@
 [
     {
-        "id": "-6671886054512602255",
-        "date": "2026-02-18T17:49:09.713731"
-    },
-    {
-        "id": "-8424550930217561295",
-        "date": "2026-02-18T17:49:09.713733"
-    },
-    {
-        "id": "6504272002964230598",
-        "date": "2026-02-18T17:49:09.713736"
-    },
-    {
-        "id": "4654273481316631883",
-        "date": "2026-02-18T17:49:09.713738"
-    },
-    {
-        "id": "-8277456723591838462",
-        "date": "2026-02-18T17:49:09.713740"
-    },
-    {
-        "id": "8997389389660739661",
-        "date": "2026-02-18T17:49:09.713742"
-    },
-    {
-        "id": "396031059173384439",
-        "date": "2026-02-18T17:49:09.713745"
-    },
-    {
-        "id": "6459537031419504701",
-        "date": "2026-02-18T17:49:09.713747"
-    },
-    {
-        "id": "3914017548193092026",
-        "date": "2026-02-18T17:49:09.713757"
-    },
-    {
         "id": "4133166222609805462",
         "date": "2026-02-18T17:49:09.713759"
     },
@@ -9514,5 +9478,50 @@
         "id": "c83bafd4fd6fcb51704b470a90bfb5f5",
         "fingerprint": "director, global manufacturing quality|fortune brands innovations|remote",
         "date": "2026-03-14T12:49:37.879396"
+    },
+    {
+        "id": "5df9edc87c7f80ad4d6c2d30b5650139",
+        "fingerprint": "quality control manager, apparels|poetrique|bengaluru",
+        "date": "2026-03-14T19:49:54.665398"
+    },
+    {
+        "id": "2170c4e181f0f4a360332780139677d5",
+        "fingerprint": "manager, systems design control quality|cepheid|bengaluru",
+        "date": "2026-03-14T19:49:54.665412"
+    },
+    {
+        "id": "df41295425423864444df142e43f9087",
+        "fingerprint": "lead software test engineer|siemens|pune",
+        "date": "2026-03-14T19:49:54.665414"
+    },
+    {
+        "id": "72429a38e0f3917db6270c348dc1e553",
+        "fingerprint": "lead software development engineer in test (sdet)_ exp: 8+ years_|atyeti inc|pune",
+        "date": "2026-03-14T19:49:54.665416"
+    },
+    {
+        "id": "126605431919ca3869e6da621ff0b62a",
+        "fingerprint": "digital growth & automation manager|bima garage|mumbai",
+        "date": "2026-03-14T19:49:54.665418"
+    },
+    {
+        "id": "06ed3146b9fec4bc1b371c8a49966fbc",
+        "fingerprint": "senior manager \u2013 ai & automation coe leader & solution architect|kroll|hyderabad",
+        "date": "2026-03-14T19:49:54.665421"
+    },
+    {
+        "id": "9f7b89daf9862737fc941bcd887cc6e0",
+        "fingerprint": "senior staff/staff engineer/senior lead - camera image quality|qualcomm|hyderabad",
+        "date": "2026-03-14T19:49:54.665422"
+    },
+    {
+        "id": "dd14257df6cd951a0fee311e08b5854a",
+        "fingerprint": "senior manager \u2013 ai & automation coe leader & solution architect|kroll|gurugram",
+        "date": "2026-03-14T19:49:54.665424"
+    },
+    {
+        "id": "74587bef946b66feccc47c5dbba65fe0",
+        "fingerprint": "head of engineering, testing, commissioning team leader (professionals)|hitachi energy|chennai",
+        "date": "2026-03-14T19:49:54.665427"
     }
 ]
