@@ -1,33 +1,5 @@
 [
     {
-        "id": "7171200797146908914",
-        "date": "2026-02-18T17:49:09.713703"
-    },
-    {
-        "id": "-5322967229212009069",
-        "date": "2026-02-18T17:49:09.713705"
-    },
-    {
-        "id": "-1379195942865723073",
-        "date": "2026-02-18T17:49:09.713708"
-    },
-    {
-        "id": "-3495491331975143582",
-        "date": "2026-02-18T17:49:09.713710"
-    },
-    {
-        "id": "873280556532784050",
-        "date": "2026-02-18T17:49:09.713713"
-    },
-    {
-        "id": "-4724252149855555418",
-        "date": "2026-02-18T17:49:09.713715"
-    },
-    {
-        "id": "7136238370949977906",
-        "date": "2026-02-18T17:49:09.713718"
-    },
-    {
         "id": "-2201072010800885056",
         "date": "2026-02-18T17:49:09.713720"
     },
@@ -9502,5 +9474,40 @@
         "id": "4c0180fb2390bf68ee5e83ae7637b06d",
         "fingerprint": "director / head \u2013 quality|amphenol communications solutions|remote",
         "date": "2026-03-13T19:49:43.640548"
+    },
+    {
+        "id": "ef6af45961ae3815d5bd3aa0ababb68e",
+        "fingerprint": "quality lead|siemens|pune",
+        "date": "2026-03-14T06:49:48.875371"
+    },
+    {
+        "id": "f66ecef4c6920f651e09d925561b8e2f",
+        "fingerprint": "delivery head : qa + automation testing + banking domain|qualitykiosk technologies|mumbai",
+        "date": "2026-03-14T06:49:48.875387"
+    },
+    {
+        "id": "2e291097903212e9b048e26ff237b9d0",
+        "fingerprint": "lead software engineer - test|freshworks|chennai",
+        "date": "2026-03-14T06:49:48.875389"
+    },
+    {
+        "id": "367652b703f5c2da0665e1e90c4dc3fd",
+        "fingerprint": "lead product testing specialist|ge vernova|chennai",
+        "date": "2026-03-14T06:49:48.875392"
+    },
+    {
+        "id": "6bd9af82fc12f6c5dcb974a54204b8eb",
+        "fingerprint": "quality assurance architect|sbs|noida",
+        "date": "2026-03-14T06:49:48.875394"
+    },
+    {
+        "id": "4869dea68f8c89ce8fbf8c5050837e03",
+        "fingerprint": "quality team lead|michael page|ahmedabad",
+        "date": "2026-03-14T06:49:48.875396"
+    },
+    {
+        "id": "1335f3d3cec56499d1b9cd66a7458845",
+        "fingerprint": "technical lead manager, model quality - claude code|anthropic",
+        "date": "2026-03-14T06:49:48.875398"
     }
 ]
