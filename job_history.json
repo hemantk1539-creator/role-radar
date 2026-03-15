@@ -1,9 +1,5 @@
 [
     {
-        "id": "4133166222609805462",
-        "date": "2026-02-18T17:49:09.713759"
-    },
-    {
         "id": "2925537436544462678",
         "date": "2026-02-18T17:49:09.713761"
     },
@@ -9523,5 +9519,10 @@
         "id": "74587bef946b66feccc47c5dbba65fe0",
         "fingerprint": "head of engineering, testing, commissioning team leader (professionals)|hitachi energy|chennai",
         "date": "2026-03-14T19:49:54.665427"
+    },
+    {
+        "id": "87c356ca79b8298838416b3275125a43",
+        "fingerprint": "lead devops engineer iac automation(azure and aws)|wolters kluwer|chennai",
+        "date": "2026-03-15T06:50:03.610976"
     }
 ]
