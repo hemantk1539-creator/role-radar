@@ -1,41 +1,5 @@
 [
     {
-        "id": "-790566170628379203",
-        "date": "2026-02-18T17:49:09.713813"
-    },
-    {
-        "id": "2448095207231452752",
-        "date": "2026-02-18T17:49:09.713815"
-    },
-    {
-        "id": "5187542752094408584",
-        "date": "2026-02-18T17:49:09.713817"
-    },
-    {
-        "id": "-5056615646906670517",
-        "date": "2026-02-18T17:49:09.713820"
-    },
-    {
-        "id": "-2229712623170322895",
-        "date": "2026-02-18T17:49:09.713822"
-    },
-    {
-        "id": "-4382524457724085539",
-        "date": "2026-02-18T17:49:09.713824"
-    },
-    {
-        "id": "-2975315837641414012",
-        "date": "2026-02-18T17:49:09.713826"
-    },
-    {
-        "id": "3669158550220501760",
-        "date": "2026-02-18T17:49:09.713828"
-    },
-    {
-        "id": "-2199324523389553199",
-        "date": "2026-02-18T17:49:09.713831"
-    },
-    {
         "id": "2311750541907065616",
         "date": "2026-02-18T19:09:47.307429"
     },
@@ -9538,5 +9502,50 @@
         "id": "f2f7a113322bdfd5ccdffaa968efb801",
         "fingerprint": "quality control manager|winchester interconnect",
         "date": "2026-03-16T06:50:08.861996"
+    },
+    {
+        "id": "13f7994396b2b2733c32d23c8c70035d",
+        "fingerprint": "director, quality engineering|onetrust|bengaluru",
+        "date": "2026-03-16T12:50:22.790052"
+    },
+    {
+        "id": "906341a16f271380bfdadea7d123decf",
+        "fingerprint": "sr principal quality assurance \u2013 digital commerce|orange business|bengaluru",
+        "date": "2026-03-16T12:50:22.790067"
+    },
+    {
+        "id": "38ce3c93a9516c92de12dc1204bd6653",
+        "fingerprint": "quality team lead|policybazaar.com|gurugram",
+        "date": "2026-03-16T12:50:22.790070"
+    },
+    {
+        "id": "4f654290580f0d5f518184d7da9fa87b",
+        "fingerprint": "quality control lead|rotoris|gurugram",
+        "date": "2026-03-16T12:50:22.790072"
+    },
+    {
+        "id": "6fa288b064dd899b959e6e36d00a72cc",
+        "fingerprint": "quality assurance manager|right management|gurugram",
+        "date": "2026-03-16T12:50:22.790075"
+    },
+    {
+        "id": "1178da614e43cd2920125ad1b62abcd6",
+        "fingerprint": "sr./lead sdet (immediate joiner preferred)|aeris|noida",
+        "date": "2026-03-16T12:50:22.790077"
+    },
+    {
+        "id": "777f9c88e092fff842f5954f4f6ffb9a",
+        "fingerprint": "test lead|dreamfolks|noida",
+        "date": "2026-03-16T12:50:22.790079"
+    },
+    {
+        "id": "b578f64e215511bc11cf02289871270b",
+        "fingerprint": "team manager - hvdc automation|hitachi energy|chennai",
+        "date": "2026-03-16T12:50:22.790081"
+    },
+    {
+        "id": "8ec846f5aa8f916471573952bff62541",
+        "fingerprint": "head of quality|biotech healthcare|ahmedabad",
+        "date": "2026-03-16T12:50:22.790083"
     }
 ]
