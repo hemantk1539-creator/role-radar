@@ -1,29 +1,5 @@
 [
     {
-        "id": "6279050518028389626",
-        "date": "2026-02-18T17:49:09.713778"
-    },
-    {
-        "id": "-8455887582960852989",
-        "date": "2026-02-18T17:49:09.713781"
-    },
-    {
-        "id": "6785886022261892992",
-        "date": "2026-02-18T17:49:09.713783"
-    },
-    {
-        "id": "5953129433649261942",
-        "date": "2026-02-18T17:49:09.713785"
-    },
-    {
-        "id": "2038305269514074461",
-        "date": "2026-02-18T17:49:09.713787"
-    },
-    {
-        "id": "-7450295857208404712",
-        "date": "2026-02-18T17:49:09.713790"
-    },
-    {
         "id": "-790566170628379203",
         "date": "2026-02-18T17:49:09.713813"
     },
@@ -9532,5 +9508,35 @@
         "id": "d4dc0073cfa1218451087cf21f985bdb",
         "fingerprint": "head of quality assurance. (qa).|revidd|remote",
         "date": "2026-03-15T19:49:40.956730"
+    },
+    {
+        "id": "f56700c01c3836825c8720096a21a182",
+        "fingerprint": "avaloq test lead engineer - vp|hackajob|pune",
+        "date": "2026-03-16T06:50:08.861972"
+    },
+    {
+        "id": "35251968c6c9f91ee8b4607d3bd7527b",
+        "fingerprint": "quality assurance manager-  playwritght|summit consulting services|hyderabad",
+        "date": "2026-03-16T06:50:08.861987"
+    },
+    {
+        "id": "58686f5ede9fcf089b989cf5c7b847db",
+        "fingerprint": "manager, quality assurance - digital analytics (l09)|synchrony|hyderabad",
+        "date": "2026-03-16T06:50:08.861989"
+    },
+    {
+        "id": "52c23286ca9b649f7a61d448d560d092",
+        "fingerprint": "test manager|novac technology solutions|chennai",
+        "date": "2026-03-16T06:50:08.861992"
+    },
+    {
+        "id": "1466a1ef00eab9991b34ef7c4f9bd0d5",
+        "fingerprint": "manager of quality|frieslandcampina|remote",
+        "date": "2026-03-16T06:50:08.861994"
+    },
+    {
+        "id": "f2f7a113322bdfd5ccdffaa968efb801",
+        "fingerprint": "quality control manager|winchester interconnect",
+        "date": "2026-03-16T06:50:08.861996"
     }
 ]
