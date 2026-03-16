@@ -1,45 +1,5 @@
 [
     {
-        "id": "2311750541907065616",
-        "date": "2026-02-18T19:09:47.307429"
-    },
-    {
-        "id": "-4543661093503130391",
-        "date": "2026-02-18T19:09:47.307461"
-    },
-    {
-        "id": "-7284915742461121758",
-        "date": "2026-02-18T19:09:47.307463"
-    },
-    {
-        "id": "3396304811348279335",
-        "date": "2026-02-18T19:09:47.307466"
-    },
-    {
-        "id": "8778420753932718073",
-        "date": "2026-02-18T19:09:47.307467"
-    },
-    {
-        "id": "5728604675571455246",
-        "date": "2026-02-18T19:09:47.307470"
-    },
-    {
-        "id": "-7991982927646762017",
-        "date": "2026-02-18T19:09:47.307472"
-    },
-    {
-        "id": "3782236052307034107",
-        "date": "2026-02-18T19:09:47.307473"
-    },
-    {
-        "id": "-5725545463960176061",
-        "date": "2026-02-18T19:09:47.307475"
-    },
-    {
-        "id": "-3804703588527964830",
-        "date": "2026-02-18T19:09:47.307478"
-    },
-    {
         "id": "-4545866950595461358",
         "date": "2026-02-18T19:09:47.307480"
     },
@@ -9547,5 +9507,55 @@
         "id": "8ec846f5aa8f916471573952bff62541",
         "fingerprint": "head of quality|biotech healthcare|ahmedabad",
         "date": "2026-03-16T12:50:22.790083"
+    },
+    {
+        "id": "ab3a245533b4171b88cab1a45e861eea",
+        "fingerprint": "senior process improvement manager - automation|commonwealth bank|bengaluru",
+        "date": "2026-03-16T19:50:25.509366"
+    },
+    {
+        "id": "ec5577c80226bf629ac18ced4b816eac",
+        "fingerprint": "manager of data quality|csc|bengaluru",
+        "date": "2026-03-16T19:50:25.509383"
+    },
+    {
+        "id": "914eb3deb9a74406519c05b776930125",
+        "fingerprint": "manager, qa - professional services|ellucian|bengaluru",
+        "date": "2026-03-16T19:50:25.509386"
+    },
+    {
+        "id": "bcd254ad2ff764c5ac38295225fef6b8",
+        "fingerprint": "staff software engineer (sdet)|netapp|bengaluru",
+        "date": "2026-03-16T19:50:25.509388"
+    },
+    {
+        "id": "c906a81316ceb0eb83cbf35254c8b20f",
+        "fingerprint": "head of ai and automation|ventra health|hyderabad",
+        "date": "2026-03-16T19:50:25.509391"
+    },
+    {
+        "id": "22610f51ced7bdd57f77cd0e8e7b3fa8",
+        "fingerprint": "salesforce qa manager(cdk india) \u2013 enterprise applications|cdk global|hyderabad",
+        "date": "2026-03-16T19:50:25.509393"
+    },
+    {
+        "id": "55915988da085a9509701341731fb5df",
+        "fingerprint": "quality engineering manager [t500-24395]|cibc india|hyderabad",
+        "date": "2026-03-16T19:50:25.509395"
+    },
+    {
+        "id": "2225f3d1b71477cd98813b018dfeb7d5",
+        "fingerprint": "senior manager - technical service operation & quality|battery smart|gurugram",
+        "date": "2026-03-16T19:50:25.509398"
+    },
+    {
+        "id": "3e1dc46631abae4f1f36a21a52e0ff21",
+        "fingerprint": "head of education quality services|swansea university / prifysgol abertawe|noida",
+        "date": "2026-03-16T19:50:25.509400"
+    },
+    {
+        "id": "20a384cf31af686964519cf34863d327",
+        "fingerprint": "director, global supplier quality|advanced energy|remote",
+        "date": "2026-03-16T19:50:25.509403"
     }
 ]
