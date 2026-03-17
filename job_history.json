@@ -1,49 +1,5 @@
 [
     {
-        "id": "5313112088761912987",
-        "date": "2026-02-18T19:09:47.307494"
-    },
-    {
-        "id": "-4039014926498781170",
-        "date": "2026-02-18T19:09:47.307496"
-    },
-    {
-        "id": "1778135370044791134",
-        "date": "2026-02-18T19:09:47.307498"
-    },
-    {
-        "id": "8644221969362881354",
-        "date": "2026-02-18T19:09:47.307499"
-    },
-    {
-        "id": "2660189668551160349",
-        "date": "2026-02-18T19:09:47.307501"
-    },
-    {
-        "id": "3962886520428595857",
-        "date": "2026-02-18T19:09:47.307503"
-    },
-    {
-        "id": "-881608654116040511",
-        "date": "2026-02-18T19:09:47.307505"
-    },
-    {
-        "id": "-3518845962346569990",
-        "date": "2026-02-18T19:09:47.307507"
-    },
-    {
-        "id": "4006111984778211139",
-        "date": "2026-02-18T19:09:47.307509"
-    },
-    {
-        "id": "7318751023297374676",
-        "date": "2026-02-18T19:09:47.307511"
-    },
-    {
-        "id": "8750047079494438369",
-        "date": "2026-02-18T19:09:47.307513"
-    },
-    {
         "id": "-3823881033465056889",
         "date": "2026-02-18T19:09:47.307515"
     },
@@ -9564,5 +9520,60 @@
         "id": "1eb325500f39017a5a8ea07cc099e426",
         "fingerprint": "head of global integrated digital execution & automation solutions|biogen|remote",
         "date": "2026-03-17T06:50:01.215735"
+    },
+    {
+        "id": "1bcd80cb4960dc784cd25c25cd1fa856",
+        "fingerprint": "sr. manager, training & quality|concentrix|bengaluru",
+        "date": "2026-03-17T12:50:09.316827"
+    },
+    {
+        "id": "03964f17d1c458024bc47740faa66413",
+        "fingerprint": "testing lead|standard chartered india|bengaluru",
+        "date": "2026-03-17T12:50:09.316850"
+    },
+    {
+        "id": "53dbf2a5f6918cbfcecae36429bfdb18",
+        "fingerprint": "head of content delivery- tech & automation|weekday ai (yc w21)|pune",
+        "date": "2026-03-17T12:50:09.316855"
+    },
+    {
+        "id": "38f2fb1b6ee957057ceaf79e72406187",
+        "fingerprint": "quality assurance manager - valves|kumars forge & valves pvt.ltd|pune",
+        "date": "2026-03-17T12:50:09.316859"
+    },
+    {
+        "id": "d59725a3697a781379fcb81bfc8b473d",
+        "fingerprint": "head of quality assurance|kumars forge & valves pvt. ltd. (kfvpl)|pune",
+        "date": "2026-03-17T12:50:09.316864"
+    },
+    {
+        "id": "dcadf4c064981ee10f42aad28cbf0066",
+        "fingerprint": "manager/sr. manager quality control|ratan industries ltd|gurugram",
+        "date": "2026-03-17T12:50:09.316867"
+    },
+    {
+        "id": "cee13deb9e7e945d52e8a10662c09770",
+        "fingerprint": "head of quality assurance|servokon systems limited|gurugram",
+        "date": "2026-03-17T12:50:09.316869"
+    },
+    {
+        "id": "192d6b531b13f3b4946b6b39174189fa",
+        "fingerprint": "automation support manager|wpp|chennai",
+        "date": "2026-03-17T12:50:09.316871"
+    },
+    {
+        "id": "4fac4bb32ab54f9bb21b6335b3e2ee7d",
+        "fingerprint": "senior sfcc test lead (8+ years )|mindbrain|chennai",
+        "date": "2026-03-17T12:50:09.316873"
+    },
+    {
+        "id": "83743f5b6a5c497bfa291a15910a4fd3",
+        "fingerprint": "data quality manager|enviropol engineers pvt. ltd.|noida",
+        "date": "2026-03-17T12:50:09.316875"
+    },
+    {
+        "id": "7d7f40fb26ec73b85171721fcd1238d1",
+        "fingerprint": "global reliability and quality director|celestica|remote",
+        "date": "2026-03-17T12:50:09.316878"
     }
 ]
