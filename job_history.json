@@ -1,29 +1,5 @@
 [
     {
-        "id": "-3823881033465056889",
-        "date": "2026-02-18T19:09:47.307515"
-    },
-    {
-        "id": "8227837014753848450",
-        "date": "2026-02-18T19:09:47.307517"
-    },
-    {
-        "id": "3604455444740671382",
-        "date": "2026-02-18T19:09:47.307519"
-    },
-    {
-        "id": "1977564525419671893",
-        "date": "2026-02-18T19:09:47.307521"
-    },
-    {
-        "id": "467281610608050510",
-        "date": "2026-02-18T19:09:47.307523"
-    },
-    {
-        "id": "-4181318890586350973",
-        "date": "2026-02-18T19:09:47.307525"
-    },
-    {
         "id": "-1506458083409684046",
         "date": "2026-02-18T19:09:47.307527"
     },
@@ -9575,5 +9551,35 @@
         "id": "7d7f40fb26ec73b85171721fcd1238d1",
         "fingerprint": "global reliability and quality director|celestica|remote",
         "date": "2026-03-17T12:50:09.316878"
+    },
+    {
+        "id": "810fac0bb8c87ed022ac5d1e00e0cdfa",
+        "fingerprint": "qa automation lead|persistent systems|pune",
+        "date": "2026-03-17T19:50:18.755317"
+    },
+    {
+        "id": "9d8e90e5915599e0504c02241907867c",
+        "fingerprint": "head of technical support distribution automation solutions|hitachi energy|chennai",
+        "date": "2026-03-17T19:50:18.755333"
+    },
+    {
+        "id": "cfaec6cde8057e3b4b3009a0ef252dbd",
+        "fingerprint": "sr. manager - process & automation|johnson electric|chennai",
+        "date": "2026-03-17T19:50:18.755336"
+    },
+    {
+        "id": "5d55aaf2b89a10e555d5090e5a31f197",
+        "fingerprint": "system test architect|quest global|chennai",
+        "date": "2026-03-17T19:50:18.755338"
+    },
+    {
+        "id": "3adf83c2edad12b2cbba6931ea0a4bbb",
+        "fingerprint": "deputy manager -surgery coding quality team|optum india|noida",
+        "date": "2026-03-17T19:50:18.755341"
+    },
+    {
+        "id": "db84906571afa7b782b51393289a6c2c",
+        "fingerprint": "factory manufacturing test process manager \u2013 pcb testing|tata electronics|remote",
+        "date": "2026-03-17T19:50:18.755343"
     }
 ]
