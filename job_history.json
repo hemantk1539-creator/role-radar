@@ -1,33 +1,5 @@
 [
     {
-        "id": "-1506458083409684046",
-        "date": "2026-02-18T19:09:47.307527"
-    },
-    {
-        "id": "-4248796447278436687",
-        "date": "2026-02-18T19:09:47.307528"
-    },
-    {
-        "id": "-5435180859456242940",
-        "date": "2026-02-18T19:09:47.307530"
-    },
-    {
-        "id": "-4036776361812663110",
-        "date": "2026-02-18T19:09:47.307532"
-    },
-    {
-        "id": "6596212957663728016",
-        "date": "2026-02-18T19:09:47.307535"
-    },
-    {
-        "id": "-4117943455386953025",
-        "date": "2026-02-18T19:09:47.307536"
-    },
-    {
-        "id": "4662641237003573867",
-        "date": "2026-02-18T19:09:47.307538"
-    },
-    {
         "id": "-5963788068742046244",
         "date": "2026-02-18T19:09:47.307540"
     },
@@ -9581,5 +9553,40 @@
         "id": "db84906571afa7b782b51393289a6c2c",
         "fingerprint": "factory manufacturing test process manager \u2013 pcb testing|tata electronics|remote",
         "date": "2026-03-17T19:50:18.755343"
+    },
+    {
+        "id": "c86ad72ab42659699405d61af168416f",
+        "fingerprint": "test architect ii|philips|bengaluru",
+        "date": "2026-03-18T06:50:09.529115"
+    },
+    {
+        "id": "26a65d2120e64a5e3b9e6a81fffe963f",
+        "fingerprint": "software quality assurance (sqa) manager \u2013 multiprotocol|silicon labs|hyderabad",
+        "date": "2026-03-18T06:50:09.529133"
+    },
+    {
+        "id": "391cb83e4ccf0a3b2869e14906152e29",
+        "fingerprint": "quality manager (home textiles/rugs, 18+ yrs, gurgaon)|michael page|gurugram",
+        "date": "2026-03-18T06:50:09.529136"
+    },
+    {
+        "id": "1bd73d419f435a955ede9392059e672b",
+        "fingerprint": "biotech - head - quality|biotech healthcare|ahmedabad",
+        "date": "2026-03-18T06:50:09.529139"
+    },
+    {
+        "id": "56ec9d66b1dc4b395e3d45de907aaebd",
+        "fingerprint": "lead test automation|linearloop|ahmedabad",
+        "date": "2026-03-18T06:50:09.529142"
+    },
+    {
+        "id": "e4743511a7aee937cee5229a753c191d",
+        "fingerprint": "senior test manager|standard chartered india|chennai",
+        "date": "2026-03-18T06:50:09.529144"
+    },
+    {
+        "id": "97d1a7cf8ff12a907446c53e98afc31c",
+        "fingerprint": "quality operations director, trust, safety & support|epicgames",
+        "date": "2026-03-18T06:50:09.529147"
     }
 ]
