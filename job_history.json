@@ -1,37 +1,5 @@
 [
     {
-        "id": "8577037653650107726",
-        "date": "2026-02-18T19:09:47.307546"
-    },
-    {
-        "id": "81228219678312637",
-        "date": "2026-02-18T19:09:47.307548"
-    },
-    {
-        "id": "-2075010542786201186",
-        "date": "2026-02-18T19:09:47.307550"
-    },
-    {
-        "id": "399464323791179444",
-        "date": "2026-02-18T19:09:47.307552"
-    },
-    {
-        "id": "-5863875210179188685",
-        "date": "2026-02-18T19:09:47.307554"
-    },
-    {
-        "id": "-6240850321927708747",
-        "date": "2026-02-18T19:09:47.307556"
-    },
-    {
-        "id": "-5384833704573307954",
-        "date": "2026-02-18T19:09:47.307558"
-    },
-    {
-        "id": "4995915343993386257",
-        "date": "2026-02-18T19:09:47.307560"
-    },
-    {
         "id": "-6675467579906830786",
         "date": "2026-02-18T19:09:47.307562"
     },
@@ -9591,5 +9559,45 @@
         "id": "3c98c77a00cb3296716c47f06b3cdb72",
         "fingerprint": "global quality director, il|avery dennison|remote",
         "date": "2026-03-18T12:49:57.046046"
+    },
+    {
+        "id": "cce292ae04cb0802a2e31146cd5915b3",
+        "fingerprint": "supplier quality assurance manager|zeno|pune",
+        "date": "2026-03-18T19:49:57.215272"
+    },
+    {
+        "id": "eb2b3776deae02344327001eb5a2b17e",
+        "fingerprint": "technology director - workplace services and automation|wells fargo|bengaluru",
+        "date": "2026-03-18T19:49:57.215294"
+    },
+    {
+        "id": "3ed549364dc0fbcd67ef72369e01aba7",
+        "fingerprint": "sr. manager, qa|netsmart|bengaluru",
+        "date": "2026-03-18T19:49:57.215298"
+    },
+    {
+        "id": "0b1e3cd71352fddd6f5592fddd0f1332",
+        "fingerprint": "group lead - automation & ots ( 82392717 )|reliance industries limited|mumbai",
+        "date": "2026-03-18T19:49:57.215301"
+    },
+    {
+        "id": "39bf4918b7d32ad129e8a15c418aa6c8",
+        "fingerprint": "vice president, compliance and operations risk test manager|jpmorganchase|hyderabad",
+        "date": "2026-03-18T19:49:57.215303"
+    },
+    {
+        "id": "a0a035124c139aa38d15c9a8193ceea0",
+        "fingerprint": "test architect|ericsson|gurugram",
+        "date": "2026-03-18T19:49:57.215306"
+    },
+    {
+        "id": "f478f597eb77407892588ef30998f6c1",
+        "fingerprint": "t&e quality assurance team lead|transunion|chennai",
+        "date": "2026-03-18T19:49:57.215308"
+    },
+    {
+        "id": "4effe2256582c98612f581a076c64da0",
+        "fingerprint": "senior engineering manager quality|athenahealth|chennai",
+        "date": "2026-03-18T19:49:57.215310"
     }
 ]
