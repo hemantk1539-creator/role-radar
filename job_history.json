@@ -1,33 +1,5 @@
 [
     {
-        "id": "-8939788611677946836",
-        "date": "2026-02-19T15:24:52.556313"
-    },
-    {
-        "id": "5616445539469868554",
-        "date": "2026-02-19T15:24:52.556315"
-    },
-    {
-        "id": "8200075227905795236",
-        "date": "2026-02-19T15:24:52.556316"
-    },
-    {
-        "id": "-461177363499290810",
-        "date": "2026-02-19T15:24:52.556317"
-    },
-    {
-        "id": "-1621471290768341384",
-        "date": "2026-02-19T15:24:52.556319"
-    },
-    {
-        "id": "6573882397765234912",
-        "date": "2026-02-19T15:24:52.556320"
-    },
-    {
-        "id": "825849196103900686",
-        "date": "2026-02-19T15:24:52.556321"
-    },
-    {
         "id": "7164929110797241741",
         "date": "2026-02-19T15:24:52.556322"
     },
@@ -9605,5 +9577,40 @@
         "id": "87d0cde595a3c712de024648eeeed169",
         "fingerprint": "quality manager|hitachi energy|remote",
         "date": "2026-03-19T06:49:35.761757"
+    },
+    {
+        "id": "9b7f10bdf8989aa9db986ae797dc2fd9",
+        "fingerprint": "senior manager-advance quality|tata marcopolo motors ltd. dharwad|pune",
+        "date": "2026-03-19T12:49:48.521361"
+    },
+    {
+        "id": "8dc4abdb1e947cfc293e0c0030a3ab11",
+        "fingerprint": "senior manager - quality|nibe limited|pune",
+        "date": "2026-03-19T12:49:48.521376"
+    },
+    {
+        "id": "6f79e9f77c7180b0edfbedd92d3e4ba0",
+        "fingerprint": "head quality|piramal pharma ltd|hyderabad",
+        "date": "2026-03-19T12:49:48.521379"
+    },
+    {
+        "id": "dc23ce29856fd467a7e233c7f3174906",
+        "fingerprint": "manager application engineering qa|roboyo|hyderabad",
+        "date": "2026-03-19T12:49:48.521382"
+    },
+    {
+        "id": "a40ed52b7740b8c00bcc4340cdd68fa8",
+        "fingerprint": "head of quality assurance|viya|gurugram",
+        "date": "2026-03-19T12:49:48.521384"
+    },
+    {
+        "id": "368ba143a10d6baf317a4e4fef950072",
+        "fingerprint": "tech lead, quality assurance engineering - global e-commerce|tiktok|remote",
+        "date": "2026-03-19T12:49:48.521387"
+    },
+    {
+        "id": "8db273b96f75ae45a9554b01c9e9627c",
+        "fingerprint": "director of global quality|ferguson|remote",
+        "date": "2026-03-19T12:49:48.521389"
     }
 ]
