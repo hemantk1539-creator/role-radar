@@ -1,45 +1,5 @@
 [
     {
-        "id": "-7814978062987069056",
-        "date": "2026-02-19T15:24:52.556334"
-    },
-    {
-        "id": "-4613071252889482580",
-        "date": "2026-02-19T15:24:52.556335"
-    },
-    {
-        "id": "-857180960511377238",
-        "date": "2026-02-19T15:24:52.556335"
-    },
-    {
-        "id": "2766841718872644372",
-        "date": "2026-02-19T15:24:52.556336"
-    },
-    {
-        "id": "4570114963028253323",
-        "date": "2026-02-19T15:24:52.556337"
-    },
-    {
-        "id": "738860657133188484",
-        "date": "2026-02-19T15:24:52.556338"
-    },
-    {
-        "id": "-2090735461634674532",
-        "date": "2026-02-19T15:24:52.556339"
-    },
-    {
-        "id": "1318274868325695187",
-        "date": "2026-02-19T15:24:52.556339"
-    },
-    {
-        "id": "-2945210713997541315",
-        "date": "2026-02-19T15:24:52.556340"
-    },
-    {
-        "id": "4614399599112001858",
-        "date": "2026-02-19T15:24:52.556341"
-    },
-    {
         "id": "6875243615800430544",
         "date": "2026-02-19T15:24:52.556342"
     },
@@ -9627,5 +9587,55 @@
         "id": "ca938df45f57c621d6da9225cac7e52b",
         "fingerprint": "head of quality management|endress+hauser group|remote",
         "date": "2026-03-20T12:50:15.134012"
+    },
+    {
+        "id": "c9b63da58b7cd8ca86dfe4e634c08246",
+        "fingerprint": "head of quality|hygenco - the hydrogen company|pune",
+        "date": "2026-03-20T19:50:11.679906"
+    },
+    {
+        "id": "939a5ccfc73db41bc1d598ee05c6eaaf",
+        "fingerprint": "quality assurance head|april3rd foods private limited|bengaluru",
+        "date": "2026-03-20T19:50:11.679916"
+    },
+    {
+        "id": "c71df296e9c929bdb22a0bfefdab77ca",
+        "fingerprint": "quality systems manager|zimmer biomet|bengaluru",
+        "date": "2026-03-20T19:50:11.679919"
+    },
+    {
+        "id": "c06f391a9a1d19c3e1f3537729e52208",
+        "fingerprint": "quality manager|mtecd innovations pvt ltd (formerly m-tec industries),bangalore|bengaluru",
+        "date": "2026-03-20T19:50:11.679921"
+    },
+    {
+        "id": "9a855bf2327ca261a90952e059e77690",
+        "fingerprint": "qa & atlassian platform lead|conexus|hyderabad",
+        "date": "2026-03-20T19:50:11.679924"
+    },
+    {
+        "id": "ae6cf4d70dc385582cc7830b9c337848",
+        "fingerprint": "team lead - quality (us mortgage)|outamation|hyderabad",
+        "date": "2026-03-20T19:50:11.679926"
+    },
+    {
+        "id": "00bf29ded450daea8a631a5b75c61792",
+        "fingerprint": "lead i - software testing(c#+selenium+ api+ azure devops)|ust|hyderabad",
+        "date": "2026-03-20T19:50:11.679928"
+    },
+    {
+        "id": "12369e52aa536a2de1f6c0eb0628a575",
+        "fingerprint": "test manager|qualitykiosk technologies|gurugram",
+        "date": "2026-03-20T19:50:11.679930"
+    },
+    {
+        "id": "edec52cf6028917e32dee245fbbc8c6d",
+        "fingerprint": "qa architect|dejavoo|chennai",
+        "date": "2026-03-20T19:50:11.679932"
+    },
+    {
+        "id": "ee08d5a7d8dd1d73f455005849906dde",
+        "fingerprint": "qa/qc manager \u2013 global food manufacturer (35762)|activ8 recruitment & solutions|remote",
+        "date": "2026-03-20T19:50:11.679934"
     }
 ]
