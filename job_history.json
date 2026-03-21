@@ -1,53 +1,5 @@
 [
     {
-        "id": "6875243615800430544",
-        "date": "2026-02-19T15:24:52.556342"
-    },
-    {
-        "id": "909160997321764775",
-        "date": "2026-02-19T15:24:52.556343"
-    },
-    {
-        "id": "-3704368042051915802",
-        "date": "2026-02-19T15:24:52.556344"
-    },
-    {
-        "id": "-3021784121974311748",
-        "date": "2026-02-19T15:24:52.556344"
-    },
-    {
-        "id": "5866035597060725504",
-        "date": "2026-02-19T15:24:52.556345"
-    },
-    {
-        "id": "7023538055124770750",
-        "date": "2026-02-19T15:24:52.556346"
-    },
-    {
-        "id": "5729901904437447710",
-        "date": "2026-02-19T15:24:52.556347"
-    },
-    {
-        "id": "3555309527994695060",
-        "date": "2026-02-19T15:24:52.556347"
-    },
-    {
-        "id": "7292141035902962190",
-        "date": "2026-02-19T15:24:52.556348"
-    },
-    {
-        "id": "-7653635538099698400",
-        "date": "2026-02-19T15:24:52.556349"
-    },
-    {
-        "id": "-9070144889465469191",
-        "date": "2026-02-19T15:24:52.556350"
-    },
-    {
-        "id": "-5494620358644676011",
-        "date": "2026-02-19T15:24:52.556351"
-    },
-    {
         "id": "-6878657142984712374",
         "date": "2026-02-19T15:24:52.556352"
     },
@@ -9637,5 +9589,65 @@
         "id": "ee08d5a7d8dd1d73f455005849906dde",
         "fingerprint": "qa/qc manager \u2013 global food manufacturer (35762)|activ8 recruitment & solutions|remote",
         "date": "2026-03-20T19:50:11.679934"
+    },
+    {
+        "id": "d162d90bf3aa2c13d33b7c6e798c97e6",
+        "fingerprint": "quality director - mo588 - qe consolidation and transformation - offshore|ascendion|bengaluru",
+        "date": "2026-03-21T06:50:05.993446"
+    },
+    {
+        "id": "2a361c20cd55a2e297e9ed96c3cf383e",
+        "fingerprint": "director, test excellence|lytx, inc.|bengaluru",
+        "date": "2026-03-21T06:50:05.993463"
+    },
+    {
+        "id": "53e5c0978b680d3e231d593a66553969",
+        "fingerprint": "test strategy & operations lead for user acceptance test (uat) - s4e program|siemens energy|pune",
+        "date": "2026-03-21T06:50:05.993466"
+    },
+    {
+        "id": "3d48f3421c2e72c74f8f407b5eaed38b",
+        "fingerprint": "aem(adobe experience manager) ui automation testing with java script | 6 to 9 years | pune|capgemini|pune",
+        "date": "2026-03-21T06:50:05.993469"
+    },
+    {
+        "id": "5a5308a10aeba3f28eb8d12012f90243",
+        "fingerprint": "test strategy & operations lead for integration test cycle (itc) - s4e program|siemens energy|pune",
+        "date": "2026-03-21T06:50:05.993471"
+    },
+    {
+        "id": "089af2cbe8a2893fdd71889d7afbd3ba",
+        "fingerprint": "quality control manager|reco transformers pvt. ltd.|mumbai",
+        "date": "2026-03-21T06:50:05.993473"
+    },
+    {
+        "id": "918f30d9ae787d8bf6d7ca67805875d0",
+        "fingerprint": "head of quality assurance|vysystems|mumbai",
+        "date": "2026-03-21T06:50:05.993476"
+    },
+    {
+        "id": "3bfabe22f2a4965747aa6bc9fddccff8",
+        "fingerprint": "lead software engineer - sdet, java, spring|wells fargo|hyderabad",
+        "date": "2026-03-21T06:50:05.993478"
+    },
+    {
+        "id": "7943daba2b1d51d2bd3117c3f859a9dc",
+        "fingerprint": "quality assurance manager|amaara botanicals|gurugram",
+        "date": "2026-03-21T06:50:05.993480"
+    },
+    {
+        "id": "338e417eec9aa05929a063bc3b95235d",
+        "fingerprint": "test strategy & operations lead for user acceptance test (uat) - s4e program|siemens energy|gurugram",
+        "date": "2026-03-21T06:50:05.993483"
+    },
+    {
+        "id": "f50b7d29806691671de4437754372aea",
+        "fingerprint": "supplier quality manager (sqm)|varel energy solutions|gurugram",
+        "date": "2026-03-21T06:50:05.993485"
+    },
+    {
+        "id": "32440a2b73518535fb761f3a5980079c",
+        "fingerprint": "qa automation - lead|iris software inc.|noida",
+        "date": "2026-03-21T06:50:05.993487"
     }
 ]
