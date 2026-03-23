@@ -1,57 +1,5 @@
 [
     {
-        "id": "-2038593410556009089",
-        "date": "2026-02-20T01:05:16.542814"
-    },
-    {
-        "id": "8340658093758911311",
-        "date": "2026-02-20T01:05:16.542815"
-    },
-    {
-        "id": "5092415843340571070",
-        "date": "2026-02-20T01:05:16.542817"
-    },
-    {
-        "id": "-3746895069410416703",
-        "date": "2026-02-20T01:05:16.542818"
-    },
-    {
-        "id": "4822572810841146927",
-        "date": "2026-02-20T01:05:16.542819"
-    },
-    {
-        "id": "2077974319377798609",
-        "date": "2026-02-20T01:05:16.542821"
-    },
-    {
-        "id": "-3619953806880205678",
-        "date": "2026-02-20T01:05:16.542823"
-    },
-    {
-        "id": "4437184416340145456",
-        "date": "2026-02-20T01:05:16.542824"
-    },
-    {
-        "id": "7684620875912868063",
-        "date": "2026-02-20T01:05:16.542825"
-    },
-    {
-        "id": "3435416020678467743",
-        "date": "2026-02-20T01:05:16.542827"
-    },
-    {
-        "id": "4978258155275302369",
-        "date": "2026-02-20T01:05:16.542828"
-    },
-    {
-        "id": "-7633769607968393945",
-        "date": "2026-02-20T01:05:16.542830"
-    },
-    {
-        "id": "8251452872592566504",
-        "date": "2026-02-20T01:05:16.542832"
-    },
-    {
         "id": "-8159813756936520546",
         "date": "2026-02-20T01:05:16.542834"
     },
@@ -9694,5 +9642,70 @@
         "id": "9449cd87d902b7c28484e986d41e33ea",
         "fingerprint": "testing-commercial functional-staff|ey|chennai",
         "date": "2026-03-23T12:50:12.110826"
+    },
+    {
+        "id": "9498996a461ca5123e310d9792984bf7",
+        "fingerprint": "quality manager-process excellence/improvement|live connections|bengaluru",
+        "date": "2026-03-23T19:50:04.068602"
+    },
+    {
+        "id": "5fbcd24cecdb038b57832c84766f1597",
+        "fingerprint": "quality assurance manager|live connections|bengaluru",
+        "date": "2026-03-23T19:50:04.068618"
+    },
+    {
+        "id": "f0fa63ec8e5dfcb78a25bbf63e8e67da",
+        "fingerprint": "test manager|black box|bengaluru",
+        "date": "2026-03-23T19:50:04.068621"
+    },
+    {
+        "id": "bd9bd01c7f18490cda1249a5a4a47376",
+        "fingerprint": "it manager (manufacturing and quality)|cummins india|pune",
+        "date": "2026-03-23T19:50:04.068624"
+    },
+    {
+        "id": "72facbb79b0089f209a585d861377dfc",
+        "fingerprint": "lead ii - software testing|ust|mumbai",
+        "date": "2026-03-23T19:50:04.068626"
+    },
+    {
+        "id": "00ea42a0d97e7bcc1fe84fa385e1362a",
+        "fingerprint": "quality engineering manager [t500-24624]|cibc india|hyderabad",
+        "date": "2026-03-23T19:50:04.068628"
+    },
+    {
+        "id": "1a2abeae01ab7c6a9720b5e20b8ae038",
+        "fingerprint": "manager, web solutions engineering, tools, automation and infrastructure|googleplex|hyderabad",
+        "date": "2026-03-23T19:50:04.068630"
+    },
+    {
+        "id": "158acd937404a6a871b07ac0b1f614a5",
+        "fingerprint": "automation engineer lead analyst - hih - evernorth|evernorth health services|hyderabad",
+        "date": "2026-03-23T19:50:04.068633"
+    },
+    {
+        "id": "4aed81b8bc161dcb607fb029c907cd8d",
+        "fingerprint": "manager \u2013 quality excellence - utility|exl|gurugram",
+        "date": "2026-03-23T19:50:04.068635"
+    },
+    {
+        "id": "52f1f666a19cd96c100990e9410d9584",
+        "fingerprint": "quality assurance manager|vee excel drugs & pharmaceuticals (p) ltd - (pharmaceuticals - herbals - veterinary)|gurugram",
+        "date": "2026-03-23T19:50:04.068637"
+    },
+    {
+        "id": "d3ff207f2cbb1365fd7b362abb1ce0c9",
+        "fingerprint": "deputy manager - quality|eaton|chennai",
+        "date": "2026-03-23T19:50:04.068639"
+    },
+    {
+        "id": "fdea45473bd2d0f379d33fa6d3680eb2",
+        "fingerprint": "quality manager|ciresimorek|remote",
+        "date": "2026-03-23T19:50:04.068642"
+    },
+    {
+        "id": "10a5dbcd70327bca11ab254259a4b0f4",
+        "fingerprint": "global product & process quality manager|esab corporation|gurugram",
+        "date": "2026-03-23T19:50:04.068644"
     }
 ]
