@@ -1,41 +1,5 @@
 [
     {
-        "id": "4239383191550077029",
-        "date": "2026-02-20T01:05:16.542784"
-    },
-    {
-        "id": "-2276354516242847811",
-        "date": "2026-02-20T01:05:16.542786"
-    },
-    {
-        "id": "-345057185401220446",
-        "date": "2026-02-20T01:05:16.542788"
-    },
-    {
-        "id": "1014511445159734738",
-        "date": "2026-02-20T01:05:16.542789"
-    },
-    {
-        "id": "330533054518263300",
-        "date": "2026-02-20T01:05:16.542791"
-    },
-    {
-        "id": "6163417166725585203",
-        "date": "2026-02-20T01:05:16.542792"
-    },
-    {
-        "id": "-6799571103133517387",
-        "date": "2026-02-20T01:05:16.542794"
-    },
-    {
-        "id": "-7051099316130758096",
-        "date": "2026-02-20T01:05:16.542795"
-    },
-    {
-        "id": "5528260956009944065",
-        "date": "2026-02-20T01:05:16.542797"
-    },
-    {
         "id": "-4217038324233911846",
         "date": "2026-02-20T01:05:16.542798"
     },
@@ -9675,5 +9639,50 @@
         "id": "468cacce88c3744114880bccd7f35a8b",
         "fingerprint": "test manager|capgemini|remote",
         "date": "2026-03-22T19:49:41.376267"
+    },
+    {
+        "id": "0273c055df2a8da822d39c666b77caf0",
+        "fingerprint": "test engineering manager|jabil|pune",
+        "date": "2026-03-23T06:49:33.825703"
+    },
+    {
+        "id": "e7fe07e89f182ee9413a91fa9caa15a0",
+        "fingerprint": "principal software engineer in test - system test|nasuni|hyderabad",
+        "date": "2026-03-23T06:49:33.825720"
+    },
+    {
+        "id": "7676dde0aa782a09632d4475592ab89f",
+        "fingerprint": "software engineering manager in test \u2013 system test|nasuni|hyderabad",
+        "date": "2026-03-23T06:49:33.825722"
+    },
+    {
+        "id": "3ee594cc811f3a0b7c4fcf662aed1cc1",
+        "fingerprint": "quality engineering architect (test arch|accenture services pvt ltd|gurugram",
+        "date": "2026-03-23T06:49:33.825724"
+    },
+    {
+        "id": "9c5c685fc492ee3c2445a92fa5a77f17",
+        "fingerprint": "deputy manager, quality validation|amneal pharmaceuticals|ahmedabad",
+        "date": "2026-03-23T06:49:33.825726"
+    },
+    {
+        "id": "9cbade77c711e7edb094419ae204dc62",
+        "fingerprint": "senior quality assurance manager \u2013 aerospace|brisk olive|noida",
+        "date": "2026-03-23T06:49:33.825728"
+    },
+    {
+        "id": "35cd41bda2e6930b49bd844e23034e05",
+        "fingerprint": "quality manager - industrial control panel manufacturing - sriperumbudur sipcot|sanvi engineering and business consulting solutions|chennai",
+        "date": "2026-03-23T06:49:33.825730"
+    },
+    {
+        "id": "aaf496ad5f94ed9992863f4010dfa329",
+        "fingerprint": "chief quality assurance & quality control (qa/qc) manager|induspect|chennai",
+        "date": "2026-03-23T06:49:33.825732"
+    },
+    {
+        "id": "1eb265ac6784b34eaea9c711322a31b2",
+        "fingerprint": "manager (civil) - qa&qc|larsen & toubro|chennai",
+        "date": "2026-03-23T06:49:33.825734"
     }
 ]
