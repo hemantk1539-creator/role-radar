@@ -1,45 +1,5 @@
 [
     {
-        "id": "-4217038324233911846",
-        "date": "2026-02-20T01:05:16.542798"
-    },
-    {
-        "id": "-8153480627989883930",
-        "date": "2026-02-20T01:05:16.542800"
-    },
-    {
-        "id": "-2750802883331709099",
-        "date": "2026-02-20T01:05:16.542801"
-    },
-    {
-        "id": "2824496212985094469",
-        "date": "2026-02-20T01:05:16.542803"
-    },
-    {
-        "id": "7263329106905357217",
-        "date": "2026-02-20T01:05:16.542804"
-    },
-    {
-        "id": "-5932799836080965249",
-        "date": "2026-02-20T01:05:16.542806"
-    },
-    {
-        "id": "6107028650456401496",
-        "date": "2026-02-20T01:05:16.542807"
-    },
-    {
-        "id": "-707670707275623248",
-        "date": "2026-02-20T01:05:16.542809"
-    },
-    {
-        "id": "-510179647501605188",
-        "date": "2026-02-20T01:05:16.542811"
-    },
-    {
-        "id": "-8332485011031678023",
-        "date": "2026-02-20T01:05:16.542812"
-    },
-    {
         "id": "-2038593410556009089",
         "date": "2026-02-20T01:05:16.542814"
     },
@@ -9684,5 +9644,55 @@
         "id": "1eb265ac6784b34eaea9c711322a31b2",
         "fingerprint": "manager (civil) - qa&qc|larsen & toubro|chennai",
         "date": "2026-03-23T06:49:33.825734"
+    },
+    {
+        "id": "0e112feab06942ee6930ca682ac07b5e",
+        "fingerprint": "supplier quality manager (lcn)|gestamp|pune",
+        "date": "2026-03-23T12:50:12.110792"
+    },
+    {
+        "id": "04a862434c5050b85ae8ea647cd37a5c",
+        "fingerprint": "data quality and governance manager|metro global solution center in|pune",
+        "date": "2026-03-23T12:50:12.110808"
+    },
+    {
+        "id": "d2f0413eec54cfe194ee3ed9ad08de0d",
+        "fingerprint": "head \u2013 qa/qc, nde, welding, refractory & coating|zeeco, inc.|pune",
+        "date": "2026-03-23T12:50:12.110810"
+    },
+    {
+        "id": "894d20b3dcaaecc79dc58a5be953014a",
+        "fingerprint": "quality assurance manager|ghar soaps|pune",
+        "date": "2026-03-23T12:50:12.110812"
+    },
+    {
+        "id": "5a693ea417bce3ada2ae6c58f916b044",
+        "fingerprint": "head of quality|blue genes research (bgr)|mumbai",
+        "date": "2026-03-23T12:50:12.110815"
+    },
+    {
+        "id": "d62567b6ea6b2012687dd46461fc4602",
+        "fingerprint": "senior qe manager [t500-24592]|cibc india|hyderabad",
+        "date": "2026-03-23T12:50:12.110817"
+    },
+    {
+        "id": "35e8d07ae6d615764cb7701b71ab09e5",
+        "fingerprint": "senior quality engineering manager [t500-24607]|marriott tech accelerator|hyderabad",
+        "date": "2026-03-23T12:50:12.110819"
+    },
+    {
+        "id": "80bb87a05c10e82e6ec06a67127e8061",
+        "fingerprint": "quality control manager|metrochem api private limited|hyderabad",
+        "date": "2026-03-23T12:50:12.110821"
+    },
+    {
+        "id": "f9828b2f0e7fa0686cd5e8e1fabf6184",
+        "fingerprint": "head -  quality|igt solutions|gurugram",
+        "date": "2026-03-23T12:50:12.110824"
+    },
+    {
+        "id": "9449cd87d902b7c28484e986d41e33ea",
+        "fingerprint": "testing-commercial functional-staff|ey|chennai",
+        "date": "2026-03-23T12:50:12.110826"
     }
 ]
