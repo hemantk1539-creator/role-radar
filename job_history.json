@@ -1,33 +1,5 @@
 [
     {
-        "id": "4528039005223739261",
-        "date": "2026-02-20T01:05:16.542872"
-    },
-    {
-        "id": "-760609798490684232",
-        "date": "2026-02-20T01:05:16.542873"
-    },
-    {
-        "id": "-4540368567336329873",
-        "date": "2026-02-20T01:05:16.542875"
-    },
-    {
-        "id": "7465093441599691323",
-        "date": "2026-02-20T01:05:16.542876"
-    },
-    {
-        "id": "-6576773190532901801",
-        "date": "2026-02-20T01:05:16.542878"
-    },
-    {
-        "id": "-3715553366288345632",
-        "date": "2026-02-20T01:05:16.542879"
-    },
-    {
-        "id": "-4316647630983680227",
-        "date": "2026-02-20T01:05:16.542880"
-    },
-    {
         "id": "-2154303004945387777",
         "date": "2026-02-20T01:05:16.542882"
     },
@@ -9727,5 +9699,40 @@
         "id": "37dd875b6329b2a038d010f18562c1e1",
         "fingerprint": "manager-quality & process excellence|group bayport|ahmedabad",
         "date": "2026-03-24T12:49:49.091313"
+    },
+    {
+        "id": "9b73ce76aa552fd20cb986bcc19b662a",
+        "fingerprint": "software test manager|harman india|bengaluru",
+        "date": "2026-03-24T19:50:20.411270"
+    },
+    {
+        "id": "37afd56d8d00c91bb5d34f24bff3a27e",
+        "fingerprint": "quality lead|optimhire it solutions pvt ltd|bengaluru",
+        "date": "2026-03-24T19:50:20.411287"
+    },
+    {
+        "id": "107fe9b5e38f5a90f811d82acbf9d499",
+        "fingerprint": "quality assurance manager|omni recruit private limited|bengaluru",
+        "date": "2026-03-24T19:50:20.411290"
+    },
+    {
+        "id": "15a471486cf48bdd75379533ce0a00ff",
+        "fingerprint": "local chapter lead testing and validation|takeda|bengaluru",
+        "date": "2026-03-24T19:50:20.411292"
+    },
+    {
+        "id": "cd95d6a53d7ca5be75f20aea5e01255f",
+        "fingerprint": "lead sdet|experian|hyderabad",
+        "date": "2026-03-24T19:50:20.411294"
+    },
+    {
+        "id": "80b0c3124bd89e3f3b007e7b4a4b8dca",
+        "fingerprint": "qa architect|virtusa|chennai",
+        "date": "2026-03-24T19:50:20.411297"
+    },
+    {
+        "id": "1148e3a6eba81bfecd882a2c0f97f830",
+        "fingerprint": "head quality sterlite copper|vedanta limited - sterlite copper|remote",
+        "date": "2026-03-24T19:50:20.411299"
     }
 ]
