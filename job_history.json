@@ -1,41 +1,5 @@
 [
     {
-        "id": "5347860196673704874",
-        "date": "2026-02-20T01:05:16.542858"
-    },
-    {
-        "id": "6650705592757510078",
-        "date": "2026-02-20T01:05:16.542861"
-    },
-    {
-        "id": "6804845797765923925",
-        "date": "2026-02-20T01:05:16.542862"
-    },
-    {
-        "id": "4818578986533406177",
-        "date": "2026-02-20T01:05:16.542864"
-    },
-    {
-        "id": "-8932602943598645884",
-        "date": "2026-02-20T01:05:16.542865"
-    },
-    {
-        "id": "-812261192192995138",
-        "date": "2026-02-20T01:05:16.542866"
-    },
-    {
-        "id": "8071906834506703714",
-        "date": "2026-02-20T01:05:16.542868"
-    },
-    {
-        "id": "3882603991730723936",
-        "date": "2026-02-20T01:05:16.542869"
-    },
-    {
-        "id": "-6973795128527757446",
-        "date": "2026-02-20T01:05:16.542871"
-    },
-    {
         "id": "4528039005223739261",
         "date": "2026-02-20T01:05:16.542872"
     },
@@ -9718,5 +9682,50 @@
         "id": "30fc9a124622861a0d2c80079f3c8a66",
         "fingerprint": "global quality systems manager|jobgether|remote",
         "date": "2026-03-24T06:49:57.690576"
+    },
+    {
+        "id": "0b6a1a2c9c26b8f4095948d9866de431",
+        "fingerprint": "senior test manager|cortexcraft.ai|bengaluru",
+        "date": "2026-03-24T12:49:49.091281"
+    },
+    {
+        "id": "472eb67eeb596f1f62627565c31878db",
+        "fingerprint": "technical manager- technical & qa - bangalore|rentokil initial|bengaluru",
+        "date": "2026-03-24T12:49:49.091296"
+    },
+    {
+        "id": "f1cea0644dc62343f58077886b76e5db",
+        "fingerprint": "senior manager, production quality assurance|valmet|pune",
+        "date": "2026-03-24T12:49:49.091299"
+    },
+    {
+        "id": "5d17c9430e6ceaa77a0ef381b5f4d1fb",
+        "fingerprint": "group manager - transactional quality (process excellence/six sigma) - hyderabad|wns|hyderabad",
+        "date": "2026-03-24T12:49:49.091302"
+    },
+    {
+        "id": "c0964c6a61d7541e8b67820ebbbfcded",
+        "fingerprint": "quality assurance architect|cyient|hyderabad",
+        "date": "2026-03-24T12:49:49.091304"
+    },
+    {
+        "id": "300dfa2ea352d2f650c144aae7d6f189",
+        "fingerprint": "production and quality manager|nanoclean|noida",
+        "date": "2026-03-24T12:49:49.091306"
+    },
+    {
+        "id": "3f12a2e556f3ac3c686cf45ff3131af7",
+        "fingerprint": "sr engg manager- quality engineering \u2013 platform & infrastructure|ford motor company|chennai",
+        "date": "2026-03-24T12:49:49.091308"
+    },
+    {
+        "id": "979a1f10bd15c3d0002b3f7c78debd64",
+        "fingerprint": "account manager - software testing|dentsu global services|chennai",
+        "date": "2026-03-24T12:49:49.091311"
+    },
+    {
+        "id": "37dd875b6329b2a038d010f18562c1e1",
+        "fingerprint": "manager-quality & process excellence|group bayport|ahmedabad",
+        "date": "2026-03-24T12:49:49.091313"
     }
 ]
