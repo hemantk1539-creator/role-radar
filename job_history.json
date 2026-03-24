@@ -1,49 +1,5 @@
 [
     {
-        "id": "-8159813756936520546",
-        "date": "2026-02-20T01:05:16.542834"
-    },
-    {
-        "id": "678134341912027484",
-        "date": "2026-02-20T01:05:16.542836"
-    },
-    {
-        "id": "493491259218793061",
-        "date": "2026-02-20T01:05:16.542838"
-    },
-    {
-        "id": "-5311997697523493056",
-        "date": "2026-02-20T01:05:16.542840"
-    },
-    {
-        "id": "-1874125452922970570",
-        "date": "2026-02-20T01:05:16.542842"
-    },
-    {
-        "id": "-6400039552535633912",
-        "date": "2026-02-20T01:05:16.542844"
-    },
-    {
-        "id": "2284449170481630948",
-        "date": "2026-02-20T01:05:16.542847"
-    },
-    {
-        "id": "-5981673179074450701",
-        "date": "2026-02-20T01:05:16.542849"
-    },
-    {
-        "id": "-7365119738140619624",
-        "date": "2026-02-20T01:05:16.542852"
-    },
-    {
-        "id": "-1154685946601997748",
-        "date": "2026-02-20T01:05:16.542854"
-    },
-    {
-        "id": "5970342791525367941",
-        "date": "2026-02-20T01:05:16.542856"
-    },
-    {
         "id": "5347860196673704874",
         "date": "2026-02-20T01:05:16.542858"
     },
@@ -9707,5 +9663,60 @@
         "id": "10a5dbcd70327bca11ab254259a4b0f4",
         "fingerprint": "global product & process quality manager|esab corporation|gurugram",
         "date": "2026-03-23T19:50:04.068644"
+    },
+    {
+        "id": "2dcfa1590d9ec4e5e38d561d797d28f2",
+        "fingerprint": "quality lead|talent acquisition specialist|bengaluru",
+        "date": "2026-03-24T06:49:57.690537"
+    },
+    {
+        "id": "fd84342d57205482d4e73d1b73e1059e",
+        "fingerprint": "sr mgr test engineering|motorola solutions|bengaluru",
+        "date": "2026-03-24T06:49:57.690554"
+    },
+    {
+        "id": "f50bc10f18ccb62a3cdb8f70e82f616b",
+        "fingerprint": "sap quality engineering - program director | 15 to 25 years | bangalore, mumbai, pune|capgemini|mumbai",
+        "date": "2026-03-24T06:49:57.690557"
+    },
+    {
+        "id": "269e4443aff0a3fb2fe846516ac8693f",
+        "fingerprint": "quality lead|siemens|mumbai",
+        "date": "2026-03-24T06:49:57.690560"
+    },
+    {
+        "id": "72868bd21aa0d3402f2ad8d2bafbc6b8",
+        "fingerprint": "quality assurance manager (corrugation)|cargo international packagings rai sonipat|gurugram",
+        "date": "2026-03-24T06:49:57.690563"
+    },
+    {
+        "id": "8628fb1260624f05cf32402f64f4062b",
+        "fingerprint": "general manager quality|ksp inc.|gurugram",
+        "date": "2026-03-24T06:49:57.690565"
+    },
+    {
+        "id": "e5fd4f5c328c9421f653617ff97b3c7a",
+        "fingerprint": "quality manager|nokia|chennai",
+        "date": "2026-03-24T06:49:57.690567"
+    },
+    {
+        "id": "52acfafe3807ac45776a45c4b5da4e7c",
+        "fingerprint": "quality manager - production|clarion cosmetics|chennai",
+        "date": "2026-03-24T06:49:57.690569"
+    },
+    {
+        "id": "f835e6282d0da8a8b5785d690ad2b690",
+        "fingerprint": "quality control manager|sonya foods pvt. ltd.|ahmedabad",
+        "date": "2026-03-24T06:49:57.690572"
+    },
+    {
+        "id": "afdbab7b25acf11381c3439875c6776d",
+        "fingerprint": "head of qa (bhubaneswar / odisha)|muvi.com|remote",
+        "date": "2026-03-24T06:49:57.690574"
+    },
+    {
+        "id": "30fc9a124622861a0d2c80079f3c8a66",
+        "fingerprint": "global quality systems manager|jobgether|remote",
+        "date": "2026-03-24T06:49:57.690576"
     }
 ]
