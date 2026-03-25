@@ -1,57 +1,5 @@
 [
     {
-        "id": "-2154303004945387777",
-        "date": "2026-02-20T01:05:16.542882"
-    },
-    {
-        "id": "7454431206889064335",
-        "date": "2026-02-20T01:05:16.542883"
-    },
-    {
-        "id": "4150426932318724117",
-        "date": "2026-02-20T01:05:16.542884"
-    },
-    {
-        "id": "-4634109919959012071",
-        "date": "2026-02-20T01:05:16.542886"
-    },
-    {
-        "id": "-4616077051090977183",
-        "date": "2026-02-20T01:05:16.542887"
-    },
-    {
-        "id": "876613115865436442",
-        "date": "2026-02-20T01:05:16.542888"
-    },
-    {
-        "id": "-1295616337097556062",
-        "date": "2026-02-20T01:05:16.542889"
-    },
-    {
-        "id": "899416282464482984",
-        "date": "2026-02-20T01:05:16.542891"
-    },
-    {
-        "id": "1018596483318384703",
-        "date": "2026-02-20T01:05:16.542892"
-    },
-    {
-        "id": "-2023031518051946953",
-        "date": "2026-02-20T01:05:16.542894"
-    },
-    {
-        "id": "-3707193511003910310",
-        "date": "2026-02-20T01:05:16.542895"
-    },
-    {
-        "id": "-7353533091869143077",
-        "date": "2026-02-20T01:05:16.542896"
-    },
-    {
-        "id": "-156034692701043585",
-        "date": "2026-02-20T01:05:16.542897"
-    },
-    {
         "id": "6826262067017876234",
         "date": "2026-02-20T01:05:16.542898"
     },
@@ -9734,5 +9682,70 @@
         "id": "1148e3a6eba81bfecd882a2c0f97f830",
         "fingerprint": "head quality sterlite copper|vedanta limited - sterlite copper|remote",
         "date": "2026-03-24T19:50:20.411299"
+    },
+    {
+        "id": "7470720231f794967e40ec11fd3ee189",
+        "fingerprint": "software test lead|jibe erp|mumbai",
+        "date": "2026-03-25T06:49:49.476357"
+    },
+    {
+        "id": "c190df4b692e3cf9144f212fcf60ac14",
+        "fingerprint": "lead quality \u2013 precast production|adani group|mumbai",
+        "date": "2026-03-25T06:49:49.476372"
+    },
+    {
+        "id": "7693152b2c83955292a757d538610d9f",
+        "fingerprint": "sr manager, quality assurance|storable|hyderabad",
+        "date": "2026-03-25T06:49:49.476374"
+    },
+    {
+        "id": "fe4fcf3d6a9db98fe7c9c88f09099d1a",
+        "fingerprint": "sdet lead|live connections|hyderabad",
+        "date": "2026-03-25T06:49:49.476376"
+    },
+    {
+        "id": "49326ee71cb4fe0a8c17f8b0c2ff6bc8",
+        "fingerprint": "group lead - clinical quality|dr. reddy's laboratories|hyderabad",
+        "date": "2026-03-25T06:49:49.476378"
+    },
+    {
+        "id": "467601b93a272af6cde9e518afe0028b",
+        "fingerprint": "quality and process excellence lead l2|wipro|hyderabad",
+        "date": "2026-03-25T06:49:49.476380"
+    },
+    {
+        "id": "3b012dbd5daeb240d870b1be040ef3f1",
+        "fingerprint": "quality assurance manager|bazaar konnections|gurugram",
+        "date": "2026-03-25T06:49:49.476382"
+    },
+    {
+        "id": "e27268b3178b6a0d3209ada847896a15",
+        "fingerprint": "microsoft 365 solutions architect (digital workplace & automation)|interiors with art ltd|chennai",
+        "date": "2026-03-25T06:49:49.476384"
+    },
+    {
+        "id": "331170d88dbf8c99e2780d5bddcc1b5b",
+        "fingerprint": "technical quality analyst / project manager|uplers|ahmedabad",
+        "date": "2026-03-25T06:49:49.476386"
+    },
+    {
+        "id": "fe9838652a827718a8285715b7dc0aef",
+        "fingerprint": "lead manufacturing specialist - generator quality|arabelle solutions|ahmedabad",
+        "date": "2026-03-25T06:49:49.476388"
+    },
+    {
+        "id": "ebb9678c8bff5823da8dd83744780cd0",
+        "fingerprint": "manager / senior manager- qa|meril|remote",
+        "date": "2026-03-25T06:49:49.476390"
+    },
+    {
+        "id": "75ee5471253cd97c63c98f3972081752",
+        "fingerprint": "service quality manager|aditya birla capital|remote",
+        "date": "2026-03-25T06:49:49.476392"
+    },
+    {
+        "id": "87882c7627df8b26d63f739b57650b33",
+        "fingerprint": "tech lead manager, automation|jerry",
+        "date": "2026-03-25T06:49:49.476395"
     }
 ]
