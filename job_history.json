@@ -1,29 +1,5 @@
 [
     {
-        "id": "4855497386623057288",
-        "date": "2026-02-20T01:05:16.542910"
-    },
-    {
-        "id": "80160027087e76fa283e89d8cc97c844",
-        "date": "2026-02-20T01:12:31.101123"
-    },
-    {
-        "id": "64f1daacdf6918c43dcf5db10479f507",
-        "date": "2026-02-20T01:12:31.101134"
-    },
-    {
-        "id": "64cc46ae0327284d939e3c413dc1e148",
-        "date": "2026-02-20T01:12:31.101136"
-    },
-    {
-        "id": "be9950e56833531e5f0d54ce255877fc",
-        "date": "2026-02-20T01:12:31.101138"
-    },
-    {
-        "id": "d58cd19626ac7f185a32d7f89fef5318",
-        "date": "2026-02-20T01:12:31.101140"
-    },
-    {
         "id": "543733f32ce23f877922822c97d202ce",
         "date": "2026-02-20T01:12:31.101141"
     },
@@ -9754,5 +9730,35 @@
         "id": "6ac219de3da58fc2c22d13e0b32f9aec",
         "fingerprint": "senior manager -current quality tcf|tata marcopolo motors ltd. dharwad|ahmedabad",
         "date": "2026-03-25T12:49:46.534358"
+    },
+    {
+        "id": "47f6c51517fa7fcf2b98b7958dec8a13",
+        "fingerprint": "d&t lead \u2013 intelligent automation|general mills india|mumbai",
+        "date": "2026-03-25T19:50:05.757187"
+    },
+    {
+        "id": "6927aa763ce52bf3715257dc37e40ffb",
+        "fingerprint": "quality assurance leader|ge healthcare|bengaluru",
+        "date": "2026-03-25T19:50:05.757251"
+    },
+    {
+        "id": "2fe6b3d6b31a4002f252135f1d9d0e4d",
+        "fingerprint": "quality manager (bb) -senior manager- kolkata - go/jc/2671/2026|golden opportunities|bengaluru",
+        "date": "2026-03-25T19:50:05.757255"
+    },
+    {
+        "id": "c79deb9b08fb87140374e14c630fda91",
+        "fingerprint": "manager \u2013 quality & compliance (iso 13485)|taevas life sciences|hyderabad",
+        "date": "2026-03-25T19:50:05.757260"
+    },
+    {
+        "id": "051f83a873b7afe25755446908fe6203",
+        "fingerprint": "production and quality manager|piyush rubber|ahmedabad",
+        "date": "2026-03-25T19:50:05.757264"
+    },
+    {
+        "id": "835155309d9d5cbaab0bf69a191fcc49",
+        "fingerprint": "manager, 3pl quality improvement|peloton",
+        "date": "2026-03-25T19:50:05.757267"
     }
 ]
