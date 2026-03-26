@@ -1,33 +1,5 @@
 [
     {
-        "id": "543733f32ce23f877922822c97d202ce",
-        "date": "2026-02-20T01:12:31.101141"
-    },
-    {
-        "id": "f41b813bbbd9deb3b6adc03e88dfd097",
-        "date": "2026-02-20T01:12:31.101143"
-    },
-    {
-        "id": "8cce3ba0614930dac0f6640815d0bfe9",
-        "date": "2026-02-20T01:12:31.101144"
-    },
-    {
-        "id": "4fd5d998c46cfa3bd143096b194463c5",
-        "date": "2026-02-20T01:12:31.101145"
-    },
-    {
-        "id": "a68dc6676ecb82b7bcd92a9364604f30",
-        "date": "2026-02-20T01:12:31.101146"
-    },
-    {
-        "id": "afda766fe6547b2c5c641e44113dae3f",
-        "date": "2026-02-20T01:12:31.101148"
-    },
-    {
-        "id": "06038bbdcbbcfaf0116e3e9fb03e1cca",
-        "date": "2026-02-20T01:12:31.101149"
-    },
-    {
         "id": "3dc7c0f9fc9a789b23e5dee0e4a2cf38",
         "date": "2026-02-20T01:12:31.101150"
     },
@@ -9760,5 +9732,40 @@
         "id": "835155309d9d5cbaab0bf69a191fcc49",
         "fingerprint": "manager, 3pl quality improvement|peloton",
         "date": "2026-03-25T19:50:05.757267"
+    },
+    {
+        "id": "53312ca3ca57a9d763bc20585ac4a2c9",
+        "fingerprint": "lead business analyst (retail banking | ai & automation)|capgemini|pune",
+        "date": "2026-03-26T06:49:52.601821"
+    },
+    {
+        "id": "4231d374cfe5ba2ac832a918cc79c73a",
+        "fingerprint": "senior manager - testing|prudential plc|bengaluru",
+        "date": "2026-03-26T06:49:52.601836"
+    },
+    {
+        "id": "3588611ab32c9b75d1d4b637f7236536",
+        "fingerprint": "manager/ senior manager - packaging material testing|parle products pvt. ltd|mumbai",
+        "date": "2026-03-26T06:49:52.601839"
+    },
+    {
+        "id": "138742b6c0d970bb4cbd7db322b6aa3a",
+        "fingerprint": "senior / lead plc automation engineer|otto junker india pvt. ltd.|mumbai",
+        "date": "2026-03-26T06:49:52.601841"
+    },
+    {
+        "id": "f33371e09b24e0037dede7196e22c6dd",
+        "fingerprint": "lead software engineer - devops automation|jpmorganchase|hyderabad",
+        "date": "2026-03-26T06:49:52.601844"
+    },
+    {
+        "id": "c96c08a69e8ab54628ab05d1c774c261",
+        "fingerprint": "quality and process excellence lead l3|wipro|hyderabad",
+        "date": "2026-03-26T06:49:52.601846"
+    },
+    {
+        "id": "cb9f7ea00190b2419b301bd86d294e0e",
+        "fingerprint": "head of security automation & process engineering|wpp|chennai",
+        "date": "2026-03-26T06:49:52.601848"
     }
 ]
