@@ -1,61 +1,5 @@
 [
     {
-        "id": "3dc7c0f9fc9a789b23e5dee0e4a2cf38",
-        "date": "2026-02-20T01:12:31.101150"
-    },
-    {
-        "id": "dad2525959fac243ff98eb74fd4b2179",
-        "date": "2026-02-20T01:12:31.101152"
-    },
-    {
-        "id": "652b6f21c40f8819453eb57be013aace",
-        "date": "2026-02-20T01:12:31.101153"
-    },
-    {
-        "id": "71c5d2df8316f237a3aa8e0d495c22df",
-        "date": "2026-02-20T01:12:31.101154"
-    },
-    {
-        "id": "a52f23310ccfdbfa18bb27028a3dc39e",
-        "date": "2026-02-20T01:12:31.101155"
-    },
-    {
-        "id": "75fb33a8100f567bf48321da24ac8405",
-        "date": "2026-02-20T01:12:31.101157"
-    },
-    {
-        "id": "80a3e1239ae3c3f5231c6e3ac6a4e91f",
-        "date": "2026-02-19T21:21:18.046496"
-    },
-    {
-        "id": "2cd0a54f8c4c124b6daf53207b1213e2",
-        "date": "2026-02-19T21:21:18.046510"
-    },
-    {
-        "id": "2789f3c1a016730fa13185682b70bc80",
-        "date": "2026-02-19T21:21:18.046513"
-    },
-    {
-        "id": "3a914d42e9db2333e582c4d2c81149c8",
-        "date": "2026-02-19T21:21:18.046515"
-    },
-    {
-        "id": "65638fba8abcf04e879f8f973ffff6e1",
-        "date": "2026-02-19T21:21:18.046516"
-    },
-    {
-        "id": "9e9f30dd1ef3d9730d772c6877673d8f",
-        "date": "2026-02-19T21:21:18.046518"
-    },
-    {
-        "id": "561380aa474a7f74064c0e3b606459a7",
-        "date": "2026-02-19T21:21:18.046520"
-    },
-    {
-        "id": "24ae8574b39c6247f1034b7cb263ee05",
-        "date": "2026-02-19T21:21:18.046522"
-    },
-    {
         "id": "4b97eeab0917a43d563c9cf85a55785f",
         "date": "2026-02-19T21:21:18.046523"
     },
@@ -9767,5 +9711,75 @@
         "id": "cb9f7ea00190b2419b301bd86d294e0e",
         "fingerprint": "head of security automation & process engineering|wpp|chennai",
         "date": "2026-03-26T06:49:52.601848"
+    },
+    {
+        "id": "09e7d4e064d67aee755e97a74959d0e6",
+        "fingerprint": "head of test environment and data|barclays|pune",
+        "date": "2026-03-26T12:50:21.623810"
+    },
+    {
+        "id": "e09b2930e4c23c7ea941cc65872211cc",
+        "fingerprint": "head of non-functional testing|barclays|pune",
+        "date": "2026-03-26T12:50:21.623858"
+    },
+    {
+        "id": "3742b3573db93d17f4cc700e27de5b84",
+        "fingerprint": "lead qe architect|barclays|pune",
+        "date": "2026-03-26T12:50:21.623862"
+    },
+    {
+        "id": "6ee072011784545eb2c04cbbf401ecf6",
+        "fingerprint": "\ud83d\ude80 we\u2019re hiring: test manager (iam \u2013 access management)|kiaratech solutions limited|pune",
+        "date": "2026-03-26T12:50:21.623867"
+    },
+    {
+        "id": "87f588363be0ceed6e1d600156e412e8",
+        "fingerprint": "customer support manager \u2013 operations & automation|tohands|bengaluru",
+        "date": "2026-03-26T12:50:21.623870"
+    },
+    {
+        "id": "6dd8744a77025cf9fb3f48049cdd1409",
+        "fingerprint": "test lead|nokia|bengaluru",
+        "date": "2026-03-26T12:50:21.623873"
+    },
+    {
+        "id": "bfa936d02d705e3fe7d0cc1cccc6a916",
+        "fingerprint": "compliance, qa/qc & npd lead|terrapy|mumbai",
+        "date": "2026-03-26T12:50:21.623876"
+    },
+    {
+        "id": "29d2f5b8579c88aa5ed6e04b59bce3e2",
+        "fingerprint": "test lead|nokia|chennai",
+        "date": "2026-03-26T12:50:21.623880"
+    },
+    {
+        "id": "bd889aefc65d2e20ad4640fc50280fc2",
+        "fingerprint": "qa manager|dnv|chennai",
+        "date": "2026-03-26T12:50:21.623884"
+    },
+    {
+        "id": "2f60b68e0004a4f4b1e85d0a4f458e4a",
+        "fingerprint": "test lead - system tech architect|pro integrate|chennai",
+        "date": "2026-03-26T12:50:21.623886"
+    },
+    {
+        "id": "31a7af75e36fd869f5b19296d943883d",
+        "fingerprint": "manager - in process and customer quality assurance|mahle|chennai",
+        "date": "2026-03-26T12:50:21.623889"
+    },
+    {
+        "id": "af3097d2c8c719c44af18e13a4b4911e",
+        "fingerprint": "deputy general manager - quality (in- process quality control)|agratas \u2013 a tata enterprise|ahmedabad",
+        "date": "2026-03-26T12:50:21.623892"
+    },
+    {
+        "id": "09a9dee3e6b349692985fcb61c46f54e",
+        "fingerprint": "quality manager|shalby limited|ahmedabad",
+        "date": "2026-03-26T12:50:21.623894"
+    },
+    {
+        "id": "8ebaa26a3fb852e3ca9c7e2cb75bdfdf",
+        "fingerprint": "senior manager, quality engineering|symplr|remote",
+        "date": "2026-03-26T12:50:21.623896"
     }
 ]
