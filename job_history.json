@@ -1,41 +1,5 @@
 [
     {
-        "id": "4b97eeab0917a43d563c9cf85a55785f",
-        "date": "2026-02-19T21:21:18.046523"
-    },
-    {
-        "id": "a71df1c95d4d205e39fed597e7237d50",
-        "date": "2026-02-19T21:21:18.046525"
-    },
-    {
-        "id": "dc336f208588382b36c5c89b7eeee382",
-        "date": "2026-02-19T21:21:18.046527"
-    },
-    {
-        "id": "51a70ca8f2e390b1f896f9db90a039ca",
-        "date": "2026-02-19T21:21:18.046529"
-    },
-    {
-        "id": "41cc8a66cb4cbd7880cf67439386c0ab",
-        "date": "2026-02-19T21:21:18.046531"
-    },
-    {
-        "id": "ad0e219a92de6e09aa4a32b715150772",
-        "date": "2026-02-19T21:21:18.046533"
-    },
-    {
-        "id": "39efcfb6bf011ad78ac9354418dc4c5b",
-        "date": "2026-02-19T21:21:18.046534"
-    },
-    {
-        "id": "c78b6e1210f3f29f042c269301865059",
-        "date": "2026-02-19T21:21:18.046536"
-    },
-    {
-        "id": "16859df7995c1496f85a767f01277f0f",
-        "date": "2026-02-19T21:21:18.046538"
-    },
-    {
         "id": "2e3cb8ec571523c4989ea0ffcb2cc0e5",
         "date": "2026-02-19T21:21:18.046540"
     },
@@ -9781,5 +9745,50 @@
         "id": "8ebaa26a3fb852e3ca9c7e2cb75bdfdf",
         "fingerprint": "senior manager, quality engineering|symplr|remote",
         "date": "2026-03-26T12:50:21.623896"
+    },
+    {
+        "id": "376dfb126326cebb92e533dd8d7b0d88",
+        "fingerprint": "senior architect, quality engineering|icertis|pune",
+        "date": "2026-03-26T19:50:15.655815"
+    },
+    {
+        "id": "d970e8a10acf8f27d693c49a990b2c59",
+        "fingerprint": "lead automation & devops engineer|agivant technologies|pune",
+        "date": "2026-03-26T19:50:15.655831"
+    },
+    {
+        "id": "c9c0f9790c4ff1c98f0b64965e1cbed8",
+        "fingerprint": "automation solution architect|eximietas design|pune",
+        "date": "2026-03-26T19:50:15.655835"
+    },
+    {
+        "id": "927577f070b05652919230d5284d69b8",
+        "fingerprint": "production manager - set fabrication|seventy event media group|mumbai",
+        "date": "2026-03-26T19:50:15.655837"
+    },
+    {
+        "id": "1f1e7d7beea0215e9b4da036a08e1486",
+        "fingerprint": "internal control testing and automation manager|opella|hyderabad",
+        "date": "2026-03-26T19:50:15.655840"
+    },
+    {
+        "id": "e4548bb577cbcbbc54d679ed5f764639",
+        "fingerprint": "director, service management automation lead|syneos health|hyderabad",
+        "date": "2026-03-26T19:50:15.655843"
+    },
+    {
+        "id": "fdade63bc33d874d26d7f1b6e1d8e9d7",
+        "fingerprint": "qe solutions lead [t500-24727]|cibc india|hyderabad",
+        "date": "2026-03-26T19:50:15.655845"
+    },
+    {
+        "id": "36d5a5d28fc9e7a32b65e311183e61cc",
+        "fingerprint": "senior manager - powertrain (transaxle testing-maintenance)|tata marcopolo motors ltd. dharwad|ahmedabad",
+        "date": "2026-03-26T19:50:15.655848"
+    },
+    {
+        "id": "721dc3cd69309ca15103b6710836d1c3",
+        "fingerprint": "quality operations & training manager|dhl|chennai",
+        "date": "2026-03-26T19:50:15.655850"
     }
 ]
