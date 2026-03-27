@@ -1,37 +1,5 @@
 [
     {
-        "id": "11fe8312e5420dd843be2bb7583d6b45",
-        "date": "2026-02-19T21:21:18.046576"
-    },
-    {
-        "id": "a947b7152c1ebf868685e7d78a4fb545",
-        "date": "2026-02-19T21:21:18.046578"
-    },
-    {
-        "id": "b3170480d467f6231d97ce514f86b078",
-        "date": "2026-02-19T21:21:18.046580"
-    },
-    {
-        "id": "5903f72c14318e841dbaf58ccc4b9d1a",
-        "date": "2026-02-19T21:21:18.046582"
-    },
-    {
-        "id": "8464d453fe70898ba3c43c9f77e05030",
-        "date": "2026-02-19T21:21:18.046590"
-    },
-    {
-        "id": "1d9801922dccd1e7f8c793d9655c67f4",
-        "date": "2026-02-19T21:21:18.046592"
-    },
-    {
-        "id": "507662be6e7a74769fb0ac0b14f76bd1",
-        "date": "2026-02-19T21:21:18.046594"
-    },
-    {
-        "id": "2a9220778157236122009641f35c6720",
-        "date": "2026-02-19T21:21:18.046595"
-    },
-    {
         "id": "9858839d11bb18c8413bf2108c81259c",
         "date": "2026-02-19T21:21:18.046597"
     },
@@ -9810,5 +9778,45 @@
         "id": "985497ca43629fc463a720fdef84a966",
         "fingerprint": "deputy general manager, quality management systems|amneal pharmaceuticals|ahmedabad",
         "date": "2026-03-27T12:49:40.313533"
+    },
+    {
+        "id": "a5498908944485f2e08a10790ec822f5",
+        "fingerprint": "senior lead quality engineer - r01555361|brillio|pune",
+        "date": "2026-03-27T19:50:07.717145"
+    },
+    {
+        "id": "7321cbf9bf6cbeddcdd32a8fc57b7a5b",
+        "fingerprint": "director product and digital quality|cepheid|bengaluru",
+        "date": "2026-03-27T19:50:07.717162"
+    },
+    {
+        "id": "759fe9550b9da44622329f3251e1222d",
+        "fingerprint": "director - automation|hca healthcare - india|hyderabad",
+        "date": "2026-03-27T19:50:07.717166"
+    },
+    {
+        "id": "c7b84f42085d914fd8f29c1d6f046f0e",
+        "fingerprint": "manager, software test|stryker|gurugram",
+        "date": "2026-03-27T19:50:07.717171"
+    },
+    {
+        "id": "d1c57aaf2f0a2e91ef1fef21f5a4e937",
+        "fingerprint": "lead software quality engineer|adobe|gurugram",
+        "date": "2026-03-27T19:50:07.717174"
+    },
+    {
+        "id": "5430e6f230252b57a354a535e17f5689",
+        "fingerprint": "proactive hire fy 26 - automation test manager (proactive)|qualitest acq|chennai",
+        "date": "2026-03-27T19:50:07.717177"
+    },
+    {
+        "id": "8b63c5c7c63c252e0467a0954ca28cee",
+        "fingerprint": "l3 ocp platform architect &amp; automation lead (platform sme)|digitalxnode|noida",
+        "date": "2026-03-27T19:50:07.717181"
+    },
+    {
+        "id": "87a2f20c9a2110e5a14fbf977be7dcdd",
+        "fingerprint": "quality manager|advance flo valves|ahmedabad",
+        "date": "2026-03-27T19:50:07.717184"
     }
 ]
