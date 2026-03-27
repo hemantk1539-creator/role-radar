@@ -1,41 +1,5 @@
 [
     {
-        "id": "2e3cb8ec571523c4989ea0ffcb2cc0e5",
-        "date": "2026-02-19T21:21:18.046540"
-    },
-    {
-        "id": "7f57d39318bbe2c55ed0276a4e6cca40",
-        "date": "2026-02-19T21:21:18.046542"
-    },
-    {
-        "id": "4a42512646321093208b4fee59394653",
-        "date": "2026-02-19T21:21:18.046544"
-    },
-    {
-        "id": "5f40d5ac7bacca6495f1e474bbfd54e8",
-        "date": "2026-02-19T21:21:18.046546"
-    },
-    {
-        "id": "a60c6b932260a2940d79fc57a770cedd",
-        "date": "2026-02-19T21:21:18.046548"
-    },
-    {
-        "id": "afdfa65aa792239cbd4ad7c3fe2e948b",
-        "date": "2026-02-19T21:21:18.046550"
-    },
-    {
-        "id": "8246300ad7d64866314e4eb6e7bd4c8a",
-        "date": "2026-02-19T21:21:18.046552"
-    },
-    {
-        "id": "e179e7125b36a224f8a8db66784ba9ed",
-        "date": "2026-02-19T21:21:18.046553"
-    },
-    {
-        "id": "919f60fc1f0600272f5e99db861c0376",
-        "date": "2026-02-19T21:21:18.046555"
-    },
-    {
         "id": "63a814c2b271483ea52ffc3efc32386a",
         "date": "2026-02-19T21:21:18.046557"
     },
@@ -9790,5 +9754,50 @@
         "id": "721dc3cd69309ca15103b6710836d1c3",
         "fingerprint": "quality operations & training manager|dhl|chennai",
         "date": "2026-03-26T19:50:15.655850"
+    },
+    {
+        "id": "ddf136ed5a76c4d875122eef359f102e",
+        "fingerprint": "system test team lead|cummins india|pune",
+        "date": "2026-03-27T06:50:04.172977"
+    },
+    {
+        "id": "78814f06469da6411e4e375aa30e36e2",
+        "fingerprint": "plant quality manager|ultratech cement|mumbai",
+        "date": "2026-03-27T06:50:04.172994"
+    },
+    {
+        "id": "843837c36b41465ce7db0c65a5e795a9",
+        "fingerprint": "manager, qa|syneos health|hyderabad",
+        "date": "2026-03-27T06:50:04.172997"
+    },
+    {
+        "id": "a9fcf0232e4ceacc555d429efa63afe7",
+        "fingerprint": "manager - test operations|agratas \u2013 a tata enterprise|ahmedabad",
+        "date": "2026-03-27T06:50:04.172999"
+    },
+    {
+        "id": "f9e3d20fb394a46b19265247931c3909",
+        "fingerprint": "snr manager, test engg - dft|standard chartered india|chennai",
+        "date": "2026-03-27T06:50:04.173002"
+    },
+    {
+        "id": "c5155da971f4aad5c6607b33208e2015",
+        "fingerprint": "lead ai platform & automation engineer - gcp, vertex ai, ibm watsonx, mlflow, terraform|ups|chennai",
+        "date": "2026-03-27T06:50:04.173004"
+    },
+    {
+        "id": "d69308b2289c30d2602dac979a9bba7c",
+        "fingerprint": "avp, risk testing lead (l10)|synchrony|noida",
+        "date": "2026-03-27T06:50:04.173007"
+    },
+    {
+        "id": "3807e8a5f5725f72842525dd301e4374",
+        "fingerprint": "senior/staff engineer, qa, assembly & test, global quality|micron technology|remote",
+        "date": "2026-03-27T06:50:04.173009"
+    },
+    {
+        "id": "1f1aefca4ba721ac530a29e36b3d105d",
+        "fingerprint": "global quality control/analytical science and technology head|novartis italia|remote",
+        "date": "2026-03-27T06:50:04.173011"
     }
 ]
