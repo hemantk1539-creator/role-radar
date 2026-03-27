@@ -1,49 +1,5 @@
 [
     {
-        "id": "63a814c2b271483ea52ffc3efc32386a",
-        "date": "2026-02-19T21:21:18.046557"
-    },
-    {
-        "id": "e20030afc6981d331d574c47adef1bd8",
-        "date": "2026-02-19T21:21:18.046559"
-    },
-    {
-        "id": "f824a867c69169381e1c5b1febce0b80",
-        "date": "2026-02-19T21:21:18.046561"
-    },
-    {
-        "id": "b3a8965d3a39e671c8d1f24d5e6ad9eb",
-        "date": "2026-02-19T21:21:18.046562"
-    },
-    {
-        "id": "161c2871bdd081c4ffe21e6b420d8e57",
-        "date": "2026-02-19T21:21:18.046564"
-    },
-    {
-        "id": "5c47d7f2985af3094c823e02069388be",
-        "date": "2026-02-19T21:21:18.046566"
-    },
-    {
-        "id": "bbd155f0dc78504ae00fbd11cfac442c",
-        "date": "2026-02-19T21:21:18.046568"
-    },
-    {
-        "id": "b84d57ea75bebc6420d5b1a4e6167ea1",
-        "date": "2026-02-19T21:21:18.046569"
-    },
-    {
-        "id": "d97dba750c8b67a110148f30d79b5d2a",
-        "date": "2026-02-19T21:21:18.046571"
-    },
-    {
-        "id": "252862b79b04692ad5ac15ec9f1be996",
-        "date": "2026-02-19T21:21:18.046573"
-    },
-    {
-        "id": "2024bfbcff46c2cae173bdccf5e50c51",
-        "date": "2026-02-19T21:21:18.046575"
-    },
-    {
         "id": "11fe8312e5420dd843be2bb7583d6b45",
         "date": "2026-02-19T21:21:18.046576"
     },
@@ -9799,5 +9755,60 @@
         "id": "1f1aefca4ba721ac530a29e36b3d105d",
         "fingerprint": "global quality control/analytical science and technology head|novartis italia|remote",
         "date": "2026-03-27T06:50:04.173011"
+    },
+    {
+        "id": "4471140b0018179c3821f65032f10c43",
+        "fingerprint": "head of quality and regulatory|dvise medtech private limited|bengaluru",
+        "date": "2026-03-27T12:49:40.313496"
+    },
+    {
+        "id": "03d78a423c5fd44a117c4e8c25ebc4f9",
+        "fingerprint": "lead architect \u2013 ai enablement & automation (.net)|endava|bengaluru",
+        "date": "2026-03-27T12:49:40.313515"
+    },
+    {
+        "id": "aab5d5b2fcc3d3529a43ef63854b68f2",
+        "fingerprint": "lead - shirwal quality, acg capsules|acg world|pune",
+        "date": "2026-03-27T12:49:40.313517"
+    },
+    {
+        "id": "c393bfe64268299b0115a70942f5bb2b",
+        "fingerprint": "r & d manager- engine testing|totalenergies|mumbai",
+        "date": "2026-03-27T12:49:40.313519"
+    },
+    {
+        "id": "be9e57721addaa47d93f63891881b959",
+        "fingerprint": "compliance testing, director, oversight, monitoring and testing|morgan stanley|mumbai",
+        "date": "2026-03-27T12:49:40.313521"
+    },
+    {
+        "id": "947d55f732d2539482c0aa74a8ee9606",
+        "fingerprint": "qe architect (tools, frameworks &amp; standards)|appzime technologies|hyderabad",
+        "date": "2026-03-27T12:49:40.313523"
+    },
+    {
+        "id": "fb0698b3fbd8b9071ef677638f8c1654",
+        "fingerprint": "automation delivery manager|ericsson|gurugram",
+        "date": "2026-03-27T12:49:40.313525"
+    },
+    {
+        "id": "61b91149b0bf6c58b798f8a7abbe1f1f",
+        "fingerprint": "quality assurance manager|videomax international pvt. ltd.|gurugram",
+        "date": "2026-03-27T12:49:40.313527"
+    },
+    {
+        "id": "d105f526902e70181d617b9862fddb1d",
+        "fingerprint": "business unit head - automation (north and east)|cavitak|noida",
+        "date": "2026-03-27T12:49:40.313529"
+    },
+    {
+        "id": "fc742f3c0a4f45b82c3825ffa1c67e4d",
+        "fingerprint": "senior software engineer /technical lead(qa automation)|thales|noida",
+        "date": "2026-03-27T12:49:40.313531"
+    },
+    {
+        "id": "985497ca43629fc463a720fdef84a966",
+        "fingerprint": "deputy general manager, quality management systems|amneal pharmaceuticals|ahmedabad",
+        "date": "2026-03-27T12:49:40.313533"
     }
 ]
