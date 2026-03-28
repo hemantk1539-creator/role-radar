@@ -1,29 +1,5 @@
 [
     {
-        "id": "9858839d11bb18c8413bf2108c81259c",
-        "date": "2026-02-19T21:21:18.046597"
-    },
-    {
-        "id": "672031f6fa56962f835b3ace0bbd48f0",
-        "date": "2026-02-19T21:21:18.046599"
-    },
-    {
-        "id": "a63d1dbbe54c438313247f3cf4c4c446",
-        "date": "2026-02-19T21:21:18.046601"
-    },
-    {
-        "id": "c9957cbe641ad7518922faffe5f1bb66",
-        "date": "2026-02-19T21:21:18.046603"
-    },
-    {
-        "id": "1c51c6c7a2f8b0004721ea546fbe8850",
-        "date": "2026-02-19T21:21:18.046605"
-    },
-    {
-        "id": "03d1ad2d9d940964bd53fbfd2532d58c",
-        "date": "2026-02-19T21:21:18.046606"
-    },
-    {
         "id": "dec0a36a39933ceadfacd5e4a81fc010",
         "date": "2026-02-19T21:21:18.046608"
     },
@@ -9818,5 +9794,35 @@
         "id": "87a2f20c9a2110e5a14fbf977be7dcdd",
         "fingerprint": "quality manager|advance flo valves|ahmedabad",
         "date": "2026-03-27T19:50:07.717184"
+    },
+    {
+        "id": "4681dad108a78e407461d55c1a3e6992",
+        "fingerprint": "principal qa architect|crosstab it consulting|mumbai",
+        "date": "2026-03-28T06:50:01.310172"
+    },
+    {
+        "id": "1438c12d23b5f5311f2b4eaff023a5ea",
+        "fingerprint": "manager - institutional engagement & quality advancement|amdisa - association of management development institutions in south asia|hyderabad",
+        "date": "2026-03-28T06:50:01.310192"
+    },
+    {
+        "id": "bbfadca73e294963bff5a775f9ae6848",
+        "fingerprint": "quality manager, vp|natwest group|gurugram",
+        "date": "2026-03-28T06:50:01.310197"
+    },
+    {
+        "id": "5f56c50665ccd9132f025ce0a9d73ec1",
+        "fingerprint": "senior software development engineer (qa lead)|expedia group|noida",
+        "date": "2026-03-28T06:50:01.310201"
+    },
+    {
+        "id": "e6eab22f253c8a32f71f9c80aa6e10c5",
+        "fingerprint": "quality manager, vp|natwest group|chennai",
+        "date": "2026-03-28T06:50:01.310205"
+    },
+    {
+        "id": "795f7f590b688191f88ab2273088ab55",
+        "fingerprint": "global quality director|futuremeds|remote",
+        "date": "2026-03-28T06:50:01.310209"
     }
 ]
