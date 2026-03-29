@@ -1,29 +1,5 @@
 [
     {
-        "id": "14ff9b22b71fbd716dc6f1daa79dd558",
-        "date": "2026-02-19T21:21:18.046626"
-    },
-    {
-        "id": "03b870aadea7ca8c01c8537555a8af79",
-        "date": "2026-02-19T21:21:18.046628"
-    },
-    {
-        "id": "9fc1cb16bc6d4897e00e516fb0c01158",
-        "date": "2026-02-19T21:21:18.046630"
-    },
-    {
-        "id": "6d3cf8ca9c60a9ae467a0175441eeac3",
-        "date": "2026-02-19T21:21:18.046632"
-    },
-    {
-        "id": "f79e7b08636365ce1fc5e1b874f6aa8e",
-        "date": "2026-02-19T21:21:18.046633"
-    },
-    {
-        "id": "8209c43c1052ef972574e0a226dba5b6",
-        "date": "2026-02-19T21:21:18.046635"
-    },
-    {
         "id": "5fc0228e9ed04e0199bf0bbca379b8ee",
         "date": "2026-02-19T21:21:18.046637"
     },
@@ -9834,5 +9810,35 @@
         "id": "b43c2567a90b19ca05321b081c06e45c",
         "fingerprint": "lead software engineer (testing automation)|societe generale global solution centre|bengaluru",
         "date": "2026-03-29T12:49:54.303147"
+    },
+    {
+        "id": "a1e95a991ade111866f5f6cc455830df",
+        "fingerprint": "principal consultant - air quality|wsp in india|mumbai",
+        "date": "2026-03-29T19:49:09.225758"
+    },
+    {
+        "id": "af0b0cee1e41ac31a1fd70808582d8d6",
+        "fingerprint": "lead \u2013 quality assurance|emeritus|mumbai",
+        "date": "2026-03-29T19:49:09.225774"
+    },
+    {
+        "id": "3870edbf932a6146e0c2113c8812a3e5",
+        "fingerprint": "director, operations ( transformation & automation)|kroll|gurugram",
+        "date": "2026-03-29T19:49:09.225778"
+    },
+    {
+        "id": "f7e41e5a5758abc90c05f7d45810ecc3",
+        "fingerprint": "software quality assurance module lead|telus digital|gurugram",
+        "date": "2026-03-29T19:49:09.225780"
+    },
+    {
+        "id": "c486714df585d8893d0e11d39f24d572",
+        "fingerprint": "testing-insurance functional-staff|ey|chennai",
+        "date": "2026-03-29T19:49:09.225782"
+    },
+    {
+        "id": "2976961ee7d223b997a797e27a720565",
+        "fingerprint": "senior director, qms core quality governance|eli lilly and company|remote",
+        "date": "2026-03-29T19:49:09.225785"
     }
 ]
