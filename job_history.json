@@ -1,13 +1,5 @@
 [
     {
-        "id": "162b3a3a581c30f2b13c5ec7bc2a9aeb",
-        "date": "2026-02-19T21:21:18.046623"
-    },
-    {
-        "id": "00179c5e6b50d18a09395c25bb2a59f7",
-        "date": "2026-02-19T21:21:18.046624"
-    },
-    {
         "id": "14ff9b22b71fbd716dc6f1daa79dd558",
         "date": "2026-02-19T21:21:18.046626"
     },
@@ -9832,5 +9824,15 @@
         "id": "5b1b703b836f9d500d9dbe7cb45272f3",
         "fingerprint": "quality team lead - us healthcare recruitment|r3 consultant|pune",
         "date": "2026-03-29T06:49:58.133026"
+    },
+    {
+        "id": "8746fb02a298df17d1a85939ec37341d",
+        "fingerprint": "chief quality assurance expert- bid position|systra|pune",
+        "date": "2026-03-29T12:49:54.303131"
+    },
+    {
+        "id": "b43c2567a90b19ca05321b081c06e45c",
+        "fingerprint": "lead software engineer (testing automation)|societe generale global solution centre|bengaluru",
+        "date": "2026-03-29T12:49:54.303147"
     }
 ]
