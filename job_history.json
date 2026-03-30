@@ -1,41 +1,5 @@
 [
     {
-        "id": "222df288bbe91de432de6ad2819b0586",
-        "date": "2026-02-20T07:18:57.704132"
-    },
-    {
-        "id": "6fc717544cbfe2ff6662b8cf0abb5ba1",
-        "date": "2026-02-20T07:18:57.704148"
-    },
-    {
-        "id": "64b5fad8b904fe92842710cc494aefdf",
-        "date": "2026-02-20T07:18:57.704150"
-    },
-    {
-        "id": "de9f2ad40681be41bfeabb4778be7ce1",
-        "date": "2026-02-20T07:18:57.704152"
-    },
-    {
-        "id": "1814d8eca2cebf0366678d3923aa9025",
-        "date": "2026-02-20T07:18:57.704154"
-    },
-    {
-        "id": "4604bd4e457bff08ba345a92b75c522f",
-        "date": "2026-02-20T07:18:57.704156"
-    },
-    {
-        "id": "b0eec2f899c6288eebda0178c75a239d",
-        "date": "2026-02-20T07:18:57.704158"
-    },
-    {
-        "id": "780696f78bcf514c1055c924c6d1987f",
-        "date": "2026-02-20T07:18:57.704160"
-    },
-    {
-        "id": "6395ed0700a34c9a750d339492df14df",
-        "date": "2026-02-20T07:18:57.704162"
-    },
-    {
         "id": "b09867fef52e05ea0ac13d50fd6dcad2",
         "date": "2026-02-20T10:54:54.962284"
     },
@@ -9861,5 +9825,50 @@
         "id": "eb427fd982aab8712edfde218bedbcef",
         "fingerprint": "head- quality- airport infrastructure|adani airport holdings ltd|ahmedabad",
         "date": "2026-03-30T12:50:14.927631"
+    },
+    {
+        "id": "08dcc7f98645a01ca85112d930cc36cb",
+        "fingerprint": "lead qe architect|hackajob|pune",
+        "date": "2026-03-30T19:49:28.827452"
+    },
+    {
+        "id": "3c3b49ae0691c5bade576d7d9231ddc3",
+        "fingerprint": "quality engineering architect|accenture in india|pune",
+        "date": "2026-03-30T19:49:28.827465"
+    },
+    {
+        "id": "ab6500cc7e91f1e95ce01a8ab8308427",
+        "fingerprint": "director, quality assurance|walmart|bengaluru",
+        "date": "2026-03-30T19:49:28.827468"
+    },
+    {
+        "id": "3850c8035d89fe36eb1b607f1eb77e22",
+        "fingerprint": "training and quality manager|faff|bengaluru",
+        "date": "2026-03-30T19:49:28.827470"
+    },
+    {
+        "id": "567915a8c9b158303a2ddeb7390ba1ca",
+        "fingerprint": "senior manager - gcc set up- hyderabad|ey|hyderabad",
+        "date": "2026-03-30T19:49:28.827472"
+    },
+    {
+        "id": "d3e8625616d83bf06346099df985b915",
+        "fingerprint": "manager / sr manager - transactional quality|igt solutions|gurugram",
+        "date": "2026-03-30T19:49:28.827474"
+    },
+    {
+        "id": "75a98621a10c2aea02663ed0e55e87b1",
+        "fingerprint": "head of stress testing governance, controls & planning|standard chartered india|chennai",
+        "date": "2026-03-30T19:49:28.827476"
+    },
+    {
+        "id": "a5ec0388222317ac7567a155b3d2db5a",
+        "fingerprint": "test manager|capgemini|chennai",
+        "date": "2026-03-30T19:49:28.827478"
+    },
+    {
+        "id": "55e5365b64a1961d59bc4343facd5430",
+        "fingerprint": "senior manager-quality/ toy induustry/plastic industry|not applicable1|ahmedabad",
+        "date": "2026-03-30T19:49:28.827480"
     }
 ]
