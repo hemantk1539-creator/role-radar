@@ -1,37 +1,5 @@
 [
     {
-        "id": "9847548a9af9e1fa41cc5f183eb5a5f2",
-        "date": "2026-02-19T21:21:18.046676"
-    },
-    {
-        "id": "475e84a5b154a260f80a882e774044ba",
-        "date": "2026-02-19T21:21:18.046678"
-    },
-    {
-        "id": "cf4437c1c5e11f543fb546ffdf366269",
-        "date": "2026-02-19T21:21:18.046680"
-    },
-    {
-        "id": "d732dce1ae0a899d72edbc4ced64e36a",
-        "date": "2026-02-19T21:21:18.046681"
-    },
-    {
-        "id": "b0131fa3aa1b367f556a3fb4886010f1",
-        "date": "2026-02-19T21:21:18.046683"
-    },
-    {
-        "id": "37d3d5ceb2921d161c844a358a019fa8",
-        "date": "2026-02-19T21:21:18.046686"
-    },
-    {
-        "id": "f98105707a16524fce1e89afd3c1a483",
-        "date": "2026-02-19T22:00:57.690854"
-    },
-    {
-        "id": "71b3555f3847f22b8c7f1bc086bf0236",
-        "date": "2026-02-19T22:00:57.690924"
-    },
-    {
         "id": "222df288bbe91de432de6ad2819b0586",
         "date": "2026-02-20T07:18:57.704132"
     },
@@ -9853,5 +9821,45 @@
         "id": "535896572bc2bd08b90f9f053452679b",
         "fingerprint": "head of quality assurance|career141|remote",
         "date": "2026-03-30T06:49:42.084973"
+    },
+    {
+        "id": "6030413e0f192bbb03cdf407b769e7e2",
+        "fingerprint": "manager - quality assurance|lifestyles healthcare|bengaluru",
+        "date": "2026-03-30T12:50:14.927606"
+    },
+    {
+        "id": "33188090642b6032e495aa249a8c172a",
+        "fingerprint": "quality assurance manager|refyne india|bengaluru",
+        "date": "2026-03-30T12:50:14.927619"
+    },
+    {
+        "id": "78755815cced0a8c769ed9f205938f3f",
+        "fingerprint": "head of quality india|itp aero|hyderabad",
+        "date": "2026-03-30T12:50:14.927621"
+    },
+    {
+        "id": "e40caf055a56d5dde0fa656ba2cb394b",
+        "fingerprint": "test architect|tata consultancy services|hyderabad",
+        "date": "2026-03-30T12:50:14.927623"
+    },
+    {
+        "id": "2972b8757bef0e8178dc9fd05fb22e86",
+        "fingerprint": "quality manager|shrivik industries private limited|chennai",
+        "date": "2026-03-30T12:50:14.927625"
+    },
+    {
+        "id": "26671f1818cbcf5377e1b115e357c297",
+        "fingerprint": "automation lead l1|wipro|chennai",
+        "date": "2026-03-30T12:50:14.927627"
+    },
+    {
+        "id": "21b6e5afeb9c574bf7579fe0301bb4d3",
+        "fingerprint": "manager, test engineering - larc cfcc|mygwork - lgbtq+ business community|chennai",
+        "date": "2026-03-30T12:50:14.927629"
+    },
+    {
+        "id": "eb427fd982aab8712edfde218bedbcef",
+        "fingerprint": "head- quality- airport infrastructure|adani airport holdings ltd|ahmedabad",
+        "date": "2026-03-30T12:50:14.927631"
     }
 ]
