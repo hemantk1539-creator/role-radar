@@ -1,57 +1,5 @@
 [
     {
-        "id": "5fc0228e9ed04e0199bf0bbca379b8ee",
-        "date": "2026-02-19T21:21:18.046637"
-    },
-    {
-        "id": "efa9d05dcb737ff1cacc6fdbcffec1f5",
-        "date": "2026-02-19T21:21:18.046639"
-    },
-    {
-        "id": "c3bd18fc278feacf71ac330470d7747c",
-        "date": "2026-02-19T21:21:18.046657"
-    },
-    {
-        "id": "d8a278c0a3064c25b22654d92b955baa",
-        "date": "2026-02-19T21:21:18.046658"
-    },
-    {
-        "id": "665e94bb4e07fe3319322e58374add67",
-        "date": "2026-02-19T21:21:18.046660"
-    },
-    {
-        "id": "226ea4b8d1dd646364d3769b06a52e88",
-        "date": "2026-02-19T21:21:18.046662"
-    },
-    {
-        "id": "7343711cb0edb31b3a15db167417c1aa",
-        "date": "2026-02-19T21:21:18.046664"
-    },
-    {
-        "id": "d55663df4ce40aed31e85842c0298486",
-        "date": "2026-02-19T21:21:18.046666"
-    },
-    {
-        "id": "a3ff02262ae58418fed949c3ed27597c",
-        "date": "2026-02-19T21:21:18.046668"
-    },
-    {
-        "id": "22953dc76c622b9f76fb8d8104a5c6e7",
-        "date": "2026-02-19T21:21:18.046669"
-    },
-    {
-        "id": "527f85603be690d8df8413de2510eb1d",
-        "date": "2026-02-19T21:21:18.046671"
-    },
-    {
-        "id": "71c90ab7a75480fd67301df7e9542db3",
-        "date": "2026-02-19T21:21:18.046673"
-    },
-    {
-        "id": "079744c0abe7cc5a70f93f46956cecdd",
-        "date": "2026-02-19T21:21:18.046674"
-    },
-    {
         "id": "9847548a9af9e1fa41cc5f183eb5a5f2",
         "date": "2026-02-19T21:21:18.046676"
     },
@@ -9840,5 +9788,70 @@
         "id": "2976961ee7d223b997a797e27a720565",
         "fingerprint": "senior director, qms core quality governance|eli lilly and company|remote",
         "date": "2026-03-29T19:49:09.225785"
+    },
+    {
+        "id": "db55446c9d7e116764f876fa00117f57",
+        "fingerprint": "principal software quality assurance engineer|cerence ai|pune",
+        "date": "2026-03-30T06:49:42.084902"
+    },
+    {
+        "id": "e6e0cc1fc9259505506d4eda4a1ac609",
+        "fingerprint": "quality assurance lead|nexthire|pune",
+        "date": "2026-03-30T06:49:42.084920"
+    },
+    {
+        "id": "b37828f6d026f744e916a60dae564f6e",
+        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|pune",
+        "date": "2026-03-30T06:49:42.084929"
+    },
+    {
+        "id": "5ae5b663d0eb3d77ececeaea660e2395",
+        "fingerprint": "quality assurance manager|arwade infrastructure limited|mumbai",
+        "date": "2026-03-30T06:49:42.084934"
+    },
+    {
+        "id": "7b221cf6cb7ee57c3d9b37bcf33f3765",
+        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|mumbai",
+        "date": "2026-03-30T06:49:42.084938"
+    },
+    {
+        "id": "29ca9569f4c7de734b8bef20f26a6941",
+        "fingerprint": "manager - quality|larsen & toubro|bengaluru",
+        "date": "2026-03-30T06:49:42.084942"
+    },
+    {
+        "id": "2699bb1b213ebb8920f403684c847642",
+        "fingerprint": "quality assurance lead|outthink|bengaluru",
+        "date": "2026-03-30T06:49:42.084947"
+    },
+    {
+        "id": "0276aeaf59b35626ffff46f3fe0b3223",
+        "fingerprint": "technical test lead|ejamerica|bengaluru",
+        "date": "2026-03-30T06:49:42.084953"
+    },
+    {
+        "id": "18abeefecd76deb250b1125e026e1ffc",
+        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|bengaluru",
+        "date": "2026-03-30T06:49:42.084959"
+    },
+    {
+        "id": "a9962fa6b2c7bbeee5a3254cd951080c",
+        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|hyderabad",
+        "date": "2026-03-30T06:49:42.084963"
+    },
+    {
+        "id": "eaddba9f31ca84c71863234a1718c936",
+        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|ahmedabad",
+        "date": "2026-03-30T06:49:42.084966"
+    },
+    {
+        "id": "56f2833f066a5bd73aef066f4cc6939e",
+        "fingerprint": "manager, test engineering - larc cfcc|standard chartered india|chennai",
+        "date": "2026-03-30T06:49:42.084970"
+    },
+    {
+        "id": "535896572bc2bd08b90f9f053452679b",
+        "fingerprint": "head of quality assurance|career141|remote",
+        "date": "2026-03-30T06:49:42.084973"
     }
 ]
