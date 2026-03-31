@@ -1,29 +1,5 @@
 [
     {
-        "id": "b09867fef52e05ea0ac13d50fd6dcad2",
-        "date": "2026-02-20T10:54:54.962284"
-    },
-    {
-        "id": "d68c321789faa674d6f83cc6af0e8744",
-        "date": "2026-02-20T10:54:54.962302"
-    },
-    {
-        "id": "3c67b743a0e141db4b922f0d2bf1880c",
-        "date": "2026-02-20T10:54:54.962304"
-    },
-    {
-        "id": "29a580bb04802363725435dbc3b385ef",
-        "date": "2026-02-20T10:54:54.962307"
-    },
-    {
-        "id": "49e39b81e09329c4ab4f6fdab887a49d",
-        "date": "2026-02-20T10:54:54.962309"
-    },
-    {
-        "id": "1c235e518e5a54107d156de68933212d",
-        "date": "2026-02-20T10:54:54.962311"
-    },
-    {
         "id": "d5b191dbaae0372483cf25fff29d6642",
         "date": "2026-02-20T10:54:54.962313"
     },
@@ -9870,5 +9846,35 @@
         "id": "55e5365b64a1961d59bc4343facd5430",
         "fingerprint": "senior manager-quality/ toy induustry/plastic industry|not applicable1|ahmedabad",
         "date": "2026-03-30T19:49:28.827480"
+    },
+    {
+        "id": "1ec0707369a8009fc43db6d6352bd940",
+        "fingerprint": "senior applied science manager, traffic quality|amazon|bengaluru",
+        "date": "2026-03-31T06:50:09.058773"
+    },
+    {
+        "id": "6eeae780f1bfd1fb3e3c61e4614f9565",
+        "fingerprint": "software test architect - azurioneye ai analyst|philips|bengaluru",
+        "date": "2026-03-31T06:50:09.058789"
+    },
+    {
+        "id": "0cf8e48fceff1811a310e15910746019",
+        "fingerprint": "quality assurance lead - automation testing|prismforce|bengaluru",
+        "date": "2026-03-31T06:50:09.058791"
+    },
+    {
+        "id": "2e821f15bd5bebcee750e4b1fd06442f",
+        "fingerprint": "lead gcp (8+ yr, gcp, automation , cloud security)|innova esi|mumbai",
+        "date": "2026-03-31T06:50:09.058793"
+    },
+    {
+        "id": "e5e8562a8f548eef66b020be8c064bb2",
+        "fingerprint": "principle it technologist - tricentis testing lead|medtronic|hyderabad",
+        "date": "2026-03-31T06:50:09.058795"
+    },
+    {
+        "id": "45177ee1815bb775e394926de60a4356",
+        "fingerprint": "global quality manager (handling multisites)|transcosmos malaysia|remote",
+        "date": "2026-03-31T06:50:09.058797"
     }
 ]
