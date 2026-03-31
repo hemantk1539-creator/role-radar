@@ -1,37 +1,5 @@
 [
     {
-        "id": "d5b191dbaae0372483cf25fff29d6642",
-        "date": "2026-02-20T10:54:54.962313"
-    },
-    {
-        "id": "fdea338d0b0c8c17d5cdb6b5a7f11077",
-        "date": "2026-02-20T10:54:54.962315"
-    },
-    {
-        "id": "47bc78b7e5ce564e437ac82a3300f4e9",
-        "date": "2026-02-20T10:54:54.962317"
-    },
-    {
-        "id": "bba7c980ab60ec4a9cdfd26c63879a0e",
-        "date": "2026-02-20T10:54:54.962319"
-    },
-    {
-        "id": "3665c005b01721e95e07bd93da437505",
-        "date": "2026-02-20T10:54:54.962321"
-    },
-    {
-        "id": "926701aafddc8dd64532cdd44d283b89",
-        "date": "2026-02-20T10:54:54.962323"
-    },
-    {
-        "id": "5aa1723ff1c5ddf8c24eca4415477a86",
-        "date": "2026-02-20T10:54:54.962325"
-    },
-    {
-        "id": "85754f6ebc2aa71401bd65a645a9c325",
-        "date": "2026-02-20T10:54:54.962327"
-    },
-    {
         "id": "bff563ade533feff40785909d82d529c",
         "date": "2026-02-20T10:54:54.962330"
     },
@@ -9876,5 +9844,45 @@
         "id": "45177ee1815bb775e394926de60a4356",
         "fingerprint": "global quality manager (handling multisites)|transcosmos malaysia|remote",
         "date": "2026-03-31T06:50:09.058797"
+    },
+    {
+        "id": "77eca966043b03e7066a04acfd6889f5",
+        "fingerprint": "test manager|fnz|pune",
+        "date": "2026-03-31T12:50:15.576483"
+    },
+    {
+        "id": "c230808ae9dbf7bcae621ec7c1c71414",
+        "fingerprint": "lead quality assurance drug substance- biologics|biocon biologics|bengaluru",
+        "date": "2026-03-31T12:50:15.576499"
+    },
+    {
+        "id": "abff4357fd3370f8cea0ea3a003b37a7",
+        "fingerprint": "quality control lead \u2013 retail projects|the souled store|mumbai",
+        "date": "2026-03-31T12:50:15.576502"
+    },
+    {
+        "id": "5021f671754fbf15a323ff96ef827a08",
+        "fingerprint": "qe test lead (warehouse automation & wes domain)|valuelabs|hyderabad",
+        "date": "2026-03-31T12:50:15.576503"
+    },
+    {
+        "id": "4800b9f8cc5e99f2851d42f735a04db8",
+        "fingerprint": "quality manager \u2013 (mobile pv solar lab)|job24by7|gurugram",
+        "date": "2026-03-31T12:50:15.576505"
+    },
+    {
+        "id": "b6488f0c9d3ab6aa9cb9f19a4c13ef4c",
+        "fingerprint": "quality manager, last mile aces - quality|amazon|ahmedabad",
+        "date": "2026-03-31T12:50:15.576507"
+    },
+    {
+        "id": "99e377f195de70a7692043a607597c9a",
+        "fingerprint": "quality assurance manager|hindustan infrastructure solution|ahmedabad",
+        "date": "2026-03-31T12:50:15.576509"
+    },
+    {
+        "id": "498d0f70a3d424f8e9fd38105df758ac",
+        "fingerprint": "deputy general manager / senior manager quality|syntegon|remote",
+        "date": "2026-03-31T12:50:15.576510"
     }
 ]
