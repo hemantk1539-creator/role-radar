@@ -1,29 +1,5 @@
 [
     {
-        "id": "bff563ade533feff40785909d82d529c",
-        "date": "2026-02-20T10:54:54.962330"
-    },
-    {
-        "id": "bd7796892e3c1cd0bc85c4060fdac241",
-        "date": "2026-02-20T10:54:54.962332"
-    },
-    {
-        "id": "bedd1cde1c423a2a7e6d0c9130919a1c",
-        "date": "2026-02-20T10:54:54.962334"
-    },
-    {
-        "id": "4081b9418ce0b792f8c0821ec0cb6378",
-        "date": "2026-02-20T10:54:54.962336"
-    },
-    {
-        "id": "934dfc24170b623b31541a5b3ba0fe19",
-        "date": "2026-02-20T10:54:54.962338"
-    },
-    {
-        "id": "4b99f586ba7fc2651a17299346ee7588",
-        "date": "2026-02-20T10:54:54.962340"
-    },
-    {
         "id": "8fe8d528cb10e8d09643d26974a6bf17",
         "date": "2026-02-20T10:54:54.962342"
     },
@@ -9884,5 +9860,35 @@
         "id": "498d0f70a3d424f8e9fd38105df758ac",
         "fingerprint": "deputy general manager / senior manager quality|syntegon|remote",
         "date": "2026-03-31T12:50:15.576510"
+    },
+    {
+        "id": "d78b43a39c65fa3512759bacb356d434",
+        "fingerprint": "senior testing manager|lumos learning|bengaluru",
+        "date": "2026-03-31T19:50:14.016269"
+    },
+    {
+        "id": "99a072c28044fde2afa2b99772d648c6",
+        "fingerprint": "product validation & testing manager|vortex engineering works india pvt. ltd.|mumbai",
+        "date": "2026-03-31T19:50:14.016286"
+    },
+    {
+        "id": "462ba0f77ac27b0fc74236ef10690f1e",
+        "fingerprint": "senior manager - quality|kone|chennai",
+        "date": "2026-03-31T19:50:14.016289"
+    },
+    {
+        "id": "f20623b64327018583723ee1994bbb44",
+        "fingerprint": "lead analyst-test architect|cgi|chennai",
+        "date": "2026-03-31T19:50:14.016292"
+    },
+    {
+        "id": "b703ef3103a3ce70954cc847667f3c28",
+        "fingerprint": "rpa power automate architect (ai automation)|swits digital private limited|chennai",
+        "date": "2026-03-31T19:50:14.016294"
+    },
+    {
+        "id": "55db3f474f7754055fc70412ae0e753b",
+        "fingerprint": "senior director, site quality head, goa|teva pharmaceuticals|remote",
+        "date": "2026-03-31T19:50:14.016297"
     }
 ]
