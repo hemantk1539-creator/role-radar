@@ -1,37 +1,5 @@
 [
     {
-        "id": "a257d81970732c4a6172dea12ca86aed",
-        "date": "2026-02-20T20:09:26.116036"
-    },
-    {
-        "id": "c58879d0368c8addd3329292448b1036",
-        "date": "2026-02-20T20:09:26.116038"
-    },
-    {
-        "id": "33ab64230c8b4f68a713407a03fc2a67",
-        "date": "2026-02-20T20:09:26.116040"
-    },
-    {
-        "id": "94c35fe6f353da2d089524299281ee79",
-        "date": "2026-02-20T20:09:26.116042"
-    },
-    {
-        "id": "c745004e8045a38444f8747f24179341",
-        "date": "2026-02-20T20:09:26.116044"
-    },
-    {
-        "id": "750f2024fd43367227a8c10ebeb38ba1",
-        "date": "2026-02-20T20:09:26.116046"
-    },
-    {
-        "id": "b4b6125d672e49d53dcaf81aa8939cea",
-        "date": "2026-02-20T20:09:26.116048"
-    },
-    {
-        "id": "76188cc757b17ddfbd0866969d9d3dab",
-        "date": "2026-02-20T20:09:26.116050"
-    },
-    {
         "id": "e9bf256b496608a5a4f84b2fe265e77a",
         "date": "2026-02-20T20:09:26.116052"
     },
@@ -9909,5 +9877,45 @@
         "id": "0258bc10ee4ff8ec8688c08b8ae92373",
         "fingerprint": "staff engineer \u2013 cat test mfg|micron technology|ahmedabad",
         "date": "2026-04-01T12:50:23.573423"
+    },
+    {
+        "id": "69dcfdf62367412af14561019a6eb44c",
+        "fingerprint": "manager - quality management (soqm)|rsm us llp|bengaluru",
+        "date": "2026-04-01T19:49:57.021693"
+    },
+    {
+        "id": "11bfcefd4f637fb09d895dff7cfb1a0a",
+        "fingerprint": "principal, data quality|entegris|pune",
+        "date": "2026-04-01T19:49:57.021708"
+    },
+    {
+        "id": "e52b608b84625fb702939a2c55751fd1",
+        "fingerprint": "lead, it business analysis - quality|entegris|pune",
+        "date": "2026-04-01T19:49:57.021711"
+    },
+    {
+        "id": "469896d3ba9106713898e84d3d6a14a9",
+        "fingerprint": "quality manager - modular furniture|govik industries private limited|mumbai",
+        "date": "2026-04-01T19:49:57.021713"
+    },
+    {
+        "id": "03f02c161e42ad87a63a4809e74f2ddc",
+        "fingerprint": "dat \u2013 tech & data \u2013 revenue automation manager|pwc acceleration center india|gurugram",
+        "date": "2026-04-01T19:49:57.021716"
+    },
+    {
+        "id": "c076f4f90cbd5407f7db37d0b64b0ebe",
+        "fingerprint": "engineering manager sdet - ai|highlevel|noida",
+        "date": "2026-04-01T19:49:57.021718"
+    },
+    {
+        "id": "451b1f02a267ff1dbb61f10c0fad4559",
+        "fingerprint": "mobile qa architect|gen|chennai",
+        "date": "2026-04-01T19:49:57.021720"
+    },
+    {
+        "id": "36c8c2e53ed3c55135f065314099b3cb",
+        "fingerprint": "quality manager - ctc|vidya wires|ahmedabad",
+        "date": "2026-04-01T19:49:57.021722"
     }
 ]
