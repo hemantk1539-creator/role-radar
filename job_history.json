@@ -1,53 +1,5 @@
 [
     {
-        "id": "8fe8d528cb10e8d09643d26974a6bf17",
-        "date": "2026-02-20T10:54:54.962342"
-    },
-    {
-        "id": "17215c94deb340b6eedbcec3d31e08ba",
-        "date": "2026-02-20T10:54:54.962345"
-    },
-    {
-        "id": "d238941cb1ccb0e694ddf5eda42a6e20",
-        "date": "2026-02-20T10:54:54.962347"
-    },
-    {
-        "id": "8056bd44a9bd3e0589d0cbb2e6e9cebf",
-        "date": "2026-02-20T10:54:54.962348"
-    },
-    {
-        "id": "59e198b20636359e692c709ea9e7e82e",
-        "date": "2026-02-20T10:54:54.962351"
-    },
-    {
-        "id": "1fce5aa0a7a1fab6c79fbcdd264b459b",
-        "date": "2026-02-20T10:54:54.962353"
-    },
-    {
-        "id": "f754d2bd04a89f5e9f3d7b83e23b262a",
-        "date": "2026-02-20T10:54:54.962355"
-    },
-    {
-        "id": "50cc7ed103f62d67bcd8ce11565e4202",
-        "date": "2026-02-20T10:54:54.962357"
-    },
-    {
-        "id": "4e6b292aa236cb397550e393f4ed60ef",
-        "date": "2026-02-20T10:54:54.962359"
-    },
-    {
-        "id": "3af83743975be8cdf691c2ce9a198fd1",
-        "date": "2026-02-20T20:09:26.116002"
-    },
-    {
-        "id": "5328d0dae21b0f78dac297faa77aad8d",
-        "date": "2026-02-20T20:09:26.116017"
-    },
-    {
-        "id": "1e992db5b1122bb9ff1c710b2689de6e",
-        "date": "2026-02-20T20:09:26.116020"
-    },
-    {
         "id": "8b2829f0c0e95e37a9465b1f0e49bdd7",
         "date": "2026-02-20T20:09:26.116022"
     },
@@ -9890,5 +9842,65 @@
         "id": "55db3f474f7754055fc70412ae0e753b",
         "fingerprint": "senior director, site quality head, goa|teva pharmaceuticals|remote",
         "date": "2026-03-31T19:50:14.016297"
+    },
+    {
+        "id": "cc2cdab3d106788f3bc9d3aef6e9b281",
+        "fingerprint": "test manager - vp|barclays|pune",
+        "date": "2026-04-01T06:50:06.557558"
+    },
+    {
+        "id": "c8703f81e0c430512b0c1c822a2cbf2a",
+        "fingerprint": "qa practice head - automation testing tools|pratiti|pune",
+        "date": "2026-04-01T06:50:06.557574"
+    },
+    {
+        "id": "89b3260616ffaab350f8b73e5b2f9d0d",
+        "fingerprint": "ai automation coe lead (genai / intelligent automation)|lueinhire.com|pune",
+        "date": "2026-04-01T06:50:06.557576"
+    },
+    {
+        "id": "edc086f16a7e6667904082ea13f78a22",
+        "fingerprint": "head of automation|thyssenkrupp nucera|mumbai",
+        "date": "2026-04-01T06:50:06.557579"
+    },
+    {
+        "id": "efe64d7ffad71e2a076457128ba5e5f7",
+        "fingerprint": "business process & automation manager (zoho ecosystem)|ad leo ltd|mumbai",
+        "date": "2026-04-01T06:50:06.557581"
+    },
+    {
+        "id": "c9f3c192c008cc92623da17683c50ec4",
+        "fingerprint": "principal test architect - playwright|happiest minds technologies|bengaluru",
+        "date": "2026-04-01T06:50:06.557583"
+    },
+    {
+        "id": "e15fcf949eeadd0d9643cf1ccbb505a0",
+        "fingerprint": "gyansys - test architect|gyansys inc.|bengaluru",
+        "date": "2026-04-01T06:50:06.557586"
+    },
+    {
+        "id": "8964ceccf1c3b9acc8ccc66f20406148",
+        "fingerprint": "senior principal enterprise software test engineer|medtronic|hyderabad",
+        "date": "2026-04-01T06:50:06.557588"
+    },
+    {
+        "id": "9ef951a40e098d18ca02fe307073f02a",
+        "fingerprint": "quality assurance manager|brisk olive|gurugram",
+        "date": "2026-04-01T06:50:06.557590"
+    },
+    {
+        "id": "c6d64aabc236b7a5f1a7138372cde56e",
+        "fingerprint": "quality manager \u2013 (mobile pv solar lab)|job24by7|noida",
+        "date": "2026-04-01T06:50:06.557592"
+    },
+    {
+        "id": "cc7466d24ef2ddc259a811e8794e74a7",
+        "fingerprint": "quality manager, last mile aces - quality|amazon|chennai",
+        "date": "2026-04-01T06:50:06.557595"
+    },
+    {
+        "id": "f4eb77efef38ac99592b9f22adc1d251",
+        "fingerprint": "manager - qa (coated)|saint-gobain group in india|remote",
+        "date": "2026-04-01T06:50:06.557597"
     }
 ]
