@@ -1,21 +1,5 @@
 [
     {
-        "id": "91d1cd7b81236ad76e922111c948aa27",
-        "date": "2026-02-20T20:09:26.116080"
-    },
-    {
-        "id": "0caa85b16631817535f1a460d124a203",
-        "date": "2026-02-20T20:09:26.116082"
-    },
-    {
-        "id": "144332ff75f9b7487abfa505af26677e",
-        "date": "2026-02-20T20:09:26.116084"
-    },
-    {
-        "id": "1eafa15873b4db65dbba1e3960fec263",
-        "date": "2026-02-20T20:09:26.116086"
-    },
-    {
         "id": "12bee80f7b3dbdb5f07bb627d7fb53d4",
         "date": "2026-02-20T20:09:26.116088"
     },
@@ -9931,5 +9915,25 @@
         "id": "867b17b71b4a3e75294febb502369337",
         "fingerprint": "global head of quality|inflow partnership|remote",
         "date": "2026-04-02T12:49:58.617549"
+    },
+    {
+        "id": "8f2d79cd4c9c9405fc8d3320cef33a43",
+        "fingerprint": "business risk management - monitoring & testing - manager|state street|pune",
+        "date": "2026-04-02T19:49:56.525853"
+    },
+    {
+        "id": "09513b22c7c4d0d31f9862358fa2a62d",
+        "fingerprint": "quality manager- home appliances|livspace|bengaluru",
+        "date": "2026-04-02T19:49:56.525869"
+    },
+    {
+        "id": "88b7c462b20edbb73d85491abe6d75fa",
+        "fingerprint": "senior manager, quality engineering [t500-24970]|cibc india|hyderabad",
+        "date": "2026-04-02T19:49:56.525871"
+    },
+    {
+        "id": "470d50c80b1cae17b0ab89ad42f86ed8",
+        "fingerprint": "composite quality lead|skyroot aerospace|hyderabad",
+        "date": "2026-04-02T19:49:56.525874"
     }
 ]
