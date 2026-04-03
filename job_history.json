@@ -1,33 +1,5 @@
 [
     {
-        "id": "d8a07209c2402f836c4fd536e9d112d7",
-        "date": "2026-02-20T20:09:26.116110"
-    },
-    {
-        "id": "4ac632078627e5178b5d1e50c4a179bb",
-        "date": "2026-02-20T20:09:26.116112"
-    },
-    {
-        "id": "2d1925dad71affb031fc8c5a97786d63",
-        "date": "2026-02-20T20:09:26.116114"
-    },
-    {
-        "id": "73c9cdc82a425457078bd01322fb3230",
-        "date": "2026-02-20T20:09:26.116116"
-    },
-    {
-        "id": "3978b21e97b7d60ff7773e314fef26e7",
-        "date": "2026-02-20T20:09:26.116118"
-    },
-    {
-        "id": "fbcfa132b69c382157532d3e040e34d2",
-        "date": "2026-02-20T20:09:26.116120"
-    },
-    {
-        "id": "2b4b32cd229b85f718e090129fcb5a8f",
-        "date": "2026-02-20T20:09:26.116122"
-    },
-    {
         "id": "7d8b4cb55b2566102a7323b8b3dfb2ab",
         "date": "2026-02-20T20:09:26.116124"
     },
@@ -9944,5 +9916,40 @@
         "id": "eda51950a1ef3f36dbad798c16f4f7f1",
         "fingerprint": "lead functional consultant - quality compliance assurance|epam systems|chennai",
         "date": "2026-04-03T12:49:39.497878"
+    },
+    {
+        "id": "00e3041246a09f6829aedd6f571e76a2",
+        "fingerprint": "quality and delivery manager|hitachi energy|bengaluru",
+        "date": "2026-04-03T19:49:49.180985"
+    },
+    {
+        "id": "0c53d575580f299c00b26ed525c1f616",
+        "fingerprint": "genai test architect|sasken technologies limited|bengaluru",
+        "date": "2026-04-03T19:49:49.181003"
+    },
+    {
+        "id": "2a081364c36dbb78f869b006edcda440",
+        "fingerprint": "test architect|sciex|bengaluru",
+        "date": "2026-04-03T19:49:49.181007"
+    },
+    {
+        "id": "96bd23549da65ec9cdd9e54f8ab0714f",
+        "fingerprint": "business development manager \u2013 ai & industrial automation|cogniforge technologies|gurugram",
+        "date": "2026-04-03T19:49:49.181010"
+    },
+    {
+        "id": "51956155e1fb85e3206c5cb83b1ab5d3",
+        "fingerprint": "manager \u2013 quality|prochant india|chennai",
+        "date": "2026-04-03T19:49:49.181013"
+    },
+    {
+        "id": "3074f228c5d64a46055eeb7a77b31373",
+        "fingerprint": "contractor quality lead|pfizer|chennai",
+        "date": "2026-04-03T19:49:49.181016"
+    },
+    {
+        "id": "5e54ceb149d73c31b01eb8a80b5b424a",
+        "fingerprint": "senior quality manager, global|astrix|remote",
+        "date": "2026-04-03T19:49:49.181019"
     }
 ]
