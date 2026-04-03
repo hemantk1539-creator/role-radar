@@ -1,33 +1,5 @@
 [
     {
-        "id": "a6871e131fc07c9a8017110dc844e68a",
-        "date": "2026-02-20T20:09:26.116092"
-    },
-    {
-        "id": "fa6dfe82636e39e0415cb01164ca9dfb",
-        "date": "2026-02-20T20:09:26.116094"
-    },
-    {
-        "id": "c47c397b2ff2bcc0dee95b4ca6e6fd02",
-        "date": "2026-02-20T20:09:26.116096"
-    },
-    {
-        "id": "1e616c3cc9490b632b0b0c22cd84e246",
-        "date": "2026-02-20T20:09:26.116098"
-    },
-    {
-        "id": "1919a5d801241cea5bb41624eb3d1b97",
-        "date": "2026-02-20T20:09:26.116100"
-    },
-    {
-        "id": "6b4bff55c29fa86756c45582ee1ce1e6",
-        "date": "2026-02-20T20:09:26.116106"
-    },
-    {
-        "id": "bba8a9d3624472eec805e5029aeb2bc9",
-        "date": "2026-02-20T20:09:26.116108"
-    },
-    {
         "id": "d8a07209c2402f836c4fd536e9d112d7",
         "date": "2026-02-20T20:09:26.116110"
     },
@@ -9937,5 +9909,40 @@
         "id": "602fb21f3bd48c7a75063299f365ceeb",
         "fingerprint": "sdet - lead|iris software inc.|gurugram",
         "date": "2026-04-03T06:49:32.616293"
+    },
+    {
+        "id": "bf7982aa29e53e620f6bf2e8819c852e",
+        "fingerprint": "quality assurance manager|infosys finacle|bengaluru",
+        "date": "2026-04-03T12:49:39.497848"
+    },
+    {
+        "id": "64cc46ae0327284d939e3c413dc1e148",
+        "fingerprint": "quality assurance engineering manager|goguardian|bengaluru",
+        "date": "2026-04-03T12:49:39.497865"
+    },
+    {
+        "id": "5cef1a28163d862b386352de9d10a943",
+        "fingerprint": "lead manufacturing specialist - production quality|ge healthcare|bengaluru",
+        "date": "2026-04-03T12:49:39.497868"
+    },
+    {
+        "id": "bae4ba62e7a57f2f9bba194bcd7b9b60",
+        "fingerprint": "sr. manager - testing (transformers)|nexusarc hr consultants and recruitment firm|mumbai",
+        "date": "2026-04-03T12:49:39.497871"
+    },
+    {
+        "id": "5d6ef34046435c3e30db415b53651dc3",
+        "fingerprint": "manager training & quality - digital learning|indian school of business|hyderabad",
+        "date": "2026-04-03T12:49:39.497873"
+    },
+    {
+        "id": "dcaed3df36125cf92c647a0998f646ab",
+        "fingerprint": "head - healthcare quality|stemz healthcare|chennai",
+        "date": "2026-04-03T12:49:39.497875"
+    },
+    {
+        "id": "eda51950a1ef3f36dbad798c16f4f7f1",
+        "fingerprint": "lead functional consultant - quality compliance assurance|epam systems|chennai",
+        "date": "2026-04-03T12:49:39.497878"
     }
 ]
