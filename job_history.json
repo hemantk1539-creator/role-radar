@@ -1,25 +1,5 @@
 [
     {
-        "id": "7d8b4cb55b2566102a7323b8b3dfb2ab",
-        "date": "2026-02-20T20:09:26.116124"
-    },
-    {
-        "id": "fe790729f360a5f6620b7b91456d0ccc",
-        "date": "2026-02-20T20:09:26.116126"
-    },
-    {
-        "id": "cc7e6e7058b6a11c7e7a0e3b19d8bc2e",
-        "date": "2026-02-20T20:09:26.116128"
-    },
-    {
-        "id": "e62880ee29105561b757cfaa440e5112",
-        "date": "2026-02-20T20:09:26.116129"
-    },
-    {
-        "id": "13b478a28d2357a00f6609b57ee62fba",
-        "date": "2026-02-20T20:09:26.116131"
-    },
-    {
         "id": "f08e7af18e8d1683aee95982842a00b2",
         "date": "2026-02-20T20:09:26.116133"
     },
@@ -9951,5 +9931,30 @@
         "id": "5e54ceb149d73c31b01eb8a80b5b424a",
         "fingerprint": "senior quality manager, global|astrix|remote",
         "date": "2026-04-03T19:49:49.181019"
+    },
+    {
+        "id": "948a7908568308a194226e61d545062e",
+        "fingerprint": "sol architect, d&t, validation & testing|west pharmaceutical services|bengaluru",
+        "date": "2026-04-04T06:49:29.324369"
+    },
+    {
+        "id": "b0572e810013f2318860daf74da54d2e",
+        "fingerprint": "automation lead l1|wipro|pune",
+        "date": "2026-04-04T06:49:29.324386"
+    },
+    {
+        "id": "22275a8baf23d554790ea3d418c1ef72",
+        "fingerprint": "kemar automation -  chief financial officer|kemar automation|mumbai",
+        "date": "2026-04-04T06:49:29.324389"
+    },
+    {
+        "id": "9d542fd850fcbf9ac3dd321f9ec8c627",
+        "fingerprint": "manager - control testing|american express|gurugram",
+        "date": "2026-04-04T06:49:29.324392"
+    },
+    {
+        "id": "341e68fb7d68fd4485ffc4024e884f77",
+        "fingerprint": "lead functional consultant - quality compliance assurance|epam systems|gurugram",
+        "date": "2026-04-04T06:49:29.324394"
     }
 ]
