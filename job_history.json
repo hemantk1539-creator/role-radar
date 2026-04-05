@@ -1,25 +1,5 @@
 [
     {
-        "id": "12616a7f140492d533408dbf37a309c0",
-        "date": "2026-02-20T20:09:26.116149"
-    },
-    {
-        "id": "3f993a5462ff88171cfec1415def8757",
-        "date": "2026-02-20T20:09:26.116151"
-    },
-    {
-        "id": "2f57ba571e9122f5a8be8b801e4c2175",
-        "date": "2026-02-20T20:09:26.116153"
-    },
-    {
-        "id": "bd62a95741e28b161febb6e4d64a2c09",
-        "date": "2026-02-20T20:09:26.116154"
-    },
-    {
-        "id": "8cf3fde47d24c909d78e26988b8175be",
-        "date": "2026-02-20T20:09:26.116156"
-    },
-    {
         "id": "381d647f25ece17822da38d3bf0d8635",
         "date": "2026-02-20T20:09:26.116158"
     },
@@ -9964,5 +9944,30 @@
         "id": "ef57b559952234c471ee3808813b316b",
         "fingerprint": "staff engineer, qa automation (mobile & api testing)|nagarro",
         "date": "2026-04-05T12:49:47.954786"
+    },
+    {
+        "id": "67103cef953ac7ddffe35c8abc0ed51e",
+        "fingerprint": "lead automation engineer|nne|bengaluru",
+        "date": "2026-04-05T19:49:42.685442"
+    },
+    {
+        "id": "65ce556b3940e7d60f25f0e904cd4983",
+        "fingerprint": "executive manager \u2013 qa automation architect /specialist - hyderabad|deloitte|hyderabad",
+        "date": "2026-04-05T19:49:42.685456"
+    },
+    {
+        "id": "709c27249a2d3889f689eda1d94f5cb7",
+        "fingerprint": "principal software quality engineer|pegasystems|hyderabad",
+        "date": "2026-04-05T19:49:42.685459"
+    },
+    {
+        "id": "315d9376959e22e2aa173cdb8876a131",
+        "fingerprint": "testing lead|turaminds technologies pvt ltd|hyderabad",
+        "date": "2026-04-05T19:49:42.685461"
+    },
+    {
+        "id": "86e509a58b622b249b51796cb5b93fab",
+        "fingerprint": "lead test development engineer|aptiv|chennai",
+        "date": "2026-04-05T19:49:42.685462"
     }
 ]
