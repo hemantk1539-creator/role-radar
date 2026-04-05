@@ -1,13 +1,5 @@
 [
     {
-        "id": "0e4a74c1d71e8150f2460232907e9ba8",
-        "date": "2026-02-20T20:09:26.116145"
-    },
-    {
-        "id": "63bf21fe5428b9e845f93f510b4b860e",
-        "date": "2026-02-20T20:09:26.116147"
-    },
-    {
         "id": "12616a7f140492d533408dbf37a309c0",
         "date": "2026-02-20T20:09:26.116149"
     },
@@ -9962,5 +9954,15 @@
         "id": "ae475b244bdb3df32eda58426a48fc10",
         "fingerprint": "plant quality manager - ais|siemens|remote",
         "date": "2026-04-05T06:49:18.502956"
+    },
+    {
+        "id": "f33a6bab1ced4d96cea2b314bffd18c6",
+        "fingerprint": "quality assurance manager|lqi|gurugram",
+        "date": "2026-04-05T12:49:47.954766"
+    },
+    {
+        "id": "ef57b559952234c471ee3808813b316b",
+        "fingerprint": "staff engineer, qa automation (mobile & api testing)|nagarro",
+        "date": "2026-04-05T12:49:47.954786"
     }
 ]
