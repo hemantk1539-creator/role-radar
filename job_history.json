@@ -1,73 +1,5 @@
 [
     {
-        "id": "2683802605760e58b63895c59ef48c36",
-        "date": "2026-02-21T07:05:48.307897"
-    },
-    {
-        "id": "b7eeaf8be3977d701dcfd57a69028f2d",
-        "date": "2026-02-21T07:05:48.307913"
-    },
-    {
-        "id": "c1e34a6bee4b62dd288fc901bc489623",
-        "date": "2026-02-21T07:05:48.307916"
-    },
-    {
-        "id": "268b8d9c3b379535cab5e7adfd19bd2c",
-        "date": "2026-02-21T07:05:48.307918"
-    },
-    {
-        "id": "9a8777eb971c5b15043dae587d7e0ead",
-        "date": "2026-02-21T07:05:48.307920"
-    },
-    {
-        "id": "514f8bbccef5e2e585a1943a697a38a9",
-        "date": "2026-02-21T07:05:48.307922"
-    },
-    {
-        "id": "90c06306618eece11e14eb82ba8c3bfb",
-        "date": "2026-02-21T07:05:48.307925"
-    },
-    {
-        "id": "8e95b9a68c64d02a4b15789ae5a3a407",
-        "date": "2026-02-21T07:05:48.307927"
-    },
-    {
-        "id": "82826a78ade0712bb98b0453776d46db",
-        "date": "2026-02-21T07:05:48.307929"
-    },
-    {
-        "id": "d5828d5a1cab7b15de1df7b0d1ca10fa",
-        "date": "2026-02-21T07:05:48.307931"
-    },
-    {
-        "id": "a02c84f9f468aec786467e5305f65e23",
-        "date": "2026-02-21T07:05:48.307933"
-    },
-    {
-        "id": "db8412a24f7aac02b7140f16a44f2170",
-        "date": "2026-02-21T07:05:48.307935"
-    },
-    {
-        "id": "a10bc37edcb5c7cc256bef7cf8ebb8ac",
-        "date": "2026-02-21T07:05:48.307937"
-    },
-    {
-        "id": "3aab3e1afe9b3d65568bd3734300e10c",
-        "date": "2026-02-21T07:05:48.307940"
-    },
-    {
-        "id": "0f4f6c8d0a4054021c6eaab0ee14bd93",
-        "date": "2026-02-21T07:05:48.307941"
-    },
-    {
-        "id": "329d133f7c045d76fe76c6c9a7f89b8a",
-        "date": "2026-02-21T07:05:48.307944"
-    },
-    {
-        "id": "ac47f4253c05c764ba1a663464c9cc71",
-        "date": "2026-02-21T07:05:48.307946"
-    },
-    {
         "id": "95e81a232823c9bd1f2d67ba2567773a",
         "date": "2026-02-21T07:05:48.307948"
     },
@@ -9975,5 +9907,90 @@
         "id": "12af9993faaeb32a60aeb5df80332444",
         "fingerprint": "test manager \u2013 global markets technology|persol apac|remote",
         "date": "2026-04-06T06:49:52.407178"
+    },
+    {
+        "id": "88acced520aa295ddce0c66e55739c09",
+        "fingerprint": "senior manager, product quality|sandisk|bengaluru",
+        "date": "2026-04-06T12:49:59.764883"
+    },
+    {
+        "id": "25e1445b6fd93aa7946d8018a136b376",
+        "fingerprint": "quality and operations manager|criador labs|bengaluru",
+        "date": "2026-04-06T12:49:59.764899"
+    },
+    {
+        "id": "5e48d32315a92d970cf2b0cbbbad3e8e",
+        "fingerprint": "head of quality assurance|amor management consultants - india\u2019s premiere auto talent hiring specialists|bengaluru",
+        "date": "2026-04-06T12:49:59.764901"
+    },
+    {
+        "id": "8a491b79cb8960fc638031e65413c725",
+        "fingerprint": "test architect|uplers|bengaluru",
+        "date": "2026-04-06T12:49:59.764904"
+    },
+    {
+        "id": "cd28cac7824adc2c88efd6619a9227fb",
+        "fingerprint": "manager - qa - qms|global calcium|bengaluru",
+        "date": "2026-04-06T12:49:59.764906"
+    },
+    {
+        "id": "8093e2bcee21260c20ada4865cc1203c",
+        "fingerprint": "quality assurance manager|kosh innovations|pune",
+        "date": "2026-04-06T12:49:59.764908"
+    },
+    {
+        "id": "788e13f5fa9de5de0ffcddeeb059103c",
+        "fingerprint": "senior quality assurance manager|randstad enterprise|pune",
+        "date": "2026-04-06T12:49:59.764910"
+    },
+    {
+        "id": "ba7ad20844f07614f45a66d4ba743250",
+        "fingerprint": "quality assurance, director, third party risk management|morgan stanley|mumbai",
+        "date": "2026-04-06T12:49:59.764913"
+    },
+    {
+        "id": "35acbc0fd295377effc488ab50597788",
+        "fingerprint": "quality assurance manager|esse india | canada immigration consultants in delhi | visa consultant delhi|mumbai",
+        "date": "2026-04-06T12:49:59.764915"
+    },
+    {
+        "id": "6918d9464f2f02ce27e14faf549d2069",
+        "fingerprint": "quality assurance manager|kabsons gas equipment pvt. ltd.|hyderabad",
+        "date": "2026-04-06T12:49:59.764917"
+    },
+    {
+        "id": "4c5654f0fc0e1888989c3fc34d9b8c4f",
+        "fingerprint": "qa lead \u2013 it operations|lonza|hyderabad",
+        "date": "2026-04-06T12:49:59.764920"
+    },
+    {
+        "id": "4ef10d6bdb18a0c0b5847a72735cc739",
+        "fingerprint": "software development engineer in test lead|philodesign technologies inc|hyderabad",
+        "date": "2026-04-06T12:49:59.764922"
+    },
+    {
+        "id": "0c9931cfd6c73825765d28d82958d8d9",
+        "fingerprint": "zonal quality manager, last mile aces - quality|amazon|gurugram",
+        "date": "2026-04-06T12:49:59.764924"
+    },
+    {
+        "id": "88f73bcf6a6c5f115b2a52dbc02ad3ec",
+        "fingerprint": "qa architect technical manager|weekday ai (yc w21)|chennai",
+        "date": "2026-04-06T12:49:59.764926"
+    },
+    {
+        "id": "f68fbfdf9a18b3b82a6989ede8cdb2e4",
+        "fingerprint": "senior manager, tb controls testing|standard chartered india|chennai",
+        "date": "2026-04-06T12:49:59.764928"
+    },
+    {
+        "id": "623ea2ec436479ee5e4ee4b9990c0010",
+        "fingerprint": "head quality|piramal pharma ltd|remote",
+        "date": "2026-04-06T12:49:59.764930"
+    },
+    {
+        "id": "d3e9966ccfb99d8f067b11e1004ae187",
+        "fingerprint": "head of global ai & automation strategy|vt markets|remote",
+        "date": "2026-04-06T12:49:59.764933"
     }
 ]
