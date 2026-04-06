@@ -1,29 +1,5 @@
 [
     {
-        "id": "381d647f25ece17822da38d3bf0d8635",
-        "date": "2026-02-20T20:09:26.116158"
-    },
-    {
-        "id": "40ff3e7074f45e6fa1f05fdff9c3ed7c",
-        "date": "2026-02-20T20:09:26.116160"
-    },
-    {
-        "id": "5456d9e347e06149648076bd180ec688",
-        "date": "2026-02-20T20:09:26.116162"
-    },
-    {
-        "id": "ed27b9704b71ad385e07f22c2e1e6bf5",
-        "date": "2026-02-20T20:09:26.116164"
-    },
-    {
-        "id": "edf8ac0b473a28d0cb81c5c9debf6ff3",
-        "date": "2026-02-20T20:09:26.116166"
-    },
-    {
-        "id": "0f131fabeb3642829b295450e806d475",
-        "date": "2026-02-20T20:09:26.116168"
-    },
-    {
         "id": "2683802605760e58b63895c59ef48c36",
         "date": "2026-02-21T07:05:48.307897"
     },
@@ -9969,5 +9945,35 @@
         "id": "86e509a58b622b249b51796cb5b93fab",
         "fingerprint": "lead test development engineer|aptiv|chennai",
         "date": "2026-04-05T19:49:42.685462"
+    },
+    {
+        "id": "71d1a9c5d0e0fb8ecd20ebc086e16198",
+        "fingerprint": "lead quality engineer|quest global|hyderabad",
+        "date": "2026-04-06T06:49:52.407151"
+    },
+    {
+        "id": "df1ab99d2b6439095d7a770352c7ffff",
+        "fingerprint": "head of quality assurance_aerospace|brisk olive|gurugram",
+        "date": "2026-04-06T06:49:52.407167"
+    },
+    {
+        "id": "f246e0ee2d75c668889e5b618e2eaa1f",
+        "fingerprint": "quality control lead|tenac-harinder industries p. ltd.|remote",
+        "date": "2026-04-06T06:49:52.407170"
+    },
+    {
+        "id": "2b20ad4c4ac6e0c265ddbe6d5a1f02ba",
+        "fingerprint": "manager, quality systems|thermo fisher scientific|remote",
+        "date": "2026-04-06T06:49:52.407173"
+    },
+    {
+        "id": "e76fb042e8dde8f1599a1525608fcbc8",
+        "fingerprint": "global quality compliance manager|secure meters limited|gurugram",
+        "date": "2026-04-06T06:49:52.407175"
+    },
+    {
+        "id": "12af9993faaeb32a60aeb5df80332444",
+        "fingerprint": "test manager \u2013 global markets technology|persol apac|remote",
+        "date": "2026-04-06T06:49:52.407178"
     }
 ]
