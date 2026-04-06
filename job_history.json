@@ -1,49 +1,5 @@
 [
     {
-        "id": "95e81a232823c9bd1f2d67ba2567773a",
-        "date": "2026-02-21T07:05:48.307948"
-    },
-    {
-        "id": "681f70702910018842787114e4b36bc9",
-        "date": "2026-02-21T07:05:48.307950"
-    },
-    {
-        "id": "a15b405dd413ac4911f81362dd54a05e",
-        "date": "2026-02-21T07:05:48.307952"
-    },
-    {
-        "id": "0f35dfa5ff03d8a2b02eb1b9ba861f30",
-        "date": "2026-02-21T07:05:48.307954"
-    },
-    {
-        "id": "736f38fa470eba7145d725ed6314a74e",
-        "date": "2026-02-21T07:05:48.307956"
-    },
-    {
-        "id": "2104d65efe1025c88e43882a5f30c883",
-        "date": "2026-02-21T07:05:48.307958"
-    },
-    {
-        "id": "e44b411a9010139c9373b154237a0dc9",
-        "fingerprint": "staff software engineer - qe|cloudera",
-        "date": "2026-02-21T12:55:22.338848"
-    },
-    {
-        "id": "4ac1d9e627b1cd793a25cf053d36ff3a",
-        "fingerprint": "test manager (quality assurance ii)|logic planet",
-        "date": "2026-02-21T12:55:22.338864"
-    },
-    {
-        "id": "60ab903e8ab2cf036ffd03510cf3ca4c",
-        "fingerprint": "lead supplier quality specialist - mechanical|general electric (ge)",
-        "date": "2026-02-21T12:55:22.338867"
-    },
-    {
-        "id": "d04907b8e9168098af95b96fb33e9f66",
-        "fingerprint": "software automation test architect|tata consultancy services",
-        "date": "2026-02-21T12:55:22.338870"
-    },
-    {
         "id": "a8c94dff504fce5d40afb293ba6330c0",
         "fingerprint": "test architect l1|wipro",
         "date": "2026-02-21T12:55:22.338872"
@@ -9992,5 +9948,55 @@
         "id": "d3e9966ccfb99d8f067b11e1004ae187",
         "fingerprint": "head of global ai & automation strategy|vt markets|remote",
         "date": "2026-04-06T12:49:59.764933"
+    },
+    {
+        "id": "4702b32177f827bff428ba8d3bb5d747",
+        "fingerprint": "automation engineering - technology department - manager|tata electronics|bengaluru",
+        "date": "2026-04-06T19:49:43.421106"
+    },
+    {
+        "id": "bd3e1593dff6ee7a8b969108dc4b3a6a",
+        "fingerprint": "staff software engineer - qe|cloudera|bengaluru",
+        "date": "2026-04-06T19:49:43.421123"
+    },
+    {
+        "id": "8fe88e99ec2ea7cfc9ad5fe779926517",
+        "fingerprint": "test manager|ltm|pune",
+        "date": "2026-04-06T19:49:43.421126"
+    },
+    {
+        "id": "9646c049a6ccd2ba781873912f019956",
+        "fingerprint": "test manager validation|zs|pune",
+        "date": "2026-04-06T19:49:43.421128"
+    },
+    {
+        "id": "c994f49b68d5cc7e3341167b3dd28128",
+        "fingerprint": "platform & automation lead engineer, avp|state street|pune",
+        "date": "2026-04-06T19:49:43.421130"
+    },
+    {
+        "id": "8f164a8777a4bfc7bb76da003b1a34c0",
+        "fingerprint": "lead gcp (8+ yrs, gcp, cloud security, automation, immediate joiner )|innova esi|mumbai",
+        "date": "2026-04-06T19:49:43.421132"
+    },
+    {
+        "id": "e1d71b030999664ff1b75e1a2bb18fc6",
+        "fingerprint": "lead software development engineer in test|solera holdings, llc.|hyderabad",
+        "date": "2026-04-06T19:49:43.421134"
+    },
+    {
+        "id": "6c56ecf2cf424a16252e2c0ea5dc34cc",
+        "fingerprint": "platform & automation lead engineer, avp|state street|hyderabad",
+        "date": "2026-04-06T19:49:43.421135"
+    },
+    {
+        "id": "d8cd927fa05d8a5108f8c68ede07d6e3",
+        "fingerprint": "head quality|wika group|gurugram",
+        "date": "2026-04-06T19:49:43.421137"
+    },
+    {
+        "id": "98ccd3d0a03158271329540633d0adf8",
+        "fingerprint": "manager- quality|stryker|gurugram",
+        "date": "2026-04-06T19:49:43.421139"
     }
 ]
