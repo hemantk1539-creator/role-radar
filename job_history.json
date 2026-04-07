@@ -1,35 +1,5 @@
 [
     {
-        "id": "a8c94dff504fce5d40afb293ba6330c0",
-        "fingerprint": "test architect l1|wipro",
-        "date": "2026-02-21T12:55:22.338872"
-    },
-    {
-        "id": "46f4a9144ba191afc71972c9d3abf9b3",
-        "fingerprint": "test lead ui & api|yash technologies",
-        "date": "2026-02-21T12:55:22.338875"
-    },
-    {
-        "id": "f1619a6d18ad1856ee0abc4c98ef382a",
-        "fingerprint": "1. manager automation engineer & design 2. sr. plc programmer|patvin",
-        "date": "2026-02-21T12:55:22.338877"
-    },
-    {
-        "id": "6c8001471a10105b60e2cc49e7738445",
-        "fingerprint": "head of quality control & quality assurance|haribol",
-        "date": "2026-02-21T12:55:22.338880"
-    },
-    {
-        "id": "487bdf4a8e4e41b4e397053553c23b6b",
-        "fingerprint": "quality assurance analyst aem specialist|logic planet",
-        "date": "2026-02-21T12:55:22.338882"
-    },
-    {
-        "id": "7545e083e4a7ff76c8d4684def26d391",
-        "fingerprint": "assistant manager sqe|nextracker",
-        "date": "2026-02-21T12:55:22.338885"
-    },
-    {
         "id": "465dfcc47c4d3d1738b94f79bd5559dc",
         "fingerprint": "quality manager//uk credit card fraud process|hiresquad",
         "date": "2026-02-21T12:55:22.338887"
@@ -9998,5 +9968,35 @@
         "id": "98ccd3d0a03158271329540633d0adf8",
         "fingerprint": "manager- quality|stryker|gurugram",
         "date": "2026-04-06T19:49:43.421139"
+    },
+    {
+        "id": "54f61331b678cbc54551b88e0ccc105c",
+        "fingerprint": "quality operations manager - automotive|kbd talent forge india pvt ltd|pune",
+        "date": "2026-04-07T06:49:49.962272"
+    },
+    {
+        "id": "a0020ad234912633332c636f18a85f13",
+        "fingerprint": "senior staff design automation engineer|maxlinear|bengaluru",
+        "date": "2026-04-07T06:49:49.962287"
+    },
+    {
+        "id": "088631c184a454df75b15b215c746e25",
+        "fingerprint": "manager r&d/product development testing|te connectivity|bengaluru",
+        "date": "2026-04-07T06:49:49.962289"
+    },
+    {
+        "id": "616e5f3e79df16098c7574341a53b99c",
+        "fingerprint": "qa automation - manager|iris software inc.|gurugram",
+        "date": "2026-04-07T06:49:49.962291"
+    },
+    {
+        "id": "a6c987cbe033a05ddda6f33c46de9f36",
+        "fingerprint": "sdet - lead|iris software inc.|noida",
+        "date": "2026-04-07T06:49:49.962293"
+    },
+    {
+        "id": "c6ed7c67d4ed2e0333dfe24b49af2474",
+        "fingerprint": "director, global quality systems governance - remote (gaithersburg, md, us, 2087|emergent biosolutions",
+        "date": "2026-04-07T06:49:49.962295"
     }
 ]
