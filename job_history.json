@@ -1,35 +1,5 @@
 [
     {
-        "id": "1190d3d3703e0e255ba2277cdd6c6a6a",
-        "fingerprint": "test architect|nokia",
-        "date": "2026-02-22T14:01:07.993764"
-    },
-    {
-        "id": "6cbb687e892490738467674faaf8490b",
-        "fingerprint": "qa architect|razorthink",
-        "date": "2026-02-22T14:01:07.993766"
-    },
-    {
-        "id": "e9334be68d025de214349802f2dafdbe",
-        "fingerprint": "total quality manager|giiava",
-        "date": "2026-02-22T14:01:07.993768"
-    },
-    {
-        "id": "c2e42bace46e247d4c02feaa9641b801",
-        "fingerprint": "manager - quality and qms|ashvini magnets",
-        "date": "2026-02-22T14:01:07.993770"
-    },
-    {
-        "id": "603a33535ff4e5f116dace55cfb024ab",
-        "fingerprint": "data quality manager|logic planet",
-        "date": "2026-02-22T14:01:07.993772"
-    },
-    {
-        "id": "10cf88b47cab93cfa7377a520c6f22f2",
-        "fingerprint": "performance test lead|apex 2000 inc",
-        "date": "2026-02-22T14:01:07.993774"
-    },
-    {
         "id": "425d1c941c5ae8e3323df615f733beb8",
         "fingerprint": "requirement for test lead - (automation and uat)|kone",
         "date": "2026-02-22T14:01:07.993776"
@@ -9998,5 +9968,35 @@
         "id": "943ea80c9c72536a65f17a0640aab288",
         "fingerprint": "site quality lead bim|name",
         "date": "2026-04-08T06:50:07.803749"
+    },
+    {
+        "id": "88b09daa178836ba888cf7ed05397eac",
+        "fingerprint": "test architect l1|wipro|pune",
+        "date": "2026-04-08T12:50:21.404193"
+    },
+    {
+        "id": "7ad61c0b8ed8ed795b31a33f342349ed",
+        "fingerprint": "qe manager - web service testing [t500-25123]|cibc india|hyderabad",
+        "date": "2026-04-08T12:50:21.404212"
+    },
+    {
+        "id": "b9d9096d00ab3cfcd3ff56e9841b0ddb",
+        "fingerprint": "manager, quality control|googleplex|gurugram",
+        "date": "2026-04-08T12:50:21.404215"
+    },
+    {
+        "id": "f67e0db1c0f950a31e84cf67aa15ff0c",
+        "fingerprint": "lead quality management|softwareone|gurugram",
+        "date": "2026-04-08T12:50:21.404218"
+    },
+    {
+        "id": "5f87d1ef284d70e3a462ec0c65556252",
+        "fingerprint": "project quality manager|hitachi energy|noida",
+        "date": "2026-04-08T12:50:21.404221"
+    },
+    {
+        "id": "f754719a20cc1943017f686e0efb022c",
+        "fingerprint": "global quality manager|setonda laboratorio|remote",
+        "date": "2026-04-08T12:50:21.404223"
     }
 ]
