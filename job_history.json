@@ -1,35 +1,5 @@
 [
     {
-        "id": "425d1c941c5ae8e3323df615f733beb8",
-        "fingerprint": "requirement for test lead - (automation and uat)|kone",
-        "date": "2026-02-22T14:01:07.993776"
-    },
-    {
-        "id": "7f9346966e8808c255ab174bba8848b3",
-        "fingerprint": "quality lead|lenovo - india",
-        "date": "2026-02-22T14:01:07.993779"
-    },
-    {
-        "id": "102a70e5ac37e5be4b83e18da2ceabc6",
-        "fingerprint": "staff automation engineer|chimpsatwork studios",
-        "date": "2026-02-22T14:01:07.993781"
-    },
-    {
-        "id": "07ac97ce9f9ad9146f3396898cdea9bf",
-        "fingerprint": "test module lead|igt solutions",
-        "date": "2026-02-22T14:01:07.993783"
-    },
-    {
-        "id": "43b731e1db477ae5e7a6e0ed978ac5b3",
-        "fingerprint": "test lead (evidence pack driven)|proso ai technologies",
-        "date": "2026-02-22T14:01:07.993785"
-    },
-    {
-        "id": "89046739adbaf9cd0501629d797a231b",
-        "fingerprint": "manager, quality engineering|zoom info",
-        "date": "2026-02-22T14:01:07.993787"
-    },
-    {
         "id": "1a0bb88c58b5609babde69776a3874ec",
         "fingerprint": "test lead|infinite",
         "date": "2026-02-22T14:01:07.993789"
@@ -9998,5 +9968,35 @@
         "id": "f754719a20cc1943017f686e0efb022c",
         "fingerprint": "global quality manager|setonda laboratorio|remote",
         "date": "2026-04-08T12:50:21.404223"
+    },
+    {
+        "id": "da0fdaf0c9bc8bbced7743a860be69c4",
+        "fingerprint": "clm data & quality manager|the adecco group|bengaluru",
+        "date": "2026-04-08T19:50:36.371438"
+    },
+    {
+        "id": "f2fae9ed2fe3fd0630dae73eefae42b1",
+        "fingerprint": "director of quality assurance|mco (mycomplianceoffice)|hyderabad",
+        "date": "2026-04-08T19:50:36.371451"
+    },
+    {
+        "id": "88a2c37ce6149ee4048c238dd882a10a",
+        "fingerprint": "quality assurance manager|l\u00e0 fuori|gurugram",
+        "date": "2026-04-08T19:50:36.371453"
+    },
+    {
+        "id": "3b2bfa96d61c4090312cb654d89690d3",
+        "fingerprint": "quality engineering & ai transformation lead, aladdin engineering, director|blackrock|gurugram",
+        "date": "2026-04-08T19:50:36.371455"
+    },
+    {
+        "id": "aadd12841e7fbb3d66f90dc14237521f",
+        "fingerprint": "staff software engineer in test, pam |okta",
+        "date": "2026-04-08T19:50:36.371457"
+    },
+    {
+        "id": "02cee022b90a742e64fd996d98520a57",
+        "fingerprint": "quality assurance manager \u2013 leading global consultancy - j12675|pinpoint asia|remote",
+        "date": "2026-04-08T19:50:36.371459"
     }
 ]
