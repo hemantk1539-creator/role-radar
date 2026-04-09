@@ -1,70 +1,5 @@
 [
     {
-        "id": "cea82fac2969bf0b1d1e6643038d14b8",
-        "fingerprint": "qa lead (infrastructure) - observability|elastic",
-        "date": "2026-02-22T14:01:07.993799"
-    },
-    {
-        "id": "49fe4003b819c218a46edfa38e82aa25",
-        "fingerprint": "product manager, revenue and financial automation |stripe",
-        "date": "2026-02-22T14:01:07.993801"
-    },
-    {
-        "id": "92db8efd2ccb4c1b4d48fc03dd5c1280",
-        "fingerprint": "quality engineering lead (test lead)|accenture in india",
-        "date": "2026-02-22T16:23:54.349310"
-    },
-    {
-        "id": "6041a0d21a1e93aa529ee81f161a8492",
-        "fingerprint": "lead quality controller|talentbridge",
-        "date": "2026-02-22T16:23:54.349326"
-    },
-    {
-        "id": "b6945e20f278401a7cdbdb347e910276",
-        "fingerprint": "test automation lead|accenture in india",
-        "date": "2026-02-22T16:23:54.349348"
-    },
-    {
-        "id": "177df6f5b9db6e23ee55967408a29511",
-        "fingerprint": "lead etl & python automation qa tester|eternus solutions",
-        "date": "2026-02-22T16:23:54.349351"
-    },
-    {
-        "id": "1aba7510809d9fd8b475e3342a319342",
-        "fingerprint": "technical lead qa|logic planet",
-        "date": "2026-02-22T16:23:54.349353"
-    },
-    {
-        "id": "e4f11171db19be8346ffd6edf39ac0c5",
-        "fingerprint": "test lead - automation (selenium webdriver and c#)|hexaware technologies",
-        "date": "2026-02-22T16:23:54.349356"
-    },
-    {
-        "id": "7442a45e10d501fa7b4d51ea647d27e3",
-        "fingerprint": "lead- python automation qa with advance sql skills|eternus solutions",
-        "date": "2026-02-22T16:23:54.349358"
-    },
-    {
-        "id": "fffb4b2386a011ac8fb3c4c628ad2fe3",
-        "fingerprint": "test lead - automation|hexaware technologies",
-        "date": "2026-02-22T16:23:54.349360"
-    },
-    {
-        "id": "76c1d8c7d58bf9b08f81244f2c80386d",
-        "fingerprint": "manager digitization, standardization & automation order engineering|ksb",
-        "date": "2026-02-22T16:23:54.349362"
-    },
-    {
-        "id": "c8984e4ee937ffadfdcd288214f0c475",
-        "fingerprint": "asst/dy manager hydraulic braking systems vehicle testing german mnc|valuable consulting and technologies",
-        "date": "2026-02-22T16:23:54.349365"
-    },
-    {
-        "id": "cac3944efbd6599319e9a2b6ff896633",
-        "fingerprint": "manager, d&t, process automation|dsm-firmenich",
-        "date": "2026-02-22T16:23:54.349367"
-    },
-    {
         "id": "9f35b3abc423e12d8f7b3346b90a5e63",
         "fingerprint": "aws infrastructure automation lead / cloud engineering manager - bangalore / hyderabad - 10 to 15 years ||accedepro private limited",
         "date": "2026-02-22T16:23:54.349369"
@@ -9998,5 +9933,70 @@
         "id": "a904a20b70890ac9c4ee9fc18d6e9f2f",
         "fingerprint": "manager, technical quality (bengaluru, india)|figma",
         "date": "2026-04-09T06:49:58.754894"
+    },
+    {
+        "id": "8f090e92c56d0e87c7f20b176a441f66",
+        "fingerprint": "technical qa manager|setoo|pune",
+        "date": "2026-04-09T12:49:55.827413"
+    },
+    {
+        "id": "9dc58e7e857f1dfdc2ba519d6f3df942",
+        "fingerprint": "manager - qa/qc|della resorts and adventure|pune",
+        "date": "2026-04-09T12:49:55.827428"
+    },
+    {
+        "id": "bf90fd179f84db61181fc5225a4e4adb",
+        "fingerprint": "quality assurance, monitoring & testing group manager - svp|citi|pune",
+        "date": "2026-04-09T12:49:55.827431"
+    },
+    {
+        "id": "7f40375c4fb89f28edb5b93a15ea9099",
+        "fingerprint": "automation testing- lead i - software testing|ust|pune",
+        "date": "2026-04-09T12:49:55.827433"
+    },
+    {
+        "id": "748e82daf70cc4a9431b490692275d5b",
+        "fingerprint": "clinical & quality manager|united hospital, bangalore|bengaluru",
+        "date": "2026-04-09T12:49:55.827435"
+    },
+    {
+        "id": "3129bdbf41a38a4fca7175f41a247dd3",
+        "fingerprint": "implementation functional test lead - senior manager|state street|bengaluru",
+        "date": "2026-04-09T12:49:55.827439"
+    },
+    {
+        "id": "0b70f5462dac8c5f07dde140d431f691",
+        "fingerprint": "lead executive - external manufacturing quality|apotex inc.|mumbai",
+        "date": "2026-04-09T12:49:55.827442"
+    },
+    {
+        "id": "7840abd703c2a9041a3282415cce26d1",
+        "fingerprint": "quality assurance manager|webmd|mumbai",
+        "date": "2026-04-09T12:49:55.827446"
+    },
+    {
+        "id": "39680db40d8845f208037caa4e8d5d43",
+        "fingerprint": "quality engineering manager [t500-25153]|cibc india|hyderabad",
+        "date": "2026-04-09T12:49:55.827449"
+    },
+    {
+        "id": "303de040679c4f0861c74de4a7dd5f2b",
+        "fingerprint": "implementation functional test lead - senior manager|state street|hyderabad",
+        "date": "2026-04-09T12:49:55.827452"
+    },
+    {
+        "id": "5c68c59d951f5d4a90771a451bd9cd1a",
+        "fingerprint": "solution architect \u2013 ai & intelligent automation|hcltech|gurugram",
+        "date": "2026-04-09T12:49:55.827454"
+    },
+    {
+        "id": "948fcbe9807ffdda3e31d832bee2434f",
+        "fingerprint": "head of quality assurance (cto -1) bfsi sector|datavruti|chennai",
+        "date": "2026-04-09T12:49:55.827456"
+    },
+    {
+        "id": "816346ec7b576423d37170a0307322ba",
+        "fingerprint": "director, supplier and manufacturing quality|peloton",
+        "date": "2026-04-09T12:49:55.827458"
     }
 ]
