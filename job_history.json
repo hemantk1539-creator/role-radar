@@ -1,30 +1,5 @@
 [
     {
-        "id": "1a0bb88c58b5609babde69776a3874ec",
-        "fingerprint": "test lead|infinite",
-        "date": "2026-02-22T14:01:07.993789"
-    },
-    {
-        "id": "ed7450bc2dbae1dcdfca8beacfa4653e",
-        "fingerprint": "quality assurance lead|genuin inc",
-        "date": "2026-02-22T14:01:07.993791"
-    },
-    {
-        "id": "a89f94a6fa63c5addaf8920cfea8cff9",
-        "fingerprint": "ass/sr ass/manager - red team - penetration testing offensive security|gips management advisors",
-        "date": "2026-02-22T14:01:07.993793"
-    },
-    {
-        "id": "249b983d24a282baea581f2d900f8d28",
-        "fingerprint": "sap project manager / test lead|look4it",
-        "date": "2026-02-22T14:01:07.993795"
-    },
-    {
-        "id": "29c8a3fdbcd5e47032a7af1bdc8f3e84",
-        "fingerprint": "software engineering manager, application security testing: composition analysis & dynamic analysis|gitlab",
-        "date": "2026-02-22T14:01:07.993797"
-    },
-    {
         "id": "cea82fac2969bf0b1d1e6643038d14b8",
         "fingerprint": "qa lead (infrastructure) - observability|elastic",
         "date": "2026-02-22T14:01:07.993799"
@@ -9998,5 +9973,30 @@
         "id": "02cee022b90a742e64fd996d98520a57",
         "fingerprint": "quality assurance manager \u2013 leading global consultancy - j12675|pinpoint asia|remote",
         "date": "2026-04-08T19:50:36.371459"
+    },
+    {
+        "id": "1827c9b033e3692bfd9de9c824515b9e",
+        "fingerprint": "director quality & vps|volvo group|bengaluru",
+        "date": "2026-04-09T06:49:58.754870"
+    },
+    {
+        "id": "a7fe2e0e6d6885668350d0c67237d32c",
+        "fingerprint": "enterprise quality assurance lead|unilever|bengaluru",
+        "date": "2026-04-09T06:49:58.754886"
+    },
+    {
+        "id": "84f54a4346f8366dccc0f732ffdab2c1",
+        "fingerprint": "quality manager|moog inc.|bengaluru",
+        "date": "2026-04-09T06:49:58.754889"
+    },
+    {
+        "id": "d914b2e3d12fe6d74db64a1438922776",
+        "fingerprint": "manager, quality assurance|lytx, inc.|bengaluru",
+        "date": "2026-04-09T06:49:58.754892"
+    },
+    {
+        "id": "a904a20b70890ac9c4ee9fc18d6e9f2f",
+        "fingerprint": "manager, technical quality (bengaluru, india)|figma",
+        "date": "2026-04-09T06:49:58.754894"
     }
 ]
