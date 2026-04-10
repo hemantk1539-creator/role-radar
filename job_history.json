@@ -1,70 +1,5 @@
 [
     {
-        "id": "db52f97707eb9e3090f402b4bc70649d",
-        "fingerprint": "principal automation test engineer|cubic transportation systems|hyderabad",
-        "date": "2026-02-22T19:56:52.138684"
-    },
-    {
-        "id": "8021a5ec68c2767c2184db6f7509ff6f",
-        "fingerprint": "engineering manager - ubuntu hardware certification quality and test engineering|canonical",
-        "date": "2026-02-22T19:56:52.138686"
-    },
-    {
-        "id": "eb4e0d4ca039349384bf448f74357bb3",
-        "fingerprint": "senior staff sdet engineer|fivetran",
-        "date": "2026-02-22T19:56:52.138689"
-    },
-    {
-        "id": "da93a98cef21149d537085185ffa7105",
-        "fingerprint": "staff software development engineer in test|fivetran",
-        "date": "2026-02-22T19:56:52.138691"
-    },
-    {
-        "id": "7f8e420385d62ca1bc56be401b3ed346",
-        "fingerprint": " staff software engineer, ai and automation |okta",
-        "date": "2026-02-22T19:56:52.138694"
-    },
-    {
-        "id": "63c757aa53748504f6a147f11e01c80a",
-        "fingerprint": "staff software engineer, ai and automation|okta",
-        "date": "2026-02-22T19:56:52.138696"
-    },
-    {
-        "id": "0c5c4f8b59643035011e8ca916b9d469",
-        "fingerprint": "staff software engineer in test|okta",
-        "date": "2026-02-22T19:56:52.138698"
-    },
-    {
-        "id": "0ab298f4754868155e4e0eafd93a2d7e",
-        "fingerprint": "staff software engineer in test, client foundations - linux|okta",
-        "date": "2026-02-22T19:56:52.138701"
-    },
-    {
-        "id": "10ffe72dcda03e0d2dbcdd72cf497948",
-        "fingerprint": "grc automation lead |anthropic",
-        "date": "2026-02-22T19:56:52.138703"
-    },
-    {
-        "id": "792c92d059fb6495d974661fe30d7f79",
-        "fingerprint": "engineering manager, mobile quality engineering |airbnb",
-        "date": "2026-02-22T19:56:52.138705"
-    },
-    {
-        "id": "8b640e5dea17dcd021a25454d15644b7",
-        "fingerprint": "staff android automation engineer|airbnb",
-        "date": "2026-02-22T19:56:52.138708"
-    },
-    {
-        "id": "b7a2b1912fc397f39dda2cff16c01fa8",
-        "fingerprint": "staff genai system engineer, automation foundation|airbnb",
-        "date": "2026-02-22T19:56:52.138710"
-    },
-    {
-        "id": "01fce945480c32d79bb3e5ce9b8a05b6",
-        "fingerprint": "ai automation lead ii|instacart",
-        "date": "2026-02-22T19:56:52.138713"
-    },
-    {
         "id": "07ca59ad28574ae99317714f7e17227f",
         "fingerprint": "senior staff machine learning engineer, ads quality|instacart",
         "date": "2026-02-22T19:56:52.138715"
@@ -9998,5 +9933,70 @@
         "id": "a41ca00986611a92a0ccfbf1646f31c9",
         "fingerprint": "customer quality manager (m/f/d)|valeo|remote",
         "date": "2026-04-10T06:50:11.034012"
+    },
+    {
+        "id": "28077cb06c4330923d2615dcf4e0f903",
+        "fingerprint": "it team lead (manufacturing and quality)|cummins india|pune",
+        "date": "2026-04-10T12:50:24.310153"
+    },
+    {
+        "id": "45ab5b352f6e2d9254ddf42d4b00bb67",
+        "fingerprint": "sr quality systems manager|minimed|pune",
+        "date": "2026-04-10T12:50:24.310168"
+    },
+    {
+        "id": "1f58bb9beba43b14848a02faed15fa44",
+        "fingerprint": "gmx-transformation architect - ai- automation -manager|ey|bengaluru",
+        "date": "2026-04-10T12:50:24.310171"
+    },
+    {
+        "id": "91c1175fda29159707a1066a91d16b7d",
+        "fingerprint": "head, testing centre of excellence|standard chartered india|bengaluru",
+        "date": "2026-04-10T12:50:24.310174"
+    },
+    {
+        "id": "03525cc10cd4b9a4922c8e44c6571c31",
+        "fingerprint": "automation engineering manager|omnissa|bengaluru",
+        "date": "2026-04-10T12:50:24.310176"
+    },
+    {
+        "id": "c20b5ebb9ecc04bef9c8e907ff38c3b1",
+        "fingerprint": "manager \u2013 quality assurance / quality control|the house of abhinandan lodha|mumbai",
+        "date": "2026-04-10T12:50:24.310178"
+    },
+    {
+        "id": "61feae5fa8b369cac398473c31f764e8",
+        "fingerprint": "manager - quality|godrej industries group|gurugram",
+        "date": "2026-04-10T12:50:24.310181"
+    },
+    {
+        "id": "9773cfb5a81dd0b0849fb8bb928243d7",
+        "fingerprint": "head-development quality assurance (dqa)|crystal crop protection limited|gurugram",
+        "date": "2026-04-10T12:50:24.310183"
+    },
+    {
+        "id": "d56343235b6d8a5ee5ae1fe344168098",
+        "fingerprint": "qa lead(manual) - loans & disbursement|kumaran systems|chennai",
+        "date": "2026-04-10T12:50:24.310186"
+    },
+    {
+        "id": "c8db2a9f5218d7d6555889be2fde4457",
+        "fingerprint": "sr. manager- supplier quality management|schneider electric|chennai",
+        "date": "2026-04-10T12:50:24.310188"
+    },
+    {
+        "id": "b8d182eae748834045506cc4493acd8d",
+        "fingerprint": "coe - digital experience - ux research test lead|qualitest acq|chennai",
+        "date": "2026-04-10T12:50:24.310191"
+    },
+    {
+        "id": "f820421dc8027af3453a678344faefa1",
+        "fingerprint": "test architect|ltm|noida",
+        "date": "2026-04-10T12:50:24.310193"
+    },
+    {
+        "id": "c9ed02ab0e8d13ef0b5a882ee83a6a56",
+        "fingerprint": "operations director/ gm, shenzhen - global testing company|michael page|remote",
+        "date": "2026-04-10T12:50:24.310195"
     }
 ]
