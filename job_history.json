@@ -1,50 +1,5 @@
 [
     {
-        "id": "07ca59ad28574ae99317714f7e17227f",
-        "fingerprint": "senior staff machine learning engineer, ads quality|instacart",
-        "date": "2026-02-22T19:56:52.138715"
-    },
-    {
-        "id": "0e6698fe45bf108ffaf07d2520c18159",
-        "fingerprint": "qa manager|epicgames",
-        "date": "2026-02-22T19:56:52.138718"
-    },
-    {
-        "id": "a298d7ffe8a8ca2cc905161336c9d566",
-        "fingerprint": "lead software quality engineer - systems|boeing|bengaluru",
-        "date": "2026-02-23T06:57:09.991241"
-    },
-    {
-        "id": "c5b0e97cb5ca361e1f1a41dbdf5227d7",
-        "fingerprint": "quality assurance manager|talentmate|bengaluru",
-        "date": "2026-02-23T06:57:09.991258"
-    },
-    {
-        "id": "e83be02a72b19fc89366ad14aa6e677e",
-        "fingerprint": "head of quality|domnic lewis|bengaluru",
-        "date": "2026-02-23T06:57:09.991261"
-    },
-    {
-        "id": "860d872f661839042d74576bf92cd88b",
-        "fingerprint": "senior test engineer / testing lead (automation testing)|wipro|pune",
-        "date": "2026-02-23T06:57:09.991264"
-    },
-    {
-        "id": "205d6d890ee6b1f46a38d12e55085e9d",
-        "fingerprint": "quality manager in projects|siemens|mumbai",
-        "date": "2026-02-23T06:57:09.991266"
-    },
-    {
-        "id": "351254aa089ba29ca048db49a88b5f54",
-        "fingerprint": "quality assurance manager|advance bio material co. pvt. ltd.|mumbai",
-        "date": "2026-02-23T06:57:09.991268"
-    },
-    {
-        "id": "ad08cc9446b925389b5f4481b35d5918",
-        "fingerprint": "testing manager|tata consultancy services|mumbai",
-        "date": "2026-02-23T06:57:09.991271"
-    },
-    {
         "id": "eea540b430ec93c6c10502df0b9f5aef",
         "fingerprint": "qa lead|writer corporation|mumbai",
         "date": "2026-02-23T06:57:09.991273"
@@ -9998,5 +9953,50 @@
         "id": "c9ed02ab0e8d13ef0b5a882ee83a6a56",
         "fingerprint": "operations director/ gm, shenzhen - global testing company|michael page|remote",
         "date": "2026-04-10T12:50:24.310195"
+    },
+    {
+        "id": "312c38f1b5c92d627f973c8325e30478",
+        "fingerprint": "tech manager (performance testing)|nice|pune",
+        "date": "2026-04-10T19:49:55.646206"
+    },
+    {
+        "id": "9599a972255d9a55baa0b3ffc94d87fe",
+        "fingerprint": "mgr. quality|schaeffler|pune",
+        "date": "2026-04-10T19:49:55.646223"
+    },
+    {
+        "id": "e399763d4ee2b5f054f58a3213e45f64",
+        "fingerprint": "sr engineer / lead electrical and automation|emerson|pune",
+        "date": "2026-04-10T19:49:55.646226"
+    },
+    {
+        "id": "a1e1aec64cc230e8a3204f3f53892477",
+        "fingerprint": "lead software development engineer in test|swiggy|bengaluru",
+        "date": "2026-04-10T19:49:55.646228"
+    },
+    {
+        "id": "f9927708a5f2d606b751746e51414989",
+        "fingerprint": "business process and quality bim leader|hitachi energy|chennai",
+        "date": "2026-04-10T19:49:55.646230"
+    },
+    {
+        "id": "2cbe1c0176b3f5158a3bf02311f89d39",
+        "fingerprint": "lead quality engineer- python, databricks|s&p global|ahmedabad",
+        "date": "2026-04-10T19:49:55.646232"
+    },
+    {
+        "id": "a3b20603ea5a494b3f63328a4e2c167a",
+        "fingerprint": "quality control manager / sr. manager|royal pharma|remote",
+        "date": "2026-04-10T19:49:55.646234"
+    },
+    {
+        "id": "643c8382996514378a4d490fda400200",
+        "fingerprint": "quality assurance manager / sr. manager|royal pharma|remote",
+        "date": "2026-04-10T19:49:55.646237"
+    },
+    {
+        "id": "a2bfadc5337a8e2be4da8efb1d4c9dff",
+        "fingerprint": "staff software development engineer in test|fivetran",
+        "date": "2026-04-10T19:49:55.646239"
     }
 ]
