@@ -1,40 +1,5 @@
 [
     {
-        "id": "eea540b430ec93c6c10502df0b9f5aef",
-        "fingerprint": "qa lead|writer corporation|mumbai",
-        "date": "2026-02-23T06:57:09.991273"
-    },
-    {
-        "id": "d1e6dc25b0d9c1cc947068658d81b702",
-        "fingerprint": "quality manager|mahathi infra services|hyderabad",
-        "date": "2026-02-23T06:57:09.991275"
-    },
-    {
-        "id": "093f4e9ca5879b4ae600bf8d698e397b",
-        "fingerprint": "manager / sr. manager - qa validation (sterile formulations)|anthea pharma|hyderabad",
-        "date": "2026-02-23T06:57:09.991278"
-    },
-    {
-        "id": "08d7dbba1793f49633f1f8c31b17f986",
-        "fingerprint": "senior test automatin lead|cgi|hyderabad",
-        "date": "2026-02-23T06:57:09.991281"
-    },
-    {
-        "id": "6408ab3fe127f8b3becf558e41a8e2bd",
-        "fingerprint": "finance automation- reconciliation implementation lead/manager|adaequare|hyderabad",
-        "date": "2026-02-23T06:57:09.991283"
-    },
-    {
-        "id": "99a74445c476888dfd4089d1e237c4fc",
-        "fingerprint": "playwright automation lead|hucon solutions|hyderabad",
-        "date": "2026-02-23T06:57:09.991285"
-    },
-    {
-        "id": "93c74ad3060e5beaa9a70ed1198cfedd",
-        "fingerprint": "chief senior automation|talent cafe solutions|hyderabad",
-        "date": "2026-02-23T06:57:09.991287"
-    },
-    {
         "id": "e74c7a2a64630b414f4baafcf9b9e21e",
         "fingerprint": "vice president - qa automation (capital markets)|spectral consultants|gurugram",
         "date": "2026-02-23T06:57:09.991290"
@@ -9998,5 +9963,40 @@
         "id": "a2bfadc5337a8e2be4da8efb1d4c9dff",
         "fingerprint": "staff software development engineer in test|fivetran",
         "date": "2026-04-10T19:49:55.646239"
+    },
+    {
+        "id": "595bd4ae27ba106e7677a389a92a8cef",
+        "fingerprint": "r&d quality and safety lead|abb|bengaluru",
+        "date": "2026-04-11T06:49:56.855557"
+    },
+    {
+        "id": "c0983ef6a6aa57c779d1303c450b5bf9",
+        "fingerprint": "delivery manager - data quality & data governance -client reference data|societe generale global solution centre|bengaluru",
+        "date": "2026-04-11T06:49:56.855573"
+    },
+    {
+        "id": "dd6a70eb48066fbf2d9109328c385ee1",
+        "fingerprint": "lead gcp cloud (8+ yrs, gcp, cloud security, iam, automation, networking)|innova esi|mumbai",
+        "date": "2026-04-11T06:49:56.855576"
+    },
+    {
+        "id": "0ff660ad9a1c70645d8d893b2e5229fe",
+        "fingerprint": "quality lead|sofomation|mumbai",
+        "date": "2026-04-11T06:49:56.855578"
+    },
+    {
+        "id": "cff652780088631c690144f6d48a2983",
+        "fingerprint": "regional quality & safety manager|kone|hyderabad",
+        "date": "2026-04-11T06:49:56.855581"
+    },
+    {
+        "id": "a5330d458eb20d767cc6d3006ebb2399",
+        "fingerprint": "lead software development engineer in test|trimble inc.|chennai",
+        "date": "2026-04-11T06:49:56.855583"
+    },
+    {
+        "id": "07ca59ad28574ae99317714f7e17227f",
+        "fingerprint": "senior staff machine learning engineer, ads quality|instacart",
+        "date": "2026-04-11T06:49:56.855585"
     }
 ]
