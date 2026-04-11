@@ -1,20 +1,5 @@
 [
     {
-        "id": "2b8a8045717997f9e8876cba7376901c",
-        "fingerprint": "director quality|alight solutions|gurugram",
-        "date": "2026-02-23T06:57:09.991294"
-    },
-    {
-        "id": "67ebf9cd591b79ddecbb0397d33e5cbd",
-        "fingerprint": "test manager (manual & automation testing)|samin tekmindz|gurugram",
-        "date": "2026-02-23T06:57:09.991297"
-    },
-    {
-        "id": "104d6260e8d8a5a660a41ea403113afd",
-        "fingerprint": "lead test engineer|wipro|chennai",
-        "date": "2026-02-23T06:57:09.991299"
-    },
-    {
         "id": "775d8ec50c499a6171a42d32ed535e02",
         "fingerprint": "quality assurance manager|valam solutions|chennai",
         "date": "2026-02-23T06:57:09.991301"
@@ -9998,5 +9983,20 @@
         "id": "eb4e0d4ca039349384bf448f74357bb3",
         "fingerprint": "senior staff sdet engineer|fivetran",
         "date": "2026-04-11T12:49:54.269390"
+    },
+    {
+        "id": "a99e4950bb359f172e267fb64fe2653e",
+        "fingerprint": "tech lead engineer, quality|icims|hyderabad",
+        "date": "2026-04-11T19:49:58.083496"
+    },
+    {
+        "id": "2ed18b7b797db21cfc4959c34db2de38",
+        "fingerprint": "lead cloud qa irc290789|globallogic|gurugram",
+        "date": "2026-04-11T19:49:58.083513"
+    },
+    {
+        "id": "a6c3f4dfde2453546208a0c1509a6f0b",
+        "fingerprint": "tech lead \u2013 automation solutions (power platform, k2) - husky (guindy, chennai)|husky technologies|chennai",
+        "date": "2026-04-11T19:49:58.083516"
     }
 ]
