@@ -1,15 +1,5 @@
 [
     {
-        "id": "e74c7a2a64630b414f4baafcf9b9e21e",
-        "fingerprint": "vice president - qa automation (capital markets)|spectral consultants|gurugram",
-        "date": "2026-02-23T06:57:09.991290"
-    },
-    {
-        "id": "a5b211087489d83c29a8dd4e219cc73c",
-        "fingerprint": "dws engineering automation lead|kyndryl india|gurugram",
-        "date": "2026-02-23T06:57:09.991292"
-    },
-    {
         "id": "2b8a8045717997f9e8876cba7376901c",
         "fingerprint": "director quality|alight solutions|gurugram",
         "date": "2026-02-23T06:57:09.991294"
@@ -9998,5 +9988,15 @@
         "id": "07ca59ad28574ae99317714f7e17227f",
         "fingerprint": "senior staff machine learning engineer, ads quality|instacart",
         "date": "2026-04-11T06:49:56.855585"
+    },
+    {
+        "id": "59fa4446ade492872342fd364185e0c3",
+        "fingerprint": "manager qa\u2013 csv computer system validation|yo hr consultancy|gurugram",
+        "date": "2026-04-11T12:49:54.269370"
+    },
+    {
+        "id": "eb4e0d4ca039349384bf448f74357bb3",
+        "fingerprint": "senior staff sdet engineer|fivetran",
+        "date": "2026-04-11T12:49:54.269390"
     }
 ]
