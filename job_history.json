@@ -1,40 +1,5 @@
 [
     {
-        "id": "775d8ec50c499a6171a42d32ed535e02",
-        "fingerprint": "quality assurance manager|valam solutions|chennai",
-        "date": "2026-02-23T06:57:09.991301"
-    },
-    {
-        "id": "95bb65e26364ce1d7d9ac84dfd60adbd",
-        "fingerprint": "manager - quality|lead hr services|chennai",
-        "date": "2026-02-23T06:57:09.991303"
-    },
-    {
-        "id": "ac9423047fd97af3e004e52a071a8c6d",
-        "fingerprint": "quality control lead|sbm offshore|bengaluru",
-        "date": "2026-02-23T13:05:45.307965"
-    },
-    {
-        "id": "b3625589423389fe40bb556f78be811a",
-        "fingerprint": "quality engineering lead (test lead)|accenture|bengaluru",
-        "date": "2026-02-23T13:05:45.307981"
-    },
-    {
-        "id": "5f815d511467f9bfefd7a98846a7728f",
-        "fingerprint": "lead engineer automation quality|empower|bengaluru",
-        "date": "2026-02-23T13:05:45.307984"
-    },
-    {
-        "id": "108ba957dc4bdcf50231cceec0dba0df",
-        "fingerprint": "lead quality assurance engineer|clario|bengaluru",
-        "date": "2026-02-23T13:05:45.307986"
-    },
-    {
-        "id": "488b7ed9949d74f2cdb09b6bb0b6231d",
-        "fingerprint": "quality-manager|ey|bengaluru",
-        "date": "2026-02-23T13:05:45.307989"
-    },
-    {
         "id": "2761010c90e7b3e58e59e3976e2c09f3",
         "fingerprint": "quality manager - bts2526|talent corner hr services|bengaluru",
         "date": "2026-02-23T13:05:45.307991"
@@ -9998,5 +9963,40 @@
         "id": "a6c3f4dfde2453546208a0c1509a6f0b",
         "fingerprint": "tech lead \u2013 automation solutions (power platform, k2) - husky (guindy, chennai)|husky technologies|chennai",
         "date": "2026-04-11T19:49:58.083516"
+    },
+    {
+        "id": "3e8dc0b1b5529541ebd1d266d23d23bd",
+        "fingerprint": "lead testing engineer - mechanical m/f (h/f) - safran electronics & defense services india|aerocontact|bengaluru",
+        "date": "2026-04-12T06:49:35.769971"
+    },
+    {
+        "id": "1a443d5617ab0307c1f54b4045fc42c1",
+        "fingerprint": "lead quality engineer - r01557793|brillio|bengaluru",
+        "date": "2026-04-12T06:49:35.769991"
+    },
+    {
+        "id": "5412f751988e0bef45804b90fa6fdd0c",
+        "fingerprint": "software technical lead engineer- qa|lam research|bengaluru",
+        "date": "2026-04-12T06:49:35.769995"
+    },
+    {
+        "id": "c8be9a8ac374fc662c2597e9553f1d3d",
+        "fingerprint": "technical lead - qe|dover india|bengaluru",
+        "date": "2026-04-12T06:49:35.769997"
+    },
+    {
+        "id": "5ff0acdcf29da1ef410e34c2ea13226b",
+        "fingerprint": "senior project manager home automation|shine.com|chennai",
+        "date": "2026-04-12T06:49:35.769999"
+    },
+    {
+        "id": "4d5e771ee429ee95de4f60123ab5e8b4",
+        "fingerprint": "fleet management system lead / manager (logistics & warehouse automation)|alphadroid|chennai",
+        "date": "2026-04-12T06:49:35.770001"
+    },
+    {
+        "id": "f3294d27af9c359a31c5f42007fe252f",
+        "fingerprint": "manager/sr. manager, clinical gcp quality assurance|rakuten medical, inc.",
+        "date": "2026-04-12T06:49:35.770003"
     }
 ]
