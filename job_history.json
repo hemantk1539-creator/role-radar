@@ -1,40 +1,5 @@
 [
     {
-        "id": "01d0b55fe1c090d2559c39811cc7f0b8",
-        "fingerprint": "manager, software quality engineering (v&v)|clario|bengaluru",
-        "date": "2026-02-23T13:05:45.308002"
-    },
-    {
-        "id": "b3be230db934adbb0b4af551b6fe7bc7",
-        "fingerprint": "manager - data quality engineering, product engineering|seven n half|bengaluru",
-        "date": "2026-02-23T13:05:45.308004"
-    },
-    {
-        "id": "ea1eeef7c126c5697bd2d60feb86fd54",
-        "fingerprint": "quality assurance manager|vibonum technologies pvt ltd, bangalore|bengaluru",
-        "date": "2026-02-23T13:05:45.308006"
-    },
-    {
-        "id": "7255954ef7d1c5fe5b76852bbca934be",
-        "fingerprint": "senior manager quality assurance (clinical)|emmes group|bengaluru",
-        "date": "2026-02-23T13:05:45.308009"
-    },
-    {
-        "id": "d9e6ed29f6f8395ec1b25b639b5ad691",
-        "fingerprint": "quality system training program manager|beckman coulter|bengaluru",
-        "date": "2026-02-23T13:05:45.308011"
-    },
-    {
-        "id": "7f146d1689957f369dabd72b6faeb211",
-        "fingerprint": "manager - delivery quality|omega healthcare|bengaluru",
-        "date": "2026-02-23T13:05:45.308013"
-    },
-    {
-        "id": "664ae29cfd7a9f0774008ef9efbbbb09",
-        "fingerprint": "senior manager, quality engineering|symplr|bengaluru",
-        "date": "2026-02-23T13:05:45.308016"
-    },
-    {
         "id": "214f267d004d32b29988dc9dac3410e5",
         "fingerprint": "product manager make mes, quality|unilever|bengaluru",
         "date": "2026-02-23T13:05:45.308018"
@@ -9998,5 +9963,40 @@
         "id": "b8f238b1a8d94a079ee0186de559caf4",
         "fingerprint": "plant quality head|riddhi corporate services limited|noida",
         "date": "2026-04-12T12:49:13.033347"
+    },
+    {
+        "id": "2b57e825b0a3e84b6bf94a60fd39e35c",
+        "fingerprint": "lead software development engineer in test|caizin|pune",
+        "date": "2026-04-12T19:49:34.139570"
+    },
+    {
+        "id": "3306103a16630e5db4f52571287a29d4",
+        "fingerprint": "lead qa engineer|qualys|pune",
+        "date": "2026-04-12T19:49:34.139585"
+    },
+    {
+        "id": "71d6cf22410e3a4e5ab8e02d18a4329a",
+        "fingerprint": "manager, quality assurance|summit consulting services|hyderabad",
+        "date": "2026-04-12T19:49:34.139587"
+    },
+    {
+        "id": "90bd8e6c1100a1f1b118584b2a64fb08",
+        "fingerprint": "performance test lead|valgenesis|chennai",
+        "date": "2026-04-12T19:49:34.139589"
+    },
+    {
+        "id": "b9efbd4592a770b97637fea14eeb1fac",
+        "fingerprint": "quality manager - industrial control panel manufacturing - sriperumbudur sipcot|sanvi engineering and business consulting solutions|remote",
+        "date": "2026-04-12T19:49:34.139591"
+    },
+    {
+        "id": "4c9c90818b7033f10d73e347c240bc78",
+        "fingerprint": "product manager, global ar process excellence & automation, global accounts receivable|amazon|hyderabad",
+        "date": "2026-04-12T19:49:34.139593"
+    },
+    {
+        "id": "8bbb10a2e1869a1a6b4766882b43eef9",
+        "fingerprint": "quality director l global automotive manufacturer|adecco|remote",
+        "date": "2026-04-12T19:49:34.139595"
     }
 ]
