@@ -1,20 +1,5 @@
 [
     {
-        "id": "214f267d004d32b29988dc9dac3410e5",
-        "fingerprint": "product manager make mes, quality|unilever|bengaluru",
-        "date": "2026-02-23T13:05:45.308018"
-    },
-    {
-        "id": "9b3d2c17d72e16e3f4fc2712fa56cd86",
-        "fingerprint": "senior program manager, quality|wipro ge healthcare private limited|bengaluru",
-        "date": "2026-02-23T13:05:45.308020"
-    },
-    {
-        "id": "a22b0b7771e26cc62ad50412e0673b3a",
-        "fingerprint": "quality assurance manager - bpo operations (non tech)|platinumrx|bengaluru",
-        "date": "2026-02-23T13:05:45.308022"
-    },
-    {
         "id": "3ae2be29ab2edf581521358952a63417",
         "fingerprint": "manager - quality|newspace research and technologies|bengaluru",
         "date": "2026-02-23T13:05:45.308025"
@@ -9998,5 +9983,20 @@
         "id": "8bbb10a2e1869a1a6b4766882b43eef9",
         "fingerprint": "quality director l global automotive manufacturer|adecco|remote",
         "date": "2026-04-12T19:49:34.139595"
+    },
+    {
+        "id": "823467630086f643d8c564a250ebe2df",
+        "fingerprint": "manager - quality|grindwell norton ltd|bengaluru",
+        "date": "2026-04-13T06:50:08.012879"
+    },
+    {
+        "id": "b4aa8180ee43711763343d02fff8e769",
+        "fingerprint": "quality assurance architect|sureify|hyderabad",
+        "date": "2026-04-13T06:50:08.012895"
+    },
+    {
+        "id": "48e0af5b904d553175f5faaa4df4f139",
+        "fingerprint": "kogan.com: ai automation & architecture lead|wwr",
+        "date": "2026-04-13T06:50:08.012898"
     }
 ]
