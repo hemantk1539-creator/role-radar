@@ -1,40 +1,5 @@
 [
     {
-        "id": "9d589a1b092d93d408463bad4ec0691d",
-        "fingerprint": "senior manager quality engineering|zebra technologies|bengaluru",
-        "date": "2026-02-23T13:05:45.308051"
-    },
-    {
-        "id": "6164856a328fb9a4bc2bc5b7b01987f9",
-        "fingerprint": "quality assurance manager|consilio|bengaluru",
-        "date": "2026-02-23T13:05:45.308053"
-    },
-    {
-        "id": "69c89ae9480faf9b313de3589747e2ec",
-        "fingerprint": "manager consulting expert (mce) quality engineering|han digital solution|bengaluru",
-        "date": "2026-02-23T13:05:45.308055"
-    },
-    {
-        "id": "61f03bc797d966d8b47e5a712273a2ca",
-        "fingerprint": "quality engineer manager|responsive|bengaluru",
-        "date": "2026-02-23T13:05:45.308058"
-    },
-    {
-        "id": "eb6ddbda791eca31a237e606507939b3",
-        "fingerprint": "quality assurance manager|glean|bengaluru",
-        "date": "2026-02-23T13:05:45.308060"
-    },
-    {
-        "id": "c346b54183effc8a2994aff3ea4e27ee",
-        "fingerprint": "test manager (quality assurance ii)|clifyx technology|bengaluru",
-        "date": "2026-02-23T13:05:45.308062"
-    },
-    {
-        "id": "368098cc6ce4c5193a1eb35c16d6e7cb",
-        "fingerprint": "quality engineer manager - grade 10|stack digital|bengaluru",
-        "date": "2026-02-23T13:05:45.308064"
-    },
-    {
         "id": "1fa977dac3b560e8c123df80aa33bd64",
         "fingerprint": "principal qa engineer - quality strategy | technical leadership|trellix|bengaluru",
         "date": "2026-02-23T13:05:45.308067"
@@ -9998,5 +9963,40 @@
         "id": "a72f0da2f92c8e1b522096568bb259ee",
         "fingerprint": "global quality manager|grand medical group ag|remote",
         "date": "2026-04-13T12:50:18.107639"
+    },
+    {
+        "id": "78c29908af6a74733baa3d6937f4d62e",
+        "fingerprint": "technology and innovation -  rpa & intelligent automation lead consultant|riveron india|pune",
+        "date": "2026-04-13T19:50:35.666997"
+    },
+    {
+        "id": "b55db98c50fe9835dfd07d6a0b55874f",
+        "fingerprint": "director of quality - us healthcare rcm|gebbs healthcare solutions|mumbai",
+        "date": "2026-04-13T19:50:35.667012"
+    },
+    {
+        "id": "5f57a49f0ed3d76bdc3dfda0332d1f33",
+        "fingerprint": "lead software development test engineer - sdet|the depository trust & clearing corporation (dtcc)|hyderabad",
+        "date": "2026-04-13T19:50:35.667015"
+    },
+    {
+        "id": "cdfa09767d3e068f08e51814420ab00f",
+        "fingerprint": "quality engineering manager [t500-25215]|cibc india|hyderabad",
+        "date": "2026-04-13T19:50:35.667017"
+    },
+    {
+        "id": "a2e8924e63d5c80b42509b0d764c1820",
+        "fingerprint": "quality control manager|brawn laboratories limited|gurugram",
+        "date": "2026-04-13T19:50:35.667020"
+    },
+    {
+        "id": "e481995765ceef60021fc1c5279d2ae1",
+        "fingerprint": "it quality technology lead analyst \u2013 senior vice president|citi|chennai",
+        "date": "2026-04-13T19:50:35.667022"
+    },
+    {
+        "id": "543c8650be7d76b4cb12ac47a485994e",
+        "fingerprint": "sr. director, global distribution quality|ultragenyx|remote",
+        "date": "2026-04-13T19:50:35.667025"
     }
 ]
