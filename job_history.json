@@ -1,35 +1,5 @@
 [
     {
-        "id": "fe82bbf74fdecb91be0f7b2231740c85",
-        "fingerprint": "manager ii test planning|te connectivity|bengaluru",
-        "date": "2026-02-23T13:05:45.308082"
-    },
-    {
-        "id": "1fac70874e06b3b05ef29a817b8c73b4",
-        "fingerprint": "penetration testing manager|grant thornton india pvt ltd|bengaluru",
-        "date": "2026-02-23T13:05:45.308084"
-    },
-    {
-        "id": "fa7edb197b692773c0f110be777bb044",
-        "fingerprint": "senior manager test engineer|motorola solutions india|bengaluru",
-        "date": "2026-02-23T13:05:45.308086"
-    },
-    {
-        "id": "538d01575586f433d417ad797ff838ba",
-        "fingerprint": "engineering manager - testing|wabtec|bengaluru",
-        "date": "2026-02-23T13:05:45.308088"
-    },
-    {
-        "id": "ef9db12e2ec83c2ee0b2fae927dbffe9",
-        "fingerprint": "test manager|datamatics|bengaluru",
-        "date": "2026-02-23T13:05:45.308090"
-    },
-    {
-        "id": "0fbc3e514de8426b1d5762cab171a47d",
-        "fingerprint": "quality assurance and testing manager|velodata global|bengaluru",
-        "date": "2026-02-23T13:05:45.308092"
-    },
-    {
         "id": "604503d59478eef7fe92eb71995ba342",
         "fingerprint": "test manager|capgemini|bengaluru",
         "date": "2026-02-23T13:05:45.308095"
@@ -9998,5 +9968,35 @@
         "id": "268fbfbaefc405b587835349e776e168",
         "fingerprint": "group manager - quality( ptp/rtr/o2c) - chennai|wns|chennai",
         "date": "2026-04-14T06:49:42.684164"
+    },
+    {
+        "id": "65ac84d7b11aeb5ca5e1171b669a83d3",
+        "fingerprint": "manager - supplier quality|enzene biosciences ltd|pune",
+        "date": "2026-04-14T12:49:49.332900"
+    },
+    {
+        "id": "333ae5979afc7c81f0cade3d1575fe45",
+        "fingerprint": "senior manager \u2013 new product development & quality|swiggy|bengaluru",
+        "date": "2026-04-14T12:49:49.332920"
+    },
+    {
+        "id": "388d15632df1878290daeebf82fd1c91",
+        "fingerprint": "team manager, rcm quality and outcome improvement|modmed india|hyderabad",
+        "date": "2026-04-14T12:49:49.332923"
+    },
+    {
+        "id": "eb5ed9499c8b52ebe1359f341a11fdcf",
+        "fingerprint": "training and quality manager|detailing bull|gurugram",
+        "date": "2026-04-14T12:49:49.332925"
+    },
+    {
+        "id": "67722ef57752113afb12c5100400667a",
+        "fingerprint": "sr manager engineering, qa performance|anaplan|gurugram",
+        "date": "2026-04-14T12:49:49.332927"
+    },
+    {
+        "id": "b5ce69a562c2ea2d510f269113fb55a4",
+        "fingerprint": "qa lead|brainvire|ahmedabad",
+        "date": "2026-04-14T12:49:49.332930"
     }
 ]
