@@ -1,45 +1,5 @@
 [
     {
-        "id": "604503d59478eef7fe92eb71995ba342",
-        "fingerprint": "test manager|capgemini|bengaluru",
-        "date": "2026-02-23T13:05:45.308095"
-    },
-    {
-        "id": "107aeda1fc2e819a61a5e603bf6b44ba",
-        "fingerprint": "qa testing manager|axa global business services|bengaluru",
-        "date": "2026-02-23T13:05:45.308097"
-    },
-    {
-        "id": "c0e951e5b54b5dca3fec43b866412679",
-        "fingerprint": "a&r test manager|virtusa|bengaluru",
-        "date": "2026-02-23T13:05:45.308099"
-    },
-    {
-        "id": "77463b572eaf83ef908583e4df0d0121",
-        "fingerprint": "watermelon test manager|virtusa|bengaluru",
-        "date": "2026-02-23T13:05:45.308102"
-    },
-    {
-        "id": "126623927f799dbfba34a0d909baf553",
-        "fingerprint": "engineering manager testing|general electric (ge)|bengaluru",
-        "date": "2026-02-23T13:05:45.308104"
-    },
-    {
-        "id": "19b355b1b5c2c39f336c103d04d2c962",
-        "fingerprint": "manufacturing manager - electronics hardware testing & integration|delopt|bengaluru",
-        "date": "2026-02-23T13:05:45.308106"
-    },
-    {
-        "id": "a5de817c22383571f47b47ac2d6739d0",
-        "fingerprint": "sap test manager|mount talent consulting|bengaluru",
-        "date": "2026-02-23T13:05:45.308108"
-    },
-    {
-        "id": "57114d3d7ced9a1a7152c815180c7413",
-        "fingerprint": "lead - software development engineer in test (sdet) / qa manager|drivetrain|bengaluru",
-        "date": "2026-02-23T13:05:45.308110"
-    },
-    {
         "id": "ad44d679c66a62edeaac43eeb036a1aa",
         "fingerprint": "driving test manager-e3 1.2|embitel technologies|bengaluru",
         "date": "2026-02-23T13:05:45.308112"
@@ -9998,5 +9958,45 @@
         "id": "b5ce69a562c2ea2d510f269113fb55a4",
         "fingerprint": "qa lead|brainvire|ahmedabad",
         "date": "2026-04-14T12:49:49.332930"
+    },
+    {
+        "id": "fa289ea18e7dc38f6770941d80aad78a",
+        "fingerprint": "dept head \u2013 homologation & testing|xfactor talent|pune",
+        "date": "2026-04-14T19:50:17.880451"
+    },
+    {
+        "id": "512c3fb0f58dec5a0c195c1b0e088684",
+        "fingerprint": "automation lead|exl|bengaluru",
+        "date": "2026-04-14T19:50:17.880465"
+    },
+    {
+        "id": "b6136d4ec1d36b3aedc19b5c600c3aff",
+        "fingerprint": "data quality analytics and reporting lead analyst- vice president|citi|mumbai",
+        "date": "2026-04-14T19:50:17.880468"
+    },
+    {
+        "id": "b8fb466ccace509b79e7bbc2fbbc0c64",
+        "fingerprint": "senior technical program manager, ai orchestration and automation|google|hyderabad",
+        "date": "2026-04-14T19:50:17.880470"
+    },
+    {
+        "id": "8866fa14d0e9bd9eb4945581589d1411",
+        "fingerprint": "lead auto qa engineer|ss&c technologies|hyderabad",
+        "date": "2026-04-14T19:50:17.880472"
+    },
+    {
+        "id": "3fac453b41ebf2add56b70f315c3c449",
+        "fingerprint": "lead ai platform architect \u2013 workflows, automation & multi-tenant saas|isir ai|noida",
+        "date": "2026-04-14T19:50:17.880473"
+    },
+    {
+        "id": "d875d7ae32bde2229cf559ac41928b51",
+        "fingerprint": "director, global quality management systems|peloton",
+        "date": "2026-04-14T19:50:17.880475"
+    },
+    {
+        "id": "c2875dda07fae193020fa966fa0f9569",
+        "fingerprint": "director, global clinical operations quality management|parexel|hyderabad",
+        "date": "2026-04-14T19:50:17.880477"
     }
 ]
