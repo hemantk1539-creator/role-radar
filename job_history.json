@@ -1,55 +1,5 @@
 [
     {
-        "id": "eac714bf9b46fc43f78b507ea9f57e92",
-        "fingerprint": "sap test manager|clifyx technology|bengaluru",
-        "date": "2026-02-23T13:05:45.308157"
-    },
-    {
-        "id": "9397ded1f634563c30b23a47bb183e04",
-        "fingerprint": "design head \u2013 end of line automation|future automation group india|pune",
-        "date": "2026-02-23T13:05:45.308159"
-    },
-    {
-        "id": "3daa3dcb49055b0674da25a6bb1e9668",
-        "fingerprint": "team lead - advance quality|mahasurya ventures india|pune",
-        "date": "2026-02-23T13:05:45.308162"
-    },
-    {
-        "id": "f00da8f31d85e1f640fcf97b6e9420f1",
-        "fingerprint": "quality engineering lead (test lead)|accenture|pune",
-        "date": "2026-02-23T13:05:45.308164"
-    },
-    {
-        "id": "1950225f889c08b6e395735bdba5d6cb",
-        "fingerprint": "lead quality engineer|jabil circuit india|pune",
-        "date": "2026-02-23T13:05:45.308166"
-    },
-    {
-        "id": "fe7bb15884cfa8d220eba3f686720178",
-        "fingerprint": "team leader quality management|rockwell automation|pune",
-        "date": "2026-02-23T13:05:45.308168"
-    },
-    {
-        "id": "5cccf0885457d6ecde7cbd665b2803cf",
-        "fingerprint": "us mortgage - quality analyst (team lead)|talent sketchers|pune",
-        "date": "2026-02-23T13:05:45.308171"
-    },
-    {
-        "id": "4bb6008497e7b89b1d7b0641b2efed9b",
-        "fingerprint": "quality team lead|talent sketchers|pune",
-        "date": "2026-02-23T13:05:45.308173"
-    },
-    {
-        "id": "f74b0675198b52fc683463168b589528",
-        "fingerprint": "team leader quality management|lektronix|pune",
-        "date": "2026-02-23T13:05:45.308175"
-    },
-    {
-        "id": "1ffd11b863c51f0bde0cdd64a07773f7",
-        "fingerprint": "team leader quality management|kalypso a rockwell automation business|pune",
-        "date": "2026-02-23T13:05:45.308178"
-    },
-    {
         "id": "746a0fb508814a77b8e738ec1ed7fa0b",
         "fingerprint": "lead quality engineer - automation testing & java coding|mastercard|pune",
         "date": "2026-02-23T13:05:45.308180"
@@ -9998,5 +9948,55 @@
         "id": "f8de83bacaa4baf234aa112c7b78df17",
         "fingerprint": "test lead|standard chartered india|chennai",
         "date": "2026-04-15T12:50:27.783585"
+    },
+    {
+        "id": "7819cc293124acdf9776b5026445541e",
+        "fingerprint": "manager - qa/qc|newtrace|bengaluru",
+        "date": "2026-04-15T19:50:13.186212"
+    },
+    {
+        "id": "7ace76e7e0004821539363582b8f22ef",
+        "fingerprint": "quality and process excellence lead l2|wipro|bengaluru",
+        "date": "2026-04-15T19:50:13.186230"
+    },
+    {
+        "id": "83f9b2996711ab7ec7ac0d3b44c336da",
+        "fingerprint": "manager, software test engineering|shell recharge solutions|bengaluru",
+        "date": "2026-04-15T19:50:13.186233"
+    },
+    {
+        "id": "9e5a6753b565b14c42682cd33a93af95",
+        "fingerprint": "quality manager|ghaziabad precision products pvt. ltd.|gurugram",
+        "date": "2026-04-15T19:50:13.186235"
+    },
+    {
+        "id": "5971378f459a3c9831ee57f6cd01691d",
+        "fingerprint": "quality assurance lead|accenture services pvt ltd|gurugram",
+        "date": "2026-04-15T19:50:13.186237"
+    },
+    {
+        "id": "9793bb737ccff3d1b7a139bb007926dd",
+        "fingerprint": "manager / asst. manager - automation|larsen & toubro|chennai",
+        "date": "2026-04-15T19:50:13.186239"
+    },
+    {
+        "id": "1aa6d881c43969f741b2354c70629468",
+        "fingerprint": "head of quality control|nittan india tech pvt ltd|chennai",
+        "date": "2026-04-15T19:50:13.186242"
+    },
+    {
+        "id": "93b7b4033ab45ce329432881fcc7b6e9",
+        "fingerprint": "salesforce qa lead|virtusa|chennai",
+        "date": "2026-04-15T19:50:13.186244"
+    },
+    {
+        "id": "931cfdc41c6c74b60789f7997fcaa7c7",
+        "fingerprint": "general manager quality control|selective global search pvt. ltd.|remote",
+        "date": "2026-04-15T19:50:13.186246"
+    },
+    {
+        "id": "e10cbb5d82c67fc891c2e610afe8ba16",
+        "fingerprint": "assoc dir, engineering - data quality & master data management - hyderabad hybrid|syneos health|hyderabad",
+        "date": "2026-04-15T19:50:13.186248"
     }
 ]
