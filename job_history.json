@@ -1,60 +1,5 @@
 [
     {
-        "id": "ad44d679c66a62edeaac43eeb036a1aa",
-        "fingerprint": "driving test manager-e3 1.2|embitel technologies|bengaluru",
-        "date": "2026-02-23T13:05:45.308112"
-    },
-    {
-        "id": "a2da717ed784f819c172eadd174842ac",
-        "fingerprint": "system integration and test engineering manager|maxlinear|bengaluru",
-        "date": "2026-02-23T13:05:45.308114"
-    },
-    {
-        "id": "e537153d824ab2fe3f3ec3c73328b07f",
-        "fingerprint": "systems integration and test manager|maxlinear|bengaluru",
-        "date": "2026-02-23T13:05:45.308116"
-    },
-    {
-        "id": "20499b57af9f9012f24bc3c081c1ad66",
-        "fingerprint": "manager, test engineering (sdet)|guidewire software|bengaluru",
-        "date": "2026-02-23T13:05:45.308118"
-    },
-    {
-        "id": "e739834cdddb3f39b3438222f3ce6568",
-        "fingerprint": "senior engineering manager (infra, devops and testing)|fampay|bengaluru",
-        "date": "2026-02-23T13:05:45.308121"
-    },
-    {
-        "id": "5cfa7ceaae1c2d4c7f081d4c6e52b8c0",
-        "fingerprint": "manager, performance testing|blackline|bengaluru",
-        "date": "2026-02-23T13:05:45.308123"
-    },
-    {
-        "id": "16b94e331f860c2a138faf097130ccab",
-        "fingerprint": "quality & test manager|capgemini|bengaluru",
-        "date": "2026-02-23T13:05:45.308125"
-    },
-    {
-        "id": "96c7319e329a527dd3f625997fad16c4",
-        "fingerprint": "qa manager (erp) or quality assurance/ testing consultants|qlasraft technologies|bengaluru",
-        "date": "2026-02-23T13:05:45.308127"
-    },
-    {
-        "id": "21f8ed9b11351ec50e935574a161de25",
-        "fingerprint": "testing manager ( playwright)|appsierra|bengaluru",
-        "date": "2026-02-23T13:05:45.308131"
-    },
-    {
-        "id": "e56eb82a0dc9ec42c18d252b8318d875",
-        "fingerprint": "test manager|engeniuspark|bengaluru",
-        "date": "2026-02-23T13:05:45.308133"
-    },
-    {
-        "id": "dc98d494c8c87781285c510e8ba31cfa",
-        "fingerprint": "t&t-et&p-manager-sap testing|deloitte consulting|bengaluru",
-        "date": "2026-02-23T13:05:45.308135"
-    },
-    {
         "id": "a103490b4dd4d09e13ca68507c535ba0",
         "fingerprint": "test manager -wealth management|testhouse|bengaluru",
         "date": "2026-02-23T13:05:45.308137"
@@ -9998,5 +9943,60 @@
         "id": "c2875dda07fae193020fa966fa0f9569",
         "fingerprint": "director, global clinical operations quality management|parexel|hyderabad",
         "date": "2026-04-14T19:50:17.880477"
+    },
+    {
+        "id": "1bb28dc515bbc570d17ca5a45d7a955b",
+        "fingerprint": "director, quality engineering & regulatory operations|velsera|pune",
+        "date": "2026-04-15T06:50:30.571939"
+    },
+    {
+        "id": "47925d7038cdfb72619df4248a3f183f",
+        "fingerprint": "mgr, business process automation|adobe|bengaluru",
+        "date": "2026-04-15T06:50:30.571958"
+    },
+    {
+        "id": "f75c0bb84b4dea735ceb92be890a7273",
+        "fingerprint": "quality manager - customer quality & warranty|aptiv|bengaluru",
+        "date": "2026-04-15T06:50:30.571961"
+    },
+    {
+        "id": "8002476deae36119fc47cfaf81a65354",
+        "fingerprint": "manager - quality|the house of abhinandan lodha|mumbai",
+        "date": "2026-04-15T06:50:30.571963"
+    },
+    {
+        "id": "4678b0ec236828cd2fcf2bce75bb0d00",
+        "fingerprint": "quality manager|future trends constructions & infrastructure llp|hyderabad",
+        "date": "2026-04-15T06:50:30.571966"
+    },
+    {
+        "id": "419e2b1354b75701c131f1ae7a8f4a67",
+        "fingerprint": "software quality engineering manager|medtronic|hyderabad",
+        "date": "2026-04-15T06:50:30.571968"
+    },
+    {
+        "id": "1993a5371627a9a5cfb75cef35d4402d",
+        "fingerprint": "qa automation - senior manager|iris software inc.|gurugram",
+        "date": "2026-04-15T06:50:30.571971"
+    },
+    {
+        "id": "70653c719855a3d1b93fde751af3bcbe",
+        "fingerprint": "qa lead|flight centre travel group|gurugram",
+        "date": "2026-04-15T06:50:30.571973"
+    },
+    {
+        "id": "ccbe8390e56b1da88937250cbd3b027b",
+        "fingerprint": "qe practice leader/ director|telus digital|noida",
+        "date": "2026-04-15T06:50:30.571975"
+    },
+    {
+        "id": "8c0e2feab37a888e71577996fb3145ae",
+        "fingerprint": "senior technical program manager, ai orchestration and automation|google|noida",
+        "date": "2026-04-15T06:50:30.571977"
+    },
+    {
+        "id": "3e3b67f4de439de463b70fdbc2dac95c",
+        "fingerprint": "biotech - general manager - corporate quality assurance|biotech healthcare|ahmedabad",
+        "date": "2026-04-15T06:50:30.571980"
     }
 ]
