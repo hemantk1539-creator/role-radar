@@ -1,20 +1,5 @@
 [
     {
-        "id": "9562fc5961cc6740c6a40feff0652fc1",
-        "fingerprint": "manager - customer quality|schindler|pune",
-        "date": "2026-02-23T13:05:45.308226"
-    },
-    {
-        "id": "985e2c042fb3c9a9c4d55ee13fb2cb6d",
-        "fingerprint": "quality manager|not applicable|pune",
-        "date": "2026-02-23T13:05:45.308229"
-    },
-    {
-        "id": "720d0643b18b2f34beb627006dbddb81",
-        "fingerprint": "sr manager, quality engineering|connectwise |pune",
-        "date": "2026-02-23T13:05:45.308231"
-    },
-    {
         "id": "8e4ad873139e787c06a5667f6c406243",
         "fingerprint": "asst. manager - quality - manufacturing - mnc- wagholi - pune|annorah ventures|pune",
         "date": "2026-02-23T13:05:45.308233"
@@ -9998,5 +9983,20 @@
         "id": "68058c27246d95a56b6df305f0c8b7c0",
         "fingerprint": "quality assurance lead|roblox",
         "date": "2026-04-16T12:49:42.614595"
+    },
+    {
+        "id": "2762fa5f2f258817227de9dc51394d25",
+        "fingerprint": "ai quality manager|uniphore|bengaluru",
+        "date": "2026-04-16T19:49:48.012686"
+    },
+    {
+        "id": "55c8ba4e3a6a74788953245662be6300",
+        "fingerprint": "manager quality|mattel, inc.|hyderabad",
+        "date": "2026-04-16T19:49:48.012701"
+    },
+    {
+        "id": "324cfe7f56fb551f6c29d24d141f967b",
+        "fingerprint": "director of quality control (qc)|neurodiscovery ai|gurugram",
+        "date": "2026-04-16T19:49:48.012705"
     }
 ]
