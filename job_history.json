@@ -1,70 +1,5 @@
 [
     {
-        "id": "50021407b565b64e70c81480bbddb36e",
-        "fingerprint": "lead quality analyst|pxsn|pune",
-        "date": "2026-02-23T13:05:45.308198"
-    },
-    {
-        "id": "644709c66c0488c1b9c7386c8046983c",
-        "fingerprint": "quality engineering governance lead, vp|deutsche bank|pune",
-        "date": "2026-02-23T13:05:45.308200"
-    },
-    {
-        "id": "ae65cef4db5d451ffb9b2a95e1e5a6de",
-        "fingerprint": "senior lead engineer - quality assurance (automation, python)|fis|pune",
-        "date": "2026-02-23T13:05:45.308202"
-    },
-    {
-        "id": "3f9fd22adfa2ccc5b813e89a52ca0d4c",
-        "fingerprint": "quality engineering (test lead) - microsoft dynamics crm functional|vlaunchu|pune",
-        "date": "2026-02-23T13:05:45.308204"
-    },
-    {
-        "id": "6e4f804b3a3aa8ab4836d708927a00aa",
-        "fingerprint": "senior analyst / lead analyst - risk quality assurance|crisil|pune",
-        "date": "2026-02-23T13:05:45.308206"
-    },
-    {
-        "id": "76120aba1129769fd3eac3857c1a6f52",
-        "fingerprint": "team leader - quality management|qdegrees services|pune",
-        "date": "2026-02-23T13:05:45.308209"
-    },
-    {
-        "id": "6d383073142be72211f25532f008fbf6",
-        "fingerprint": "senior lead engineer process quality|hinduja tech|pune",
-        "date": "2026-02-23T13:05:45.308211"
-    },
-    {
-        "id": "662b7c5810eb624009ccf45e4f3d4bbf",
-        "fingerprint": "field quality lead|cleanmax solar|pune",
-        "date": "2026-02-23T13:05:45.308213"
-    },
-    {
-        "id": "b6988fa88ec6a6fc69434bec374f6602",
-        "fingerprint": "team leader / call quality analyst|kalam academy|pune",
-        "date": "2026-02-23T13:05:45.308215"
-    },
-    {
-        "id": "a150f0584660ad22401f540da483a45b",
-        "fingerprint": "western heat and forge pvt. ltd. is hiring a quality head \u2013 machining division.|western heat & forge private limited|pune",
-        "date": "2026-02-23T13:05:45.308217"
-    },
-    {
-        "id": "2567cab5a5653d494ffc8e2e4ccaa628",
-        "fingerprint": "bpo quality manager|eclerx|pune",
-        "date": "2026-02-23T13:05:45.308220"
-    },
-    {
-        "id": "bb1e023bde01d30198b14cd48346484b",
-        "fingerprint": "quality manager|naiknavare developers|pune",
-        "date": "2026-02-23T13:05:45.308222"
-    },
-    {
-        "id": "5497bae8ddddbd88fc1f272d324703d6",
-        "fingerprint": "asst. manager- quality (cable industry candidate only)|finolex j power systems (fjps)|pune",
-        "date": "2026-02-23T13:05:45.308224"
-    },
-    {
         "id": "9562fc5961cc6740c6a40feff0652fc1",
         "fingerprint": "manager - customer quality|schindler|pune",
         "date": "2026-02-23T13:05:45.308226"
@@ -9998,5 +9933,70 @@
         "id": "d80f1144d49911c33c623f6a0de84ae7",
         "fingerprint": "global supplier quality governance and oversight manager|lonza|hyderabad",
         "date": "2026-04-16T06:50:01.377863"
+    },
+    {
+        "id": "29992d5dcf978068387b0080a89e7c51",
+        "fingerprint": "hiring store manager for automation mfg company at chakan|shine.com|pune",
+        "date": "2026-04-16T12:49:42.614556"
+    },
+    {
+        "id": "324d3bf1a07605fd67a2dbb942b6067a",
+        "fingerprint": "regional quality manager, india and emea|valmet|pune",
+        "date": "2026-04-16T12:49:42.614572"
+    },
+    {
+        "id": "c60c761963f65a49c1b7fea927dacdfd",
+        "fingerprint": "production & qa manager - fmcg|harshal ambaa enterprises|pune",
+        "date": "2026-04-16T12:49:42.614574"
+    },
+    {
+        "id": "08a5be3941b92825f2fd6c8d2c9ae3ac",
+        "fingerprint": "lab manager \u2013 quality management|haystackanalytics|mumbai",
+        "date": "2026-04-16T12:49:42.614576"
+    },
+    {
+        "id": "25d82f4eb569a442baf8486937db1f0b",
+        "fingerprint": "head of quality control|celogen pharma private limited|mumbai",
+        "date": "2026-04-16T12:49:42.614578"
+    },
+    {
+        "id": "da62373d4d9356fcbdb447f84c847dc9",
+        "fingerprint": "quality assurance / control manager - food industry|connecting chains|hyderabad",
+        "date": "2026-04-16T12:49:42.614580"
+    },
+    {
+        "id": "96b513aae49900992949c32a58a0278e",
+        "fingerprint": "head of quality|it consultancy|gurugram",
+        "date": "2026-04-16T12:49:42.614582"
+    },
+    {
+        "id": "343ffe1de398b27d2ba367fd747a4632",
+        "fingerprint": "quality manager -kokana group|foodycareers|gurugram",
+        "date": "2026-04-16T12:49:42.614584"
+    },
+    {
+        "id": "75579a96bdb02814a2bcf52d75ed7da5",
+        "fingerprint": "automation lead|gedu services|gurugram",
+        "date": "2026-04-16T12:49:42.614586"
+    },
+    {
+        "id": "c488435ff8d4cb8c65ab5f975de9b1e0",
+        "fingerprint": "senior engineering leader \u2013 quality (qa ownership)|foodhub|chennai",
+        "date": "2026-04-16T12:49:42.614588"
+    },
+    {
+        "id": "82c7d0856171c1152e866010755aa377",
+        "fingerprint": "manager test operations|agratas \u2013 a tata enterprise|ahmedabad",
+        "date": "2026-04-16T12:49:42.614591"
+    },
+    {
+        "id": "0c28f9ccfdb8f57ce6d41a7a4493272c",
+        "fingerprint": "test automation - lead|gleecus techlabs inc.|remote",
+        "date": "2026-04-16T12:49:42.614593"
+    },
+    {
+        "id": "68058c27246d95a56b6df305f0c8b7c0",
+        "fingerprint": "quality assurance lead|roblox",
+        "date": "2026-04-16T12:49:42.614595"
     }
 ]
