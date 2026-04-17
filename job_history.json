@@ -1,25 +1,5 @@
 [
     {
-        "id": "8e4ad873139e787c06a5667f6c406243",
-        "fingerprint": "asst. manager - quality - manufacturing - mnc- wagholi - pune|annorah ventures|pune",
-        "date": "2026-02-23T13:05:45.308233"
-    },
-    {
-        "id": "68cc4bf4bc7b09f2928c0a88d82b8c8f",
-        "fingerprint": "quality manager - robotics & spm machine manufacturing industry only|bhagat hr services|pune",
-        "date": "2026-02-23T13:05:45.308235"
-    },
-    {
-        "id": "1439411073206f60cf6aec826d534960",
-        "fingerprint": "quality manager|greenarray|pune",
-        "date": "2026-02-23T13:05:45.308237"
-    },
-    {
-        "id": "f65958d53d0d106d7bc273598e6dfff7",
-        "fingerprint": "senior manager quality systems ( electronics)|frontline electronics|pune",
-        "date": "2026-02-23T13:05:45.308240"
-    },
-    {
         "id": "582cb4c5afbc910478ecf1c70bacba8d",
         "fingerprint": "manager-supplier quality|orcapod consulting services|pune",
         "date": "2026-02-23T13:05:45.308242"
@@ -9998,5 +9978,25 @@
         "id": "324cfe7f56fb551f6c29d24d141f967b",
         "fingerprint": "director of quality control (qc)|neurodiscovery ai|gurugram",
         "date": "2026-04-16T19:49:48.012705"
+    },
+    {
+        "id": "844234bcbc17023ac86e8296d026914a",
+        "fingerprint": "principal tech program manager, multilingual search quality|amazon|bengaluru",
+        "date": "2026-04-17T06:49:30.150617"
+    },
+    {
+        "id": "5507604972a52c4a4c0851d0c2d36de3",
+        "fingerprint": "manager \u2013 quality|godrej industries group|mumbai",
+        "date": "2026-04-17T06:49:30.150634"
+    },
+    {
+        "id": "7e15412a9b7d2d93ee4321e0812e4e48",
+        "fingerprint": "manager - quality|godrej industries group|noida",
+        "date": "2026-04-17T06:49:30.150637"
+    },
+    {
+        "id": "b075ca44b0d6706f815e25b2b78c98e5",
+        "fingerprint": "sdet lead|liven|chennai",
+        "date": "2026-04-17T06:49:30.150639"
     }
 ]
