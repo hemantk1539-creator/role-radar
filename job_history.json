@@ -1,20 +1,5 @@
 [
     {
-        "id": "d1e0461697e3ef4e598785d4a292bcac",
-        "fingerprint": "software testing manager \u2013 automation & quality engineering|scan it|pune",
-        "date": "2026-02-23T13:05:45.308266"
-    },
-    {
-        "id": "d287301596b89cdf3722e2ea8b661841",
-        "fingerprint": "quality assurance manager iii, alexa endpoints|amazon|pune",
-        "date": "2026-02-23T13:05:45.308268"
-    },
-    {
-        "id": "e8b519b26934f0d18b0e828278642c6c",
-        "fingerprint": "quality manager product development (electronics)|forvia hella|pune",
-        "date": "2026-02-23T13:05:45.308270"
-    },
-    {
         "id": "1fbb56684336d30030e22c10fec676e0",
         "fingerprint": "quality manager|dekra|pune",
         "date": "2026-02-23T13:05:45.308272"
@@ -9998,5 +9983,20 @@
         "id": "59e198b20636359e692c709ea9e7e82e",
         "fingerprint": "qa automation manager|inchcape shipping services|chennai",
         "date": "2026-04-17T12:50:00.188896"
+    },
+    {
+        "id": "57f2d03e5cb7d572332c58bbeea24dfc",
+        "fingerprint": "middle office automation & data enablement lead - vice president|state street|bengaluru",
+        "date": "2026-04-17T19:49:29.061455"
+    },
+    {
+        "id": "04f2c942d426b3471777271b0f0b8dd8",
+        "fingerprint": "it lead - qa and release governance|hubbell incorporated|hyderabad",
+        "date": "2026-04-17T19:49:29.061470"
+    },
+    {
+        "id": "e01f2be1d784255a7d2017c65a236af2",
+        "fingerprint": "technical coordinator/manager \u2013 testing of consumer products in labs|consumer voice india|gurugram",
+        "date": "2026-04-17T19:49:29.061473"
     }
 ]
