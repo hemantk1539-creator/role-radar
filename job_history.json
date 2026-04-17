@@ -1,60 +1,5 @@
 [
     {
-        "id": "582cb4c5afbc910478ecf1c70bacba8d",
-        "fingerprint": "manager-supplier quality|orcapod consulting services|pune",
-        "date": "2026-02-23T13:05:45.308242"
-    },
-    {
-        "id": "967fd3a64bb8baca267d5dae9ad68b8c",
-        "fingerprint": "account quality manager l1|wipro|pune",
-        "date": "2026-02-23T13:05:45.308244"
-    },
-    {
-        "id": "f2a68748aba4046b285482df0d1e7616",
-        "fingerprint": "deputy manager-tcf quality|mahindra &amp;amp;amp; mahindra limited.|pune",
-        "date": "2026-02-23T13:05:45.308246"
-    },
-    {
-        "id": "89ce8822eff1830ec311de888b38c18e",
-        "fingerprint": "manager - it quality & assurance testing|bean hr consulting|pune",
-        "date": "2026-02-23T13:05:45.308248"
-    },
-    {
-        "id": "bf3b9dd05001bb45b9af8ac437c911f7",
-        "fingerprint": "supplier quality manager for plant at talegaon, pune|marquardt|pune",
-        "date": "2026-02-23T13:05:45.308250"
-    },
-    {
-        "id": "a49d9aeacbc2b55e05c16074e46edcdf",
-        "fingerprint": "quality manager|parker|pune",
-        "date": "2026-02-23T13:05:45.308253"
-    },
-    {
-        "id": "145c0f943f072de5c72514452c846889",
-        "fingerprint": "project manager /qa manager-ai quality, governance, performance|bean hr consulting|pune",
-        "date": "2026-02-23T13:05:45.308255"
-    },
-    {
-        "id": "5ff28f5a46a7b52457f50872431ba357",
-        "fingerprint": "quality manager|eversana india pvt. ltd|pune",
-        "date": "2026-02-23T13:05:45.308257"
-    },
-    {
-        "id": "3c8d3e3ca8b9ab1a09341d6d77c41d7c",
-        "fingerprint": "quality engineer/ quality manager|endurance material handlers|pune",
-        "date": "2026-02-23T13:05:45.308259"
-    },
-    {
-        "id": "ad2541ee5ad4be29b4d08a2df9bf32b1",
-        "fingerprint": "design quality manager|philips|pune",
-        "date": "2026-02-23T13:05:45.308261"
-    },
-    {
-        "id": "22db853752c7fd797f2442857c823da4",
-        "fingerprint": "quality manager|kotech infra|pune",
-        "date": "2026-02-23T13:05:45.308264"
-    },
-    {
         "id": "d1e0461697e3ef4e598785d4a292bcac",
         "fingerprint": "software testing manager \u2013 automation & quality engineering|scan it|pune",
         "date": "2026-02-23T13:05:45.308266"
@@ -9998,5 +9943,60 @@
         "id": "b075ca44b0d6706f815e25b2b78c98e5",
         "fingerprint": "sdet lead|liven|chennai",
         "date": "2026-04-17T06:49:30.150639"
+    },
+    {
+        "id": "7e66ea0406b7066ca0d008fd3f05e6c4",
+        "fingerprint": "quality manager - medical devices|criador labs|bengaluru",
+        "date": "2026-04-17T12:50:00.188857"
+    },
+    {
+        "id": "1ebc45f32a2931c8101983086fc6af92",
+        "fingerprint": "test module lead - manual testing|happiest minds technologies|bengaluru",
+        "date": "2026-04-17T12:50:00.188875"
+    },
+    {
+        "id": "114fc369d16432cf316fc0bf3ef1133b",
+        "fingerprint": "quality assurance manager|pv sons corn milling co. pvt. ltd.|pune",
+        "date": "2026-04-17T12:50:00.188878"
+    },
+    {
+        "id": "ed1cfb91f2dabe4b93f0ff340a264156",
+        "fingerprint": "manager - quality|larsen & toubro|mumbai",
+        "date": "2026-04-17T12:50:00.188881"
+    },
+    {
+        "id": "912200b6b0cac1334409b8a5afc674f9",
+        "fingerprint": "regional quality assurance manager|the souled store|mumbai",
+        "date": "2026-04-17T12:50:00.188883"
+    },
+    {
+        "id": "9c92dbd99f724ce45a39de03168144c3",
+        "fingerprint": "senior quality assurance (qa) manager - systems|larsen & toubro|mumbai",
+        "date": "2026-04-17T12:50:00.188886"
+    },
+    {
+        "id": "9038ea50f6548dc946b1ab20a92f38b6",
+        "fingerprint": "senior specialist, sap testing squad lead|msd|hyderabad",
+        "date": "2026-04-17T12:50:00.188888"
+    },
+    {
+        "id": "305058d23362c8113177bbff194c8845",
+        "fingerprint": "quality assurance manager - food industry|connecting chains|hyderabad",
+        "date": "2026-04-17T12:50:00.188889"
+    },
+    {
+        "id": "c7fb3ce802fdd5f4e8edaad4e5142e26",
+        "fingerprint": "regional quality assurance manager|the souled store|gurugram",
+        "date": "2026-04-17T12:50:00.188892"
+    },
+    {
+        "id": "8544053335da2f61696ed424b4566b10",
+        "fingerprint": "testing-automation-senior manager|ey|chennai",
+        "date": "2026-04-17T12:50:00.188894"
+    },
+    {
+        "id": "59e198b20636359e692c709ea9e7e82e",
+        "fingerprint": "qa automation manager|inchcape shipping services|chennai",
+        "date": "2026-04-17T12:50:00.188896"
     }
 ]
