@@ -1,25 +1,5 @@
 [
     {
-        "id": "a7989e427fe25e45631fdaec495d3ca8",
-        "fingerprint": "quality manager for supplier in psb business|rolls-royce|pune",
-        "date": "2026-02-23T13:05:45.308296"
-    },
-    {
-        "id": "3ec137bf96261fc60d6ec2746a8737b6",
-        "fingerprint": "asst. manager quality|sharda motor|pune",
-        "date": "2026-02-23T13:05:45.308298"
-    },
-    {
-        "id": "1a9003513c19189f0900308777478358",
-        "fingerprint": "senior principal engineer / manager - it quality & assurance testing|bean hr consulting|pune",
-        "date": "2026-02-23T13:05:45.308300"
-    },
-    {
-        "id": "242efcf9743252d822ce4e33d88e9613",
-        "fingerprint": "software product quality leader|cummins india|pune",
-        "date": "2026-02-23T13:05:45.308302"
-    },
-    {
         "id": "a25642c4f68be37e0e1a0d29608d3537",
         "fingerprint": "hospital quality executive /asst manager|bkpmg health solutions pvt ltd|pune",
         "date": "2026-02-23T13:05:45.308304"
@@ -9998,5 +9978,25 @@
         "id": "29df1f0a67b2bd13435735c43bcf65b4",
         "fingerprint": "senior manager qa,qms & npd with two decade experience in reputed automotive mnc companies|sigma automotive materials private limited|gurugram",
         "date": "2026-04-18T12:49:44.082495"
+    },
+    {
+        "id": "dd87774386f5479cde966542faf57197",
+        "fingerprint": "network automation lead - vice president - software engineering|morgan stanley|bengaluru",
+        "date": "2026-04-18T19:49:29.015759"
+    },
+    {
+        "id": "d0b32395bee12b5efa3bd0373ac8f15b",
+        "fingerprint": "automation lead l1|wipro|hyderabad",
+        "date": "2026-04-18T19:49:29.015777"
+    },
+    {
+        "id": "931410cba4d7226f7b8c029b68a65fa5",
+        "fingerprint": "software quality assurance module lead|telus digital|noida",
+        "date": "2026-04-18T19:49:29.015780"
+    },
+    {
+        "id": "ff04c3ade4882029f437621599aebc66",
+        "fingerprint": "manager - customer support - module quality|adani group|remote",
+        "date": "2026-04-18T19:49:29.015783"
     }
 ]
