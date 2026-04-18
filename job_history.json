@@ -1,40 +1,5 @@
 [
     {
-        "id": "1fbb56684336d30030e22c10fec676e0",
-        "fingerprint": "quality manager|dekra|pune",
-        "date": "2026-02-23T13:05:45.308272"
-    },
-    {
-        "id": "27f6a5aba46954ce0792fb2b31b0da5f",
-        "fingerprint": "quality assurance manager|asentech, llc|pune",
-        "date": "2026-02-23T13:05:45.308275"
-    },
-    {
-        "id": "f0bba86f8c3136eb9a1545759b92c9c0",
-        "fingerprint": "senior manager quality control|arcatron mobility|pune",
-        "date": "2026-02-23T13:05:45.308277"
-    },
-    {
-        "id": "24b8d23791e8f8072808ca765e23d327",
-        "fingerprint": "quality assurance manager|esycommerce|pune",
-        "date": "2026-02-23T13:05:45.308279"
-    },
-    {
-        "id": "8de15bb4d69a134028f41c21953d1854",
-        "fingerprint": "senior manager (l5) - advanced quality|tatamotors campus hiring|pune",
-        "date": "2026-02-23T13:05:45.308281"
-    },
-    {
-        "id": "2c278ff3e1f64e913d79eb76cfdb5e70",
-        "fingerprint": "manager quality control|kan biosys|pune",
-        "date": "2026-02-23T13:05:45.308283"
-    },
-    {
-        "id": "ca931cfbd3c9bfb587067729cb137078",
-        "fingerprint": "manager / sr. manager - quality|kinetic taigene|pune",
-        "date": "2026-02-23T13:05:45.308285"
-    },
-    {
         "id": "18e5f46a0580d5b3b6d5756ef1a90ad3",
         "fingerprint": "quality manager|ani instruments|pune",
         "date": "2026-02-23T13:05:45.308287"
@@ -9998,5 +9963,40 @@
         "id": "e01f2be1d784255a7d2017c65a236af2",
         "fingerprint": "technical coordinator/manager \u2013 testing of consumer products in labs|consumer voice india|gurugram",
         "date": "2026-04-17T19:49:29.061473"
+    },
+    {
+        "id": "31e4988c6710a50df7d941f48ee70dfe",
+        "fingerprint": "india hub test architect|bayer|bengaluru",
+        "date": "2026-04-18T06:49:12.118560"
+    },
+    {
+        "id": "95f60cddc65f5024397f2ec61b9b2b53",
+        "fingerprint": "engineering manager testing|talent500|bengaluru",
+        "date": "2026-04-18T06:49:12.118576"
+    },
+    {
+        "id": "8e773a59f03a835165f928c7604414f9",
+        "fingerprint": "ai/automation ops lead|nokia|bengaluru",
+        "date": "2026-04-18T06:49:12.118578"
+    },
+    {
+        "id": "0608bd763834996746f7e6c49e2fab0c",
+        "fingerprint": "chief manager - quality assurance|piramal pharma ltd|mumbai",
+        "date": "2026-04-18T06:49:12.118581"
+    },
+    {
+        "id": "bd53446bd82c654f2c07005549751f2f",
+        "fingerprint": "title\n            \n                \n                    senior manager - loyalty clm & automation|air india, bangladesh|gurugram",
+        "date": "2026-04-18T06:49:12.118584"
+    },
+    {
+        "id": "aec3c279a6afd70ca26fc4ea70ce6877",
+        "fingerprint": "quality assurance manager|tata consultancy services|gurugram",
+        "date": "2026-04-18T06:49:12.118586"
+    },
+    {
+        "id": "7615988d27a5fe4918f4663435c75a74",
+        "fingerprint": "ai/automation ops lead|nokia|chennai",
+        "date": "2026-04-18T06:49:12.118588"
     }
 ]
