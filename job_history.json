@@ -1,15 +1,5 @@
 [
     {
-        "id": "9de55178a440a9ee70721c827d194609",
-        "fingerprint": "manager - quality aerospace|ge aerospace|pune",
-        "date": "2026-02-23T13:05:45.308306"
-    },
-    {
-        "id": "1d97b312917145eff120df7f669648ea",
-        "fingerprint": "etl test manager|orchid management consultancy|pune",
-        "date": "2026-02-23T13:05:45.308307"
-    },
-    {
         "id": "379a1233c3837a19a3e7df76719f4744",
         "fingerprint": "manager compliance monitoring and testing|ardor talent solutions|pune",
         "date": "2026-02-23T13:05:45.308309"
@@ -9998,5 +9988,15 @@
         "id": "bdeabf11fe1202aef2636473d3e7be96",
         "fingerprint": "qa/qc head at head office gurgaon|minda infrastructure llp|remote",
         "date": "2026-04-19T06:49:29.109242"
+    },
+    {
+        "id": "a93f63ea093a7e31e2ed89109b6fc85b",
+        "fingerprint": "quality assurance manager|shine.com|chennai",
+        "date": "2026-04-19T12:49:25.638259"
+    },
+    {
+        "id": "4f00174de139664701a627f18c09573b",
+        "fingerprint": "unit manager - process quality|mphasis|remote",
+        "date": "2026-04-19T12:49:25.638275"
     }
 ]
