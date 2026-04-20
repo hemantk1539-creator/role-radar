@@ -1,30 +1,5 @@
 [
     {
-        "id": "7418d4a44b60049a350b785987560305",
-        "fingerprint": "deputy manager/manager  qa - testing (transformers)|chase management and financial consultants mumbai|pune",
-        "date": "2026-02-23T13:05:45.308313"
-    },
-    {
-        "id": "8a79de943240c774789c79c7e79144fd",
-        "fingerprint": "senior manager- functional testing|m&g plc|pune",
-        "date": "2026-02-23T13:05:45.308315"
-    },
-    {
-        "id": "156b5b4379c1857327b5084106d274a7",
-        "fingerprint": "support/testing manager|mycitypune|pune",
-        "date": "2026-02-23T13:05:45.308316"
-    },
-    {
-        "id": "0c85e4de9706d05a2dec751b6e070d0a",
-        "fingerprint": "senior manager lead quality|people nest global consulting|mumbai",
-        "date": "2026-02-23T13:05:45.308318"
-    },
-    {
-        "id": "c14250c0beaa41588ce54b0a58798749",
-        "fingerprint": "supplier quality / vendor management (certified lead auditor / qms )|astaldi india services llp|mumbai",
-        "date": "2026-02-23T13:05:45.308320"
-    },
-    {
         "id": "e27a7aec01fca1984e34dfb0257ddebb",
         "fingerprint": "lead designer quality|mahindra & mahindra limited.|mumbai",
         "date": "2026-02-23T13:05:45.308322"
@@ -9998,5 +9973,30 @@
         "id": "49aa792720f61b8125924f1a4ae4af9a",
         "fingerprint": "quality team lead|tp|chennai",
         "date": "2026-04-19T19:49:11.482514"
+    },
+    {
+        "id": "9fd7c3186117835c5514f1e3f88ee367",
+        "fingerprint": "quality manager|siemens|bengaluru",
+        "date": "2026-04-20T06:49:43.489522"
+    },
+    {
+        "id": "3fbce9d1354457046731796adc093a41",
+        "fingerprint": "quality assurance manager|eurobearings|gurugram",
+        "date": "2026-04-20T06:49:43.489537"
+    },
+    {
+        "id": "b78f8617d1f56dc38d66c169e73ed418",
+        "fingerprint": "quality assurance manager|kaaiser australian education|gurugram",
+        "date": "2026-04-20T06:49:43.489540"
+    },
+    {
+        "id": "22b1f7da8a4f2b690c777718bd5f5ef2",
+        "fingerprint": "qa automation lead|shine.com|chennai",
+        "date": "2026-04-20T06:49:43.489542"
+    },
+    {
+        "id": "0edbd23db910da73bc550ea099e39125",
+        "fingerprint": "director of quality assurance|next logix consultancy pvt ltd|remote",
+        "date": "2026-04-20T06:49:43.489544"
     }
 ]
