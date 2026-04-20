@@ -1,70 +1,5 @@
 [
     {
-        "id": "e27a7aec01fca1984e34dfb0257ddebb",
-        "fingerprint": "lead designer quality|mahindra & mahindra limited.|mumbai",
-        "date": "2026-02-23T13:05:45.308322"
-    },
-    {
-        "id": "a7a36578813a00ca92a697d8fd8bf047",
-        "fingerprint": "team lead and quality analyst|kvc consultants ltd|mumbai",
-        "date": "2026-02-23T13:05:45.308323"
-    },
-    {
-        "id": "d7cef1c707fd1153845dac0a9084e56b",
-        "fingerprint": "lead quality analyst|nomura|mumbai",
-        "date": "2026-02-23T13:05:45.308326"
-    },
-    {
-        "id": "16e14fa8acda5ff66c51904623b49848",
-        "fingerprint": "quality manager-team leader|dsp eminence|mumbai",
-        "date": "2026-02-23T13:05:45.308327"
-    },
-    {
-        "id": "0d76bafd88c9a53fa0851cf256fbcd8d",
-        "fingerprint": "quality lead|lenovo|mumbai",
-        "date": "2026-02-23T13:05:45.308329"
-    },
-    {
-        "id": "f292b1d6cbaef28f3c1bf584d8037f52",
-        "fingerprint": "quality engineering lead (test lead)|accenture|mumbai",
-        "date": "2026-02-23T13:05:45.308331"
-    },
-    {
-        "id": "a56b6136fddcc71dbcb3d58c42da4003",
-        "fingerprint": "quality lead|cipla|mumbai",
-        "date": "2026-02-23T13:05:45.308333"
-    },
-    {
-        "id": "dc9e29bc22382811214fc6bb0d82ff57",
-        "fingerprint": "cx assurance ( training & quality lead )|yes bank|mumbai",
-        "date": "2026-02-23T13:05:45.308336"
-    },
-    {
-        "id": "fdd48b275e688232509493661c984469",
-        "fingerprint": "quality team lead (kyc)|teleperformance (tp)|mumbai",
-        "date": "2026-02-23T13:05:45.308338"
-    },
-    {
-        "id": "be9681eab7bfebfd226737b725a638dd",
-        "fingerprint": "project lead qa/qc (quality & qms auditor)|ns property guide advisors|mumbai",
-        "date": "2026-02-23T13:05:45.308340"
-    },
-    {
-        "id": "0d177a02b82bf176950ae682579741e7",
-        "fingerprint": "quality assurance lead|accenture|mumbai",
-        "date": "2026-02-23T13:05:45.308342"
-    },
-    {
-        "id": "5a6d76026a5b1a3774da88c7b1397107",
-        "fingerprint": "quality team leader|teleperformance (tp)|mumbai",
-        "date": "2026-02-23T13:05:45.308344"
-    },
-    {
-        "id": "b3390fbfd4e1e5369657c37054777cb2",
-        "fingerprint": "senior quality team lead|tata realty|mumbai",
-        "date": "2026-02-23T13:05:45.308346"
-    },
-    {
         "id": "988ba7ffbf32ced42d647dcdf594b2c0",
         "fingerprint": "lead - quality assurance|exploro solutions|mumbai",
         "date": "2026-02-23T13:05:45.308347"
@@ -9998,5 +9933,70 @@
         "id": "0edbd23db910da73bc550ea099e39125",
         "fingerprint": "director of quality assurance|next logix consultancy pvt ltd|remote",
         "date": "2026-04-20T06:49:43.489544"
+    },
+    {
+        "id": "d0a14fcc40046dc4c649bcc504cd951e",
+        "fingerprint": "quality assurance manager|popular foods co|bengaluru",
+        "date": "2026-04-20T12:50:13.807941"
+    },
+    {
+        "id": "a4d1c00c866408c5b93da919300c8148",
+        "fingerprint": "sr manager quality engineering \u2013 qira ai platform|lenovo|bengaluru",
+        "date": "2026-04-20T12:50:13.807960"
+    },
+    {
+        "id": "54b137e58b9d83f032b1f4ecba41141b",
+        "fingerprint": "regional quality manager|vfs global|mumbai",
+        "date": "2026-04-20T12:50:13.807963"
+    },
+    {
+        "id": "42b644ad00296da655262998b6f7129c",
+        "fingerprint": "quality head for real estate - punawale|varma corp|pune",
+        "date": "2026-04-20T12:50:13.807965"
+    },
+    {
+        "id": "ec1bb05a9d4619d2e7dd0b878469e42c",
+        "fingerprint": "automation test lead|ltm|pune",
+        "date": "2026-04-20T12:50:13.807967"
+    },
+    {
+        "id": "ffc4d4ff7c80fd584dcccdd7b9390851",
+        "fingerprint": "quality head - engineering|pearce services|gurugram",
+        "date": "2026-04-20T12:50:13.807970"
+    },
+    {
+        "id": "de2c368117c6e95d775681a16577cb78",
+        "fingerprint": "senior quality assurance leader|shine.com|gurugram",
+        "date": "2026-04-20T12:50:13.807972"
+    },
+    {
+        "id": "28e3916d98c5ffd5c4fc5077c0dc4e88",
+        "fingerprint": "manager - ai qa|zimyo|gurugram",
+        "date": "2026-04-20T12:50:13.807974"
+    },
+    {
+        "id": "ce76d406fa4c19f0f7d129805f6e2546",
+        "fingerprint": "senior quality assurance leader|shine.com|noida",
+        "date": "2026-04-20T12:50:13.807976"
+    },
+    {
+        "id": "4d1becc630d99fe470f141e6f2616c68",
+        "fingerprint": "senior manager (l5) - plant quality (powertrain)|tata marcopolo motors ltd. dharwad|ahmedabad",
+        "date": "2026-04-20T12:50:13.807978"
+    },
+    {
+        "id": "da163527cc66cb52257f02cbed7fd54b",
+        "fingerprint": "qa manager - medical device|care essentials international pvt ltd|ahmedabad",
+        "date": "2026-04-20T12:50:13.807980"
+    },
+    {
+        "id": "2203592935578c81c4109370f6ef1c39",
+        "fingerprint": "qa/qc manager \u2013 pmc (power transmission, substation & renewable integration)|aecom|ahmedabad",
+        "date": "2026-04-20T12:50:13.807983"
+    },
+    {
+        "id": "bcb4a0782d0fb281bae56746315f41e6",
+        "fingerprint": "deputy manager - quality & production|imerys|ahmedabad",
+        "date": "2026-04-20T12:50:13.807985"
     }
 ]
