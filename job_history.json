@@ -1,35 +1,5 @@
 [
     {
-        "id": "46d94f589d3fc58d17405b2b15c09779",
-        "fingerprint": "quality manager|taskus|mumbai",
-        "date": "2026-02-23T13:05:45.308376"
-    },
-    {
-        "id": "252e26e939da6bc6a80bf4c3f342be24",
-        "fingerprint": "sr. manager quality ecompliance|piramal pharma limited|mumbai",
-        "date": "2026-02-23T13:05:45.308378"
-    },
-    {
-        "id": "1af684ab8171ce56e891ee4785fa75ff",
-        "fingerprint": "quality assurance manager|dunamis medical|mumbai",
-        "date": "2026-02-23T13:05:45.308380"
-    },
-    {
-        "id": "04c71016b2f3b07c8af2368776824a16",
-        "fingerprint": "manager - operations / quality / training - kol/ bang / hyd / gur / mu|manthan manpower solutions|mumbai",
-        "date": "2026-02-23T13:05:45.308382"
-    },
-    {
-        "id": "77f6e65b2864cd9a2db7815dc267a78f",
-        "fingerprint": "regional quality manager|not available|mumbai",
-        "date": "2026-02-23T13:05:45.308384"
-    },
-    {
-        "id": "8a73a4b3482318f54855a6a07706b47d",
-        "fingerprint": "senior manager quality it compliance|sun pharma industries|mumbai",
-        "date": "2026-02-23T13:05:45.308386"
-    },
-    {
         "id": "b1352100ad48bb52853d6ad25ff6e035",
         "fingerprint": "quality assurance manager|shapoorji pallonji group|mumbai",
         "date": "2026-02-23T13:05:45.308388"
@@ -9998,5 +9968,35 @@
         "id": "cb8feae3908644f214b5ccc3ea439a2e",
         "fingerprint": "global head of quality assurance & test automation|litmus|remote",
         "date": "2026-04-21T06:49:46.494887"
+    },
+    {
+        "id": "b60452ea3c85b26ad463da3e10fbf788",
+        "fingerprint": "sap s/4 hana test manager|connexions|bengaluru",
+        "date": "2026-04-21T12:49:31.612577"
+    },
+    {
+        "id": "5e07a200bb779e2bf0412b411729c882",
+        "fingerprint": "test manager|helius technologies|hyderabad",
+        "date": "2026-04-21T12:49:31.612593"
+    },
+    {
+        "id": "bb5b5d9ce0fe3b0f0c0cab459ca8a13a",
+        "fingerprint": "lead sdet engineer with genai irc291165|globallogic|hyderabad",
+        "date": "2026-04-21T12:49:31.612596"
+    },
+    {
+        "id": "2c68549bce2954d558a6860ecb30bca2",
+        "fingerprint": "quality assurance manager|seemantni global pvt. ltd.|gurugram",
+        "date": "2026-04-21T12:49:31.612599"
+    },
+    {
+        "id": "19536a255a409235354351742da6a92a",
+        "fingerprint": "manager quality assurance|abbott|ahmedabad",
+        "date": "2026-04-21T12:49:31.612601"
+    },
+    {
+        "id": "0d0578bb71dc28d91ec5ee1b740143fd",
+        "fingerprint": "director, enterprise architecture & intelligent automation|gitlab",
+        "date": "2026-04-21T12:49:31.612603"
     }
 ]
