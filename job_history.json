@@ -1,35 +1,5 @@
 [
     {
-        "id": "b1352100ad48bb52853d6ad25ff6e035",
-        "fingerprint": "quality assurance manager|shapoorji pallonji group|mumbai",
-        "date": "2026-02-23T13:05:45.308388"
-    },
-    {
-        "id": "4ceb1baf5cb006da8e18c51d72669e00",
-        "fingerprint": "senior manager - quality it compliance|sun pharma|mumbai",
-        "date": "2026-02-23T13:05:45.308390"
-    },
-    {
-        "id": "f6d160be36f2a9b88aba79146f31dfbd",
-        "fingerprint": "manager quality assurance|pacific group|mumbai",
-        "date": "2026-02-23T13:05:45.308391"
-    },
-    {
-        "id": "d9a0f8c095944f1832ef2586b8f132d1",
-        "fingerprint": "sr manager quality assurance|pidilite|mumbai",
-        "date": "2026-02-23T13:05:45.308393"
-    },
-    {
-        "id": "e18376ee29313a626ccec37a8a53378c",
-        "fingerprint": "deputy manager - construction quality control|cogency infratech|mumbai",
-        "date": "2026-02-23T13:05:45.308395"
-    },
-    {
-        "id": "e9ac49fe5c01be2a7da22eab4acae478",
-        "fingerprint": "account quality manager l1|wipro|mumbai",
-        "date": "2026-02-23T13:05:45.308397"
-    },
-    {
         "id": "ccf35b0bd39a75c486f266244cebba7b",
         "fingerprint": "quality manager / quality head - garments manufacturing company|people alliance workforce|mumbai",
         "date": "2026-02-23T13:05:45.308399"
@@ -9998,5 +9968,35 @@
         "id": "0d0578bb71dc28d91ec5ee1b740143fd",
         "fingerprint": "director, enterprise architecture & intelligent automation|gitlab",
         "date": "2026-04-21T12:49:31.612603"
+    },
+    {
+        "id": "3ecd1d86b5e41c3ea5132de20674f4a5",
+        "fingerprint": "it quality senior manager - vice president|citi|pune",
+        "date": "2026-04-21T19:49:22.278392"
+    },
+    {
+        "id": "908c4144b4142f307f2e6b4342be529d",
+        "fingerprint": "quality cloud architect (sdet engineer)|clearroute|pune",
+        "date": "2026-04-21T19:49:22.278410"
+    },
+    {
+        "id": "cd68bc6761338609c000c603810cfab9",
+        "fingerprint": "team leader-  quality management|qdegrees careers|bengaluru",
+        "date": "2026-04-21T19:49:22.278413"
+    },
+    {
+        "id": "cedee820b70f9e4161f40a886a6d9645",
+        "fingerprint": "test architect - playwright|happiest minds technologies|bengaluru",
+        "date": "2026-04-21T19:49:22.278415"
+    },
+    {
+        "id": "2126e25ad665ce64f786ea5d8b2e8d0e",
+        "fingerprint": "principal engineering manager \u2013 quality engineering|montycloud|bengaluru",
+        "date": "2026-04-21T19:49:22.278417"
+    },
+    {
+        "id": "5567b1dd9be431ef6e86cc2a78b35b45",
+        "fingerprint": "manager/ senior manager - quality|emerson|remote",
+        "date": "2026-04-21T19:49:22.278419"
     }
 ]
