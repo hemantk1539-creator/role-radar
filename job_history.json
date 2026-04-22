@@ -1,40 +1,5 @@
 [
     {
-        "id": "0b5a78fbd12a437cc8c6a71b2f6f05e7",
-        "fingerprint": "quality control manager|pushpanjali drums|mumbai",
-        "date": "2026-02-23T13:05:45.308460"
-    },
-    {
-        "id": "9a63da72ed8e5f5d14586af67e3fed8f",
-        "fingerprint": "quality manager|allnex|mumbai",
-        "date": "2026-02-23T13:05:45.308464"
-    },
-    {
-        "id": "a1b2141d9a336d091a024e2c8d4b7dba",
-        "fingerprint": "supply quality manager electrical - solar|mahindra susten|mumbai",
-        "date": "2026-02-23T13:05:45.308467"
-    },
-    {
-        "id": "cdafa18e01ddd7c0d4c2042758075a10",
-        "fingerprint": "quality manager|edit company namejyoti structures and jyoti structures|mumbai",
-        "date": "2026-02-23T13:05:45.308470"
-    },
-    {
-        "id": "376d811add68958b40edfb4232aa5d33",
-        "fingerprint": "group quality manager (ikea must)|vmarsh|mumbai",
-        "date": "2026-02-23T13:05:45.308472"
-    },
-    {
-        "id": "38ebe4b28feda7028232426eabfb84f6",
-        "fingerprint": "manager- quality assurance|ibm|mumbai",
-        "date": "2026-02-23T13:05:45.308474"
-    },
-    {
-        "id": "f4913f1f20978247db77a5fd388e5629",
-        "fingerprint": "manager - quality & compliance|masina hospital|mumbai",
-        "date": "2026-02-23T13:05:45.308477"
-    },
-    {
         "id": "f5ea9b77c396c268f506cf56c78da5c2",
         "fingerprint": "general manager-cqa, quality assurance, quality control|bdh industries|mumbai",
         "date": "2026-02-23T13:05:45.308479"
@@ -9998,5 +9963,40 @@
         "id": "3e44a75d077d5672889aa022ae6b377b",
         "fingerprint": "global audit manager - supplier quality management|siemens|chennai",
         "date": "2026-04-22T06:49:44.692492"
+    },
+    {
+        "id": "c7e4b3cb3dd39997ff1c4c3e3426c981",
+        "fingerprint": "automation delivery director - poland|fortrea|bengaluru",
+        "date": "2026-04-22T12:50:15.630277"
+    },
+    {
+        "id": "f08336bdaca4e9497afed5bdd1536d2b",
+        "fingerprint": "manager, quality assurance - digital analytics (l09)|whitecrow research|hyderabad",
+        "date": "2026-04-22T12:50:15.630295"
+    },
+    {
+        "id": "87ed60a76f54b0da0543631b97441ed0",
+        "fingerprint": "senior qe manager - etl testing [t500-24971]|cibc india|hyderabad",
+        "date": "2026-04-22T12:50:15.630298"
+    },
+    {
+        "id": "1848ea7860a307c3b40d1954a43e7cba",
+        "fingerprint": "quality systems manager|sotalent|hyderabad",
+        "date": "2026-04-22T12:50:15.630300"
+    },
+    {
+        "id": "d3ac93ec7997ba345938dfb36c4bfe65",
+        "fingerprint": "automation leader|hcltech|gurugram",
+        "date": "2026-04-22T12:50:15.630301"
+    },
+    {
+        "id": "98ab3afe406654caa20208a330426934",
+        "fingerprint": "mask quality lead|tata electronics|ahmedabad",
+        "date": "2026-04-22T12:50:15.630303"
+    },
+    {
+        "id": "f96200c6fb0d8abfcb51ac9be941dcc0",
+        "fingerprint": "business development manager (industrial automation)|engage experts international|ahmedabad",
+        "date": "2026-04-22T12:50:15.630305"
     }
 ]
