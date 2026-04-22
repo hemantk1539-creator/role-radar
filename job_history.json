@@ -1,35 +1,5 @@
 [
     {
-        "id": "f5ea9b77c396c268f506cf56c78da5c2",
-        "fingerprint": "general manager-cqa, quality assurance, quality control|bdh industries|mumbai",
-        "date": "2026-02-23T13:05:45.308479"
-    },
-    {
-        "id": "8998caa483e364fc8d9a0b16531a32fc",
-        "fingerprint": "quality manager - creative production|express kcs|mumbai",
-        "date": "2026-02-23T13:05:45.308481"
-    },
-    {
-        "id": "c56d47b7745fad7916fde119db202858",
-        "fingerprint": "urgent requirement of senior quality manager - ( job id - 22494),mahape mumbai|eh jobs|mumbai",
-        "date": "2026-02-23T13:05:45.308483"
-    },
-    {
-        "id": "fa3b4c42eaaf7a8f0594a4bc1c163587",
-        "fingerprint": "qa & test engineering manager|abcedo technologies|mumbai",
-        "date": "2026-02-23T13:05:45.308485"
-    },
-    {
-        "id": "e45a2130291c9444bb19235ca1f06504",
-        "fingerprint": "test manager - wealth management|qualitykiosk technologies|mumbai",
-        "date": "2026-02-23T13:05:45.308486"
-    },
-    {
-        "id": "05644261e61147a8b9c28b77bde67ade",
-        "fingerprint": "test manager - channels|qualitykiosk technologies|mumbai",
-        "date": "2026-02-23T13:05:45.308488"
-    },
-    {
         "id": "a7b7f54f5d011c8fdfe2d9dad31b6c4c",
         "fingerprint": "technical test manager banking|qualitykiosk technologies|mumbai",
         "date": "2026-02-23T13:05:45.308490"
@@ -9998,5 +9968,35 @@
         "id": "f96200c6fb0d8abfcb51ac9be941dcc0",
         "fingerprint": "business development manager (industrial automation)|engage experts international|ahmedabad",
         "date": "2026-04-22T12:50:15.630305"
+    },
+    {
+        "id": "01ba8bbb276735be3f9d972bd0b53533",
+        "fingerprint": "head \u2013 quality|pun\u00e9 gas|pune",
+        "date": "2026-04-22T19:50:00.308471"
+    },
+    {
+        "id": "75a18928cbba5aad0ac877c481514b4f",
+        "fingerprint": "business manager - energy and industrial automation|ul solutions|bengaluru",
+        "date": "2026-04-22T19:50:00.308491"
+    },
+    {
+        "id": "90f776f6ebeb5e592d705fecf5573abf",
+        "fingerprint": "automation engineering manager -uipath|roboyo|hyderabad",
+        "date": "2026-04-22T19:50:00.308495"
+    },
+    {
+        "id": "74c8436945d09b54e46a2b4351a8d465",
+        "fingerprint": "qa manager - food industry|connecting chains|hyderabad",
+        "date": "2026-04-22T19:50:00.308497"
+    },
+    {
+        "id": "622aadebbb63bc1ce6fe6a946b703d4b",
+        "fingerprint": "business analysis and qa lead|wilhelmsen port services|chennai",
+        "date": "2026-04-22T19:50:00.308499"
+    },
+    {
+        "id": "f78152ccaf8fa3e4ef02b49c7f61d654",
+        "fingerprint": "senior automation architect|qualitest acq|chennai",
+        "date": "2026-04-22T19:50:00.308501"
     }
 ]
