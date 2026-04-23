@@ -1,25 +1,5 @@
 [
     {
-        "id": "af26759e0932c0aad97f7f6435846bc8",
-        "fingerprint": "lead / manager - system testing & user acceptance testing (uat)|ampersand group|mumbai",
-        "date": "2026-02-23T13:05:45.308505"
-    },
-    {
-        "id": "b01c09fc9e2cd3c0cf2cb599bf7bcce5",
-        "fingerprint": "senior project manager - testing and commissioning, data center|turner townsend|mumbai",
-        "date": "2026-02-23T13:05:45.308507"
-    },
-    {
-        "id": "a4fbe265a779749e4cae03dc4e167e10",
-        "fingerprint": "senior manager- functional testing|m&g plc|mumbai",
-        "date": "2026-02-23T13:05:45.308509"
-    },
-    {
-        "id": "9734fc961e2246117d380ad60f0e1556",
-        "fingerprint": "compliance testing manager - avp/dvp|premier consultants|mumbai",
-        "date": "2026-02-23T13:05:45.308511"
-    },
-    {
         "id": "ca9ecf37f1ae4e216d5096962ec7d5e4",
         "fingerprint": "sr mgr test engineering|motorola solutions|mumbai",
         "date": "2026-02-23T13:05:45.308513"
@@ -9998,5 +9978,25 @@
         "id": "c6eba6e069d1e9e78ba3fbdca800ba06",
         "fingerprint": "senior / executive director - quality assurance, global central laboratories|thermo fisher scientific|delhi",
         "date": "2026-04-23T06:49:48.289157"
+    },
+    {
+        "id": "5f88968479e3a3fb0909dfb7d27c29aa",
+        "fingerprint": "senior technical lead - test/interface/uc board bring up|hcltech|bengaluru",
+        "date": "2026-04-23T12:49:35.194403"
+    },
+    {
+        "id": "63eeec00dd677c402884a18e3e34e1e0",
+        "fingerprint": "director-quality|alight solutions|noida",
+        "date": "2026-04-23T12:49:35.194418"
+    },
+    {
+        "id": "2f8b183f55531c7e8d7800ed4d777952",
+        "fingerprint": "project manager (qa)|movate|chennai",
+        "date": "2026-04-23T12:49:35.194420"
+    },
+    {
+        "id": "17567f9fdcacb7855404d9d6b918a864",
+        "fingerprint": "it quality tech lead analyst|citi|chennai",
+        "date": "2026-04-23T12:49:35.194422"
     }
 ]
