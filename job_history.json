@@ -1,45 +1,5 @@
 [
     {
-        "id": "a7b7f54f5d011c8fdfe2d9dad31b6c4c",
-        "fingerprint": "technical test manager banking|qualitykiosk technologies|mumbai",
-        "date": "2026-02-23T13:05:45.308490"
-    },
-    {
-        "id": "dfe25b04628ec517d0266b452d31dc23",
-        "fingerprint": "axis bank - manager/senior manager- compliance testing|axis bank|mumbai",
-        "date": "2026-02-23T13:05:45.308492"
-    },
-    {
-        "id": "d16658648bb69cca734e55e7570b6262",
-        "fingerprint": "test environment manager|ideslabs private limited|mumbai",
-        "date": "2026-02-23T13:05:45.308494"
-    },
-    {
-        "id": "20ef8dbb962127be25e2cbea71bc5db0",
-        "fingerprint": "application security testing manager|godrej infotech|mumbai",
-        "date": "2026-02-23T13:05:45.308496"
-    },
-    {
-        "id": "cdc4f679c1022966c6b1ddb097cf1aaa",
-        "fingerprint": "senior project manager - testing and commissioning, data center|turner &amp; townsend|mumbai",
-        "date": "2026-02-23T13:05:45.308498"
-    },
-    {
-        "id": "a70b45ed2a4516a5ee6fecbd211af836",
-        "fingerprint": "test manager|qualitykiosk|mumbai",
-        "date": "2026-02-23T13:05:45.308500"
-    },
-    {
-        "id": "a43c1be1b90740ba3a9d6b367a08155a",
-        "fingerprint": "deputy manager - compliance testing & regulatory enforcement|saraswat bank|mumbai",
-        "date": "2026-02-23T13:05:45.308501"
-    },
-    {
-        "id": "488a61be56d4ed5168fb1639d40c97f6",
-        "fingerprint": "general manager - power systems ( real time simulation testing )|tie-ups|mumbai",
-        "date": "2026-02-23T13:05:45.308503"
-    },
-    {
         "id": "af26759e0932c0aad97f7f6435846bc8",
         "fingerprint": "lead / manager - system testing & user acceptance testing (uat)|ampersand group|mumbai",
         "date": "2026-02-23T13:05:45.308505"
@@ -9998,5 +9958,45 @@
         "id": "f78152ccaf8fa3e4ef02b49c7f61d654",
         "fingerprint": "senior automation architect|qualitest acq|chennai",
         "date": "2026-04-22T19:50:00.308501"
+    },
+    {
+        "id": "b0e6d52ebf60eb739d97619a23d74134",
+        "fingerprint": "avp, sox testing lead (l10)|synchrony|pune",
+        "date": "2026-04-23T06:49:48.289127"
+    },
+    {
+        "id": "647747860e97bdcefb7a8456d86eb138",
+        "fingerprint": "principal engineer-qe|dover india|bengaluru",
+        "date": "2026-04-23T06:49:48.289143"
+    },
+    {
+        "id": "89d229360523356a104f3c913b6ba538",
+        "fingerprint": "quality assurance lead - manual &amp; automation testing|sampoorna consultants|bengaluru",
+        "date": "2026-04-23T06:49:48.289146"
+    },
+    {
+        "id": "cac3944efbd6599319e9a2b6ff896633",
+        "fingerprint": "manager, d&t, process automation|dsm-firmenich|hyderabad",
+        "date": "2026-04-23T06:49:48.289148"
+    },
+    {
+        "id": "f6c0743816d4afe6b93f7f67fcab0cf4",
+        "fingerprint": "quality engineering architect|accenture in india|hyderabad",
+        "date": "2026-04-23T06:49:48.289150"
+    },
+    {
+        "id": "2fb0a91bb6736cfe249ee9323c7b751e",
+        "fingerprint": "quality control manager|zenner india|gurugram",
+        "date": "2026-04-23T06:49:48.289152"
+    },
+    {
+        "id": "f340f4763b8abc19b5995f4829e1eafe",
+        "fingerprint": "qa lead \u2013 automation (api & ui)|habilelabs|gurugram",
+        "date": "2026-04-23T06:49:48.289154"
+    },
+    {
+        "id": "c6eba6e069d1e9e78ba3fbdca800ba06",
+        "fingerprint": "senior / executive director - quality assurance, global central laboratories|thermo fisher scientific|delhi",
+        "date": "2026-04-23T06:49:48.289157"
     }
 ]
