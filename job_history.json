@@ -1,40 +1,5 @@
 [
     {
-        "id": "ca9ecf37f1ae4e216d5096962ec7d5e4",
-        "fingerprint": "sr mgr test engineering|motorola solutions|mumbai",
-        "date": "2026-02-23T13:05:45.308513"
-    },
-    {
-        "id": "0db9c936b505474b5c94ccda4a1b33d7",
-        "fingerprint": "power platform test manager|tuv sud south asia|mumbai",
-        "date": "2026-02-23T13:05:45.308515"
-    },
-    {
-        "id": "fc37a3faabc5defec63795083cae168d",
-        "fingerprint": "test manager|datamatics staffing services pvt ltd|mumbai",
-        "date": "2026-02-23T13:05:45.308517"
-    },
-    {
-        "id": "cc59429157a6da75fc3380ab6adba58c",
-        "fingerprint": "test manager|tristha global|mumbai",
-        "date": "2026-02-23T13:05:45.308518"
-    },
-    {
-        "id": "589ab9dcbffff2a68a30cca74cd3489d",
-        "fingerprint": "test manager|abcedo technologies|mumbai",
-        "date": "2026-02-23T13:05:45.308520"
-    },
-    {
-        "id": "89d6dddb7df1f6a0000d31ddab33c648",
-        "fingerprint": "test manager|tekdoors|mumbai",
-        "date": "2026-02-23T13:05:45.308522"
-    },
-    {
-        "id": "0f0abb6736c7ffe553f41d5e50d7622a",
-        "fingerprint": "mobile web testing manager automation|rapsys tech solutions|mumbai",
-        "date": "2026-02-23T13:05:45.308524"
-    },
-    {
         "id": "d0ff65e7e1e9c01048acf459bd59547f",
         "fingerprint": "quality & training program manager, mapping operations|waymo|hyderabad",
         "date": "2026-02-23T13:05:45.308526"
@@ -9998,5 +9963,40 @@
         "id": "17567f9fdcacb7855404d9d6b918a864",
         "fingerprint": "it quality tech lead analyst|citi|chennai",
         "date": "2026-04-23T12:49:35.194422"
+    },
+    {
+        "id": "c59eed64fca59044f3c628982fca1d37",
+        "fingerprint": "automation quality assurance \u2013 technical lead -vice president|citi|pune",
+        "date": "2026-04-23T19:49:51.134689"
+    },
+    {
+        "id": "9f22d1a606f7db85ae3024bbb8f5db0a",
+        "fingerprint": "technical manager : testing|trane technologies|bengaluru",
+        "date": "2026-04-23T19:49:51.134706"
+    },
+    {
+        "id": "e61cfe4dc42adfa84136ce6a5e2a7bf5",
+        "fingerprint": "jewellery quality assurance manager|titan company limited|bengaluru",
+        "date": "2026-04-23T19:49:51.134709"
+    },
+    {
+        "id": "924af33b066e6201f1e459a436aae5e3",
+        "fingerprint": "quality and escalation manager|hp|mumbai",
+        "date": "2026-04-23T19:49:51.134711"
+    },
+    {
+        "id": "29cdd176c1c2bf80fd16c75f620dbde0",
+        "fingerprint": "quality control manager|lumen technologies india|noida",
+        "date": "2026-04-23T19:49:51.134714"
+    },
+    {
+        "id": "158dbe162515f32f531b43300aa23af0",
+        "fingerprint": "digital software engineering senior group manager  \u2013 head of quality & performance engineering|citi|chennai",
+        "date": "2026-04-23T19:49:51.134716"
+    },
+    {
+        "id": "a7857035edb7ac3d1159f7862b209cc4",
+        "fingerprint": "quality assurance manager|pharmanovia|chennai",
+        "date": "2026-04-23T19:49:51.134718"
     }
 ]
