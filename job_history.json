@@ -1,55 +1,5 @@
 [
     {
-        "id": "977224f86fe9dc752c1390a2f9f01e0b",
-        "fingerprint": "quality assurance lead|wipro|hyderabad",
-        "date": "2026-02-23T13:05:45.308562"
-    },
-    {
-        "id": "16886a571f8a6c5a9211c25b197f028c",
-        "fingerprint": "lead engineer - software quality test|ge vernova|hyderabad",
-        "date": "2026-02-23T13:05:45.308563"
-    },
-    {
-        "id": "14c511009c6c5c942c576353f1204cee",
-        "fingerprint": "lead i, quality engineering|s&p global market intelligence|hyderabad",
-        "date": "2026-02-23T13:05:45.308565"
-    },
-    {
-        "id": "5b20f40e8a4202d012cec6cc2fd0f5b9",
-        "fingerprint": "quality engineer team lead|crisil|hyderabad",
-        "date": "2026-02-23T13:05:45.308567"
-    },
-    {
-        "id": "2e00272563c939e72f1551e996e25b84",
-        "fingerprint": "lead quality assurance sr. specialist|paraminfo|hyderabad",
-        "date": "2026-02-23T13:05:45.308569"
-    },
-    {
-        "id": "f338382b51e9402c1ffb97fdf3e0a3e8",
-        "fingerprint": "lead quality engineer|veripark|hyderabad",
-        "date": "2026-02-23T13:05:45.308571"
-    },
-    {
-        "id": "5442b45343ef2689178fa1f362479959",
-        "fingerprint": "team lead software quality|svaya robotics|hyderabad",
-        "date": "2026-02-23T13:05:45.308572"
-    },
-    {
-        "id": "199a189afb8301c87d0f8e9358a24e6a",
-        "fingerprint": "deputy manager of quality control (osd - pellets/mups formulations)|pellets pharma|hyderabad",
-        "date": "2026-02-23T13:05:45.308574"
-    },
-    {
-        "id": "80e7871d47b66180eebb53d72aa4d8fe",
-        "fingerprint": "quality assurance manager|intouchcx|hyderabad",
-        "date": "2026-02-23T13:05:45.308576"
-    },
-    {
-        "id": "e78b1df70a1e0a291af7b81535446eb3",
-        "fingerprint": "team manager, rcm quality and outcome improvement|modmed technologies india private limited|hyderabad",
-        "date": "2026-02-23T13:05:45.308578"
-    },
-    {
         "id": "523482ee615603bf86a2d3e3d5be287d",
         "fingerprint": "technical program manager, google data center construction quality|google|hyderabad",
         "date": "2026-02-23T13:05:45.308580"
@@ -9998,5 +9948,55 @@
         "id": "faac19aba897a7789634b9d5a1937222",
         "fingerprint": "director, global supplier quality management|jobgether|remote",
         "date": "2026-04-24T12:49:29.160243"
+    },
+    {
+        "id": "436fd236a8d6f09897ccdf684e68e317",
+        "fingerprint": "qa director|uplers|bengaluru",
+        "date": "2026-04-24T19:49:56.076054"
+    },
+    {
+        "id": "1cf52c76fd4fa986e525e55d952906f3",
+        "fingerprint": "test architect|edstruments|bengaluru",
+        "date": "2026-04-24T19:49:56.076070"
+    },
+    {
+        "id": "d251d4e24e4a5ea34529f5bcb8aad85d",
+        "fingerprint": "software test architect|dexcom|bengaluru",
+        "date": "2026-04-24T19:49:56.076073"
+    },
+    {
+        "id": "4fffe71cf329166546181ffab5c810e6",
+        "fingerprint": "quality manager/lab manager|apollo clinic vashi,navi mumbai|mumbai",
+        "date": "2026-04-24T19:49:56.076076"
+    },
+    {
+        "id": "cacba08f6989b1194e7d95f7668535dc",
+        "fingerprint": "quality assurance manager (4-5 years)|bdi group (india)|pune",
+        "date": "2026-04-24T19:49:56.076079"
+    },
+    {
+        "id": "3eb3284f6e483256fc645dba2cd7b6eb",
+        "fingerprint": "lead functional consultant - quality compliance assurance|epam systems|pune",
+        "date": "2026-04-24T19:49:56.076082"
+    },
+    {
+        "id": "a9a9c2590e915598895967a20efff7e5",
+        "fingerprint": "supply quality manager|nokia|chennai",
+        "date": "2026-04-24T19:49:56.076084"
+    },
+    {
+        "id": "759d8110f643427eaffa799ec2fcfa8f",
+        "fingerprint": "deputy manager - finance & procurement services (supplier quality management _sqm)|siemens electronic systems design & manufacturing|chennai",
+        "date": "2026-04-24T19:49:56.076087"
+    },
+    {
+        "id": "25cf8ba3fc2e1fc75d700385015d17bf",
+        "fingerprint": "manager- quality(mech.)|adani power|remote",
+        "date": "2026-04-24T19:49:56.076089"
+    },
+    {
+        "id": "f0eb1607b709fbe9dcf3fd32c4d27fb8",
+        "fingerprint": "head of global product quality & technical|specsavers|remote",
+        "date": "2026-04-24T19:49:56.076091"
     }
 ]
