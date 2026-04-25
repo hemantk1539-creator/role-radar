@@ -1,10 +1,5 @@
 [
     {
-        "id": "c2b26a797f841e085c68f0e420da83c7",
-        "fingerprint": "quality manager|teleperformance (tp)|hyderabad",
-        "date": "2026-02-23T13:05:45.308602"
-    },
-    {
         "id": "05bee8927a343c2e18c4ac07f2a6c09e",
         "fingerprint": "quality manager|woundtech innovative healthcare solutions|hyderabad",
         "date": "2026-02-23T13:05:45.308604"
@@ -9998,5 +9993,10 @@
         "id": "b9d948ec572f84a9088912a428a5154d",
         "fingerprint": "global audit manager - supplier quality management|siemens electronic systems design & manufacturing|chennai",
         "date": "2026-04-25T12:49:38.440708"
+    },
+    {
+        "id": "df28b09e232dda07197ab8647aed665a",
+        "fingerprint": "oracle (cpq) quality assurance --lead i - software testing|ust|pune",
+        "date": "2026-04-25T19:49:47.953132"
     }
 ]
