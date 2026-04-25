@@ -1,30 +1,5 @@
 [
     {
-        "id": "c53ba9cc48b7593494cddacae374181d",
-        "fingerprint": "sr. manager, quality assurance|storable|hyderabad",
-        "date": "2026-02-23T13:05:45.308593"
-    },
-    {
-        "id": "5c2c10d3dc4066c49470dc2d27e91e0f",
-        "fingerprint": "quality control (technician to manager)|clinnovo research labs .|hyderabad",
-        "date": "2026-02-23T13:05:45.308595"
-    },
-    {
-        "id": "f876e0e425230cbffcc0b8dc5e739e6f",
-        "fingerprint": "manager quality complaints|amgen inc|hyderabad",
-        "date": "2026-02-23T13:05:45.308597"
-    },
-    {
-        "id": "120105b61ff0db7358ca4ab2a2b45ff9",
-        "fingerprint": "quality assurance (qa) manager|reliability engineering industries|hyderabad",
-        "date": "2026-02-23T13:05:45.308599"
-    },
-    {
-        "id": "7869aee01050274bc8fd707a564aee3a",
-        "fingerprint": "manager, quality assurance|synchrony|hyderabad",
-        "date": "2026-02-23T13:05:45.308601"
-    },
-    {
         "id": "c2b26a797f841e085c68f0e420da83c7",
         "fingerprint": "quality manager|teleperformance (tp)|hyderabad",
         "date": "2026-02-23T13:05:45.308602"
@@ -9998,5 +9973,30 @@
         "id": "013b1d468bcd6dabc89602e34ac508dd",
         "fingerprint": "app automation eng senior analyst|accenture in india|chennai",
         "date": "2026-04-25T06:49:51.208889"
+    },
+    {
+        "id": "64a219550fb0faacf2f95e77cf6170c2",
+        "fingerprint": "product quality manager|sys electromac private limited|hyderabad",
+        "date": "2026-04-25T12:49:38.440684"
+    },
+    {
+        "id": "4a890170dcdfa18846e7cae523a48617",
+        "fingerprint": "production & quality manager|ap electrical solutions|gurugram",
+        "date": "2026-04-25T12:49:38.440700"
+    },
+    {
+        "id": "7965aadd796661bcaac864cad823f4a6",
+        "fingerprint": "plant quality head|mangla cor-tubi pvt. ltd.|gurugram",
+        "date": "2026-04-25T12:49:38.440703"
+    },
+    {
+        "id": "3c2336c1f9c478ec6a20e0469143d75e",
+        "fingerprint": "qa qc manager|shine.com|chennai",
+        "date": "2026-04-25T12:49:38.440706"
+    },
+    {
+        "id": "b9d948ec572f84a9088912a428a5154d",
+        "fingerprint": "global audit manager - supplier quality management|siemens electronic systems design & manufacturing|chennai",
+        "date": "2026-04-25T12:49:38.440708"
     }
 ]
