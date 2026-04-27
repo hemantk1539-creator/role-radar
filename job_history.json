@@ -1,20 +1,5 @@
 [
     {
-        "id": "7e6419543a6f34213f103a70014c6637",
-        "fingerprint": "lead quality engineering|s&p global market intelligence|delhi",
-        "date": "2026-02-23T13:05:45.308666"
-    },
-    {
-        "id": "2aebf2c9ff5ff4a378f7ca29430afe50",
-        "fingerprint": "quality lead|ourbus india|delhi",
-        "date": "2026-02-23T13:05:45.308668"
-    },
-    {
-        "id": "73c464d17ebc42c38e34b66420d89feb",
-        "fingerprint": "lead quality|stryker|delhi",
-        "date": "2026-02-23T13:05:45.308670"
-    },
-    {
         "id": "5dc40d4434b7853f1cbfddbaae7ec55d",
         "fingerprint": "lead quality manager|welo data|delhi",
         "date": "2026-02-23T13:05:45.308672"
@@ -9998,5 +9983,20 @@
         "id": "4eecf9806e7b834ec8b0570ef3bb8507",
         "fingerprint": "quality manager - hospital industry|kauvery hospital|chennai",
         "date": "2026-04-27T12:49:42.406842"
+    },
+    {
+        "id": "502d49525f6fdbb7a4b4f33f1d6ea225",
+        "fingerprint": "sap test manager|cardinal health|bengaluru",
+        "date": "2026-04-27T19:50:09.785570"
+    },
+    {
+        "id": "da4ba1941072b7cef5ec4df6e0f09db9",
+        "fingerprint": "quality assurance manager (3-4 years)|bdi group (india)|pune",
+        "date": "2026-04-27T19:50:09.785584"
+    },
+    {
+        "id": "7433da893d0517be05bb4b0c90cd964e",
+        "fingerprint": "country quality manager|sanofi|mumbai",
+        "date": "2026-04-27T19:50:09.785587"
     }
 ]
