@@ -1,20 +1,5 @@
 [
     {
-        "id": "23b448e09bab27ecae42a2031aadfa7f",
-        "fingerprint": "asst manager - lithium ion battery (end of line testing) - hyderabad|exicom|hyderabad",
-        "date": "2026-02-23T13:05:45.308629"
-    },
-    {
-        "id": "caa14f94381086b13b618132d54234fb",
-        "fingerprint": "test manager|abcedo technologies|hyderabad",
-        "date": "2026-02-23T13:05:45.308631"
-    },
-    {
-        "id": "14dcb4973d6d3fefe7088c8eaeccb009",
-        "fingerprint": "api automation test manager|tredence|hyderabad",
-        "date": "2026-02-23T13:05:45.308632"
-    },
-    {
         "id": "a999071a8a649c34df936c96ee25259c",
         "fingerprint": "test engineering manager|cyient|hyderabad",
         "date": "2026-02-23T13:05:45.308635"
@@ -9998,5 +9983,20 @@
         "id": "577b38fc71aaa2032d09d44385e75da5",
         "fingerprint": "senior quality control manager|shine.com|chennai",
         "date": "2026-04-26T12:49:19.548494"
+    },
+    {
+        "id": "1e7d1aa2d274ca8baf8cd1e1ef96e5a2",
+        "fingerprint": "sdet lead|qualitest acq|bengaluru",
+        "date": "2026-04-27T06:49:45.835451"
+    },
+    {
+        "id": "c610d9971512bcd916bf174efb31ab5e",
+        "fingerprint": "quality assurance manager|prasanna packaging machinery pvt ltd|mumbai",
+        "date": "2026-04-27T06:49:45.835467"
+    },
+    {
+        "id": "0187dfff7b3adf78940436a806b53dd0",
+        "fingerprint": "manager / deputy manager quality|syntegon|remote",
+        "date": "2026-04-27T06:49:45.835470"
     }
 ]
