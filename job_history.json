@@ -1,90 +1,5 @@
 [
     {
-        "id": "a999071a8a649c34df936c96ee25259c",
-        "fingerprint": "test engineering manager|cyient|hyderabad",
-        "date": "2026-02-23T13:05:45.308635"
-    },
-    {
-        "id": "e9a2b939626d7833a7a7ea4d0917e630",
-        "fingerprint": "test engineering - credit risk | manager|macquarie|hyderabad",
-        "date": "2026-02-23T13:05:45.308637"
-    },
-    {
-        "id": "f91e8dfa298392fdf64e08c0d776e77c",
-        "fingerprint": "senior test manager|wsaudiology|hyderabad",
-        "date": "2026-02-23T13:05:45.308639"
-    },
-    {
-        "id": "2c0675100e5baff069b557e925ca4f12",
-        "fingerprint": "it engineering manager (qa) - pos testing|the tjx companies inc|hyderabad",
-        "date": "2026-02-23T13:05:45.308640"
-    },
-    {
-        "id": "0a890b7593896ccbc1d7026a801ba3b3",
-        "fingerprint": "engineering manager test automation|veeva systems|hyderabad",
-        "date": "2026-02-23T13:05:45.308642"
-    },
-    {
-        "id": "62feed923bfa59258e0802379ba69c7c",
-        "fingerprint": "senior test manager|nbits|hyderabad",
-        "date": "2026-02-23T13:05:45.308644"
-    },
-    {
-        "id": "62d438eb67c1706ffd29201026df6efc",
-        "fingerprint": "engineering manager - test automation|veeva systems|hyderabad",
-        "date": "2026-02-23T13:05:45.308646"
-    },
-    {
-        "id": "9c28353b1281f10a9b3fea92ce43670c",
-        "fingerprint": "testing manager|hifly projects|hyderabad",
-        "date": "2026-02-23T13:05:45.308648"
-    },
-    {
-        "id": "a9726c7c511192d2e861399c75b01b67",
-        "fingerprint": "test automation manager|optimworks|hyderabad",
-        "date": "2026-02-23T13:05:45.308650"
-    },
-    {
-        "id": "bc2babcb43707fe92a24ad3f03b28a93",
-        "fingerprint": "test manager - servicenow testing|yash technologies|hyderabad",
-        "date": "2026-02-23T13:05:45.308652"
-    },
-    {
-        "id": "7552d0cfad733820cc0c6e3c58abb91c",
-        "fingerprint": "sap fico test manager|janya it technologies|hyderabad",
-        "date": "2026-02-23T13:05:45.308654"
-    },
-    {
-        "id": "1cf8abeb950d8ec2f52fc16da8c4c8e1",
-        "fingerprint": "lead, data quality|blue planet solutions|delhi",
-        "date": "2026-02-23T13:05:45.308655"
-    },
-    {
-        "id": "e39c7728a77eec62482f92ba45090e63",
-        "fingerprint": "lead software quality engineer|adobe|delhi",
-        "date": "2026-02-23T13:05:45.308657"
-    },
-    {
-        "id": "b3710544ead10e91b5029034670a3ac5",
-        "fingerprint": "team leader quality management|kalypso a rockwell automation business|delhi",
-        "date": "2026-02-23T13:05:45.308659"
-    },
-    {
-        "id": "20b37d561b4c27ddc365587c248cccc7",
-        "fingerprint": "team leader quality management|rockwell automation|delhi",
-        "date": "2026-02-23T13:05:45.308661"
-    },
-    {
-        "id": "bf8e2ed5a21430b617c5a0edc132e7e8",
-        "fingerprint": "quality engineering lead (test lead)|accenture|delhi",
-        "date": "2026-02-23T13:05:45.308662"
-    },
-    {
-        "id": "55da38fd21942675a1a43777c6e58e6f",
-        "fingerprint": "team leader quality management|lektronix|delhi",
-        "date": "2026-02-23T13:05:45.308664"
-    },
-    {
         "id": "7e6419543a6f34213f103a70014c6637",
         "fingerprint": "lead quality engineering|s&p global market intelligence|delhi",
         "date": "2026-02-23T13:05:45.308666"
@@ -9998,5 +9913,90 @@
         "id": "0187dfff7b3adf78940436a806b53dd0",
         "fingerprint": "manager / deputy manager quality|syntegon|remote",
         "date": "2026-04-27T06:49:45.835470"
+    },
+    {
+        "id": "d2a58c3920d32e34200babc55cedbffc",
+        "fingerprint": "qa manager \u2013 customer audits & compliance|remal|mumbai",
+        "date": "2026-04-27T12:49:42.406791"
+    },
+    {
+        "id": "905b00e74126c1a48769926153477908",
+        "fingerprint": "deputy manager - quality (integrated projects)|piramal pharma ltd|mumbai",
+        "date": "2026-04-27T12:49:42.406808"
+    },
+    {
+        "id": "3b69ffe02e6254932d3161d25fdd911b",
+        "fingerprint": "manager - procurement automation & analytics|lseg|bengaluru",
+        "date": "2026-04-27T12:49:42.406812"
+    },
+    {
+        "id": "49e3dca849b2c16a91ba953fd185fd0b",
+        "fingerprint": "test manager - quality engineering|happiest minds technologies|bengaluru",
+        "date": "2026-04-27T12:49:42.406814"
+    },
+    {
+        "id": "8be153b0699b46d3d0470bd9934a8d26",
+        "fingerprint": "quality and escalation manager|hp|pune",
+        "date": "2026-04-27T12:49:42.406816"
+    },
+    {
+        "id": "f801bb868b3cf25e068e7c1ef7292dbd",
+        "fingerprint": "senior staff software engineer in test (dcp)|druva|pune",
+        "date": "2026-04-27T12:49:42.406818"
+    },
+    {
+        "id": "89dc3b1626e4d8fcbfd0b694c4c4ff30",
+        "fingerprint": "quality director|shine.com|hyderabad",
+        "date": "2026-04-27T12:49:42.406820"
+    },
+    {
+        "id": "7c6017d295b9c5bf0b55c7916b63d358",
+        "fingerprint": "clinical director (quality) - radiology|apollo radiology international|hyderabad",
+        "date": "2026-04-27T12:49:42.406823"
+    },
+    {
+        "id": "c664563e8969a1bdcaabaa477f33cae3",
+        "fingerprint": "team manager - qa|wsa \u2013 wonderful sound for all|hyderabad",
+        "date": "2026-04-27T12:49:42.406825"
+    },
+    {
+        "id": "a3e437a261ac60941a633ea7db52225c",
+        "fingerprint": "solution architect manufacturing and quality|opella|hyderabad",
+        "date": "2026-04-27T12:49:42.406827"
+    },
+    {
+        "id": "cb6b0d746b4d5c23d8d5b3b3374157de",
+        "fingerprint": "senior qa specialist \u2013 single-use systems (sus) / supplier quality lead|sotalent|hyderabad",
+        "date": "2026-04-27T12:49:42.406829"
+    },
+    {
+        "id": "5360684a793ac2cc3ad877fa7961ce72",
+        "fingerprint": "quality gm/qa manager(for garment manufacturing exports house)|fashionc overseas|gurugram",
+        "date": "2026-04-27T12:49:42.406831"
+    },
+    {
+        "id": "de5ebcee6444847e25d64acfa005ad04",
+        "fingerprint": "business operations & ai automation lead|myoperator|gurugram",
+        "date": "2026-04-27T12:49:42.406833"
+    },
+    {
+        "id": "08ea12c463c859e580fd00a189227898",
+        "fingerprint": "training and quality manager|detailing bull|noida",
+        "date": "2026-04-27T12:49:42.406836"
+    },
+    {
+        "id": "481d9424306a088d730301dac8e7ddeb",
+        "fingerprint": "head-development quality assurance (dqa)|crystal crop protection limited|noida",
+        "date": "2026-04-27T12:49:42.406838"
+    },
+    {
+        "id": "479019444102678b6c1c06fac4742c6d",
+        "fingerprint": "quality and lean manager|ge vernova|chennai",
+        "date": "2026-04-27T12:49:42.406840"
+    },
+    {
+        "id": "4eecf9806e7b834ec8b0570ef3bb8507",
+        "fingerprint": "quality manager - hospital industry|kauvery hospital|chennai",
+        "date": "2026-04-27T12:49:42.406842"
     }
 ]
