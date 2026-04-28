@@ -1,35 +1,5 @@
 [
     {
-        "id": "5dc40d4434b7853f1cbfddbaae7ec55d",
-        "fingerprint": "lead quality manager|welo data|delhi",
-        "date": "2026-02-23T13:05:45.308672"
-    },
-    {
-        "id": "7078bae0b762be09b72a819d90d9b411",
-        "fingerprint": "lead quality manager- generative ai data quality|welocalize|delhi",
-        "date": "2026-02-23T13:05:45.308674"
-    },
-    {
-        "id": "e99182d50417f82c0f2f5f29e2368445",
-        "fingerprint": "quality and test engineering  (tech lead)|saven nova technologies|delhi",
-        "date": "2026-02-23T13:05:45.308676"
-    },
-    {
-        "id": "05d2066d6b05bc5007a82178b8962a8e",
-        "fingerprint": "team lead - quality control|mount talent consulting|delhi",
-        "date": "2026-02-23T13:05:45.308678"
-    },
-    {
-        "id": "9f6d2bb25b6e13606712b63b89ffcf01",
-        "fingerprint": "quality engineering lead|mount talent consulting|delhi",
-        "date": "2026-02-23T13:05:45.308679"
-    },
-    {
-        "id": "b6c7897b6b3cbcf66dd209170fcfd32c",
-        "fingerprint": "quality assurance - lead|spyne|delhi",
-        "date": "2026-02-23T13:05:45.308681"
-    },
-    {
         "id": "c7d018f4abbaef6725ddec2505948dbc",
         "fingerprint": "senior quality team lead|tata realty|delhi",
         "date": "2026-02-23T13:05:45.308683"
@@ -9998,5 +9968,35 @@
         "id": "7433da893d0517be05bb4b0c90cd964e",
         "fingerprint": "country quality manager|sanofi|mumbai",
         "date": "2026-04-27T19:50:09.785587"
+    },
+    {
+        "id": "9188ea76944f2580f3e1913090825f70",
+        "fingerprint": "qa lead (manual + automation + ai)|saisystems health|pune",
+        "date": "2026-04-28T06:49:40.446872"
+    },
+    {
+        "id": "32db4a4b067f4e94e07b78bb8a047873",
+        "fingerprint": "seniot manager (operations via calling set up)|nobroker hr|bengaluru",
+        "date": "2026-04-28T06:49:40.446891"
+    },
+    {
+        "id": "dd78d660de924c355d080849f511984a",
+        "fingerprint": "quality and escalation manager|mygwork - lgbtq+ business community|mumbai",
+        "date": "2026-04-28T06:49:40.446894"
+    },
+    {
+        "id": "1c25d947d5ffaa737e12661569c7ec26",
+        "fingerprint": "sr quality manager, amazon customer service|amazon|hyderabad",
+        "date": "2026-04-28T06:49:40.446896"
+    },
+    {
+        "id": "dd1f70b69d83ba4428200908aa8ced38",
+        "fingerprint": "lead ii - software testing (performance testing +apache jmeter monitoring tools)|ust|hyderabad",
+        "date": "2026-04-28T06:49:40.446898"
+    },
+    {
+        "id": "4129687581ad9229b207d31ca8dcca23",
+        "fingerprint": "sr quality manager, amazon customer service|amazon|gurugram",
+        "date": "2026-04-28T06:49:40.446900"
     }
 ]
