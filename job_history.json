@@ -1,30 +1,5 @@
 [
     {
-        "id": "f48aea61617b55b28edcad8a35f29687",
-        "fingerprint": "quality manager|people prime worldwide|delhi",
-        "date": "2026-02-23T13:05:45.308728"
-    },
-    {
-        "id": "b27e9e55b16a05e62fe6c249225f2d79",
-        "fingerprint": "furniture quality manager|geeken seating collection|delhi",
-        "date": "2026-02-23T13:05:45.308730"
-    },
-    {
-        "id": "03d49d33c7293e08fa36a0fcae62caab",
-        "fingerprint": "quality manager- customer service (voice process)|mancer consulting services|delhi",
-        "date": "2026-02-23T13:05:45.308732"
-    },
-    {
-        "id": "9b6ef9098e623d06b5bc899422f7e1c7",
-        "fingerprint": "quality assurance manager|cialfo solutions|delhi",
-        "date": "2026-02-23T13:05:45.308734"
-    },
-    {
-        "id": "c1c5ecefd1b9f8a5b040a2539b4af87c",
-        "fingerprint": "quality manager|jayanita exports|delhi",
-        "date": "2026-02-23T13:05:45.308736"
-    },
-    {
         "id": "40d927a8bf6c0812b724703c16bf3f68",
         "fingerprint": "manager - it quality & assurance testing|mercer|delhi",
         "date": "2026-02-23T13:05:45.308738"
@@ -9998,5 +9973,30 @@
         "id": "c11849181d0d7501d7edfcddf3c9c0eb",
         "fingerprint": "lead quality auditor \u2013 electrical (global tech program | india | part-time contract)|sqa services, inc.|ahmedabad",
         "date": "2026-04-29T12:49:48.265230"
+    },
+    {
+        "id": "8afd7d2f8dd92c6fd6b878901088dc39",
+        "fingerprint": "sr mgr test engineering|silvus technologies|bengaluru",
+        "date": "2026-04-29T19:49:28.688306"
+    },
+    {
+        "id": "0f675cf23c4cc81563883ff9b68a51e5",
+        "fingerprint": "food quality & ehs head (qhse) - from food companies|sg oasis hr consultancy pvt ltd|mumbai",
+        "date": "2026-04-29T19:49:28.688322"
+    },
+    {
+        "id": "44376873e6f8713099da82553f722266",
+        "fingerprint": "manager - servicenow automation lead|bnp paribas|chennai",
+        "date": "2026-04-29T19:49:28.688325"
+    },
+    {
+        "id": "c7b3dbbe9fb446494b02132a66104004",
+        "fingerprint": "manager/ senior manager - faas- automation & solution architect - gurgaon/bangalore/chennai|ey|chennai",
+        "date": "2026-04-29T19:49:28.688327"
+    },
+    {
+        "id": "1037b7868fe0586933f7543c127d6479",
+        "fingerprint": "lead software development engineer in test- vice president|citi|chennai",
+        "date": "2026-04-29T19:49:28.688330"
     }
 ]
