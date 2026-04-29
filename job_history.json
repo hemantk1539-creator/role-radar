@@ -1,50 +1,5 @@
 [
     {
-        "id": "126c9924fe70542686db3b6317941815",
-        "fingerprint": "quality manager|pr management consultant faridabad|delhi",
-        "date": "2026-02-23T13:05:45.308711"
-    },
-    {
-        "id": "333110f7cebc45e05b94b9b4fefa00fa",
-        "fingerprint": "manager- hospital quality & operations|umkal hospital|delhi",
-        "date": "2026-02-23T13:05:45.308713"
-    },
-    {
-        "id": "b46f9920f8c215544f4417cfcb6f095c",
-        "fingerprint": "it quality manager|rhysley|delhi",
-        "date": "2026-02-23T13:05:45.308715"
-    },
-    {
-        "id": "27d7286945b629563fbdeba8dabfb61d",
-        "fingerprint": "quality manager|turner townsend|delhi",
-        "date": "2026-02-23T13:05:45.308717"
-    },
-    {
-        "id": "dfc089d0cfa3412f01d9e19f2da04b10",
-        "fingerprint": "manager quality|fortis|delhi",
-        "date": "2026-02-23T13:05:45.308719"
-    },
-    {
-        "id": "4f0c6e854c9b7ae04aa3b1b091bcd10d",
-        "fingerprint": "project manager (quality)_bid position|systra|delhi",
-        "date": "2026-02-23T13:05:45.308721"
-    },
-    {
-        "id": "9a0714063ef6d3ae6717a544a353b82c",
-        "fingerprint": "quality manager|teleperformance (tp)|delhi",
-        "date": "2026-02-23T13:05:45.308722"
-    },
-    {
-        "id": "3e043f15d508b5d39c76f9f5c1d3f597",
-        "fingerprint": "training and quality manager|wipro|delhi",
-        "date": "2026-02-23T13:05:45.308725"
-    },
-    {
-        "id": "3c2d7be89babb423b88c58cc01d68b28",
-        "fingerprint": "chief manager ground safety and quality control|air india|delhi",
-        "date": "2026-02-23T13:05:45.308726"
-    },
-    {
         "id": "f48aea61617b55b28edcad8a35f29687",
         "fingerprint": "quality manager|people prime worldwide|delhi",
         "date": "2026-02-23T13:05:45.308728"
@@ -9998,5 +9953,50 @@
         "id": "7193022cbdd620d811510c394f664080",
         "fingerprint": "lead quality engineer|scitara corporation|mumbai",
         "date": "2026-04-29T06:49:42.011956"
+    },
+    {
+        "id": "568fae2a39ba26abfeddae11ced3d1fa",
+        "fingerprint": "yarn qa manager|whizzo|bengaluru",
+        "date": "2026-04-29T12:49:48.265196"
+    },
+    {
+        "id": "e87eb50312728caf8a8a55a7a80f5efe",
+        "fingerprint": "manager - quality|ge vernova|bengaluru",
+        "date": "2026-04-29T12:49:48.265215"
+    },
+    {
+        "id": "e061c66e190fce310b5678b6f358d78a",
+        "fingerprint": "asst. project manager-qa/qc -mep|team4 lifespaces|hyderabad",
+        "date": "2026-04-29T12:49:48.265218"
+    },
+    {
+        "id": "68a8107e0f18fc183b02b1b995412d75",
+        "fingerprint": "lead - quality|adaniconnex|hyderabad",
+        "date": "2026-04-29T12:49:48.265220"
+    },
+    {
+        "id": "caf229d39f40d04cb853b9d0ab22a9e7",
+        "fingerprint": "quality assurance manager|netweb technologies india ltd.|gurugram",
+        "date": "2026-04-29T12:49:48.265222"
+    },
+    {
+        "id": "a4d5bf52c7d92104f74681c9da67a6d8",
+        "fingerprint": "quality assurance manager|winfra|gurugram",
+        "date": "2026-04-29T12:49:48.265224"
+    },
+    {
+        "id": "6a6ea59f95bc8b39ce6389efd6e575f3",
+        "fingerprint": "group manager - transactional quality (ptp/rtr/otc) - pct - chennai - ref99254x_2026241905|wns|chennai",
+        "date": "2026-04-29T12:49:48.265226"
+    },
+    {
+        "id": "ae283d94a7f029c32347afa0ac402002",
+        "fingerprint": "manager-advanced technical support-energy automation|schneider electric|noida",
+        "date": "2026-04-29T12:49:48.265228"
+    },
+    {
+        "id": "c11849181d0d7501d7edfcddf3c9c0eb",
+        "fingerprint": "lead quality auditor \u2013 electrical (global tech program | india | part-time contract)|sqa services, inc.|ahmedabad",
+        "date": "2026-04-29T12:49:48.265230"
     }
 ]
