@@ -1,15 +1,5 @@
 [
     {
-        "id": "59da128210408782b8dce7e956b6d293",
-        "fingerprint": "supplier quality- manager|adani group|delhi",
-        "date": "2026-02-23T13:05:45.308707"
-    },
-    {
-        "id": "897ae9a9d92585727963ae811d13209d",
-        "fingerprint": "deputy manager - coding quality team|optum|delhi",
-        "date": "2026-02-23T13:05:45.308709"
-    },
-    {
         "id": "126c9924fe70542686db3b6317941815",
         "fingerprint": "quality manager|pr management consultant faridabad|delhi",
         "date": "2026-02-23T13:05:45.308711"
@@ -9998,5 +9988,15 @@
         "id": "f26b018a17abe7f9c93115f320367cee",
         "fingerprint": "operations manager, quality assurance|monzo",
         "date": "2026-04-28T19:49:59.443504"
+    },
+    {
+        "id": "aad362cb34405dea018061be1fd702e1",
+        "fingerprint": "manager - compliance testing|godrej capital|mumbai",
+        "date": "2026-04-29T06:49:42.011940"
+    },
+    {
+        "id": "7193022cbdd620d811510c394f664080",
+        "fingerprint": "lead quality engineer|scitara corporation|mumbai",
+        "date": "2026-04-29T06:49:42.011956"
     }
 ]
