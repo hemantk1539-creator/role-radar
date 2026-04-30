@@ -1,20 +1,5 @@
 [
     {
-        "id": "4f8964f30cde5a54d077d250b8a89099",
-        "fingerprint": "quality engineer / quality manager|colliers|delhi",
-        "date": "2026-02-23T13:05:45.308740"
-    },
-    {
-        "id": "d3fe2254c7c370afdaa24fb2b73ee0a5",
-        "fingerprint": "quality manager|helmsman india quality technology services pri vate|delhi",
-        "date": "2026-02-23T13:05:45.308742"
-    },
-    {
-        "id": "a135d6e9b7289a9648068cd28ee9b85d",
-        "fingerprint": "software quality assurance manager|virtual engineering services|delhi",
-        "date": "2026-02-23T13:05:45.308743"
-    },
-    {
         "id": "5952e615dc2b2dbecdf76f3cf931b948",
         "fingerprint": "quality assurance & testing manager|texala india|delhi",
         "date": "2026-02-23T13:05:45.308745"
@@ -9998,5 +9983,20 @@
         "id": "6e16d8d8a0bf3c71250e763ab856252d",
         "fingerprint": "staff test lead|ge vernova|hyderabad",
         "date": "2026-04-30T06:49:37.578481"
+    },
+    {
+        "id": "c0aff179af45d12f490d970dfcf52dc5",
+        "fingerprint": "techinal manager / lab incharge - building material testing|elca laboratories|mumbai",
+        "date": "2026-04-30T12:49:39.044042"
+    },
+    {
+        "id": "ddba01f44ba62520099e76e17ea978d8",
+        "fingerprint": "head pv quality assurance - go/jc/2897/2026|golden opportunities|chennai",
+        "date": "2026-04-30T12:49:39.044059"
+    },
+    {
+        "id": "0f0ff3dcaf300f5c4898d2782f5ac4df",
+        "fingerprint": "senior team lead - global quality operations|uber|remote",
+        "date": "2026-04-30T12:49:39.044062"
     }
 ]
