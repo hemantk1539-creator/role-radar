@@ -1,35 +1,5 @@
 [
     {
-        "id": "5952e615dc2b2dbecdf76f3cf931b948",
-        "fingerprint": "quality assurance & testing manager|texala india|delhi",
-        "date": "2026-02-23T13:05:45.308745"
-    },
-    {
-        "id": "80628517682cb09b2793c369c6b398e2",
-        "fingerprint": "it-quality manager|maruti true value|delhi",
-        "date": "2026-02-23T13:05:45.308747"
-    },
-    {
-        "id": "b4866ada757ee9f4eabfbf89cecb818b",
-        "fingerprint": "quality control manager - electronics products manufacturing|hbeonlabs technologies|delhi",
-        "date": "2026-02-23T13:05:45.308749"
-    },
-    {
-        "id": "c71bf7557c94ae6a46a9e6efa2e4e638",
-        "fingerprint": "manager quality ( qa / qc )|arvind techno engineers|delhi",
-        "date": "2026-02-23T13:05:45.308751"
-    },
-    {
-        "id": "5c0a484d2ffab0ffb7048beec5571bd6",
-        "fingerprint": "quality check manager|ue autotech (i)|delhi",
-        "date": "2026-02-23T13:05:45.308753"
-    },
-    {
-        "id": "d82a33b9ea7560c19aef9f72298031b1",
-        "fingerprint": "quality manager systems|systra|delhi",
-        "date": "2026-02-23T13:05:45.308755"
-    },
-    {
         "id": "99124a7dd7814734e03b253f7396a547",
         "fingerprint": "sr. quality manager|continental device india (cdil) |delhi",
         "date": "2026-02-23T13:05:45.308756"
@@ -9998,5 +9968,35 @@
         "id": "0f0ff3dcaf300f5c4898d2782f5ac4df",
         "fingerprint": "senior team lead - global quality operations|uber|remote",
         "date": "2026-04-30T12:49:39.044062"
+    },
+    {
+        "id": "6d8d4c72eb3515064196762e3882131f",
+        "fingerprint": "senior quality assurance leader|shine.com|bengaluru",
+        "date": "2026-04-30T19:49:18.034473"
+    },
+    {
+        "id": "1362b60a01ef0ec1d3d65a07c2647c89",
+        "fingerprint": "senior test manager|dentsu|bengaluru",
+        "date": "2026-04-30T19:49:18.034489"
+    },
+    {
+        "id": "dd4fecceeebb896076e25e9686ff75a2",
+        "fingerprint": "senior quality assurance leader|shine.com|mumbai",
+        "date": "2026-04-30T19:49:18.034492"
+    },
+    {
+        "id": "4de7ae8597c4ab8aca5eaddef2d43f2e",
+        "fingerprint": "senior quality assurance leader|shine.com|hyderabad",
+        "date": "2026-04-30T19:49:18.034495"
+    },
+    {
+        "id": "f3bb8cb9f5469d978ca7efba49b83cff",
+        "fingerprint": "depot quality manager|alstom|noida",
+        "date": "2026-04-30T19:49:18.034498"
+    },
+    {
+        "id": "d455353613af70aa63cc26a15a89a2dc",
+        "fingerprint": "senior quality assurance leader|shine.com|chennai",
+        "date": "2026-04-30T19:49:18.034500"
     }
 ]
