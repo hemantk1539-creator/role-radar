@@ -1,30 +1,5 @@
 [
     {
-        "id": "99124a7dd7814734e03b253f7396a547",
-        "fingerprint": "sr. quality manager|continental device india (cdil) |delhi",
-        "date": "2026-02-23T13:05:45.308756"
-    },
-    {
-        "id": "ddc32504fc353d29ad754cd822c16403",
-        "fingerprint": "asst.manager / dy.manager quality (qa,qc)|jobnath hr services|delhi",
-        "date": "2026-02-23T13:05:45.308758"
-    },
-    {
-        "id": "1267d91ee5b4d041f0f9ce600633a8de",
-        "fingerprint": "deputy manager quality pt&d|g r infraprojects|delhi",
-        "date": "2026-02-23T13:05:45.308760"
-    },
-    {
-        "id": "509eca71f3cd8ddaafaeaf67f8a4677c",
-        "fingerprint": "test lead/manager|yethi consulting|delhi",
-        "date": "2026-02-23T13:05:45.308762"
-    },
-    {
-        "id": "27026afd74adc2c5b1a53999322e89a0",
-        "fingerprint": "test manager|fnz group|delhi",
-        "date": "2026-02-23T13:05:45.308764"
-    },
-    {
         "id": "f76839bb3ee7ed4c5626305bf89b750c",
         "fingerprint": "automation testing manager|canara hsbc life insurance company|delhi",
         "date": "2026-02-23T13:05:45.308766"
@@ -9998,5 +9973,30 @@
         "id": "d455353613af70aa63cc26a15a89a2dc",
         "fingerprint": "senior quality assurance leader|shine.com|chennai",
         "date": "2026-04-30T19:49:18.034500"
+    },
+    {
+        "id": "806737828e9cc43e8725728c034e91df",
+        "fingerprint": "sr quality manager|pradip plastic moulders pvt ltd|pune",
+        "date": "2026-05-01T06:49:41.707828"
+    },
+    {
+        "id": "0fa09fdac7058abc4194120805d19bd1",
+        "fingerprint": "senior manager \u2013 manufacturing test operations|arm|bengaluru",
+        "date": "2026-05-01T06:49:41.707846"
+    },
+    {
+        "id": "c39ec1f8dc44313eda9b1b00c86685a4",
+        "fingerprint": "head quality - consumer durables/electronics|michael page|gurugram",
+        "date": "2026-05-01T06:49:41.707849"
+    },
+    {
+        "id": "ba71f357e6187cc89e8d6be0fbae79f0",
+        "fingerprint": "senior manager, controls automation(india,malaysia)|standard chartered india|chennai",
+        "date": "2026-05-01T06:49:41.707851"
+    },
+    {
+        "id": "18c9ace22cfd2bf373e0feb4418e4ce6",
+        "fingerprint": "test architect|siemens|chennai",
+        "date": "2026-05-01T06:49:41.707853"
     }
 ]
