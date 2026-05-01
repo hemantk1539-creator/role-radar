@@ -1,25 +1,5 @@
 [
     {
-        "id": "8426181ff7a9511f100b5c3a4928fca1",
-        "fingerprint": "mgr/smgr - homologation testing - electricals & safety|maruti true value|delhi",
-        "date": "2026-02-23T13:05:45.308785"
-    },
-    {
-        "id": "aa9f8737451cb7179b0e9dd9e6ba78de",
-        "fingerprint": "senior manager, saas delivery (software testing manager)|simcorp|delhi",
-        "date": "2026-02-23T13:05:45.308787"
-    },
-    {
-        "id": "9a88dd7b62378b6143d5c2fb2a7d92e7",
-        "fingerprint": "sap testing manager|right step consulting|delhi",
-        "date": "2026-02-23T13:05:45.308789"
-    },
-    {
-        "id": "67297b5d70e7809c5493660615745d86",
-        "fingerprint": "director-quality|alight solutions|gurugram",
-        "date": "2026-02-23T13:05:45.308790"
-    },
-    {
         "id": "21c7a925d1071768f8d0e21802757e45",
         "fingerprint": "quality engineering lead (test lead)|accenture|gurugram",
         "date": "2026-02-23T13:05:45.308793"
@@ -9998,5 +9978,25 @@
         "id": "0350c55ac5b963e6855f64c78a621814",
         "fingerprint": "senior manager- engineering quality assurance quality control|reworld waste|remote",
         "date": "2026-05-01T12:49:52.111844"
+    },
+    {
+        "id": "81a7e37954a5127366ab7a0190f6e0a9",
+        "fingerprint": "head and a business leader  - process automation & vendor operation, company financials data|techs to suit inc|pune",
+        "date": "2026-05-01T19:49:56.131439"
+    },
+    {
+        "id": "87c7f94f88e138df172084a5beae8cc0",
+        "fingerprint": "head of quality engineering|comviva|gurugram",
+        "date": "2026-05-01T19:49:56.131456"
+    },
+    {
+        "id": "68d8d9e1d02cb0f867a64224588dc3fc",
+        "fingerprint": "test automation lead|comviva|gurugram",
+        "date": "2026-05-01T19:49:56.131459"
+    },
+    {
+        "id": "3c201ed93fb79d9f9cfc9ce0b64f6afe",
+        "fingerprint": "manager - automation architecture|ericsson|noida",
+        "date": "2026-05-01T19:49:56.131462"
     }
 ]
