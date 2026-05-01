@@ -1,55 +1,5 @@
 [
     {
-        "id": "f76839bb3ee7ed4c5626305bf89b750c",
-        "fingerprint": "automation testing manager|canara hsbc life insurance company|delhi",
-        "date": "2026-02-23T13:05:45.308766"
-    },
-    {
-        "id": "5e356786a96f5583d1ce5a5e0d422f12",
-        "fingerprint": "sap testing manager|genpact|delhi",
-        "date": "2026-02-23T13:05:45.308767"
-    },
-    {
-        "id": "aed032b29f7b758f3afa848048a04d20",
-        "fingerprint": "deputy manager  electrical testing & operations|crown hr services|delhi",
-        "date": "2026-02-23T13:05:45.308769"
-    },
-    {
-        "id": "fe92699657737504cb3492a2b9c34b9e",
-        "fingerprint": "test manager|macquarie|delhi",
-        "date": "2026-02-23T13:05:45.308771"
-    },
-    {
-        "id": "c5e364921d92f8bc558ff61428c334aa",
-        "fingerprint": "mobile web testing manager automation|rapsys tech solutions|delhi",
-        "date": "2026-02-23T13:05:45.308773"
-    },
-    {
-        "id": "9cca121d284366b4eb287fbc40f180ab",
-        "fingerprint": "senior manager, software test engineering (noida)|trintech|delhi",
-        "date": "2026-02-23T13:05:45.308775"
-    },
-    {
-        "id": "3d6fc2ce599e3bd5036d7bfc850f6350",
-        "fingerprint": "senior manager, software test engineering|trintech|delhi",
-        "date": "2026-02-23T13:05:45.308777"
-    },
-    {
-        "id": "851bfb3400d54f7044bf845ed52e1f2f",
-        "fingerprint": "performance test manager|augusta infotech|delhi",
-        "date": "2026-02-23T13:05:45.308779"
-    },
-    {
-        "id": "344c49fe112a191de4c3b28a53fb5b6d",
-        "fingerprint": "qa and testing - manager|dbest software|delhi",
-        "date": "2026-02-23T13:05:45.308781"
-    },
-    {
-        "id": "1bdfb7a1748324d50cb2265068045b54",
-        "fingerprint": "project manager - test rig m-f|safran engineering services|delhi",
-        "date": "2026-02-23T13:05:45.308783"
-    },
-    {
         "id": "8426181ff7a9511f100b5c3a4928fca1",
         "fingerprint": "mgr/smgr - homologation testing - electricals & safety|maruti true value|delhi",
         "date": "2026-02-23T13:05:45.308785"
@@ -9998,5 +9948,55 @@
         "id": "18c9ace22cfd2bf373e0feb4418e4ce6",
         "fingerprint": "test architect|siemens|chennai",
         "date": "2026-05-01T06:49:41.707853"
+    },
+    {
+        "id": "e18c40e03b279b897248b67d1be68244",
+        "fingerprint": "quality director|shine.com|bengaluru",
+        "date": "2026-05-01T12:49:52.111790"
+    },
+    {
+        "id": "22d498066ef4c861afc304f924fca161",
+        "fingerprint": "tech lead manager - quality engineering|fam|bengaluru",
+        "date": "2026-05-01T12:49:52.111815"
+    },
+    {
+        "id": "d444d86dd24bb1b87f7e5ecaf4d7598d",
+        "fingerprint": "technical manager \u2013 qa & solutions engineering|verdeshell technologies|gurugram",
+        "date": "2026-05-01T12:49:52.111820"
+    },
+    {
+        "id": "ec4b7cde00fe45e3154130a8edfd8c20",
+        "fingerprint": "manager / sr manager - transactional quality ( travel)|igt solutions|gurugram",
+        "date": "2026-05-01T12:49:52.111824"
+    },
+    {
+        "id": "c673847b656c50da5fa80c2ab028ad50",
+        "fingerprint": "manager/senior manager quality|igt solutions|gurugram",
+        "date": "2026-05-01T12:49:52.111828"
+    },
+    {
+        "id": "db59bef8a9a53878616caad86d125fe6",
+        "fingerprint": "automation manager|ericsson|gurugram",
+        "date": "2026-05-01T12:49:52.111833"
+    },
+    {
+        "id": "f2ce176c95a4aa11394682771293cda9",
+        "fingerprint": "quality & certification lead - energy storage (bess)|ampin energy transition|gurugram",
+        "date": "2026-05-01T12:49:52.111837"
+    },
+    {
+        "id": "5863325fee5306d532fb14834903e1a6",
+        "fingerprint": "incoming parts quality - lead|\u51ef\u65af\u7ebd\u8377\u5170(\u4e2d\u56fd)\u7ba1\u7406\u6709\u9650\u516c\u53f8|gurugram",
+        "date": "2026-05-01T12:49:52.111839"
+    },
+    {
+        "id": "8dbde53e91dc2454c7a2674038409030",
+        "fingerprint": "quality director|shine.com|chennai",
+        "date": "2026-05-01T12:49:52.111841"
+    },
+    {
+        "id": "0350c55ac5b963e6855f64c78a621814",
+        "fingerprint": "senior manager- engineering quality assurance quality control|reworld waste|remote",
+        "date": "2026-05-01T12:49:52.111844"
     }
 ]
