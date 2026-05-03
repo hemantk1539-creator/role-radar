@@ -1,15 +1,5 @@
 [
     {
-        "id": "1f4968e92afea5021862b044914e8e96",
-        "fingerprint": "mgr - in-plant quality assurance|maruti true value|gurugram",
-        "date": "2026-02-23T13:05:45.308818"
-    },
-    {
-        "id": "c90568aaced4472290ae406286986959",
-        "fingerprint": "quality manager, gtech ads solutions|google|gurugram",
-        "date": "2026-02-23T13:05:45.308820"
-    },
-    {
         "id": "cc9bb56335815f812cdecead59798e01",
         "fingerprint": "manager quality assurance|gatx india private ltd|gurugram",
         "date": "2026-02-23T13:05:45.308822"
@@ -9998,5 +9988,15 @@
         "id": "ef88a8e25360dfb5746301f3f563ba28",
         "fingerprint": "print qa team manager, print quality assurance|mygwork - lgbtq+ business community|hyderabad",
         "date": "2026-05-03T06:49:46.291355"
+    },
+    {
+        "id": "651b7e24784dc2497900216e8b0d981d",
+        "fingerprint": "qa technical lead|talentmate|pune",
+        "date": "2026-05-03T12:49:50.625177"
+    },
+    {
+        "id": "c49f52719c4bb9663e4c7d828e318317",
+        "fingerprint": "senior director, quality systems & compliance (global pharma/biotech)|sotalent|remote",
+        "date": "2026-05-03T12:49:50.625192"
     }
 ]
