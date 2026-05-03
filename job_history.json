@@ -1,20 +1,5 @@
 [
     {
-        "id": "94ab910ba2c266098fdc48119b39ff01",
-        "fingerprint": "regional site quality manager mea|hitachi energy|gurugram",
-        "date": "2026-02-23T13:05:45.308813"
-    },
-    {
-        "id": "184c7c71681743e003182d4c7fd2f03a",
-        "fingerprint": "localization quality manager|welo data|gurugram",
-        "date": "2026-02-23T13:05:45.308815"
-    },
-    {
-        "id": "b0f0fb4a5baedf359afd4e56c6f86329",
-        "fingerprint": "quality control (qc) manager|genes2me|gurugram",
-        "date": "2026-02-23T13:05:45.308816"
-    },
-    {
         "id": "1f4968e92afea5021862b044914e8e96",
         "fingerprint": "mgr - in-plant quality assurance|maruti true value|gurugram",
         "date": "2026-02-23T13:05:45.308818"
@@ -9998,5 +9983,20 @@
         "id": "cd63a9f89dfb0cc9376d7f417acf5f78",
         "fingerprint": "global quality manager operations (m/f/d)|tesa|remote",
         "date": "2026-05-02T19:49:19.824837"
+    },
+    {
+        "id": "899dbb71d4e088e39711ff038162267a",
+        "fingerprint": "senior technical project manager \u2013 cloud & automation|cg-vak software & exports ltd.|bengaluru",
+        "date": "2026-05-03T06:49:46.291336"
+    },
+    {
+        "id": "c2a60a9ba860b04c68f9f20135624163",
+        "fingerprint": "lead quality engineer - r01563088|talentmate|bengaluru",
+        "date": "2026-05-03T06:49:46.291353"
+    },
+    {
+        "id": "ef88a8e25360dfb5746301f3f563ba28",
+        "fingerprint": "print qa team manager, print quality assurance|mygwork - lgbtq+ business community|hyderabad",
+        "date": "2026-05-03T06:49:46.291355"
     }
 ]
