@@ -1,50 +1,5 @@
 [
     {
-        "id": "b155158538befd6291523e61ab4a55e3",
-        "fingerprint": "general manager manufacturing quality : automotive|dev solutions|gurugram",
-        "date": "2026-02-23T13:05:45.308832"
-    },
-    {
-        "id": "42d99ce6bf0ca6b02c6e3e0a3e2629e0",
-        "fingerprint": "quality - asst manager|park hospital|gurugram",
-        "date": "2026-02-23T13:05:45.308834"
-    },
-    {
-        "id": "11334d7b705111eae1bf748994dbd73e",
-        "fingerprint": "director, software quality engineering|s&p global market intelligence|gurugram",
-        "date": "2026-02-23T13:05:45.308836"
-    },
-    {
-        "id": "92854419cde7f633640636f5abdc07e2",
-        "fingerprint": "eiu principal quality engineer|economist group|gurugram",
-        "date": "2026-02-23T13:05:45.308838"
-    },
-    {
-        "id": "17734ad7f8c2e58068b4b7fa598c8c79",
-        "fingerprint": "quality manager|dudhi industries pvt. ltd.|gurugram",
-        "date": "2026-02-23T13:05:45.308840"
-    },
-    {
-        "id": "ab85f44ec6552ec10f34e96bc964f01c",
-        "fingerprint": "business unit head - automation (north and east)|cavitak|gurugram",
-        "date": "2026-02-23T13:05:45.308842"
-    },
-    {
-        "id": "b6319d60a998895fd9f9098ddce77b02",
-        "fingerprint": "performance test manager|augusta infotech|gurugram",
-        "date": "2026-02-23T13:05:45.308844"
-    },
-    {
-        "id": "4d0e9fd9c273090ab5bed2abe3243753",
-        "fingerprint": "team leader quality management|kalypso a rockwell automation business|noida",
-        "date": "2026-02-23T13:05:45.308846"
-    },
-    {
-        "id": "df8ad5d6914637103d2dc7f6f0d75e51",
-        "fingerprint": "team leader quality management|lektronix|noida",
-        "date": "2026-02-23T13:05:45.308847"
-    },
-    {
         "id": "48999822831a6a9192e4ab7cd107c689",
         "fingerprint": "team leader quality management|rockwell automation|noida",
         "date": "2026-02-23T13:05:45.308849"
@@ -9998,5 +9953,50 @@
         "id": "0e01d73ead9a7bd82d1750ecd7534f08",
         "fingerprint": "test architect l1|wipro|chennai",
         "date": "2026-05-04T06:49:28.944043"
+    },
+    {
+        "id": "6e306d10e5bb763b0f5b2aaa4fa706d4",
+        "fingerprint": "qa manager / am / executives|global calcium|bengaluru",
+        "date": "2026-05-04T12:49:49.582650"
+    },
+    {
+        "id": "99fa290736cc1ccd724b4205d23712f0",
+        "fingerprint": "sr. manager- qa/qc and r&d - khopoli|normet group|pune",
+        "date": "2026-05-04T12:49:49.582666"
+    },
+    {
+        "id": "026172a401721dff76f00596c28af120",
+        "fingerprint": "manager (qa & logistic, planning & dispatch)|gimpex pvt limited|hyderabad",
+        "date": "2026-05-04T12:49:49.582669"
+    },
+    {
+        "id": "ca06caf0e77ad45b8c65c8c5acca417f",
+        "fingerprint": "deputy manager supplier quality management|schneider electric|chennai",
+        "date": "2026-05-04T12:49:49.582671"
+    },
+    {
+        "id": "cda04d03aa950c2b229cc918dd1c0fe7",
+        "fingerprint": "quality management system (qms) manager|the madras seva sadan|chennai",
+        "date": "2026-05-04T12:49:49.582673"
+    },
+    {
+        "id": "21dc11e3005d37aab3fbb06def7917f3",
+        "fingerprint": "director of quality - hospital|stemz healthcare|chennai",
+        "date": "2026-05-04T12:49:49.582675"
+    },
+    {
+        "id": "46ae126cb8234d26a70f787e4fce8903",
+        "fingerprint": "technical lead, software test automation|kla|chennai",
+        "date": "2026-05-04T12:49:49.582677"
+    },
+    {
+        "id": "522afc4c96db1e91f1ba0371f6d4da34",
+        "fingerprint": "project quality manager|technip energies|ahmedabad",
+        "date": "2026-05-04T12:49:49.582679"
+    },
+    {
+        "id": "247efd89d5b8cf9dfa1d9aec6b9a1a37",
+        "fingerprint": "global head, quality reliability assurance|primestaff management services|remote",
+        "date": "2026-05-04T12:49:49.582681"
     }
 ]
