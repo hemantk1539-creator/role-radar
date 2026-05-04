@@ -1,40 +1,5 @@
 [
     {
-        "id": "48999822831a6a9192e4ab7cd107c689",
-        "fingerprint": "team leader quality management|rockwell automation|noida",
-        "date": "2026-02-23T13:05:45.308849"
-    },
-    {
-        "id": "fabc885c134ae1325533ee50f76b3901",
-        "fingerprint": "lead software quality engineer|adobe|noida",
-        "date": "2026-02-23T13:05:45.308851"
-    },
-    {
-        "id": "2273fc48bc0b1714795a8dca900335fc",
-        "fingerprint": "software quality assurance lead|virtual engineering services|noida",
-        "date": "2026-02-23T13:05:45.308853"
-    },
-    {
-        "id": "22a71107b2da3b64fc31b3a992a3fd52",
-        "fingerprint": "quality manager (f&b)|allsure services|noida",
-        "date": "2026-02-23T13:05:45.308855"
-    },
-    {
-        "id": "68e823cd1f7602cf71a278aeedc14c57",
-        "fingerprint": "quality assurance manager plastic|career solutions|noida",
-        "date": "2026-02-23T13:05:45.308857"
-    },
-    {
-        "id": "0e12b335aba7f2deaa17ef0f9b7a4b10",
-        "fingerprint": "sr. engineer/asstt manager-quality (pqc) (fan)|pioneer management consultants|noida",
-        "date": "2026-02-23T13:05:45.308859"
-    },
-    {
-        "id": "31b26381dd682abd16cd32686778bbcf",
-        "fingerprint": "quality manager|people prime worldwide|noida",
-        "date": "2026-02-23T13:05:45.308861"
-    },
-    {
         "id": "38fa7e9e4e05c26cf6afe8c160759268",
         "fingerprint": "quality manager - for fastener / forging / die casting industries|glsd recruitment solutions faridabad|noida",
         "date": "2026-02-23T13:05:45.308863"
@@ -9998,5 +9963,40 @@
         "id": "247efd89d5b8cf9dfa1d9aec6b9a1a37",
         "fingerprint": "global head, quality reliability assurance|primestaff management services|remote",
         "date": "2026-05-04T12:49:49.582681"
+    },
+    {
+        "id": "d35c37f8aa73dcda1dad434a6bdfc405",
+        "fingerprint": "qa manager|sage|bengaluru",
+        "date": "2026-05-04T19:50:08.048994"
+    },
+    {
+        "id": "d4c530131964c80366a16a04624ab678",
+        "fingerprint": "cft - avp test manager|m&g india|pune",
+        "date": "2026-05-04T19:50:08.049010"
+    },
+    {
+        "id": "e1e779d26e58ec3ced8042ceb48b50d4",
+        "fingerprint": "director, engineering execution & quality enablement|s&p global|hyderabad",
+        "date": "2026-05-04T19:50:08.049013"
+    },
+    {
+        "id": "fc839fe063a4fe68825319d95e57dbd0",
+        "fingerprint": "qa engineering lead|chubb|hyderabad",
+        "date": "2026-05-04T19:50:08.049015"
+    },
+    {
+        "id": "2a611b7745d28dd8ac328320bb4d6ff5",
+        "fingerprint": "quality & npd head|ganges internationale pvt. ltd.|chennai",
+        "date": "2026-05-04T19:50:08.049017"
+    },
+    {
+        "id": "90b18ade68534f048642bc2553dfae80",
+        "fingerprint": "director, global finished goods quality|carhartt|remote",
+        "date": "2026-05-04T19:50:08.049019"
+    },
+    {
+        "id": "0e89c7a478e4b55b4f44cb1525f1ee3a",
+        "fingerprint": "global quality manager|uvision group|remote",
+        "date": "2026-05-04T19:50:08.049021"
     }
 ]
