@@ -1,25 +1,5 @@
 [
     {
-        "id": "f63f2cf61dc3f64398753af33ab6ab91",
-        "fingerprint": "quality manager|everest vacuum|chennai",
-        "date": "2026-02-23T13:05:45.308965"
-    },
-    {
-        "id": "ca38836d0b02b27b5961e7c1a0c048d4",
-        "fingerprint": "data quality manager|prutech solutions|chennai",
-        "date": "2026-02-23T13:05:45.308967"
-    },
-    {
-        "id": "4b3854daa6bc67a3c1cdc598853e50c3",
-        "fingerprint": "quality manager|hydro prokav pumps|chennai",
-        "date": "2026-02-23T13:05:45.308968"
-    },
-    {
-        "id": "b795ab9d54fd439f1577c65afce9e99e",
-        "fingerprint": "sr. manager - quality management|sgr(777) foods|chennai",
-        "date": "2026-02-23T13:05:45.308970"
-    },
-    {
         "id": "a3f70b7fd88ce0cb19d431a9b22b29a8",
         "fingerprint": "deputy quality manager|skillmine|chennai",
         "date": "2026-02-23T13:05:45.308972"
@@ -9998,5 +9978,25 @@
         "id": "a45493541700bc7e2f8de444daaca1b0",
         "fingerprint": "director, global quality management systems|peloton interactive|remote",
         "date": "2026-05-06T19:49:42.845368"
+    },
+    {
+        "id": "8de5944e2d93132be28603f8b8901f9a",
+        "fingerprint": "testing tech lead analyst \u2013 vice president|citi|pune",
+        "date": "2026-05-07T06:49:44.068189"
+    },
+    {
+        "id": "8ed729fca5a10dd53e61a264573d7f5b",
+        "fingerprint": "senior test lead - playwright|happiest minds technologies|bengaluru",
+        "date": "2026-05-07T06:49:44.068207"
+    },
+    {
+        "id": "dfc3015dc640ee5a96daa46490fde260",
+        "fingerprint": "senior engineer qe, digital dist & ent eng|invesco|hyderabad",
+        "date": "2026-05-07T06:49:44.068210"
+    },
+    {
+        "id": "807014a4a48e8e492544ea43fe284b00",
+        "fingerprint": "director, global product quality|peloton interactive|remote",
+        "date": "2026-05-07T06:49:44.068213"
     }
 ]
