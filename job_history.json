@@ -1,55 +1,5 @@
 [
     {
-        "id": "a3f70b7fd88ce0cb19d431a9b22b29a8",
-        "fingerprint": "deputy quality manager|skillmine|chennai",
-        "date": "2026-02-23T13:05:45.308972"
-    },
-    {
-        "id": "f5bb501e22ad7945f6fb6fb25c50ecc8",
-        "fingerprint": "manager / senior manager - quality|avalon technologies|chennai",
-        "date": "2026-02-23T13:05:45.308974"
-    },
-    {
-        "id": "90c68e5111cc98811237e505f99b9d7b",
-        "fingerprint": "manager, quality business data engineer|pfizer|chennai",
-        "date": "2026-02-23T13:05:45.308976"
-    },
-    {
-        "id": "2fc09a4c759be84a69f04a9c1c30682b",
-        "fingerprint": "manager i, quality services, last mile transporterx|amazon|chennai",
-        "date": "2026-02-23T13:05:45.308978"
-    },
-    {
-        "id": "abadfe21e4e08ad0f00d856c61eecf83",
-        "fingerprint": "quality manager / quality officer|sms labs services|chennai",
-        "date": "2026-02-23T13:05:45.308980"
-    },
-    {
-        "id": "ae67bbe8847cd46603556e69d983c1b1",
-        "fingerprint": "quality assurance manager|versa drives|chennai",
-        "date": "2026-02-23T13:05:45.308982"
-    },
-    {
-        "id": "dec4fdbdd78e137444382c62318f8051",
-        "fingerprint": "quality manager 3|emerson|chennai",
-        "date": "2026-02-23T13:05:45.308983"
-    },
-    {
-        "id": "e66acb9697ce20f1a2e747bda0e28649",
-        "fingerprint": "production and quality assurance manager|butler leather|chennai",
-        "date": "2026-02-23T13:05:45.308985"
-    },
-    {
-        "id": "d409f5e8f690629d8523fdc43fecc035",
-        "fingerprint": "quality manager|acetech group|chennai",
-        "date": "2026-02-23T13:05:45.308987"
-    },
-    {
-        "id": "b7de29b96587dd2399689fb6f8e3b720",
-        "fingerprint": "project quality & governance manager|ses global technology services|chennai",
-        "date": "2026-02-23T13:05:45.308988"
-    },
-    {
         "id": "6bf0681b71cb7b0f6ac8f69cfba7bd4a",
         "fingerprint": "quality engineering architect (test arch|accenture|chennai",
         "date": "2026-02-23T13:05:45.308990"
@@ -9998,5 +9948,55 @@
         "id": "807014a4a48e8e492544ea43fe284b00",
         "fingerprint": "director, global product quality|peloton interactive|remote",
         "date": "2026-05-07T06:49:44.068213"
+    },
+    {
+        "id": "4ba7c7419b0547e07a7a068c82fc69dd",
+        "fingerprint": "qa manager|arup|bengaluru",
+        "date": "2026-05-07T12:49:37.113319"
+    },
+    {
+        "id": "10263d87100dc5d3caaba85737cf1cc0",
+        "fingerprint": "test laboratory manager|alstom|bengaluru",
+        "date": "2026-05-07T12:49:37.113336"
+    },
+    {
+        "id": "62ba800953bcdb932d5e48b07a586f79",
+        "fingerprint": "automation qa lead \u2013 10+ years | any ust location| immediate joiners preferred|ust|bengaluru",
+        "date": "2026-05-07T12:49:37.113339"
+    },
+    {
+        "id": "d0f83dba83780af7c102e43bca596e84",
+        "fingerprint": "manager - quality assurance (pcba)|schneider electric|bengaluru",
+        "date": "2026-05-07T12:49:37.113342"
+    },
+    {
+        "id": "d0dae137f737282a816de8ccab78ed34",
+        "fingerprint": "qa manager|arup|hyderabad",
+        "date": "2026-05-07T12:49:37.113345"
+    },
+    {
+        "id": "8457bef0bd7d1f75769506d112c19e35",
+        "fingerprint": "lead i - software testing with playwright|ust|hyderabad",
+        "date": "2026-05-07T12:49:37.113347"
+    },
+    {
+        "id": "809f4697ec5c3f33f334bc1eb1b4f778",
+        "fingerprint": "software quality assurance manager|repro india limited|gurugram",
+        "date": "2026-05-07T12:49:37.113349"
+    },
+    {
+        "id": "6b43c058b4a541cfc276470d1084da00",
+        "fingerprint": "qa manager|arup|gurugram",
+        "date": "2026-05-07T12:49:37.113352"
+    },
+    {
+        "id": "8ba8a1369196e226deda63b6e4f92dfe",
+        "fingerprint": "manager - quality assurance (r2p)|standard chartered india|chennai",
+        "date": "2026-05-07T12:49:37.113355"
+    },
+    {
+        "id": "200092c417c768f94c68509b88b35835",
+        "fingerprint": "sqa lead - automation|linearloop|ahmedabad",
+        "date": "2026-05-07T12:49:37.113357"
     }
 ]
