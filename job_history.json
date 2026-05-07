@@ -1,25 +1,5 @@
 [
     {
-        "id": "6bf0681b71cb7b0f6ac8f69cfba7bd4a",
-        "fingerprint": "quality engineering architect (test arch|accenture|chennai",
-        "date": "2026-02-23T13:05:45.308990"
-    },
-    {
-        "id": "6c15d28ff1df5989e79f027c6e00b6b4",
-        "fingerprint": "construction qa/qc manager | eversendai|eversendai|chennai",
-        "date": "2026-02-23T13:05:45.308992"
-    },
-    {
-        "id": "ae1b8cf7af0047aaabb76c6e66e4395f",
-        "fingerprint": "business development manager - ndt/ non destructive testing products|radial hr solutions|chennai",
-        "date": "2026-02-23T13:05:45.308994"
-    },
-    {
-        "id": "01881e12ba784e10305d3d323992f471",
-        "fingerprint": "technical manager (testing - wifi mesh)|nokia|chennai",
-        "date": "2026-02-23T13:05:45.308996"
-    },
-    {
         "id": "ce1a401aa06bf0975b6d5d952199cf16",
         "fingerprint": "business development manager - material testing equipments|radial hr solutions|chennai",
         "date": "2026-02-23T13:05:45.308998"
@@ -9998,5 +9978,25 @@
         "id": "200092c417c768f94c68509b88b35835",
         "fingerprint": "sqa lead - automation|linearloop|ahmedabad",
         "date": "2026-05-07T12:49:37.113357"
+    },
+    {
+        "id": "99663d3f7340e7176b639e2579745c68",
+        "fingerprint": "senior quality engineering manager|optum india|bengaluru",
+        "date": "2026-05-07T19:50:04.892516"
+    },
+    {
+        "id": "1e8c5d1b982b8bd28f5b129ba8974fdc",
+        "fingerprint": "principal software qa engineer|autodesk|pune",
+        "date": "2026-05-07T19:50:04.892534"
+    },
+    {
+        "id": "52b02933a9a132a1a341831438b980d6",
+        "fingerprint": "quality assurance manager|azista industries private limited|ahmedabad",
+        "date": "2026-05-07T19:50:04.892537"
+    },
+    {
+        "id": "76da1882f9781bdf0ec9afbaaa3b3fee",
+        "fingerprint": "rc - regulatory compliance - quality consultant - sap - manager|ey|chennai",
+        "date": "2026-05-07T19:50:04.892539"
     }
 ]
