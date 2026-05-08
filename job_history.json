@@ -1,75 +1,5 @@
 [
     {
-        "id": "ce1a401aa06bf0975b6d5d952199cf16",
-        "fingerprint": "business development manager - material testing equipments|radial hr solutions|chennai",
-        "date": "2026-02-23T13:05:45.308998"
-    },
-    {
-        "id": "2ea3c1026cd64a1ddf8bea06adbe2012",
-        "fingerprint": "sap test manager|capgemini|chennai",
-        "date": "2026-02-23T13:05:45.309000"
-    },
-    {
-        "id": "1bdc04edbbb1e8b881d368aee886d496",
-        "fingerprint": "test manager conversion|myridius x aethereus|chennai",
-        "date": "2026-02-23T13:05:45.309002"
-    },
-    {
-        "id": "82b75d9dd9f0fc5e7e00b5db6c15faab",
-        "fingerprint": "senior manager - testing|kattrapin technologies|chennai",
-        "date": "2026-02-23T13:05:45.309003"
-    },
-    {
-        "id": "cab797c38713d13407c392df4950e2e1",
-        "fingerprint": "test manager|intraedge technology|chennai",
-        "date": "2026-02-23T13:05:45.309005"
-    },
-    {
-        "id": "7ff9b3cef1788ca45689574f776a74b8",
-        "fingerprint": "manager - testing|xerago b2b|chennai",
-        "date": "2026-02-23T13:05:45.309007"
-    },
-    {
-        "id": "7b249a7febf179279a8c5c99458b7fa0",
-        "fingerprint": "senior quality assurance manager|biotech healthcare|ahmedabad",
-        "date": "2026-02-23T13:05:45.309009"
-    },
-    {
-        "id": "6dcc602fe05fae2ef957aa02ccdaa437",
-        "fingerprint": "leader quality  ahmedabad sanand|ingersoll rand|ahmedabad",
-        "date": "2026-02-23T13:05:45.309010"
-    },
-    {
-        "id": "977b77b871ec66448ec7f1f286b2c8a1",
-        "fingerprint": "manager qc qa|talisman placement services|ahmedabad",
-        "date": "2026-02-23T13:05:45.309012"
-    },
-    {
-        "id": "df33b88c053bd731ffeb31f6793f715c",
-        "fingerprint": "leader- quality ( centac and blower) - ahmedabad ( sanand)|ingersoll rand|ahmedabad",
-        "date": "2026-02-23T13:05:45.309014"
-    },
-    {
-        "id": "1df49b9ae04df9dee7606151c0e08e26",
-        "fingerprint": "lead - quality management systems|ina hr consulting|ahmedabad",
-        "date": "2026-02-23T13:05:45.309016"
-    },
-    {
-        "id": "572492e78b65c199129ff6bebb5e51a0",
-        "fingerprint": "manager data steward & quality|heinz|ahmedabad",
-        "date": "2026-02-23T13:05:45.309017"
-    },
-    {
-        "id": "b3a3ecb3bd825e47977f0adbecba282a",
-        "fingerprint": "deputy manager, qa validation|amneal pharmaceuticals|ahmedabad",
-        "date": "2026-02-23T13:05:45.309019"
-    },
-    {
-        "id": "5f7ce0ce1018e5c705a9d1c3cb6baa03",
-        "fingerprint": "quality control manager|zoetic ayurvedics|ahmedabad",
-        "date": "2026-02-23T13:05:45.309021"
-    },
-    {
         "id": "92f458a9b495c703e446ff5fc5ea49e0",
         "fingerprint": "quality control manager|kk hr services|ahmedabad",
         "date": "2026-02-23T13:05:45.309023"
@@ -9998,5 +9928,75 @@
         "id": "76da1882f9781bdf0ec9afbaaa3b3fee",
         "fingerprint": "rc - regulatory compliance - quality consultant - sap - manager|ey|chennai",
         "date": "2026-05-07T19:50:04.892539"
+    },
+    {
+        "id": "dad6bb43fb7b7c0fce07132acce3f387",
+        "fingerprint": "quality manager|om export india pvt ltd|pune",
+        "date": "2026-05-08T06:49:39.503508"
+    },
+    {
+        "id": "ab5d1b0b19d70e18bbf33236ca72742d",
+        "fingerprint": "lead software engineer (qe automation)|williams-sonoma, inc.|pune",
+        "date": "2026-05-08T06:49:39.503524"
+    },
+    {
+        "id": "e70f9d83e39f013a42fea7c239f1f8dc",
+        "fingerprint": "area development manager-home automation(pune)|assa abloy group|mumbai",
+        "date": "2026-05-08T06:49:39.503527"
+    },
+    {
+        "id": "34d11cd561377da009ac5fc58a27bee2",
+        "fingerprint": "test automation lead|accenture in india|hyderabad",
+        "date": "2026-05-08T06:49:39.503529"
+    },
+    {
+        "id": "5967c47e9889fe8d3fc1317430f10a01",
+        "fingerprint": "lead qa engineer|s&p global|hyderabad",
+        "date": "2026-05-08T06:49:39.503531"
+    },
+    {
+        "id": "a421e4593f0595cebfba39e4a3baac3b",
+        "fingerprint": "digital quality, mes/recipe cvs lead|lonza|hyderabad",
+        "date": "2026-05-08T06:49:39.503533"
+    },
+    {
+        "id": "ead947288bda46ba525676a119a64c2b",
+        "fingerprint": "lead i - software testing (automation- playwright)|ust|hyderabad",
+        "date": "2026-05-08T06:49:39.503535"
+    },
+    {
+        "id": "7a4d7b9bf8fc9fd44b3730ee180e2bbb",
+        "fingerprint": "lead engineer-automation|carrier|hyderabad",
+        "date": "2026-05-08T06:49:39.503536"
+    },
+    {
+        "id": "87e155eda0eef9c9756f5ac0a6c20d90",
+        "fingerprint": "senior lead engineer (qa)|alight solutions|gurugram",
+        "date": "2026-05-08T06:49:39.503538"
+    },
+    {
+        "id": "2eac528088ce88c0c9d353a1153ee160",
+        "fingerprint": "qa lead (rpa+python)|people, jobs, and news|gurugram",
+        "date": "2026-05-08T06:49:39.503540"
+    },
+    {
+        "id": "afe00628c9e30e1256f6d1ed085e4c5f",
+        "fingerprint": "gen ai/ agentic testing lead 5b|birlasoft|gurugram",
+        "date": "2026-05-08T06:49:39.503542"
+    },
+    {
+        "id": "b58301c16eaa4ec411e90534324d3cee",
+        "fingerprint": "manual - technical lead-testing services|birlasoft|gurugram",
+        "date": "2026-05-08T06:49:39.503544"
+    },
+    {
+        "id": "b36df4438e93259cfd33b7728cee92b7",
+        "fingerprint": "workday hcm test lead|wpp|chennai",
+        "date": "2026-05-08T06:49:39.503546"
+    },
+    {
+        "id": "63c757aa53748504f6a147f11e01c80a",
+        "fingerprint": "staff software engineer, ai and automation|okta",
+        "date": "2026-05-08T06:49:39.503547"
     }
 ]
