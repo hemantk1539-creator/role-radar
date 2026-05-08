@@ -1,80 +1,5 @@
 [
     {
-        "id": "cb927ce109c3e920fbd0a5fc9b46f7c1",
-        "fingerprint": "quality control manager|ren jetting systems|ahmedabad",
-        "date": "2026-02-23T13:05:45.309060"
-    },
-    {
-        "id": "3c3c9049abe14fcdc08e182a5dc11398",
-        "fingerprint": "clinical data manager(cdm) and quality assurance (qa)|thepharmadaily llp|ahmedabad",
-        "date": "2026-02-23T13:05:45.309062"
-    },
-    {
-        "id": "a7f2c3ce3f43ddbb0984979d7b736813",
-        "fingerprint": "quality & process manager|zepto microwave|ahmedabad",
-        "date": "2026-02-23T13:05:45.309064"
-    },
-    {
-        "id": "d3a10591c2319e99a6997f1289d0020b",
-        "fingerprint": "quality & food safety manager|ishi marine technologies|ahmedabad",
-        "date": "2026-02-23T13:05:45.309066"
-    },
-    {
-        "id": "ec174ec62b0aa4510a1a24ecee92afe1",
-        "fingerprint": "sr manager quality (plant location)|search advisers services guj|ahmedabad",
-        "date": "2026-02-23T13:05:45.309068"
-    },
-    {
-        "id": "c1a8b944c57263b6431d62341a779063",
-        "fingerprint": "industrial test engineering manager|valeo|ahmedabad",
-        "date": "2026-02-23T13:05:45.309070"
-    },
-    {
-        "id": "e4db16bb8c7c319061ea9e9ea43781ae",
-        "fingerprint": "technical manager - air quality|zigsaw|ahmedabad",
-        "date": "2026-02-23T13:05:45.309072"
-    },
-    {
-        "id": "3b219f8b8d128d2fb4ba91fe0d19eeb5",
-        "fingerprint": "software quality assurance team lead|questhiring|ahmedabad",
-        "date": "2026-02-23T13:05:45.309074"
-    },
-    {
-        "id": "b6f9510daed4c85ebce37f6e24e27186",
-        "fingerprint": "senior manager - powertrain (transaxle testing-maintenance)|tatamotors campus hiring|ahmedabad",
-        "date": "2026-02-23T13:05:45.309076"
-    },
-    {
-        "id": "a4f4bafdd1b7ba56840d237177375174",
-        "fingerprint": "lead quality engineer|code and theory|bengaluru",
-        "date": "2026-02-23T13:05:45.309077"
-    },
-    {
-        "id": "b820ed265415ebb64e2f9ed7ccb516f5",
-        "fingerprint": "it project manager. property management software testing & benchmarki|alexander reece thomson|mumbai",
-        "date": "2026-02-23T13:05:45.309079"
-    },
-    {
-        "id": "74836146fd80fb8136931b6b525cdb2a",
-        "fingerprint": "lead quality engineer - automation & ai|veripark|hyderabad",
-        "date": "2026-02-23T13:05:45.309081"
-    },
-    {
-        "id": "61eea160394d0d8b2380cb335c731b9c",
-        "fingerprint": "quality and hse manager / director|pipecare group|remote",
-        "date": "2026-02-23T13:05:45.309083"
-    },
-    {
-        "id": "6bc29f80676d7e54b836ded66fc13b88",
-        "fingerprint": "head of qa|netomi|remote",
-        "date": "2026-02-23T13:05:45.309084"
-    },
-    {
-        "id": "898beefdc89d48b99bf58f1c7fc240ed",
-        "fingerprint": "global submissions/ quality controller/ workflow manager- pv positions|vizen life sciences|hyderabad",
-        "date": "2026-02-23T13:05:45.309086"
-    },
-    {
         "id": "c3aa4d80131add65ce6819256f99b37c",
         "fingerprint": "director, global quality gmp processes|otsuka pharmaceutical companies (u.s.)|remote",
         "date": "2026-02-23T13:05:45.309088"
@@ -9998,5 +9923,80 @@
         "id": "b7ebba5013750640670b58cb33a6307f",
         "fingerprint": "quality assurance architect|acl digital|ahmedabad",
         "date": "2026-05-08T12:49:51.642861"
+    },
+    {
+        "id": "9e5c6931749052cfd5d7052415702d9d",
+        "fingerprint": "principal quality engineer - sdet|onetrust|bengaluru",
+        "date": "2026-05-08T19:50:27.489529"
+    },
+    {
+        "id": "d351509bd86f138d7622c6bb2cf16470",
+        "fingerprint": "quality assurance automation lead|impetus|bengaluru",
+        "date": "2026-05-08T19:50:27.489549"
+    },
+    {
+        "id": "db535210fbbbe15f3e79037b3db7be63",
+        "fingerprint": "site quality manager|jabil|pune",
+        "date": "2026-05-08T19:50:27.489551"
+    },
+    {
+        "id": "8d6802bf14c833d298a431a3374b1687",
+        "fingerprint": "qa lead|mizuho|pune",
+        "date": "2026-05-08T19:50:27.489554"
+    },
+    {
+        "id": "0cafc8832e0e1049966f66bef22ec8dc",
+        "fingerprint": "senior lead quality engineer - r01559275|brillio|pune",
+        "date": "2026-05-08T19:50:27.489556"
+    },
+    {
+        "id": "919506a0cb3922161c0bdb4060e165ad",
+        "fingerprint": "senior manager (generative ai & automation)|confidential|pune",
+        "date": "2026-05-08T19:50:27.489558"
+    },
+    {
+        "id": "b06ba98dd0a9a2d4bb027bf3e25202f6",
+        "fingerprint": "test architect|p99soft|pune",
+        "date": "2026-05-08T19:50:27.489561"
+    },
+    {
+        "id": "2e02f87742468a552356c6f80ffe0c26",
+        "fingerprint": "manager - quality aerospace|ge aerospace|pune",
+        "date": "2026-05-08T19:50:27.489563"
+    },
+    {
+        "id": "32812c9f6a2d17dc82eb0803981332f8",
+        "fingerprint": "staff sdet|cyberark|hyderabad",
+        "date": "2026-05-08T19:50:27.489565"
+    },
+    {
+        "id": "f1614a90b62e556864873d2bfd66f322",
+        "fingerprint": "quality assurance manager|ets|gurugram",
+        "date": "2026-05-08T19:50:27.489567"
+    },
+    {
+        "id": "748428dfee7714e683110a85d328271a",
+        "fingerprint": "asst manager- quality|vishay intertechnology, inc.|noida",
+        "date": "2026-05-08T19:50:27.489570"
+    },
+    {
+        "id": "9f72f08e6f7bd54e2794500df548fee2",
+        "fingerprint": "test manager|mygwork - lgbtq+ business community|chennai",
+        "date": "2026-05-08T19:50:27.489572"
+    },
+    {
+        "id": "a90204faa99c83d733ce8e14f0759234",
+        "fingerprint": "quality engineering manager|optum india|chennai",
+        "date": "2026-05-08T19:50:27.489574"
+    },
+    {
+        "id": "cb9f2659bbbdd2188ecc16521d832613",
+        "fingerprint": "quality check manager (operations)|phoenix business advisory|ahmedabad",
+        "date": "2026-05-08T19:50:27.489577"
+    },
+    {
+        "id": "25217eede929be8811e82e5fbd46716a",
+        "fingerprint": "caul group: director of revenue systems and ai automation|wwr",
+        "date": "2026-05-08T19:50:27.489579"
     }
 ]
