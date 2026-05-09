@@ -1,60 +1,5 @@
 [
     {
-        "id": "c3aa4d80131add65ce6819256f99b37c",
-        "fingerprint": "director, global quality gmp processes|otsuka pharmaceutical companies (u.s.)|remote",
-        "date": "2026-02-23T13:05:45.309088"
-    },
-    {
-        "id": "04faa126f2bc8c13871dbb98c15e9823",
-        "fingerprint": "engineering manager - qa|nutanix|bengaluru",
-        "date": "2026-02-23T20:05:36.526665"
-    },
-    {
-        "id": "91a598629a01dcbefca5c03a6b35b5bb",
-        "fingerprint": "test manager|standard chartered india|bengaluru",
-        "date": "2026-02-23T20:05:36.526681"
-    },
-    {
-        "id": "081d53eff07c5b93719cb5874e5961f8",
-        "fingerprint": "quality team lead|concentrix|bengaluru",
-        "date": "2026-02-23T20:05:36.526684"
-    },
-    {
-        "id": "4f3e50acec835ebfa67c3be0caf8d123",
-        "fingerprint": "quality control lead|sbm nauvata|bengaluru",
-        "date": "2026-02-23T20:05:36.526687"
-    },
-    {
-        "id": "c7323cc5f65bc0186ec881048d0e97de",
-        "fingerprint": "manager quality - industrial machine manufacturing|t a solutions|bengaluru",
-        "date": "2026-02-23T20:05:36.526689"
-    },
-    {
-        "id": "5751b19ea1f3fcda7abe5c006ac2a450",
-        "fingerprint": "principal qa engineer (automation & platform quality)|plugscale consulting|bengaluru",
-        "date": "2026-02-23T20:05:36.526692"
-    },
-    {
-        "id": "6029b781ee25e5f1f461cab9a3d2e259",
-        "fingerprint": "non erp test manager (sap)|varite|bengaluru",
-        "date": "2026-02-23T20:05:36.526694"
-    },
-    {
-        "id": "d062c7ceaedad5506ae9a2f6cf032d84",
-        "fingerprint": "sap test manager|varite|bengaluru",
-        "date": "2026-02-23T20:05:36.526697"
-    },
-    {
-        "id": "fa23950deb7fd55f89d8ac214e6f5f49",
-        "fingerprint": "sap testing - automation- ai- innovation-senior manager|ey|bengaluru",
-        "date": "2026-02-23T20:05:36.526699"
-    },
-    {
-        "id": "f143981dc80aa630b9274ccf7aa75196",
-        "fingerprint": "quality assurance manager|talent corner hr services pvt ltd|pune",
-        "date": "2026-02-23T20:05:36.526701"
-    },
-    {
         "id": "19704d1dae18355d74d343cf0005945c",
         "fingerprint": "quality manager medical device & polymers|the lubrizol corporation|mumbai",
         "date": "2026-02-23T20:05:36.526704"
@@ -9998,5 +9943,60 @@
         "id": "25217eede929be8811e82e5fbd46716a",
         "fingerprint": "caul group: director of revenue systems and ai automation|wwr",
         "date": "2026-05-08T19:50:27.489579"
+    },
+    {
+        "id": "fd024872dc5869e1b24563c5555e0710",
+        "fingerprint": "leader - firmware test|talentmate|pune",
+        "date": "2026-05-09T06:50:06.154431"
+    },
+    {
+        "id": "e3f129cd3b74884374699559ff05ae55",
+        "fingerprint": "supplier quality manager: motors|profile hr consultants pvt ltd.|mumbai",
+        "date": "2026-05-09T06:50:06.154449"
+    },
+    {
+        "id": "844f85f7d341bd195472da25afa56867",
+        "fingerprint": "rpa automation manager|envoy global|hyderabad",
+        "date": "2026-05-09T06:50:06.154451"
+    },
+    {
+        "id": "b1d56e2753799d9d2283250758716024",
+        "fingerprint": "asst manager- quality|vishay siliconix itzehoe gmbh|gurugram",
+        "date": "2026-05-09T06:50:06.154453"
+    },
+    {
+        "id": "32fb5a13eb880e95b4efcffd6862b63f",
+        "fingerprint": "test automation lead|accenture in india|noida",
+        "date": "2026-05-09T06:50:06.154456"
+    },
+    {
+        "id": "bddcf4593123b32758b00393fa6c0c68",
+        "fingerprint": "test module lead - pimcore|happiest minds technologies|noida",
+        "date": "2026-05-09T06:50:06.154458"
+    },
+    {
+        "id": "6ab0736d04c7314bcc48cc65e91c5d38",
+        "fingerprint": "lead qa engineer|forbes advisor|chennai",
+        "date": "2026-05-09T06:50:06.154460"
+    },
+    {
+        "id": "ef5ff61f7b7198ad3622f0e55c71a740",
+        "fingerprint": "lead test engineer|valgenesis|chennai",
+        "date": "2026-05-09T06:50:06.154462"
+    },
+    {
+        "id": "62848f224eba06a559f8697cfd923790",
+        "fingerprint": "group manager - quality assurance|pfizer|remote",
+        "date": "2026-05-09T06:50:06.154463"
+    },
+    {
+        "id": "269510ecac1d1ca3e8cfd5db28865cf4",
+        "fingerprint": "director of revenue systems and ai automation (offshore)|caul group",
+        "date": "2026-05-09T06:50:06.154466"
+    },
+    {
+        "id": "4bdc5426eb808fe59f408dc8e9fd0a9d",
+        "fingerprint": "digital content & ai automation manager|okta",
+        "date": "2026-05-09T06:50:06.154468"
     }
 ]
