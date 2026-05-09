@@ -1,45 +1,5 @@
 [
     {
-        "id": "a980504954684f311866aa6ad702fcd4",
-        "fingerprint": "technical lead - quality engineering ott|to the new|delhi",
-        "date": "2026-02-23T20:05:36.526726"
-    },
-    {
-        "id": "dfa088919016df4c0c101125e0510870",
-        "fingerprint": "sr quality engineering manager|axa xl|gurugram",
-        "date": "2026-02-23T20:05:36.526728"
-    },
-    {
-        "id": "205a3aba26052d03f04b1b6cd214ff3d",
-        "fingerprint": "lead quality|stryker|noida",
-        "date": "2026-02-23T20:05:36.526731"
-    },
-    {
-        "id": "64053395abed870b67a00b4bdd85abd2",
-        "fingerprint": "testing - bcm functional - manager|ey|chennai",
-        "date": "2026-02-23T20:05:36.526733"
-    },
-    {
-        "id": "494a9f399a759ba06bb08d955992717c",
-        "fingerprint": "testing-bcm functional-senior manager|ey|chennai",
-        "date": "2026-02-23T20:05:36.526735"
-    },
-    {
-        "id": "cc20aff4e1decbc3bf2755845b205c86",
-        "fingerprint": "testing - automation-manager|ey|chennai",
-        "date": "2026-02-23T20:05:36.526738"
-    },
-    {
-        "id": "d1a311e9fe8b57d6f0caa94754aa2b7c",
-        "fingerprint": "manager, automation & digitalization|amneal pharmaceuticals|ahmedabad",
-        "date": "2026-02-23T20:05:36.526740"
-    },
-    {
-        "id": "927ff37ad65884034c6f6b0837275f90",
-        "fingerprint": "quality assurance lead|actowiz solutions|ahmedabad",
-        "date": "2026-02-23T20:05:36.526742"
-    },
-    {
         "id": "c67b9ddb129042fb0d8f32eca4d507ef",
         "fingerprint": "quality & regulatory lead (independent contractor)|addiction pet foods|ahmedabad",
         "date": "2026-02-23T20:05:36.526745"
@@ -9998,5 +9958,45 @@
         "id": "d970c82b1cb46ead9449af76a271b87e",
         "fingerprint": "quality assurance manager|smurfit westrock|remote",
         "date": "2026-05-09T12:49:20.795871"
+    },
+    {
+        "id": "cff80f46446ee0744b136462286f8a6a",
+        "fingerprint": "ots automation lead - vice president|jpmorganchase|bengaluru",
+        "date": "2026-05-09T19:49:48.610645"
+    },
+    {
+        "id": "7bae24ea88f6dfae266b3aed4e1aa238",
+        "fingerprint": "manager technical quality assurance engineering|epsilon|bengaluru",
+        "date": "2026-05-09T19:49:48.610663"
+    },
+    {
+        "id": "f4c74ba23e4fac6c7d3dd6507c351f7c",
+        "fingerprint": "sap pen testing - lead solution advisor|deloitte|pune",
+        "date": "2026-05-09T19:49:48.610666"
+    },
+    {
+        "id": "0db21f0db0508eb12a61933bc83b4139",
+        "fingerprint": "test lead / business analyst / test analyst - los projects - mumbai (work from office )|aqm technologies|mumbai",
+        "date": "2026-05-09T19:49:48.610670"
+    },
+    {
+        "id": "6b2f80cb7a44bc438c3e97e6e65426ed",
+        "fingerprint": "senior qa engineer / qa lead (product & release) [2+ years exp.]|shoshin tech|hyderabad",
+        "date": "2026-05-09T19:49:48.610673"
+    },
+    {
+        "id": "0098ec4b8b76db175a14af2dbb22f273",
+        "fingerprint": "lead test engineer  - hvdc|ge vernova|chennai",
+        "date": "2026-05-09T19:49:48.610675"
+    },
+    {
+        "id": "4f6fee5889f48adcf912a16eed418d28",
+        "fingerprint": "quality program manager|erg|remote",
+        "date": "2026-05-09T19:49:48.610678"
+    },
+    {
+        "id": "89eaa2041174b08f3aa009f951786d2c",
+        "fingerprint": "senior director, global quality assurance|fluence|remote",
+        "date": "2026-05-09T19:49:48.610680"
     }
 ]
