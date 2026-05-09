@@ -1,40 +1,5 @@
 [
     {
-        "id": "19704d1dae18355d74d343cf0005945c",
-        "fingerprint": "quality manager medical device & polymers|the lubrizol corporation|mumbai",
-        "date": "2026-02-23T20:05:36.526704"
-    },
-    {
-        "id": "74429fed281dd8de8265806d41aa459e",
-        "fingerprint": "asst manager/manager - mineral & metal testing lab|geo-chem laboratories pvt. ltd. (part of cotecna group)|mumbai",
-        "date": "2026-02-23T20:05:36.526706"
-    },
-    {
-        "id": "705b4149a660421b04c4f31e96a1d90d",
-        "fingerprint": "test manager|datamatics|mumbai",
-        "date": "2026-02-23T20:05:36.526708"
-    },
-    {
-        "id": "8467fd211277c34aa57cd0c35dd7bde1",
-        "fingerprint": "senior manager, quality|cubic transportation systems|hyderabad",
-        "date": "2026-02-23T20:05:36.526717"
-    },
-    {
-        "id": "8c3051faf51bfa34023ba62d6091aff3",
-        "fingerprint": "principal software development engineer in test|solera holdings, llc.|hyderabad",
-        "date": "2026-02-23T20:05:36.526719"
-    },
-    {
-        "id": "3910d19ccb3e3ab8b5d5ce82ba058785",
-        "fingerprint": "qa lead - automation (playwright)|cloudleap software|hyderabad",
-        "date": "2026-02-23T20:05:36.526722"
-    },
-    {
-        "id": "464b109df172bfb3bba74ce7e4a19bfa",
-        "fingerprint": "testing-wam functional-senior manager|ey|hyderabad",
-        "date": "2026-02-23T20:05:36.526724"
-    },
-    {
         "id": "a980504954684f311866aa6ad702fcd4",
         "fingerprint": "technical lead - quality engineering ott|to the new|delhi",
         "date": "2026-02-23T20:05:36.526726"
@@ -9998,5 +9963,40 @@
         "id": "4bdc5426eb808fe59f408dc8e9fd0a9d",
         "fingerprint": "digital content & ai automation manager|okta",
         "date": "2026-05-09T06:50:06.154468"
+    },
+    {
+        "id": "10476d131b804810b3d422b6522404d4",
+        "fingerprint": "technical project manager - agile, scrum, product owner, ai & automation (7+ yrs)|cisco|bengaluru",
+        "date": "2026-05-09T12:49:20.795843"
+    },
+    {
+        "id": "3967132d35febf5fc9a3aaf009adcce3",
+        "fingerprint": "quality assurance manager|sj contracts pvt ltd|mumbai",
+        "date": "2026-05-09T12:49:20.795860"
+    },
+    {
+        "id": "12dafcbb9afbafe3209f85483418fdb5",
+        "fingerprint": "principal engineer - it quality & assurance testing|marsh risk|mumbai",
+        "date": "2026-05-09T12:49:20.795863"
+    },
+    {
+        "id": "9f6131d4166ae306bd7e3bb8bba1c500",
+        "fingerprint": "qa architect|roboyo|hyderabad",
+        "date": "2026-05-09T12:49:20.795865"
+    },
+    {
+        "id": "27e3d2f2af6afcd573c39c4c896967ea",
+        "fingerprint": "lead i - software testing (automation testing, java, selenium, api testing, rest assured)|ust|hyderabad",
+        "date": "2026-05-09T12:49:20.795867"
+    },
+    {
+        "id": "f8f4386465660ea853cc56da1ea4e64e",
+        "fingerprint": "lead quality engineer|talentmate|chennai",
+        "date": "2026-05-09T12:49:20.795869"
+    },
+    {
+        "id": "d970c82b1cb46ead9449af76a271b87e",
+        "fingerprint": "quality assurance manager|smurfit westrock|remote",
+        "date": "2026-05-09T12:49:20.795871"
     }
 ]
