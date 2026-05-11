@@ -1,40 +1,5 @@
 [
     {
-        "id": "cb24aa13625768b43b6924ce3e007cb8",
-        "fingerprint": "engineering manager - test|booking holdings (nasdaq: bkng)|bengaluru",
-        "date": "2026-02-24T07:05:12.667895"
-    },
-    {
-        "id": "8d2db162677b356eb41a307d4e91aa2e",
-        "fingerprint": "sap test program manager|capgemini|pune",
-        "date": "2026-02-24T07:05:12.667897"
-    },
-    {
-        "id": "ddc8318fe4afaa7159bc7fb0c5fcca5e",
-        "fingerprint": "senior qa lead|netspi|pune",
-        "date": "2026-02-24T07:05:12.667899"
-    },
-    {
-        "id": "033ad15c87df09e791e0a517149f34df",
-        "fingerprint": "general manager qa qc|naiknavare developers|pune",
-        "date": "2026-02-24T07:05:12.667901"
-    },
-    {
-        "id": "3c1905373f9ca5d6bb42e664e9db2a94",
-        "fingerprint": "asst - quality assurance manager (api)|great pacific exports|mumbai",
-        "date": "2026-02-24T07:05:12.667904"
-    },
-    {
-        "id": "9e7d06b7186125bd74f033ced284fd49",
-        "fingerprint": "quality manager ( only hospitals )|continental hospitals|hyderabad",
-        "date": "2026-02-24T07:05:12.667906"
-    },
-    {
-        "id": "052c436c70b72b9de602b44b74f439d7",
-        "fingerprint": "quality engineering architect (test arch|accenture in india|hyderabad",
-        "date": "2026-02-24T07:05:12.667908"
-    },
-    {
         "id": "62d5220bf27c53e86397684414d24753",
         "fingerprint": "quality assurance lead (product engineering)|oolio|hyderabad",
         "date": "2026-02-24T07:05:12.667910"
@@ -9998,5 +9963,40 @@
         "id": "f2b525d0acaad3639e6999b033e963d0",
         "fingerprint": "global head of quality assurance, vp iii - state street investment management|state street|remote",
         "date": "2026-05-10T19:49:33.182819"
+    },
+    {
+        "id": "d836da5a30cc3ecb522f823fb6bed524",
+        "fingerprint": "head quality - cluster (manufacturing cluster - pune)|varroc|pune",
+        "date": "2026-05-11T06:49:41.144740"
+    },
+    {
+        "id": "c45c0dfd82cb11c3b6d19ff36187dce3",
+        "fingerprint": "site quality manager|mygwork - lgbtq+ business community|pune",
+        "date": "2026-05-11T06:49:41.144760"
+    },
+    {
+        "id": "e504450efec0991cffe7092e5997fcc5",
+        "fingerprint": "guidewire qa automation architect|guidewire software|bengaluru",
+        "date": "2026-05-11T06:49:41.144763"
+    },
+    {
+        "id": "0ef964a04bdbf7f1143d8ce39f5bf70b",
+        "fingerprint": "quality manager|menschen consulting pvt. ltd.|mumbai",
+        "date": "2026-05-11T06:49:41.144765"
+    },
+    {
+        "id": "d8ae6b9e5d423a1728d7b0a5e897c1a8",
+        "fingerprint": "test architect|ust|hyderabad",
+        "date": "2026-05-11T06:49:41.144768"
+    },
+    {
+        "id": "2d68094da475e76f5651c29f77457152",
+        "fingerprint": "lead ai qa engineer|intellectt inc|hyderabad",
+        "date": "2026-05-11T06:49:41.144770"
+    },
+    {
+        "id": "df533b9c14a6ec352ff2edcf3e9837f3",
+        "fingerprint": "lead engineer - test automation|veeva systems|hyderabad",
+        "date": "2026-05-11T06:49:41.144772"
     }
 ]
