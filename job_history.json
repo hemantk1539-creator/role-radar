@@ -1,140 +1,5 @@
 [
     {
-        "id": "c767eb817398d0b0e9a138744317380a",
-        "fingerprint": "software product quality leader|cummins|pune",
-        "date": "2026-02-24T12:49:51.695100"
-    },
-    {
-        "id": "b4a9f54ec144b3e12fa395e2a4c0adab",
-        "fingerprint": "automation test lead|barclays|pune",
-        "date": "2026-02-24T12:49:51.695102"
-    },
-    {
-        "id": "44c85791ed9eab5e4cc3d8cb306be881",
-        "fingerprint": "quality assurance manager|indium|bengaluru",
-        "date": "2026-02-24T12:49:51.695105"
-    },
-    {
-        "id": "998217dbbcaa5ef7304a433f4ed3e1cc",
-        "fingerprint": "lead quality assurance|adani transmission (atl)|bengaluru",
-        "date": "2026-02-24T12:49:51.695107"
-    },
-    {
-        "id": "4d9147ffb1593c1109730251f0b4899c",
-        "fingerprint": "quality management system manager (lead auditor)|qualityze|bengaluru",
-        "date": "2026-02-24T12:49:51.695110"
-    },
-    {
-        "id": "2bf4b5ea31080bd9afd578fc7c55bfa1",
-        "fingerprint": "quality manager bpo/manager quality/ bpo quality manager|selectica international solutions|bengaluru",
-        "date": "2026-02-24T12:49:51.695112"
-    },
-    {
-        "id": "aa0775ed4c516819d52bbe9c694540fc",
-        "fingerprint": "quality engineering architect (test architect)|accenture|bengaluru",
-        "date": "2026-02-24T12:49:51.695114"
-    },
-    {
-        "id": "069ea0f285102372aad2dec28e4eb19e",
-        "fingerprint": "lead engineer quality|empower|bengaluru",
-        "date": "2026-02-24T12:49:51.695117"
-    },
-    {
-        "id": "64a373edca00f6996fe3b409f2b91165",
-        "fingerprint": "head - quality management|rapro solutions|bengaluru",
-        "date": "2026-02-24T12:49:51.695119"
-    },
-    {
-        "id": "255fc0a27b2453da75923613247688b1",
-        "fingerprint": "mgr testing|standard chartered india|bengaluru",
-        "date": "2026-02-24T12:49:51.695122"
-    },
-    {
-        "id": "db5837309021daf95459a532027504e6",
-        "fingerprint": "senior manager quality engineering|empower india|bengaluru",
-        "date": "2026-02-24T12:49:51.695124"
-    },
-    {
-        "id": "6ee52c27d6e117f69c91587ec9a78d8c",
-        "fingerprint": "team lead - functional testing|qualitest|bengaluru",
-        "date": "2026-02-24T12:49:51.695126"
-    },
-    {
-        "id": "9a0592459413afe07e18d7c96053bd86",
-        "fingerprint": "project manager \u2013 data quality (informatica idq / cdq)|visionqual it services|bengaluru",
-        "date": "2026-02-24T12:49:51.695129"
-    },
-    {
-        "id": "3a59f2a715220ff1180bd384c386e837",
-        "fingerprint": "programme test manager - with guidewire and lm experience|luxoft|bengaluru",
-        "date": "2026-02-24T12:49:51.695131"
-    },
-    {
-        "id": "cd682aa0ce5ad07449c06f5b94a00935",
-        "fingerprint": "lead - quality assurance & control|adani transmission (atl)|mumbai",
-        "date": "2026-02-24T12:49:51.695133"
-    },
-    {
-        "id": "b08fafcfdf37215d28c5c1c2ad87ec4c",
-        "fingerprint": "quality team leader|domestic|teleperformance (tp)|mumbai",
-        "date": "2026-02-24T12:49:51.695136"
-    },
-    {
-        "id": "9bee8c5e96b11a5adc09471a907e6c97",
-        "fingerprint": "product manager make mes, quality|unilever|mumbai",
-        "date": "2026-02-24T12:49:51.695138"
-    },
-    {
-        "id": "6841cdc116daff9ae2969b0c0c0d1711",
-        "fingerprint": "deputy manager - quality assurance & control|adani transmission (atl)|mumbai",
-        "date": "2026-02-24T12:49:51.695141"
-    },
-    {
-        "id": "5934d3c80e429ad5570c73dfbc68f51f",
-        "fingerprint": "quality manager (qm)|aerosource international|mumbai",
-        "date": "2026-02-24T12:49:51.695143"
-    },
-    {
-        "id": "5d904bb45817a9cb021e7b5354736dd3",
-        "fingerprint": "deputy manager - test engineers|state bank of india (sbi)|mumbai",
-        "date": "2026-02-24T12:49:51.695146"
-    },
-    {
-        "id": "a9b4b899b97d6bfbe1409f1f66cf3a4a",
-        "fingerprint": "senior qa lead|dmacq software|mumbai",
-        "date": "2026-02-24T12:49:51.695148"
-    },
-    {
-        "id": "d11237952acc95f0eb323096c889f1a9",
-        "fingerprint": "qa lead manager [t500-23680]|cibc india|hyderabad",
-        "date": "2026-02-24T12:49:51.695151"
-    },
-    {
-        "id": "fd1cda84e47606a82cc3ea6f50565917",
-        "fingerprint": "category manager - (quality)|urban company (uc)|hyderabad",
-        "date": "2026-02-24T12:49:51.695153"
-    },
-    {
-        "id": "f6e5102d46801198141a960a24883d4b",
-        "fingerprint": "senior test lead|intouchcx|hyderabad",
-        "date": "2026-02-24T12:49:51.695156"
-    },
-    {
-        "id": "c2624ce4062165771408b8fabf21fb05",
-        "fingerprint": "quality engeerg lead (test lead)|accenture|delhi",
-        "date": "2026-02-24T12:49:51.695159"
-    },
-    {
-        "id": "de7c44b5bcb24c364f8adc612c474e8a",
-        "fingerprint": "quality assurance lead|accenture|delhi",
-        "date": "2026-02-24T12:49:51.695161"
-    },
-    {
-        "id": "55f896816c6f2157f8565f0613f20525",
-        "fingerprint": "sr quality engineering manager|axa xl|delhi",
-        "date": "2026-02-24T12:49:51.695163"
-    },
-    {
         "id": "9ff956b6de76c646b7a57f6a7d3306f3",
         "fingerprint": "quality assurance & training manager - customer service|bridgexcel|delhi",
         "date": "2026-02-24T12:49:51.695166"
@@ -9998,5 +9863,140 @@
         "id": "7b8455761614f3a1d1ed2f264f786596",
         "fingerprint": "manager - clinical process and quality manager|sun pharma|gurugram",
         "date": "2026-05-11T12:49:45.418180"
+    },
+    {
+        "id": "47aa0264961430e0dc7f27d1e50f7dfe",
+        "fingerprint": "qa project manager|persistent systems|pune",
+        "date": "2026-05-11T19:49:59.988646"
+    },
+    {
+        "id": "901a50af1dddc76670a8a8e081b84f9b",
+        "fingerprint": "deputy manager / manager - electrical -test systems|zf group|pune",
+        "date": "2026-05-11T19:49:59.988665"
+    },
+    {
+        "id": "d167721f4c81725c61053697910fe1cb",
+        "fingerprint": "automation lead|hackajob|pune",
+        "date": "2026-05-11T19:49:59.988668"
+    },
+    {
+        "id": "dfb12dc242d150d9b8c642995cefbfa2",
+        "fingerprint": "accessibility test lead|persistent systems|pune",
+        "date": "2026-05-11T19:49:59.988670"
+    },
+    {
+        "id": "4116c09fda02c92eda9f6662b0b22c6b",
+        "fingerprint": "it quality tech lead analyst - vice president|citi|pune",
+        "date": "2026-05-11T19:49:59.988673"
+    },
+    {
+        "id": "0a6d07aea1ad5d8bd4c72a0cbfda04f2",
+        "fingerprint": "director \u2013 ai/ml & automation|iqvia laboratories|bengaluru",
+        "date": "2026-05-11T19:49:59.988675"
+    },
+    {
+        "id": "c0e3b3f3746f53202aeeb71dbce8b0cb",
+        "fingerprint": "director \u2013 ai/ml & automation|iqvia|bengaluru",
+        "date": "2026-05-11T19:49:59.988677"
+    },
+    {
+        "id": "0b9b570f5a33180f52715f26c407d10c",
+        "fingerprint": "site audit & quality - manager|emo.energy|bengaluru",
+        "date": "2026-05-11T19:49:59.988679"
+    },
+    {
+        "id": "cd8527cb8cfd97846ee8028d7b2fef81",
+        "fingerprint": "lead quality engineer i|delta technology hub|bengaluru",
+        "date": "2026-05-11T19:49:59.988681"
+    },
+    {
+        "id": "cc2cd85280dc45983f23032fdccdac22",
+        "fingerprint": "salesforce automation qa lead | python | selenium | api testing | ci/cd|xml international|bengaluru",
+        "date": "2026-05-11T19:49:59.988683"
+    },
+    {
+        "id": "8cb3d703e5f159db100ec3fe800690ee",
+        "fingerprint": "deputy manager - quality|schneider electric|bengaluru",
+        "date": "2026-05-11T19:49:59.988685"
+    },
+    {
+        "id": "0f1f8440a98a6bab504b90e29da9935b",
+        "fingerprint": "testing lead|idfc first bank|mumbai",
+        "date": "2026-05-11T19:49:59.988688"
+    },
+    {
+        "id": "58cbe1910b047f9e504469e027f22ef7",
+        "fingerprint": "quality assurance and quality control manager-facade works|envelopetechnik facade consultancy llp.|mumbai",
+        "date": "2026-05-11T19:49:59.988690"
+    },
+    {
+        "id": "8de46003e874dc639f3077f3e2406707",
+        "fingerprint": "senior manager, quality assurance (qa specialist)|m&g india|mumbai",
+        "date": "2026-05-11T19:49:59.988692"
+    },
+    {
+        "id": "e3518636d813a924b14b5f8418e194d4",
+        "fingerprint": "qa lead (freelancer)|deccan ai experts|mumbai",
+        "date": "2026-05-11T19:49:59.988694"
+    },
+    {
+        "id": "8081868c4cf13e39225c1cdf538ddef8",
+        "fingerprint": "senior manager - qa (swift payments) [t500-25839]|cibc india|hyderabad",
+        "date": "2026-05-11T19:49:59.988696"
+    },
+    {
+        "id": "27fbcb5aafbdf155247e948d7f8bc264",
+        "fingerprint": "lead test automation engineer p3 (pa2026q1jb018)|ss&c technologies|hyderabad",
+        "date": "2026-05-11T19:49:59.988699"
+    },
+    {
+        "id": "60986bf263f5435ebaad6dff89b757bb",
+        "fingerprint": "qa lead (freelancer)|deccan ai experts|hyderabad",
+        "date": "2026-05-11T19:49:59.988706"
+    },
+    {
+        "id": "411c3969c2337e9281a1287505878eb3",
+        "fingerprint": "senior quality engineer - test automation lead|onespan|gurugram",
+        "date": "2026-05-11T19:49:59.988709"
+    },
+    {
+        "id": "d34388312869d2ba126c5c03dc5dcfbc",
+        "fingerprint": "qa lead (playwright)|infostride|gurugram",
+        "date": "2026-05-11T19:49:59.988711"
+    },
+    {
+        "id": "70bbf94147fafbcaf21bf35491a91466",
+        "fingerprint": "qa lead (freelancer)|deccan ai experts|gurugram",
+        "date": "2026-05-11T19:49:59.988713"
+    },
+    {
+        "id": "b3568fca0f82ff60824d81274b87ccc5",
+        "fingerprint": "sdwan/l3 test engineering technical leader | l2/l3 security | network automation | ipsec and cloud security(11-15 years)|cisco|chennai",
+        "date": "2026-05-11T19:49:59.988715"
+    },
+    {
+        "id": "98d5afa9304acbaf31ae92829039e97f",
+        "fingerprint": "qa lead (freelancer)|deccan ai experts|chennai",
+        "date": "2026-05-11T19:49:59.988717"
+    },
+    {
+        "id": "2e8faf73b0a5f2f990af6ef101675a0f",
+        "fingerprint": "python test lead - banking /capital markets|luxoft|chennai",
+        "date": "2026-05-11T19:49:59.988719"
+    },
+    {
+        "id": "906d40a4c1b6f823ef9cdbf2d7c3d0f6",
+        "fingerprint": "head automation|whiteslips job management consultants|ahmedabad",
+        "date": "2026-05-11T19:49:59.988721"
+    },
+    {
+        "id": "0b1ed9d015ee529bf32f07edb537128f",
+        "fingerprint": "senior quality systems manager|heartland food products group|remote",
+        "date": "2026-05-11T19:49:59.988723"
+    },
+    {
+        "id": "4801d070989d15b6693eabf7793712f4",
+        "fingerprint": "quality assurance manager|refyne india|remote",
+        "date": "2026-05-11T19:49:59.988725"
     }
 ]
