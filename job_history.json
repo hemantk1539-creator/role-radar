@@ -1,70 +1,5 @@
 [
     {
-        "id": "62d5220bf27c53e86397684414d24753",
-        "fingerprint": "quality assurance lead (product engineering)|oolio|hyderabad",
-        "date": "2026-02-24T07:05:12.667910"
-    },
-    {
-        "id": "d60ce15fe5ac6185da96421cfab18b14",
-        "fingerprint": "director, wcr model ownership and control (irb and stress testing)|barclays|gurugram",
-        "date": "2026-02-24T07:05:12.667913"
-    },
-    {
-        "id": "4bbefd52f82b0ea0540b05067806c080",
-        "fingerprint": "senior quality assurance manager- aerospace|brisk olive|gurugram",
-        "date": "2026-02-24T07:05:12.667915"
-    },
-    {
-        "id": "fe96c7cf46ff97b1e0bc9a4cc5eef011",
-        "fingerprint": "senior quality assurance manager|brisk olive|gurugram",
-        "date": "2026-02-24T07:05:12.667917"
-    },
-    {
-        "id": "d54c6abffebea837b20ffb3bad68c16e",
-        "fingerprint": "tech control testing lead|barclays|noida",
-        "date": "2026-02-24T07:05:12.667919"
-    },
-    {
-        "id": "070244b4c09ec9dcb23f6826dd38c37f",
-        "fingerprint": "manager, quality services, amazon quality services|amazon|chennai",
-        "date": "2026-02-24T07:05:12.667921"
-    },
-    {
-        "id": "c2e10613a56d02074355b76ad8b15c1b",
-        "fingerprint": "head quality control|dineshchandra r agrawal\u00a0infracon private limited|ahmedabad",
-        "date": "2026-02-24T07:05:12.667923"
-    },
-    {
-        "id": "4bc2a4f54e6666cefab846694b19b317",
-        "fingerprint": "lab technical manager (nabl) qa/ qc - bhachau- gujarat|kundan group|ahmedabad",
-        "date": "2026-02-24T07:05:12.667925"
-    },
-    {
-        "id": "b5e36b53344e7e5b54a6475dbd486edc",
-        "fingerprint": "senior engineering manager - test automation, performance & monitoring |postman",
-        "date": "2026-02-24T07:05:12.667928"
-    },
-    {
-        "id": "e1ec7f61ec861ada1b28db7be293ba9b",
-        "fingerprint": "bamboo works: senior ai operations & automation manager|wwr",
-        "date": "2026-02-24T07:05:12.667930"
-    },
-    {
-        "id": "28dcd4cb019e3f02ca59d1aef2067bb6",
-        "fingerprint": "global o2c lead \u2013 service management & automation|erm|gurugram",
-        "date": "2026-02-24T07:05:12.667932"
-    },
-    {
-        "id": "0176ff551dd518827ba324a7c2c2ca1f",
-        "fingerprint": "senior manager (l5) - advanced quality|tata marcopolo motors ltd. dharwad|pune",
-        "date": "2026-02-24T12:49:51.695082"
-    },
-    {
-        "id": "9556ffeebde56ae237529426b852f0f7",
-        "fingerprint": "technical lead, quality assurance|hitachi vantara|pune",
-        "date": "2026-02-24T12:49:51.695097"
-    },
-    {
         "id": "c767eb817398d0b0e9a138744317380a",
         "fingerprint": "software product quality leader|cummins|pune",
         "date": "2026-02-24T12:49:51.695100"
@@ -9998,5 +9933,70 @@
         "id": "df533b9c14a6ec352ff2edcf3e9837f3",
         "fingerprint": "lead engineer - test automation|veeva systems|hyderabad",
         "date": "2026-05-11T06:49:41.144772"
+    },
+    {
+        "id": "ea502ed629909cb81fca338bf55d82f6",
+        "fingerprint": "data quality manager (f/m/d)|siemens energy|pune",
+        "date": "2026-05-11T12:49:45.418139"
+    },
+    {
+        "id": "6ede3aa60e5ada8eb99bb56cd545e686",
+        "fingerprint": "senior qa lead|netspi|pune",
+        "date": "2026-05-11T12:49:45.418156"
+    },
+    {
+        "id": "6ab6f1157904d637673f1dc270b6a271",
+        "fingerprint": "python + selenium test lead|zimetrics|pune",
+        "date": "2026-05-11T12:49:45.418159"
+    },
+    {
+        "id": "c3c15ea65a3b49d51807042d615259a2",
+        "fingerprint": "software quality assurance lead|rayvector technologies|bengaluru",
+        "date": "2026-05-11T12:49:45.418161"
+    },
+    {
+        "id": "db584640e45b872ed1578b811be26c31",
+        "fingerprint": "senior manager - test engineering (aerospace and defence)|cyient|bengaluru",
+        "date": "2026-05-11T12:49:45.418163"
+    },
+    {
+        "id": "b96283e3d8f10f8755ed475734ea3af6",
+        "fingerprint": "senior manager, quality assur & engi|betanxt|bengaluru",
+        "date": "2026-05-11T12:49:45.418165"
+    },
+    {
+        "id": "79b7a909fb8ff7c39555720788a34a2b",
+        "fingerprint": "information technology quality assurance manager|qinecsa solutions|bengaluru",
+        "date": "2026-05-11T12:49:45.418167"
+    },
+    {
+        "id": "20540cbacf5736385dd9c3ced340fa15",
+        "fingerprint": "director of quality|v3 staffing|hyderabad",
+        "date": "2026-05-11T12:49:45.418169"
+    },
+    {
+        "id": "3208ae587baa184467098830383dcf9f",
+        "fingerprint": "qa lead|valuelabs|hyderabad",
+        "date": "2026-05-11T12:49:45.418171"
+    },
+    {
+        "id": "8990d3bb856c31aa3d9f9241d1fbe22f",
+        "fingerprint": "quality control laboratory manager|bio-state consulting|gurugram",
+        "date": "2026-05-11T12:49:45.418174"
+    },
+    {
+        "id": "e0d47fc9e9b177e6dcbe2b076b8da9d9",
+        "fingerprint": "data quality manager (f/m/d)|siemens energy|gurugram",
+        "date": "2026-05-11T12:49:45.418176"
+    },
+    {
+        "id": "0d298f918b1aaaa20405ca5eb8481f22",
+        "fingerprint": "principal testing services consultant|simcorp|gurugram",
+        "date": "2026-05-11T12:49:45.418178"
+    },
+    {
+        "id": "7b8455761614f3a1d1ed2f264f786596",
+        "fingerprint": "manager - clinical process and quality manager|sun pharma|gurugram",
+        "date": "2026-05-11T12:49:45.418180"
     }
 ]
