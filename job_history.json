@@ -1,55 +1,5 @@
 [
     {
-        "id": "9ff956b6de76c646b7a57f6a7d3306f3",
-        "fingerprint": "quality assurance & training manager - customer service|bridgexcel|delhi",
-        "date": "2026-02-24T12:49:51.695166"
-    },
-    {
-        "id": "1f68b820a9c49560d577d5ad07ecfb40",
-        "fingerprint": "regional manager- project quality|tuv|delhi",
-        "date": "2026-02-24T12:49:51.695168"
-    },
-    {
-        "id": "60d93f5e513b8356c017078d69e6c715",
-        "fingerprint": "quality manager|achyutam international - audit &amp;amp;amp;amp;amp; financial services|delhi",
-        "date": "2026-02-24T12:49:51.695171"
-    },
-    {
-        "id": "4cb34ede921aa0d0e774521878589bcf",
-        "fingerprint": "manager - business control testing|fidelity international|delhi",
-        "date": "2026-02-24T12:49:51.695173"
-    },
-    {
-        "id": "60a71214d9249704d201396dce9d742e",
-        "fingerprint": "lead sdet(search)|bold technology systems|delhi",
-        "date": "2026-02-24T12:49:51.695175"
-    },
-    {
-        "id": "859c5065c014c3a66961934457398db9",
-        "fingerprint": "lead quality manager- generative ai data quality|welocalize|gurugram",
-        "date": "2026-02-24T12:49:51.695178"
-    },
-    {
-        "id": "99e90cdef78f71355d2095dfcb1b76cb",
-        "fingerprint": "principal test engineer - technology|credable|noida",
-        "date": "2026-02-24T12:49:51.695180"
-    },
-    {
-        "id": "867f3a6fc33c4ae51a0d7609691752df",
-        "fingerprint": "director, wcr model ownership and control (irb and stress testing)|barclays|noida",
-        "date": "2026-02-24T12:49:51.695183"
-    },
-    {
-        "id": "f336a90fec19f53c3f999d3265fc776a",
-        "fingerprint": "manager \u2013 bcm functional testing|ey|chennai",
-        "date": "2026-02-24T12:49:51.695185"
-    },
-    {
-        "id": "8b4c3f5590c9a0952d493c48542387a9",
-        "fingerprint": "chapter lead and test manager -digital services testing|kone|chennai",
-        "date": "2026-02-24T12:49:51.695188"
-    },
-    {
         "id": "087bfc8e8e9f16e961cc004d952007a2",
         "fingerprint": "quality manager - multispecialty e&m|guidehouse|chennai",
         "date": "2026-02-24T12:49:51.695190"
@@ -9998,5 +9948,55 @@
         "id": "4801d070989d15b6693eabf7793712f4",
         "fingerprint": "quality assurance manager|refyne india|remote",
         "date": "2026-05-11T19:49:59.988725"
+    },
+    {
+        "id": "8b0a7400d39116fa1efdf0ed68b5bfb2",
+        "fingerprint": "manager, test and tools development engineering|nvidia|pune",
+        "date": "2026-05-12T06:49:49.042582"
+    },
+    {
+        "id": "54f5203b0c20893c22a9905cb570d398",
+        "fingerprint": "senior quality & test manager|capgemini|pune",
+        "date": "2026-05-12T06:49:49.042599"
+    },
+    {
+        "id": "8320f7c2c2b583b60e19862b94faea29",
+        "fingerprint": "large holdings senior qa lead|barclays|pune",
+        "date": "2026-05-12T06:49:49.042602"
+    },
+    {
+        "id": "172959d65c2681a8dcdf08cf0fa35d13",
+        "fingerprint": "qa lead (freelancer)|deccan ai experts|pune",
+        "date": "2026-05-12T06:49:49.042604"
+    },
+    {
+        "id": "4910abad7c871d87e3a322a10fb41a4c",
+        "fingerprint": "qa project manager|persistent systems|bengaluru",
+        "date": "2026-05-12T06:49:49.042607"
+    },
+    {
+        "id": "824bd210642294d55abaae596303ce71",
+        "fingerprint": "qa lead (freelancer)|deccan ai experts|noida",
+        "date": "2026-05-12T06:49:49.042609"
+    },
+    {
+        "id": "35dec67987810bb2fbd427be63d7c6d5",
+        "fingerprint": "agm / senior manager - quality (qa/qc)|hild energy|chennai",
+        "date": "2026-05-12T06:49:49.042612"
+    },
+    {
+        "id": "8e995c4e25218ec0ac2131e2082c0d19",
+        "fingerprint": "mgr, qa & testing|standard chartered india|chennai",
+        "date": "2026-05-12T06:49:49.042614"
+    },
+    {
+        "id": "392febe01abb2b48c3d6bee9b00dbab4",
+        "fingerprint": "quality and regulatory lead|quest global|chennai",
+        "date": "2026-05-12T06:49:49.042617"
+    },
+    {
+        "id": "046c776fd0fa2f692531628f7e993916",
+        "fingerprint": "test lead - python - capital markets|luxoft india|chennai",
+        "date": "2026-05-12T06:49:49.042619"
     }
 ]
