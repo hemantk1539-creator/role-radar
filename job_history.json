@@ -1,70 +1,5 @@
 [
     {
-        "id": "087bfc8e8e9f16e961cc004d952007a2",
-        "fingerprint": "quality manager - multispecialty e&m|guidehouse|chennai",
-        "date": "2026-02-24T12:49:51.695190"
-    },
-    {
-        "id": "667178527ba1953df8dc1dd6f972da1d",
-        "fingerprint": "manager quality|teleperformance (tp)|chennai",
-        "date": "2026-02-24T12:49:51.695193"
-    },
-    {
-        "id": "b372c757d4aca6e33d5d0e1b123aa665",
-        "fingerprint": "team lead/executive-qa-source to pay - go/jc/2146/2026|golden opportunities|chennai",
-        "date": "2026-02-24T12:49:51.695195"
-    },
-    {
-        "id": "a79fa114d2d55143d063de5aa33f0a40",
-        "fingerprint": "qa lead|virtusa|chennai",
-        "date": "2026-02-24T12:49:51.695197"
-    },
-    {
-        "id": "01ff3ed3def0c7a64091fa3813b85abc",
-        "fingerprint": "manager - testing & commissioning (data center)|cushman & wakefield|chennai",
-        "date": "2026-02-24T12:49:51.695200"
-    },
-    {
-        "id": "dc10a6f4383c6fbd911d94bec7fca1b0",
-        "fingerprint": "technical manager - air quality|synergy resource solutions|ahmedabad",
-        "date": "2026-02-24T12:49:51.695202"
-    },
-    {
-        "id": "6596dde9d357eb2ec3de4a82ed6c2394",
-        "fingerprint": "manager - quality (centac & blower)|everest vacuum|ahmedabad",
-        "date": "2026-02-24T12:49:51.695205"
-    },
-    {
-        "id": "2b57c449fb085cb8083843aeaa907389",
-        "fingerprint": "quality engineering architect (test arch|accenture|pune",
-        "date": "2026-02-24T19:50:50.559379"
-    },
-    {
-        "id": "c221970e73b7b8fb26747eff8221a545",
-        "fingerprint": "quality manager \u2013 product development (electronics)|forvia hella|pune",
-        "date": "2026-02-24T19:50:50.559395"
-    },
-    {
-        "id": "696cc2dcaf2bcca47d3e8f9f548706ca",
-        "fingerprint": "programme test manager - with guidewire and lm experience|luxoft|pune",
-        "date": "2026-02-24T19:50:50.559397"
-    },
-    {
-        "id": "96fb19664cedcca83fec22e2b1e2db76",
-        "fingerprint": "lead qa automation engineer, avp|deutsche bank|pune",
-        "date": "2026-02-24T19:50:50.559400"
-    },
-    {
-        "id": "822b022a68ef0da31699c3899fe75b25",
-        "fingerprint": "quality manager|environmental health and safety research development centre|bengaluru",
-        "date": "2026-02-24T19:50:50.559402"
-    },
-    {
-        "id": "8c0cf49f86744ec1d5abc6b307504828",
-        "fingerprint": "lead software engineer - test|freshworks|bengaluru",
-        "date": "2026-02-24T19:50:50.559405"
-    },
-    {
         "id": "bcf145397176471f298dbdb56dec450e",
         "fingerprint": "manager quality|concentrix|bengaluru",
         "date": "2026-02-24T19:50:50.559407"
@@ -9998,5 +9933,70 @@
         "id": "046c776fd0fa2f692531628f7e993916",
         "fingerprint": "test lead - python - capital markets|luxoft india|chennai",
         "date": "2026-05-12T06:49:49.042619"
+    },
+    {
+        "id": "1b79ddd026cbccc9773b2fb019b2fb59",
+        "fingerprint": "manager, test engineering - playwright [t500-25873]|talent500|bengaluru",
+        "date": "2026-05-12T12:49:45.272525"
+    },
+    {
+        "id": "0985f0df9d73b5bbd00229af12795ceb",
+        "fingerprint": "lead i - software testing (python qa automation engineer)|ust|bengaluru",
+        "date": "2026-05-12T12:49:45.272543"
+    },
+    {
+        "id": "5d6a20c70e8fd7444326160f9e46bf77",
+        "fingerprint": "qa manager|iqvia|bengaluru",
+        "date": "2026-05-12T12:49:45.272546"
+    },
+    {
+        "id": "4b7b5e28b0497fcd5be1a19cf37084a9",
+        "fingerprint": "deputy manager - transactional quality - pune|wns|pune",
+        "date": "2026-05-12T12:49:45.272548"
+    },
+    {
+        "id": "5bfe5e6ad125745d352711d432ce976f",
+        "fingerprint": "sqm-gps-infra-dr test lead|northern trust|pune",
+        "date": "2026-05-12T12:49:45.272550"
+    },
+    {
+        "id": "ff5144c6b0e65ac69904700e40eaf0f0",
+        "fingerprint": "test automation lead|accenture in india|pune",
+        "date": "2026-05-12T12:49:45.272553"
+    },
+    {
+        "id": "46daf029c90f42b959b5b5ab77d07413",
+        "fingerprint": "director, data quality insights (r-19228)|dun & bradstreet|hyderabad",
+        "date": "2026-05-12T12:49:45.272555"
+    },
+    {
+        "id": "7795ad823bfdef3feeeefbb07f9e2460",
+        "fingerprint": "test manager i|ust|hyderabad",
+        "date": "2026-05-12T12:49:45.272557"
+    },
+    {
+        "id": "e7aa825d18d54eb5ea2fd69e3dbb4e18",
+        "fingerprint": "manager | qa engineer|macquarie group|hyderabad",
+        "date": "2026-05-12T12:49:45.272559"
+    },
+    {
+        "id": "14b693557490eb958084a5e1c4f4d99b",
+        "fingerprint": "manager - development quality assurance|sun pharma|gurugram",
+        "date": "2026-05-12T12:49:45.272561"
+    },
+    {
+        "id": "4d0b0d99d259686e54f50de644d650ac",
+        "fingerprint": "senior manager - development quality assurance|sun pharma|gurugram",
+        "date": "2026-05-12T12:49:45.272564"
+    },
+    {
+        "id": "8f4a40444c7f959696e59477057c8bd0",
+        "fingerprint": "test manager|accuro aps|chennai",
+        "date": "2026-05-12T12:49:45.272566"
+    },
+    {
+        "id": "4aa4dcbeaf3e4a27adc9d4f2119a867b",
+        "fingerprint": "manager quality - s&h|circor international, inc.|ahmedabad",
+        "date": "2026-05-12T12:49:45.272568"
     }
 ]
