@@ -1,100 +1,5 @@
 [
     {
-        "id": "bcf145397176471f298dbdb56dec450e",
-        "fingerprint": "manager quality|concentrix|bengaluru",
-        "date": "2026-02-24T19:50:50.559407"
-    },
-    {
-        "id": "147473f0b189b2620c22f7499ed82f19",
-        "fingerprint": "ai automation engineering manager|imerit technology|bengaluru",
-        "date": "2026-02-24T19:50:50.559409"
-    },
-    {
-        "id": "f52c06b942779c01cb2501ba8f740e12",
-        "fingerprint": "system test manager|philips|bengaluru",
-        "date": "2026-02-24T19:50:50.559411"
-    },
-    {
-        "id": "43666bae9f5c7fab4ccc3b18d890555f",
-        "fingerprint": "quality manager-turbo cross sell|idfc first bank|mumbai",
-        "date": "2026-02-24T19:50:50.559413"
-    },
-    {
-        "id": "b0fe7fc5aee6cb0c5722bc27ba44b21d",
-        "fingerprint": "us mortgage quality team leader|sutherland|mumbai",
-        "date": "2026-02-24T19:50:50.559415"
-    },
-    {
-        "id": "df5218749c863f5d65f88a040609d4f1",
-        "fingerprint": "quality auditing manager|accenture|mumbai",
-        "date": "2026-02-24T19:50:50.559417"
-    },
-    {
-        "id": "a5719c9cc277c676830cac45c65f8910",
-        "fingerprint": "quality manager|vitesse arena|mumbai",
-        "date": "2026-02-24T19:50:50.559419"
-    },
-    {
-        "id": "e515af5cb1717a8ede8a9a17f128786e",
-        "fingerprint": "qa lead india|arcadis|hyderabad",
-        "date": "2026-02-24T19:50:50.559421"
-    },
-    {
-        "id": "287eb52788c958541bd13e8f35af7baa",
-        "fingerprint": "testing insurance functional-staff|ey|hyderabad",
-        "date": "2026-02-24T19:50:50.559423"
-    },
-    {
-        "id": "c5dda12851d2d3e1536de8cbc3add9f3",
-        "fingerprint": "corporate quality lead (qa)-gurgaon(aseptic/dairy/beverage exp in uht)|omam consultants|gurugram",
-        "date": "2026-02-24T19:50:50.559426"
-    },
-    {
-        "id": "ec19a34153209ea2073f16e76508c3a4",
-        "fingerprint": "senior manager - quality engineering|iris software inc.|gurugram",
-        "date": "2026-02-24T19:50:50.559428"
-    },
-    {
-        "id": "979c6150af5a9f491aee9191ce8587e3",
-        "fingerprint": "director of quality assurance|walker digital table systems, llc|noida",
-        "date": "2026-02-24T19:50:50.559430"
-    },
-    {
-        "id": "b78439eee86b3b62b2449f042739986f",
-        "fingerprint": "mgr testing|standard chartered india|chennai",
-        "date": "2026-02-24T19:50:50.559432"
-    },
-    {
-        "id": "e203551223f4435f484625a3702ea7e2",
-        "fingerprint": "deputy manager - npd quality planning|mahindra & mahindra limited.|chennai",
-        "date": "2026-02-24T19:50:50.559434"
-    },
-    {
-        "id": "fb7875da8a9d9d5f2c56b22f1a2ba99e",
-        "fingerprint": "head quality - ropeways|adani group|ahmedabad",
-        "date": "2026-02-24T19:50:50.559437"
-    },
-    {
-        "id": "0b904512efb2fac544577ed416fd553f",
-        "fingerprint": "engineering manager, load testing|okta",
-        "date": "2026-02-24T19:50:50.559439"
-    },
-    {
-        "id": "91fe33ed6ab93a6a090464b4e8f80071",
-        "fingerprint": "test manager (hardware)|texas instruments|bengaluru",
-        "date": "2026-02-25T06:49:40.699831"
-    },
-    {
-        "id": "211dc4b34ba04c78a3ab28cc5d8ff240",
-        "fingerprint": "quality engineering architect (test arch|accenture|bengaluru",
-        "date": "2026-02-25T06:49:40.699847"
-    },
-    {
-        "id": "57d0c9e5e5f31f5b1b2ed07fc245a52b",
-        "fingerprint": "manager - instrumentation and automation|biocon biologics|bengaluru",
-        "date": "2026-02-25T06:49:40.699850"
-    },
-    {
         "id": "17a1b593f1ba90b33e95f67533c40de1",
         "fingerprint": "manager \u2013 lidar testing & automotive compliance|evnek|bengaluru",
         "date": "2026-02-25T06:49:40.699853"
@@ -9998,5 +9903,100 @@
         "id": "4aa4dcbeaf3e4a27adc9d4f2119a867b",
         "fingerprint": "manager quality - s&h|circor international, inc.|ahmedabad",
         "date": "2026-05-12T12:49:45.272568"
+    },
+    {
+        "id": "e9ab2158144b91eced9d1bb6211b9ad2",
+        "fingerprint": "senior manager - central quality|urban company|bengaluru",
+        "date": "2026-05-12T19:50:03.494900"
+    },
+    {
+        "id": "6401917ee5742c84b81a52c70d60ba83",
+        "fingerprint": "qa manager|iqvia laboratories|bengaluru",
+        "date": "2026-05-12T19:50:03.494916"
+    },
+    {
+        "id": "f9ee1d1eda4a98e7a8d89d9da6179e5b",
+        "fingerprint": "test automation lead|qualitest|bengaluru",
+        "date": "2026-05-12T19:50:03.494919"
+    },
+    {
+        "id": "9e5e0735b31ef51e33e9358d04a6b40e",
+        "fingerprint": "test automation lead|accenture in india|bengaluru",
+        "date": "2026-05-12T19:50:03.494921"
+    },
+    {
+        "id": "62134d1c2afc70c0d1b48d40152b5c55",
+        "fingerprint": "test lead - playwright|happiest minds technologies|bengaluru",
+        "date": "2026-05-12T19:50:03.494924"
+    },
+    {
+        "id": "9fb939a739801acf9ebfd579cf5cb643",
+        "fingerprint": "staff software development engineer in test (sdet)|sailpoint|pune",
+        "date": "2026-05-12T19:50:03.494926"
+    },
+    {
+        "id": "681053ddb38e04cf155635c2048c9b75",
+        "fingerprint": "quality head|llabdhi manufacturing llp|mumbai",
+        "date": "2026-05-12T19:50:03.494928"
+    },
+    {
+        "id": "c748a9637930824e5be817d2c1a74e47",
+        "fingerprint": "quality assurance manager|experian|hyderabad",
+        "date": "2026-05-12T19:50:03.494930"
+    },
+    {
+        "id": "362152f267acdaf8359d79a89f3f44c6",
+        "fingerprint": "technology lead - sdet- hyderabad|broadridge india|hyderabad",
+        "date": "2026-05-12T19:50:03.494933"
+    },
+    {
+        "id": "d6f9384fd50464610cfca18d37e4f589",
+        "fingerprint": "r&d clinical - quality compliance senior manager|amgen|hyderabad",
+        "date": "2026-05-12T19:50:03.494936"
+    },
+    {
+        "id": "fa8baaefde68b16ed5f023dbb052fe00",
+        "fingerprint": "lead automation engineer|mcgraw hill|gurugram",
+        "date": "2026-05-12T19:50:03.494938"
+    },
+    {
+        "id": "9a529549703d2f7b2673d269d7260f71",
+        "fingerprint": "lead software quality engineer|adobe|noida",
+        "date": "2026-05-12T19:50:03.494941"
+    },
+    {
+        "id": "694247dc7a8a4b1d71d8b5a5ca0b2aca",
+        "fingerprint": "quality control manager|google|noida",
+        "date": "2026-05-12T19:50:03.494943"
+    },
+    {
+        "id": "71b3decea69bcf087ac05ba703c766a9",
+        "fingerprint": "manual - (p&c domain)technical lead-testing services|birlasoft|noida",
+        "date": "2026-05-12T19:50:03.494945"
+    },
+    {
+        "id": "facae217349ee9d7a8b7695cbf1d55b8",
+        "fingerprint": "manager - supplier quality control|air liquide|noida",
+        "date": "2026-05-12T19:50:03.494947"
+    },
+    {
+        "id": "fbfff1b1fe8dd656baddd2654b1f0ffb",
+        "fingerprint": "test module lead - database testing|happiest minds technologies|noida",
+        "date": "2026-05-12T19:50:03.494949"
+    },
+    {
+        "id": "40eaace2129cbb57767212c2504a1705",
+        "fingerprint": "senior team lead, quality control, tth|dsm-firmenich|remote",
+        "date": "2026-05-12T19:50:03.494951"
+    },
+    {
+        "id": "7cc46fa611da0736399999b5c681f9d3",
+        "fingerprint": "principal machine learning engineer, ads quality|instacart",
+        "date": "2026-05-12T19:50:03.494972"
+    },
+    {
+        "id": "761434880435e1579397c6e1a25265ae",
+        "fingerprint": "director, global quality assurance|fortna|remote",
+        "date": "2026-05-12T19:50:03.494974"
     }
 ]
