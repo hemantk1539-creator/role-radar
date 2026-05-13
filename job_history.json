@@ -1,115 +1,5 @@
 [
     {
-        "id": "0e66a37652a845888a1297d8f3a60f94",
-        "fingerprint": "lead ii - software testing|ust|pune",
-        "date": "2026-02-25T12:49:51.949552"
-    },
-    {
-        "id": "afaec3a2cd839e40dfe62b95cad207aa",
-        "fingerprint": "customer quality manager (m/f/d)|valeo|pune",
-        "date": "2026-02-25T12:49:51.949554"
-    },
-    {
-        "id": "e5dd2503e8c35568ae2fdad223c0cf58",
-        "fingerprint": "audit manager lead p2p audits, drive quality & client success|talent corner hr services|mumbai",
-        "date": "2026-02-25T12:49:51.949556"
-    },
-    {
-        "id": "5ca967fedab2364591b6d48f6786569b",
-        "fingerprint": "quality team leader|international|teleperformance (tp)|mumbai",
-        "date": "2026-02-25T12:49:51.949559"
-    },
-    {
-        "id": "7366fd8eb2626a97cf76422eb33fb308",
-        "fingerprint": "general manager technical finishes quality|godrej properties|mumbai",
-        "date": "2026-02-25T12:49:51.949561"
-    },
-    {
-        "id": "1f04a02bffb24c6c6c32a1dab44e0b61",
-        "fingerprint": "deputy general manager quality|adani transmission (atl)|mumbai",
-        "date": "2026-02-25T12:49:51.949563"
-    },
-    {
-        "id": "10b88e4f94f398dfd776822b4bcded1e",
-        "fingerprint": "senior manager quality - medical coding ( home health)|gebbs healthcare solutions|mumbai",
-        "date": "2026-02-25T12:49:51.949565"
-    },
-    {
-        "id": "261405f21c434af6dfae64bb372e4864",
-        "fingerprint": "principal quality engineer|nomura|mumbai",
-        "date": "2026-02-25T12:49:51.949568"
-    },
-    {
-        "id": "5d35317b07701791e54d97d4a556c63a",
-        "fingerprint": "manager software quality engineering|diebold nixdorf|hyderabad",
-        "date": "2026-02-25T12:49:51.949571"
-    },
-    {
-        "id": "2bdb2a24e5653edf2dbd170319dd945f",
-        "fingerprint": "manager/senior manager - quality|arce polymers|hyderabad",
-        "date": "2026-02-25T12:49:51.949573"
-    },
-    {
-        "id": "1caaf11a0c488a4e97f92f55a0f1944b",
-        "fingerprint": "manager quality international banking credit card process bpo hyd|creative indians|hyderabad",
-        "date": "2026-02-25T12:49:51.949575"
-    },
-    {
-        "id": "6886594f9f31036976aea05dedf7e444",
-        "fingerprint": "qa technology tricentis tosca lead test automation engineer|dupont india water solutions|hyderabad",
-        "date": "2026-02-25T12:49:51.949577"
-    },
-    {
-        "id": "a86d89881d212809801ae36cfc866189",
-        "fingerprint": "quality manager|usha management consultant|delhi",
-        "date": "2026-02-25T12:49:51.949580"
-    },
-    {
-        "id": "34f74434f70b27e37c3c1b6f1212633c",
-        "fingerprint": "quality assurance & training manager- collection|bridgexcel|delhi",
-        "date": "2026-02-25T12:49:51.949583"
-    },
-    {
-        "id": "d967b7ac70ede1ba9330f8c67e03b9f7",
-        "fingerprint": "senior manager - quality engineering|iris software|delhi",
-        "date": "2026-02-25T12:49:51.949585"
-    },
-    {
-        "id": "9f8b217f1502ef82ef2244cf7c79b604",
-        "fingerprint": "sap s/4 hana test management-senior manager|mccain foods|gurugram",
-        "date": "2026-02-25T12:49:51.949588"
-    },
-    {
-        "id": "351aca2fff8f9585109743b4ce59c3cf",
-        "fingerprint": "manager quality international voice process bpo gurgaon|creative indians|gurugram",
-        "date": "2026-02-25T12:49:51.949590"
-    },
-    {
-        "id": "ada92a406b7becd113f5e785aaf8e4f8",
-        "fingerprint": "senior qualdev (sdet) architect|aeris|gurugram",
-        "date": "2026-02-25T12:49:51.949593"
-    },
-    {
-        "id": "ed645c0f10dd72bd41e2e3284a8ea759",
-        "fingerprint": "quality lead|mace|gurugram",
-        "date": "2026-02-25T12:49:51.949595"
-    },
-    {
-        "id": "e1a2030f6d52f9b7e15cafd407bd0c59",
-        "fingerprint": "quality engineering lead (test lead)|accenture|noida",
-        "date": "2026-02-25T12:49:51.949597"
-    },
-    {
-        "id": "1266e5b534dac56cafee320081b42afe",
-        "fingerprint": "quality manager (systems and mepf)|mace|ahmedabad",
-        "date": "2026-02-25T12:49:51.949600"
-    },
-    {
-        "id": "59bac0ad7cd697823739fbb2d7902939",
-        "fingerprint": "senior qa lead|virtusa|chennai",
-        "date": "2026-02-25T12:49:51.949603"
-    },
-    {
         "id": "dd2c755e10dac43697d28f356e1dc1e7",
         "fingerprint": "quality team lead|international|teleperformance (tp)|chennai",
         "date": "2026-02-25T12:49:51.949605"
@@ -9998,5 +9888,115 @@
         "id": "5c987127727813d2eaa7c7a798e84ecb",
         "fingerprint": "quality assurance manager|befree global|ahmedabad",
         "date": "2026-05-13T12:50:14.644888"
+    },
+    {
+        "id": "12950a134c0fc04cd517e98bf0edbc36",
+        "fingerprint": "senior qa lead \u2013 salesforce cpq & lead-to-order transformation|jade global|pune",
+        "date": "2026-05-13T19:49:39.538839"
+    },
+    {
+        "id": "34f7602f85a0b5d51238fb1fa5025472",
+        "fingerprint": "qa lead|persistent systems|pune",
+        "date": "2026-05-13T19:49:39.538854"
+    },
+    {
+        "id": "68526af1c4cfe179c6eb99d0aaa0986c",
+        "fingerprint": "qa automation lead - sap / salesforce (tosca, selenium, playwright)|jade global|pune",
+        "date": "2026-05-13T19:49:39.538856"
+    },
+    {
+        "id": "28e48fb444732ed9d42ea296b52cee40",
+        "fingerprint": "test manager \u2013 ai architect / manager  - manager - operate|pwc acceleration center india|bengaluru",
+        "date": "2026-05-13T19:49:39.538858"
+    },
+    {
+        "id": "f0084aa01a8b509de11b8876b7953e22",
+        "fingerprint": "senior test architect|heartstream|bengaluru",
+        "date": "2026-05-13T19:49:39.538860"
+    },
+    {
+        "id": "cc749f06ce9a8c65454b71f2720b33d1",
+        "fingerprint": "senior manager- corporate quality|etenico technologies|bengaluru",
+        "date": "2026-05-13T19:49:39.538862"
+    },
+    {
+        "id": "cb35c2d54f8565a9df40514fe933c0ae",
+        "fingerprint": "lead quality systems|cepheid|bengaluru",
+        "date": "2026-05-13T19:49:39.538864"
+    },
+    {
+        "id": "5fc5858340145f6105451c366d91bf33",
+        "fingerprint": "quality assurance lead|qualitykiosk technologies|mumbai",
+        "date": "2026-05-13T19:49:39.538866"
+    },
+    {
+        "id": "27050999cbbf6719a6a865d725a6a1e5",
+        "fingerprint": "deputy general manager - quality control|rain cements|hyderabad",
+        "date": "2026-05-13T19:49:39.538868"
+    },
+    {
+        "id": "9860f6be2fb8e0e421a7e28875b82704",
+        "fingerprint": "engineering manager testing|apple|hyderabad",
+        "date": "2026-05-13T19:49:39.538870"
+    },
+    {
+        "id": "ac40a5eb12e0a2635943abb7c3da6b9f",
+        "fingerprint": "quality / quality head|gridcrest by kaynes|hyderabad",
+        "date": "2026-05-13T19:49:39.538873"
+    },
+    {
+        "id": "f34fd1be614dfb931902edcd31622fcf",
+        "fingerprint": "sdet engineering manager|apple|hyderabad",
+        "date": "2026-05-13T19:49:39.538875"
+    },
+    {
+        "id": "d8ad4dd71a2f206670403f07ac5c9b66",
+        "fingerprint": "lead quality assurance engineer|skyspecs|hyderabad",
+        "date": "2026-05-13T19:49:39.538877"
+    },
+    {
+        "id": "0e3117b44f2cbfc0ec12a5d5ae36874f",
+        "fingerprint": "senior qa lead \u2013 salesforce cpq & lead-to-order transformation|jade global|hyderabad",
+        "date": "2026-05-13T19:49:39.538879"
+    },
+    {
+        "id": "e3d1b425be21bdea353876f6a18dc602",
+        "fingerprint": "qa automation lead - sap / salesforce (tosca, selenium, playwright)|jade global|hyderabad",
+        "date": "2026-05-13T19:49:39.538880"
+    },
+    {
+        "id": "88acccae166ccca28756ab457e941a48",
+        "fingerprint": "sr manager engineering, qa performance|anaplan|noida",
+        "date": "2026-05-13T19:49:39.538883"
+    },
+    {
+        "id": "0c035a40d461a05e197acc8c3b7c3914",
+        "fingerprint": "lead i - software testing|ust|noida",
+        "date": "2026-05-13T19:49:39.538885"
+    },
+    {
+        "id": "827e158e465e4e41194aba0913edd259",
+        "fingerprint": "business operations & ai automation lead|myoperator|noida",
+        "date": "2026-05-13T19:49:39.538904"
+    },
+    {
+        "id": "518828079825bcbe66abb6020aa0e419",
+        "fingerprint": "tosca test automation lead|ford motor company|chennai",
+        "date": "2026-05-13T19:49:39.538907"
+    },
+    {
+        "id": "a33bb45e5276e75bd84988c99fb82e9f",
+        "fingerprint": "manager quality lmtg|larsen & toubro|remote",
+        "date": "2026-05-13T19:49:39.538909"
+    },
+    {
+        "id": "e1b561b03e48e64219afa7deb200960e",
+        "fingerprint": "quality assurance manager|guided search partners|remote",
+        "date": "2026-05-13T19:49:39.538911"
+    },
+    {
+        "id": "94ad853abb4cced6159b027884e09d0f",
+        "fingerprint": "global quality director, automotive electronics|sinotec|remote",
+        "date": "2026-05-13T19:49:39.538913"
     }
 ]
