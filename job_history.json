@@ -1,60 +1,5 @@
 [
     {
-        "id": "17a1b593f1ba90b33e95f67533c40de1",
-        "fingerprint": "manager \u2013 lidar testing & automotive compliance|evnek|bengaluru",
-        "date": "2026-02-25T06:49:40.699853"
-    },
-    {
-        "id": "d98b194dccdef0dba21c0421a9630043",
-        "fingerprint": "murex test manager|luxoft|bengaluru",
-        "date": "2026-02-25T06:49:40.699855"
-    },
-    {
-        "id": "d4efc0e57f009a06ae3d2fd1a1d83eb3",
-        "fingerprint": "senior product manager - nutanix test drive|nutanix|bengaluru",
-        "date": "2026-02-25T06:49:40.699858"
-    },
-    {
-        "id": "a0e2fb6e9295ca373eafb832bd3d277d",
-        "fingerprint": "quality assurance lead|accenture|pune",
-        "date": "2026-02-25T06:49:40.699860"
-    },
-    {
-        "id": "e9d5679a0c185e90f4a8c44023d8426a",
-        "fingerprint": "manager, software engineering (quality) \u2013 full stack|mastercard|pune",
-        "date": "2026-02-25T06:49:40.699863"
-    },
-    {
-        "id": "efd06162c8626ba7ffdc3de2e0c97953",
-        "fingerprint": "manager, software engineering ( quality) \u2013 full stack|mastercard|pune",
-        "date": "2026-02-25T06:49:40.699865"
-    },
-    {
-        "id": "8e12078cfa3aab2e85c7914de5c2b021",
-        "fingerprint": "test lead|learningmate|mumbai",
-        "date": "2026-02-25T06:49:40.699868"
-    },
-    {
-        "id": "921473cdd64fad4833c8dabef35fd021",
-        "fingerprint": "quality assurance asst.manager|promea therapeutics|hyderabad",
-        "date": "2026-02-25T06:49:40.699870"
-    },
-    {
-        "id": "c4343159b9283c4d5f753d627e15a6bc",
-        "fingerprint": "automation test lead|people prime worldwide|hyderabad",
-        "date": "2026-02-25T06:49:40.699873"
-    },
-    {
-        "id": "cfc47c55a4bfb15af0122fab53fc0c1a",
-        "fingerprint": "quality assurance lead|accenture|chennai",
-        "date": "2026-02-25T06:49:40.699875"
-    },
-    {
-        "id": "57f368a68ec1d68ccc8a9c30d9f2e463",
-        "fingerprint": "manager consulting expert -testing manager \u2013 banking|cgi|chennai",
-        "date": "2026-02-25T06:49:40.699877"
-    },
-    {
         "id": "c7039dc3cc587fbb66d12acf58fbdd45",
         "fingerprint": "lead \u2013 optical payload ait (assembly, integration & testing)|azista space|ahmedabad",
         "date": "2026-02-25T06:49:40.699880"
@@ -9998,5 +9943,60 @@
         "id": "761434880435e1579397c6e1a25265ae",
         "fingerprint": "director, global quality assurance|fortna|remote",
         "date": "2026-05-12T19:50:03.494974"
+    },
+    {
+        "id": "39c40703add6c793b7babca7cc73671e",
+        "fingerprint": "e2e test manager digital switchgear and iot (f/m/d)|siemens|bengaluru",
+        "date": "2026-05-13T06:49:48.980947"
+    },
+    {
+        "id": "7dd14fa5ef00758fe79ad7fd54fd3c61",
+        "fingerprint": "software test architect \u2013 azurioneye data workbench|philips|bengaluru",
+        "date": "2026-05-13T06:49:48.980966"
+    },
+    {
+        "id": "94d102407b59c6ecd463a28ad146774c",
+        "fingerprint": "lead software development engineer in test|solera holdings, llc.|bengaluru",
+        "date": "2026-05-13T06:49:48.980969"
+    },
+    {
+        "id": "a93f3da824227fbef0d6497d4af86822",
+        "fingerprint": "platform test engineering technical leader ( l2/l3 protocols| routing| python automation (12+yrs)|cisco|bengaluru",
+        "date": "2026-05-13T06:49:48.980971"
+    },
+    {
+        "id": "94a84ed64c4b617cdbbfefa6aea62ad1",
+        "fingerprint": "lead quality engineer - r01563490|brillio|bengaluru",
+        "date": "2026-05-13T06:49:48.980974"
+    },
+    {
+        "id": "e77c92de5681df5991edf32fffd68e11",
+        "fingerprint": "general manager-quality control & quality assurance|evoflex by evolute cleantech solutions pvt ltd|mumbai",
+        "date": "2026-05-13T06:49:48.980976"
+    },
+    {
+        "id": "99ad726cd554067d6ea1916cf42938b1",
+        "fingerprint": "manager, accuracy testing operations (r-19229)|dun & bradstreet|hyderabad",
+        "date": "2026-05-13T06:49:48.980978"
+    },
+    {
+        "id": "c59b1b40a6be1c62d8e38d6def421e58",
+        "fingerprint": "qa lead|national e-governance division|gurugram",
+        "date": "2026-05-13T06:49:48.980980"
+    },
+    {
+        "id": "35852bcdfe19cf0186213bd9cbcd369e",
+        "fingerprint": "manager - quality management system|air india sats airport services private limited (aisats)|gurugram",
+        "date": "2026-05-13T06:49:48.980982"
+    },
+    {
+        "id": "f278069ad46e9fa89d12c9978136dc78",
+        "fingerprint": "qa automation lead (cypress) \u2013 chennai|letzbizz|chennai",
+        "date": "2026-05-13T06:49:48.980984"
+    },
+    {
+        "id": "5d62c9a19e9699121a4de21878ba3269",
+        "fingerprint": "senior quality assurance manager|hetero healthcare limited|remote",
+        "date": "2026-05-13T06:49:48.980987"
     }
 ]
