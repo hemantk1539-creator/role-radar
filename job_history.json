@@ -1,80 +1,5 @@
 [
     {
-        "id": "c7039dc3cc587fbb66d12acf58fbdd45",
-        "fingerprint": "lead \u2013 optical payload ait (assembly, integration & testing)|azista space|ahmedabad",
-        "date": "2026-02-25T06:49:40.699880"
-    },
-    {
-        "id": "86c1114e1ee93a3464415c6af229f297",
-        "fingerprint": "general manager - quality control|sami-sabinsa group limited|bengaluru",
-        "date": "2026-02-25T12:49:51.949505"
-    },
-    {
-        "id": "94a6ee43193271eaf18da3f0497dd814",
-        "fingerprint": "manager - quality|collins aerospace|bengaluru",
-        "date": "2026-02-25T12:49:51.949520"
-    },
-    {
-        "id": "25d935874d72a1ade292d618804c18dc",
-        "fingerprint": "quality  manager - switchgear & ele panel industry|selmount power systems pvt. ltd.|bengaluru",
-        "date": "2026-02-25T12:49:51.949522"
-    },
-    {
-        "id": "08358860c104c0f3b6f3b03376adf708",
-        "fingerprint": "senior manager quality engineering|empower|bengaluru",
-        "date": "2026-02-25T12:49:51.949525"
-    },
-    {
-        "id": "9a5d92a195bd05bccb263f697c89c5c4",
-        "fingerprint": "manager quality assurance|sunquest information systems|bengaluru",
-        "date": "2026-02-25T12:49:51.949527"
-    },
-    {
-        "id": "fec3a5d855f9db49dd5625461e9f50f2",
-        "fingerprint": "qa architect - practice lead|aezion, inc|bengaluru",
-        "date": "2026-02-25T12:49:51.949529"
-    },
-    {
-        "id": "8d66507733dff5e144aa39253f49ecdd",
-        "fingerprint": "quality manager|pm group|bengaluru",
-        "date": "2026-02-25T12:49:51.949531"
-    },
-    {
-        "id": "31b711c103516840ff54cd13e0828323",
-        "fingerprint": "qa manager automation|electrolux group|bengaluru",
-        "date": "2026-02-25T12:49:51.949534"
-    },
-    {
-        "id": "6c32eb98ec0d133575afcea6c5a230e9",
-        "fingerprint": "engineering manager, load testing|okta|bengaluru",
-        "date": "2026-02-25T12:49:51.949536"
-    },
-    {
-        "id": "e78410a023346b5eecfed02724824300",
-        "fingerprint": "system test manager|texas instruments|bengaluru",
-        "date": "2026-02-25T12:49:51.949538"
-    },
-    {
-        "id": "1f25f5c6b73b9d75f8045c1a429b727b",
-        "fingerprint": "program manager  electronic test equipment|prodigy technovations|bengaluru",
-        "date": "2026-02-25T12:49:51.949541"
-    },
-    {
-        "id": "b8cdb7e2f018e9535c4afba79844f0e2",
-        "fingerprint": "head-process & supplier quality (head-sqa & pqa) (pss07865)|personnel search services group|pune",
-        "date": "2026-02-25T12:49:51.949544"
-    },
-    {
-        "id": "93a6d49339e8ebf9f6e166503f9c6a79",
-        "fingerprint": "lead quality engineer|barclays|pune",
-        "date": "2026-02-25T12:49:51.949546"
-    },
-    {
-        "id": "69bacbe8360600e21b4321261fd8b4cc",
-        "fingerprint": "quality team leader voice process international bpo pune|creative indians|pune",
-        "date": "2026-02-25T12:49:51.949549"
-    },
-    {
         "id": "0e66a37652a845888a1297d8f3a60f94",
         "fingerprint": "lead ii - software testing|ust|pune",
         "date": "2026-02-25T12:49:51.949552"
@@ -9998,5 +9923,80 @@
         "id": "5d62c9a19e9699121a4de21878ba3269",
         "fingerprint": "senior quality assurance manager|hetero healthcare limited|remote",
         "date": "2026-05-13T06:49:48.980987"
+    },
+    {
+        "id": "11bfd52db655d9eb341e03f013f0bd77",
+        "fingerprint": "ots automation lead - vice president|hackajob|bengaluru",
+        "date": "2026-05-13T12:50:14.644844"
+    },
+    {
+        "id": "77d5f1c06f0c5df1daa5517bdfc6fdb0",
+        "fingerprint": "lead qa engineer|atlas copco group|pune",
+        "date": "2026-05-13T12:50:14.644859"
+    },
+    {
+        "id": "975fdae601fbf14312d869a91dedf218",
+        "fingerprint": "senior lead automation tester for windows app|quest global|pune",
+        "date": "2026-05-13T12:50:14.644862"
+    },
+    {
+        "id": "783430db98ab4e353e0e4d5b01e2115d",
+        "fingerprint": "it solution architect for seal (secure access automation layer)|siemens|pune",
+        "date": "2026-05-13T12:50:14.644864"
+    },
+    {
+        "id": "663e8e35dc6f06f94807e4767e234f02",
+        "fingerprint": "head- qc/qa|mystical group- packaging division|mumbai",
+        "date": "2026-05-13T12:50:14.644867"
+    },
+    {
+        "id": "a4a3f6e2a9c812f4fe9e9ab6c4de717a",
+        "fingerprint": "senior quality assurance manager|marsh|mumbai",
+        "date": "2026-05-13T12:50:14.644869"
+    },
+    {
+        "id": "6addcbf20b38166f1a8ad3b7891d6fdc",
+        "fingerprint": "automation architect|qualizeal|hyderabad",
+        "date": "2026-05-13T12:50:14.644871"
+    },
+    {
+        "id": "a9da2e110b9c5c64cb0f32e7d6467f74",
+        "fingerprint": "quality assurance lead|xceedance|gurugram",
+        "date": "2026-05-13T12:50:14.644873"
+    },
+    {
+        "id": "2c9d689a4ccdf96626a739711c0baecf",
+        "fingerprint": "manager / deputy manager \u2013 quality (supply chain \u2013 solar)|truboard partners|gurugram",
+        "date": "2026-05-13T12:50:14.644875"
+    },
+    {
+        "id": "eab68934301c80a46cf899c91dcd972e",
+        "fingerprint": "quality lead (infoconnectivity & adas domain)|stellantis|chennai",
+        "date": "2026-05-13T12:50:14.644877"
+    },
+    {
+        "id": "d32fef7f9933124b0dd7fa58b066be4c",
+        "fingerprint": "sr manager, sw qa engineering - mobility|gigamon|chennai",
+        "date": "2026-05-13T12:50:14.644879"
+    },
+    {
+        "id": "ca76184123f58759ca28f6aa888053c2",
+        "fingerprint": "test manager - senior|emagine|chennai",
+        "date": "2026-05-13T12:50:14.644881"
+    },
+    {
+        "id": "531c9b7e74f986ac1da986cd897947fb",
+        "fingerprint": "qa lead|virtusa|chennai",
+        "date": "2026-05-13T12:50:14.644884"
+    },
+    {
+        "id": "96a2658629ebf0c7307d66d3efd29702",
+        "fingerprint": "site quality head \u2013 sterile / injectables|easebiz|ahmedabad",
+        "date": "2026-05-13T12:50:14.644886"
+    },
+    {
+        "id": "5c987127727813d2eaa7c7a798e84ecb",
+        "fingerprint": "quality assurance manager|befree global|ahmedabad",
+        "date": "2026-05-13T12:50:14.644888"
     }
 ]
