@@ -1,65 +1,5 @@
 [
     {
-        "id": "dd2c755e10dac43697d28f356e1dc1e7",
-        "fingerprint": "quality team lead|international|teleperformance (tp)|chennai",
-        "date": "2026-02-25T12:49:51.949605"
-    },
-    {
-        "id": "d4d50b019e2177d9a35a99b073c48667",
-        "fingerprint": "lead quality engineer|cognizant|chennai",
-        "date": "2026-02-25T12:49:51.949607"
-    },
-    {
-        "id": "3297beaa420acbe5886277ceced64059",
-        "fingerprint": "quality manager global biopharma|gloor & lang pharma and biotech recruiting|remote",
-        "date": "2026-02-25T12:49:51.949609"
-    },
-    {
-        "id": "06c103c08c7e758d4db1dab0bbed43e5",
-        "fingerprint": "senior manager - corporate quality|omega healthcare|bengaluru",
-        "date": "2026-02-25T19:50:43.672851"
-    },
-    {
-        "id": "b0009b23f8ccd49b2ae1816fa865ddaa",
-        "fingerprint": "test architect|fractal|bengaluru",
-        "date": "2026-02-25T19:50:43.672866"
-    },
-    {
-        "id": "feeec034d048a9232028f62ba5107202",
-        "fingerprint": "quality assurance lead|turbostart|bengaluru",
-        "date": "2026-02-25T19:50:43.672869"
-    },
-    {
-        "id": "05ba3be77bc5355d45fec5495212bf30",
-        "fingerprint": "lead test engineer|standard chartered india|bengaluru",
-        "date": "2026-02-25T19:50:43.672871"
-    },
-    {
-        "id": "f0e6c3923d4328debb10ca7986098c75",
-        "fingerprint": "manager-core assembly & test|atlas copco|pune",
-        "date": "2026-02-25T19:50:43.672874"
-    },
-    {
-        "id": "beb7ccb5d38c3337ce8a8e7a4418bfd9",
-        "fingerprint": "manager-quality management_2384|allianz technology|pune",
-        "date": "2026-02-25T19:50:43.672876"
-    },
-    {
-        "id": "9188501a50497b8c3b6cbfd7c5a8d2fb",
-        "fingerprint": "quality control manager|progressive galaxy|pune",
-        "date": "2026-02-25T19:50:43.672878"
-    },
-    {
-        "id": "033b18b02ace4c47ee6469f26ff4b237",
-        "fingerprint": "test automation capability lead|luxoft|pune",
-        "date": "2026-02-25T19:50:43.672880"
-    },
-    {
-        "id": "674ca7d8a4e11effa0d648574808768b",
-        "fingerprint": "senior manager - dsrm (sops lead and qa)|lupin|mumbai",
-        "date": "2026-02-25T19:50:43.672883"
-    },
-    {
         "id": "2c8fbdc838194edae5a7dcbfbe1aa9e4",
         "fingerprint": "manager- ai automation|kotak alternate asset managers limited|mumbai",
         "date": "2026-02-25T19:50:43.672885"
@@ -9998,5 +9938,65 @@
         "id": "94ad853abb4cced6159b027884e09d0f",
         "fingerprint": "global quality director, automotive electronics|sinotec|remote",
         "date": "2026-05-13T19:49:39.538913"
+    },
+    {
+        "id": "1d150d9e195f0c7260dbd51e932d8997",
+        "fingerprint": "quality engineering lead|accenture in india|pune",
+        "date": "2026-05-14T06:49:55.839339"
+    },
+    {
+        "id": "3e3581c79af249e4768a5b42a1a4689f",
+        "fingerprint": "engineering manager - test data team|crowdstrike|pune",
+        "date": "2026-05-14T06:49:55.839357"
+    },
+    {
+        "id": "998ab40f6688a561a11e92f00739c3e9",
+        "fingerprint": "quality engineering lead|accenture in india|bengaluru",
+        "date": "2026-05-14T06:49:55.839360"
+    },
+    {
+        "id": "2ada6b9265f1f19b039106349c514571",
+        "fingerprint": "quality engineering architect|accenture in india|bengaluru",
+        "date": "2026-05-14T06:49:55.839362"
+    },
+    {
+        "id": "882c9209f77a9ade05005a8135a38f59",
+        "fingerprint": "senior qa lead \u2013 salesforce cpq & lead-to-order transformation|jade global|bengaluru",
+        "date": "2026-05-14T06:49:55.839364"
+    },
+    {
+        "id": "6de8d9f4e700f514bf9bef7d8c95148e",
+        "fingerprint": "senior manager-automotive quality|renesas electronics|bengaluru",
+        "date": "2026-05-14T06:49:55.839366"
+    },
+    {
+        "id": "b5e12af9f51f54e192532e9208cd40d3",
+        "fingerprint": "validation lead - automation|caterpillar inc.|bengaluru",
+        "date": "2026-05-14T06:49:55.839368"
+    },
+    {
+        "id": "4cc2ac8fc61a48f86e29f800d390a07e",
+        "fingerprint": "operations process automation lead, avp|mygwork - lgbtq+ business community|bengaluru",
+        "date": "2026-05-14T06:49:55.839370"
+    },
+    {
+        "id": "84dfbac47672449c9bdcbce611f2c029",
+        "fingerprint": "manager engineering and business excellence - quality engineering|happiest minds technologies|bengaluru",
+        "date": "2026-05-14T06:49:55.839372"
+    },
+    {
+        "id": "4e46f118ee734969d0b2ebb8f819da3d",
+        "fingerprint": "quality manager - cl|parexel|hyderabad",
+        "date": "2026-05-14T06:49:55.839374"
+    },
+    {
+        "id": "ad326713a6fa67a5c2d8d8ed28aa243d",
+        "fingerprint": "architect i - software testing|ust|hyderabad",
+        "date": "2026-05-14T06:49:55.839376"
+    },
+    {
+        "id": "a79ade1be5a50bbef53420994387bc0f",
+        "fingerprint": "integration & automation tech lead|instacart",
+        "date": "2026-05-14T06:49:55.839378"
     }
 ]
