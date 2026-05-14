@@ -1,90 +1,5 @@
 [
     {
-        "id": "2c8fbdc838194edae5a7dcbfbe1aa9e4",
-        "fingerprint": "manager- ai automation|kotak alternate asset managers limited|mumbai",
-        "date": "2026-02-25T19:50:43.672885"
-    },
-    {
-        "id": "dc16a1ef8f596ab2e02e17d0a82172a0",
-        "fingerprint": "delivery/ project/ program manager automation testing in core banking|qualitykiosk technologies|mumbai",
-        "date": "2026-02-25T19:50:43.672887"
-    },
-    {
-        "id": "4b09c5bff73da8a5cda88f23154f93c6",
-        "fingerprint": "manager- business controls testing|fidelity international|delhi",
-        "date": "2026-02-25T19:50:43.672890"
-    },
-    {
-        "id": "1bbce942a58d9c236795c5939841fa1f",
-        "fingerprint": "qa lead \u2013 automation & quality engineering|float group|hyderabad",
-        "date": "2026-02-25T19:50:43.672892"
-    },
-    {
-        "id": "34428d0ecc1fd7dac21c7027557a8c92",
-        "fingerprint": "manager automation engineering -uipath|roboyo|hyderabad",
-        "date": "2026-02-25T19:50:43.672895"
-    },
-    {
-        "id": "dbea44a7b7b3c8b5a3af7ab2f920ae6d",
-        "fingerprint": "quality assurance - manager|client server tech|hyderabad",
-        "date": "2026-02-25T19:50:43.672897"
-    },
-    {
-        "id": "ec1c607997e3bcea99185d8bbbf6eddd",
-        "fingerprint": "sr manager, test automation and validation lead|amgen|hyderabad",
-        "date": "2026-02-25T19:50:43.672899"
-    },
-    {
-        "id": "f7887f9c07dad4f7cf9b19161f72ab19",
-        "fingerprint": "qa manager: pharma osd/injection experienced: 3-7 years|stavros pharmaceuticals pvt. ltd.|gurugram",
-        "date": "2026-02-25T19:50:43.672902"
-    },
-    {
-        "id": "d64889e9f15371542c8c6a8aad7701e5",
-        "fingerprint": "software development engineer in test iii - lead gen|highlevel|gurugram",
-        "date": "2026-02-25T19:50:43.672904"
-    },
-    {
-        "id": "e52d3c4c89808d77486119dbc7923aea",
-        "fingerprint": "quality assurance manager|pw (physicswallah)|gurugram",
-        "date": "2026-02-25T19:50:43.672906"
-    },
-    {
-        "id": "da26ed1c2f1a1ad78dbba37047d755d0",
-        "fingerprint": "test manager|standard chartered india|chennai",
-        "date": "2026-02-25T19:50:43.672909"
-    },
-    {
-        "id": "df36df5c21dea190eb6cb1e6c6e6e8e1",
-        "fingerprint": "production manager - quality|lapiz|chennai",
-        "date": "2026-02-25T19:50:43.672911"
-    },
-    {
-        "id": "a97353bbdc9cb83473213a6f58c710a6",
-        "fingerprint": "quality manager - mechanical|hive engineering quality services (heqs)|ahmedabad",
-        "date": "2026-02-25T19:50:43.672913"
-    },
-    {
-        "id": "49a8cf26200611f53e3210f182b230e8",
-        "fingerprint": "qa manager - wordpress|e2m|ahmedabad",
-        "date": "2026-02-25T19:50:43.672915"
-    },
-    {
-        "id": "2b4e99503037185e6042eb07973cefe9",
-        "fingerprint": "quality manager|authentic staffing agency|ahmedabad",
-        "date": "2026-02-25T19:50:43.672918"
-    },
-    {
-        "id": "69d333e4be4969d4f5dedde6d34bac33",
-        "fingerprint": "manager - quality assurance  -solar domain|tie-ups|pune",
-        "date": "2026-02-26T06:50:08.380392"
-    },
-    {
-        "id": "59d769962a3ae285d2162bc22c9bae36",
-        "fingerprint": "manager quality automation|atk tech|bengaluru",
-        "date": "2026-02-26T06:50:08.380409"
-    },
-    {
         "id": "61903f09643763b1286c368be92e6e40",
         "fingerprint": "manager quality (automation)|atk tech|bengaluru",
         "date": "2026-02-26T06:50:08.380412"
@@ -9998,5 +9913,90 @@
         "id": "a79ade1be5a50bbef53420994387bc0f",
         "fingerprint": "integration & automation tech lead|instacart",
         "date": "2026-05-14T06:49:55.839378"
+    },
+    {
+        "id": "b382397716f92f153c8533e20e80d50a",
+        "fingerprint": "lead engineer - qa automation|eaton|pune",
+        "date": "2026-05-14T12:49:31.706800"
+    },
+    {
+        "id": "ca3308ac93a65a10a02291954e790754",
+        "fingerprint": "senior test lead|mphasis|bengaluru",
+        "date": "2026-05-14T12:49:31.706817"
+    },
+    {
+        "id": "c2a28c24c4ae759c76bccd32df979fc5",
+        "fingerprint": "test architect|span india|bengaluru",
+        "date": "2026-05-14T12:49:31.706820"
+    },
+    {
+        "id": "6b9d5c389fc4f1389f7dfbf2b74fe3d7",
+        "fingerprint": "quality manager|playshifu|bengaluru",
+        "date": "2026-05-14T12:49:31.706822"
+    },
+    {
+        "id": "c548c74be16f533fbe65af8510e74041",
+        "fingerprint": "quality manager|sofomation|mumbai",
+        "date": "2026-05-14T12:49:31.706824"
+    },
+    {
+        "id": "017aa614b8f86f24b4197b606f807fe1",
+        "fingerprint": "manager, customer quality - nmipl|nissan motor corporation|gurugram",
+        "date": "2026-05-14T12:49:31.706826"
+    },
+    {
+        "id": "039ff0f18eec3ae7a30d9628d2cb900f",
+        "fingerprint": "senior manager / program manager \u2013 testing (banking domain)|threatxintel|chennai",
+        "date": "2026-05-14T12:49:31.706828"
+    },
+    {
+        "id": "48cacbf76264422156ca36979feef1b0",
+        "fingerprint": "team manager - business support - genai automation support|dhl freight|chennai",
+        "date": "2026-05-14T12:49:31.706830"
+    },
+    {
+        "id": "c03593bcfe91613a12878b95f0c69f98",
+        "fingerprint": "test automation lead|accenture services pvt ltd|noida",
+        "date": "2026-05-14T12:49:31.706833"
+    },
+    {
+        "id": "04662cb11f14a873111d898c05ede342",
+        "fingerprint": "quality engineering lead|accenture services pvt ltd|noida",
+        "date": "2026-05-14T12:49:31.706835"
+    },
+    {
+        "id": "4a376415a89c1372b05822df5b74a576",
+        "fingerprint": "qa lead - snow implementation|accolite|noida",
+        "date": "2026-05-14T12:49:31.706837"
+    },
+    {
+        "id": "6b28cd7b973c6b325d4c10d641e69407",
+        "fingerprint": "lead/ sr. automation engineer- cypress | 7+ yrs | remote | 5pm till 2 am|mobiloitte|noida",
+        "date": "2026-05-14T12:49:31.706838"
+    },
+    {
+        "id": "279ce424e85a47ccd93a6702f4ffac35",
+        "fingerprint": "principal qa engineer \u2013 platform experience|anaplan|noida",
+        "date": "2026-05-14T12:49:31.706840"
+    },
+    {
+        "id": "7a410d9a0d0631d94740a33e57254f38",
+        "fingerprint": "performance test architect- noida, india|neoxam|noida",
+        "date": "2026-05-14T12:49:31.706843"
+    },
+    {
+        "id": "27f5f678a273fd6d3f2058d9dddfb91e",
+        "fingerprint": "qa lead|persistent systems|noida",
+        "date": "2026-05-14T12:49:31.706845"
+    },
+    {
+        "id": "19c036ea26f2a92fe3bafeafb0cb52ac",
+        "fingerprint": "lead instrumentation & automation engineer|zydus group|ahmedabad",
+        "date": "2026-05-14T12:49:31.706847"
+    },
+    {
+        "id": "7b6aecc1c9d0277027ea301c637dc174",
+        "fingerprint": "director, global quality systems & compliance|hudson singapore|remote",
+        "date": "2026-05-14T12:49:31.706849"
     }
 ]
