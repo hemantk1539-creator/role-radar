@@ -1,55 +1,5 @@
 [
     {
-        "id": "61903f09643763b1286c368be92e6e40",
-        "fingerprint": "manager quality (automation)|atk tech|bengaluru",
-        "date": "2026-02-26T06:50:08.380412"
-    },
-    {
-        "id": "b0407d6baa2c1700f5be9e6181ea9e0c",
-        "fingerprint": "manager - quality|fictiv technology solutions|bengaluru",
-        "date": "2026-02-26T06:50:08.380415"
-    },
-    {
-        "id": "4b786c0d06e1e91cd837f40b7de1db22",
-        "fingerprint": "technical program manager, android, application quality|google|bengaluru",
-        "date": "2026-02-26T06:50:08.380417"
-    },
-    {
-        "id": "79ca77719739ea8aad51340a110118dd",
-        "fingerprint": "qe lead architect - playwright|alphanimble|bengaluru",
-        "date": "2026-02-26T06:50:08.380419"
-    },
-    {
-        "id": "f90e4af87617524cb12c165c0ce1b176",
-        "fingerprint": "lead sqa lead supplier quality assurance frequent supplier visits across foundries, machining units npd gd & t apqp, ppap, and iatf 16949|sevenloop (ximkart)|bengaluru",
-        "date": "2026-02-26T06:50:08.380422"
-    },
-    {
-        "id": "cfa4728627cbafa7e5fd61ac8577f185",
-        "fingerprint": "manager software test engineering|calix|bengaluru",
-        "date": "2026-02-26T06:50:08.380424"
-    },
-    {
-        "id": "8dc984fc2452edacee6129ca84ed1bd2",
-        "fingerprint": "testing manager|anlage infotech|bengaluru",
-        "date": "2026-02-26T06:50:08.380427"
-    },
-    {
-        "id": "66ec01e591d2c64eb6753334ea5c04b5",
-        "fingerprint": "quality control manager (full relocation support to uae)|arrise solutions india|hyderabad",
-        "date": "2026-02-26T06:50:08.380429"
-    },
-    {
-        "id": "70cbda2d7ebd1ab5452fa0feee9b4527",
-        "fingerprint": "quality incharge manager / quality supervisor|b&b triplewall containers|hyderabad",
-        "date": "2026-02-26T06:50:08.380432"
-    },
-    {
-        "id": "0362c9eba9741396699ecef284bcfd61",
-        "fingerprint": "asst. manager pet field quality analyst|mahindra &amp;amp;amp; mahindra limited.|hyderabad",
-        "date": "2026-02-26T06:50:08.380435"
-    },
-    {
         "id": "052a0be8920e820e198f84570b8f055a",
         "fingerprint": "quality and training effectiveness program manager|google|hyderabad",
         "date": "2026-02-26T06:50:08.380437"
@@ -9998,5 +9948,55 @@
         "id": "7b6aecc1c9d0277027ea301c637dc174",
         "fingerprint": "director, global quality systems & compliance|hudson singapore|remote",
         "date": "2026-05-14T12:49:31.706849"
+    },
+    {
+        "id": "8d39bcc2c931cfcd0e53f968704e1fb0",
+        "fingerprint": "lead firmware quality assurance engineer|copeland|pune",
+        "date": "2026-05-14T19:49:51.905049"
+    },
+    {
+        "id": "a9cd0ed1d8be5e1322edef9059dbef62",
+        "fingerprint": "ic test process/ test cell development manager|tata electronics|bengaluru",
+        "date": "2026-05-14T19:49:51.905068"
+    },
+    {
+        "id": "d0a9ef524e141f8b7aca47e2ee24032e",
+        "fingerprint": "it -sr. application qa lead|cadence|gurugram",
+        "date": "2026-05-14T19:49:51.905071"
+    },
+    {
+        "id": "c378b1c214e02bef40c042000a52df84",
+        "fingerprint": "test lead ui|people prime worldwide|gurugram",
+        "date": "2026-05-14T19:49:51.905073"
+    },
+    {
+        "id": "da4f872c39a5b30d9c0ea3ac5c3069f2",
+        "fingerprint": "divisional quality excellence lead|v-guard|gurugram",
+        "date": "2026-05-14T19:49:51.905074"
+    },
+    {
+        "id": "0b35d46229d6e42d2f6d08a3f355db3c",
+        "fingerprint": "qa lead - snow implementation|accolite|chennai",
+        "date": "2026-05-14T19:49:51.905076"
+    },
+    {
+        "id": "1a955ec8689a9d6e9d9bff8962866cfd",
+        "fingerprint": "lead quality assurance|access | information management|chennai",
+        "date": "2026-05-14T19:49:51.905078"
+    },
+    {
+        "id": "891c43d87c80e75756e5144da20c2328",
+        "fingerprint": "lead software qa engineer|logitech|chennai",
+        "date": "2026-05-14T19:49:51.905079"
+    },
+    {
+        "id": "f827fbddd30d5d3d6ad25a6417987f27",
+        "fingerprint": "lead, data quality management|bahwan cybertek|chennai",
+        "date": "2026-05-14T19:49:51.905081"
+    },
+    {
+        "id": "87d31916209cd67f8926bdd2f56b9c45",
+        "fingerprint": "senior or lead automation engineer -energy chennai|ramboll|chennai",
+        "date": "2026-05-14T19:49:51.905083"
     }
 ]
