@@ -1,110 +1,5 @@
 [
     {
-        "id": "052a0be8920e820e198f84570b8f055a",
-        "fingerprint": "quality and training effectiveness program manager|google|hyderabad",
-        "date": "2026-02-26T06:50:08.380437"
-    },
-    {
-        "id": "9a32bd047ac6b3a793f3afd6a130ce21",
-        "fingerprint": "training and quality manager|concentrix|hyderabad",
-        "date": "2026-02-26T06:50:08.380440"
-    },
-    {
-        "id": "eaaf0192cce8933a990f07424895625f",
-        "fingerprint": "senior manager - quality coding ( ip drg)|gebbs healthcare solutions|hyderabad",
-        "date": "2026-02-26T06:50:08.380442"
-    },
-    {
-        "id": "93d1f9fde5857e8150924e63990b4186",
-        "fingerprint": "lead consultant - it quality manager - sox|astrazeneca|chennai",
-        "date": "2026-02-26T06:50:08.380445"
-    },
-    {
-        "id": "7199897ea58baffba19be81d8dee7b3c",
-        "fingerprint": "test manager / senior qa consultant|talent corner hr services|delhi",
-        "date": "2026-02-26T06:50:08.380467"
-    },
-    {
-        "id": "4234257edb78b59f55f974b7e67849c5",
-        "fingerprint": "global quality director|variant partners|remote",
-        "date": "2026-02-26T06:50:08.380470"
-    },
-    {
-        "id": "edda3cc542e3bcb69203bfcbbf175cfe",
-        "fingerprint": "knowledge manager - ai and automation|akzonobel|pune",
-        "date": "2026-02-26T12:50:05.510381"
-    },
-    {
-        "id": "00acd50f4691f8b036e3762e10e8079a",
-        "fingerprint": "quality & escalation manager|aforeserve|pune",
-        "date": "2026-02-26T12:50:05.510397"
-    },
-    {
-        "id": "70a08db6616bfaad242ed3f8bd61771d",
-        "fingerprint": "qa architect /manager\u202f (pune)|codvo.ai|pune",
-        "date": "2026-02-26T12:50:05.510400"
-    },
-    {
-        "id": "e6bce1726047acb093f83934d3568735",
-        "fingerprint": "qa manager (manual testing with selenium & python knowledge|saisystems health|pune",
-        "date": "2026-02-26T12:50:05.510402"
-    },
-    {
-        "id": "4856bdd1ada8f12fbf1494073885c1a1",
-        "fingerprint": "qa manager (manual testing with selenium & python knowledge)|saisystems health|pune",
-        "date": "2026-02-26T12:50:05.510404"
-    },
-    {
-        "id": "57283e11e98a5c9b23e7629a3ffc08bf",
-        "fingerprint": "test architect|neal analytics|pune",
-        "date": "2026-02-26T12:50:05.510406"
-    },
-    {
-        "id": "90bfffb759d0470eef661f54de83a212",
-        "fingerprint": "test architect|fractal analytics|pune",
-        "date": "2026-02-26T12:50:05.510408"
-    },
-    {
-        "id": "bf0cf7fa114cfc81ca3649c8e8f0e307",
-        "fingerprint": "senior quality manager|infineon technologies|bengaluru",
-        "date": "2026-02-26T12:50:05.510410"
-    },
-    {
-        "id": "93a3cb1b1d525b499b09520d5a543343",
-        "fingerprint": "senior quality manager/ bpo sr manager quality/general manager quality|selectica international solutions|bengaluru",
-        "date": "2026-02-26T12:50:05.510413"
-    },
-    {
-        "id": "0f57f9ac79d3d241a5a2e3ec5bf6a974",
-        "fingerprint": "product quality manager|infineon technologies|bengaluru",
-        "date": "2026-02-26T12:50:05.510415"
-    },
-    {
-        "id": "525e71ea66284edc984a5b3a30f5c1b3",
-        "fingerprint": "qa lead|verdethos|bengaluru",
-        "date": "2026-02-26T12:50:05.510417"
-    },
-    {
-        "id": "9f732c9bde2a42e0cd61fa609f970242",
-        "fingerprint": "trade surveillance, director, oversight, monitoring and testing|morgan stanley|mumbai",
-        "date": "2026-02-26T12:50:05.510420"
-    },
-    {
-        "id": "6e11ef82c2c07ccef81ae4c08eb53597",
-        "fingerprint": "quality manager \u2013 automotive manufacturing (sheet metal)|jupiter industrial works thane|mumbai",
-        "date": "2026-02-26T12:50:05.510422"
-    },
-    {
-        "id": "e3ec5d308900b78db8896f34483c9d49",
-        "fingerprint": "test manager\nsap etm|infokrafts data consultancy services|mumbai",
-        "date": "2026-02-26T12:50:05.510424"
-    },
-    {
-        "id": "0a1a2d89c910833b929d1d1bbaa014c6",
-        "fingerprint": "qa lead automation & quality engineering|float group|hyderabad",
-        "date": "2026-02-26T12:50:05.510426"
-    },
-    {
         "id": "aada16d47415ca80f8faf4952acc6b65",
         "fingerprint": "quality lead engineer|ge vernova|hyderabad",
         "date": "2026-02-26T12:50:05.510429"
@@ -9998,5 +9893,110 @@
         "id": "87d31916209cd67f8926bdd2f56b9c45",
         "fingerprint": "senior or lead automation engineer -energy chennai|ramboll|chennai",
         "date": "2026-05-14T19:49:51.905083"
+    },
+    {
+        "id": "ca69c58fb0e8df19364f8b58f1c52640",
+        "fingerprint": "ai-native team lead quality tester|outsystems|bengaluru",
+        "date": "2026-05-15T06:49:47.983717"
+    },
+    {
+        "id": "1d0bcafd0ffa1c0ad4248164390ec349",
+        "fingerprint": "alpha implementation test manager - senior manager|state street|bengaluru",
+        "date": "2026-05-15T06:49:47.983734"
+    },
+    {
+        "id": "55cbd3e9255f7c1d4b4e5582ab529e31",
+        "fingerprint": "etl/dwt testing - ihlcp - quality engineering lead|infosys|bengaluru",
+        "date": "2026-05-15T06:49:47.983736"
+    },
+    {
+        "id": "0720ea7f3a2045e0299c045034303bd1",
+        "fingerprint": "qa lead - snow implementation|accolite|bengaluru",
+        "date": "2026-05-15T06:49:47.983739"
+    },
+    {
+        "id": "9d73d591b121d51ccf96b3699f1b2fab",
+        "fingerprint": "head of quality & mission assurance|astrobase space technologies|bengaluru",
+        "date": "2026-05-15T06:49:47.983741"
+    },
+    {
+        "id": "564d9016a27f2c20d0a1a0e8bf56fa80",
+        "fingerprint": "senior (or lead) qa engineer|ksb company|pune",
+        "date": "2026-05-15T06:49:47.983743"
+    },
+    {
+        "id": "a8042fe12f3dadd1139428b250984aa5",
+        "fingerprint": "lead software qa engineer|ss&c technologies|hyderabad",
+        "date": "2026-05-15T06:49:47.983746"
+    },
+    {
+        "id": "252306ed5fdb086feae6b725f7aa2742",
+        "fingerprint": "senior engineer qe digital dist & ent eng|invesco|hyderabad",
+        "date": "2026-05-15T06:49:47.983748"
+    },
+    {
+        "id": "5840220f00bdcad457ea6a9521d353e0",
+        "fingerprint": "test lead|valuelabs|hyderabad",
+        "date": "2026-05-15T06:49:47.983750"
+    },
+    {
+        "id": "9f875f34dbfb0cfef48486579587c071",
+        "fingerprint": "staff/ senior staff qa engineer (c. c++, python, cxl, pcie)|marvell technology|hyderabad",
+        "date": "2026-05-15T06:49:47.983752"
+    },
+    {
+        "id": "8992c7dfaaa19852e21b473c4874fee9",
+        "fingerprint": "quality assurance manager|deccan ai experts|hyderabad",
+        "date": "2026-05-15T06:49:47.983754"
+    },
+    {
+        "id": "34f1336b9d6f1ef139168edbecf66773",
+        "fingerprint": "quality engineering lead|accenture services pvt ltd|gurugram",
+        "date": "2026-05-15T06:49:47.983756"
+    },
+    {
+        "id": "80dcdfd551665e8bf971e3e4031525ce",
+        "fingerprint": "hvdc solution line quality leader|smartsignal|gurugram",
+        "date": "2026-05-15T06:49:47.983758"
+    },
+    {
+        "id": "b3e21d3f3f83779f00786e97fe77bd26",
+        "fingerprint": "lead software development engineer in test|stoxx|gurugram",
+        "date": "2026-05-15T06:49:47.983760"
+    },
+    {
+        "id": "ac10218ef6f1b16767b157587f4e5756",
+        "fingerprint": "test lead ui|people prime worldwide|noida",
+        "date": "2026-05-15T06:49:47.983762"
+    },
+    {
+        "id": "e01a746f27085547206b8ca109a86922",
+        "fingerprint": "quality head|life o line technologist|ahmedabad",
+        "date": "2026-05-15T06:49:47.983765"
+    },
+    {
+        "id": "21257803ccc328048924e907d99e1f44",
+        "fingerprint": "quality compliance lead|cygnet.one|ahmedabad",
+        "date": "2026-05-15T06:49:47.983767"
+    },
+    {
+        "id": "4963679d33ed58836e37a97cd2cb8d6f",
+        "fingerprint": "quality assurance manager|rudram cosmotubes pvt ltd|ahmedabad",
+        "date": "2026-05-15T06:49:47.983787"
+    },
+    {
+        "id": "f115dff51000cc37a0abd395671d1cfd",
+        "fingerprint": "head of security automation and process engineering|wpp|chennai",
+        "date": "2026-05-15T06:49:47.983789"
+    },
+    {
+        "id": "9d275d4f0a4fe06a81a0c5279a2fe73e",
+        "fingerprint": "sr. manager - test manufacturing|micron technology|remote",
+        "date": "2026-05-15T06:49:47.983791"
+    },
+    {
+        "id": "a8e4e06eda80c5c2cc1ba83d97dff479",
+        "fingerprint": "divisional quality excellence lead|v-guard|remote",
+        "date": "2026-05-15T06:49:47.983793"
     }
 ]
