@@ -1,60 +1,5 @@
 [
     {
-        "id": "aada16d47415ca80f8faf4952acc6b65",
-        "fingerprint": "quality lead engineer|ge vernova|hyderabad",
-        "date": "2026-02-26T12:50:05.510429"
-    },
-    {
-        "id": "68e1dc348b45ab7a78ac927e4244b72d",
-        "fingerprint": "gfs-data and quality management-manager|deloitte|hyderabad",
-        "date": "2026-02-26T12:50:05.510431"
-    },
-    {
-        "id": "0bcf9c8a35a7947952c389319ab6744f",
-        "fingerprint": "manager software quality engineering|diebold|hyderabad",
-        "date": "2026-02-26T12:50:05.510434"
-    },
-    {
-        "id": "0667a296e20f7546d4372f57f076e782",
-        "fingerprint": "director quality assurance engineer|embarkgcc services|hyderabad",
-        "date": "2026-02-26T12:50:05.510436"
-    },
-    {
-        "id": "06afc6eb60808fadc70b21ecc8a9cbc7",
-        "fingerprint": "qa lead|infor|hyderabad",
-        "date": "2026-02-26T12:50:05.510438"
-    },
-    {
-        "id": "5bb183a0347ffc2dab7f64913580651d",
-        "fingerprint": "quality manager|tenneco|gurugram",
-        "date": "2026-02-26T12:50:05.510440"
-    },
-    {
-        "id": "d73b5f0c0b5a598d3bdfa3a3c6da3b12",
-        "fingerprint": "software development manager iii, relay yard automation, relay yard automation|amazon|noida",
-        "date": "2026-02-26T12:50:05.510443"
-    },
-    {
-        "id": "2b09fd0df86a9adb3ec2c53d1e6f1bc4",
-        "fingerprint": "electrical/design manager: automation machines|daksh manpower solutions private limited|noida",
-        "date": "2026-02-26T12:50:05.510445"
-    },
-    {
-        "id": "74d66f8cdef9bd8779c9da3b355e6780",
-        "fingerprint": "principal quality assurance engineer|vml es|noida",
-        "date": "2026-02-26T12:50:05.510447"
-    },
-    {
-        "id": "0fd8e257707fa207e942dd0952396d65",
-        "fingerprint": "quality manager|ragam metal products private limited|chennai",
-        "date": "2026-02-26T12:50:05.510449"
-    },
-    {
-        "id": "8304a79f983677d5eb0731b896d4dba7",
-        "fingerprint": "data quality manager|t d newton & associates|chennai",
-        "date": "2026-02-26T12:50:05.510451"
-    },
-    {
         "id": "b36316d135988fac4444f9c2034a1ecb",
         "fingerprint": "test manager \u2013 cards & payments|expleo group|chennai",
         "date": "2026-02-26T12:50:05.510454"
@@ -9998,5 +9943,60 @@
         "id": "a8e4e06eda80c5c2cc1ba83d97dff479",
         "fingerprint": "divisional quality excellence lead|v-guard|remote",
         "date": "2026-05-15T06:49:47.983793"
+    },
+    {
+        "id": "27075b07b6b818c6af3a741b2f0f59dc",
+        "fingerprint": "quality manager|hinduja tech limited|bengaluru",
+        "date": "2026-05-15T12:49:53.794602"
+    },
+    {
+        "id": "9ca067c567085f9d30cebfe6a9b1520e",
+        "fingerprint": "quality assurance manager|deccan ai experts|bengaluru",
+        "date": "2026-05-15T12:49:53.794615"
+    },
+    {
+        "id": "3e0869f1c651b09f5bee3b0bf851580c",
+        "fingerprint": "quality engineering manager,flashblade|pure storage|bengaluru",
+        "date": "2026-05-15T12:49:53.794618"
+    },
+    {
+        "id": "12d0fc77634e1dd6b94956743063524d",
+        "fingerprint": "mgr sr, prod engrg; prod&test|onsemi|bengaluru",
+        "date": "2026-05-15T12:49:53.794620"
+    },
+    {
+        "id": "cce6d0bcbd986b81a39cfefd4b6844aa",
+        "fingerprint": "quality assurance manager|deccan ai experts|pune",
+        "date": "2026-05-15T12:49:53.794622"
+    },
+    {
+        "id": "337c704a13b385318e4e0f06f08195ff",
+        "fingerprint": "head of quality assurance|amar products|mumbai",
+        "date": "2026-05-15T12:49:53.794624"
+    },
+    {
+        "id": "e66719966724db6cd670a160488fe8a4",
+        "fingerprint": "senior quality assurance lead|gus global services india pvt. ltd.|gurugram",
+        "date": "2026-05-15T12:49:53.794626"
+    },
+    {
+        "id": "e20ca784a359b82634635448d8c8859c",
+        "fingerprint": "hvdc solution line quality leader|ge vernova|gurugram",
+        "date": "2026-05-15T12:49:53.794628"
+    },
+    {
+        "id": "9c851c3b93b8fb9e9d9682c74d87a14a",
+        "fingerprint": "qa lead \u2013 oracle ebs testing (tosca)|impactqa|gurugram",
+        "date": "2026-05-15T12:49:53.794630"
+    },
+    {
+        "id": "dfbca8ee874a15435675b94385664e5a",
+        "fingerprint": "qa architect|willware technologies|chennai",
+        "date": "2026-05-15T12:49:53.794632"
+    },
+    {
+        "id": "a66bd6dd81eff691c01a67139826546f",
+        "fingerprint": "quality control manager|iph glasses|ahmedabad",
+        "date": "2026-05-15T12:49:53.794634"
     }
 ]
