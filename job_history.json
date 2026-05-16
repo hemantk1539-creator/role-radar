@@ -1,35 +1,5 @@
 [
     {
-        "id": "e1541628ecd0a339e68c78d8589be17b",
-        "fingerprint": "quality manager - lithium battery manufacturing startup|peoplegene|mumbai",
-        "date": "2026-02-27T06:50:07.910082"
-    },
-    {
-        "id": "0f517ef3aada7ee305501d0b7b719226",
-        "fingerprint": "manager - quality analysis ( qa )|manpower resources india|hyderabad",
-        "date": "2026-02-27T06:50:07.910084"
-    },
-    {
-        "id": "e0ff3f6e1d9bf15121f4e6dcc4b132df",
-        "fingerprint": "senior software development engineer (qa lead)|expedia group|gurugram",
-        "date": "2026-02-27T06:50:07.910086"
-    },
-    {
-        "id": "c2fc94285f4e7613055aa2c07827ae04",
-        "fingerprint": "agm - training & quality lead|vodafone idea limited|ahmedabad",
-        "date": "2026-02-27T06:50:07.910089"
-    },
-    {
-        "id": "466adaaedea9bf6b0f01c9f125a2f920",
-        "fingerprint": "manager, quality support operations |stripe",
-        "date": "2026-02-27T06:50:07.910091"
-    },
-    {
-        "id": "097ed61f847daed7cfabbf8bfb3aa09f",
-        "fingerprint": "head of quality assurance|qualitia software|pune",
-        "date": "2026-02-27T12:50:08.565362"
-    },
-    {
         "id": "0bc43dd8881cceed5d472cb9137278e8",
         "fingerprint": "quality leader - ildl|jabil circuit india|pune",
         "date": "2026-02-27T12:50:08.565379"
@@ -9998,5 +9968,35 @@
         "id": "57cc128653adfe67741aac9ad3f4d894",
         "fingerprint": "senior director, global quality|hireright|bengaluru",
         "date": "2026-05-16T06:49:52.541573"
+    },
+    {
+        "id": "b09867fef52e05ea0ac13d50fd6dcad2",
+        "fingerprint": "sr manager, quality & safety|loram maintenance of way, inc.|bengaluru",
+        "date": "2026-05-16T12:50:05.929621"
+    },
+    {
+        "id": "a361aa10c4198f5363176159f063accc",
+        "fingerprint": "test lead|epiroc|bengaluru",
+        "date": "2026-05-16T12:50:05.929637"
+    },
+    {
+        "id": "f5e107761c4070f6f63bf512e50142d7",
+        "fingerprint": "lead quality engineer, robotic tools|origin|bengaluru",
+        "date": "2026-05-16T12:50:05.929640"
+    },
+    {
+        "id": "1d3c7dfceae73c71caca1763554a5f94",
+        "fingerprint": "senior quality assurance manager|telna|pune",
+        "date": "2026-05-16T12:50:05.929643"
+    },
+    {
+        "id": "84d82b24d79d481ce0444904054fcb8f",
+        "fingerprint": "etl qa lead|virtusa|chennai",
+        "date": "2026-05-16T12:50:05.929645"
+    },
+    {
+        "id": "20cdcfa162b6785b007d0d6db802c559",
+        "fingerprint": "head of quality assurance - automotive (immediate joining)|agrasen engineering industries pvt. ltd.|remote",
+        "date": "2026-05-16T12:50:05.929648"
     }
 ]
