@@ -1,25 +1,5 @@
 [
     {
-        "id": "22d9bd48a585c94885c0953968c28ecb",
-        "fingerprint": "sr. test manager|standard chartered india|bengaluru",
-        "date": "2026-02-27T12:50:08.565403"
-    },
-    {
-        "id": "9145181f842091bbb41306d0257c0eac",
-        "fingerprint": "unit manager - process quality|mphasis|bengaluru",
-        "date": "2026-02-27T12:50:08.565405"
-    },
-    {
-        "id": "afb40f62f45e57b715816f544ba84429",
-        "fingerprint": "quality manager|abb|bengaluru",
-        "date": "2026-02-27T12:50:08.565407"
-    },
-    {
-        "id": "e06a382374d23060f68e309164390cf8",
-        "fingerprint": "manager - quality control orders|abb|bengaluru",
-        "date": "2026-02-27T12:50:08.565409"
-    },
-    {
         "id": "fa5cac995aca0c2e28ae1412b4a470a2",
         "fingerprint": "compliance quality manager ii, account compliance quality|amazon|bengaluru",
         "date": "2026-02-27T12:50:08.565412"
@@ -9998,5 +9978,25 @@
         "id": "6b247f9c3e9b08be0494303596b09ee6",
         "fingerprint": "automation test lead - service virtualisation (parasoft )|infosys|bengaluru",
         "date": "2026-05-17T06:49:51.009999"
+    },
+    {
+        "id": "2a4279caa1795825b9f52d2ec6809705",
+        "fingerprint": "project manager & domain expert \u2013 functional testing (insurance domain)|avantenow|bengaluru",
+        "date": "2026-05-17T12:49:46.810055"
+    },
+    {
+        "id": "605fb63f88570ff97f1c5f5889d5a223",
+        "fingerprint": "internal firm services - l&d quality & compliance - senior manager|pwc acceleration center india|bengaluru",
+        "date": "2026-05-17T12:49:46.810073"
+    },
+    {
+        "id": "d81ddb44457cfa8d6fcd91228e05bc37",
+        "fingerprint": "manager - customer data quality assurance|pratt & whitney|bengaluru",
+        "date": "2026-05-17T12:49:46.810075"
+    },
+    {
+        "id": "c4a6f20634d17502898e364e65658aec",
+        "fingerprint": "head of global quality|vishay precision group, inc. (vpg)|remote",
+        "date": "2026-05-17T12:49:46.810078"
     }
 ]
