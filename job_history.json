@@ -1,30 +1,5 @@
 [
     {
-        "id": "e079e063c85c47a1c4d1c140cb5c70b7",
-        "fingerprint": "quality manager|my car pune|pune",
-        "date": "2026-02-27T12:50:08.565391"
-    },
-    {
-        "id": "ddaf10b56879908eef9e437b5177d859",
-        "fingerprint": "architect - test and verification engineering|philips|pune",
-        "date": "2026-02-27T12:50:08.565393"
-    },
-    {
-        "id": "1dd8162f15348f99337a038dfd75ca9f",
-        "fingerprint": "quality manager|rajveer enterprises|pune",
-        "date": "2026-02-27T12:50:08.565395"
-    },
-    {
-        "id": "f2d823204093e91274eb860023830e33",
-        "fingerprint": "director, ai & automation|the standard india|bengaluru",
-        "date": "2026-02-27T12:50:08.565398"
-    },
-    {
-        "id": "ad2b00bf01743109eb6acc16b79eb05f",
-        "fingerprint": "manager - fp&a automation & reporting|pretium enterprise services, india|bengaluru",
-        "date": "2026-02-27T12:50:08.565400"
-    },
-    {
         "id": "22d9bd48a585c94885c0953968c28ecb",
         "fingerprint": "sr. test manager|standard chartered india|bengaluru",
         "date": "2026-02-27T12:50:08.565403"
@@ -9998,5 +9973,30 @@
         "id": "94457f8ba38efc836fa4dfe59bdfbe35",
         "fingerprint": "senior manager-advance quality|tata marcopolo motors ltd. dharwad|remote",
         "date": "2026-05-16T19:49:48.461057"
+    },
+    {
+        "id": "10d140a48a489a1dd68a5a3be45d365e",
+        "fingerprint": "symphonyai - principal software development engineer - test/architect|symphonyai|bengaluru",
+        "date": "2026-05-17T06:49:51.009975"
+    },
+    {
+        "id": "8dfa5977a06a254fe95283a78c2a26b5",
+        "fingerprint": "test lead - automation|cgi|hyderabad",
+        "date": "2026-05-17T06:49:51.009991"
+    },
+    {
+        "id": "4a9d214f475062b6d65354621201efc7",
+        "fingerprint": "quality assurance manager|all time plastics limited|remote",
+        "date": "2026-05-17T06:49:51.009994"
+    },
+    {
+        "id": "38fc3ad85d6ba880a702e42397df7b05",
+        "fingerprint": "head of quality assurance (automotive industry exp. is mantory)|talentquell|remote",
+        "date": "2026-05-17T06:49:51.009997"
+    },
+    {
+        "id": "6b247f9c3e9b08be0494303596b09ee6",
+        "fingerprint": "automation test lead - service virtualisation (parasoft )|infosys|bengaluru",
+        "date": "2026-05-17T06:49:51.009999"
     }
 ]
