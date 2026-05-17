@@ -1,25 +1,5 @@
 [
     {
-        "id": "fa5cac995aca0c2e28ae1412b4a470a2",
-        "fingerprint": "compliance quality manager ii, account compliance quality|amazon|bengaluru",
-        "date": "2026-02-27T12:50:08.565412"
-    },
-    {
-        "id": "1cdd20c2aae63a3605d62195f80904b0",
-        "fingerprint": "staff software quality test engineer|wipro ge healthcare private limited|bengaluru",
-        "date": "2026-02-27T12:50:08.565414"
-    },
-    {
-        "id": "1231f613a335c8a8b98607a1f7c72a16",
-        "fingerprint": "test lead|standard chartered india|bengaluru",
-        "date": "2026-02-27T12:50:08.565416"
-    },
-    {
-        "id": "716887cf97b3332fc6457eb684e4ec55",
-        "fingerprint": "test manager - manual|careernet|bengaluru",
-        "date": "2026-02-27T12:50:08.565419"
-    },
-    {
         "id": "a7dcfc4645b11f14f9313d2e2f76578f",
         "fingerprint": "head - quality assurance epc|reliance industries limited|mumbai",
         "date": "2026-02-27T12:50:08.565421"
@@ -9998,5 +9978,25 @@
         "id": "c4a6f20634d17502898e364e65658aec",
         "fingerprint": "head of global quality|vishay precision group, inc. (vpg)|remote",
         "date": "2026-05-17T12:49:46.810078"
+    },
+    {
+        "id": "259407ed710a5c62700ca100c79994d4",
+        "fingerprint": "principal qa engineer - ai & cloud services|aveva|bengaluru",
+        "date": "2026-05-17T19:49:29.105679"
+    },
+    {
+        "id": "f3a92b3c778ec9f39147505052b8b0c0",
+        "fingerprint": "senior manager - quality control|schneider electric|gurugram",
+        "date": "2026-05-17T19:49:29.105695"
+    },
+    {
+        "id": "4d7c6fb463a107617affe3f4535c3a3c",
+        "fingerprint": "project manager-automation|capgemini|chennai",
+        "date": "2026-05-17T19:49:29.105697"
+    },
+    {
+        "id": "c18bc19b3f469b1dcbdba8d0844bb86f",
+        "fingerprint": "manager, global quality 1|celestica|remote",
+        "date": "2026-05-17T19:49:29.105700"
     }
 ]
