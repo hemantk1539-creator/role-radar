@@ -18,13 +18,25 @@ def log(msg, success=True):
 
 def audit():
     print("--- STARTING DEPLOYMENT AUDIT ---")
-    
+
     # 0. Syntax/Import Check (Rule 13)
     res_syntax = run_cmd(f'python -c "import {BOT_SCRIPT[:-3]}"')
     if res_syntax.returncode == 0:
         log("Syntax/Import Check: OK.")
     else:
         log("Syntax/Import Check: FAILED.", False)
+        return False
+
+    # 0b. Test suite
+    res_tests = subprocess.run(
+        ["uv", "run", "python", "-m", "pytest", "tests/", "-q", "--tb=short"],
+        capture_output=True, text=True
+    )
+    print(res_tests.stdout[-2000:] if res_tests.stdout else "")
+    if res_tests.returncode == 0:
+        log("Test Suite: ALL PASSED.")
+    else:
+        log("Test Suite: FAILED — push blocked.", False)
         return False
 
     # 1. Sanity (fetch latest history first to avoid duplicate emails during local run)

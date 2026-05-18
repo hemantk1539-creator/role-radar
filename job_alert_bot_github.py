@@ -92,6 +92,111 @@ def finalize_list(job_list, blacklist):
             clean_list.append(j)
     return clean_list, sniped_list
 
+def categorize_job(title_str, loc_str, country_code, india_code, global_loc,
+                   remote_signals, global_remote_signals, india_city_aliases, residency_signals):
+    """Routes a job to a bucket. Returns (bucket, signal) or (None, None) to drop."""
+    if any(rs in title_str or rs in loc_str for rs in residency_signals):
+        return None, None
+    has_global_signal = any(gs in title_str or gs in loc_str for gs in global_remote_signals)
+    is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
+    is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
+    is_hybrid_signal = any(h in loc_str or h in title_str for h in ["hybrid", "flexible", "flex", "partially", "office optional", "wfo"])
+    is_india_job = ("india" in loc_str or is_local_city) or \
+                   (country_code == india_code and loc_str.strip() in ["remote", "wfh", "work from home", "telecommute", "pan india"])
+    if is_remote_explicit:
+        if country_code == india_code:
+            if has_global_signal:
+                return "global_remote", "Global-In-India"
+            elif is_local_city:
+                return "local", f"{'Hybrid' if is_hybrid_signal else 'Remote'}-Local"
+            elif is_india_job:
+                return "india_remote", "India-WFA"
+        elif country_code == "worldwide":
+            return "global_remote", "Worldwide Task"
+        elif has_global_signal:
+            sig = next((s for s in global_remote_signals if s in title_str or s in loc_str), "Global")
+            return "global_remote", sig
+    elif is_local_city:
+        return "local", None
+    elif country_code == india_code and is_india_job:
+        return "local", None
+    return None, None
+
+def fetch_json(source, url, levels, domains, block_anchors):
+    try:
+        res = requests.get(url, timeout=10)
+        if res.status_code == 200:
+            data = res.json()
+            results = []
+            for j in data.get("jobs", []):
+                title = j.get("title") or j.get("name") or j.get("text")
+                if title and is_match(title, levels, domains, block_anchors):
+                    results.append({
+                        "title": title,
+                        "company": j.get("companyName") or j.get("company_name") or j.get("company") or source,
+                        "location": j.get('location', 'Remote'),
+                        "signal": f"[Signal: {source}]",
+                        "job_url": j.get("applicationLink") or j.get("url") or j.get("application_url"),
+                        "site": source.lower(),
+                        "date": j.get("pubDate") or j.get("published_at", "")
+                    })
+            print(f"  [Hub] {source}: Found {len(results)} potential roles.")
+            return results
+    except Exception as e:
+        print(f"  [Hub] {source}: Error - {str(e)[:80]}")
+        return []
+    return []
+
+def fetch_rss(source, url, levels, domains, block_anchors):
+    try:
+        feed = feedparser.parse(url)
+        results = []
+        for entry in feed.entries:
+            title = entry.get("title", "")
+            if is_match(title, levels, domains, block_anchors):
+                results.append({
+                    "title": title,
+                    "company": entry.get("author") or source,
+                    "location": "Remote",
+                    "signal": f"[Signal: {source}]",
+                    "job_url": entry.get("link"),
+                    "site": source.lower(),
+                    "date": entry.get("published", "")
+                })
+        print(f"  [Hub] {source}: Found {len(results)} potential roles.")
+        return results
+    except Exception as e:
+        print(f"  [Hub] {source}: RSS Error - {str(e)[:80]}")
+        return []
+
+def fetch_ats(ats_type, token, levels, domains, block_anchors):
+    try:
+        url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs" if ats_type == "greenhouse" else \
+              f"https://api.lever.co/v0/postings/{token}" if ats_type == "lever" else \
+              f"https://api.ashbyhq.com/posting-api/job-board/{token}" if ats_type == "ashby" else \
+              f"https://{token}.breezy.hr/json" if ats_type == "breezy" else \
+              f"https://{token}.pinpointvis.com/api/v1/jobs"
+        res = requests.get(url, timeout=5)
+        if res.status_code == 200:
+            results = []
+            data = res.json()
+            job_list = data if isinstance(data, list) else data.get("jobs", [])
+            for j in job_list:
+                title = j.get("title") or j.get("text") or j.get("name")
+                if title and is_match(title, levels, domains, block_anchors):
+                    url_key = "absolute_url" if ats_type in ["greenhouse", "pinpoint"] else \
+                              "hostedUrl" if ats_type == "lever" else \
+                              "job_url" if ats_type == "ashby" else "url"
+                    results.append({"title": title, "company": token.capitalize(), "location": "Remote",
+                                    "signal": f"[Signal: ATS-{token}]", "job_url": j.get(url_key),
+                                    "site": f"ats-{token}", "date": j.get("updated_at") or j.get("createdAt", "")})
+            print(f"  [ATS] {token}: Found {len(results)} matches.")
+            return results
+    except Exception as e:
+        print(f"  [ATS] {token}: Error - {str(e)[:80]}")
+        return []
+    return []
+
 def fetch_global_intelligence(config, levels, domains):
     """
     POWER 6 HUB: The Centralized Global Remote Intelligence Layer.
@@ -103,93 +208,21 @@ def fetch_global_intelligence(config, levels, domains):
     
     block_anchors = config["search"].get("global_block_anchors", [])
 
-    # --- WORKERS ---
-    def fetch_json(source, url):
-        try:
-            res = requests.get(url, timeout=10)
-            if res.status_code == 200:
-                data = res.json()
-                results = []
-                for j in data.get("jobs", []):
-                    title = j.get("title") or j.get("name") or j.get("text")
-                    if title and is_match(title, levels, domains, block_anchors):
-                        results.append({
-                            "title": title,
-                            "company": j.get("companyName") or j.get("company_name") or j.get("company") or source,
-                            "location": j.get('location', 'Remote'),
-                            "signal": f"[Signal: {source}]",
-                            "job_url": j.get("applicationLink") or j.get("url") or j.get("application_url"),
-                            "site": source.lower(),
-                            "date": j.get("pubDate") or j.get("published_at", "")
-                        })
-                print(f"  [Hub] {source}: Found {len(results)} potential roles.")
-                return results
-        except Exception as e:
-            print(f"  [Hub] {source}: Error - {str(e)[:80]}")
-            return []
-        return []
-
-    def fetch_rss(source, url):
-        try:
-            feed = feedparser.parse(url)
-            results = []
-            for entry in feed.entries:
-                title = entry.get("title", "")
-                if is_match(title, levels, domains, block_anchors):
-                    results.append({
-                        "title": title,
-                        "company": entry.get("author") or source,
-                        "location": "Remote",
-                        "signal": f"[Signal: {source}]",
-                        "job_url": entry.get("link"),
-                        "site": source.lower(),
-                        "date": entry.get("published", "")
-                    })
-            print(f"  [Hub] {source}: Found {len(results)} potential roles.")
-            return results
-        except Exception as e:
-            print(f"  [Hub] {source}: RSS Error - {str(e)[:80]}")
-            return []
-
-    def fetch_ats(ats_type, token):
-        try:
-            url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs" if ats_type == "greenhouse" else \
-                  f"https://api.lever.co/v0/postings/{token}" if ats_type == "lever" else \
-                  f"https://api.ashbyhq.com/posting-api/job-board/{token}" if ats_type == "ashby" else \
-                  f"https://{token}.breezy.hr/json" if ats_type == "breezy" else \
-                  f"https://{token}.pinpointvis.com/api/v1/jobs"
-            res = requests.get(url, timeout=5)
-            if res.status_code == 200:
-                results = []
-                data = res.json()
-                job_list = data if isinstance(data, list) else data.get("jobs", [])
-                for j in job_list:
-                    title = j.get("title") or j.get("text") or j.get("name")
-                    if title and is_match(title, levels, domains, block_anchors):
-                        url_key = "absolute_url" if ats_type in ["greenhouse", "pinpoint"] else "hostedUrl" if ats_type == "lever" else "job_url" if ats_type == "ashby" else "url"
-                        results.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}", "date": j.get("updated_at") or j.get("createdAt", "")})
-                print(f"  [ATS] {token}: Found {len(results)} matches.")
-                return results
-        except Exception as e:
-            print(f"  [ATS] {token}: Error - {str(e)[:80]}")
-            return []
-        return []
-
     with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
         futures = []
         # 1. APIs
-        futures.append(executor.submit(fetch_json, "Himalayas", config["search"].get("himalayas_api")))
-        futures.append(executor.submit(fetch_json, "Remote.com", config["search"].get("remote_com_api")))
-        futures.append(executor.submit(fetch_json, "Deel", config["search"].get("deel_api")))
+        futures.append(executor.submit(fetch_json, "Himalayas", config["search"].get("himalayas_api"), levels, domains, block_anchors))
+        futures.append(executor.submit(fetch_json, "Remote.com", config["search"].get("remote_com_api"), levels, domains, block_anchors))
+        futures.append(executor.submit(fetch_json, "Deel", config["search"].get("deel_api"), levels, domains, block_anchors))
         # 2. RSS
         feeds = [("WWR", config["search"].get("wwr_feed")), ("JS-Remotely", config["search"].get("js_remotely_feed")), ("Arc.dev", config["search"].get("arc_dev_feed")), ("Wellfound", config["search"].get("wellfound_feed")), ("YC", config["search"].get("yc_api")), ("Remotive", config["search"].get("remotive_api"))]
         for s, u in feeds:
-            if u: futures.append(executor.submit(fetch_rss, s, u))
+            if u: futures.append(executor.submit(fetch_rss, s, u, levels, domains, block_anchors))
         # 3. Direct ATS
         ats_atlas = config["search"].get("ats_atlas", {})
         for ats_type in ats_atlas:
             for token in ats_atlas[ats_type]:
-                futures.append(executor.submit(fetch_ats, ats_type, token))
+                futures.append(executor.submit(fetch_ats, ats_type, token, levels, domains, block_anchors))
 
         for future in concurrent.futures.as_completed(futures):
             jobs.extend(future.result())
@@ -494,41 +527,19 @@ def run():
                     seen_fingerprints.add(fingerprint)
                     
                     # --- 3-BUCKET CATEGORIZATION (v1.3 Intelligence) ---
-                    has_global_signal = any(gs in title_str or gs in loc_str for gs in global_remote_signals)
-                    is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
-                    is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
-                    is_hybrid_signal = any(h in loc_str or h in title_str for h in ["hybrid", "flexible", "flex", "partially", "office optional", "wfo"])
-                    
-                    if any(rs in title_str or rs in loc_str for rs in residency_signals):
-                        continue
-
-                    is_india_job = ("india" in loc_str or is_local_city) or \
-                                   (country_code == india_code and loc_str.strip() in ["remote", "wfh", "work from home", "telecommute", "pan india"])
-                    
-                    if is_remote_explicit:
-                        if country_code == india_code:
-                            if has_global_signal:
-                                job['location'] = f"{loc_str} [Signal: Global-In-India]"
-                                found_global_remote.append(job)
-                            elif is_local_city:
-                                sig_type = "Hybrid" if is_hybrid_signal else "Remote"
-                                job['location'] = f"{loc_str} [Signal: {sig_type}-Local]"
-                                found_local.append(job)
-                            elif is_india_job:
-                                job['location'] = f"{loc_str} [Signal: India-WFA]"
-                                found_india_remote.append(job)
-                        elif country_code == "worldwide":
-                            job['location'] = f"{loc_str} [Signal: Worldwide Task]"
+                    bucket, signal = categorize_job(
+                        title_str, loc_str, country_code, india_code, global_loc,
+                        remote_signals, global_remote_signals, india_city_aliases, residency_signals
+                    )
+                    if bucket:
+                        if signal:
+                            job['location'] = f"{loc_str} [Signal: {signal}]"
+                        if bucket == "global_remote":
                             found_global_remote.append(job)
-                        elif has_global_signal:
-                            sig = next((s for s in global_remote_signals if s in title_str or s in loc_str), "Global")
-                            job['location'] = f"{loc_str} [Signal: {sig}]"
-                            found_global_remote.append(job)
-                    elif is_local_city:
-                        found_local.append(job)
-                    elif country_code == india_code and is_india_job:
-                        found_local.append(job)
-                    
+                        elif bucket == "local":
+                            found_local.append(job)
+                        elif bucket == "india_remote":
+                            found_india_remote.append(job)
                     india_kept += 1
             except Exception as e:
                 print(f"    [THREAD ERROR] Worker failed: {str(e)[:100]}")
