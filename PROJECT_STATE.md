@@ -1,5 +1,5 @@
 # 🟢 LIVE SYSTEM CONFIGURATION (Source of Truth)
-> *Last Updated: Session 105.3 (2026-02-23)*
+> *Last Updated: Session 105.16 (2026-05-18)*
 
 ## 🛡️ FAILURE PREVENTION ARCHIVE (Anti-Failure Rules)
 ### 📜 Failure Analysis (5-Whys Audit)
@@ -125,3 +125,15 @@
     1. Implemented regex word boundaries `\b` for `blacklist` matching in Hub-Applicability Guard to prevent "Substring Traps" (e.g. 'sales' blocking 'salesforce').
     2. Replaced fragile `')'` stripping in Indeed worker with robust `f-string` grouping `f"({t1}) OR ({t2})"`.
 - **Result:** Pipeline is now immune to false-positive blacklist drops and index-crash vulnerabilities. Ready for deployment.
+
+### Session 105.16: v3.2.2 Reliability Hardening
+- **Date:** 2026-05-18
+- **Agent:** Claude (migrated project from GEMINI CLI workspace to Claude workspace)
+- **Audit:** Full codebase review. Strategy and filtering logic unchanged. Identified 5 reliability/security gaps not covered by prior sessions.
+- **Action:**
+    1. Added `python-dateutil` to `requirements.txt` — was imported but undeclared; caused silent ImportError on GitHub Actions.
+    2. Removed hardcoded `app_password: "qwerty"` from `job_alert_config.yaml` — replaced with empty string; env var is sole credential source.
+    3. Replaced all 7 bare `except:` clauses with typed exceptions — `load_history` uses `(json.JSONDecodeError, ValueError, OSError)`, workers use `Exception as e` with logging, date-parse excepts use `Exception` silently (safe default: keep job).
+    4. Added `timeout=30` to `smtplib.SMTP()` — prevents indefinite hang blocking GitHub Actions runner.
+    5. Created `CLAUDE.md` for project — captures deployment lock, config mandate, and session start protocol for Claude sessions.
+- **Result:** No logic or strategy changes. Bot is now hardened against silent failures, credential leaks, and runner hangs. v3.2.2 ready for deployment.

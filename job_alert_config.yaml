@@ -2,7 +2,7 @@
 
 email:
   sender_email: "hemant.k1539@gmail.com"
-  app_password: "qwerty" 
+  app_password: ""  # set via GMAIL_APP_PASSWORD env var; never hardcode here
   recipient_email: "hemant.k1539@gmail.com"
 
 search:

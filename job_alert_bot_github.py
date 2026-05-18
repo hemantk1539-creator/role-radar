@@ -44,7 +44,9 @@ def load_history():
         try:
             with open(HISTORY_FILE, "r", encoding="utf-8") as f:
                 return json.load(f)
-        except: return []
+        except (json.JSONDecodeError, ValueError, OSError) as e:
+            print(f"[WARN] History file corrupt or unreadable: {e}")
+            return []
     return []
 
 def save_history(history, config):
@@ -97,7 +99,9 @@ def fetch_global_intelligence(config, levels, domains):
                         })
                 print(f"  [Hub] {source}: Found {len(results)} potential roles.")
                 return results
-        except: return []
+        except Exception as e:
+            print(f"  [Hub] {source}: Error - {str(e)[:80]}")
+            return []
         return []
 
     def fetch_rss(source, url):
@@ -118,7 +122,9 @@ def fetch_global_intelligence(config, levels, domains):
                     })
             print(f"  [Hub] {source}: Found {len(results)} potential roles.")
             return results
-        except: return []
+        except Exception as e:
+            print(f"  [Hub] {source}: RSS Error - {str(e)[:80]}")
+            return []
 
     def fetch_ats(ats_type, token):
         try:
@@ -139,7 +145,9 @@ def fetch_global_intelligence(config, levels, domains):
                         results.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}", "date": j.get("updated_at") or j.get("createdAt", "")})
                 print(f"  [ATS] {token}: Found {len(results)} matches.")
                 return results
-        except: return []
+        except Exception as e:
+            print(f"  [ATS] {token}: Error - {str(e)[:80]}")
+            return []
         return []
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
@@ -256,7 +264,7 @@ def send_email(subject, jobs, config, sniped_jobs=None):
 
     try:
         print(f"  [MAIL] Connecting to SMTP for '{subject}'...")
-        server = smtplib.SMTP("smtp.gmail.com", 587)
+        server = smtplib.SMTP("smtp.gmail.com", 587, timeout=30)
         server.starttls()
         server.login(sender_email, sender_password)
         server.sendmail(sender_email, recipient_email, msg.as_string())
@@ -337,8 +345,8 @@ def run():
                 job_ts = dateutil.parser.parse(j['date']).timestamp()
                 if (now_ts - job_ts) / 3600 > global_hrs:
                     global_dropped_age += 1
-                    continue 
-            except: pass
+                    continue
+            except Exception: pass
 
         # JD Sniper (Rule 9) - Apply to API results too
         title_str = j.get('title', '').lower()
@@ -402,7 +410,8 @@ def run():
                 
                 if res is not None and not res.empty:
                     task_results.extend(res.to_dict('records'))
-            except: pass
+            except Exception as e:
+                print(f"    [India Worker] Scrape error ({task['loc']}, {str(term)[:30]}): {str(e)[:80]}")
         return task_results, task["loc"], task["country"]
 
     print(f"  > Launching Parallel India Engine (3 Workers)...")
@@ -428,7 +437,7 @@ def run():
                             if days_old > 1: # Beyond 24-48h window
                                 india_dropped_age += 1
                                 continue
-                        except: pass
+                        except Exception: pass
 
                     title_str = str(job.get('title', '')).lower()
                     loc_str = str(job.get('location', '')).lower()
