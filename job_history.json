@@ -1,60 +1,5 @@
 [
     {
-        "id": "c017920fa27f735d4f713d0585311946",
-        "fingerprint": "quality team lead|teleperformance (tp)|chennai",
-        "date": "2026-02-27T12:50:08.565462"
-    },
-    {
-        "id": "0d503336805fd713ceecd21c6356067d",
-        "fingerprint": "quality manager|abb|chennai",
-        "date": "2026-02-27T12:50:08.565464"
-    },
-    {
-        "id": "2ce3feb686f506fb7de68d2395d98930",
-        "fingerprint": "manager - quality control orders|abb|chennai",
-        "date": "2026-02-27T12:50:08.565466"
-    },
-    {
-        "id": "3251e5326e965269e5430f18afad7d59",
-        "fingerprint": "senior lead qa|assa abloy group|chennai",
-        "date": "2026-02-27T12:50:08.565469"
-    },
-    {
-        "id": "120469bf374157e836f4086a0944103e",
-        "fingerprint": "test manager cards & payments|expleo|chennai",
-        "date": "2026-02-27T12:50:08.565471"
-    },
-    {
-        "id": "e403b8911d034a1a9a051dd339f7ebc9",
-        "fingerprint": "qa automation - senior manager|iris software|noida",
-        "date": "2026-02-27T12:50:08.565473"
-    },
-    {
-        "id": "9868bd61325ac65c9d7c0e8bd45efd56",
-        "fingerprint": "etl qa - lead|iris software|noida",
-        "date": "2026-02-27T12:50:08.565476"
-    },
-    {
-        "id": "b7784e8597a051ccc228b8710a83c6ac",
-        "fingerprint": "qa hybrid + domain - lead|iris software|noida",
-        "date": "2026-02-27T12:50:08.565478"
-    },
-    {
-        "id": "3a390cef8429d89abac31e476a21737a",
-        "fingerprint": "qa manual - lead|iris software|noida",
-        "date": "2026-02-27T12:50:08.565480"
-    },
-    {
-        "id": "94dbf55b9765ec3130dffcfd8a74df42",
-        "fingerprint": "quality manager|ingersoll-rand|ahmedabad",
-        "date": "2026-02-27T12:50:08.565482"
-    },
-    {
-        "id": "f59cc8c12b1d58b9f0187ae614400bf3",
-        "fingerprint": "quality manager|vayona energy|ahmedabad",
-        "date": "2026-02-27T12:50:08.565484"
-    },
-    {
         "id": "33b85c961b0737b4e891d630f74cc664",
         "fingerprint": "digital solutions - automation & analytics - manager (boomi + workato) (location: india)|connor group|pune",
         "date": "2026-02-27T19:49:58.047677"
@@ -9998,5 +9943,60 @@
         "id": "17930fa2e89f8ba42667c3b49e2fb8f3",
         "fingerprint": "manager, software test engineering|shell recharge solutions|remote",
         "date": "2026-05-18T12:49:53.905915"
+    },
+    {
+        "id": "de9d75107f917e096fd4830e46a74407",
+        "fingerprint": "manager or senior manager \u2013 reporting, automation & digital solutions|ab inbev india|bengaluru",
+        "date": "2026-05-18T19:49:41.325068"
+    },
+    {
+        "id": "817bdbbf730ddf0b5cb5102160dd1687",
+        "fingerprint": "director, quality assurance|aera technology|pune",
+        "date": "2026-05-18T19:49:41.325085"
+    },
+    {
+        "id": "df97a20353470354d758b0119ecedf21",
+        "fingerprint": "qa engineer lead i - software testing|ust|pune",
+        "date": "2026-05-18T19:49:41.325088"
+    },
+    {
+        "id": "dbd9147b7e673b9cc8cc1f1943a593c4",
+        "fingerprint": "sr staff test engineer|teradata|hyderabad",
+        "date": "2026-05-18T19:49:41.325090"
+    },
+    {
+        "id": "00c3ba137e7d5d65fcf9223c1a63e805",
+        "fingerprint": "lead software development test engineer|the depository trust & clearing corporation (dtcc)|hyderabad",
+        "date": "2026-05-18T19:49:41.325093"
+    },
+    {
+        "id": "25cc45d5b9badfdbbd6cf4ddaa713947",
+        "fingerprint": "wow - quality manager, vp|natwest group|gurugram",
+        "date": "2026-05-18T19:49:41.325095"
+    },
+    {
+        "id": "3b32be5b001808aaab882233ee7317b7",
+        "fingerprint": "quality assurance manager|telus digital|gurugram",
+        "date": "2026-05-18T19:49:41.325097"
+    },
+    {
+        "id": "0f5eadf57def1da2d015aa7e469438a9",
+        "fingerprint": "wow - quality manager, vp|natwest group|chennai",
+        "date": "2026-05-18T19:49:41.325099"
+    },
+    {
+        "id": "75279783c2b5ee8cd66120d3268856be",
+        "fingerprint": "lead engineer-software testing|cbts|chennai",
+        "date": "2026-05-18T19:49:41.325102"
+    },
+    {
+        "id": "dfd1c2e5a05123f7fc8adc6e1177fabb",
+        "fingerprint": "retail | lead qa test engineer with automation (8+ years) irc294821|globallogic|chennai",
+        "date": "2026-05-18T19:49:41.325104"
+    },
+    {
+        "id": "bfebfabced5447b6eb10f9943cdafb93",
+        "fingerprint": "quality lead- hrss & hro|sutherland|chennai",
+        "date": "2026-05-18T19:49:41.325107"
     }
 ]
