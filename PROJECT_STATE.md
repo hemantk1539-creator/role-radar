@@ -125,6 +125,7 @@
     1. Implemented regex word boundaries `\b` for `blacklist` matching in Hub-Applicability Guard to prevent "Substring Traps" (e.g. 'sales' blocking 'salesforce').
     2. Replaced fragile `')'` stripping in Indeed worker with robust `f-string` grouping `f"({t1}) OR ({t2})"`.
 - **Result:** Pipeline is now immune to false-positive blacklist drops and index-crash vulnerabilities. Ready for deployment.
+<<<<<<< Updated upstream
 
 ### Session 105.16: v3.2.2 Reliability Hardening
 - **Date:** 2026-05-18
@@ -146,3 +147,5 @@
     2. Updated GitHub Actions workflow to restore history from `data` branch before run, and save updated history back to `data` branch after run — main branch never touched by automated runs.
     3. Removed `job_history.json` from main tracking, added to `.gitignore`.
 - **Result:** Main branch commit history is clean. Merge conflicts on deployment are eliminated.
+=======
+>>>>>>> Stashed changes
