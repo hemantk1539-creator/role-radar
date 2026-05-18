@@ -1,6 +1,5 @@
 __pycache__/
 *.log
-test_*.py
 *proto.py
 verify_*.py
 dry_run_*.py
