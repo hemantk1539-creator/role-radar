@@ -54,6 +54,44 @@ def save_history(history, config):
     with open(HISTORY_FILE, "w", encoding="utf-8") as f:
         json.dump(history[-max_h:], f, indent=4)
 
+def is_match(title, levels, domains, block_anchors):
+    t = title.lower()
+    has_level = any(re.search(r'\b' + re.escape(l) + r'\b', t, re.IGNORECASE) for l in levels)
+    has_domain = any(re.search(r'\b' + re.escape(d) + r'\b', t, re.IGNORECASE) for d in domains)
+    is_blocked = any(re.search(r'\b' + re.escape(b) + r'\b', t, re.IGNORECASE) for b in block_anchors)
+    return has_level and has_domain and not is_blocked
+
+def has_word_match(text, term_list):
+    for term in term_list:
+        pattern = r'\b' + re.escape(term) + r'\b'
+        if re.search(pattern, text, re.IGNORECASE):
+            return True
+    return False
+
+def finalize_list(job_list, blacklist):
+    clean_list = []
+    sniped_list = []
+    for j in job_list:
+        t = str(j.get('title', '')).lower()
+        c = str(j.get('company', '')).lower()
+        l = str(j.get('location', '')).lower()
+        reason = None
+        for b in blacklist:
+            pattern = r'\b' + re.escape(b) + r'\b'
+            if re.search(pattern, t) or re.search(pattern, l) or re.search(pattern, c):
+                reason = f"Blacklist: {b}"
+                break
+        if not reason:
+            if any(jr in t for jr in ["assistant", "junior", "trainee", "associate"]):
+                if not ("senior associate" in t or "lead associate" in t):
+                    reason = "Junior/Associate Role"
+        if reason:
+            j['sniped_reason'] = reason
+            sniped_list.append(j)
+        else:
+            clean_list.append(j)
+    return clean_list, sniped_list
+
 def fetch_global_intelligence(config, levels, domains):
     """
     POWER 6 HUB: The Centralized Global Remote Intelligence Layer.
@@ -63,20 +101,7 @@ def fetch_global_intelligence(config, levels, domains):
     start_time = time.time()
     jobs = []
     
-    def is_match(title):
-        t = title.lower()
-        # 1. Seniority & Domain Whitelist
-        has_level = any(re.search(r'\b' + re.escape(l) + r'\b', t, re.IGNORECASE) for l in levels)
-        has_domain = any(re.search(r'\b' + re.escape(d) + r'\b', t, re.IGNORECASE) for d in domains)
-        
-        # 2. Global-Only Negative Sniper (Clinical Purity)
-        # Only applied to specialized global platforms to kill Product/Project leaks.
-        block_anchors = config["search"].get("global_block_anchors", [])
-        # Match only if the block term is its own word (to avoid blocking 'quality' in 'bi-quality')
-
-        is_blocked = any(re.search(r'\b' + re.escape(b) + r'\b', t, re.IGNORECASE) for b in block_anchors)
-        
-        return has_level and has_domain and not is_blocked
+    block_anchors = config["search"].get("global_block_anchors", [])
 
     # --- WORKERS ---
     def fetch_json(source, url):
@@ -87,7 +112,7 @@ def fetch_global_intelligence(config, levels, domains):
                 results = []
                 for j in data.get("jobs", []):
                     title = j.get("title") or j.get("name") or j.get("text")
-                    if title and is_match(title):
+                    if title and is_match(title, levels, domains, block_anchors):
                         results.append({
                             "title": title,
                             "company": j.get("companyName") or j.get("company_name") or j.get("company") or source,
@@ -110,7 +135,7 @@ def fetch_global_intelligence(config, levels, domains):
             results = []
             for entry in feed.entries:
                 title = entry.get("title", "")
-                if is_match(title):
+                if is_match(title, levels, domains, block_anchors):
                     results.append({
                         "title": title,
                         "company": entry.get("author") or source,
@@ -140,7 +165,7 @@ def fetch_global_intelligence(config, levels, domains):
                 job_list = data if isinstance(data, list) else data.get("jobs", [])
                 for j in job_list:
                     title = j.get("title") or j.get("text") or j.get("name")
-                    if title and is_match(title):
+                    if title and is_match(title, levels, domains, block_anchors):
                         url_key = "absolute_url" if ats_type in ["greenhouse", "pinpoint"] else "hostedUrl" if ats_type == "lever" else "job_url" if ats_type == "ashby" else "url"
                         results.append({"title": title, "company": token.capitalize(), "location": "Remote", "signal": f"[Signal: ATS-{token}]", "job_url": j.get(url_key), "site": f"ats-{token}", "date": j.get("updated_at") or j.get("createdAt", "")})
                 print(f"  [ATS] {token}: Found {len(results)} matches.")
@@ -442,12 +467,7 @@ def run():
                     title_str = str(job.get('title', '')).lower()
                     loc_str = str(job.get('location', '')).lower()
                     
-                    def has_word_match(text, term_list):
-                        for term in term_list:
-                            pattern = r'\b' + re.escape(term) + r'\b'
-                            if re.search(pattern, text, re.IGNORECASE):
-                                return True
-                        return False
+
 
                     # A. HUB-APPLICABILITY GUARD
                     if has_word_match(title_str, blacklist) or has_word_match(loc_str, blacklist):
@@ -520,40 +540,9 @@ def run():
 
     
     # --- FINAL QUALITY GATE (The Trash Compactor) ---
-    def finalize_list(job_list):
-        clean_list = []
-        sniped_list = []
-        for j in job_list:
-            t = str(j.get('title', '')).lower()
-            c = str(j.get('company', '')).lower()
-            l = str(j.get('location', '')).lower()
-            
-            reason = None
-            # 1. Final Blacklist pass (Check Company too)
-            for b in blacklist:
-                # Use word boundaries to prevent 'sales' blocking 'salesforce'
-                pattern = r'\b' + re.escape(b) + r'\b'
-                if re.search(pattern, t) or re.search(pattern, l) or re.search(pattern, c):
-                    reason = f"Blacklist: {b}"
-                    break
-            
-            # 2. Strict Seniority check
-            if not reason:
-                if any(jr in t for jr in ["assistant", "junior", "trainee", "associate"]):
-                    if not ("senior associate" in t or "lead associate" in t):
-                        reason = "Junior/Associate Role"
-
-            if reason:
-                j['sniped_reason'] = reason
-                sniped_list.append(j)
-            else:
-                clean_list.append(j)
-                
-        return clean_list, sniped_list
-
-    found_local, sniped_local = finalize_list(found_local)
-    found_india_remote, sniped_india = finalize_list(found_india_remote)
-    found_global_remote, sniped_global = finalize_list(found_global_remote)
+    found_local, sniped_local = finalize_list(found_local, blacklist)
+    found_india_remote, sniped_india = finalize_list(found_india_remote, blacklist)
+    found_global_remote, sniped_global = finalize_list(found_global_remote, blacklist)
 
     total_applicable = len(found_local) + len(found_india_remote) + len(found_global_remote)
     print(f"\n--- DONE. Found {total_found} New (Scraped) | {total_applicable} Applicable ---")

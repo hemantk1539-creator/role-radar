@@ -147,5 +147,13 @@
     2. Updated GitHub Actions workflow to restore history from `data` branch before run, and save updated history back to `data` branch after run — main branch never touched by automated runs.
     3. Removed `job_history.json` from main tracking, added to `.gitignore`.
 - **Result:** Main branch commit history is clean. Merge conflicts on deployment are eliminated.
+
+### Session 105.18: v3.2.3 Filter Extraction + Test Suite
+- **Date:** 2026-05-18
+- **Action:**
+    1. Extracted `is_match()`, `has_word_match()`, `finalize_list()` from nested closures to module level — enables direct unit testing, eliminates `has_word_match` redefinition on every loop iteration, pre-fetches `block_anchors` once instead of per-call.
+    2. Created `tests/test_filters.py` with 13 pytest tests covering all filter functions and history loading. Zero network calls, runs in <1s.
+    3. Added `pytest` to `requirements.txt`.
+- **Result:** No logic or strategy changes. Filter behavior identical. 13/13 tests passing.
 =======
 >>>>>>> Stashed changes

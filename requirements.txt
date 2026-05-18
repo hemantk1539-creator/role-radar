@@ -4,3 +4,4 @@ pandas
 requests
 feedparser
 python-dateutil
+pytest
