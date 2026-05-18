@@ -137,3 +137,12 @@
     4. Added `timeout=30` to `smtplib.SMTP()` — prevents indefinite hang blocking GitHub Actions runner.
     5. Created `CLAUDE.md` for project — captures deployment lock, config mandate, and session start protocol for Claude sessions.
 - **Result:** No logic or strategy changes. Bot is now hardened against silent failures, credential leaks, and runner hangs. v3.2.2 ready for deployment.
+
+### Session 105.17: job_history.json moved to data branch
+- **Date:** 2026-05-18
+- **Problem:** job_history.json committed to main caused merge conflicts every time GitHub Actions ran between manual deployments.
+- **Action:**
+    1. Created orphan `data` branch containing only `job_history.json`.
+    2. Updated GitHub Actions workflow to restore history from `data` branch before run, and save updated history back to `data` branch after run — main branch never touched by automated runs.
+    3. Removed `job_history.json` from main tracking, added to `.gitignore`.
+- **Result:** Main branch commit history is clean. Merge conflicts on deployment are eliminated.
