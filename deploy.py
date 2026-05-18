@@ -58,7 +58,13 @@ def deploy():
     if not audit():
         sys.exit(1)
 
-    print("> Audit Passed. Pushing changes...")
+    print("> Audit Passed. Syncing with remote...")
+    pull_res = run_cmd("git pull --rebase origin main")
+    if pull_res.returncode != 0:
+        log("Pull/Rebase Failed. Resolve conflicts before deploying.", False)
+        sys.exit(1)
+
+    print("> Pushing changes...")
     commit_msg = "Rigor-Checked Deployment: " + datetime.now().strftime("%Y-%m-%d %H:%M")
     run_cmd(f"git add {BOT_SCRIPT} {CONFIG_FILE} {STATE_FILE} deploy.py requirements.txt")
     run_cmd(f'git commit -m "{commit_msg}"')
