@@ -27,7 +27,9 @@ def audit():
         log("Syntax/Import Check: FAILED.", False)
         return False
 
-    # 1. Sanity
+    # 1. Sanity (fetch latest history first to avoid duplicate emails during local run)
+    run_cmd("git fetch origin data")
+    run_cmd("git checkout origin/data -- job_history.json")
     res = run_cmd(f"python {BOT_SCRIPT}")
     if "STARTING" in res.stdout or "STARTING" in res.stderr:
         log("Sanity Check: Logic Executable.")
