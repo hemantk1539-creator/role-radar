@@ -1,70 +1,5 @@
 [
     {
-        "id": "8f70681a561b78a14ac32a0aa342f60c",
-        "fingerprint": "rc-regulatory compliance-csv-quality lead-manager|ey|hyderabad",
-        "date": "2026-02-27T12:50:08.565432"
-    },
-    {
-        "id": "410eabc3b7fcfd53fc7bd6ef4bdb18ec",
-        "fingerprint": "quality manager|abb|hyderabad",
-        "date": "2026-02-27T12:50:08.565434"
-    },
-    {
-        "id": "366afe0c9a8aeb3ead6022ebe577a077",
-        "fingerprint": "manager - quality control orders|abb|hyderabad",
-        "date": "2026-02-27T12:50:08.565437"
-    },
-    {
-        "id": "943e40575e972252ea54bebc313d56e7",
-        "fingerprint": "manager - quality & accreditation|apollo hospitals, financial district, hyderabad|hyderabad",
-        "date": "2026-02-27T12:50:08.565439"
-    },
-    {
-        "id": "717cea7b8144e7db296081db6b2cfeba",
-        "fingerprint": "quality manager bpo/manager quality/ bpo quality manager|selectica international solutions|hyderabad",
-        "date": "2026-02-27T12:50:08.565442"
-    },
-    {
-        "id": "5e383f1ea738f0ab18fe596a812c482d",
-        "fingerprint": "quality analyst (playwright) lead|spark eighteen|delhi",
-        "date": "2026-02-27T12:50:08.565444"
-    },
-    {
-        "id": "736866060bf098445d684664e94656f1",
-        "fingerprint": "quality analyst lead|manpowergroup services india|delhi",
-        "date": "2026-02-27T12:50:08.565446"
-    },
-    {
-        "id": "e99f7b18104d5aef0d265567eebf4f23",
-        "fingerprint": "lead - quality assurance|iris software|delhi",
-        "date": "2026-02-27T12:50:08.565448"
-    },
-    {
-        "id": "301842b32948f87035bfbb818d7c4027",
-        "fingerprint": "quality manager|abb|delhi",
-        "date": "2026-02-27T12:50:08.565451"
-    },
-    {
-        "id": "cc0e07cf510e3ff5c957c00f84ff47c5",
-        "fingerprint": "quality assurance manager|teleperformance (tp)|delhi",
-        "date": "2026-02-27T12:50:08.565453"
-    },
-    {
-        "id": "1d0c7dd5acf8c92b36a97472c83ca7ea",
-        "fingerprint": "manager - quality control orders|abb|delhi",
-        "date": "2026-02-27T12:50:08.565456"
-    },
-    {
-        "id": "87c863f01077157d696ee1bb8288ed53",
-        "fingerprint": "quality manager|unick placement|delhi",
-        "date": "2026-02-27T12:50:08.565458"
-    },
-    {
-        "id": "c2eb1d85912d025f52358253279c8ca7",
-        "fingerprint": "lead sdet|sprinklr|gurugram",
-        "date": "2026-02-27T12:50:08.565460"
-    },
-    {
         "id": "c017920fa27f735d4f713d0585311946",
         "fingerprint": "quality team lead|teleperformance (tp)|chennai",
         "date": "2026-02-27T12:50:08.565462"
@@ -9998,5 +9933,70 @@
         "id": "258f650a90298bf75279e102ae6998f5",
         "fingerprint": "system test architect|dexian india|chennai",
         "date": "2026-05-18T06:49:53.148484"
+    },
+    {
+        "id": "5449041b6432c89be8faa196e621a964",
+        "fingerprint": "training and quality manager|silvermine group|bengaluru",
+        "date": "2026-05-18T12:49:53.905870"
+    },
+    {
+        "id": "7a0f3d25b2e1256190581406253de09e",
+        "fingerprint": "manager-quality system compliance-customer programs|pratt & whitney|bengaluru",
+        "date": "2026-05-18T12:49:53.905887"
+    },
+    {
+        "id": "d1def95a2206273f5deb8148885eb20a",
+        "fingerprint": "sap test lead engineer - tosca_98848|mycareernet|mumbai",
+        "date": "2026-05-18T12:49:53.905890"
+    },
+    {
+        "id": "21bd1d07785eafc0717bea2658491dd7",
+        "fingerprint": "lead test analyst (manual+automation)|nec software solutions (india)|mumbai",
+        "date": "2026-05-18T12:49:53.905893"
+    },
+    {
+        "id": "9895baf3fc712280dad8995bbf778aed",
+        "fingerprint": "head of quality assurance|qualitia software|pune",
+        "date": "2026-05-18T12:49:53.905895"
+    },
+    {
+        "id": "f967f228e5b4aef4f274a1282ca0f3ae",
+        "fingerprint": "senior quality assurance leader|yennes infotec p limited|hyderabad",
+        "date": "2026-05-18T12:49:53.905898"
+    },
+    {
+        "id": "b9738ec31e451f6a021f03508f5b2231",
+        "fingerprint": "principal qa engineer \u2013 genai testing - manager|state street|hyderabad",
+        "date": "2026-05-18T12:49:53.905901"
+    },
+    {
+        "id": "1e400db406f8e225508af0aa04b736eb",
+        "fingerprint": "quality assurance manager|surlon group|gurugram",
+        "date": "2026-05-18T12:49:53.905903"
+    },
+    {
+        "id": "3d5294d2edb0d5c005d7ee30691e7055",
+        "fingerprint": "lead test engineer|r systems|gurugram",
+        "date": "2026-05-18T12:49:53.905905"
+    },
+    {
+        "id": "782bc17e7a29bcc4174514634321be38",
+        "fingerprint": "staff engineer - product testing|stryker|gurugram",
+        "date": "2026-05-18T12:49:53.905908"
+    },
+    {
+        "id": "305903e837efdff6ad7bbf36684a595d",
+        "fingerprint": "manager \u2013 in\u2011process quality|borgwarner|chennai",
+        "date": "2026-05-18T12:49:53.905910"
+    },
+    {
+        "id": "faa30e9af26c7ee36a6c9ae61e5e7777",
+        "fingerprint": "quality manager, amazon now, india|amazon|ahmedabad",
+        "date": "2026-05-18T12:49:53.905913"
+    },
+    {
+        "id": "17930fa2e89f8ba42667c3b49e2fb8f3",
+        "fingerprint": "manager, software test engineering|shell recharge solutions|remote",
+        "date": "2026-05-18T12:49:53.905915"
     }
 ]
