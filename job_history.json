@@ -1,30 +1,5 @@
 [
     {
-        "id": "a7dcfc4645b11f14f9313d2e2f76578f",
-        "fingerprint": "head - quality assurance epc|reliance industries limited|mumbai",
-        "date": "2026-02-27T12:50:08.565421"
-    },
-    {
-        "id": "77f2d597e34e425de2ed760416800d7e",
-        "fingerprint": "quality manager|abb|mumbai",
-        "date": "2026-02-27T12:50:08.565423"
-    },
-    {
-        "id": "0bb04973ffae866df1aea30fb042044a",
-        "fingerprint": "manager - quality control orders|abb|mumbai",
-        "date": "2026-02-27T12:50:08.565425"
-    },
-    {
-        "id": "f489840b253a68e738d9c51685315aeb",
-        "fingerprint": "manager dahanu quality, acg capsules|acg inspection systems pvt. ltd.|mumbai",
-        "date": "2026-02-27T12:50:08.565427"
-    },
-    {
-        "id": "20a156ea6472d9c3d677629d3fa81022",
-        "fingerprint": "delivery manager - qa|qualitia software|mumbai",
-        "date": "2026-02-27T12:50:08.565430"
-    },
-    {
         "id": "8f70681a561b78a14ac32a0aa342f60c",
         "fingerprint": "rc-regulatory compliance-csv-quality lead-manager|ey|hyderabad",
         "date": "2026-02-27T12:50:08.565432"
@@ -9998,5 +9973,30 @@
         "id": "c18bc19b3f469b1dcbdba8d0844bb86f",
         "fingerprint": "manager, global quality 1|celestica|remote",
         "date": "2026-05-17T19:49:29.105700"
+    },
+    {
+        "id": "0d2c4758c22b815eda1426ebcdcd32c9",
+        "fingerprint": "technical lead - data quality|happiest minds technologies|bengaluru",
+        "date": "2026-05-18T06:49:53.148456"
+    },
+    {
+        "id": "c6c9d8600a0c9afda01288c4cdd09106",
+        "fingerprint": "service digitization & automation head|havells india ltd|gurugram",
+        "date": "2026-05-18T06:49:53.148475"
+    },
+    {
+        "id": "6a435284e81d24fb4b6a158a242142cf",
+        "fingerprint": "senior test lead|r systems|gurugram",
+        "date": "2026-05-18T06:49:53.148478"
+    },
+    {
+        "id": "15ab119185b416578235a3663410ec07",
+        "fingerprint": "quality manager|air taxi|noida",
+        "date": "2026-05-18T06:49:53.148481"
+    },
+    {
+        "id": "258f650a90298bf75279e102ae6998f5",
+        "fingerprint": "system test architect|dexian india|chennai",
+        "date": "2026-05-18T06:49:53.148484"
     }
 ]
