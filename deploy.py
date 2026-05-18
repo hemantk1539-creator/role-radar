@@ -29,7 +29,10 @@ def audit():
 
     # 1. Sanity (fetch latest history first to avoid duplicate emails during local run)
     run_cmd("git fetch origin data")
-    run_cmd("git checkout origin/data -- job_history.json")
+    history_res = run_cmd("git show origin/data:job_history.json")
+    if history_res.returncode == 0:
+        with open("job_history.json", "w", encoding="utf-8") as f:
+            f.write(history_res.stdout)
     res = run_cmd(f"python {BOT_SCRIPT}")
     if "STARTING" in res.stdout or "STARTING" in res.stderr:
         log("Sanity Check: Logic Executable.")
@@ -61,7 +64,10 @@ def deploy():
         sys.exit(1)
 
     print("> Audit Passed. Syncing with remote...")
+    run_cmd("git restore --staged job_history.json 2>nul")
+    run_cmd("git stash")
     pull_res = run_cmd("git pull --rebase origin main")
+    run_cmd("git stash pop")
     if pull_res.returncode != 0:
         log("Pull/Rebase Failed. Resolve conflicts before deploying.", False)
         sys.exit(1)
