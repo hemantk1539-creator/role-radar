@@ -8,5 +8,6 @@ dry_run_*.py
 *_check.py
 *_sat.py
 GEMINI.md
+CLAUDE.md
 heartbeat.txt
 .env
