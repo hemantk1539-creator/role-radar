@@ -10,8 +10,13 @@ jobs:
       contents: write
 
     steps:
-    - name: Checkout code
+    - name: Checkout main
       uses: actions/checkout@v3
+
+    - name: Restore job history from data branch
+      run: |
+        git fetch origin data 2>/dev/null || true
+        git checkout origin/data -- job_history.json 2>/dev/null || echo "No history yet, starting fresh"
 
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -30,11 +35,19 @@ jobs:
       run: |
         python job_alert_bot_github.py
 
-    - name: Commit and push changes
+    - name: Save job history to data branch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'JobBot-Automated'
         git config --global user.email 'bot@noreply.github.com'
-        git add job_history.json heartbeat.txt
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update job history and heartbeat [skip ci]" && git push)
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        cp job_history.json /tmp/job_history.json
+        if git show-ref --verify --quiet refs/remotes/origin/data; then
+          git checkout -b data origin/data
+        else
+          git checkout --orphan data
+          git rm -rf . --quiet 2>/dev/null || true
+        fi
+        cp /tmp/job_history.json job_history.json
+        git add job_history.json
+        git diff --staged --quiet || (git commit -m "Update job history [skip ci]" && git push origin data)

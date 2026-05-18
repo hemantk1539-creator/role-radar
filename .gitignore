@@ -15,3 +15,4 @@ master_verification*.py
 config_sat.yaml
 heartbeat.txt
 .env
+job_history.json
