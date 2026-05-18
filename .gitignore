@@ -9,5 +9,9 @@ dry_run_*.py
 *_sat.py
 GEMINI.md
 CLAUDE.md
+RIGOR_CHECKLIST.md
+forensic_*.py
+master_verification*.py
+config_sat.yaml
 heartbeat.txt
 .env
