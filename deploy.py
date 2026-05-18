@@ -86,7 +86,7 @@ def deploy():
 
     print("> Pushing changes...")
     commit_msg = "Rigor-Checked Deployment: " + datetime.now().strftime("%Y-%m-%d %H:%M")
-    run_cmd(f"git add {BOT_SCRIPT} {CONFIG_FILE} {STATE_FILE} deploy.py requirements.txt")
+    run_cmd(f"git add {BOT_SCRIPT} {CONFIG_FILE} {STATE_FILE} deploy.py requirements.txt TEST_SUITE.md tests/")
     run_cmd(f'git commit -m "{commit_msg}"')
     push_res = run_cmd("git push origin main")
     
