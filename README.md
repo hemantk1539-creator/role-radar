@@ -1,4 +1,4 @@
-# Job Alert Bot
+# role-radar
 
 A multi-source job discovery pipeline for senior engineering management roles (EM, Sr. EM, Director, Head of QA/QE/Test/Automation). Runs on GitHub Actions on a schedule, scrapes 20+ sources in parallel, filters with word-boundary regex, deduplicates via MD5, categorizes into 3 location buckets (local / India-remote / global-remote), and emails the results.
 
