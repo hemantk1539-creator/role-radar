@@ -15,3 +15,6 @@ config_sat.yaml
 heartbeat.txt
 .env
 job_history.json
+PROJECT_STATE.md
+PROGRESS.md
+DEBT.md

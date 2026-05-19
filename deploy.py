@@ -1,3 +1,17 @@
+"""
+deploy.py — the only authorized deployment path for this repo.
+
+Every push runs:
+  1. Syntax/import check
+  2. Full pytest suite (failing tests block the push)
+  3. Sanity bot run (logic must be executable)
+  4. Hardcode audit (catches accidentally committed strategy data)
+  5. git stash → pull --rebase → pop → commit → push → verify
+
+Usage:
+  python deploy.py "feat: add Wellfound RSS source"
+  python deploy.py "fix: handle 3-part LinkedIn locations"
+"""
 import subprocess
 import os
 import sys
@@ -6,72 +20,77 @@ from datetime import datetime
 
 BOT_SCRIPT = "job_alert_bot_github.py"
 CONFIG_FILE = "job_alert_config.yaml"
-STATE_FILE = "PROJECT_STATE.md"
+STAGED_FILES = [
+    BOT_SCRIPT,
+    CONFIG_FILE,
+    "deploy.py",
+    "requirements.txt",
+    "README.md",
+    "LICENSE",
+    "TEST_SUITE.md",
+    "tests/",
+    "docs/",
+    ".github/",
+    ".gitignore",
+]
+
 
 def run_cmd(cmd):
-    result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
-    return result
+    return subprocess.run(cmd, shell=True, capture_output=True, text=True)
+
 
 def log(msg, success=True):
     symbol = "OK" if success else "FAIL"
     print(f"[{symbol}] {msg}")
 
+
 def audit():
     print("--- STARTING DEPLOYMENT AUDIT ---")
 
-    # 0. Syntax/Import Check (Rule 13)
-    res_syntax = run_cmd(f'python -c "import {BOT_SCRIPT[:-3]}"')
-    if res_syntax.returncode == 0:
-        log("Syntax/Import Check: OK.")
-    else:
+    # 1. Syntax / import
+    res = run_cmd(f'python -c "import {BOT_SCRIPT[:-3]}"')
+    if res.returncode != 0:
         log("Syntax/Import Check: FAILED.", False)
+        print(res.stderr)
         return False
+    log("Syntax/Import Check: OK.")
 
-    # 0b. Test suite
-    res_tests = subprocess.run(
+    # 2. Test suite
+    res = subprocess.run(
         ["uv", "run", "python", "-m", "pytest", "tests/", "-q", "--tb=short"],
         capture_output=True, text=True
     )
-    print(res_tests.stdout[-2000:] if res_tests.stdout else "")
-    if res_tests.returncode == 0:
-        log("Test Suite: ALL PASSED.")
-    else:
+    if res.stdout:
+        print(res.stdout[-2000:])
+    if res.returncode != 0:
         log("Test Suite: FAILED — push blocked.", False)
         return False
+    log("Test Suite: ALL PASSED.")
 
-    # 1. Sanity (fetch latest history first to avoid duplicate emails during local run)
+    # 3. Sanity (fetch latest history first to avoid duplicate emails during local run)
     run_cmd("git fetch origin data")
     history_res = run_cmd("git show origin/data:job_history.json")
     if history_res.returncode == 0:
         with open("job_history.json", "w", encoding="utf-8") as f:
             f.write(history_res.stdout)
     res = run_cmd(f"python {BOT_SCRIPT}")
-    if "STARTING" in res.stdout or "STARTING" in res.stderr:
-        log("Sanity Check: Logic Executable.")
-    else:
+    if "STARTING" not in res.stdout and "STARTING" not in res.stderr:
         log("Sanity Check: FAILED.", False)
         return False
+    log("Sanity Check: Logic Executable.")
 
-    # 2. Hardcode Check
+    # 4. Hardcode audit — strategy data must live in YAML, not in code
     with open(BOT_SCRIPT, "r", encoding="utf-8") as f:
         content = f.read()
-        # Look for hardcoded lists with more than 2 items (indicates strategy data)
-        if re.search(r'\["[^"]+",\s*"[^"]+",\s*"[^"]+"\]', content):
-            log("Hardcode Audit: FAILED (Long lists found in code).", False)
-            return False
+    if re.search(r'\["[^"]+",\s*"[^"]+",\s*"[^"]+"\]', content):
+        log("Hardcode Audit: FAILED (long lists found in code — move to YAML).", False)
+        return False
     log("Hardcode Audit: Clean.")
 
-    # 3. State Check
-    if os.path.exists(STATE_FILE):
-        mtime = os.path.getmtime(STATE_FILE)
-        if datetime.fromtimestamp(mtime).date() != datetime.now().date():
-            log("State Audit: FAILED (State file not updated today).", False)
-            return False
-    log("State Audit: Current.")
-    
     return True
 
-def deploy():
+
+def deploy(commit_msg):
     if not audit():
         sys.exit(1)
 
@@ -85,21 +104,27 @@ def deploy():
         sys.exit(1)
 
     print("> Pushing changes...")
-    commit_msg = "Rigor-Checked Deployment: " + datetime.now().strftime("%Y-%m-%d %H:%M")
-    run_cmd(f"git add {BOT_SCRIPT} {CONFIG_FILE} {STATE_FILE} deploy.py requirements.txt TEST_SUITE.md tests/")
+    run_cmd(f"git add {' '.join(STAGED_FILES)}")
     run_cmd(f'git commit -m "{commit_msg}"')
     push_res = run_cmd("git push origin main")
-    
-    if push_res.returncode == 0:
-        log("Push Successful.")
-        run_cmd("git fetch origin")
-        verify = run_cmd(f"git show origin/main:{BOT_SCRIPT}")
-        if len(verify.stdout) > 1000:
-            log("Server Verification: MATCHED.")
-        else:
-            log("Server Verification: FAILED.", False)
-    else:
+
+    if push_res.returncode != 0:
         log("Push Failed.", False)
+        print(push_res.stderr)
+        sys.exit(1)
+
+    log("Push Successful.")
+    run_cmd("git fetch origin")
+    verify = run_cmd(f"git show origin/main:{BOT_SCRIPT}")
+    if len(verify.stdout) > 1000:
+        log("Server Verification: MATCHED.")
+    else:
+        log("Server Verification: FAILED.", False)
+
 
 if __name__ == "__main__":
-    deploy()
+    if len(sys.argv) < 2:
+        print("Usage: python deploy.py \"<commit message>\"")
+        print("Example: python deploy.py \"feat: add Wellfound RSS source\"")
+        sys.exit(1)
+    deploy(sys.argv[1])
