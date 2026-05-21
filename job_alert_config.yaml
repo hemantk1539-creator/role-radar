@@ -94,12 +94,7 @@ search:
       "deel", "notion", "snowflake", "replit", "posthog", "linear", "vercel", "ramp", "perplexitiy", "openai", 
       "clerk", "fly", "glitch", "honeycomb", "mode", "mux", "ngrok", "planetscale", "skiff", "stytch"
     ]
-    workable: [
-      "appfollow", "hotjar", "toptal", "transferwise", "booking", "deliveroo", "monzo",
-      "getyourguide", "hellofresh", "n26", "skyscanner", "viator", "wolt", "zalando"
-    ]
     breezy: ["dovetail", "unbabel", "basecamp", "convertkit", "ghost", "scrapingbee", "buffer", "toggl"]
-    pinpoint: ["checkly", "kaluza", "oatly", "gymshark", "innercircle", "plentific"]
 
 
 
