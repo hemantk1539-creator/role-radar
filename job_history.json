@@ -1,95 +1,5 @@
 [
     {
-        "id": "3fb960c1a514e4fd081049aabed61dd4",
-        "fingerprint": "qa manager|mihup.ai|pune",
-        "date": "2026-03-01T19:49:47.958745"
-    },
-    {
-        "id": "8ef805af4970e216a4e6e8e452120237",
-        "fingerprint": "lead .net automation test engineer|epam systems|pune",
-        "date": "2026-03-01T19:49:47.958763"
-    },
-    {
-        "id": "c48cae426501fff1fb51eb66c548db3c",
-        "fingerprint": "lead python automation test engineer|epam systems|pune",
-        "date": "2026-03-01T19:49:47.958767"
-    },
-    {
-        "id": "043b24d76b0677af8e634fc88147c2c8",
-        "fingerprint": "test manager - digital gcc|rockwell automation|bengaluru",
-        "date": "2026-03-01T19:49:47.958770"
-    },
-    {
-        "id": "6e83261a73ce66068fb8dff099c52eb7",
-        "fingerprint": "delivery quality assurance manager digital gcc|lektronix|bengaluru",
-        "date": "2026-03-01T19:49:47.958773"
-    },
-    {
-        "id": "c3aec721d9aa2acdf829bac9c517f615",
-        "fingerprint": "delivery quality assurance manager digital gcc|rockwell automation|bengaluru",
-        "date": "2026-03-01T19:49:47.958775"
-    },
-    {
-        "id": "c961deaac5afd48948de047586e4baec",
-        "fingerprint": "quality architect|epam systems|bengaluru",
-        "date": "2026-03-01T19:49:47.958778"
-    },
-    {
-        "id": "0c956eabe1941cc830768d0df526778c",
-        "fingerprint": "principal software development engineer - test - automation testing|sampoorna consultants|bengaluru",
-        "date": "2026-03-01T19:49:47.958780"
-    },
-    {
-        "id": "a5c12c75f0c6eb052b90b044a9f2e51f",
-        "fingerprint": "sr staff engineer-cpu software test engineer (server)|qualcomm|bengaluru",
-        "date": "2026-03-01T19:49:47.958783"
-    },
-    {
-        "id": "3852200437d3e99438207c6de6859358",
-        "fingerprint": "lead sdet - revex|highlevel|gurugram",
-        "date": "2026-03-01T19:49:47.958785"
-    },
-    {
-        "id": "82966d1a166f63875117b76d729cb6a8",
-        "fingerprint": "gpon - staff test engineer|qualcomm|chennai",
-        "date": "2026-03-01T19:49:47.958788"
-    },
-    {
-        "id": "13aa15f5933bdca668d486f7d0da39f2",
-        "fingerprint": "senior manager, factory automation engineering|dandy|remote",
-        "date": "2026-03-01T19:49:47.958790"
-    },
-    {
-        "id": "f0c136829602d2e367b24f51016700af",
-        "fingerprint": "lead javascript automation test engineer|epam systems|pune",
-        "date": "2026-03-02T06:49:28.458645"
-    },
-    {
-        "id": "07854e551aec0e744bb4b574dc4303c4",
-        "fingerprint": "quality & training manager|lifebridge group|bengaluru",
-        "date": "2026-03-02T06:49:28.458663"
-    },
-    {
-        "id": "0edd09a34027f85d649d7dae02996fed",
-        "fingerprint": "qa qc manager|rainbow hr consulting services|mumbai",
-        "date": "2026-03-02T06:49:28.458666"
-    },
-    {
-        "id": "32b9466d688cf31fb09e31de4901b5d8",
-        "fingerprint": "sap quality engineering - program director|capgemini|mumbai",
-        "date": "2026-03-02T06:49:28.458669"
-    },
-    {
-        "id": "c4a826f2f4e4458c8363b465e75e447c",
-        "fingerprint": "quality manager plastic packaging|plastemartjobs|hyderabad",
-        "date": "2026-03-02T06:49:28.458671"
-    },
-    {
-        "id": "9b7622016f3d03a8182f65b409532421",
-        "fingerprint": "lead i, quality engineering|s&p global market intelligence|delhi",
-        "date": "2026-03-02T06:49:28.458674"
-    },
-    {
         "id": "e7079f2e6212b1dc447911175a69d2c3",
         "fingerprint": "asst manager quality auditor|access healthcare|noida",
         "date": "2026-03-02T06:49:28.458676"
@@ -9998,5 +9908,95 @@
         "id": "1266e5b534dac56cafee320081b42afe",
         "fingerprint": "quality manager (systems and mepf)|mace|ahmedabad",
         "date": "2026-05-22T12:50:42.388896"
+    },
+    {
+        "id": "4d2568a1aeb7d0a263789daf37976a91",
+        "fingerprint": "lead-software engineering-qa|entegris|pune",
+        "date": "2026-05-22T19:50:33.179539"
+    },
+    {
+        "id": "77df55a0b3894d67694c60982f23646c",
+        "fingerprint": "lead test automation engineer|williams-sonoma, inc.|pune",
+        "date": "2026-05-22T19:50:33.179555"
+    },
+    {
+        "id": "3328293244f90244af940fd8e76f8541",
+        "fingerprint": "senior data governance & data quality lead \u2013 informatica idmc|crisil|pune",
+        "date": "2026-05-22T19:50:33.179558"
+    },
+    {
+        "id": "e47ecfbb2ebcc4d4918b5a9f3949a4e8",
+        "fingerprint": "lead quality assurance engineer|konovo|bengaluru",
+        "date": "2026-05-22T19:50:33.179560"
+    },
+    {
+        "id": "af443891aee8f48608a1046107f57618",
+        "fingerprint": "senior lead quality engineer (gen ai)|adobe|bengaluru",
+        "date": "2026-05-22T19:50:33.179562"
+    },
+    {
+        "id": "cf7a574374964b57a454afec68519a09",
+        "fingerprint": "mgr, quote\u2011to\u2011cash experience, business quality & automation|netapp|bengaluru",
+        "date": "2026-05-22T19:50:33.179564"
+    },
+    {
+        "id": "a5de2ad52e007d75bfeb3fe27d602606",
+        "fingerprint": "lead engineer - sw qa (rail / wireless protocols)|silicon labs|hyderabad",
+        "date": "2026-05-22T19:50:33.179566"
+    },
+    {
+        "id": "700874041617ed910eaada66206bbbfa",
+        "fingerprint": "senior test automation lead|cgi|hyderabad",
+        "date": "2026-05-22T19:50:33.179568"
+    },
+    {
+        "id": "bf58e3de1b172e9d73f08fcd2cb3190a",
+        "fingerprint": "manager - it quality|united airlines india knowledge center|gurugram",
+        "date": "2026-05-22T19:50:33.179570"
+    },
+    {
+        "id": "93d765daee55715326006ae4451e5c39",
+        "fingerprint": "qa manual - lead|iris software inc.|gurugram",
+        "date": "2026-05-22T19:50:33.179572"
+    },
+    {
+        "id": "bc8e1feb76846422310e6277322578b3",
+        "fingerprint": "senior qa lead|curefit|gurugram",
+        "date": "2026-05-22T19:50:33.179574"
+    },
+    {
+        "id": "cdd24fc58183c3a079cc2aac215b46c0",
+        "fingerprint": "chief quality assurance expert|hill international, inc.|gurugram",
+        "date": "2026-05-22T19:50:33.179576"
+    },
+    {
+        "id": "0c72330e0376ae169871ac290523082c",
+        "fingerprint": "manager - quality & risk management|insight|gurugram",
+        "date": "2026-05-22T19:50:33.179578"
+    },
+    {
+        "id": "d92fd2624473f2dff97452bef6232d0b",
+        "fingerprint": "director - sdet|comcast|chennai",
+        "date": "2026-05-22T19:50:33.179581"
+    },
+    {
+        "id": "93bf9d1c7713ef0bb086785837269e72",
+        "fingerprint": "quality assurance monitoring and testing manager|citi|chennai",
+        "date": "2026-05-22T19:50:33.179583"
+    },
+    {
+        "id": "40269332babb19a7444f5733aa4c15e8",
+        "fingerprint": "senior manager - powertrain (transaxle testing-maintenance)|tata marcopolo motors ltd. dharwad|remote",
+        "date": "2026-05-22T19:50:33.179585"
+    },
+    {
+        "id": "6e0e27dbb0f3ec933c77b454680b6853",
+        "fingerprint": "ford bu global quality director|adient|remote",
+        "date": "2026-05-22T19:50:33.179587"
+    },
+    {
+        "id": "912a9160f9eaa9a071d8a248b9c76904",
+        "fingerprint": "sr. director, ecompliance \u2013 global quality technical operations|pci pharma services|remote",
+        "date": "2026-05-22T19:50:33.179607"
     }
 ]
