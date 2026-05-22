@@ -1,70 +1,5 @@
 [
     {
-        "id": "039aad3d05182f47cd40baa8210bf5d5",
-        "fingerprint": "manager i, quality|concentrix|bengaluru",
-        "date": "2026-02-28T19:49:39.388482"
-    },
-    {
-        "id": "31a0ce503bbc3fb461da1f044b7b9343",
-        "fingerprint": "team lead: testing motion control|festo|bengaluru",
-        "date": "2026-02-28T19:49:39.388484"
-    },
-    {
-        "id": "1b4205b1df299fad1f29e84f45c91be8",
-        "fingerprint": "quality compliance - senior manager|amgen|hyderabad",
-        "date": "2026-02-28T19:49:39.388486"
-    },
-    {
-        "id": "210e66c037d3a7d9d5981b070c32120d",
-        "fingerprint": "quality manager|perceptive|hyderabad",
-        "date": "2026-02-28T19:49:39.388488"
-    },
-    {
-        "id": "301dce5da5850fbdb12319bb55895317",
-        "fingerprint": "am / dm / manager \u2013 quality \u2013 battery energy storage systems|sunsure energy|gurugram",
-        "date": "2026-02-28T19:49:39.388490"
-    },
-    {
-        "id": "9fa510162cc7ba06702db0f63fbc4319",
-        "fingerprint": "servicenow design lead - ai & automation capabilities|orange business|gurugram",
-        "date": "2026-02-28T19:49:39.388493"
-    },
-    {
-        "id": "aef974db42859e46649e7a28b8c026ef",
-        "fingerprint": "head of quality|essens renewable private limited (formerly rwe solar india and belectric photovoltaic india pvt ltd)|gurugram",
-        "date": "2026-02-28T19:49:39.388495"
-    },
-    {
-        "id": "28592a1ba209cc66ffe01a8319831a39",
-        "fingerprint": "quality incharge lead|larsen & toubro|ahmedabad",
-        "date": "2026-02-28T19:49:39.388497"
-    },
-    {
-        "id": "5df0cc28175aa8a9f020b2f20196e798",
-        "fingerprint": "data quality lead analyst - metadata hub - vice president|citi|chennai",
-        "date": "2026-02-28T19:49:39.388499"
-    },
-    {
-        "id": "cf6dbe2f984d32e137f35a9431e422cc",
-        "fingerprint": "manager, qa operations|azurity pharmaceuticals|remote",
-        "date": "2026-02-28T19:49:39.388501"
-    },
-    {
-        "id": "42535935c59f612b7153f6493f9d6d83",
-        "fingerprint": "sap coe quality manager|hitachi energy|bengaluru",
-        "date": "2026-03-01T06:50:11.867150"
-    },
-    {
-        "id": "673e4fd77e73b8a19f342ca22b7be9b6",
-        "fingerprint": "quality manager \u2013 us mortgage due diligence / underwriting|career guideline|pune",
-        "date": "2026-03-01T06:50:11.867165"
-    },
-    {
-        "id": "50c11aecddcb0d95f8dc150254c6fa44",
-        "fingerprint": "supplier quality manager|symbiosis management consultants|delhi",
-        "date": "2026-03-01T06:50:11.867168"
-    },
-    {
         "id": "a3cb0676632ce138e5625871b78c6233",
         "fingerprint": "salesforce test architect(tosca)|ntt data north america|gurugram",
         "date": "2026-03-01T06:50:11.867171"
@@ -9998,5 +9933,70 @@
         "id": "070244b4c09ec9dcb23f6826dd38c37f",
         "fingerprint": "manager, quality services, amazon quality services|amazon|chennai",
         "date": "2026-05-21T19:51:27.571901"
+    },
+    {
+        "id": "ee79a248dbeec7cc79a9d84cc8587655",
+        "fingerprint": "test module lead - playwright|happiest minds technologies|bengaluru",
+        "date": "2026-05-22T06:51:10.342743"
+    },
+    {
+        "id": "8d66507733dff5e144aa39253f49ecdd",
+        "fingerprint": "quality manager|pm group|bengaluru",
+        "date": "2026-05-22T06:51:10.342759"
+    },
+    {
+        "id": "dd1d3ef1bdef7b3a323166c8fb682062",
+        "fingerprint": "lead test engineer - vp|barclays|pune",
+        "date": "2026-05-22T06:51:10.342762"
+    },
+    {
+        "id": "dd697400a27bed923d84215e40b841de",
+        "fingerprint": "lead software engineer - java test automation|jpmorganchase|mumbai",
+        "date": "2026-05-22T06:51:10.342764"
+    },
+    {
+        "id": "cb502f87f41e1f0bef0a9856ea7d62cf",
+        "fingerprint": "lead - quality|pluckk|mumbai",
+        "date": "2026-05-22T06:51:10.342766"
+    },
+    {
+        "id": "4b05cb96be90431994b9fa031cebaaf5",
+        "fingerprint": "sr test automatin lead|cgi|hyderabad",
+        "date": "2026-05-22T06:51:10.342768"
+    },
+    {
+        "id": "26dea7ab6740d97c4ce2645dad4e20ba",
+        "fingerprint": "automation test lead (pune, hyderabad, bangalore, chennai, kochi, bhubaneshwar) 8+ years of exp|tata consultancy services|hyderabad",
+        "date": "2026-05-22T06:51:10.342770"
+    },
+    {
+        "id": "9150c36d2146d9ee8bac85380849cc43",
+        "fingerprint": "change management automation & ai lead|ventra health|hyderabad",
+        "date": "2026-05-22T06:51:10.342772"
+    },
+    {
+        "id": "404e1ab66dddb3881d9e4169e6f76a0d",
+        "fingerprint": "proactive hire fy 26 - automation architect|qualitest acq|chennai",
+        "date": "2026-05-22T06:51:10.342774"
+    },
+    {
+        "id": "84ee0fa82710dfa983f54518a5e7ca63",
+        "fingerprint": "ai/ml test lead|crescent techservices|chennai",
+        "date": "2026-05-22T06:51:10.342776"
+    },
+    {
+        "id": "417f9dfd604f087fe0f80abf67340265",
+        "fingerprint": "test manager - quality engineering|happiest minds technologies|remote",
+        "date": "2026-05-22T06:51:10.342778"
+    },
+    {
+        "id": "bbacf9df33219c66facd291e1da2492a",
+        "fingerprint": "global head of quality assurance|mta solutions global|remote",
+        "date": "2026-05-22T06:51:10.342780"
+    },
+    {
+        "id": "6742e629b4eccdf033b01478f71725c0",
+        "fingerprint": "deputy global head of quality, senior consultant|scendea|remote",
+        "date": "2026-05-22T06:51:10.342782"
     }
 ]
