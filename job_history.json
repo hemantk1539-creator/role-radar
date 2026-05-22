@@ -1,80 +1,5 @@
 [
     {
-        "id": "a3cb0676632ce138e5625871b78c6233",
-        "fingerprint": "salesforce test architect(tosca)|ntt data north america|gurugram",
-        "date": "2026-03-01T06:50:11.867171"
-    },
-    {
-        "id": "6298235b4624e0055829e5dec2abc46b",
-        "fingerprint": "lead software development engineer in test - ai|highlevel|gurugram",
-        "date": "2026-03-01T06:50:11.867173"
-    },
-    {
-        "id": "8c9d10cef066c6b2b89df29f9ec8f2de",
-        "fingerprint": "playwright test automation - lead|iris software|noida",
-        "date": "2026-03-01T06:50:11.867175"
-    },
-    {
-        "id": "1ca42dd9ca599be1daa40a2374ff203f",
-        "fingerprint": "process and automation lead, product delivery|convegenius edu|noida",
-        "date": "2026-03-01T06:50:11.867178"
-    },
-    {
-        "id": "b5a6d6957e54dd01680d0dfc10c2cbc4",
-        "fingerprint": "quality architect|epam systems|pune",
-        "date": "2026-03-01T12:49:23.621137"
-    },
-    {
-        "id": "fec6976b8cad13748a0180a634a43b94",
-        "fingerprint": "lead auto qa engineer|ss&c technologies|pune",
-        "date": "2026-03-01T12:49:23.621153"
-    },
-    {
-        "id": "968eb9a80900cbf3f4921b6375d0c998",
-        "fingerprint": "test engineering chapter lead - platform and technology|qualitrol|bengaluru",
-        "date": "2026-03-01T12:49:23.621156"
-    },
-    {
-        "id": "54d50fa3c2bcd9676b9366ebbccd3a48",
-        "fingerprint": "qa/qc manager civil|gem engserv pvt. ltd|mumbai",
-        "date": "2026-03-01T12:49:23.621159"
-    },
-    {
-        "id": "eb787ffd39b37f8726fd29d1e70ce3c5",
-        "fingerprint": "quality architect|epam systems|hyderabad",
-        "date": "2026-03-01T12:49:23.621161"
-    },
-    {
-        "id": "696bf688bc56d1ec6e473f40315fe570",
-        "fingerprint": "quality control manager - gedik welding india|gedik asia pvt ltd - gedik welding|delhi",
-        "date": "2026-03-01T12:49:23.621163"
-    },
-    {
-        "id": "40a70654c1ceee1858be8567ba16e66e",
-        "fingerprint": "quality manager(international process)|nlb services|noida",
-        "date": "2026-03-01T12:49:23.621166"
-    },
-    {
-        "id": "698cf152a1a91041bb35d73aee8d5237",
-        "fingerprint": "quality assurance manager|saikor security training and services private limited|chennai",
-        "date": "2026-03-01T12:49:23.621168"
-    },
-    {
-        "id": "8d2e0090bf42f7654d01b243312b5b11",
-        "fingerprint": "quality architect|epam systems|chennai",
-        "date": "2026-03-01T12:49:23.621170"
-    },
-    {
-        "id": "b2a78becdb01dd35c6dcc9ad18a2d840",
-        "fingerprint": "lead .net automation test engineer|epam systems|chennai",
-        "date": "2026-03-01T12:49:23.621173"
-    },
-    {
-        "id": "b2720edbb6f9ca3ce260209df047a541",
-        "fingerprint": "global quality director|kidde global solutions|remote",
-        "date": "2026-03-01T12:49:23.621175"
-    },
-    {
         "id": "3fb960c1a514e4fd081049aabed61dd4",
         "fingerprint": "qa manager|mihup.ai|pune",
         "date": "2026-03-01T19:49:47.958745"
@@ -9998,5 +9923,80 @@
         "id": "6742e629b4eccdf033b01478f71725c0",
         "fingerprint": "deputy global head of quality, senior consultant|scendea|remote",
         "date": "2026-05-22T06:51:10.342782"
+    },
+    {
+        "id": "2cf7a901ed0301e3cf817367dbdbb7f5",
+        "fingerprint": "software test lead engineer|emerson|pune",
+        "date": "2026-05-22T12:50:42.388852"
+    },
+    {
+        "id": "0e2207c8d77c930a7e579d60f03314c1",
+        "fingerprint": "test manager|capco|pune",
+        "date": "2026-05-22T12:50:42.388867"
+    },
+    {
+        "id": "a7f5401558bce187fd73c322413e5d5d",
+        "fingerprint": "practice director - ai automation|birlasoft|pune",
+        "date": "2026-05-22T12:50:42.388869"
+    },
+    {
+        "id": "f79da732c86baa4cf534ae59881ae857",
+        "fingerprint": "lead qa automation engineer - avp|mygwork - lgbtq+ business community|pune",
+        "date": "2026-05-22T12:50:42.388872"
+    },
+    {
+        "id": "effe76ede60d2d7bf532471ddc59dcac",
+        "fingerprint": "staff qa engineer|procore technologies|bengaluru",
+        "date": "2026-05-22T12:50:42.388874"
+    },
+    {
+        "id": "134ed5d59f00955e71a3a01cd2aa83e2",
+        "fingerprint": "qa automation architect|guidewire software|bengaluru",
+        "date": "2026-05-22T12:50:42.388877"
+    },
+    {
+        "id": "ccadd62fb47e63e68f9dd5d2d822a8ac",
+        "fingerprint": "principal qa engineer|amadeus|bengaluru",
+        "date": "2026-05-22T12:50:42.388879"
+    },
+    {
+        "id": "9b918d54bc7513ee920ee9b95ede12a0",
+        "fingerprint": "manager / senior manager - qa|global calcium|bengaluru",
+        "date": "2026-05-22T12:50:42.388881"
+    },
+    {
+        "id": "2a3cff52ccf034c9baa8860481f6ac79",
+        "fingerprint": "test lead|persistent systems|gurugram",
+        "date": "2026-05-22T12:50:42.388883"
+    },
+    {
+        "id": "0a6b1ec183146eaf3dc2274fe1c30c7b",
+        "fingerprint": "senior data governance & data quality lead \u2013 informatica idmc|crisil|gurugram",
+        "date": "2026-05-22T12:50:42.388885"
+    },
+    {
+        "id": "ee050dfde13c8d6b62268ee64d88dd25",
+        "fingerprint": "performance test architect - capital market|talentgigs|noida",
+        "date": "2026-05-22T12:50:42.388888"
+    },
+    {
+        "id": "a155a6d5675a0a69655b15071b717569",
+        "fingerprint": "manager / deputy manager \u2013 quality (supply chain)|truboard partners|noida",
+        "date": "2026-05-22T12:50:42.388890"
+    },
+    {
+        "id": "5fc3abe2f5301b4e1d566ca468169903",
+        "fingerprint": "senior quality assurance manager|planys technologies|chennai",
+        "date": "2026-05-22T12:50:42.388892"
+    },
+    {
+        "id": "2bed2b8c8fc3ccc74ef3a8bdcd49cfa2",
+        "fingerprint": "senior manager \u2013 quality operations|tata marcopolo motors ltd. dharwad|ahmedabad",
+        "date": "2026-05-22T12:50:42.388894"
+    },
+    {
+        "id": "1266e5b534dac56cafee320081b42afe",
+        "fingerprint": "quality manager (systems and mepf)|mace|ahmedabad",
+        "date": "2026-05-22T12:50:42.388896"
     }
 ]
