@@ -1,65 +1,5 @@
 [
     {
-        "id": "f15856558bbea9489b3e4a0bc01ef029",
-        "fingerprint": "snr mgr, chapter lead, test engg - larc risk|standard chartered india|bengaluru",
-        "date": "2026-03-02T12:50:22.035672"
-    },
-    {
-        "id": "cafe964eb579f11866cf10a3ab12b83f",
-        "fingerprint": "quality assurance lead|accenture|bengaluru",
-        "date": "2026-03-02T12:50:22.035674"
-    },
-    {
-        "id": "e5065ea60eace77c67147436f3019be0",
-        "fingerprint": "apac regional qrc lead (quality, assurance & control)|jones lang lasalle (jll)|bengaluru",
-        "date": "2026-03-02T12:50:22.035676"
-    },
-    {
-        "id": "7e3f7d95e90507220dc410ae2c28b6eb",
-        "fingerprint": "quality manager meat / sea foods|manpowergroup services india|bengaluru",
-        "date": "2026-03-02T12:50:22.035678"
-    },
-    {
-        "id": "5e4ede5b704e125f79b7da75a1b0a4a4",
-        "fingerprint": "manager-quality|polywin industries|bengaluru",
-        "date": "2026-03-02T12:50:22.035680"
-    },
-    {
-        "id": "9d6988e20d626051dbd3899ed708b04c",
-        "fingerprint": "quality assurance manager|zeomega infotech|bengaluru",
-        "date": "2026-03-02T12:50:22.035682"
-    },
-    {
-        "id": "3464655fcd4f56b2dae801b780820a2a",
-        "fingerprint": "staff software engineer- search quality|databricks|bengaluru",
-        "date": "2026-03-02T12:50:22.035684"
-    },
-    {
-        "id": "0069afe8638cfafe7443e604c3196441",
-        "fingerprint": "senior staff software engineer- search quality|databricks|bengaluru",
-        "date": "2026-03-02T12:50:22.035686"
-    },
-    {
-        "id": "f1edf2474087f16c11e67a218bdeaca1",
-        "fingerprint": "staff engineer, homestack quality, search|google|bengaluru",
-        "date": "2026-03-02T12:50:22.035687"
-    },
-    {
-        "id": "7d2d71e91679a9962da953a8386ef3b2",
-        "fingerprint": "quality assurance manager|parle agro pvt ltd|mumbai",
-        "date": "2026-03-02T12:50:22.035690"
-    },
-    {
-        "id": "7f81f67867bf20db8864bb2272628aec",
-        "fingerprint": "patient access & reimbursement manager ( ain quality manager)|amgen inc|hyderabad",
-        "date": "2026-03-02T12:50:22.035692"
-    },
-    {
-        "id": "882e2de48581261c7f339bb3ba6bdd68",
-        "fingerprint": "quality lead|propharma|hyderabad",
-        "date": "2026-03-02T12:50:22.035711"
-    },
-    {
         "id": "d8d66cbdeee6d3921e62af1a0d608a4b",
         "fingerprint": "qa qc manager|ingrow hospitality|hyderabad",
         "date": "2026-03-02T12:50:22.035713"
@@ -9998,5 +9938,65 @@
         "id": "0f355ee0c4ef79ccd6b36586f68a14fe",
         "fingerprint": "test manager - t24 sme \u2013 treasury & global markets (r21+)|qualitykiosk technologies|mumbai",
         "date": "2026-05-23T06:50:47.145496"
+    },
+    {
+        "id": "acc00e36359bdda67829d463397d4d02",
+        "fingerprint": "head of software platforms-electronics, semiconductor & battery automation equipment|titan engineering & automation limited|bengaluru",
+        "date": "2026-05-23T12:50:34.802783"
+    },
+    {
+        "id": "0cb1fa3b1afb95d141eef2407b19ec6c",
+        "fingerprint": "staff software development engineer in test|fivetran|bengaluru",
+        "date": "2026-05-23T12:50:34.802800"
+    },
+    {
+        "id": "eac8b46c2d3f70971cd43ab061c50256",
+        "fingerprint": "staff software test development engineer|dexcom|bengaluru",
+        "date": "2026-05-23T12:50:34.802803"
+    },
+    {
+        "id": "457bf2646010c80c6fcb76542fe0028c",
+        "fingerprint": "senior test campaign leader|schneider electric|bengaluru",
+        "date": "2026-05-23T12:50:34.802805"
+    },
+    {
+        "id": "342351882bb1fc9ecb2a08b970f9fc6d",
+        "fingerprint": "staff qa engineer|nokia|bengaluru",
+        "date": "2026-05-23T12:50:34.802808"
+    },
+    {
+        "id": "e9f3d5eb01d6270bf2dde295babc8893",
+        "fingerprint": "senior manager (l5) - advanced quality|tata marcopolo motors ltd. dharwad|pune",
+        "date": "2026-05-23T12:50:34.802810"
+    },
+    {
+        "id": "e34d1523acd78efad04435cfd4497bfc",
+        "fingerprint": "director, quality assurance, regulatory affairs, distribution and operations, apac|mygwork - lgbtq+ business community|pune",
+        "date": "2026-05-23T12:50:34.802811"
+    },
+    {
+        "id": "a5faaf2bebc0638ca4e5056e83102c12",
+        "fingerprint": "quality manager|taskus|mumbai",
+        "date": "2026-05-23T12:50:34.802813"
+    },
+    {
+        "id": "42ff04547d50be0e4d0064def5d882ff",
+        "fingerprint": "manager quality control (testing operations) for mv ais panels|siemens|mumbai",
+        "date": "2026-05-23T12:50:34.802815"
+    },
+    {
+        "id": "8c3051faf51bfa34023ba62d6091aff3",
+        "fingerprint": "principal software development engineer in test|solera holdings, llc.|hyderabad",
+        "date": "2026-05-23T12:50:34.802818"
+    },
+    {
+        "id": "ba2d0d598c4c567f8dcb800598184fa0",
+        "fingerprint": "senior manager \u2013 manufacturing test operations|arm|remote",
+        "date": "2026-05-23T12:50:34.802820"
+    },
+    {
+        "id": "a3a757805f7f3fd8bb9ee5a130ad3207",
+        "fingerprint": "sr. director, ecompliance \u2013 global quality technical operations|lsne contract manufacturing|remote",
+        "date": "2026-05-23T12:50:34.802822"
     }
 ]
