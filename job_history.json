@@ -1,30 +1,5 @@
 [
     {
-        "id": "d8d66cbdeee6d3921e62af1a0d608a4b",
-        "fingerprint": "qa qc manager|ingrow hospitality|hyderabad",
-        "date": "2026-03-02T12:50:22.035713"
-    },
-    {
-        "id": "c3e508988a6200131e9c68d522ac1f96",
-        "fingerprint": "quality team lead -  gurgaon|apollo 247|delhi",
-        "date": "2026-03-02T12:50:22.035715"
-    },
-    {
-        "id": "8831869e22c7b66172f808f7b3d79b26",
-        "fingerprint": "manager - medical quality|max healthcare|delhi",
-        "date": "2026-03-02T12:50:22.035717"
-    },
-    {
-        "id": "7186d6218fab2b70726a81d3c693f54d",
-        "fingerprint": "head of quality control|dlyft india|gurugram",
-        "date": "2026-03-02T12:50:22.035719"
-    },
-    {
-        "id": "9c4b7f6dc75915d57619d0c3a0719e1d",
-        "fingerprint": "production and quality manager|nanoclean|gurugram",
-        "date": "2026-03-02T12:50:22.035722"
-    },
-    {
         "id": "2ef7e902ba0aa44c740584f2c9d3be5b",
         "fingerprint": "hiring immediate_ sr python test engineer lead _ naukri.com _ noida|info edge|noida",
         "date": "2026-03-02T12:50:22.035724"
@@ -9998,5 +9973,30 @@
         "id": "a3a757805f7f3fd8bb9ee5a130ad3207",
         "fingerprint": "sr. director, ecompliance \u2013 global quality technical operations|lsne contract manufacturing|remote",
         "date": "2026-05-23T12:50:34.802822"
+    },
+    {
+        "id": "412134500b4f41846a20bc37476f3a6f",
+        "fingerprint": "staff quality assurance engineer|zocdoc|pune",
+        "date": "2026-05-23T19:51:00.020465"
+    },
+    {
+        "id": "7860ee2171679b7b3b742987b10c73ee",
+        "fingerprint": "automation lead manager - operate|pwc acceleration center india|bengaluru",
+        "date": "2026-05-23T19:51:00.020483"
+    },
+    {
+        "id": "cc6711bd5af8e85753795d06fdbeb341",
+        "fingerprint": "sr eng, test|baxter international inc.|bengaluru",
+        "date": "2026-05-23T19:51:00.020486"
+    },
+    {
+        "id": "e4f112d43564b01a9df1c1292aa6bba2",
+        "fingerprint": "principal qa engineer|nokia|bengaluru",
+        "date": "2026-05-23T19:51:00.020488"
+    },
+    {
+        "id": "0493cb14c87dcf752d215e07e6df5121",
+        "fingerprint": "lead quality engineer- python, sql|s&p global|hyderabad",
+        "date": "2026-05-23T19:51:00.020491"
     }
 ]
