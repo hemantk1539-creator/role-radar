@@ -1,55 +1,5 @@
 [
     {
-        "id": "e7079f2e6212b1dc447911175a69d2c3",
-        "fingerprint": "asst manager quality auditor|access healthcare|noida",
-        "date": "2026-03-02T06:49:28.458676"
-    },
-    {
-        "id": "d9fcb71002c20ad9e76da73b94338534",
-        "fingerprint": "quality assurance manager|sameta metal pro|chennai",
-        "date": "2026-03-02T06:49:28.458678"
-    },
-    {
-        "id": "0d402929accce328e025383a8d7dfef1",
-        "fingerprint": "quality manager bpo/manager quality/ bpo quality manager|selectica international solutions|chennai",
-        "date": "2026-03-02T06:49:28.458681"
-    },
-    {
-        "id": "929f89e9704aef258ecb1416e05e2526",
-        "fingerprint": "testing lead|larsen & toubro|ahmedabad",
-        "date": "2026-03-02T06:49:28.458683"
-    },
-    {
-        "id": "dbbcaa9322fa40129bab178df76b9e09",
-        "fingerprint": "quality head - pune|manipal hospitals (mhepl)|pune",
-        "date": "2026-03-02T12:50:22.035646"
-    },
-    {
-        "id": "6536bdecbd51e95ad984f9c200822d71",
-        "fingerprint": "leader - firmware test|emerson|pune",
-        "date": "2026-03-02T12:50:22.035661"
-    },
-    {
-        "id": "6dbef936f7ad55605ce879e33cfff251",
-        "fingerprint": "quality manager|arun sheth & co|pune",
-        "date": "2026-03-02T12:50:22.035663"
-    },
-    {
-        "id": "3d947f71bce7a9634c28b4ba82d3b923",
-        "fingerprint": "senior lead quality engineer - r01560883|brillio|pune",
-        "date": "2026-03-02T12:50:22.035666"
-    },
-    {
-        "id": "f208e03f4c0775a824ac284f8eab2d66",
-        "fingerprint": "test manager- automation & manual|digile technologies|pune",
-        "date": "2026-03-02T12:50:22.035668"
-    },
-    {
-        "id": "f3d45eed849ec08c942ba26d732c5f74",
-        "fingerprint": "head of pharma testing division|nawal analytical labs india private limited|bengaluru",
-        "date": "2026-03-02T12:50:22.035670"
-    },
-    {
         "id": "f15856558bbea9489b3e4a0bc01ef029",
         "fingerprint": "snr mgr, chapter lead, test engg - larc risk|standard chartered india|bengaluru",
         "date": "2026-03-02T12:50:22.035672"
@@ -9998,5 +9948,55 @@
         "id": "912a9160f9eaa9a071d8a248b9c76904",
         "fingerprint": "sr. director, ecompliance \u2013 global quality technical operations|pci pharma services|remote",
         "date": "2026-05-22T19:50:33.179607"
+    },
+    {
+        "id": "7cfbe5e06a5178647c1529749a361a4a",
+        "fingerprint": "sap test lead|calfus inc.|pune",
+        "date": "2026-05-23T06:50:47.145406"
+    },
+    {
+        "id": "37832d90b5052f0c69e4d89fc1b6701f",
+        "fingerprint": "automation architect (ui path)|qualitykiosk technologies|mumbai",
+        "date": "2026-05-23T06:50:47.145476"
+    },
+    {
+        "id": "43a5902bfb6e3bc3a5bf291ad4933570",
+        "fingerprint": "quality & csr manager|lacoste|mumbai",
+        "date": "2026-05-23T06:50:47.145480"
+    },
+    {
+        "id": "b8eb8e98639019ea05f76536dc92290f",
+        "fingerprint": "business development manager \u2013 architectural lighting & automation|peopleelevate consulting pvt. ltd.|gurugram",
+        "date": "2026-05-23T06:50:47.145482"
+    },
+    {
+        "id": "a4f210804ab70e546cdb42315eece229",
+        "fingerprint": "lead ii - software testing|ust|remote",
+        "date": "2026-05-23T06:50:47.145484"
+    },
+    {
+        "id": "1f0bc36a66c89116c6ae09e010d0bc03",
+        "fingerprint": "senior manager of quality assurance|harba solutions inc.|remote",
+        "date": "2026-05-23T06:50:47.145486"
+    },
+    {
+        "id": "13aaa439de588fa2eceb37113169c98b",
+        "fingerprint": "lead oe quality|dr. reddy's laboratories|remote",
+        "date": "2026-05-23T06:50:47.145489"
+    },
+    {
+        "id": "5e3756e7e1b118ff4f3723a267ee815b",
+        "fingerprint": "quality manager|sfo technologies|remote",
+        "date": "2026-05-23T06:50:47.145491"
+    },
+    {
+        "id": "92d67bd83ec13488ae3322c70d548b92",
+        "fingerprint": "test lead|opensymmetry",
+        "date": "2026-05-23T06:50:47.145493"
+    },
+    {
+        "id": "0f355ee0c4ef79ccd6b36586f68a14fe",
+        "fingerprint": "test manager - t24 sme \u2013 treasury & global markets (r21+)|qualitykiosk technologies|mumbai",
+        "date": "2026-05-23T06:50:47.145496"
     }
 ]
