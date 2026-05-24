@@ -1,15 +1,5 @@
 [
     {
-        "id": "32aec93803c4e16a3d0d4aca07cc7bc2",
-        "fingerprint": "openings for senior quality manager - rcm|asprcm solutions|chennai",
-        "date": "2026-03-02T12:50:22.035730"
-    },
-    {
-        "id": "ff81638fa64b9261fab45c0957ac86d8",
-        "fingerprint": "deputy manager quality assurance.|simho hr services|chennai",
-        "date": "2026-03-02T12:50:22.035732"
-    },
-    {
         "id": "41f7dc18d2c8f054810b36dd9fb116a5",
         "fingerprint": "quality leader sanand factory|arabelle solutions|ahmedabad",
         "date": "2026-03-02T12:50:22.035734"
@@ -9998,5 +9988,15 @@
         "id": "1b2cf3278dde18f2dbdca2f4703bf16e",
         "fingerprint": "quality assurance team lead|wns global service privatelimited|chennai",
         "date": "2026-05-24T06:51:28.793063"
+    },
+    {
+        "id": "7ad146f55104c429ec99efce8229d183",
+        "fingerprint": "lead cloud qa irc290789|globallogic|bengaluru",
+        "date": "2026-05-24T19:50:06.675863"
+    },
+    {
+        "id": "8225d7264c893b400a4bd9eafa34ba9f",
+        "fingerprint": "lead qa engineer|lseg|hyderabad",
+        "date": "2026-05-24T19:50:06.675879"
     }
 ]
