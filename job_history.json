@@ -1,85 +1,5 @@
 [
     {
-        "id": "fca70d6bcc9ea7e93e04bf053936c997",
-        "fingerprint": "director \u2013 finance ai & automation.|inmobi advertising|bengaluru",
-        "date": "2026-03-02T19:50:18.626147"
-    },
-    {
-        "id": "f12626d3725d13011974183024070c12",
-        "fingerprint": "senior manager, qa|amadeus|bengaluru",
-        "date": "2026-03-02T19:50:18.626164"
-    },
-    {
-        "id": "fdaedab770438f434b5e85118fec31ea",
-        "fingerprint": "test architect|infinite computer solutions|bengaluru",
-        "date": "2026-03-02T19:50:18.626168"
-    },
-    {
-        "id": "adf435df1ee4cacab351ec258d9d2f60",
-        "fingerprint": "quality engineering architect (test arch|accenture services pvt ltd|bengaluru",
-        "date": "2026-03-02T19:50:18.626171"
-    },
-    {
-        "id": "ec4ab752fc7157e69edd47f7d8fa9827",
-        "fingerprint": "software quality principal engineer(python, storage testing)|dell technologies|bengaluru",
-        "date": "2026-03-02T19:50:18.626173"
-    },
-    {
-        "id": "1ed19cabfff000de06e8a05ec0e3ce7a",
-        "fingerprint": "director, qa engineering|simple, a netsmart solution|bengaluru",
-        "date": "2026-03-02T19:50:18.626175"
-    },
-    {
-        "id": "bea3e84df84f7eeaa5caed1d9abe8086",
-        "fingerprint": "director, qa engineering|netsmart|bengaluru",
-        "date": "2026-03-02T19:50:18.626178"
-    },
-    {
-        "id": "d849e0982b475f39a0656ec386d699cd",
-        "fingerprint": "manager, quality assurance|american bureau of shipping (abs)|pune",
-        "date": "2026-03-02T19:50:18.626180"
-    },
-    {
-        "id": "731f2ea4501100ee6ebe509e8de9643b",
-        "fingerprint": "senior compliance manager-compliance testing|idfc first bank|mumbai",
-        "date": "2026-03-02T19:50:18.626183"
-    },
-    {
-        "id": "dd0b595a021f020f0e9a59704d423aca",
-        "fingerprint": "asst mgr-mfg qualityengassembly&testing|mahindra & mahindra limited.|mumbai",
-        "date": "2026-03-02T19:50:18.626185"
-    },
-    {
-        "id": "1b04202fda8ccdb5eb6fedf444c2f5b3",
-        "fingerprint": "qa qc manager|nebula infraspace pvt. ltd.|hyderabad",
-        "date": "2026-03-02T19:50:18.626188"
-    },
-    {
-        "id": "63ccf75b8a858f4a1a8d062bf843e667",
-        "fingerprint": "senior manager, data & process automation|micron technology|hyderabad",
-        "date": "2026-03-02T19:50:18.626191"
-    },
-    {
-        "id": "aeef91d8881f13d2dff6a1901ba00599",
-        "fingerprint": "quality assurance manager|ingar|gurugram",
-        "date": "2026-03-02T19:50:18.626193"
-    },
-    {
-        "id": "808dd1971905ab6463df314dfbda7fbd",
-        "fingerprint": "quality lead|mace|noida",
-        "date": "2026-03-02T19:50:18.626196"
-    },
-    {
-        "id": "b35ee87195db1c436136dd649c9cb056",
-        "fingerprint": "qa automation lead|ai certs\u00ae - india|ahmedabad",
-        "date": "2026-03-02T19:50:18.626198"
-    },
-    {
-        "id": "734be6aebd182485a7b86f1628d7107b",
-        "fingerprint": "senior manager - qa|dentsu webchutney|chennai",
-        "date": "2026-03-02T19:50:18.626201"
-    },
-    {
         "id": "af00fbdf8e45e7c0f6449d151dd482c9",
         "fingerprint": "senior engineering manager-quality|athenahealth|chennai",
         "date": "2026-03-02T19:50:18.626203"
@@ -9998,5 +9918,85 @@
         "id": "76c3654b57cb0a1f342c5cf9ef7358b2",
         "fingerprint": "automation test architect|luxoft|chennai",
         "date": "2026-05-25T06:50:49.381507"
+    },
+    {
+        "id": "064a319eb79bb256e5343e87f22aac2f",
+        "fingerprint": "qa architect or test architect|alegeus|bengaluru",
+        "date": "2026-05-25T12:50:03.916867"
+    },
+    {
+        "id": "2eadba3e91d2e8ece873f2ce3766014c",
+        "fingerprint": "lead qa engineer|enterprise bot|bengaluru",
+        "date": "2026-05-25T12:50:03.916883"
+    },
+    {
+        "id": "cacde5dcd1d952469300fb91af2a92ff",
+        "fingerprint": "lead software engineer - automation tester|societe generale global solution centre|bengaluru",
+        "date": "2026-05-25T12:50:03.916886"
+    },
+    {
+        "id": "a86453c0fe08fd3395605b43019aa941",
+        "fingerprint": "staff qa automation engineer|zeta global|bengaluru",
+        "date": "2026-05-25T12:50:03.916888"
+    },
+    {
+        "id": "58515704a920079151a1e3d5c7d22dfc",
+        "fingerprint": "test automation architect|luxoft|bengaluru",
+        "date": "2026-05-25T12:50:03.916890"
+    },
+    {
+        "id": "82f669853c9f9941eea8bad44b8bbbc2",
+        "fingerprint": "qa lead automation engineer|nowwin international|bengaluru",
+        "date": "2026-05-25T12:50:03.916892"
+    },
+    {
+        "id": "e037257210503f499df9b2aba5af8fa6",
+        "fingerprint": "tosca automation architect|qualmission llc|pune",
+        "date": "2026-05-25T12:50:03.916895"
+    },
+    {
+        "id": "6a489aa24629f4c4b4539dbbdb5ea3cd",
+        "fingerprint": "ai-driven qa manager|gingercube inc.|mumbai",
+        "date": "2026-05-25T12:50:03.916897"
+    },
+    {
+        "id": "538fb1fd5290c4bdaa44c1ca1185f731",
+        "fingerprint": "principal quality & test engineer|capgemini|mumbai",
+        "date": "2026-05-25T12:50:03.916899"
+    },
+    {
+        "id": "215e3747c62be6c8b1efc502a051b60b",
+        "fingerprint": "qa/qc manager|pge industries pvt ltd|mumbai",
+        "date": "2026-05-25T12:50:03.916901"
+    },
+    {
+        "id": "9842216580e29792d0dfdac14c5e5a15",
+        "fingerprint": "it lead - quality assurance (marketplace & aftersales)|alghanim industries|hyderabad",
+        "date": "2026-05-25T12:50:03.916904"
+    },
+    {
+        "id": "83446c5c7314d84c91dedef8bc65dee4",
+        "fingerprint": "alpha implementation test manager - senior manager|state street|hyderabad",
+        "date": "2026-05-25T12:50:03.916906"
+    },
+    {
+        "id": "a86e0d8237d94c05ee8ebd55aa10c32b",
+        "fingerprint": "lead ii - software testing - playwright|ust|hyderabad",
+        "date": "2026-05-25T12:50:03.916908"
+    },
+    {
+        "id": "4d50b52a6adc4a72ca628940a9421cb8",
+        "fingerprint": "multi property director of quality|st. regis hotels & resorts|gurugram",
+        "date": "2026-05-25T12:50:03.916910"
+    },
+    {
+        "id": "5ea56bc58495a211ca30d1239b061563",
+        "fingerprint": "soar automation manager|sodexo|noida",
+        "date": "2026-05-25T12:50:03.916912"
+    },
+    {
+        "id": "a5c67a2fcfad7acad7a56231b33bf2f1",
+        "fingerprint": "global head of test labs|soka partners|remote",
+        "date": "2026-05-25T12:50:03.916914"
     }
 ]
