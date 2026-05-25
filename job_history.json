@@ -1,85 +1,5 @@
 [
     {
-        "id": "af00fbdf8e45e7c0f6449d151dd482c9",
-        "fingerprint": "senior engineering manager-quality|athenahealth|chennai",
-        "date": "2026-03-02T19:50:18.626203"
-    },
-    {
-        "id": "d830394cbbc81f284917a0d487f56e7d",
-        "fingerprint": "performance test lead analyst|expleo group|chennai",
-        "date": "2026-03-02T19:50:18.626234"
-    },
-    {
-        "id": "c1f8f264e234ba134e85503f83d1c57f",
-        "fingerprint": "lead qa automation engineer|kaseya software|remote",
-        "date": "2026-03-02T19:50:18.626237"
-    },
-    {
-        "id": "5bead4092dc8486f6cf9fc81b6c4745b",
-        "fingerprint": "quality assurance test manager|barclays|pune",
-        "date": "2026-03-03T06:50:23.290414"
-    },
-    {
-        "id": "17afea108ebb1ebd4c9c016c4f6dcd6b",
-        "fingerprint": "service desk quality manager|tata consultancy services|pune",
-        "date": "2026-03-03T06:50:23.290429"
-    },
-    {
-        "id": "039018a14e222a03a974fecccc18e3ff",
-        "fingerprint": "architect i - appian automation|cencora|pune",
-        "date": "2026-03-03T06:50:23.290432"
-    },
-    {
-        "id": "62da0bc070078c44f01f850602d53d85",
-        "fingerprint": "lead functional consultant - quality compliance assurance|epam systems|bengaluru",
-        "date": "2026-03-03T06:50:23.290435"
-    },
-    {
-        "id": "1a324b54fd6810c1ea4c3d1ae0bab2d5",
-        "fingerprint": "finance data lead and data quality|kenvue|bengaluru",
-        "date": "2026-03-03T06:50:23.290437"
-    },
-    {
-        "id": "13677eaa2ebaa4b82a48090b86b475ba",
-        "fingerprint": "test architect|ascendion|bengaluru",
-        "date": "2026-03-03T06:50:23.290439"
-    },
-    {
-        "id": "6fbc16d2a599bba5bc1abfd635ae64de",
-        "fingerprint": "snr mgr, chapter lead, test engg - larc risk|mygwork - lgbtq+ business community|bengaluru",
-        "date": "2026-03-03T06:50:23.290441"
-    },
-    {
-        "id": "5dae6d159a928507caf19e40617b58da",
-        "fingerprint": "manager testing & commissioning|rainbow hr consulting services|mumbai",
-        "date": "2026-03-03T06:50:23.290443"
-    },
-    {
-        "id": "6307edc3e569dac6a150c42023edccbe",
-        "fingerprint": "quality assurance manager|vector technics|hyderabad",
-        "date": "2026-03-03T06:50:23.290446"
-    },
-    {
-        "id": "1a0bcb95e30d9391e1a4aea9a2ba869d",
-        "fingerprint": "quality manager|asian wire forming|delhi",
-        "date": "2026-03-03T06:50:23.290448"
-    },
-    {
-        "id": "ae365b9f5776d1e8c585ed7755e42efb",
-        "fingerprint": "qe practice leader/ director|telus digital|gurugram",
-        "date": "2026-03-03T06:50:23.290450"
-    },
-    {
-        "id": "ea8c52f4ecb16e8a337ef23024758c83",
-        "fingerprint": "qc & qa manager gurgaon|placenest services private limited|gurugram",
-        "date": "2026-03-03T06:50:23.290452"
-    },
-    {
-        "id": "30ccb234a6f9bf4409bc50e5a28691dd",
-        "fingerprint": "quality control laboratory manager|indo colchem pvt ltd|ahmedabad",
-        "date": "2026-03-03T06:50:23.290455"
-    },
-    {
         "id": "7ea154de3b341519aa2266236ef9695d",
         "fingerprint": "lead software development engineer in test (sdet)|wishtree technologies|ahmedabad",
         "date": "2026-03-03T06:50:23.290457"
@@ -9998,5 +9918,85 @@
         "id": "a5c67a2fcfad7acad7a56231b33bf2f1",
         "fingerprint": "global head of test labs|soka partners|remote",
         "date": "2026-05-25T12:50:03.916914"
+    },
+    {
+        "id": "5a8d3e77bca6fb0090b65d9fcf780fee",
+        "fingerprint": "qa engineering manager|solera holdings, llc.|bengaluru",
+        "date": "2026-05-25T19:49:49.809276"
+    },
+    {
+        "id": "9269398f93032953dff3d4f44be9de5f",
+        "fingerprint": "sr lead qa automation selenium java|fis|bengaluru",
+        "date": "2026-05-25T19:49:49.809291"
+    },
+    {
+        "id": "ff37445ed0005bd9b9953f659ae10c7d",
+        "fingerprint": "lead engineer - test automation & tools development|moniepoint group|bengaluru",
+        "date": "2026-05-25T19:49:49.809294"
+    },
+    {
+        "id": "a942275a84e3e3b36a3837bd5f1ab88f",
+        "fingerprint": "manager - founder's office (automation workflow)|cloudsek|bengaluru",
+        "date": "2026-05-25T19:49:49.809296"
+    },
+    {
+        "id": "65fa10cc6292d151d66b6edd6443f83b",
+        "fingerprint": "e2e test manager|siemens|pune",
+        "date": "2026-05-25T19:49:49.809299"
+    },
+    {
+        "id": "df44c4dd6c3dd3268276b9cc1b744993",
+        "fingerprint": "product manager \u2013 erp finance & ai automation|rockwell automation|pune",
+        "date": "2026-05-25T19:49:49.809301"
+    },
+    {
+        "id": "47e758cb8db757376e11c5f56ad34448",
+        "fingerprint": "staff design quality engineer|smith+nephew|pune",
+        "date": "2026-05-25T19:49:49.809303"
+    },
+    {
+        "id": "4a9b300ce3b354bfa051c1908c65b90e",
+        "fingerprint": "quality lead \u2013 finance|arcelormittal global business & technologies|pune",
+        "date": "2026-05-25T19:49:49.809305"
+    },
+    {
+        "id": "1e0790854f5fcc758aaa8cc988e8222a",
+        "fingerprint": "test lead|cosette network pvt ltd|mumbai",
+        "date": "2026-05-25T19:49:49.809308"
+    },
+    {
+        "id": "38ab6d0c91691120271c7eae34d8d7b9",
+        "fingerprint": "manager, programs (quality assurance & academic governance)|bits design school mumbai|mumbai",
+        "date": "2026-05-25T19:49:49.809310"
+    },
+    {
+        "id": "f9dc1270785e4777ae5efc88fe65c933",
+        "fingerprint": "lead test engineer|the depository trust & clearing corporation (dtcc)|hyderabad",
+        "date": "2026-05-25T19:49:49.809312"
+    },
+    {
+        "id": "7329534b4dd50bd4ecec8adf8c847ba6",
+        "fingerprint": "principal qa engineer(python, pytest and ml)|anaplan|gurugram",
+        "date": "2026-05-25T19:49:49.809314"
+    },
+    {
+        "id": "d68c59d26ec85feb92b4944166f0fac2",
+        "fingerprint": "product-aligned agentic quality engineering lead (automation & agentic ai)|bridge ai|gurugram",
+        "date": "2026-05-25T19:49:49.809316"
+    },
+    {
+        "id": "c2566044ce617a4a78fd8ddcc608c6ec",
+        "fingerprint": "head of quality assurance|blue star limited|chennai",
+        "date": "2026-05-25T19:49:49.809318"
+    },
+    {
+        "id": "3bbe56e14a72d23588f644707df8d403",
+        "fingerprint": "lead i - software testing|ust|remote",
+        "date": "2026-05-25T19:49:49.809321"
+    },
+    {
+        "id": "5d6390047f9294313967cdbd6b12bf55",
+        "fingerprint": "global quality manager - gc876499|morgan philips group|remote",
+        "date": "2026-05-25T19:49:49.809323"
     }
 ]
