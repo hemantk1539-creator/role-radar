@@ -1,30 +1,5 @@
 [
     {
-        "id": "41f7dc18d2c8f054810b36dd9fb116a5",
-        "fingerprint": "quality leader sanand factory|arabelle solutions|ahmedabad",
-        "date": "2026-03-02T12:50:22.035734"
-    },
-    {
-        "id": "01da418fec1e5a7526d4f856007a5f8b",
-        "fingerprint": "manager- quality|vodafone idea limited|ahmedabad",
-        "date": "2026-03-02T12:50:22.035736"
-    },
-    {
-        "id": "cc1079dee2c50952863efa5082e02c5d",
-        "fingerprint": "head qa/qc - technical services|reliance industries limited|remote",
-        "date": "2026-03-02T12:50:22.035738"
-    },
-    {
-        "id": "752e4e1959eb3337dfe06872ce36d87b",
-        "fingerprint": "director - process & quality - servicenow|newrocket|remote",
-        "date": "2026-03-02T12:50:22.035740"
-    },
-    {
-        "id": "6656a3ebb5ff900695a212814956a141",
-        "fingerprint": "quality assurance manager | global consumer goods \u54c1\u8cea\u4fdd\u8a3c\u30de\u30cd\u30fc\u30b8\u30e3\u30fc | \u30b0\u30ed\u30fc\u30d0\u30eb\u6d88\u8cbb\u8ca1|specialized group|remote",
-        "date": "2026-03-02T12:50:22.035742"
-    },
-    {
         "id": "fca70d6bcc9ea7e93e04bf053936c997",
         "fingerprint": "director \u2013 finance ai & automation.|inmobi advertising|bengaluru",
         "date": "2026-03-02T19:50:18.626147"
@@ -9998,5 +9973,30 @@
         "id": "8225d7264c893b400a4bd9eafa34ba9f",
         "fingerprint": "lead qa engineer|lseg|hyderabad",
         "date": "2026-05-24T19:50:06.675879"
+    },
+    {
+        "id": "2e665c03e41b6b481917649d68be3e4f",
+        "fingerprint": "automation test architect|luxoft|pune",
+        "date": "2026-05-25T06:50:49.381478"
+    },
+    {
+        "id": "d7f53538efca180b516bc7dbf45b1001",
+        "fingerprint": "automation test architect|luxoft|bengaluru",
+        "date": "2026-05-25T06:50:49.381500"
+    },
+    {
+        "id": "24ff8e82cb402fc2ebfd12d4330d65e3",
+        "fingerprint": "automation test architect|luxoft|gurugram",
+        "date": "2026-05-25T06:50:49.381502"
+    },
+    {
+        "id": "f838350da39dffa0a3781729c36af0de",
+        "fingerprint": "business development manager \u2013 iiot & industrial automation|technoviz automation|gurugram",
+        "date": "2026-05-25T06:50:49.381505"
+    },
+    {
+        "id": "76c3654b57cb0a1f342c5cf9ef7358b2",
+        "fingerprint": "automation test architect|luxoft|chennai",
+        "date": "2026-05-25T06:50:49.381507"
     }
 ]
