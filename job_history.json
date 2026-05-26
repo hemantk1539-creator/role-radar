@@ -1,35 +1,5 @@
 [
     {
-        "id": "7ea154de3b341519aa2266236ef9695d",
-        "fingerprint": "lead software development engineer in test (sdet)|wishtree technologies|ahmedabad",
-        "date": "2026-03-03T06:50:23.290457"
-    },
-    {
-        "id": "e62bb77812cb2ff9b89209e138812061",
-        "fingerprint": "chief test automation engineer - java|epam systems|chennai",
-        "date": "2026-03-03T06:50:23.290459"
-    },
-    {
-        "id": "9588f5f8a0747351a74209f4f197bd07",
-        "fingerprint": "quality engineering architect (test arch|accenture in india|chennai",
-        "date": "2026-03-03T06:50:23.290462"
-    },
-    {
-        "id": "3f295e26a1e4c273db01b6b942c0696d",
-        "fingerprint": "global category manager \u2013 electrical & automation|fuller|chennai",
-        "date": "2026-03-03T06:50:23.290464"
-    },
-    {
-        "id": "fcb62f308aa1c990a1647b3ac6871a2b",
-        "fingerprint": "engineering manager sdet - ai|highlevel|gurugram",
-        "date": "2026-03-03T12:50:07.468478"
-    },
-    {
-        "id": "fe79fd9e81d2010ea50a749877961c50",
-        "fingerprint": "quality engineering architect|onemagnify|chennai",
-        "date": "2026-03-03T12:50:07.468494"
-    },
-    {
         "id": "b79960a4f6f7bcc55d719895311eada4",
         "fingerprint": "performance test manager|expleo group|chennai",
         "date": "2026-03-03T12:50:07.468498"
@@ -9998,5 +9968,35 @@
         "id": "5d6390047f9294313967cdbd6b12bf55",
         "fingerprint": "global quality manager - gc876499|morgan philips group|remote",
         "date": "2026-05-25T19:49:49.809323"
+    },
+    {
+        "id": "73f8f4bc7def7ce797e59efee637e39f",
+        "fingerprint": "deputy manager- quality management system|zf group|pune",
+        "date": "2026-05-26T06:50:21.315812"
+    },
+    {
+        "id": "3785b705007da9776ae6a6261a21d4a4",
+        "fingerprint": "delivery manager with qa automation testing experience in core banking|qualitykiosk technologies|mumbai",
+        "date": "2026-05-26T06:50:21.315828"
+    },
+    {
+        "id": "81f9a8bd52916201d039a8e10361274f",
+        "fingerprint": "head quality & ra|blue genes research (bgr)|mumbai",
+        "date": "2026-05-26T06:50:21.315831"
+    },
+    {
+        "id": "d25c1f5c6fab5c7aa74e01c035b3542e",
+        "fingerprint": "ai test architect|p99soft|hyderabad",
+        "date": "2026-05-26T06:50:21.315833"
+    },
+    {
+        "id": "9da21ec1052a302ee71bd1e762cdc9dd",
+        "fingerprint": "automation tech lead, india|algosec|gurugram",
+        "date": "2026-05-26T06:50:21.315835"
+    },
+    {
+        "id": "2ba22dd0a1e746509182bcea3c7d6757",
+        "fingerprint": "software quality assurance manager|infobeans|remote",
+        "date": "2026-05-26T06:50:21.315838"
     }
 ]
