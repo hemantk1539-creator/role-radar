@@ -1,100 +1,5 @@
 [
     {
-        "id": "51f1b1b5a756d23da4f14a1a5b2ce78b",
-        "fingerprint": "controls testing manager, avp|natwest group|chennai",
-        "date": "2026-03-04T12:50:00.843162"
-    },
-    {
-        "id": "d4f84c06f7bed59d51d02ec06b01b7c7",
-        "fingerprint": "senior quality manager automotive|agrasen engineering industries pvt. ltd.|remote",
-        "date": "2026-03-04T12:50:00.843165"
-    },
-    {
-        "id": "33a71e2ac359be1c2501cdcd6d32fe92",
-        "fingerprint": "quality manager/director|acurus|remote",
-        "date": "2026-03-04T12:50:00.843184"
-    },
-    {
-        "id": "6504eb181bc898589364da263fa27a1f",
-        "fingerprint": "head of quality control|precision group of companies|remote",
-        "date": "2026-03-04T12:50:00.843187"
-    },
-    {
-        "id": "58e58c41374cb1534094a8a5c4059864",
-        "fingerprint": "global support quality manager|qad|pune",
-        "date": "2026-03-04T12:50:00.843189"
-    },
-    {
-        "id": "24d4c5fb3ca298487fb895c9e62e79dd",
-        "fingerprint": "global qa manager, senior|astrix|remote",
-        "date": "2026-03-04T12:50:00.843192"
-    },
-    {
-        "id": "d576cdb23e102fe69ec533092e57e00e",
-        "fingerprint": "director, quality engineering|symplr|bengaluru",
-        "date": "2026-03-04T19:50:48.533543"
-    },
-    {
-        "id": "0904381d539346d8fd3932369c641fc9",
-        "fingerprint": "quality manager|thermo fisher scientific|bengaluru",
-        "date": "2026-03-04T19:50:48.533557"
-    },
-    {
-        "id": "df431229a00f261e862b174806d89767",
-        "fingerprint": "senior program manager, quality|ge healthcare|bengaluru",
-        "date": "2026-03-04T19:50:48.533559"
-    },
-    {
-        "id": "2d41b899626072fec6632cdc914d677a",
-        "fingerprint": "test manager test & deployment services|vanderlande|pune",
-        "date": "2026-03-04T19:50:48.533562"
-    },
-    {
-        "id": "852236106cfb7ff48adc9a4645fa5f2f",
-        "fingerprint": "manager - quality, ehs and business excellence|skf group|pune",
-        "date": "2026-03-04T19:50:48.533564"
-    },
-    {
-        "id": "1bcb3a94bd662979062f3df780a49afa",
-        "fingerprint": "engineering leader for industrial automation - work location :mumbai/thane/navi mumbai|capgemini engineering|pune",
-        "date": "2026-03-04T19:50:48.533566"
-    },
-    {
-        "id": "466fdbe3e389b6aff7888ab329de2001",
-        "fingerprint": "senior principal quality assurance eng|f5|hyderabad",
-        "date": "2026-03-04T19:50:48.533568"
-    },
-    {
-        "id": "82e94a888e6a763c1ac371b56f89221c",
-        "fingerprint": "quality assurance lead irc286776|globallogic|gurugram",
-        "date": "2026-03-04T19:50:48.533570"
-    },
-    {
-        "id": "d0e08e1c5abf82ef0c461d8707ef44b9",
-        "fingerprint": "quality senior manager|citi|chennai",
-        "date": "2026-03-04T19:50:48.533573"
-    },
-    {
-        "id": "412213f1e291f1a856ccac72a8c164e0",
-        "fingerprint": "manager, enterprise automation platforms|pfizer|chennai",
-        "date": "2026-03-04T19:50:48.533575"
-    },
-    {
-        "id": "adc33d8a0a91c2fe3bd3e8e09b286755",
-        "fingerprint": "qa manager|genea|ahmedabad",
-        "date": "2026-03-04T19:50:48.533577"
-    },
-    {
-        "id": "b18bb186d1ef4ba7b848db0894dcb72d",
-        "fingerprint": "knit fabric quality manager|shahi exports pvt ltd|remote",
-        "date": "2026-03-04T19:50:48.533579"
-    },
-    {
-        "id": "11e5380144ed8e32cc1bb8da731a73d8",
-        "fingerprint": "testing lead|vidpro tech & hr solutions private limited|bengaluru",
-        "date": "2026-03-05T06:50:13.865867"
-    },
-    {
         "id": "1661b42a83617c1e43982f39699af7de",
         "fingerprint": "controls testing manager, avp|natwest group|bengaluru",
         "date": "2026-03-05T06:50:13.865882"
@@ -9998,5 +9903,100 @@
         "id": "e2b5992738f771b883e27ec1837527bd",
         "fingerprint": "global quality director - ford|adient|remote",
         "date": "2026-05-27T06:51:13.639633"
+    },
+    {
+        "id": "d7ef55dc088b07aa79b3aecd3590fa8b",
+        "fingerprint": "quality assurance manager (qam) , alexa smart properties|amazon|bengaluru",
+        "date": "2026-05-27T12:51:32.230290"
+    },
+    {
+        "id": "2a11b4d43349788b7331840a7d98d536",
+        "fingerprint": "staff engineer - qa automation [ 14 - 17 years exp]|nutanix|bengaluru",
+        "date": "2026-05-27T12:51:32.230305"
+    },
+    {
+        "id": "76ffd8ad24529592170823b05b432ba7",
+        "fingerprint": "member of technical staff (test engineering)|cockroach labs|bengaluru",
+        "date": "2026-05-27T12:51:32.230309"
+    },
+    {
+        "id": "65b28cec374b64dcbd2ed3e46e7fa941",
+        "fingerprint": "quality assurance manager|id overseas private limited|bengaluru",
+        "date": "2026-05-27T12:51:32.230311"
+    },
+    {
+        "id": "5d8ef0a3d295cb497f4a8263484a027b",
+        "fingerprint": "qa automation_ ai & quality engineering lead|12th wonder|pune",
+        "date": "2026-05-27T12:51:32.230314"
+    },
+    {
+        "id": "2bc6ae9ea625d7c61efda11a5bd95096",
+        "fingerprint": "qa lead \u2014 itakecontrol|red nucleus|pune",
+        "date": "2026-05-27T12:51:32.230316"
+    },
+    {
+        "id": "9df2dec28a261dbeb71476f2d46ba65b",
+        "fingerprint": "quality testing tool engineer principal|cummins india|pune",
+        "date": "2026-05-27T12:51:32.230318"
+    },
+    {
+        "id": "46512f90ef1fba83dfbba5eeec6edec7",
+        "fingerprint": "system test manager|forvia hella|pune",
+        "date": "2026-05-27T12:51:32.230321"
+    },
+    {
+        "id": "d7bbf5ae2a3f06a4ae369791c310c47f",
+        "fingerprint": "technical lead, automation|parallel wireless|pune",
+        "date": "2026-05-27T12:51:32.230323"
+    },
+    {
+        "id": "e732d691affbcae06b37e01d008320f5",
+        "fingerprint": "lead engineer, test(automation)|wsa \u2013 wonderful sound for all|hyderabad",
+        "date": "2026-05-27T12:51:32.230325"
+    },
+    {
+        "id": "584ae2dbd8035e6346d773e88ac5b738",
+        "fingerprint": "manager - quality assurance & risk management - hyderabad|deloitte|hyderabad",
+        "date": "2026-05-27T12:51:32.230327"
+    },
+    {
+        "id": "fc217f19319364f104d5a06d72b773da",
+        "fingerprint": "automation test lead|infovision inc.|hyderabad",
+        "date": "2026-05-27T12:51:32.230330"
+    },
+    {
+        "id": "1d7f4ca258727d41d0dc401b74cb0a90",
+        "fingerprint": "head \u2013 quality engineering, noida|neoxam|gurugram",
+        "date": "2026-05-27T12:51:32.230333"
+    },
+    {
+        "id": "0b9862918c381449d8ff645550986a83",
+        "fingerprint": "senior manager \u2013 design quality & post market surveillance (medical devices)|bean hr consulting|gurugram",
+        "date": "2026-05-27T12:51:32.230335"
+    },
+    {
+        "id": "5df1aa070f51d77b238b766e15a7f463",
+        "fingerprint": "quality assurance engineer - head|talentgigs|gurugram",
+        "date": "2026-05-27T12:51:32.230337"
+    },
+    {
+        "id": "0bd343868f46cba987e60462028f2680",
+        "fingerprint": "qa automation - lead|iris software inc.|gurugram",
+        "date": "2026-05-27T12:51:32.230340"
+    },
+    {
+        "id": "6776d6c51c26dc7abc65d639ec603985",
+        "fingerprint": "quality assurance manager \u2013 jewellery|rbz jewellers ltd|ahmedabad",
+        "date": "2026-05-27T12:51:32.230342"
+    },
+    {
+        "id": "6ca936a6c0b0ddfb4b4671bdee508226",
+        "fingerprint": "lead engineer - qa|guardian life|chennai",
+        "date": "2026-05-27T12:51:32.230362"
+    },
+    {
+        "id": "c03e747aa3de339eb2228dd633858636",
+        "fingerprint": "director, business operations, global quality|bristol myers squibb uk & ireland|remote",
+        "date": "2026-05-27T12:51:32.230364"
     }
 ]
