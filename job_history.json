@@ -1,50 +1,5 @@
 [
     {
-        "id": "c0e7751c424ee0e765b8b210f2f60e47",
-        "fingerprint": "lead etl qa engineer|bahwan cybertek|bengaluru",
-        "date": "2026-03-04T12:50:00.843141"
-    },
-    {
-        "id": "ca33744cf615f1cf4488bef001c81883",
-        "fingerprint": "automation test lead|qualitest acq|bengaluru",
-        "date": "2026-03-04T12:50:00.843143"
-    },
-    {
-        "id": "6acbbf2cfc5be131af6c44c742813647",
-        "fingerprint": "quality engineering lead (test lead)|accenture in india|bengaluru",
-        "date": "2026-03-04T12:50:00.843145"
-    },
-    {
-        "id": "d6255c22ff9398733210074c5a2cf576",
-        "fingerprint": "product technology manager, tools automation and infrastructure|googleplex|hyderabad",
-        "date": "2026-03-04T12:50:00.843148"
-    },
-    {
-        "id": "59cd85a09d4a277e0c4bbe4c22161c5d",
-        "fingerprint": "automation test lead|paltech|hyderabad",
-        "date": "2026-03-04T12:50:00.843150"
-    },
-    {
-        "id": "e5ebac1945424adacc1333d833bedfb5",
-        "fingerprint": "quality engineering lead (test lead)|accenture in india|gurugram",
-        "date": "2026-03-04T12:50:00.843152"
-    },
-    {
-        "id": "07ea1b4f334c1f7c4d69956627ee0d86",
-        "fingerprint": "controls testing manager, avp|natwest group|gurugram",
-        "date": "2026-03-04T12:50:00.843155"
-    },
-    {
-        "id": "a8351eda3beca6d8946738044c9d832b",
-        "fingerprint": "deputy manager quality assurance|tempel a worthington steel company|chennai",
-        "date": "2026-03-04T12:50:00.843157"
-    },
-    {
-        "id": "0af84b7d940fd09ece3e59299239f2e7",
-        "fingerprint": "rcm process expert (process improvement & quality) \u2013 manager|acurus|chennai",
-        "date": "2026-03-04T12:50:00.843160"
-    },
-    {
         "id": "51f1b1b5a756d23da4f14a1a5b2ce78b",
         "fingerprint": "controls testing manager, avp|natwest group|chennai",
         "date": "2026-03-04T12:50:00.843162"
@@ -9998,5 +9953,50 @@
         "id": "5ffb9dd3488c0a35a79f082ef07dccad",
         "fingerprint": "member of technical staff 4 (qa, python automation, virtualization)|nutanix|bengaluru",
         "date": "2026-05-26T19:51:18.358589"
+    },
+    {
+        "id": "5a7a388b9d6346ce44c518cfdfae5864",
+        "fingerprint": "firmware qa manager|astera labs|bengaluru",
+        "date": "2026-05-27T06:51:13.639601"
+    },
+    {
+        "id": "1ca7ea1adb67df93863b6941deb3d119",
+        "fingerprint": "quality lead|succinnova technologies|bengaluru",
+        "date": "2026-05-27T06:51:13.639616"
+    },
+    {
+        "id": "43d7e128065c28f489bf8e70230dd705",
+        "fingerprint": "technical manager - quality (sqs)|quest global|bengaluru",
+        "date": "2026-05-27T06:51:13.639620"
+    },
+    {
+        "id": "ac966ceb0fa8e9b44cd6450fff91696a",
+        "fingerprint": "head \u2014 bpo operations & intelligent automation|mnr solutions pvt. ltd.|mumbai",
+        "date": "2026-05-27T06:51:13.639622"
+    },
+    {
+        "id": "1e4eaca08784676b150b62710c68e19b",
+        "fingerprint": "technical manager - sdet|ust|hyderabad",
+        "date": "2026-05-27T06:51:13.639624"
+    },
+    {
+        "id": "09ea335569d252498be5d006702e49b9",
+        "fingerprint": "qa lead \u2013 automation testing (banking experience)|purpleplum|hyderabad",
+        "date": "2026-05-27T06:51:13.639626"
+    },
+    {
+        "id": "fe7c74bed76128f102e897dfcfba41d1",
+        "fingerprint": "senior quality assurance manager|krishna maruti group|gurugram",
+        "date": "2026-05-27T06:51:13.639629"
+    },
+    {
+        "id": "8f2e66620e49bc77b723758b10b8f3c2",
+        "fingerprint": "automation lead - python robot framework|cgi|chennai",
+        "date": "2026-05-27T06:51:13.639631"
+    },
+    {
+        "id": "e2b5992738f771b883e27ec1837527bd",
+        "fingerprint": "global quality director - ford|adient|remote",
+        "date": "2026-05-27T06:51:13.639633"
     }
 ]
