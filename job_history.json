@@ -1,80 +1,5 @@
 [
     {
-        "id": "8aa71eba8c3a94355ad6ed9f139398de",
-        "fingerprint": "quality manager individual contributor|dana incorporated|pune",
-        "date": "2026-03-05T19:50:18.904385"
-    },
-    {
-        "id": "f9435b2cd372c75c747bf4f3003216d3",
-        "fingerprint": "quality manager|dana incorporated|pune",
-        "date": "2026-03-05T19:50:18.904402"
-    },
-    {
-        "id": "3e93c98f8ea219bbb66ebb232511df47",
-        "fingerprint": "automation engineering lead (qa), avp|state street|pune",
-        "date": "2026-03-05T19:50:18.904404"
-    },
-    {
-        "id": "05c098df93970aedfe6dfe9188a77547",
-        "fingerprint": "performance engineering lead (qa), avp|state street|pune",
-        "date": "2026-03-05T19:50:18.904407"
-    },
-    {
-        "id": "7de5bb68e93c2a0d973324fcb2ad937c",
-        "fingerprint": "software qa technical leader|cisco|bengaluru",
-        "date": "2026-03-05T19:50:18.904409"
-    },
-    {
-        "id": "f35d9a098bc4785afddabebb5c3dfaac",
-        "fingerprint": "quality manager, vp|natwest group|bengaluru",
-        "date": "2026-03-05T19:50:18.904411"
-    },
-    {
-        "id": "6de2e38e6a17fc36c12b9f6633218192",
-        "fingerprint": "test architect|gyansys inc.|bengaluru",
-        "date": "2026-03-05T19:50:18.904413"
-    },
-    {
-        "id": "3cf95cd0549eda7f4c9f64572919cf02",
-        "fingerprint": "lead qa automation engineer|impact analytics|bengaluru",
-        "date": "2026-03-05T19:50:18.904415"
-    },
-    {
-        "id": "7a9b3d0bfc040a7b06cd3f3352f288ff",
-        "fingerprint": "test lead - lead|happiest minds technologies|bengaluru",
-        "date": "2026-03-05T19:50:18.904418"
-    },
-    {
-        "id": "0a0c1c02424a5b6459e8c79951445928",
-        "fingerprint": "technical program manager, engineering excellence, ui automation|google|bengaluru",
-        "date": "2026-03-05T19:50:18.904420"
-    },
-    {
-        "id": "0ab5234e45f2a9a6bddcc4ddf07ae352",
-        "fingerprint": "manager, biospecimen reporting and automation|amgen|hyderabad",
-        "date": "2026-03-05T19:50:18.904422"
-    },
-    {
-        "id": "85e778dfdf8f1fcef54022dc3b29e6b2",
-        "fingerprint": "lead qa (data engineering) - senior manager|state street|hyderabad",
-        "date": "2026-03-05T19:50:18.904424"
-    },
-    {
-        "id": "47cd467cc31381ba41f09624d5f729ee",
-        "fingerprint": "manager, egrc quality assurance (l09)|synchrony|gurugram",
-        "date": "2026-03-05T19:50:18.904426"
-    },
-    {
-        "id": "8a59579ff22c955980a646a953f2c29b",
-        "fingerprint": "quality manager|turner & townsend|gurugram",
-        "date": "2026-03-05T19:50:18.904427"
-    },
-    {
-        "id": "7c93f34dd040f01c8f1ac105d8d90dfb",
-        "fingerprint": "manager, quality control|google|noida",
-        "date": "2026-03-05T19:50:18.904429"
-    },
-    {
         "id": "a326d9cb0053c6b7e83fc8c62db97b37",
         "fingerprint": "technical manager \u2013 air quality|humming bird consulting|ahmedabad",
         "date": "2026-03-05T19:50:18.904431"
@@ -9998,5 +9923,80 @@
         "id": "aa1ff8a1c7f40b4876a1cc4c61e1250a",
         "fingerprint": "test manager|black box|remote",
         "date": "2026-05-27T19:51:03.512063"
+    },
+    {
+        "id": "6f82ab5e3b0e83991c0ac305ff5e2fc5",
+        "fingerprint": "senior compliance manager-compliance testing|idfc first bank|mumbai",
+        "date": "2026-05-28T06:50:38.009808"
+    },
+    {
+        "id": "2a28762cf2b44d5144c3682b04a08051",
+        "fingerprint": "principal engineer-testing|digitalxnode|mumbai",
+        "date": "2026-05-28T06:50:38.009819"
+    },
+    {
+        "id": "27b9f899586b9e24ad6eaa2da02d22cd",
+        "fingerprint": "section lead - field quality|ather energy|bengaluru",
+        "date": "2026-05-28T06:50:38.009822"
+    },
+    {
+        "id": "2e9a80586ce664cb6eb3ca6f517fdfd6",
+        "fingerprint": "lead sdet|keka hr|bengaluru",
+        "date": "2026-05-28T06:50:38.009825"
+    },
+    {
+        "id": "bf481a7987bae4fb26dee4d3efc25a51",
+        "fingerprint": "lead quality assurance engineer (automation)|aisensy|gurugram",
+        "date": "2026-05-28T06:50:38.009827"
+    },
+    {
+        "id": "4936b0187916827810dfffb3e57b765d",
+        "fingerprint": "project lead - integration and test hvdc control and protection system|siemens|gurugram",
+        "date": "2026-05-28T06:50:38.009829"
+    },
+    {
+        "id": "2fb1ec139dcecfa6a56a5825c307676c",
+        "fingerprint": "senior manager - data quality & governance|biospace|hyderabad",
+        "date": "2026-05-28T06:50:38.009832"
+    },
+    {
+        "id": "24d2378bf586444eaf6d2b033701207e",
+        "fingerprint": "qa automation lead - senior manager|state street|hyderabad",
+        "date": "2026-05-28T06:50:38.009834"
+    },
+    {
+        "id": "7892a97766861dd4178defe26dfef22a",
+        "fingerprint": "quality assurance lead|earthful.me|hyderabad",
+        "date": "2026-05-28T06:50:38.009837"
+    },
+    {
+        "id": "b2bef781fa1b840ad1e6bed381ee2aa3",
+        "fingerprint": "quality assurance engineer - head|talentgigs|noida",
+        "date": "2026-05-28T06:50:38.009839"
+    },
+    {
+        "id": "8d01fbde80e837a6eeb3e3078cc66ec2",
+        "fingerprint": "lead test automation engineer bpost|radial inc.|chennai",
+        "date": "2026-05-28T06:50:38.009841"
+    },
+    {
+        "id": "cd17d6f9950ed3dbd453a258e3f9d995",
+        "fingerprint": "senior manager - quality|adani group|remote",
+        "date": "2026-05-28T06:50:38.009843"
+    },
+    {
+        "id": "14c628828d4f6f0c665502a56e45302e",
+        "fingerprint": "internal control global testing coe team lead \u2013 it controls|sanofi|hyderabad",
+        "date": "2026-05-28T06:50:38.009845"
+    },
+    {
+        "id": "8f6c4a7081873809f7de1fb6b329d3f9",
+        "fingerprint": "director, business operations, global quality|bristol myers squibb|remote",
+        "date": "2026-05-28T06:50:38.009847"
+    },
+    {
+        "id": "22b1649aa6144a26a75879fd1773abd3",
+        "fingerprint": "global quality & food safety (qfs) supplier quality manager (sqm) packaging director|danone|remote",
+        "date": "2026-05-28T06:50:38.009849"
     }
 ]
