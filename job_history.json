@@ -1,65 +1,5 @@
 [
     {
-        "id": "f708f7d119988114a3e5f2161aab1d1a",
-        "fingerprint": "quality control manager|google|hyderabad",
-        "date": "2026-03-06T06:49:45.097811"
-    },
-    {
-        "id": "20ddaa7bedaeba53820ea048246953cf",
-        "fingerprint": "manager - automation|larsen & toubro|chennai",
-        "date": "2026-03-06T06:49:45.097813"
-    },
-    {
-        "id": "223a4318d5191d34546212c30a36a0bb",
-        "fingerprint": "lead i - software testing|ust|chennai",
-        "date": "2026-03-06T06:49:45.097815"
-    },
-    {
-        "id": "1faf15ca15f2054752706e4c0264af35",
-        "fingerprint": "site quality head- baddi|sun pharma|remote",
-        "date": "2026-03-06T06:49:45.097817"
-    },
-    {
-        "id": "1e8e0c1219f8dc4a439b03769fc53c8e",
-        "fingerprint": "platform integrations, marketplace quality assurance operations manager|anthropic",
-        "date": "2026-03-06T06:49:45.097820"
-    },
-    {
-        "id": "8ae3b916610522e6b540dfb66725fbe7",
-        "fingerprint": "staff platform manager- payments, evaluations and automation|airbnb",
-        "date": "2026-03-06T06:49:45.097822"
-    },
-    {
-        "id": "4a721665c2141bf2da85a2fb280f3e41",
-        "fingerprint": "deputy manager - quality|ge aerospace|pune",
-        "date": "2026-03-06T12:49:39.486781"
-    },
-    {
-        "id": "d0d4f462d9a38629431af14af08e6632",
-        "fingerprint": "product innovation & quality manager (food / snacks)|flavours of calicut|bengaluru",
-        "date": "2026-03-06T12:49:39.486797"
-    },
-    {
-        "id": "7557d88ce91596c638314fd1d59ed813",
-        "fingerprint": "quality assurance manager- hardware( do-254/160/178c)|thales|bengaluru",
-        "date": "2026-03-06T12:49:39.486800"
-    },
-    {
-        "id": "748cdcc07a239e4dd5cc1ac5cbebd412",
-        "fingerprint": "qa automation engineer - director- qa engineering|morgan stanley|bengaluru",
-        "date": "2026-03-06T12:49:39.486802"
-    },
-    {
-        "id": "7b95a6f26cc75398afb102f8b22e0d6a",
-        "fingerprint": "lead software engineer - test|freshworks|hyderabad",
-        "date": "2026-03-06T12:49:39.486805"
-    },
-    {
-        "id": "4cb3c629770e10026bcaa11607902c4e",
-        "fingerprint": "automation engineer lead analyst - hih evernorth|evernorth health services|hyderabad",
-        "date": "2026-03-06T12:49:39.486807"
-    },
-    {
         "id": "cb549c11a2523fd9fb860ffcdeab1c17",
         "fingerprint": "quality assurance manager (iron foundry)|valam solutions|chennai",
         "date": "2026-03-06T12:49:39.486810"
@@ -9998,5 +9938,65 @@
         "id": "d5adfdcc2074364503b89d12c68b4a2f",
         "fingerprint": "lead quality development (sdet) engineer-gen ai|aeris|noida",
         "date": "2026-05-28T12:51:13.780852"
+    },
+    {
+        "id": "d0bafb604eac15c6d588e1b3854914cb",
+        "fingerprint": "automation testing lead|infosys|bengaluru",
+        "date": "2026-05-28T19:51:01.821641"
+    },
+    {
+        "id": "b6593d7e10a48f222d5237819222db84",
+        "fingerprint": "staff software development engineer in test (staff sdet)|kaseya|bengaluru",
+        "date": "2026-05-28T19:51:01.821663"
+    },
+    {
+        "id": "8febf8f21384b36a2ad7842fe24a1af4",
+        "fingerprint": "staff sdet|quince|bengaluru",
+        "date": "2026-05-28T19:51:01.821666"
+    },
+    {
+        "id": "2e94bc3c19d774d4ad5d379a237518fb",
+        "fingerprint": "quality head|garrett - advancing motion|pune",
+        "date": "2026-05-28T19:51:01.821668"
+    },
+    {
+        "id": "5ebb557b893052a4ea4680c5a31e862d",
+        "fingerprint": "qa/qc manager - pre cast yard|larsen & toubro|mumbai",
+        "date": "2026-05-28T19:51:01.821670"
+    },
+    {
+        "id": "22d93061613e6ccdd150d4e4dab9184e",
+        "fingerprint": "quality assurance lead- pytest+robot framework+python or pycharm with team handling and rpa with automation and manual testing (mandatory)- immediate to 30 days joiners only|apto solutions - executive search & consultants|hyderabad",
+        "date": "2026-05-28T19:51:01.821673"
+    },
+    {
+        "id": "a29a4829de55fd26594c35a3a47df479",
+        "fingerprint": "uav system test lead (aerospace v&v qa )|qubist solutions llc|hyderabad",
+        "date": "2026-05-28T19:51:01.821675"
+    },
+    {
+        "id": "5287099562760f389d32cd4f44ba00cd",
+        "fingerprint": "digital quality, it project quality manager - mes|lonza|hyderabad",
+        "date": "2026-05-28T19:51:01.821677"
+    },
+    {
+        "id": "fe79fd9e81d2010ea50a749877961c50",
+        "fingerprint": "quality engineering architect|onemagnify|chennai",
+        "date": "2026-05-28T19:51:01.821679"
+    },
+    {
+        "id": "520bed5150ae7df99d674ad98fb20def",
+        "fingerprint": "workday fins/psa test lead|wpp|chennai",
+        "date": "2026-05-28T19:51:01.821682"
+    },
+    {
+        "id": "adc33d8a0a91c2fe3bd3e8e09b286755",
+        "fingerprint": "qa manager|genea|ahmedabad",
+        "date": "2026-05-28T19:51:01.821684"
+    },
+    {
+        "id": "f9914486ba33f4388def70bbe47469dc",
+        "fingerprint": "head - eps quality|larsen & toubro|remote",
+        "date": "2026-05-28T19:51:01.821687"
     }
 ]
