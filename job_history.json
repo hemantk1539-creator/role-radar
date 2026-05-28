@@ -1,70 +1,5 @@
 [
     {
-        "id": "a326d9cb0053c6b7e83fc8c62db97b37",
-        "fingerprint": "technical manager \u2013 air quality|humming bird consulting|ahmedabad",
-        "date": "2026-03-05T19:50:18.904431"
-    },
-    {
-        "id": "2de045323b354f52a9a1d76cacd71614",
-        "fingerprint": "quality manager|octavia hospital|remote",
-        "date": "2026-03-05T19:50:18.904433"
-    },
-    {
-        "id": "b3c718326cdadf05473df2fc34cf191d",
-        "fingerprint": "quality improvement and regulation manager|barchester healthcare",
-        "date": "2026-03-05T19:50:18.904452"
-    },
-    {
-        "id": "8f8c3f9050522dfeffbccd41347bb1f7",
-        "fingerprint": "principal qa engineer- architect|fluence|bengaluru",
-        "date": "2026-03-06T06:49:45.097773"
-    },
-    {
-        "id": "2ff481dab507caa02041dd8d0fc107c1",
-        "fingerprint": "senior engineering manager - qa|7-eleven global solution center \u2013 india|bengaluru",
-        "date": "2026-03-06T06:49:45.097790"
-    },
-    {
-        "id": "c8df049a0fcbe791ac7bb5379f907c90",
-        "fingerprint": "quality system training program manager|cepheid|bengaluru",
-        "date": "2026-03-06T06:49:45.097793"
-    },
-    {
-        "id": "d9e2ede76213e7caffefe60bd775500b",
-        "fingerprint": "manager, egrc quality assurance (l09)|synchrony|pune",
-        "date": "2026-03-06T06:49:45.097795"
-    },
-    {
-        "id": "b1493981665bcb4affc2ea8e01d80768",
-        "fingerprint": "manager / senior manager \u2013 corporate quality \u2013 process excellence|1point1|mumbai",
-        "date": "2026-03-06T06:49:45.097798"
-    },
-    {
-        "id": "99fb309ee30118ae90452d1613797301",
-        "fingerprint": "test automation manager|nms consultant|mumbai",
-        "date": "2026-03-06T06:49:45.097800"
-    },
-    {
-        "id": "d34cd2b44636f3b65bfd6229b5687254",
-        "fingerprint": "qa manager, engineering - provar / salesforce|syneos health|hyderabad",
-        "date": "2026-03-06T06:49:45.097802"
-    },
-    {
-        "id": "13abcfce4c3ac736088f46b7a998cbd7",
-        "fingerprint": "it lead - qa and release governance|hubbell gas utility solutions (hgus)|hyderabad",
-        "date": "2026-03-06T06:49:45.097804"
-    },
-    {
-        "id": "0e1d68f3f6395b2d9c945c77b4d9b988",
-        "fingerprint": "lead ii - software testing|ust|hyderabad",
-        "date": "2026-03-06T06:49:45.097806"
-    },
-    {
-        "id": "0b09213c7dd4e9413906cc55e306f5e3",
-        "fingerprint": "manager, quality control|google|hyderabad",
-        "date": "2026-03-06T06:49:45.097808"
-    },
-    {
         "id": "f708f7d119988114a3e5f2161aab1d1a",
         "fingerprint": "quality control manager|google|hyderabad",
         "date": "2026-03-06T06:49:45.097811"
@@ -9998,5 +9933,70 @@
         "id": "22b1649aa6144a26a75879fd1773abd3",
         "fingerprint": "global quality & food safety (qfs) supplier quality manager (sqm) packaging director|danone|remote",
         "date": "2026-05-28T06:50:38.009849"
+    },
+    {
+        "id": "227f38b5240a5b94d71ff2d3ed95cfdd",
+        "fingerprint": "lead javascript automation test engineer|epam systems|pune",
+        "date": "2026-05-28T12:51:13.780807"
+    },
+    {
+        "id": "f9073f1f19f1ddf01ad0fd639a050ded",
+        "fingerprint": "control testing - manager/senior manager - hyderabad - go/jc/3102/2026|golden opportunities|pune",
+        "date": "2026-05-28T12:51:13.780824"
+    },
+    {
+        "id": "6fbe2bb75f1ccd1197740999b648b857",
+        "fingerprint": "test manager i|ust|mumbai",
+        "date": "2026-05-28T12:51:13.780827"
+    },
+    {
+        "id": "e16c65a66c45392b919a0ae47a51ccf3",
+        "fingerprint": "digital project manager (automation)|thyssenkrupp nucera|mumbai",
+        "date": "2026-05-28T12:51:13.780830"
+    },
+    {
+        "id": "2a0bfd3dbf4d8e32ae0cadf91d3f9764",
+        "fingerprint": "quality assurance manager|pw (physicswallah)|bengaluru",
+        "date": "2026-05-28T12:51:13.780832"
+    },
+    {
+        "id": "a30c380945bb6df4620d43c253b43b5a",
+        "fingerprint": "automotive qa validation lead|amd|bengaluru",
+        "date": "2026-05-28T12:51:13.780835"
+    },
+    {
+        "id": "075e8b7d3f3354316b258655c15f3c58",
+        "fingerprint": "principal qa automation engineer \u2013 salesforce|autodesk|bengaluru",
+        "date": "2026-05-28T12:51:13.780837"
+    },
+    {
+        "id": "72e5e02b0fb77c34efb0937152c2886f",
+        "fingerprint": "lead i - software testing (python automation + ai)|ust|bengaluru",
+        "date": "2026-05-28T12:51:13.780840"
+    },
+    {
+        "id": "ca8cc5a25ad90369e6326735e5a3dec8",
+        "fingerprint": "test automation architect|prolifics|hyderabad",
+        "date": "2026-05-28T12:51:13.780842"
+    },
+    {
+        "id": "ce24405bdcb563804afddea360f2edf8",
+        "fingerprint": "lead javascript automation test engineer|epam systems|hyderabad",
+        "date": "2026-05-28T12:51:13.780844"
+    },
+    {
+        "id": "5b7733c20b91b037ebae840a5d801326",
+        "fingerprint": "quality assurance manager|pw (physicswallah)|gurugram",
+        "date": "2026-05-28T12:51:13.780847"
+    },
+    {
+        "id": "1fd78732260d6f430a4dc9582792cd0c",
+        "fingerprint": "lead javascript automation test engineer|epam systems|chennai",
+        "date": "2026-05-28T12:51:13.780850"
+    },
+    {
+        "id": "d5adfdcc2074364503b89d12c68b4a2f",
+        "fingerprint": "lead quality development (sdet) engineer-gen ai|aeris|noida",
+        "date": "2026-05-28T12:51:13.780852"
     }
 ]
