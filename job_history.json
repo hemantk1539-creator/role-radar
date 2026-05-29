@@ -1,55 +1,5 @@
 [
     {
-        "id": "cb549c11a2523fd9fb860ffcdeab1c17",
-        "fingerprint": "quality assurance manager (iron foundry)|valam solutions|chennai",
-        "date": "2026-03-06T12:49:39.486810"
-    },
-    {
-        "id": "818b8ac66b6945810ca6018fd99d6e0f",
-        "fingerprint": "manager, quality engineering|strategy|chennai",
-        "date": "2026-03-06T12:49:39.486812"
-    },
-    {
-        "id": "a5e7625a6e13c134ad1d0d417c69f22f",
-        "fingerprint": "quality architect|strategy|chennai",
-        "date": "2026-03-06T12:49:39.486814"
-    },
-    {
-        "id": "13c1f02e0358482117b0904ba3e07cdb",
-        "fingerprint": "qa - asst. manager|sltl group - sahajanand laser technology ltd|ahmedabad",
-        "date": "2026-03-06T12:49:39.486817"
-    },
-    {
-        "id": "f106e0d0f8ccc74cc9d86674aa4c68a2",
-        "fingerprint": "director qa|thermo fisher scientific|bengaluru",
-        "date": "2026-03-06T19:50:04.555869"
-    },
-    {
-        "id": "1397985345a715e9c2dbfbb02e0d9ecd",
-        "fingerprint": "team lead - quality control|deluxe|bengaluru",
-        "date": "2026-03-06T19:50:04.555885"
-    },
-    {
-        "id": "c668e4c22f89e62a63393df81b1bd93c",
-        "fingerprint": "analytics manager (sql, python, automation)|lowe's india|bengaluru",
-        "date": "2026-03-06T19:50:04.555888"
-    },
-    {
-        "id": "14d42ca347a07917a8ede0ac94d699ae",
-        "fingerprint": "quality assurance test manager|hackajob|pune",
-        "date": "2026-03-06T19:50:04.555890"
-    },
-    {
-        "id": "b02f7be0ccfeef153860c8ed6e6873f4",
-        "fingerprint": "technical lead manager_ sdet|floqast|pune",
-        "date": "2026-03-06T19:50:04.555893"
-    },
-    {
-        "id": "59dc008e61e73b5ecb254360a58f61f1",
-        "fingerprint": "sap testing - automation- ai- innovation-senior manager|ey|pune",
-        "date": "2026-03-06T19:50:04.555895"
-    },
-    {
         "id": "ed2dde1ea0a54c79cf1c57c8609c685b",
         "fingerprint": "sap testing - automation- ai- innovation-senior manager|ey|mumbai",
         "date": "2026-03-06T19:50:04.555897"
@@ -9998,5 +9948,55 @@
         "id": "f9914486ba33f4388def70bbe47469dc",
         "fingerprint": "head - eps quality|larsen & toubro|remote",
         "date": "2026-05-28T19:51:01.821687"
+    },
+    {
+        "id": "14a12362e3584aa1376af4e0e34b8403",
+        "fingerprint": "senior lead automation qa vice president|citi|pune",
+        "date": "2026-05-29T06:50:15.019746"
+    },
+    {
+        "id": "a6dcc14361983995765249147ae4fe81",
+        "fingerprint": "lead \u2013 qa automation & quality engineering|12th wonder|pune",
+        "date": "2026-05-29T06:50:15.019760"
+    },
+    {
+        "id": "caa4453caeb03f4cd7b4a4e84de25076",
+        "fingerprint": "manager, quality assurance, exm|msd|pune",
+        "date": "2026-05-29T06:50:15.019763"
+    },
+    {
+        "id": "144bf4038dd6511764a15eacd81686d6",
+        "fingerprint": "lead quality assurance engineer|tricog health|bengaluru",
+        "date": "2026-05-29T06:50:15.019765"
+    },
+    {
+        "id": "9284c2849ca8579dc3cae071fe174624",
+        "fingerprint": "lead javascript automation test engineer|epam systems|bengaluru",
+        "date": "2026-05-29T06:50:15.019768"
+    },
+    {
+        "id": "9821c725205f2a429e3220b09bc02418",
+        "fingerprint": "senior eng, test|baxter international inc.|bengaluru",
+        "date": "2026-05-29T06:50:15.019772"
+    },
+    {
+        "id": "137a600269c47642191c40c727205ac0",
+        "fingerprint": "test lead|gainwell technologies|bengaluru",
+        "date": "2026-05-29T06:50:15.019775"
+    },
+    {
+        "id": "8905a5379e90723943704d831f4db11b",
+        "fingerprint": "lead i - software testing - automation testing, playwright, typescript|ust|hyderabad",
+        "date": "2026-05-29T06:50:15.019778"
+    },
+    {
+        "id": "d70c0fed05d4f32da4e5c69d185fadf1",
+        "fingerprint": "principal sdet|ginesys|gurugram",
+        "date": "2026-05-29T06:50:15.019780"
+    },
+    {
+        "id": "b9d7272437adca833dbe148842e04425",
+        "fingerprint": "senior manager, firefox mobile test engineering|mozilla",
+        "date": "2026-05-29T06:50:15.019782"
     }
 ]
