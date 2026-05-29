@@ -1,55 +1,5 @@
 [
     {
-        "id": "60e85958430a794f0a3cc7ef15907d73",
-        "fingerprint": "sdet lead|osfin.ai|bengaluru",
-        "date": "2026-03-07T06:49:47.923661"
-    },
-    {
-        "id": "a234020515bb5438191c8eafa72d03ae",
-        "fingerprint": "manager, infra testing|northern trust|pune",
-        "date": "2026-03-07T06:49:47.923663"
-    },
-    {
-        "id": "a273d01190dd4cce9147b6760e87473a",
-        "fingerprint": "product qa architect|zyoin group|pune",
-        "date": "2026-03-07T06:49:47.923666"
-    },
-    {
-        "id": "31ae6a8c4278f137682392da3458ca85",
-        "fingerprint": "lead i - software testing|ust|pune",
-        "date": "2026-03-07T06:49:47.923668"
-    },
-    {
-        "id": "8a7d834d954346a4b4416a4801cb2fbd",
-        "fingerprint": "lead quality engineer|hackajob|pune",
-        "date": "2026-03-07T06:49:47.923670"
-    },
-    {
-        "id": "574736c839ccbf77d872b4ca4fba2c58",
-        "fingerprint": "quality manager|perceptive inc.|hyderabad",
-        "date": "2026-03-07T06:49:47.923672"
-    },
-    {
-        "id": "4df5a7e8f25c502fd945a1bf9a44f803",
-        "fingerprint": "lead qe|s&p global|hyderabad",
-        "date": "2026-03-07T06:49:47.923674"
-    },
-    {
-        "id": "4d19d90da8f6c4ceffc65d4ab2e3d7cf",
-        "fingerprint": "lead qe|s&p global|gurugram",
-        "date": "2026-03-07T06:49:47.923677"
-    },
-    {
-        "id": "9a875aafc036ce2e82b01f562270f316",
-        "fingerprint": "lead - ai governance & qa auditor \u2013 data scientist, ai systems audit, compliance, ai governance, ai explainability, python|ups|chennai",
-        "date": "2026-03-07T06:49:47.923679"
-    },
-    {
-        "id": "b2fa6b63f3264d5c8d39231df17383ac",
-        "fingerprint": "lead qe|s&p global|ahmedabad",
-        "date": "2026-03-07T06:49:47.923681"
-    },
-    {
         "id": "d0be4f2bf6625331c4bde5e0153f3e1e",
         "fingerprint": "head of global manufacturing test & pcba engineering|dyson|remote",
         "date": "2026-03-07T06:49:47.923683"
@@ -9998,5 +9948,55 @@
         "id": "67104a9666de20af6fb08f9209863691",
         "fingerprint": "test&validation development manager|valeo|chennai",
         "date": "2026-05-29T12:50:34.342145"
+    },
+    {
+        "id": "f39007deab62c81712df8e352bbcd031",
+        "fingerprint": "engineering manager, load testing|okta|bengaluru",
+        "date": "2026-05-29T19:50:35.948735"
+    },
+    {
+        "id": "31a38755be9af356b3676e2a4ef5c714",
+        "fingerprint": "program manager, quality, sei|ge healthcare|bengaluru",
+        "date": "2026-05-29T19:50:35.948750"
+    },
+    {
+        "id": "f1fd92c8cd52f43e3904aad87e446819",
+        "fingerprint": "senior manager, quality assurance specialist|m&g india|mumbai",
+        "date": "2026-05-29T19:50:35.948753"
+    },
+    {
+        "id": "3ba51f40753bab1da7b418c28ee4d5a3",
+        "fingerprint": "product quality manager|general mills india|mumbai",
+        "date": "2026-05-29T19:50:35.948756"
+    },
+    {
+        "id": "7533b6fa0931be2bb6a0e6571411f42a",
+        "fingerprint": "digital quality, it project quality manager - lims|lonza|hyderabad",
+        "date": "2026-05-29T19:50:35.948758"
+    },
+    {
+        "id": "5b9474a8cd5a9d2f957d328330903552",
+        "fingerprint": "lead expert quality framework|softwareone|noida",
+        "date": "2026-05-29T19:50:35.948760"
+    },
+    {
+        "id": "d0e08e1c5abf82ef0c461d8707ef44b9",
+        "fingerprint": "quality senior manager|citi|chennai",
+        "date": "2026-05-29T19:50:35.948762"
+    },
+    {
+        "id": "60dfc30d28508c79395444f0e1a295ca",
+        "fingerprint": "quality assurance lead|kumaran systems|chennai",
+        "date": "2026-05-29T19:50:35.948764"
+    },
+    {
+        "id": "4e83b2626b8b32506ed050e71a27fcc4",
+        "fingerprint": "automation lead|expleo group|chennai",
+        "date": "2026-05-29T19:50:35.948766"
+    },
+    {
+        "id": "13169f89e521f6d43605003a7abc7a54",
+        "fingerprint": "director, global quality gmp processes|otsuka pharmaceutical companies (u.s.)|remote",
+        "date": "2026-05-29T19:50:35.948768"
     }
 ]
