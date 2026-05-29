@@ -1,60 +1,5 @@
 [
     {
-        "id": "ed2dde1ea0a54c79cf1c57c8609c685b",
-        "fingerprint": "sap testing - automation- ai- innovation-senior manager|ey|mumbai",
-        "date": "2026-03-06T19:50:04.555897"
-    },
-    {
-        "id": "3c84c4f997bc779877409b45b0c8a9f0",
-        "fingerprint": "sap testing - automation- ai- innovation-senior manager|ey|hyderabad",
-        "date": "2026-03-06T19:50:04.555899"
-    },
-    {
-        "id": "9aa447426ed404bc773a8c4cc009d3de",
-        "fingerprint": "mobile automation lead|valuelabs|hyderabad",
-        "date": "2026-03-06T19:50:04.555901"
-    },
-    {
-        "id": "7137c9f83f99608a20b43cdc1bd22aca",
-        "fingerprint": "quality assurance manager|spyne|gurugram",
-        "date": "2026-03-06T19:50:04.555903"
-    },
-    {
-        "id": "a5a78bb2d286c7805fc44ba9eee3e987",
-        "fingerprint": "manager \u2013 quality control & regulatory affairs|gracious organics|gurugram",
-        "date": "2026-03-06T19:50:04.555905"
-    },
-    {
-        "id": "ed0d00a52e0ff5694f6aa77441e777d0",
-        "fingerprint": "sap testing - automation- ai- innovation-senior manager|ey|gurugram",
-        "date": "2026-03-06T19:50:04.555908"
-    },
-    {
-        "id": "d1035d0bd49138e0ce7afc48f8599e45",
-        "fingerprint": "regional site quality manager \u2013 mea|hitachi energy|gurugram",
-        "date": "2026-03-06T19:50:04.555910"
-    },
-    {
-        "id": "138676f938850e74696771e0b856c964",
-        "fingerprint": "sap testing - automation- ai- innovation-senior manager|ey|chennai",
-        "date": "2026-03-06T19:50:04.555912"
-    },
-    {
-        "id": "a770f9336af0175c3c6b2f2e9b146864",
-        "fingerprint": "testing - automation-senior manager|ey|chennai",
-        "date": "2026-03-06T19:50:04.555914"
-    },
-    {
-        "id": "f47f14298678717cd5118d7d3869d867",
-        "fingerprint": "head of quality systems (digital therapeutics / samd)|lumos labs (lumosity)|bengaluru",
-        "date": "2026-03-07T06:49:47.923643"
-    },
-    {
-        "id": "8da57b37bd0f5e882598f270f8cee74f",
-        "fingerprint": "test manager-cloud migration & modernization|datamatics|bengaluru",
-        "date": "2026-03-07T06:49:47.923658"
-    },
-    {
         "id": "60e85958430a794f0a3cc7ef15907d73",
         "fingerprint": "sdet lead|osfin.ai|bengaluru",
         "date": "2026-03-07T06:49:47.923661"
@@ -9998,5 +9943,60 @@
         "id": "b9d7272437adca833dbe148842e04425",
         "fingerprint": "senior manager, firefox mobile test engineering|mozilla",
         "date": "2026-05-29T06:50:15.019782"
+    },
+    {
+        "id": "f1aa182091f0db3e5d9c2b34a4e9ca77",
+        "fingerprint": "technical lead - quality engineering|matchmove|bengaluru",
+        "date": "2026-05-29T12:50:34.342110"
+    },
+    {
+        "id": "e871750c7918e10fa08d1ca8e0317e44",
+        "fingerprint": "senior staff quality engineer - performance|symplr|bengaluru",
+        "date": "2026-05-29T12:50:34.342126"
+    },
+    {
+        "id": "47fd6335a09354a8e3a58ec464d30303",
+        "fingerprint": "quality assurance manager / head of qa|cureskin|bengaluru",
+        "date": "2026-05-29T12:50:34.342129"
+    },
+    {
+        "id": "e34347771bc8051f1330f499889dbfa1",
+        "fingerprint": "qa manager, middle and back office, information technology|clsa|pune",
+        "date": "2026-05-29T12:50:34.342131"
+    },
+    {
+        "id": "678eb60bc3d4ecc479f62914897b1e82",
+        "fingerprint": "lead quality assurance engineer|doubletick|mumbai",
+        "date": "2026-05-29T12:50:34.342133"
+    },
+    {
+        "id": "2742558f0c4dbce18721ee46124d058d",
+        "fingerprint": "module lead - automation|mphasis|mumbai",
+        "date": "2026-05-29T12:50:34.342135"
+    },
+    {
+        "id": "aaca3a6b2d9582c85d6484672bfba1fb",
+        "fingerprint": "lead i - software testing(java, selenium automation, aws)|ust|hyderabad",
+        "date": "2026-05-29T12:50:34.342138"
+    },
+    {
+        "id": "7f4f8b4e62ef8943bf85ebf31fa3e6a1",
+        "fingerprint": "qa manager - regulatory reporting|accolite|gurugram",
+        "date": "2026-05-29T12:50:34.342140"
+    },
+    {
+        "id": "10bb279fe2ff9f5a35e04969b780db54",
+        "fingerprint": "quality assurance automation lead|simplifyvms|gurugram",
+        "date": "2026-05-29T12:50:34.342141"
+    },
+    {
+        "id": "0c6a599fd60328d7902e595a42cce137",
+        "fingerprint": "test lead|crescent techservices|chennai",
+        "date": "2026-05-29T12:50:34.342143"
+    },
+    {
+        "id": "67104a9666de20af6fb08f9209863691",
+        "fingerprint": "test&validation development manager|valeo|chennai",
+        "date": "2026-05-29T12:50:34.342145"
     }
 ]
