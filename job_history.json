@@ -1,60 +1,5 @@
 [
     {
-        "id": "7b7b46a6abeaf508290cf99190226df2",
-        "fingerprint": "quality manager|idfc first bank|mumbai",
-        "date": "2026-03-07T12:49:47.608178"
-    },
-    {
-        "id": "f025359e0763bca5a3948d234099893d",
-        "fingerprint": "quality assurance manager|msn laboratories|hyderabad",
-        "date": "2026-03-07T12:49:47.608180"
-    },
-    {
-        "id": "766db61329417e58c31a47351901d198",
-        "fingerprint": "legal, governance & compliance operations manager, automation|s&p global|gurugram",
-        "date": "2026-03-07T12:49:47.608183"
-    },
-    {
-        "id": "fa604db437fde0b0902946cd44adbeb6",
-        "fingerprint": "quality lead \u2013 footwear manufacturing|taavie|noida",
-        "date": "2026-03-07T12:49:47.608185"
-    },
-    {
-        "id": "d87d6a019b7e523b770c86d7280772c3",
-        "fingerprint": "lead sdet|bold|noida",
-        "date": "2026-03-07T12:49:47.608187"
-    },
-    {
-        "id": "f52e1a211dcb105a1364366bd557c43b",
-        "fingerprint": "manager - quality (centac & blower)|ingersoll rand compressor systems & services|ahmedabad",
-        "date": "2026-03-07T12:49:47.608189"
-    },
-    {
-        "id": "c1966769e7aef2be456c161ccaf3ecb3",
-        "fingerprint": "quality engineer, principal|strategy|chennai",
-        "date": "2026-03-07T12:49:47.608192"
-    },
-    {
-        "id": "2512746ffaf0b631a345f319f4dfec20",
-        "fingerprint": "manager, quality assurance 1|ses satellites|chennai",
-        "date": "2026-03-07T12:49:47.608194"
-    },
-    {
-        "id": "6ce10fe540d97b1344500b2947909c82",
-        "fingerprint": "automation architect - senior member of technical staff|omnissa|chennai",
-        "date": "2026-03-07T12:49:47.608196"
-    },
-    {
-        "id": "0174e795e64df3067763939e713fb49c",
-        "fingerprint": "group lead - quality system & compliance|elanco|bengaluru",
-        "date": "2026-03-07T19:49:44.226952"
-    },
-    {
-        "id": "21c186610ff9536cbcd82f6fab8366a5",
-        "fingerprint": "manager, quality assurance - digital analytics (l09)|synchrony|pune",
-        "date": "2026-03-07T19:49:44.226968"
-    },
-    {
         "id": "8ab82e3fa1ab98c428cf14a31b7e1589",
         "fingerprint": "senior manager, qa documentation|amneal pharmaceuticals|hyderabad",
         "date": "2026-03-07T19:49:44.226971"
@@ -9998,5 +9943,60 @@
         "id": "3767d9a4d11fd39e5d02c885fb8673d8",
         "fingerprint": "staff qa engineer|procore technologies|remote",
         "date": "2026-05-30T06:49:35.591994"
+    },
+    {
+        "id": "9e64acf0c90b0f9f44b9783d594d98b3",
+        "fingerprint": "supplier development & quality manager|johnson controls|bengaluru",
+        "date": "2026-05-30T12:48:19.636212"
+    },
+    {
+        "id": "bab43f74eea4275912c3e10202d16f35",
+        "fingerprint": "deputy manager - quality|sansera engineering limited|bengaluru",
+        "date": "2026-05-30T12:48:19.636228"
+    },
+    {
+        "id": "c17276330b059b292f2baa1508bb878a",
+        "fingerprint": "quality assurance lead \u2013 ai initiatives|mogi i/o : ott/podcast/short video apps for you|bengaluru",
+        "date": "2026-05-30T12:48:19.636231"
+    },
+    {
+        "id": "0e5a01cd14f85e8844ce307514769d8d",
+        "fingerprint": "genai testing consultant/architect|infosys|bengaluru",
+        "date": "2026-05-30T12:48:19.636234"
+    },
+    {
+        "id": "b5eaed1b7eb681661724c41932a81bbd",
+        "fingerprint": "manager, quality assurance specialist|m&g india|mumbai",
+        "date": "2026-05-30T12:48:19.636236"
+    },
+    {
+        "id": "0dbcf71fffa77dfdce881d0d15bf66b8",
+        "fingerprint": "lead quality engineer|woodfield systems|mumbai",
+        "date": "2026-05-30T12:48:19.636238"
+    },
+    {
+        "id": "123e3f4ef07dba932d776d37f373a935",
+        "fingerprint": "digital r&d - test automation lead|sanofi|remote",
+        "date": "2026-05-30T12:48:19.636241"
+    },
+    {
+        "id": "4345d9e4a32ce073be79789a33e4576b",
+        "fingerprint": "quality assurance engineer - head|talentgigs|remote",
+        "date": "2026-05-30T12:48:19.636243"
+    },
+    {
+        "id": "835256973ea9a1af3ac83459a45ef61c",
+        "fingerprint": "global qa & bridge engineer lead\uff5c\u30b0\u30ed\u30fc\u30d0\u30ebqa\u30fb\u30d6\u30ea\u30c3\u30b8\u30a8\u30f3\u30b8\u30cb\u30a2\u30ea\u30fc\u30c9|persol career brs (bilingual recruitment solutions)|remote",
+        "date": "2026-05-30T12:48:19.636245"
+    },
+    {
+        "id": "48b500a2f7c2359a41c682ac70d29066",
+        "fingerprint": "mid to sr. to lead software qa / test engineer \u2013 distributed systems & kubernetes - high growth network security company|skyrocket ventures|remote",
+        "date": "2026-05-30T12:48:19.636247"
+    },
+    {
+        "id": "e88244f8ef0d8187bd9643bd9041af42",
+        "fingerprint": "quality engineer manager - global data center segment|eaton|remote",
+        "date": "2026-05-30T12:48:19.636249"
     }
 ]
