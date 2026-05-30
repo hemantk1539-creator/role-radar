@@ -1,35 +1,5 @@
 [
     {
-        "id": "8ab82e3fa1ab98c428cf14a31b7e1589",
-        "fingerprint": "senior manager, qa documentation|amneal pharmaceuticals|hyderabad",
-        "date": "2026-03-07T19:49:44.226971"
-    },
-    {
-        "id": "b28c48320f89c50d5941dc76e624d6ba",
-        "fingerprint": "lead testing services consultant|simcorp|hyderabad",
-        "date": "2026-03-07T19:49:44.226974"
-    },
-    {
-        "id": "7fd5842bacdb6cac13938bb1447ab6fe",
-        "fingerprint": "lead testing services consultant|simcorp|gurugram",
-        "date": "2026-03-07T19:49:44.226976"
-    },
-    {
-        "id": "88a3c7e7d276202050c80eee4f836d2b",
-        "fingerprint": "qa manager|hid|chennai",
-        "date": "2026-03-07T19:49:44.226979"
-    },
-    {
-        "id": "efbe802c2d07568d051b9c8b1e6610f5",
-        "fingerprint": "deputy general manager, quality-training management|amneal pharmaceuticals|ahmedabad",
-        "date": "2026-03-07T19:49:44.226981"
-    },
-    {
-        "id": "b32a73bcf46c29f9b230e8f5215195b6",
-        "fingerprint": "senior manager, automation engineering|amneal pharmaceuticals|ahmedabad",
-        "date": "2026-03-07T19:49:44.226984"
-    },
-    {
         "id": "57f09fc9685d4918c6c8b647165fadf0",
         "fingerprint": "head of quality assurance|murtuza foods pvt ltd|remote",
         "date": "2026-03-07T19:49:44.226986"
@@ -9998,5 +9968,35 @@
         "id": "e88244f8ef0d8187bd9643bd9041af42",
         "fingerprint": "quality engineer manager - global data center segment|eaton|remote",
         "date": "2026-05-30T12:48:19.636249"
+    },
+    {
+        "id": "8aa71eba8c3a94355ad6ed9f139398de",
+        "fingerprint": "quality manager individual contributor|dana incorporated|pune",
+        "date": "2026-05-30T19:48:19.461454"
+    },
+    {
+        "id": "ee97e5426a8de5e64f7d0ccb4d66af8c",
+        "fingerprint": "qa manager|technoiogy@ia|bengaluru",
+        "date": "2026-05-30T19:48:19.461468"
+    },
+    {
+        "id": "3769a234a965c37e4b077cb07c70eca0",
+        "fingerprint": "staff quality engineer|symplr|bengaluru",
+        "date": "2026-05-30T19:48:19.461471"
+    },
+    {
+        "id": "929f89e9704aef258ecb1416e05e2526",
+        "fingerprint": "testing lead|larsen & toubro|ahmedabad",
+        "date": "2026-05-30T19:48:19.461473"
+    },
+    {
+        "id": "d20f294758474dc68f1ec2068592a9ed",
+        "fingerprint": "test responsible /development lead \u2013 ee system integration validation|stellantis|chennai",
+        "date": "2026-05-30T19:48:19.461475"
+    },
+    {
+        "id": "60bc79f28c742d773f7e148cc2f322dd",
+        "fingerprint": "test plan manager|stellantis|chennai",
+        "date": "2026-05-30T19:48:19.461477"
     }
 ]
