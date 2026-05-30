@@ -1,25 +1,5 @@
 [
     {
-        "id": "d0be4f2bf6625331c4bde5e0153f3e1e",
-        "fingerprint": "head of global manufacturing test & pcba engineering|dyson|remote",
-        "date": "2026-03-07T06:49:47.923683"
-    },
-    {
-        "id": "7a10c48fc7960393db566592838da74d",
-        "fingerprint": "senior staff software engineer (sdet)|uniphore|bengaluru",
-        "date": "2026-03-07T12:49:47.608158"
-    },
-    {
-        "id": "14684e3a5ced853ad1d9cd3ff7f93252",
-        "fingerprint": "manager - automation|vertiv|pune",
-        "date": "2026-03-07T12:49:47.608173"
-    },
-    {
-        "id": "e22e48755c8f0b5cbe15e0f1d56e60af",
-        "fingerprint": "head of quality control & quality assurance|haribol|mumbai",
-        "date": "2026-03-07T12:49:47.608175"
-    },
-    {
         "id": "7b7b46a6abeaf508290cf99190226df2",
         "fingerprint": "quality manager|idfc first bank|mumbai",
         "date": "2026-03-07T12:49:47.608178"
@@ -9998,5 +9978,25 @@
         "id": "13169f89e521f6d43605003a7abc7a54",
         "fingerprint": "director, global quality gmp processes|otsuka pharmaceutical companies (u.s.)|remote",
         "date": "2026-05-29T19:50:35.948768"
+    },
+    {
+        "id": "ccb232936e05b476d1a8db4c1f7b8ddf",
+        "fingerprint": "eng ii, test|baxter international inc.|bengaluru",
+        "date": "2026-05-30T06:49:35.591965"
+    },
+    {
+        "id": "baa065bccd63cfc88cff992dec88b903",
+        "fingerprint": "automation engineer (data technologies) - emerging lead|state street|hyderabad",
+        "date": "2026-05-30T06:49:35.591986"
+    },
+    {
+        "id": "1ce330d06de77574bcd50c56ba45076a",
+        "fingerprint": "automation tech lead|expert executive recruiters (eer global)|noida",
+        "date": "2026-05-30T06:49:35.591990"
+    },
+    {
+        "id": "3767d9a4d11fd39e5d02c885fb8673d8",
+        "fingerprint": "staff qa engineer|procore technologies|remote",
+        "date": "2026-05-30T06:49:35.591994"
     }
 ]
