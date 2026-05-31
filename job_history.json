@@ -1,20 +1,5 @@
 [
     {
-        "id": "57f09fc9685d4918c6c8b647165fadf0",
-        "fingerprint": "head of quality assurance|murtuza foods pvt ltd|remote",
-        "date": "2026-03-07T19:49:44.226986"
-    },
-    {
-        "id": "60f7e53c40a9ec898ad2db41cca102ad",
-        "fingerprint": "global head of quality & continuous improvement - semiconductors|hitachi energy|remote",
-        "date": "2026-03-07T19:49:44.226989"
-    },
-    {
-        "id": "7204cf5bc2db409a379ae4cafd3755e2",
-        "fingerprint": "emmvee - head - quality|emmvee photovoltaic power limited|bengaluru",
-        "date": "2026-03-08T06:49:48.787833"
-    },
-    {
         "id": "81a6b68b612c5c7522ff46930ce4cd91",
         "fingerprint": "staff software engineer in test|okta|bengaluru",
         "date": "2026-03-08T06:49:48.787850"
@@ -9998,5 +9983,20 @@
         "id": "60bc79f28c742d773f7e148cc2f322dd",
         "fingerprint": "test plan manager|stellantis|chennai",
         "date": "2026-05-30T19:48:19.461477"
+    },
+    {
+        "id": "84305e31434b4db03d51a8c64e0ba964",
+        "fingerprint": "payments transformation manager \u2013 ai & automation|mopay ag (acquired by boku, inc)|mumbai",
+        "date": "2026-05-31T06:47:20.907614"
+    },
+    {
+        "id": "75be254b06709888f90672a0885796a2",
+        "fingerprint": "sap pen testing - lead solution advisor|deloitte|hyderabad",
+        "date": "2026-05-31T06:47:20.907631"
+    },
+    {
+        "id": "7f713778a99faa3661701c6ca753a33b",
+        "fingerprint": "manager - control management (internal audit quality assurance)|american express|gurugram",
+        "date": "2026-05-31T06:47:20.907634"
     }
 ]
