@@ -1,20 +1,5 @@
 [
     {
-        "id": "81a6b68b612c5c7522ff46930ce4cd91",
-        "fingerprint": "staff software engineer in test|okta|bengaluru",
-        "date": "2026-03-08T06:49:48.787850"
-    },
-    {
-        "id": "569a7338550a0307d12fa1ea4a87805a",
-        "fingerprint": "quality assurance manager|iks health|mumbai",
-        "date": "2026-03-08T06:49:48.787853"
-    },
-    {
-        "id": "4bce43cf90ae84c828d26b523a2b42ac",
-        "fingerprint": "manager - quality|kauvery hospital|chennai",
-        "date": "2026-03-08T06:49:48.787856"
-    },
-    {
         "id": "3c2246165018444a51bb542fdae5dc5e",
         "fingerprint": "senior manager software engineering - performance & system test architecture|caterpillar inc.|chennai",
         "date": "2026-03-08T06:49:48.787858"
@@ -9998,5 +9983,20 @@
         "id": "7f713778a99faa3661701c6ca753a33b",
         "fingerprint": "manager - control management (internal audit quality assurance)|american express|gurugram",
         "date": "2026-05-31T06:47:20.907634"
+    },
+    {
+        "id": "f9435b2cd372c75c747bf4f3003216d3",
+        "fingerprint": "quality manager|dana incorporated|pune",
+        "date": "2026-05-31T12:47:53.149121"
+    },
+    {
+        "id": "794c1036333ff510671d34d46fa0ab46",
+        "fingerprint": "test lead - playwright job|yash technologies|bengaluru",
+        "date": "2026-05-31T12:47:53.149139"
+    },
+    {
+        "id": "e14bdfb9e0bb2bdd85f5aeca0e430243",
+        "fingerprint": "implementation functional test lead - senior manager|state street|remote",
+        "date": "2026-05-31T12:47:53.149141"
     }
 ]
