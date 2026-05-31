@@ -1,30 +1,5 @@
 [
     {
-        "id": "3c2246165018444a51bb542fdae5dc5e",
-        "fingerprint": "senior manager software engineering - performance & system test architecture|caterpillar inc.|chennai",
-        "date": "2026-03-08T06:49:48.787858"
-    },
-    {
-        "id": "a6571e50945e3aac270e5525084d661d",
-        "fingerprint": "gpp test lead|hackajob|pune",
-        "date": "2026-03-08T12:49:53.058519"
-    },
-    {
-        "id": "2d544f235ab21b68a9753eb3dfd65b5c",
-        "fingerprint": "principal testing services consultant|simcorp|hyderabad",
-        "date": "2026-03-08T12:49:53.058534"
-    },
-    {
-        "id": "28bc0d65ba37f8dea07e9a4005e5341d",
-        "fingerprint": "quality engineering manager|strategy|chennai",
-        "date": "2026-03-08T12:49:53.058538"
-    },
-    {
-        "id": "14c59a341d242e96fe0ef910b5d44ef4",
-        "fingerprint": "technical lead \u2013 automation & application development (python)|gt solve|chennai",
-        "date": "2026-03-08T12:49:53.058540"
-    },
-    {
         "id": "fb7fe00c6d7abeb020267c298e16c7fd",
         "fingerprint": "senior software quality eng - automation|ups|chennai",
         "date": "2026-03-08T12:49:53.058542"
@@ -9998,5 +9973,30 @@
         "id": "e14bdfb9e0bb2bdd85f5aeca0e430243",
         "fingerprint": "implementation functional test lead - senior manager|state street|remote",
         "date": "2026-05-31T12:47:53.149141"
+    },
+    {
+        "id": "386b239c1b79cbfb13668f92c01655f0",
+        "fingerprint": "qa manager|macdermid alpha electronics solutions|bengaluru",
+        "date": "2026-05-31T19:47:53.258776"
+    },
+    {
+        "id": "cf52cc16c3ef95fad000ee042df464ed",
+        "fingerprint": "lead i - embedded testing|ust|bengaluru",
+        "date": "2026-05-31T19:47:53.258794"
+    },
+    {
+        "id": "8a59579ff22c955980a646a953f2c29b",
+        "fingerprint": "quality manager|turner & townsend|gurugram",
+        "date": "2026-05-31T19:47:53.258796"
+    },
+    {
+        "id": "5d82c2b4c05c4d8cf585169ab1b30e0e",
+        "fingerprint": "proposal manager - international - electrical automation|raveone consultants|chennai",
+        "date": "2026-05-31T19:47:53.258798"
+    },
+    {
+        "id": "14795a4d0f995347617e64a019bee7e4",
+        "fingerprint": "global quality systems & npd integration lead|lixil|remote",
+        "date": "2026-05-31T19:47:53.258800"
     }
 ]
