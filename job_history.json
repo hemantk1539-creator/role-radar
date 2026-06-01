@@ -1,85 +1,5 @@
 [
     {
-        "id": "143aa8d3dc1d878a13902df16e832a1b",
-        "fingerprint": "test job - senior manager|larsen & toubro|chennai",
-        "date": "2026-03-08T19:49:23.739062"
-    },
-    {
-        "id": "e74005fc36271ed99d0c83617f6b71fd",
-        "fingerprint": "python developer/ automation tester - lead - go/jc/2049/2026|golden opportunities|chennai",
-        "date": "2026-03-08T19:49:23.739064"
-    },
-    {
-        "id": "08bf78b96cf849cba65b558fb5d54f65",
-        "fingerprint": "global quality manager|abb|remote",
-        "date": "2026-03-08T19:49:23.739066"
-    },
-    {
-        "id": "6f5326aaa04c60251effd9bcfbfbb11e",
-        "fingerprint": "quality assurance manager/ sr manager|disto pharmaceuticals pvt ltd|hyderabad",
-        "date": "2026-03-09T06:50:03.019134"
-    },
-    {
-        "id": "be36f4a89a09bbc0f4f50c637f3fa138",
-        "fingerprint": "quality assurance manager|unison international consulting (the recruitment company)|gurugram",
-        "date": "2026-03-09T06:50:03.019150"
-    },
-    {
-        "id": "c82702be4ea348be9f80699d2a5d28f6",
-        "fingerprint": "quality control head for pharmaceutical|intracin pharmaceutical pvt ltd|ahmedabad",
-        "date": "2026-03-09T06:50:03.019153"
-    },
-    {
-        "id": "a41988129762facd904ecc6204b75610",
-        "fingerprint": "architect, test automation|valgenesis|chennai",
-        "date": "2026-03-09T06:50:03.019155"
-    },
-    {
-        "id": "bcb5742c366c0388741f10005fd02b68",
-        "fingerprint": "qms & quality manager|rij engineering pvt ltd|remote",
-        "date": "2026-03-09T06:50:03.019158"
-    },
-    {
-        "id": "a2a484aa0e3d79f737069f79993cf1bd",
-        "fingerprint": "lead test engineer & strategic owner \u2013 hvp acdc product line|texas instruments|bengaluru",
-        "date": "2026-03-09T12:49:49.025333"
-    },
-    {
-        "id": "a64b75921e94629f4ee47671866a246f",
-        "fingerprint": "robotic process automation manager|emergys|mumbai",
-        "date": "2026-03-09T12:49:49.025349"
-    },
-    {
-        "id": "11968116c0d529c2e82eb9af5c173ee0",
-        "fingerprint": "manager \u2013 quality management system|air india sats airport services private limited (aisats)|gurugram",
-        "date": "2026-03-09T12:49:49.025352"
-    },
-    {
-        "id": "b2fae70b17a981b77d19b8ef7e209688",
-        "fingerprint": "software test lead|home credit india|gurugram",
-        "date": "2026-03-09T12:49:49.025355"
-    },
-    {
-        "id": "ea1e78bdb0623f2325c22ae292eb78e5",
-        "fingerprint": "senior quality assurance manager \u2013 aerospace|brisk olive|gurugram",
-        "date": "2026-03-09T12:49:49.025357"
-    },
-    {
-        "id": "7a366d70233b317a0e1849d9da7ef9ac",
-        "fingerprint": "senior automation manager|cleantech industry resources (cir)|chennai",
-        "date": "2026-03-09T12:49:49.025359"
-    },
-    {
-        "id": "57580f22432ae05c570f9c968d26f3ea",
-        "fingerprint": "manager/ senior manager - quality|emerson|chennai",
-        "date": "2026-03-09T12:49:49.025362"
-    },
-    {
-        "id": "47bf1a3fc58882ea7b39f5df7ef8cea3",
-        "fingerprint": "regional quality head \u2013 home textiles, hardlines & apparel | buying house|psmith advisors|noida",
-        "date": "2026-03-09T12:49:49.025365"
-    },
-    {
         "id": "73e215b9882e25a76730d9953b48d36a",
         "fingerprint": "global head of cts quality|cubic transportation systems|hyderabad",
         "date": "2026-03-09T12:49:49.025367"
@@ -9998,5 +9918,85 @@
         "id": "79a5fb98ce26d1e734dcd1badad28a42",
         "fingerprint": "manufacturing quality manager|delphi tvs technologies|chennai",
         "date": "2026-06-01T06:48:33.028856"
+    },
+    {
+        "id": "ed6b2d14e441bb56d0ab169b57dfb2bd",
+        "fingerprint": "senior manager - quality assurance|piramal pharma ltd|mumbai",
+        "date": "2026-06-01T12:48:12.802392"
+    },
+    {
+        "id": "cb01e0596383dfe3af27338241799a19",
+        "fingerprint": "quality manager|apurvakriti infrastructure private limited|mumbai",
+        "date": "2026-06-01T12:48:12.802410"
+    },
+    {
+        "id": "4820bccc49bf71b251f5e965ea9500dd",
+        "fingerprint": "coe - enterprise - qa manager|qualitest|bengaluru",
+        "date": "2026-06-01T12:48:12.802413"
+    },
+    {
+        "id": "8584784d989a9b126c575d51b56f4c1e",
+        "fingerprint": "lead ai qa engineer|kobie|bengaluru",
+        "date": "2026-06-01T12:48:12.802415"
+    },
+    {
+        "id": "a02ede46fcb02d083aa99d7a44773963",
+        "fingerprint": "coe - enterprise - qa manager|qualitest acq|bengaluru",
+        "date": "2026-06-01T12:48:12.802417"
+    },
+    {
+        "id": "71927a432e4dab5f4eed6c871e00a33d",
+        "fingerprint": "lead test automation engineer (ai)|williams-sonoma, inc.|pune",
+        "date": "2026-06-01T12:48:12.802419"
+    },
+    {
+        "id": "941ae18ab98ca7d8a1f4889b0a86be2e",
+        "fingerprint": "qa lead (python/pycharm+sql+pytest+robot framework+automation and manual testing- mandatory)- pune/nagpur- immediate to 1 month joiners|apto solutions - executive search & consultants|pune",
+        "date": "2026-06-01T12:48:12.802422"
+    },
+    {
+        "id": "9478aeaa2a08ddea9c4747bb209b68da",
+        "fingerprint": "unit manager - process quality|mphasis|pune",
+        "date": "2026-06-01T12:48:12.802424"
+    },
+    {
+        "id": "2f8d18392419eed6bf2448b48711f900",
+        "fingerprint": "manager - quality (f/m/d)|freudenberg filtration technologies|pune",
+        "date": "2026-06-01T12:48:12.802426"
+    },
+    {
+        "id": "b28c48320f89c50d5941dc76e624d6ba",
+        "fingerprint": "lead testing services consultant|simcorp|hyderabad",
+        "date": "2026-06-01T12:48:12.802429"
+    },
+    {
+        "id": "144a60f297808407eac93aac1e1dd302",
+        "fingerprint": "senior manager-compliance testing|bharatpe|gurugram",
+        "date": "2026-06-01T12:48:12.802431"
+    },
+    {
+        "id": "9705e837d7d2cf8e5e0753a0ac5ffa14",
+        "fingerprint": "qa manager|arup|noida",
+        "date": "2026-06-01T12:48:12.802433"
+    },
+    {
+        "id": "7fd5842bacdb6cac13938bb1447ab6fe",
+        "fingerprint": "lead testing services consultant|simcorp|noida",
+        "date": "2026-06-01T12:48:12.802435"
+    },
+    {
+        "id": "956b4dbe500ef717bf359b4ba708127a",
+        "fingerprint": "service desk service desk quality lead|tata consultancy services|chennai",
+        "date": "2026-06-01T12:48:12.802437"
+    },
+    {
+        "id": "3d3700e282e332a42642889fe9a256be",
+        "fingerprint": "quality assurance manager|mareana|remote",
+        "date": "2026-06-01T12:48:12.802440"
+    },
+    {
+        "id": "4340d8c70df16eda0376a5cc561668e9",
+        "fingerprint": "qa manager|arup|remote",
+        "date": "2026-06-01T12:48:12.802442"
     }
 ]
