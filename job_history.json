@@ -1,25 +1,5 @@
 [
     {
-        "id": "fb7fe00c6d7abeb020267c298e16c7fd",
-        "fingerprint": "senior software quality eng - automation|ups|chennai",
-        "date": "2026-03-08T12:49:53.058542"
-    },
-    {
-        "id": "235a498a9db887718b9ccc2b1e9cd84c",
-        "fingerprint": "quality assurance lead|fulcrum digital inc|pune",
-        "date": "2026-03-08T19:49:23.739042"
-    },
-    {
-        "id": "a4264906c46e13d5158e075cbc5c11b1",
-        "fingerprint": "national delivery excellence- qa process quality lead- manager|pwc acceleration center india|bengaluru",
-        "date": "2026-03-08T19:49:23.739056"
-    },
-    {
-        "id": "f5dc413dbef71c53a5ae34d554c6cc2d",
-        "fingerprint": "qa manager|lseg|hyderabad",
-        "date": "2026-03-08T19:49:23.739059"
-    },
-    {
         "id": "143aa8d3dc1d878a13902df16e832a1b",
         "fingerprint": "test job - senior manager|larsen & toubro|chennai",
         "date": "2026-03-08T19:49:23.739062"
@@ -9998,5 +9978,25 @@
         "id": "14795a4d0f995347617e64a019bee7e4",
         "fingerprint": "global quality systems & npd integration lead|lixil|remote",
         "date": "2026-05-31T19:47:53.258800"
+    },
+    {
+        "id": "d1a0b3c5316e0c0966e6e0e64ecd43fb",
+        "fingerprint": "lead/principal sdet - python automation(storage)|ddn|pune",
+        "date": "2026-06-01T06:48:33.028835"
+    },
+    {
+        "id": "acc6682dce5331dfa91e1d1d7b3e7212",
+        "fingerprint": "lead validation & testing engineer - mobile robotics|anscer robotics|bengaluru",
+        "date": "2026-06-01T06:48:33.028850"
+    },
+    {
+        "id": "32ac216231435d6a9faff184dae2a2f8",
+        "fingerprint": "manager / sr. manager - quality (supplier development)|metso|gurugram",
+        "date": "2026-06-01T06:48:33.028853"
+    },
+    {
+        "id": "79a5fb98ce26d1e734dcd1badad28a42",
+        "fingerprint": "manufacturing quality manager|delphi tvs technologies|chennai",
+        "date": "2026-06-01T06:48:33.028856"
     }
 ]
