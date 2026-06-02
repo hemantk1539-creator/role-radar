@@ -1,80 +1,5 @@
 [
     {
-        "id": "a02a7172211d59d56c94f14ca6810c63",
-        "fingerprint": "asst manager qa|sceptre medical india pvt. ltd.|gurugram",
-        "date": "2026-03-10T06:49:47.097083"
-    },
-    {
-        "id": "2b2190aa519a3de8971880b4c6a2085d",
-        "fingerprint": "manager, ai & automation|tech data apac|chennai",
-        "date": "2026-03-10T06:49:47.097087"
-    },
-    {
-        "id": "c360f42dac3f5262e2dfa8619735cb86",
-        "fingerprint": "controls testing manager|natwest group|chennai",
-        "date": "2026-03-10T06:49:47.097090"
-    },
-    {
-        "id": "c60272f55e0446a7411134ccb44b90c1",
-        "fingerprint": "manager supplier quality (electrical only) -renewables- large utility solar projects|engie india|pune",
-        "date": "2026-03-10T12:49:52.651106"
-    },
-    {
-        "id": "f30316c691b45b22d898f42fe0b5bf5c",
-        "fingerprint": "quality assurance manager|codvo.ai|pune",
-        "date": "2026-03-10T12:49:52.651122"
-    },
-    {
-        "id": "dca2f1c1b4aef200518b113eccffabf4",
-        "fingerprint": "senior manager - quality validation & engineering|apotex inc.|bengaluru",
-        "date": "2026-03-10T12:49:52.651125"
-    },
-    {
-        "id": "4b8d23e4b59d9f3331d9991ff8accca1",
-        "fingerprint": "national delivery excellence- qa manager|pwc acceleration center india|bengaluru",
-        "date": "2026-03-10T12:49:52.651127"
-    },
-    {
-        "id": "d52084acfdca15d2e5fa23af61f170e3",
-        "fingerprint": "qa head / manager|brfm india|bengaluru",
-        "date": "2026-03-10T12:49:52.651129"
-    },
-    {
-        "id": "80e7516885d4c30b44d1becb6b135f15",
-        "fingerprint": "assc dir mgr-qa engineering|moody's corporation|bengaluru",
-        "date": "2026-03-10T12:49:52.651131"
-    },
-    {
-        "id": "dd63aa36b8fe42a71e213397b2e9f8cb",
-        "fingerprint": "deputy manager quality assurance|ennovi|bengaluru",
-        "date": "2026-03-10T12:49:52.651134"
-    },
-    {
-        "id": "c5610cf29b041397e60b4dda40b55ef1",
-        "fingerprint": "principal network architect - automation ecosystem|abb|bengaluru",
-        "date": "2026-03-10T12:49:52.651136"
-    },
-    {
-        "id": "280a6aa75475eacbeea8829adbf6ae3d",
-        "fingerprint": "lead software development engineer in test (ios)|swiggy|bengaluru",
-        "date": "2026-03-10T12:49:52.651138"
-    },
-    {
-        "id": "05a1926e69b0127ee377ca33d040217e",
-        "fingerprint": "sr technical program manager - prime video, ai automation|amazon|bengaluru",
-        "date": "2026-03-10T12:49:52.651140"
-    },
-    {
-        "id": "339ddd90fab3f95f720532110a81510e",
-        "fingerprint": "sr. manager quality -  account receivable  us healthcare rcm|gebbs healthcare solutions|mumbai",
-        "date": "2026-03-10T12:49:52.651142"
-    },
-    {
-        "id": "8338293d0c7d6eec214ae0883b5057a1",
-        "fingerprint": "quality control (qc) lead \u2013 osp / fiber design|sutherland|hyderabad",
-        "date": "2026-03-10T12:49:52.651144"
-    },
-    {
         "id": "6276893e96cb426a97acdaf97374a206",
         "fingerprint": "senior quality manager|dimple creations private limited|noida",
         "date": "2026-03-10T12:49:52.651146"
@@ -9998,5 +9923,80 @@
         "id": "4db0b6696a752bd9cefcd15f1ec3c59c",
         "fingerprint": "manufacturing quality manager|rolls-royce|remote",
         "date": "2026-06-02T06:07:10.670718"
+    },
+    {
+        "id": "59acd0224dba88814dd1187e055c995e",
+        "fingerprint": "senior quality assurance engineer lead|12th wonder|pune",
+        "date": "2026-06-02T11:38:19.351608"
+    },
+    {
+        "id": "0ff4477ee7f9b1843dda905dce4fd096",
+        "fingerprint": "quality assurance manager|woodfield systems|mumbai",
+        "date": "2026-06-02T11:38:19.351622"
+    },
+    {
+        "id": "849535703a14ed60f9be75335b18d35f",
+        "fingerprint": "quality control (qc) lead - menswear apparel startup|he spoke|mumbai",
+        "date": "2026-06-02T11:38:19.351625"
+    },
+    {
+        "id": "6cd932d0a8986258727c93133c6d8092",
+        "fingerprint": "tosca test lead|wipro|bengaluru",
+        "date": "2026-06-02T11:38:19.351627"
+    },
+    {
+        "id": "b7e0e3d3366b0a2f4377085ac0dd3412",
+        "fingerprint": "staff quality engineer -  india|jumpcloud|bengaluru",
+        "date": "2026-06-02T11:38:19.351629"
+    },
+    {
+        "id": "a90fecaa08860bc23121b11495733f01",
+        "fingerprint": "senior test lead - core banking operations|happiest minds technologies|bengaluru",
+        "date": "2026-06-02T11:38:19.351631"
+    },
+    {
+        "id": "94c3e3442db62d6862406df756ed0b0c",
+        "fingerprint": "qa ai test lead|persistent systems|bengaluru",
+        "date": "2026-06-02T11:38:19.351633"
+    },
+    {
+        "id": "901086ba74e61030b0e34c9b5733baac",
+        "fingerprint": "senior architect - penetration testing|happiest minds technologies|bengaluru",
+        "date": "2026-06-02T11:38:19.351635"
+    },
+    {
+        "id": "c8b4e0fdc1bbb41f9ae810fed49cc0eb",
+        "fingerprint": "lead data quality and information management manager|citi|bengaluru",
+        "date": "2026-06-02T11:38:19.351637"
+    },
+    {
+        "id": "1e2524575bdfe9cc2a74aefbc153d4a6",
+        "fingerprint": "staff engineer- agentic ai applications (test)|qualcomm|bengaluru",
+        "date": "2026-06-02T11:38:19.351639"
+    },
+    {
+        "id": "e927618feb21aee8188de0ed14df518d",
+        "fingerprint": "software quality assurance engineer-competent assessor lead|aptiv|bengaluru",
+        "date": "2026-06-02T11:38:19.351640"
+    },
+    {
+        "id": "2d544f235ab21b68a9753eb3dfd65b5c",
+        "fingerprint": "principal testing services consultant|simcorp|hyderabad",
+        "date": "2026-06-02T11:38:19.351643"
+    },
+    {
+        "id": "6ce827956ac026e6af36e6eb93a0339d",
+        "fingerprint": "test automation lead|accenture in india|remote",
+        "date": "2026-06-02T11:38:19.351645"
+    },
+    {
+        "id": "2807bd4437380acea42924ea450fec0c",
+        "fingerprint": "manager, quality engineering & ipa|columbia sportswear company|remote",
+        "date": "2026-06-02T11:38:19.351647"
+    },
+    {
+        "id": "83fd23b6990475617f6285d04e5f739f",
+        "fingerprint": "qa lead (application testing)|rolls-royce|remote",
+        "date": "2026-06-02T11:38:19.351649"
     }
 ]
