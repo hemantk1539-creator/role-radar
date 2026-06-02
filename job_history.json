@@ -1,105 +1,5 @@
 [
     {
-        "id": "73e215b9882e25a76730d9953b48d36a",
-        "fingerprint": "global head of cts quality|cubic transportation systems|hyderabad",
-        "date": "2026-03-09T12:49:49.025367"
-    },
-    {
-        "id": "dcd493152b89a286bc3b91ff0a0e0f02",
-        "fingerprint": "director of quality engineering, flasharray|pure storage|bengaluru",
-        "date": "2026-03-09T19:49:51.473453"
-    },
-    {
-        "id": "74e50a262fc0415951b985b9c557a488",
-        "fingerprint": "lead -senior software development engineer test|swiggy|bengaluru",
-        "date": "2026-03-09T19:49:51.473461"
-    },
-    {
-        "id": "f84cc2e6e339aed6868e68fbae8fd060",
-        "fingerprint": "sr director ges intelligent process automation & specialized business services (ipa & sbs)|dsm-firmenich|hyderabad",
-        "date": "2026-03-09T19:49:51.473463"
-    },
-    {
-        "id": "2763f02d2bd6debd82e44cbd76de8971",
-        "fingerprint": "quality assurance manager (product engineering)|oolio|hyderabad",
-        "date": "2026-03-09T19:49:51.473465"
-    },
-    {
-        "id": "54d0c4dea50d50f884c80437425f676c",
-        "fingerprint": "software development manager, fixed asset automation (faa)|amazon|hyderabad",
-        "date": "2026-03-09T19:49:51.473466"
-    },
-    {
-        "id": "0c3c81c1f3dc548e4b3df4de81976c57",
-        "fingerprint": "team leader, quality|colgate-palmolive|chennai",
-        "date": "2026-03-09T19:49:51.473468"
-    },
-    {
-        "id": "c21e4e27e1815085f3f2832b6dc2e942",
-        "fingerprint": "ibu security test manager|infosys|chennai",
-        "date": "2026-03-09T19:49:51.473470"
-    },
-    {
-        "id": "eaf495265316d0a9591d72e616411de3",
-        "fingerprint": "senior manual test lead with us healthcare/medicaid|gainwell technologies|chennai",
-        "date": "2026-03-09T19:49:51.473471"
-    },
-    {
-        "id": "40908742c7500e12f95988efacb5c98c",
-        "fingerprint": "quality assurance (qa) lead l2|wipro|chennai",
-        "date": "2026-03-09T19:49:51.473473"
-    },
-    {
-        "id": "17ed925a5279a3da43563810c53d2482",
-        "fingerprint": "quality assurance (qa) lead l1|wipro|chennai",
-        "date": "2026-03-09T19:49:51.473475"
-    },
-    {
-        "id": "1138d3bddf9c26a06484e4bff36b91fc",
-        "fingerprint": "head quality & safety|adani electricity|ahmedabad",
-        "date": "2026-03-09T19:49:51.473476"
-    },
-    {
-        "id": "080c63eac8ad36957db4809811b688d6",
-        "fingerprint": "qa architect (10+ years)|incubxperts|pune",
-        "date": "2026-03-10T06:49:47.096982"
-    },
-    {
-        "id": "2d5320829c37823e21b60a7067c5a995",
-        "fingerprint": "quality assurance manager|peoplefy|pune",
-        "date": "2026-03-10T06:49:47.096998"
-    },
-    {
-        "id": "ab04474251269cd0a4cddf598aae0415",
-        "fingerprint": "gpp test lead|barclays|pune",
-        "date": "2026-03-10T06:49:47.097050"
-    },
-    {
-        "id": "60a616a88debc41830763a0ba8c7b633",
-        "fingerprint": "manager - industrial automation|lightspeed automation solutions pvt ltd|bengaluru",
-        "date": "2026-03-10T06:49:47.097055"
-    },
-    {
-        "id": "1fe0c8a74712408922d93041398318fb",
-        "fingerprint": "engineering manager - qe|cloudera|bengaluru",
-        "date": "2026-03-10T06:49:47.097059"
-    },
-    {
-        "id": "0436142aad5aff49a35fe576ea8c6696",
-        "fingerprint": "test manager - enterprise applications - tosca|globalfoundries|bengaluru",
-        "date": "2026-03-10T06:49:47.097065"
-    },
-    {
-        "id": "da5a1e749070d92e78a591b77903daf4",
-        "fingerprint": "quality and process excellence lead l4|wipro|hyderabad",
-        "date": "2026-03-10T06:49:47.097070"
-    },
-    {
-        "id": "66a9e22d142856b7bd37b9169deee48f",
-        "fingerprint": "manager ii, operations (automation and business intelligence)|kroll|gurugram",
-        "date": "2026-03-10T06:49:47.097077"
-    },
-    {
         "id": "a02a7172211d59d56c94f14ca6810c63",
         "fingerprint": "asst manager qa|sceptre medical india pvt. ltd.|gurugram",
         "date": "2026-03-10T06:49:47.097083"
@@ -9998,5 +9898,105 @@
         "id": "4340d8c70df16eda0376a5cc561668e9",
         "fingerprint": "qa manager|arup|remote",
         "date": "2026-06-01T12:48:12.802442"
+    },
+    {
+        "id": "2ab879572bc9c5548e84859d3f5952a9",
+        "fingerprint": "quality assurance manager (qam)|bnp paribas|mumbai",
+        "date": "2026-06-02T06:07:10.670662"
+    },
+    {
+        "id": "045b14a52c6879ad448179d65c7b7c35",
+        "fingerprint": "quality manager-turbo cross sell|idfc first bank|mumbai",
+        "date": "2026-06-02T06:07:10.670679"
+    },
+    {
+        "id": "6d2918672f599eb5371a0d3b22de92a7",
+        "fingerprint": "qa - automation & quality engineering lead|12th wonder|pune",
+        "date": "2026-06-02T06:07:10.670681"
+    },
+    {
+        "id": "33b18d93623cb9a28adba5c0fdd9eed3",
+        "fingerprint": "team lead - qa|stratacent|pune",
+        "date": "2026-06-02T06:07:10.670684"
+    },
+    {
+        "id": "dc71a1895fb4a000f2d3d5e8fb9e5a93",
+        "fingerprint": "test module lead - functional testing|happiest minds technologies|bengaluru",
+        "date": "2026-06-02T06:07:10.670685"
+    },
+    {
+        "id": "37297dd51f1fd43e75d7041c9593b835",
+        "fingerprint": "quality manager|daffy group of companies|bengaluru",
+        "date": "2026-06-02T06:07:10.670687"
+    },
+    {
+        "id": "fc646f3c7d321e2a1389863f27074047",
+        "fingerprint": "automation testing lead and product owner (hands on position)|oappsnet, specialists in erp transformation|bengaluru",
+        "date": "2026-06-02T06:07:10.670689"
+    },
+    {
+        "id": "51e488bbe9feae95b60ed9079afdaaac",
+        "fingerprint": "test manager|qualitest|bengaluru",
+        "date": "2026-06-02T06:07:10.670691"
+    },
+    {
+        "id": "f289afdb911f9aaf0a0d0db33f4ecff2",
+        "fingerprint": "sdwan controller test engineering technical leader/sdwan l3 | python automation| layer 2/3 security (11-15 years)|cisco|bengaluru",
+        "date": "2026-06-02T06:07:10.670693"
+    },
+    {
+        "id": "3f61165e6b45320bd729b5673b558bd2",
+        "fingerprint": "senior qa/dv program manager|axiado corporation|hyderabad",
+        "date": "2026-06-02T06:07:10.670695"
+    },
+    {
+        "id": "9b3c95f73b74ffb6b4938f7582e36a52",
+        "fingerprint": "manager, qa operations|azurity pharmaceuticals|hyderabad",
+        "date": "2026-06-02T06:07:10.670697"
+    },
+    {
+        "id": "f5dc413dbef71c53a5ae34d554c6cc2d",
+        "fingerprint": "qa manager|lseg|hyderabad",
+        "date": "2026-06-02T06:07:10.670699"
+    },
+    {
+        "id": "f07f5b253691368a86fc41c37ebd21c6",
+        "fingerprint": "head of programme design and quality - india|girls not brides: the global partnership to end child marriage|gurugram",
+        "date": "2026-06-02T06:07:10.670700"
+    },
+    {
+        "id": "839906b08eeb3c0ed10f2a4ef0a688e5",
+        "fingerprint": "quality assurance manager|jobmaze fz llc|gurugram",
+        "date": "2026-06-02T06:07:10.670702"
+    },
+    {
+        "id": "f2a43ff1e8f66d533a2359d779a9a04f",
+        "fingerprint": "director, automation & technology adoption|metlife|gurugram",
+        "date": "2026-06-02T06:07:10.670704"
+    },
+    {
+        "id": "5945c40444d64afdded02a679e635a6c",
+        "fingerprint": "test manager|qualitest acq|chennai",
+        "date": "2026-06-02T06:07:10.670705"
+    },
+    {
+        "id": "6ac4895f40a5c7d709ba8703f80e0520",
+        "fingerprint": "test lead (gxp/csv)|virtusa|chennai",
+        "date": "2026-06-02T06:07:10.670707"
+    },
+    {
+        "id": "fb7fe00c6d7abeb020267c298e16c7fd",
+        "fingerprint": "senior software quality eng - automation|ups|chennai",
+        "date": "2026-06-02T06:07:10.670714"
+    },
+    {
+        "id": "0809595708b7aec80095d7fba970fd1e",
+        "fingerprint": "quality engineering manager - swapclear|lseg|remote",
+        "date": "2026-06-02T06:07:10.670716"
+    },
+    {
+        "id": "4db0b6696a752bd9cefcd15f1ec3c59c",
+        "fingerprint": "manufacturing quality manager|rolls-royce|remote",
+        "date": "2026-06-02T06:07:10.670718"
     }
 ]
