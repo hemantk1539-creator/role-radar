@@ -1,45 +1,5 @@
 [
     {
-        "id": "6276893e96cb426a97acdaf97374a206",
-        "fingerprint": "senior quality manager|dimple creations private limited|noida",
-        "date": "2026-03-10T12:49:52.651146"
-    },
-    {
-        "id": "86eb4517787a01dd7feb8e5db681703a",
-        "fingerprint": "senior qualdev (sdet) architect|aeris|noida",
-        "date": "2026-03-10T12:49:52.651149"
-    },
-    {
-        "id": "f2911b3719eb68688f3ee297a7b11d08",
-        "fingerprint": "quality manager|ingredion incorporated|ahmedabad",
-        "date": "2026-03-10T12:49:52.651151"
-    },
-    {
-        "id": "af70d05b1a4576af592ef1528f42aff6",
-        "fingerprint": "quality assurance lead|e2m|ahmedabad",
-        "date": "2026-03-10T12:49:52.651153"
-    },
-    {
-        "id": "eb0d71ffe184ca865a1d5300ce1386cb",
-        "fingerprint": "plant quality manager level 2|faurecia|chennai",
-        "date": "2026-03-10T12:49:52.651155"
-    },
-    {
-        "id": "d530ab5e5c4562f70934dea301d2de95",
-        "fingerprint": "quality, risk & compliance manager|jll|bengaluru",
-        "date": "2026-03-10T19:50:03.848854"
-    },
-    {
-        "id": "8e93249dc554e9ee7231b1e28ae9b3bb",
-        "fingerprint": "test lead|infinite computer solutions|bengaluru",
-        "date": "2026-03-10T19:50:03.848870"
-    },
-    {
-        "id": "896f00fbc505e89db66dc2a328d0ef8b",
-        "fingerprint": "manager software test engineering (etl)|calix|bengaluru",
-        "date": "2026-03-10T19:50:03.848873"
-    },
-    {
         "id": "5a4ee1ac401ac18c2c8072aa791699f8",
         "fingerprint": "director quality & regulatory affairs coe|thermo fisher scientific|bengaluru",
         "date": "2026-03-10T19:50:03.848875"
@@ -9998,5 +9958,45 @@
         "id": "83fd23b6990475617f6285d04e5f739f",
         "fingerprint": "qa lead (application testing)|rolls-royce|remote",
         "date": "2026-06-02T11:38:19.351649"
+    },
+    {
+        "id": "dcdffd7fbfb493fb430023bb32bf086b",
+        "fingerprint": "quality assurance manager  - construction|sj contracts pvt ltd|pune",
+        "date": "2026-06-02T16:38:17.623937"
+    },
+    {
+        "id": "8a03476725dfdf07cc369dc04c9b1b25",
+        "fingerprint": "senior manager, quality engineering|symplr|bengaluru",
+        "date": "2026-06-02T16:38:17.623954"
+    },
+    {
+        "id": "2a8f59602330388b191e2af51dd0d112",
+        "fingerprint": "technical lead - quality engineering|happiest minds technologies|bengaluru",
+        "date": "2026-06-02T16:38:17.623957"
+    },
+    {
+        "id": "a7e59b1ea8563c5bbb3af9993dd2109e",
+        "fingerprint": "test module lead - java/selenium|happiest minds technologies|bengaluru",
+        "date": "2026-06-02T16:38:17.623960"
+    },
+    {
+        "id": "cc796e590593c23aaa880909b9a0e616",
+        "fingerprint": "quality assurance manager - power automate|selections hr services private limited|bengaluru",
+        "date": "2026-06-02T16:38:17.623962"
+    },
+    {
+        "id": "9417fa4db3513bff7708a9a6b7cc51af",
+        "fingerprint": "accessibility test lead|persistent systems|gurugram",
+        "date": "2026-06-02T16:38:17.623964"
+    },
+    {
+        "id": "4806ebbb86bad88c1574906e81eee925",
+        "fingerprint": "deputy general manager (dgm) \u2013 qa/qc head|quality austria central asia|ahmedabad",
+        "date": "2026-06-02T16:38:17.623966"
+    },
+    {
+        "id": "99382f35cf6b8ecfd983fd356a55376a",
+        "fingerprint": "sdet/qa automation lead (remote-only, worldwide remote)|cloudlinux|remote",
+        "date": "2026-06-02T16:38:17.623968"
     }
 ]
