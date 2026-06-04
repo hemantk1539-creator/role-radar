@@ -1,60 +1,5 @@
 [
     {
-        "id": "e0226e522cf1fb58eb3eb7ce5eeb3486",
-        "fingerprint": "development manager qa/qv|electronic arts (ea)|hyderabad",
-        "date": "2026-03-12T06:49:39.003385"
-    },
-    {
-        "id": "47cd173e07c20ee0ec4c1f4d651a9dd3",
-        "fingerprint": "lead quality assurance - manager|state street|hyderabad",
-        "date": "2026-03-12T06:49:39.003387"
-    },
-    {
-        "id": "8115d68e7f4d87bc6de42bd13ee7c473",
-        "fingerprint": "head - training and quality - gurgaon - go/jc/1338/2025|golden opportunities|hyderabad",
-        "date": "2026-03-12T06:49:39.003389"
-    },
-    {
-        "id": "165d0380eb128a4133cadf022a759dc2",
-        "fingerprint": "environmental testing head|azista space|ahmedabad",
-        "date": "2026-03-12T06:49:39.003392"
-    },
-    {
-        "id": "bdad5f1e5ccca318305079ba76ea6d0b",
-        "fingerprint": "servicenow- process mapping & automation - manager|state street|pune",
-        "date": "2026-03-12T12:50:04.750467"
-    },
-    {
-        "id": "d7d6e7417c8605fb2e712c7e18d076c5",
-        "fingerprint": "manager, data quality and governance|hsbc|bengaluru",
-        "date": "2026-03-12T12:50:04.750482"
-    },
-    {
-        "id": "1f3ae2ec2573890154ff2c6dad44bbf2",
-        "fingerprint": "senior automation & ai testing lead|synechron|bengaluru",
-        "date": "2026-03-12T12:50:04.750485"
-    },
-    {
-        "id": "524caad1b70e035363aaa336c9d2a456",
-        "fingerprint": "quality manager-stt|blue star limited|mumbai",
-        "date": "2026-03-12T12:50:04.750487"
-    },
-    {
-        "id": "4b32a13c29d05933f8a4d5b2e4bac8f2",
-        "fingerprint": "manager, gtech, tools automation and infrastructure|google|hyderabad",
-        "date": "2026-03-12T12:50:04.750489"
-    },
-    {
-        "id": "50edafe7021ad0864da6202284f477e3",
-        "fingerprint": "manager / senior manager - quality|igt solutions|gurugram",
-        "date": "2026-03-12T12:50:04.750491"
-    },
-    {
-        "id": "0a380079fafbe17f02e72a4275160f90",
-        "fingerprint": "staff software development engineer in test|poshmark|chennai",
-        "date": "2026-03-12T12:50:04.750493"
-    },
-    {
         "id": "3cbffd598e64ddcee02af906f423494c",
         "fingerprint": "quality head \u2013 wires & cables|fybros|noida",
         "date": "2026-03-12T12:50:04.750495"
@@ -9998,5 +9943,60 @@
         "id": "de7bc4c492ca53fb4157ea8e01654c98",
         "fingerprint": "substation automation technical project manager|siemens|chennai",
         "date": "2026-06-03T16:38:07.356634"
+    },
+    {
+        "id": "105cd052f1f2bef9dd1ff1bd4d4cc324",
+        "fingerprint": "head of enterprise testing coe , alpha implementation - managing director|state street|bengaluru",
+        "date": "2026-06-04T06:08:35.851798"
+    },
+    {
+        "id": "103d3006c35e5188f3dabe6ebede0770",
+        "fingerprint": "qa mgr|iqvia|bengaluru",
+        "date": "2026-06-04T06:08:35.851816"
+    },
+    {
+        "id": "d489a345968da13775308875a7222420",
+        "fingerprint": "staff software engineer in test|okta|bengaluru",
+        "date": "2026-06-04T06:08:35.851819"
+    },
+    {
+        "id": "c94c717e201b7f2b1b00dcda9f8abb65",
+        "fingerprint": "test delivery manager with ai|multinational company|pune",
+        "date": "2026-06-04T06:08:35.851821"
+    },
+    {
+        "id": "5237566ddc5b0229258d54cff62462bb",
+        "fingerprint": "roaming quality & testing lead|vois|pune",
+        "date": "2026-06-04T06:08:35.851824"
+    },
+    {
+        "id": "c1d7a414cf99afc21d706e316f1981d0",
+        "fingerprint": "manager - quality|bondada group|hyderabad",
+        "date": "2026-06-04T06:08:35.851826"
+    },
+    {
+        "id": "e5f742ecfea497d5bfa8ba6981fa2c1b",
+        "fingerprint": "test automation lead|accenture in india|chennai",
+        "date": "2026-06-04T06:08:35.851828"
+    },
+    {
+        "id": "d27d9063d5e9b0ec00cb4adf513f56c5",
+        "fingerprint": "quality assurance quality control manager|eta engineering pvt. ltd.|chennai",
+        "date": "2026-06-04T06:08:35.851831"
+    },
+    {
+        "id": "31b29dafdb68d882b26a269b5d7260d5",
+        "fingerprint": "test manager|qualitykiosk technologies|remote",
+        "date": "2026-06-04T06:08:35.851833"
+    },
+    {
+        "id": "da76c9e92bbacf6e999913ab025a6029",
+        "fingerprint": "director, sw qa engineering - cloud - chennai - hybrid|gigamon|chennai",
+        "date": "2026-06-04T06:08:35.851835"
+    },
+    {
+        "id": "09d981830f620ccc56467dc7de09e383",
+        "fingerprint": "quality assurance manager / head of qa(anywhere from india)|cureskin|gurugram",
+        "date": "2026-06-04T06:08:35.851837"
     }
 ]
