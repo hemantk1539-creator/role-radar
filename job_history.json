@@ -1,80 +1,5 @@
 [
     {
-        "id": "095791bf3677b677bcff1c6a53294f5d",
-        "fingerprint": "test architect|triad square infosec|chennai",
-        "date": "2026-03-13T06:49:50.239642"
-    },
-    {
-        "id": "ff1fc441924f88218837968a81bc216b",
-        "fingerprint": "quality engineering lead (test lead)|accenture in india|ahmedabad",
-        "date": "2026-03-13T06:49:50.239645"
-    },
-    {
-        "id": "5cecb5d4ecf4cc5725a3302fdb48eb73",
-        "fingerprint": "quality engineering platform architect|birlasoft|pune",
-        "date": "2026-03-13T12:50:05.395003"
-    },
-    {
-        "id": "9082d3bdec9999b1a0cf17e7adbded9d",
-        "fingerprint": "finance head siemens rail automation pvt ltd.|siemens|bengaluru",
-        "date": "2026-03-13T12:50:05.395018"
-    },
-    {
-        "id": "32f3de09d89e6b4b6ecbb252c273d1e5",
-        "fingerprint": "test architect - architect|happiest minds technologies|bengaluru",
-        "date": "2026-03-13T12:50:05.395021"
-    },
-    {
-        "id": "157be85c1f36ffc17bdddcb71fbd612e",
-        "fingerprint": "director clinical supply quality|mygwork - lgbtq+ business community|mumbai",
-        "date": "2026-03-13T12:50:05.395023"
-    },
-    {
-        "id": "3babbc72b35ffb4098c6ba1937154875",
-        "fingerprint": "qa/qc head | large project management consulting firm|fyndbridge consultants & advisors|mumbai",
-        "date": "2026-03-13T12:50:05.395025"
-    },
-    {
-        "id": "6c082b8bdf78d350abff529bb5cb0d0f",
-        "fingerprint": "quality engineering manager [t500-24338]|cibc india|hyderabad",
-        "date": "2026-03-13T12:50:05.395028"
-    },
-    {
-        "id": "2287302e6148c80c09d7fdb195f9a08c",
-        "fingerprint": "quality engineering manager [t500-24373]|cibc india|hyderabad",
-        "date": "2026-03-13T12:50:05.395030"
-    },
-    {
-        "id": "1575c20c9aeba6588f493502e2a5b4c5",
-        "fingerprint": "quality manager|t\u00fcv s\u00fcd|hyderabad",
-        "date": "2026-03-13T12:50:05.395032"
-    },
-    {
-        "id": "fc410e5249d244015a7dea3b245bd33f",
-        "fingerprint": "deputy chief expert - integration, testing and commissioning- nhsrcl mumbai \u2013 ahmedabad high speed rail project (f/m/d)|deutsche bahn|ahmedabad",
-        "date": "2026-03-13T12:50:05.395034"
-    },
-    {
-        "id": "3e5cd4cd68639f5dcac6edec177acbc8",
-        "fingerprint": "business development manager industrial automation|engage experts international|ahmedabad",
-        "date": "2026-03-13T12:50:05.395036"
-    },
-    {
-        "id": "779d0c959b62421f828e5af585a7021a",
-        "fingerprint": "magento qa lead|magneto it solutions|ahmedabad",
-        "date": "2026-03-13T12:50:05.395039"
-    },
-    {
-        "id": "f88987f14947e3f19c2b1c4f1e319ecd",
-        "fingerprint": "system architect - automation train protection systems|siemens|pune",
-        "date": "2026-03-13T19:49:43.640519"
-    },
-    {
-        "id": "c902b56952da205c6dc491e51572ff5a",
-        "fingerprint": "senior test lead|infinite computer solutions|pune",
-        "date": "2026-03-13T19:49:43.640534"
-    },
-    {
         "id": "90c855ac15815c6676805f5feb01d29a",
         "fingerprint": "erp/sap change owner and test manager|amgen|hyderabad",
         "date": "2026-03-13T19:49:43.640537"
@@ -9998,5 +9923,80 @@
         "id": "cc1079dee2c50952863efa5082e02c5d",
         "fingerprint": "head qa/qc - technical services|reliance industries limited|remote",
         "date": "2026-06-04T11:38:00.913813"
+    },
+    {
+        "id": "d051535a53977b89d59b579479ac001e",
+        "fingerprint": "performance testing lead - vois|vodafone|pune",
+        "date": "2026-06-04T16:37:56.551692"
+    },
+    {
+        "id": "3166d46ef65e4d7f48e2431750ca519b",
+        "fingerprint": "quality assurance lead|glean|bengaluru",
+        "date": "2026-06-04T16:37:56.551738"
+    },
+    {
+        "id": "a4c1744b39c2908b90d6ef434b1abbb4",
+        "fingerprint": "salesforce test lead|boeing|bengaluru",
+        "date": "2026-06-04T16:37:56.551741"
+    },
+    {
+        "id": "5bdce35853288d68e0676e8ca2ce7da4",
+        "fingerprint": "system test lead|ingersoll rand compressor systems & services|bengaluru",
+        "date": "2026-06-04T16:37:56.551743"
+    },
+    {
+        "id": "0e7b74f4751f8480da9c95c93039b642",
+        "fingerprint": "lead process owner - calibration, measurement test equipment|ul solutions|bengaluru",
+        "date": "2026-06-04T16:37:56.551745"
+    },
+    {
+        "id": "4bed4ee1b363b9f40f6e0050b0f1c4fa",
+        "fingerprint": "sdwan/l3 test engineering technical leader|cisco|bengaluru",
+        "date": "2026-06-04T16:37:56.551748"
+    },
+    {
+        "id": "ea270cd2cc5011d2dde201a7aec64522",
+        "fingerprint": "performance testing lead|manuh technologies|bengaluru",
+        "date": "2026-06-04T16:37:56.551750"
+    },
+    {
+        "id": "5269cb0fa90dcaf1ed47958b83a6e38f",
+        "fingerprint": "mainframe testing lead|infosys|hyderabad",
+        "date": "2026-06-04T16:37:56.551752"
+    },
+    {
+        "id": "da98008237190303bdbcd926e8875ad8",
+        "fingerprint": "quality assurance manager|razorpod|gurugram",
+        "date": "2026-06-04T16:37:56.551754"
+    },
+    {
+        "id": "fa65a86e9ab3b9600594541c7fef960e",
+        "fingerprint": "principal sdet|talent et au-dela|gurugram",
+        "date": "2026-06-04T16:37:56.551756"
+    },
+    {
+        "id": "c083e67ff45de1abbe0914d37af41c27",
+        "fingerprint": "manager \u2013 ai, automation & technology (us logistics)|alpha lion trucking|gurugram",
+        "date": "2026-06-04T16:37:56.551759"
+    },
+    {
+        "id": "81d2b7281983bc8e482063739063433f",
+        "fingerprint": "senior engineering manager \u2013 non-functional quality & performance engineering|caterpillar inc.|chennai",
+        "date": "2026-06-04T16:37:56.551761"
+    },
+    {
+        "id": "2481e29ad5eaa1c42d32695d3dec8c3b",
+        "fingerprint": "test lead|persistent systems|noida",
+        "date": "2026-06-04T16:37:56.551763"
+    },
+    {
+        "id": "b05a0f9f600fe700babd6778590061d6",
+        "fingerprint": "sr manager, quality assurance|storable|remote",
+        "date": "2026-06-04T16:37:56.551765"
+    },
+    {
+        "id": "e91ae213bb260e202c672ea797096818",
+        "fingerprint": "automation manager, global engineering services \u2013 intl|amazon|bengaluru",
+        "date": "2026-06-04T16:37:56.551767"
     }
 ]
