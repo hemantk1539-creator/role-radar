@@ -230,8 +230,8 @@ def fetch_global_intelligence(config, levels, domains):
     print(f"--- POWER 6 COMPLETE. Found {len(jobs)} Pre-Sniper Roles in {time.time()-start_time:.2f}s ---\n")
     return jobs
 
-def send_email(subject, jobs, config, sniped_jobs=None):
-    if not jobs and not sniped_jobs: return False
+def send_email(subject, jobs, config):
+    if not jobs: return False
     sender_email = config["email"]["sender_email"]
     sender_password = os.environ.get("GMAIL_APP_PASSWORD") or config["email"].get("app_password")
     recipient_email = config["email"]["recipient_email"]
@@ -306,15 +306,6 @@ def send_email(subject, jobs, config, sniped_jobs=None):
                 html += f"</tr>"
             html += "</table></div>"
     
-    if sniped_jobs:
-        html += "<div style='margin-top: 40px; padding: 15px; background-color: #fdf2f2; border-radius: 8px; border: 1px solid #fadbd8;'>"
-        html += "<h4 style='color: #c0392b; margin-top: 0;'>🧪 SNIPER LOG (Transparency Pass)</h4>"
-        html += "<p style='font-size: 0.85em; color: #7b241c;'>The following jobs were detected but automatically discarded based on your purity rules:</p>"
-        html += "<table border='0' cellpadding='5' style='width: 100%; font-size: 0.8em; color: #666;'>"
-        for j in sniped_jobs[:15]: # Show top 15 only to keep email clean
-            html += f"<tr><td style='color: #c0392b;'><b>[{j.get('sniped_reason')}]</b></td><td>{j.get('title')}</td><td>{j.get('company')}</td></tr>"
-        html += "</table></div>"
-
     html += "<div style='margin-top: 30px; text-align: center; color: #95a5a6; font-size: 0.8em; border-top: 1px solid #eee; padding-top: 20px;'>"
     html += "This is an automated intelligence report from your Job Alert Bot v1.2. Hub Logic: Power 6 Tiered Grid.</div></div>"
     
@@ -558,14 +549,18 @@ def run():
     total_applicable = len(found_local) + len(found_india_remote) + len(found_global_remote)
     print(f"\n--- DONE. Found {total_found} New (Scraped) | {total_applicable} Applicable ---")
 
-    if found_local: send_email(f"Local Alert: {len(found_local)} New City Roles", found_local, config, sniped_local)
-    if found_india_remote: send_email(f"India Remote Alert: {len(found_india_remote)} New Remote Roles", found_india_remote, config, sniped_india)
-    if found_global_remote: send_email(f"Global Remote Alert: {len(found_global_remote)} New Global Remote Roles", found_global_remote, config, sniped_global)
+    if found_local: send_email(f"Local Alert: {len(found_local)} New City Roles", found_local, config)
+    if found_india_remote: send_email(f"India Remote Alert: {len(found_india_remote)} New Remote Roles", found_india_remote, config)
+    if found_global_remote: send_email(f"Global Remote Alert: {len(found_global_remote)} New Global Remote Roles", found_global_remote, config)
 
-    if total_applicable > 0:
-        for j in found_local + found_india_remote + found_global_remote:
+    sniped_all = sniped_local + sniped_india + sniped_global
+    if total_applicable > 0 or sniped_all:
+        for j in found_local + found_india_remote + found_global_remote + sniped_all:
+            uid = j.get('uid')
+            if not uid:
+                continue
             history.append({
-                "id": j['uid'], 
+                "id": uid,
                 "fingerprint": j.get('fingerprint'),
                 "date": datetime.now().isoformat()
             })

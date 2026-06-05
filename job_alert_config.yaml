@@ -130,7 +130,7 @@ search:
   india_country_code: "in"
   india_sites: ["linkedin", "naukri", "indeed"]
   global_sites: ["linkedin", "indeed"]
-  max_history: 2000
+  max_history: 5000
 
   # --- EMAIL UI STRATEGY (Diamond Format) ---
   global_hub_map:
