@@ -1,70 +1,5 @@
 [
     {
-        "id": "90c855ac15815c6676805f5feb01d29a",
-        "fingerprint": "erp/sap change owner and test manager|amgen|hyderabad",
-        "date": "2026-03-13T19:49:43.640537"
-    },
-    {
-        "id": "f377ad09d46b3aa414270bef7001c98b",
-        "fingerprint": "quality engineering architect|kanerika inc|hyderabad",
-        "date": "2026-03-13T19:49:43.640539"
-    },
-    {
-        "id": "e126742d439bd94364bd19cb8965d6b4",
-        "fingerprint": "test lead|cognizant|hyderabad",
-        "date": "2026-03-13T19:49:43.640541"
-    },
-    {
-        "id": "63197ac1092af5015737d565d6309e58",
-        "fingerprint": "regional site quality manager \u2013 mea|hitachi energy|noida",
-        "date": "2026-03-13T19:49:43.640544"
-    },
-    {
-        "id": "7d1478b9818b90576604a40b15fd121c",
-        "fingerprint": "shift lead i, quality assurance|baxter international inc.|ahmedabad",
-        "date": "2026-03-13T19:49:43.640546"
-    },
-    {
-        "id": "4c0180fb2390bf68ee5e83ae7637b06d",
-        "fingerprint": "director / head \u2013 quality|amphenol communications solutions|remote",
-        "date": "2026-03-13T19:49:43.640548"
-    },
-    {
-        "id": "ef6af45961ae3815d5bd3aa0ababb68e",
-        "fingerprint": "quality lead|siemens|pune",
-        "date": "2026-03-14T06:49:48.875371"
-    },
-    {
-        "id": "f66ecef4c6920f651e09d925561b8e2f",
-        "fingerprint": "delivery head : qa + automation testing + banking domain|qualitykiosk technologies|mumbai",
-        "date": "2026-03-14T06:49:48.875387"
-    },
-    {
-        "id": "2e291097903212e9b048e26ff237b9d0",
-        "fingerprint": "lead software engineer - test|freshworks|chennai",
-        "date": "2026-03-14T06:49:48.875389"
-    },
-    {
-        "id": "367652b703f5c2da0665e1e90c4dc3fd",
-        "fingerprint": "lead product testing specialist|ge vernova|chennai",
-        "date": "2026-03-14T06:49:48.875392"
-    },
-    {
-        "id": "6bd9af82fc12f6c5dcb974a54204b8eb",
-        "fingerprint": "quality assurance architect|sbs|noida",
-        "date": "2026-03-14T06:49:48.875394"
-    },
-    {
-        "id": "4869dea68f8c89ce8fbf8c5050837e03",
-        "fingerprint": "quality team lead|michael page|ahmedabad",
-        "date": "2026-03-14T06:49:48.875396"
-    },
-    {
-        "id": "1335f3d3cec56499d1b9cd66a7458845",
-        "fingerprint": "technical lead manager, model quality - claude code|anthropic",
-        "date": "2026-03-14T06:49:48.875398"
-    },
-    {
         "id": "cb9f1429e749a7712bc04faf1bf5bf57",
         "fingerprint": "sr manager, quality engineering|connectwise|pune",
         "date": "2026-03-14T12:49:37.879375"
@@ -9998,5 +9933,70 @@
         "id": "e91ae213bb260e202c672ea797096818",
         "fingerprint": "automation manager, global engineering services \u2013 intl|amazon|bengaluru",
         "date": "2026-06-04T16:37:56.551767"
+    },
+    {
+        "id": "c335a0a3892b7013a7b65d8322007cf9",
+        "fingerprint": "lead software engineer (qa) 809|protegrity|mumbai",
+        "date": "2026-06-05T06:07:37.647331"
+    },
+    {
+        "id": "a3eb7cde284eacd6039b34f622bb30e6",
+        "fingerprint": "lead software engineer (qa) 809|tm2 group, llc|mumbai",
+        "date": "2026-06-05T06:07:37.647348"
+    },
+    {
+        "id": "599b0b559756c839ec787f0daab8be53",
+        "fingerprint": "python test automation lead (aws & iot)|tekpillar\u00ae|pune",
+        "date": "2026-06-05T06:07:37.647351"
+    },
+    {
+        "id": "76dc8ed77a6eef4d4b82722d80c67df6",
+        "fingerprint": "playwright automation lead|ltm|pune",
+        "date": "2026-06-05T06:07:37.647353"
+    },
+    {
+        "id": "23053858705cc49743b820ee7bf36d9c",
+        "fingerprint": "staff engineer, cpu software test engineer (server)|qualcomm|bengaluru",
+        "date": "2026-06-05T06:07:37.647355"
+    },
+    {
+        "id": "4dd7289c6caedb72e4c1b35d958ef43b",
+        "fingerprint": "test module lead - karate|happiest minds technologies|bengaluru",
+        "date": "2026-06-05T06:07:37.647358"
+    },
+    {
+        "id": "896f00fbc505e89db66dc2a328d0ef8b",
+        "fingerprint": "manager software test engineering (etl)|calix india|bengaluru",
+        "date": "2026-06-05T06:07:37.647360"
+    },
+    {
+        "id": "cccf7e2c2b147a3eab1a70d6568ae22f",
+        "fingerprint": "qa lead|equiti group|bengaluru",
+        "date": "2026-06-05T06:07:37.647362"
+    },
+    {
+        "id": "4367226ff8885b2fe35fcfe809f37c4f",
+        "fingerprint": "test automation lead|mygwork - lgbtq+ business community|bengaluru",
+        "date": "2026-06-05T06:07:37.647364"
+    },
+    {
+        "id": "94fd013660bb681124d63413b8dc5b7d",
+        "fingerprint": "lead software engineer (qa) 809|protegrity|bengaluru",
+        "date": "2026-06-05T06:07:37.647366"
+    },
+    {
+        "id": "c3a912cf4fdf8652bc217bdb54ea9933",
+        "fingerprint": "sr. eng. i, qe|invesco|hyderabad",
+        "date": "2026-06-05T06:07:37.647368"
+    },
+    {
+        "id": "6da719e3143de19e24585d88626441e7",
+        "fingerprint": "staff test engineer (automation test developer)|vantiva|chennai",
+        "date": "2026-06-05T06:07:37.647370"
+    },
+    {
+        "id": "59501d35eaa1411d33d14adaf35c342d",
+        "fingerprint": "director of quality assurance|perficient india|chennai",
+        "date": "2026-06-05T06:07:37.647372"
     }
 ]
