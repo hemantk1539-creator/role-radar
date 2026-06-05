@@ -1,125 +1,5 @@
 [
     {
-        "id": "cb9f1429e749a7712bc04faf1bf5bf57",
-        "fingerprint": "sr manager, quality engineering|connectwise|pune",
-        "date": "2026-03-14T12:49:37.879375"
-    },
-    {
-        "id": "8b70ac26a9f8807c8cc3870701b9503e",
-        "fingerprint": "test architect l1|wipro|hyderabad",
-        "date": "2026-03-14T12:49:37.879389"
-    },
-    {
-        "id": "5e3ff2a632557a625ce29c691c8fdf3d",
-        "fingerprint": "quality gm/manager ( for garment exports only)|fashionc overseas|gurugram",
-        "date": "2026-03-14T12:49:37.879392"
-    },
-    {
-        "id": "b092a4031f9844fef418bb0abc27003b",
-        "fingerprint": "2 ) qa test lead|ai certs\u00ae - india|ahmedabad",
-        "date": "2026-03-14T12:49:37.879394"
-    },
-    {
-        "id": "c83bafd4fd6fcb51704b470a90bfb5f5",
-        "fingerprint": "director, global manufacturing quality|fortune brands innovations|remote",
-        "date": "2026-03-14T12:49:37.879396"
-    },
-    {
-        "id": "5df9edc87c7f80ad4d6c2d30b5650139",
-        "fingerprint": "quality control manager, apparels|poetrique|bengaluru",
-        "date": "2026-03-14T19:49:54.665398"
-    },
-    {
-        "id": "2170c4e181f0f4a360332780139677d5",
-        "fingerprint": "manager, systems design control quality|cepheid|bengaluru",
-        "date": "2026-03-14T19:49:54.665412"
-    },
-    {
-        "id": "df41295425423864444df142e43f9087",
-        "fingerprint": "lead software test engineer|siemens|pune",
-        "date": "2026-03-14T19:49:54.665414"
-    },
-    {
-        "id": "72429a38e0f3917db6270c348dc1e553",
-        "fingerprint": "lead software development engineer in test (sdet)_ exp: 8+ years_|atyeti inc|pune",
-        "date": "2026-03-14T19:49:54.665416"
-    },
-    {
-        "id": "126605431919ca3869e6da621ff0b62a",
-        "fingerprint": "digital growth & automation manager|bima garage|mumbai",
-        "date": "2026-03-14T19:49:54.665418"
-    },
-    {
-        "id": "06ed3146b9fec4bc1b371c8a49966fbc",
-        "fingerprint": "senior manager \u2013 ai & automation coe leader & solution architect|kroll|hyderabad",
-        "date": "2026-03-14T19:49:54.665421"
-    },
-    {
-        "id": "9f7b89daf9862737fc941bcd887cc6e0",
-        "fingerprint": "senior staff/staff engineer/senior lead - camera image quality|qualcomm|hyderabad",
-        "date": "2026-03-14T19:49:54.665422"
-    },
-    {
-        "id": "dd14257df6cd951a0fee311e08b5854a",
-        "fingerprint": "senior manager \u2013 ai & automation coe leader & solution architect|kroll|gurugram",
-        "date": "2026-03-14T19:49:54.665424"
-    },
-    {
-        "id": "74587bef946b66feccc47c5dbba65fe0",
-        "fingerprint": "head of engineering, testing, commissioning team leader (professionals)|hitachi energy|chennai",
-        "date": "2026-03-14T19:49:54.665427"
-    },
-    {
-        "id": "87c356ca79b8298838416b3275125a43",
-        "fingerprint": "lead devops engineer iac automation(azure and aws)|wolters kluwer|chennai",
-        "date": "2026-03-15T06:50:03.610976"
-    },
-    {
-        "id": "e8fa57126f6ada737b6a2db54c04246c",
-        "fingerprint": "manager sdet,  ipsec/gre|netskope|bengaluru",
-        "date": "2026-03-15T12:49:56.482303"
-    },
-    {
-        "id": "510b390ca07df486fd65e81e33a2e82a",
-        "fingerprint": "manager, quality systems|mygwork - lgbtq+ business community|hyderabad",
-        "date": "2026-03-15T12:49:56.482320"
-    },
-    {
-        "id": "46305817c9f18718b8b7644eaeb70c7a",
-        "fingerprint": "principal qa engineer - ai & cloud services|aveva|hyderabad",
-        "date": "2026-03-15T12:49:56.482323"
-    },
-    {
-        "id": "a8106142d401bc6bfea9223903aeed4b",
-        "fingerprint": "manager - automation architecture|ericsson|gurugram",
-        "date": "2026-03-15T12:49:56.482325"
-    },
-    {
-        "id": "de43b4eb886e160469974b7ba0a008e6",
-        "fingerprint": "m1 manager - quality customer support|payu|noida",
-        "date": "2026-03-15T12:49:56.482327"
-    },
-    {
-        "id": "413e6172826046d0d61fbd6a8568bc95",
-        "fingerprint": "lead engineer, quality assurance|pentair|noida",
-        "date": "2026-03-15T12:49:56.482330"
-    },
-    {
-        "id": "9520efc5edccde8b188260fd09d3613a",
-        "fingerprint": "operations & ai automation manager|growth grid global|gurugram",
-        "date": "2026-03-15T19:49:40.956715"
-    },
-    {
-        "id": "d4dc0073cfa1218451087cf21f985bdb",
-        "fingerprint": "head of quality assurance. (qa).|revidd|remote",
-        "date": "2026-03-15T19:49:40.956730"
-    },
-    {
-        "id": "f56700c01c3836825c8720096a21a182",
-        "fingerprint": "avaloq test lead engineer - vp|hackajob|pune",
-        "date": "2026-03-16T06:50:08.861972"
-    },
-    {
         "id": "35251968c6c9f91ee8b4607d3bd7527b",
         "fingerprint": "quality assurance manager-  playwritght|summit consulting services|hyderabad",
         "date": "2026-03-16T06:50:08.861987"
@@ -9998,5 +9878,125 @@
         "id": "59501d35eaa1411d33d14adaf35c342d",
         "fingerprint": "director of quality assurance|perficient india|chennai",
         "date": "2026-06-05T06:07:37.647372"
+    },
+    {
+        "id": "14a6fad760fa88ef617fdc2afe0c5e30",
+        "fingerprint": "sr. manager / manager quality|magwen valves private limited|pune",
+        "date": "2026-06-05T11:37:41.084149"
+    },
+    {
+        "id": "30c7f51aa321dcdf641e8c842b7f6e18",
+        "fingerprint": "lead qa_ automation & ai testing|12th wonder|pune",
+        "date": "2026-06-05T11:37:41.084169"
+    },
+    {
+        "id": "c46c4d89192b595e7b685b268e479de9",
+        "fingerprint": "tech lead- qa|stratacent|pune",
+        "date": "2026-06-05T11:37:41.084172"
+    },
+    {
+        "id": "c48cae426501fff1fb51eb66c548db3c",
+        "fingerprint": "lead python automation test engineer|epam systems|pune",
+        "date": "2026-06-05T11:37:41.084174"
+    },
+    {
+        "id": "581896ece072e6539f7cc82b607b69ee",
+        "fingerprint": "quality assurance manager|parle agro pvt ltd|mumbai",
+        "date": "2026-06-05T11:37:41.084176"
+    },
+    {
+        "id": "d7c4055eff2cf438452e51481bdc1c4e",
+        "fingerprint": "test lead|tekit software solutions pvt. ltd. (india & usa)|bengaluru",
+        "date": "2026-06-05T11:37:41.084179"
+    },
+    {
+        "id": "ecb9183f5720af0337aaab49b3c33f1c",
+        "fingerprint": "lead automation qa engineer|ringcentral|bengaluru",
+        "date": "2026-06-05T11:37:41.084181"
+    },
+    {
+        "id": "a35032a0d155b78f05400a4379228c14",
+        "fingerprint": "automation test engineer/lead - java/selenium|sampoorna consultants|bengaluru",
+        "date": "2026-06-05T11:37:41.084183"
+    },
+    {
+        "id": "0e9bc30ad1c5e5bca155d2e9f1397f12",
+        "fingerprint": "lead software engineer (qa) 809|tm2 group, llc|bengaluru",
+        "date": "2026-06-05T11:37:41.084186"
+    },
+    {
+        "id": "62f8db7a59d09652606575ae735c82a9",
+        "fingerprint": "qa automation engineer - manager|state street|bengaluru",
+        "date": "2026-06-05T11:37:41.084188"
+    },
+    {
+        "id": "bd4b246c8bc0a6c6b31af948459fd678",
+        "fingerprint": "quality manager|techwise digital|bengaluru",
+        "date": "2026-06-05T11:37:41.084191"
+    },
+    {
+        "id": "d6db043fdeb88ffa6b0144e93d03cab1",
+        "fingerprint": "senior manager -supplier quality & development \u2013 sbu focal|collins aerospace|bengaluru",
+        "date": "2026-06-05T11:37:41.084193"
+    },
+    {
+        "id": "4754353e54cc0fb5de3dcaca8e5f814e",
+        "fingerprint": "senior practice leader - quality|diageo india|bengaluru",
+        "date": "2026-06-05T11:37:41.084195"
+    },
+    {
+        "id": "7e3af49e350fa9b3c1fbef9add7cb0f8",
+        "fingerprint": "test lead|cognizant|hyderabad",
+        "date": "2026-06-05T11:37:41.084198"
+    },
+    {
+        "id": "93dd5566a7c54ce1990b7520c1f97a65",
+        "fingerprint": "uipath architect (agentic ai & enterprise automation)|gc technologies pvt ltd|hyderabad",
+        "date": "2026-06-05T11:37:41.084200"
+    },
+    {
+        "id": "29307118878c3b408e56099cc31b81c2",
+        "fingerprint": "quality manager|techwise digital|hyderabad",
+        "date": "2026-06-05T11:37:41.084202"
+    },
+    {
+        "id": "6c0ba64bab065a24d1adf883b3a92c71",
+        "fingerprint": "quality assurance manager|east pharma technologies|hyderabad",
+        "date": "2026-06-05T11:37:41.084204"
+    },
+    {
+        "id": "7553e742aa70d57b3f0cb4eaa6e7554a",
+        "fingerprint": "director \u2013 orm \u2013 issues & events: executive insights and quality management|american express|gurugram",
+        "date": "2026-06-05T11:37:41.084223"
+    },
+    {
+        "id": "62a76455ca90b87b9cbed8bc04f4e47f",
+        "fingerprint": "quality manager|techwise digital|gurugram",
+        "date": "2026-06-05T11:37:41.084225"
+    },
+    {
+        "id": "84f7cfc7dba6766a28604ee197715eee",
+        "fingerprint": "lead quality assurance engineer (automation)|aisensy|noida",
+        "date": "2026-06-05T11:37:41.084227"
+    },
+    {
+        "id": "9ea0f02fb8d511f9190ec52c5bdcd1e6",
+        "fingerprint": "quality manager|techwise digital|noida",
+        "date": "2026-06-05T11:37:41.084229"
+    },
+    {
+        "id": "0382fb91bd9099a8a4dc23445138bf16",
+        "fingerprint": "deputy manager- quality assurance & control|adani power|remote",
+        "date": "2026-06-05T11:37:41.084231"
+    },
+    {
+        "id": "3e3381f87577e5cf6703f56947546829",
+        "fingerprint": "quality manager|moog inc.|remote",
+        "date": "2026-06-05T11:37:41.084233"
+    },
+    {
+        "id": "3d51015c9d4fa6151bf1c3f5e0edb0e1",
+        "fingerprint": "member of technical staff 4[7-9 years]- python automation, virtualisation/networking/storage|nutanix|bengaluru",
+        "date": "2026-06-05T11:37:41.084235"
     }
 ]
