@@ -6,7 +6,7 @@ from job_alert_bot_github import fetch_json, fetch_rss, fetch_ats, send_email
 
 
 class TestJobSchema:
-    """Output contract — every job dict must carry required keys."""
+    """Output contract - every job dict must carry required keys."""
 
     def _greenhouse_payload(self):
         return {"jobs": [{"title": "Engineering Manager QA",
@@ -44,7 +44,7 @@ class TestJobSchema:
 
 
 class TestDeduplicationIntegrity:
-    """Deduplication contracts — determinism and uniqueness."""
+    """Deduplication contracts - determinism and uniqueness."""
 
     def test_same_url_always_produces_same_md5(self):
         url = "https://example.com/job/123"

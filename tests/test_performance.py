@@ -5,7 +5,7 @@ from job_alert_bot_github import finalize_list, has_word_match
 
 
 class TestPerformance:
-    """SLA assertions — filter logic must remain fast at pipeline scale."""
+    """SLA assertions - filter logic must remain fast at pipeline scale."""
 
     def test_finalize_list_5000_jobs_under_2_seconds(self):
         jobs = [

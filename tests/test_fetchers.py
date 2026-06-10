@@ -12,7 +12,7 @@ def mock_response(status=200, json_data=None):
 
 
 class TestFetchJson:
-    """JSON API fetcher — parsing, filtering, error handling."""
+    """JSON API fetcher - parsing, filtering, error handling."""
 
     def test_happy_path_returns_matching_job(self):
         payload = {"jobs": [{"title": "Engineering Manager QA", "companyName": "Acme",
@@ -58,7 +58,7 @@ class TestFetchJson:
 
 
 class TestFetchRss:
-    """RSS feed fetcher — parsing, filtering, error handling."""
+    """RSS feed fetcher - parsing, filtering, error handling."""
 
     def _make_feed(self, entries):
         feed = MagicMock()
@@ -94,7 +94,7 @@ class TestFetchRss:
 
 
 class TestFetchAts:
-    """ATS platform fetcher — Greenhouse, Lever, Ashby schema parsing."""
+    """ATS platform fetcher - Greenhouse, Lever, Ashby schema parsing."""
 
     def test_greenhouse_extracts_absolute_url(self):
         payload = {"jobs": [{"title": "Engineering Manager QA",

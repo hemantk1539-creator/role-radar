@@ -12,7 +12,7 @@ def categorize(title="", loc="", country=INDIA_CODE):
 
 
 class TestCategorizeJob:
-    """3-bucket routing — local, india_remote, global_remote, and drop cases."""
+    """3-bucket routing - local, india_remote, global_remote, and drop cases."""
 
     def test_india_city_with_remote_goes_to_local(self):
         bucket, signal = categorize(loc="pune remote")

@@ -7,7 +7,7 @@ from job_alert_bot_github import load_history, save_history
 
 
 class TestLoadHistory:
-    """History file loading — resilience and correctness."""
+    """History file loading - resilience and correctness."""
 
     def test_returns_empty_list_when_file_absent(self, history_file):
         bot.HISTORY_FILE = history_file + "_nonexistent"
@@ -46,7 +46,7 @@ class TestLoadHistory:
 
 
 class TestSaveHistory:
-    """History persistence — capping and data integrity."""
+    """History persistence - capping and data integrity."""
 
     def test_saves_history_correctly(self, history_file, save_config):
         bot.HISTORY_FILE = history_file

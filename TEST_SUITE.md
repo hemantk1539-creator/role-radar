@@ -1,4 +1,4 @@
-# Job Alert Bot — Test Suite Reference
+# Job Alert Bot - Test Suite Reference
 
 **95 tests · 7 files · 100% pass rate**
 Run: `uv run python -m pytest tests/ -v`
@@ -11,18 +11,18 @@ Run: `uv run python -m pytest tests/ -v`
 tests/
   conftest.py           shared constants + fixtures
   test_filters.py       title qualification, word boundary, finalize gate
-  test_history.py       persistence layer — load + save
+  test_history.py       persistence layer - load + save
   test_fetchers.py      HTTP fetcher integrations (JSON, RSS, ATS)
   test_categorization.py  3-bucket location routing
   test_contracts.py     output schema + deduplication integrity
   test_performance.py   SLA assertions at pipeline scale
 ```
 
-All business logic functions are tested at module level — no internal mocking. HTTP calls and filesystem I/O are the only mocked boundaries.
+All business logic functions are tested at module level - no internal mocking. HTTP calls and filesystem I/O are the only mocked boundaries.
 
 ---
 
-## conftest.py — Shared Fixtures
+## conftest.py - Shared Fixtures
 
 ### Constants
 
@@ -51,7 +51,7 @@ All business logic functions are tested at module level — no internal mocking.
 
 ---
 
-## test_filters.py — 38 tests
+## test_filters.py - 38 tests
 
 ### TestIsMatch (17 tests)
 `is_match(title, levels, domains, block_anchors) → bool`
@@ -98,11 +98,11 @@ anchors = ["prod"]
 "Quality Engineering Manager Productivity Tools" → True  (NOT blocked)
 "Product Quality Engineering Manager"            → False (blocked by "product")
 ```
-`\bprod\b` does NOT match "productivity" — word boundary after "d" fails at "d+u". This is the v3.2.1 regression test: a past bug where partial anchors incorrectly blocked valid titles.
+`\bprod\b` does NOT match "productivity" - word boundary after "d" fails at "d+u". This is the v3.2.1 regression test: a past bug where partial anchors incorrectly blocked valid titles.
 
-**test_empty_levels_always_fails** — gate collapses without level list
-**test_empty_domains_always_fails** — gate collapses without domain list
-**test_empty_block_anchors_does_not_affect_valid_match** — no anchors = no blocking
+**test_empty_levels_always_fails** - gate collapses without level list
+**test_empty_domains_always_fails** - gate collapses without domain list
+**test_empty_block_anchors_does_not_affect_valid_match** - no anchors = no blocking
 
 ---
 
@@ -119,7 +119,7 @@ Wraps `re.search(r"\b<term>\b", text, re.IGNORECASE)` across a list of terms. Re
 | `"qa manager"` | `["qa"]` | True | start of string |
 | `"engineering qa"` | `["qa"]` | True | end of string |
 | `"QA Manager"` | `["qa"]` | True | case-insensitive |
-| `"salesforce automation"` | `["sales"]` | **False** | \bsales\b fails at "s+f" boundary — core regression |
+| `"salesforce automation"` | `["sales"]` | **False** | \bsales\b fails at "s+f" boundary - core regression |
 | `"qae platform manager"` | `["qa"]` | **False** | qa ≠ qae, word boundary prevents partial match |
 | `""` | `["qa"]` | False | empty text |
 | `"engineering manager"` | `[]` | False | empty term list |
@@ -130,7 +130,7 @@ Wraps `re.search(r"\b<term>\b", text, re.IGNORECASE)` across a list of terms. Re
 ```
 "lead-free solder engineer" + ["lead"] → True
 ```
-`\b` matches at hyphen boundaries — "lead" before "-" has a word boundary. This is correct and expected behavior.
+`\b` matches at hyphen boundaries - "lead" before "-" has a word boundary. This is correct and expected behavior.
 
 **test_multiple_terms_returns_true_on_first_match**
 ```
@@ -144,11 +144,11 @@ Wraps `re.search(r"\b<term>\b", text, re.IGNORECASE)` across a list of terms. Re
 
 Two-stage gate: (1) blacklist word-boundary check on title+company+location, (2) junior role sniper via regex.
 
-**test_empty_list_returns_two_empty_lists** — returns `([], [])`, no crash
+**test_empty_list_returns_two_empty_lists** - returns `([], [])`, no crash
 
-**test_clean_role_passes_through** — "Engineering Manager - QA" → clean=1, sniped=0
+**test_clean_role_passes_through** - "Engineering Manager - QA" → clean=1, sniped=0
 
-**test_multiple_clean_roles_all_pass** — 3 clean titles → clean=3, sniped=0
+**test_multiple_clean_roles_all_pass** - 3 clean titles → clean=3, sniped=0
 
 #### Junior/associate sniper (4 parametrized)
 
@@ -163,8 +163,8 @@ Two-stage gate: (1) blacklist word-boundary check on title+company+location, (2)
 
 | Title | Result |
 |-------|--------|
-| `Senior Associate QA Manager` | passes — "Senior" prefix overrides "Associate" |
-| `Lead Associate Engineering Manager` | passes — "Lead" prefix overrides "Associate" |
+| `Senior Associate QA Manager` | passes - "Senior" prefix overrides "Associate" |
+| `Lead Associate Engineering Manager` | passes - "Lead" prefix overrides "Associate" |
 
 #### Blacklist field coverage (3 tests)
 
@@ -186,12 +186,12 @@ Word boundary prevents "sales" matching inside "Salesforce". Mirrors the `has_wo
 → clean=2, sniped=2
 ```
 
-**test_sniped_job_has_reason_field** — `sniped_reason` key present on sniped jobs
-**test_clean_job_has_no_sniped_reason** — `sniped_reason` key absent on clean jobs
+**test_sniped_job_has_reason_field** - `sniped_reason` key present on sniped jobs
+**test_clean_job_has_no_sniped_reason** - `sniped_reason` key absent on clean jobs
 
 ---
 
-## test_history.py — 9 tests
+## test_history.py - 9 tests
 
 ### TestLoadHistory (5 tests)
 `load_history(path) → list`
@@ -204,23 +204,23 @@ Word boundary prevents "sales" matching inside "Salesforce". Mirrors the `has_wo
 | `test_returns_correct_data_from_valid_file` | valid JSON array | correct data returned |
 | `test_returns_empty_list_on_oserror` | mocked OSError on open | `[]` |
 
-All failure modes return `[]` — pipeline never crashes on bad history state.
+All failure modes return `[]` - pipeline never crashes on bad history state.
 
 ### TestSaveHistory (4 tests)
 `save_history(history, path, max_history=2000) → None`
 
-**test_saves_history_correctly** — written file is valid JSON, contains expected entries
+**test_saves_history_correctly** - written file is valid JSON, contains expected entries
 
-**test_trims_to_max_history_limit** — 15 entries written with max_history=10 → file contains exactly 10
+**test_trims_to_max_history_limit** - 15 entries written with max_history=10 → file contains exactly 10
 
 **test_keeps_newest_entries_when_trimming**
-Critical behavioral contract: when trimming, the NEWEST entries survive, not the oldest. Verifies `history[-max_history:]` semantics — oldest entries are discarded first.
+Critical behavioral contract: when trimming, the NEWEST entries survive, not the oldest. Verifies `history[-max_history:]` semantics - oldest entries are discarded first.
 
-**test_default_max_history_is_2000** — calling without max_history arg → file contains all 2000 entries
+**test_default_max_history_is_2000** - calling without max_history arg → file contains all 2000 entries
 
 ---
 
-## test_fetchers.py — 21 tests
+## test_fetchers.py - 21 tests
 
 All HTTP calls mocked at `requests.get` and `feedparser.parse` boundaries only. Internal parsing logic tested against realistic payloads.
 
@@ -261,7 +261,7 @@ Covers 3 ATS platforms, each with a different JSON schema:
 | Lever | `[{"text": ..., "hostedUrl": ...}]` (root list) | `job_url = hostedUrl` |
 | Ashby | `{"jobs": [{"job_url": ...}]}` | `job_url = job_url` |
 
-Lever is the oddball — it returns a list at root, not an object. This test prevents the parser from assuming `response["jobs"]` exists.
+Lever is the oddball - it returns a list at root, not an object. This test prevents the parser from assuming `response["jobs"]` exists.
 
 | Test | Condition | Expected |
 |------|-----------|---------|
@@ -272,7 +272,7 @@ Lever is the oddball — it returns a list at root, not an object. This test pre
 
 ---
 
-## test_categorization.py — 12 tests
+## test_categorization.py - 12 tests
 
 ### TestCategorizeJob
 `categorize_job(title, loc, country, india_code, global_loc, remote_signals, global_remote_signals, india_city_aliases, residency_signals) → (bucket, signal) | (None, None)`
@@ -293,18 +293,18 @@ Lever is the oddball — it returns a list at root, not an object. This test pre
 
 | Test | Location | Country | Expected bucket | Signal |
 |------|----------|---------|----------------|--------|
-| india city + remote | `"pune remote"` | `in` | `local` | — |
-| india city only | `"pune, india"` | `in` | `local` | — |
+| india city + remote | `"pune remote"` | `in` | `local` | - |
+| india city only | `"pune, india"` | `in` | `local` | - |
 | india remote only | `"remote"` | `in` | `india_remote` | `India-WFA` |
 | india city + hybrid (no remote) | `"pune hybrid"` | `in` | `local` | `None` |
 | global signal in india city | `"pune remote timezone agnostic"` | `in` | `global_remote` | `Global-In-India` |
 | worldwide country | `"remote"` | `worldwide` | `global_remote` | `Worldwide Task` |
-| global signal, non-india | `"remote fully remote"` | `us` | `global_remote` | — |
+| global signal, non-india | `"remote fully remote"` | `us` | `global_remote` | - |
 | residency in title | title=`"must reside in the us"` | `in` | `None` | `None` |
 | residency in location | `"remote us citizen only"` | `in` | `None` | `None` |
-| no signal, no city | `"singapore"` | `sg` | `None` | — |
-| "pan india" (city alias, no remote) | `"pan india"` | `in` | `local` | — |
-| "wfh" (remote signal only) | `"wfh"` | `in` | `india_remote` | — |
+| no signal, no city | `"singapore"` | `sg` | `None` | - |
+| "pan india" (city alias, no remote) | `"pan india"` | `in` | `local` | - |
+| "wfh" (remote signal only) | `"wfh"` | `in` | `india_remote` | - |
 
 **Key invariants validated:**
 - City match always wins over remote signal → `local` (not `india_remote`)
@@ -314,7 +314,7 @@ Lever is the oddball — it returns a list at root, not an object. This test pre
 
 ---
 
-## test_contracts.py — 6 tests
+## test_contracts.py - 6 tests
 
 ### TestJobSchema (3 tests)
 Cross-cutting schema validation: every fetcher type must produce dicts containing all required keys.
@@ -323,7 +323,7 @@ Cross-cutting schema validation: every fetcher type must produce dicts containin
 JOB_SCHEMA_KEYS = {"title", "company", "location", "job_url", "source"}
 ```
 
-Tests run realistic mocked payloads through the full parse pipeline — not just format checks on hand-constructed dicts.
+Tests run realistic mocked payloads through the full parse pipeline - not just format checks on hand-constructed dicts.
 
 | Test | Fetcher |
 |------|---------|
@@ -332,7 +332,7 @@ Tests run realistic mocked payloads through the full parse pipeline — not just
 | `test_fetch_ats_output_has_all_required_keys` | `fetch_ats` (Greenhouse) |
 
 ### TestDeduplicationIntegrity (3 tests)
-MD5 hashing properties — correctness of the dedup key generation.
+MD5 hashing properties - correctness of the dedup key generation.
 
 | Test | Assertion |
 |------|-----------|
@@ -344,7 +344,7 @@ These are algorithm-level contracts, not implementation-level: they validate the
 
 ---
 
-## test_performance.py — 2 tests
+## test_performance.py - 2 tests
 
 ### TestPerformance
 SLA assertions. If either fails, the pipeline cannot process a full daily run within CI time limits.
@@ -353,13 +353,13 @@ SLA assertions. If either fails, the pipeline cannot process a full daily run wi
 ```python
 5000 job dicts → finalize_list → must complete in < 2.0s
 ```
-Represents a worst-case daily batch (actual volume typically 50–500). Validates that regex compilation overhead and per-job iteration stay linear at scale.
+Represents a worst-case daily batch (actual volume typically 50-500). Validates that regex compilation overhead and per-job iteration stay linear at scale.
 
 **test_has_word_match_realistic_blacklist_under_1_second**
 ```python
 50-term blacklist × 10,000 iterations → must complete in < 1.0s
 ```
-50 terms mirrors the real blacklist size. 10,000 iterations represents repeated calls across a full pipeline run with multiple sources. Validates that regex execution per term stays fast at realistic scale — not a microbenchmark, not an unrealistic stress test.
+50 terms mirrors the real blacklist size. 10,000 iterations represents repeated calls across a full pipeline run with multiple sources. Validates that regex execution per term stays fast at realistic scale - not a microbenchmark, not an unrealistic stress test.
 
 ---
 
@@ -389,7 +389,7 @@ uv run python -m pytest tests/ -v --ignore=tests/test_performance.py
 ```python
 result = subprocess.run(["uv", "run", "python", "-m", "pytest", "tests/", "-q"], ...)
 if result.returncode != 0:
-    raise DeploymentError("Tests failed — push blocked")
+    raise DeploymentError("Tests failed - push blocked")
 ```
 
 ## Coverage map
@@ -405,4 +405,4 @@ if result.returncode != 0:
 | `fetch_ats` | test_fetchers, test_contracts | ~95% |
 | `categorize_job` | test_categorization | ~90% |
 | MD5 dedup | test_contracts | 100% |
-| Perf SLAs | test_performance | — |
+| Perf SLAs | test_performance | - |

@@ -13,7 +13,7 @@ from datetime import datetime
 import os
 import sys
 import concurrent.futures
-from html import escape as _html_escape  # module-level alias — NOT `import html`, because send_email
+from html import escape as _html_escape  # module-level alias - NOT `import html`, because send_email
                                          # uses a local variable named `html` that would shadow the module.
 
 try:
@@ -108,7 +108,7 @@ def finalize_list(job_list, blacklist):
                 reason = f"Blacklist: {b}"
                 break
         if not reason:
-            # Word-boundary (\b) matching — NOT substring — so "associate" never trips on "associated".
+            # Word-boundary (\b) matching - NOT substring - so "associate" never trips on "associated".
             if has_word_match(t, ["assistant", "junior", "trainee", "associate"]):
                 if not has_word_match(t, ["senior associate", "lead associate"]):
                     reason = "Junior/Associate Role"
@@ -260,7 +260,7 @@ def fetch_global_intelligence(config, levels, domains):
 def send_email(subject, jobs, config):
     if not jobs: return False
     # Escape scraped values before embedding in HTML (e.g. "R&D", "QA <Contract>"). Uses the
-    # module-level _html_escape alias — the local `html` string var below shadows the html module.
+    # module-level _html_escape alias - the local `html` string var below shadows the html module.
     def esc(v):
         return _html_escape(str(v if v is not None else ""))
     sender_email = config["email"]["sender_email"]
@@ -393,7 +393,7 @@ def run():
     remote_signals = [r.lower() for r in config["search"].get("remote_signals", [])]
     global_remote_signals = [gs.lower() for gs in config["search"].get("global_remote_signals", [])]
     # PARKED (2026-06-10): global_hubs / india_sites / global_sites / hub_map / deep_scrape_* config keys
-    # are intentionally NOT loaded here — no feature wires them yet. Keys kept + annotated in the YAML.
+    # are intentionally NOT loaded here - no feature wires them yet. Keys kept + annotated in the YAML.
     # Re-add the load line when the corresponding feature is built.
 
     found_local = []
@@ -517,7 +517,7 @@ def run():
                     
 
 
-                    # A+B APPLICABILITY GATE — extracted to module-level india_is_applicable() (unit-tested).
+                    # A+B APPLICABILITY GATE - extracted to module-level india_is_applicable() (unit-tested).
                     # block_anchors intentionally NOT passed yet (Step 2); behaviour is identical for now.
                     if not india_is_applicable(title_str, loc_str, levels, domains, blacklist, india_block_anchors):
                         continue

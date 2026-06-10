@@ -1,5 +1,5 @@
 """
-deploy.py — the only authorized deployment path for this repo.
+deploy.py - the only authorized deployment path for this repo.
 
 Every push runs:
   1. Syntax/import check
@@ -63,7 +63,7 @@ def audit():
     if res.stdout:
         print(res.stdout[-2000:])
     if res.returncode != 0:
-        log("Test Suite: FAILED — push blocked.", False)
+        log("Test Suite: FAILED - push blocked.", False)
         return False
     log("Test Suite: ALL PASSED.")
 
@@ -79,11 +79,11 @@ def audit():
         return False
     log("Sanity Check: Logic Executable.")
 
-    # 4. Hardcode audit — strategy data must live in YAML, not in code
+    # 4. Hardcode audit - strategy data must live in YAML, not in code
     with open(BOT_SCRIPT, "r", encoding="utf-8") as f:
         content = f.read()
     if re.search(r'\["[^"]+",\s*"[^"]+",\s*"[^"]+"\]', content):
-        log("Hardcode Audit: FAILED (long lists found in code — move to YAML).", False)
+        log("Hardcode Audit: FAILED (long lists found in code - move to YAML).", False)
         return False
     log("Hardcode Audit: Clean.")
 

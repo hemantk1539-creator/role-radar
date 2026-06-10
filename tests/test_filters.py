@@ -4,7 +4,7 @@ from job_alert_bot_github import is_match, has_word_match, finalize_list, india_
 
 
 class TestIsMatch:
-    """Title qualification gate — must have seniority AND domain, no block anchors."""
+    """Title qualification gate - must have seniority AND domain, no block anchors."""
 
     @pytest.mark.parametrize("title", [
         "Engineering Manager - QA",
@@ -37,7 +37,7 @@ class TestIsMatch:
         assert is_match("Product Quality Engineering Manager", LEVELS, DOMAINS, BLOCK_ANCHORS) is False
 
     def test_block_anchor_substring_does_not_block(self):
-        # \bprod\b does NOT match "productivity" — word boundary after "prod" fails
+        # \bprod\b does NOT match "productivity" - word boundary after "prod" fails
         # so the title passes through (is_match returns True, not blocked)
         anchors = ["prod"]
         assert is_match("Quality Engineering Manager Productivity Tools", LEVELS, DOMAINS, anchors) is True
@@ -55,15 +55,15 @@ class TestIsMatch:
 
 
 class TestHasWordMatch:
-    """Word boundary matcher — prevents substring false positives."""
+    """Word boundary matcher - prevents substring false positives."""
 
     @pytest.mark.parametrize("text,terms,expected", [
         ("head of qa", ["qa"], True),               # exact match mid-string
         ("qa manager", ["qa"], True),               # match at start
         ("engineering qa", ["qa"], True),           # match at end
         ("QA Manager", ["qa"], True),               # case insensitive
-        ("salesforce automation", ["sales"], False), # v3.2.1 regression — word boundary
-        ("qae platform manager", ["qa"], False),    # partial word — qa != qae
+        ("salesforce automation", ["sales"], False), # v3.2.1 regression - word boundary
+        ("qae platform manager", ["qa"], False),    # partial word - qa != qae
         ("", ["qa"], False),                        # empty text
         ("engineering manager", [], False),         # empty term list
         ("recruiter staffing firm", ["sales"], False),  # no match
@@ -75,14 +75,14 @@ class TestHasWordMatch:
     def test_hyphenated_compound_does_not_bleed(self):
         # "lead" should not match "lead-free" as a boundary issue
         assert has_word_match("lead-free solder engineer", ["lead"]) is True
-        # \b matches at hyphen boundary — this is correct expected behavior
+        # \b matches at hyphen boundary - this is correct expected behavior
 
     def test_multiple_terms_returns_true_on_first_match(self):
         assert has_word_match("qa manager", ["sdet", "qa", "automation"]) is True
 
 
 class TestFinalizeList:
-    """Final quality gate — blacklist + junior role sniper."""
+    """Final quality gate - blacklist + junior role sniper."""
 
     def test_empty_list_returns_two_empty_lists(self, blacklist):
         clean, sniped = finalize_list([], blacklist)

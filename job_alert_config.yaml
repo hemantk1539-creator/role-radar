@@ -48,7 +48,7 @@ search:
     "Chennai", "OMR", "Ahmedabad"
   ]
 
-  # MANDATE 3: Global Grid Hubs — PARKED 2026-06-10 (not loaded/wired in code; kept for future global-search expansion).
+  # MANDATE 3: Global Grid Hubs - PARKED 2026-06-10 (not loaded/wired in code; kept for future global-search expansion).
   global_hubs: ["worldwide", "united states", "united kingdom", "canada", "australia", "singapore", "germany", "ireland", "netherlands", "united arab emirates", "malaysia", "new zealand"]
 
   # --- GLOBAL ATLAS (POWER 6 HUBS) ---
@@ -110,7 +110,7 @@ search:
   ]
 
   # SITE PROTECTION
-  # "naukri" is parked here (dead since ~Mar 2026, 406 reCAPTCHA on Azure IPs) — the site-filter
+  # "naukri" is parked here (dead since ~Mar 2026, 406 reCAPTCHA on Azure IPs) - the site-filter
   # strips it from every task, so no Naukri API calls run (faster build) and LinkedIn auto-decouples
   # from naukri_results_wanted. All Naukri code is intact; re-enable by removing "naukri" below.
   blocked_sites: ["glassdoor", "bayt", "zip_recruiter", "naukri"]
@@ -118,7 +118,7 @@ search:
   # GLOBAL SNIPER ANCHORS
   global_block_anchors: ["product", "project", "program", "sap", "scrum", "account", "sales", "marketing", "finance", "compliance", "research", "grc", "legal"]
 
-  # INDIA NEGATIVE-DOMAIN ANCHORS — physical / manufacturing / hardware / contract, NOT software.
+  # INDIA NEGATIVE-DOMAIN ANCHORS - physical / manufacturing / hardware / contract, NOT software.
   # Phrase-based on purpose: blocks "food quality" but NOT a software-QA role at a food-delivery co.
   # NOT imported into the global pipeline (global has its own anchors). Word-boundary matched.
   india_block_anchors: [
@@ -133,7 +133,7 @@ search:
   # TIMING & DEPTH (v2.9 Precision Freshness)
   results_wanted: 30
   naukri_results_wanted: 50
-  indeed_results_wanted: 30  # PARKED 2026-06-10 — not wired (Indeed uses results_wanted); kept for future.
+  indeed_results_wanted: 30  # PARKED 2026-06-10 - not wired (Indeed uses results_wanted); kept for future.
   hours_old: 24
   global_hours_old: 72
 
@@ -143,13 +143,13 @@ search:
   residency_signals: ["us citizen", "green card", "authorized to work in the us", "us only", "uk resident", "eu citizen", "permanent resident", "visa sponsorship not available", "no sponsorship", "citizen only", "residency required", "must reside in the us", "must reside in the uk", "must be based in", "right to work", "eligible to work", "c2c", "corp to corp", "w2 only"]
   
   india_country_code: "in"
-  # PARKED 2026-06-10 — india_sites/global_sites not loaded/wired (tasks hardcode their sites); kept for future.
+  # PARKED 2026-06-10 - india_sites/global_sites not loaded/wired (tasks hardcode their sites); kept for future.
   india_sites: ["linkedin", "naukri", "indeed"]
   global_sites: ["linkedin", "indeed"]
   max_history: 5000
 
   # --- EMAIL UI STRATEGY (Diamond Format) ---
-  # global_hub_map — PARKED 2026-06-10 (loaded but unused in send_email; kept for future hub labeling).
+  # global_hub_map - PARKED 2026-06-10 (loaded but unused in send_email; kept for future hub labeling).
   global_hub_map:
     "himalayas": "Hub 1: The Universe (Aggregators)"
     "remotive": "Hub 1: The Universe (Aggregators)"
