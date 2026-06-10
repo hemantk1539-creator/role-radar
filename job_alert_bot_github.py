@@ -13,6 +13,7 @@ from datetime import datetime
 import os
 import sys
 import concurrent.futures
+import html
 
 try:
     from jobspy import scrape_jobs
@@ -257,6 +258,9 @@ def fetch_global_intelligence(config, levels, domains):
 
 def send_email(subject, jobs, config):
     if not jobs: return False
+    # Escape scraped, user-facing values before embedding in HTML (e.g. "R&D", "QA <Contract>").
+    def esc(v):
+        return html.escape(str(v if v is not None else ""))
     sender_email = config["email"]["sender_email"]
     sender_password = os.environ.get("GMAIL_APP_PASSWORD") or config["email"].get("app_password")
     recipient_email = config["email"]["recipient_email"]
@@ -270,7 +274,6 @@ def send_email(subject, jobs, config):
     msg["Subject"] = subject
     
     # LOAD UI STRATEGY FROM CONFIG
-    hub_map = config["search"].get("global_hub_map", {})
     india_tier_cfg = config["search"].get("india_tiers", {})
     global_tier_cfg = config["search"].get("global_tiers", {})
 
@@ -298,11 +301,11 @@ def send_email(subject, jobs, config):
             html += f"<tr style='background-color: {t_info['color']}; color: white;'><th>Title</th><th>Company</th><th>Location</th><th>Signal</th><th style='width: 80px;'>Action</th></tr>"
             for job in tiers[t_key]:
                 html += f"<tr style='border-bottom: 1px solid #eee;'>"
-                html += f"<td><b>{job.get('title')}</b></td>"
-                html += f"<td>{job.get('company')}</td>"
-                html += f"<td>{job.get('location')}</td>"
-                html += f"<td style='color: #7f8c8d; font-size: 0.85em;'>{job.get('signal')}</td>"
-                html += f"<td style='text-align: center;'><a href='{job.get('job_url')}' style='background-color: {t_info['color']}; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.85em;'>{t_info['btn']}</a></td>"
+                html += f"<td><b>{esc(job.get('title'))}</b></td>"
+                html += f"<td>{esc(job.get('company'))}</td>"
+                html += f"<td>{esc(job.get('location'))}</td>"
+                html += f"<td style='color: #7f8c8d; font-size: 0.85em;'>{esc(job.get('signal'))}</td>"
+                html += f"<td style='text-align: center;'><a href='{esc(job.get('job_url'))}' style='background-color: {t_info['color']}; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.85em;'>{t_info['btn']}</a></td>"
                 html += f"</tr>"
             html += "</table></div>"
     else:
@@ -323,11 +326,11 @@ def send_email(subject, jobs, config):
             html += f"<tr style='background-color: {t_data['color']}; color: white;'><th>Title</th><th>Company</th><th>Location (Signal)</th><th>Site</th><th style='width: 80px;'>Action</th></tr>"
             for job in in_jobs[p_key]:
                 html += f"<tr style='border-bottom: 1px solid #eee;'>"
-                html += f"<td><b>{job.get('title')}</b></td>"
-                html += f"<td>{job.get('company')}</td>"
-                html += f"<td style='color: #666; font-size: 0.9em;'>{job.get('location')}</td>"
-                html += f"<td style='color: #7f8c8d; font-size: 0.85em; text-transform: capitalize;'>{job.get('site')}</td>"
-                html += f"<td style='text-align: center;'><a href='{job.get('job_url')}' style='background-color: #3498db; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.85em;'>Apply</a></td>"
+                html += f"<td><b>{esc(job.get('title'))}</b></td>"
+                html += f"<td>{esc(job.get('company'))}</td>"
+                html += f"<td style='color: #666; font-size: 0.9em;'>{esc(job.get('location'))}</td>"
+                html += f"<td style='color: #7f8c8d; font-size: 0.85em; text-transform: capitalize;'>{esc(job.get('site'))}</td>"
+                html += f"<td style='text-align: center;'><a href='{esc(job.get('job_url'))}' style='background-color: #3498db; color: white; padding: 6px 12px; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 0.85em;'>Apply</a></td>"
                 html += f"</tr>"
             html += "</table></div>"
     
@@ -375,7 +378,6 @@ def run():
     search_terms = config["search"]["search_terms"]
     india_search_cities = config["search"].get("india_search_cities", [])
     india_city_aliases = [c.lower() for c in config["search"].get("india_city_aliases", [])]
-    global_hubs = config["search"]["global_hubs"]
     blacklist = [b.lower() for b in config["search"]["blacklist"]]
     # JD Sniper Terms (Rule 9)
     residency_signals = [r.lower() for r in config["search"].get("residency_signals", [])]
@@ -388,15 +390,9 @@ def run():
     global_loc = config["search"].get("global_search_loc", "Remote")
     remote_signals = [r.lower() for r in config["search"].get("remote_signals", [])]
     global_remote_signals = [gs.lower() for gs in config["search"].get("global_remote_signals", [])]
-    india_sites = config["search"].get("india_sites", [])
-    global_sites = config["search"].get("global_sites", [])
-    hub_map_config = config["search"].get("hub_map", {})
-    
-    # DEEP DIVE CONFIG (Zero-Yield Hubs)
-    deep_scrape_hubs = [h.lower() for h in config["search"].get("deep_scrape_hubs", [])]
-    deep_scrape_limit = config["search"].get("deep_scrape_limit", 5)
-    deep_scrape_keyword = config["search"].get("deep_scrape_keyword", "remote")
-    deep_scrape_description_check = config["search"].get("deep_scrape_description_check", False)
+    # PARKED (2026-06-10): global_hubs / india_sites / global_sites / hub_map / deep_scrape_* config keys
+    # are intentionally NOT loaded here — no feature wires them yet. Keys kept + annotated in the YAML.
+    # Re-add the load line when the corresponding feature is built.
 
     found_local = []
     found_india_remote = []
@@ -554,7 +550,7 @@ def run():
                             found_local.append(job)
                         elif bucket == "india_remote":
                             found_india_remote.append(job)
-                    india_kept += 1
+                        india_kept += 1  # count only bucketed roles (was overcounting no-bucket drops)
             except Exception as e:
                 print(f"    [THREAD ERROR] Worker failed: {str(e)[:100]}")
                 continue
