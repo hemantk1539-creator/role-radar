@@ -110,10 +110,25 @@ search:
   ]
 
   # SITE PROTECTION
-  blocked_sites: ["glassdoor", "bayt", "zip_recruiter"]
+  # "naukri" is parked here (dead since ~Mar 2026, 406 reCAPTCHA on Azure IPs) — the site-filter
+  # strips it from every task, so no Naukri API calls run (faster build) and LinkedIn auto-decouples
+  # from naukri_results_wanted. All Naukri code is intact; re-enable by removing "naukri" below.
+  blocked_sites: ["glassdoor", "bayt", "zip_recruiter", "naukri"]
   
   # GLOBAL SNIPER ANCHORS
   global_block_anchors: ["product", "project", "program", "sap", "scrum", "account", "sales", "marketing", "finance", "compliance", "research", "grc", "legal"]
+
+  # INDIA NEGATIVE-DOMAIN ANCHORS — physical / manufacturing / hardware / contract, NOT software.
+  # Phrase-based on purpose: blocks "food quality" but NOT a software-QA role at a food-delivery co.
+  # NOT imported into the global pipeline (global has its own anchors). Word-boundary matched.
+  india_block_anchors: [
+    "food quality", "food safety", "consumer products", "consumer goods", "customer quality",
+    "weld", "valve", "valves", "casting", "foundry", "machining",
+    "garment", "textile", "mechanical", "civil", "chemical",
+    "embedded systems", "semiconductor", "silicon", "vlsi", "wafer",
+    "supplier quality", "incoming quality", "gtm", "go-to-market", "go to market",
+    "c2c", "corp to corp", "contract to hire", "walk-in", "walkin"
+  ]
 
   # TIMING & DEPTH (v2.9 Precision Freshness)
   results_wanted: 30

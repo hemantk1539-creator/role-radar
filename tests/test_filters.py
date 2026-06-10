@@ -1,6 +1,6 @@
 import pytest
 from conftest import LEVELS, DOMAINS, BLOCK_ANCHORS, BLACKLIST
-from job_alert_bot_github import is_match, has_word_match, finalize_list
+from job_alert_bot_github import is_match, has_word_match, finalize_list, india_is_applicable
 
 
 class TestIsMatch:
@@ -153,3 +153,72 @@ class TestFinalizeList:
     def test_clean_job_has_no_sniped_reason(self, job_factory, blacklist):
         clean, _ = finalize_list([job_factory()], blacklist)
         assert "sniped_reason" not in clean[0]
+
+    def test_substring_does_not_false_snipe_associated(self, job_factory, blacklist):
+        # \b regression: "associate" must NOT trip on "Associated" (substring would have sniped it)
+        clean, sniped = finalize_list([job_factory(title="QA Manager, Associated Systems")], blacklist)
+        assert len(clean) == 1 and len(sniped) == 0
+
+
+class TestIndiaIsApplicable:
+    """India-side keep/drop gate, extracted from run() (Step 1).
+
+    Step-1 invariant: with no block_anchors passed, behaviour MUST equal the old inline gate
+    (blacklist on title/location + seniority AND domain on title).
+    """
+
+    def test_senior_qa_role_kept(self):
+        assert india_is_applicable("engineering manager - qa", "pune, india",
+                                   LEVELS, DOMAINS, BLACKLIST) is True
+
+    def test_director_quality_kept(self):
+        assert india_is_applicable("director of quality", "bengaluru, india",
+                                   LEVELS, DOMAINS, BLACKLIST) is True
+
+    def test_blacklist_in_title_dropped(self):
+        assert india_is_applicable("sales quality manager", "pune, india",
+                                   LEVELS, DOMAINS, BLACKLIST) is False
+
+    def test_blacklist_in_location_dropped(self):
+        assert india_is_applicable("engineering manager qa", "staffing agency, mumbai",
+                                   LEVELS, DOMAINS, BLACKLIST) is False
+
+    def test_no_seniority_dropped(self):
+        assert india_is_applicable("qa analyst", "pune, india",
+                                   LEVELS, DOMAINS, BLACKLIST) is False
+
+    def test_no_domain_dropped(self):
+        assert india_is_applicable("engineering manager - product", "pune, india",
+                                   LEVELS, DOMAINS, BLACKLIST) is False
+
+    def test_empty_block_anchors_changes_nothing(self):
+        # Behaviour-identical guarantee for Step 1
+        assert india_is_applicable("engineering manager qa", "pune, india",
+                                   LEVELS, DOMAINS, BLACKLIST, []) is True
+
+    def test_block_anchor_drops_when_populated(self):
+        # Forward-check for Step 2: a populated anchor drops an otherwise-valid title
+        assert india_is_applicable("quality manager - food quality", "pune, india",
+                                   LEVELS, DOMAINS, BLACKLIST, ["food quality"]) is False
+
+    def test_block_anchor_leaves_clean_software_role_untouched(self):
+        assert india_is_applicable("qa automation manager", "pune, india",
+                                   LEVELS, DOMAINS, BLACKLIST, ["food quality", "motor"]) is True
+
+    @pytest.mark.parametrize("title", [
+        "quality manager - food quality",
+        "test manager - supplier quality",
+        "qa manager (c2c)",
+        "automation lead - semiconductor",
+        "quality lead - consumer products",
+    ])
+    def test_wired_anchors_drop_noise(self, title):
+        anchors = ["food quality", "supplier quality", "c2c", "semiconductor", "consumer products"]
+        assert india_is_applicable(title, "bengaluru, india",
+                                   LEVELS, DOMAINS, BLACKLIST, anchors) is False
+
+    def test_wired_anchors_keep_software_roles(self):
+        anchors = ["food quality", "supplier quality", "c2c", "semiconductor", "embedded systems"]
+        for title in ["staff sdet - platform", "director of quality", "qe manager", "head of test automation"]:
+            assert india_is_applicable(title, "bengaluru, india",
+                                       LEVELS, DOMAINS, BLACKLIST, anchors) is True

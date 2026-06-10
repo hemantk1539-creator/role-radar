@@ -68,6 +68,30 @@ def has_word_match(text, term_list):
             return True
     return False
 
+def india_is_applicable(title_str, loc_str, levels, domains, blacklist, block_anchors=()):
+    """India-side applicability gate (pure, unit-tested).
+
+    Mirrors the global is_match() contract for the India pipeline, which previously
+    duplicated this logic inline inside run(). Returns True to KEEP a role, False to DROP.
+
+      A.  blacklist hit on title OR location          -> drop
+      B.  needs a seniority word AND a domain word     -> else drop
+      B2. negative-domain block_anchors hit on title   -> drop
+          (defaults to empty = NO-OP; populated in a later step for noise filtering)
+
+    Inputs are expected pre-lowercased by the caller; has_word_match is case-insensitive anyway.
+    """
+    # A. HUB-APPLICABILITY GUARD
+    if has_word_match(title_str, blacklist) or has_word_match(loc_str, blacklist):
+        return False
+    # B. SENIORITY + DOMAIN WHITELIST (strict word boundaries)
+    if not (has_word_match(title_str, levels) and has_word_match(title_str, domains)):
+        return False
+    # B2. NEGATIVE-DOMAIN BLOCK ANCHORS (no-op until populated in Step 2)
+    if block_anchors and has_word_match(title_str, block_anchors):
+        return False
+    return True
+
 def finalize_list(job_list, blacklist):
     clean_list = []
     sniped_list = []
@@ -82,8 +106,9 @@ def finalize_list(job_list, blacklist):
                 reason = f"Blacklist: {b}"
                 break
         if not reason:
-            if any(jr in t for jr in ["assistant", "junior", "trainee", "associate"]):
-                if not ("senior associate" in t or "lead associate" in t):
+            # Word-boundary (\b) matching — NOT substring — so "associate" never trips on "associated".
+            if has_word_match(t, ["assistant", "junior", "trainee", "associate"]):
+                if not has_word_match(t, ["senior associate", "lead associate"]):
                     reason = "Junior/Associate Role"
         if reason:
             j['sniped_reason'] = reason
@@ -357,6 +382,7 @@ def run():
     
     levels = [l.lower() for l in config["search"]["levels"]]
     domains = [d.lower() for d in config["search"]["domains"]]
+    india_block_anchors = [b.lower() for b in config["search"].get("india_block_anchors", [])]
     blocked_sites = config["search"].get("blocked_sites", [])
     india_code = config["search"].get("india_country_code", "in")
     global_loc = config["search"].get("global_search_loc", "Remote")
@@ -493,12 +519,9 @@ def run():
                     
 
 
-                    # A. HUB-APPLICABILITY GUARD
-                    if has_word_match(title_str, blacklist) or has_word_match(loc_str, blacklist):
-                        continue
-
-                    # B. SENIORITY WHITELIST (Strict Word Boundaries)
-                    if not (has_word_match(title_str, levels) and has_word_match(title_str, domains)):
+                    # A+B APPLICABILITY GATE — extracted to module-level india_is_applicable() (unit-tested).
+                    # block_anchors intentionally NOT passed yet (Step 2); behaviour is identical for now.
+                    if not india_is_applicable(title_str, loc_str, levels, domains, blacklist, india_block_anchors):
                         continue
                         
                     # C. ID & CATEGORIZATION
