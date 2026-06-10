@@ -13,7 +13,8 @@ from datetime import datetime
 import os
 import sys
 import concurrent.futures
-import html
+from html import escape as _html_escape  # module-level alias — NOT `import html`, because send_email
+                                         # uses a local variable named `html` that would shadow the module.
 
 try:
     from jobspy import scrape_jobs
@@ -258,9 +259,10 @@ def fetch_global_intelligence(config, levels, domains):
 
 def send_email(subject, jobs, config):
     if not jobs: return False
-    # Escape scraped, user-facing values before embedding in HTML (e.g. "R&D", "QA <Contract>").
+    # Escape scraped values before embedding in HTML (e.g. "R&D", "QA <Contract>"). Uses the
+    # module-level _html_escape alias — the local `html` string var below shadows the html module.
     def esc(v):
-        return html.escape(str(v if v is not None else ""))
+        return _html_escape(str(v if v is not None else ""))
     sender_email = config["email"]["sender_email"]
     sender_password = os.environ.get("GMAIL_APP_PASSWORD") or config["email"].get("app_password")
     recipient_email = config["email"]["recipient_email"]
