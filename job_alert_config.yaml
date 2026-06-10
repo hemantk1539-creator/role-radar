@@ -1,9 +1,11 @@
 # Job Alert Configuration - 100% DYNAMIC ARCHITECTURE
 
 email:
-  sender_email: "hemant.k1539@gmail.com"
+  # Real addresses are injected at runtime via SENDER_EMAIL / RECIPIENT_EMAIL env vars
+  # (GitHub Actions secrets). These placeholders keep personal email out of the public repo.
+  sender_email: "your-email@example.com"
   app_password: ""  # set via GMAIL_APP_PASSWORD env var; never hardcode here
-  recipient_email: "hemant.k1539@gmail.com"
+  recipient_email: "your-email@example.com"
 
 search:
   # SENIORITY & DOMAIN ANCHORS (Sniper Verification)

@@ -76,7 +76,8 @@ class TestEmailRendering:
             def __init__(self, *a, **k): pass
             def starttls(self): pass
             def login(self, *a, **k): pass
-            def sendmail(self, frm, to, message): captured["msg"] = message
+            def sendmail(self, frm, to, message):
+                captured["from"] = frm; captured["to"] = to; captured["msg"] = message
             def quit(self): pass
         return FakeSMTP
 
@@ -106,3 +107,15 @@ class TestEmailRendering:
     def test_empty_jobs_returns_false_without_send(self, monkeypatch):
         monkeypatch.setattr("job_alert_bot_github.smtplib.SMTP", self._fake_smtp({}))
         assert send_email("Local Alert: 0", [], self._cfg()) is False
+
+    def test_env_overrides_config_email(self, monkeypatch):
+        # Real addresses come from env (kept out of the public config); env must win over config.
+        captured = {}
+        monkeypatch.setattr("job_alert_bot_github.smtplib.SMTP", self._fake_smtp(captured))
+        monkeypatch.setenv("SENDER_EMAIL", "real-sender@gmail.com")
+        monkeypatch.setenv("RECIPIENT_EMAIL", "real-recipient@gmail.com")
+        jobs = [{"title": "QA Manager", "company": "Acme", "location": "pune", "site": "linkedin",
+                 "job_url": "https://x/9", "signal": "x"}]
+        assert send_email("Local Alert: 1 New City Roles", jobs, self._cfg()) is True
+        assert captured["from"] == "real-sender@gmail.com"
+        assert captured["to"] == "real-recipient@gmail.com"

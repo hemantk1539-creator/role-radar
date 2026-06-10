@@ -263,9 +263,10 @@ def send_email(subject, jobs, config):
     # module-level _html_escape alias - the local `html` string var below shadows the html module.
     def esc(v):
         return _html_escape(str(v if v is not None else ""))
-    sender_email = config["email"]["sender_email"]
+    # Email addresses come from env first (kept out of the public config); config is the fallback.
+    sender_email = os.environ.get("SENDER_EMAIL") or config["email"]["sender_email"]
     sender_password = os.environ.get("GMAIL_APP_PASSWORD") or config["email"].get("app_password")
-    recipient_email = config["email"]["recipient_email"]
+    recipient_email = os.environ.get("RECIPIENT_EMAIL") or config["email"]["recipient_email"]
     if not sender_password or "qwerty" in sender_password: 
         print(f"  [SKIP] Skipping email: Credentials missing.")
         return False
