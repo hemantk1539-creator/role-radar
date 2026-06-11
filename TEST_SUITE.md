@@ -90,7 +90,7 @@ Two-stage gate: (1) blacklist word-boundary check on title + company + location,
 
 - Empty list, single clean role, multiple clean roles.
 - 4 parametrized junior/associate snipes (`Junior`, `Trainee`, `Associate`, `Assistant`).
-- 2 parametrized rescue cases (`Senior Associate ...`, `Lead Associate ...`) pass through.
+- 2 parametrized cases asserting `Senior Associate` / `Lead Associate` titles ARE sniped (the dead senior/lead-associate rescue was removed; the config blacklist contains "associate" and drops them).
 - Blacklist coverage on title / company / location fields.
 - `test_blacklist_substring_does_not_snipe` - `"Salesforce"` survives `["sales"]`.
 - `test_asst_abbreviation_gets_sniped` - `"Asst. Manager QA"` is caught by the `asst` blacklist entry (not by `\bassistant\b`).

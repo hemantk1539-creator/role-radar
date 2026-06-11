@@ -65,9 +65,10 @@ def finalize_list(job_list, blacklist):
                 break
         if not reason:
             # Word-boundary (\b) matching - NOT substring - so "associate" never trips on "associated".
+            # No senior/lead-associate rescue: the config blacklist contains "associate" and runs
+            # first, so the rescue was dead code. Associate-level titles sit below the EM/Director bar.
             if has_word_match(t, ["assistant", "junior", "trainee", "associate"]):
-                if not has_word_match(t, ["senior associate", "lead associate"]):
-                    reason = "Junior/Associate Role"
+                reason = "Junior/Associate Role"
         if reason:
             j['sniped_reason'] = reason
             sniped_list.append(j)

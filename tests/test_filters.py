@@ -115,9 +115,12 @@ class TestFinalizeList:
         "Senior Associate QA Manager",
         "Lead Associate Engineering Manager",
     ])
-    def test_senior_lead_associate_exceptions_pass(self, title, job_factory, blacklist):
-        clean, sniped = finalize_list([job_factory(title=title)], blacklist)
-        assert len(clean) == 1 and len(sniped) == 0
+    def test_senior_lead_associate_are_sniped(self, title, job_factory):
+        # The old senior/lead-associate rescue was removed: it was dead in production because the
+        # real config blacklist contains "associate" and is checked first. Tested with a realistic
+        # blacklist (includes "associate"), not the synthetic fixture that previously hid this.
+        clean, sniped = finalize_list([job_factory(title=title)], ["associate", "sales", "recruiter"])
+        assert len(clean) == 0 and len(sniped) == 1 and "Blacklist" in sniped[0]["sniped_reason"]
 
     def test_blacklist_match_in_title_sniped(self, job_factory, blacklist):
         clean, sniped = finalize_list([job_factory(title="Sales QA Manager")], blacklist)
