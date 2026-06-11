@@ -123,6 +123,11 @@ class TestFinalizeList:
         clean, sniped = finalize_list([job_factory(title="Sales QA Manager")], blacklist)
         assert len(sniped) == 1 and "Blacklist" in sniped[0]["sniped_reason"]
 
+    def test_asst_abbreviation_gets_sniped(self, job_factory):
+        # "Asst." is not caught by \bassistant\b - must live in blacklist as "asst"
+        clean, sniped = finalize_list([job_factory(title="Asst. Manager QA")], ["asst"])
+        assert len(sniped) == 1 and "Blacklist" in sniped[0]["sniped_reason"]
+
     def test_blacklist_match_in_company_sniped(self, job_factory, blacklist):
         clean, sniped = finalize_list([job_factory(company="Recruiter Corp")], blacklist)
         assert len(sniped) == 1
