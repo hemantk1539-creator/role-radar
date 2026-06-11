@@ -58,15 +58,14 @@ flowchart TD
         direction TB
         subgraph G ["Global engine"]
             direction TB
-            GF["fetch hubs in parallel<br/>ATS + RSS + JSON"] --> GM["is_match (in fetcher)<br/>seniority + domain, not blocked"] --> GA["freshness: 72h window"]
+            GF["fetch hubs in parallel<br/>ATS + RSS + JSON"] --> GM["is_match (in fetcher)<br/>seniority + domain, not blocked"] --> GA["freshness: 72h window"] --> GD["dedup (shared seen-set)<br/>MD5(url) + title|company"]
         end
         subgraph I ["India engine"]
             direction TB
-            IJ["jobspy<br/>10 cities x search terms"] --> IA["freshness: 24h window"] --> IAP["india_is_applicable<br/>blacklist + seniority/domain + block-anchor"] --> IC["categorize<br/>local / india_remote / global"]
+            IJ["jobspy<br/>10 cities x search terms"] --> IA["freshness: 24h window"] --> IAP["india_is_applicable<br/>blacklist + seniority/domain + block-anchor"] --> ID["dedup (shared seen-set)<br/>MD5(url) + title|company|location"] --> IC["categorize<br/>local / india_remote / global"]
         end
-        GA --> DEDUP["dedup<br/>MD5(url) + title|company fingerprint"]
-        IC --> DEDUP
-        DEDUP --> FIN["finalize<br/>snipe junior + blacklist"]
+        GD --> FIN["finalize<br/>snipe junior + blacklist"]
+        IC --> FIN
     end
 
     FIN --> MAIL["Gmail SMTP<br/>tiered HTML digest"]
