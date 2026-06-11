@@ -142,6 +142,9 @@ search:
   # PEAK RIGOR FILTERS
   remote_signals: ["remote", "anywhere", "global", "work from home", "wfh", "telecommute", "fully remote", "full remote", "distributed", "virtual", "remote-first", "wfa", "work anywhere", "hybrid", "flexible", "flex", "partially remote", "remote-friendly", "occasional wfh", "remote optional", "blended", "flexible location", "pan india", "anywhere in india", "virtual hiring", "teleworking", "100% remote", "location independent", "remote friendly", "work-from-home"]
   global_remote_signals: ["global", "anywhere", "remote-first", "distributed", "worldwide", "world-wide", "emea", "apac", "virtual", "wfa", "work from anywhere", "work anywhere", "hiring globally", "any country", "no relocation", "timezone agnostic", "time zone agnostic", "planet-scale", "borderless", "work from anywhere in the world"]
+  # categorize_job() routing lists - moved out of inline literals in filters.py so all routing strategy is config-driven (2026-06-11).
+  hybrid_signals: ["hybrid", "flexible", "flex", "partially", "office optional", "wfo"]
+  india_wfh_terms: ["remote", "wfh", "work from home", "telecommute", "pan india"]
   residency_signals: ["us citizen", "green card", "authorized to work in the us", "us only", "uk resident", "eu citizen", "permanent resident", "visa sponsorship not available", "no sponsorship", "citizen only", "residency required", "must reside in the us", "must reside in the uk", "must be based in", "right to work", "eligible to work", "c2c", "corp to corp", "w2 only"]
   
   india_country_code: "in"

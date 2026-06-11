@@ -66,6 +66,8 @@ def run():
     global_loc = config["search"].get("global_search_loc", "Remote")
     remote_signals = [r.lower() for r in config["search"].get("remote_signals", [])]
     global_remote_signals = [gs.lower() for gs in config["search"].get("global_remote_signals", [])]
+    hybrid_signals = [h.lower() for h in config["search"].get("hybrid_signals", [])]
+    india_wfh_terms = [w.lower() for w in config["search"].get("india_wfh_terms", [])]
     # PARKED (2026-06-10): global_hubs / india_sites / global_sites / hub_map / deep_scrape_* config keys
     # are intentionally NOT loaded here - no feature wires them yet. Keys kept + annotated in the YAML.
     # Re-add the load line when the corresponding feature is built.
@@ -217,7 +219,8 @@ def run():
                     # --- 3-BUCKET CATEGORIZATION (v1.3 Intelligence) ---
                     bucket, signal = categorize_job(
                         title_str, loc_str, country_code, india_code, global_loc,
-                        remote_signals, global_remote_signals, india_city_aliases, residency_signals
+                        remote_signals, global_remote_signals, india_city_aliases, residency_signals,
+                        hybrid_signals, india_wfh_terms
                     )
                     if bucket:
                         if signal:

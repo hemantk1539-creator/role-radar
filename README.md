@@ -162,7 +162,7 @@ export GMAIL_APP_PASSWORD="your-gmail-app-password"   # PowerShell: $env:GMAIL_A
 python job_alert_bot_github.py
 ```
 
-Configuration is **100% data-driven**: seniority/domain anchors, block-anchors, city aliases, source URLs, ATS tokens, email tiering, and freshness windows all live in `job_alert_config.yaml`. No strategy is hardcoded in the Python, and a `deploy.py` audit enforces that.
+Configuration is **data-driven**: seniority/domain anchors, block lists, remote/hybrid signals, city aliases, source URLs, ATS tokens, email tiering, and freshness windows all live in `job_alert_config.yaml` rather than in the code, with a `deploy.py` audit as a backstop against literal strategy lists creeping back into the Python.
 
 ## Deployment
 

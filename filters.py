@@ -77,16 +77,17 @@ def finalize_list(job_list, blacklist):
 
 
 def categorize_job(title_str, loc_str, country_code, india_code, global_loc,
-                   remote_signals, global_remote_signals, india_city_aliases, residency_signals):
+                   remote_signals, global_remote_signals, india_city_aliases, residency_signals,
+                   hybrid_signals, india_wfh_terms):
     """Routes a job to a bucket. Returns (bucket, signal) or (None, None) to drop."""
     if any(rs in title_str or rs in loc_str for rs in residency_signals):
         return None, None
     has_global_signal = any(gs in title_str or gs in loc_str for gs in global_remote_signals)
     is_remote_explicit = any(r in loc_str or r in title_str for r in remote_signals)
     is_local_city = any(city in loc_str for city in india_city_aliases if city not in [global_loc.lower(), 'remote'])
-    is_hybrid_signal = any(h in loc_str or h in title_str for h in ["hybrid", "flexible", "flex", "partially", "office optional", "wfo"])
+    is_hybrid_signal = any(h in loc_str or h in title_str for h in hybrid_signals)
     is_india_job = ("india" in loc_str or is_local_city) or \
-                   (country_code == india_code and loc_str.strip() in ["remote", "wfh", "work from home", "telecommute", "pan india"])
+                   (country_code == india_code and loc_str.strip() in india_wfh_terms)
     if is_remote_explicit:
         if country_code == india_code:
             if has_global_signal:

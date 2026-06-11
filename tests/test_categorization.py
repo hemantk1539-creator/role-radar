@@ -1,13 +1,14 @@
 import pytest
 from conftest import (REMOTE_SIGNALS, GLOBAL_REMOTE_SIGNALS, RESIDENCY_SIGNALS,
-                      INDIA_CITY_ALIASES, INDIA_CODE, GLOBAL_LOC)
+                      INDIA_CITY_ALIASES, INDIA_CODE, GLOBAL_LOC, HYBRID_SIGNALS, INDIA_WFH_TERMS)
 from filters import categorize_job
 
 
 def categorize(title="", loc="", country=INDIA_CODE):
     return categorize_job(
         title, loc, country, INDIA_CODE, GLOBAL_LOC,
-        REMOTE_SIGNALS, GLOBAL_REMOTE_SIGNALS, INDIA_CITY_ALIASES, RESIDENCY_SIGNALS
+        REMOTE_SIGNALS, GLOBAL_REMOTE_SIGNALS, INDIA_CITY_ALIASES, RESIDENCY_SIGNALS,
+        HYBRID_SIGNALS, INDIA_WFH_TERMS
     )
 
 
