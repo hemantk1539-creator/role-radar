@@ -115,9 +115,12 @@ Direct pushing is forbidden. `deploy.py` is the only path, and it refuses to shi
 ### 6. Fails soft, never silent
 Every fetcher is wrapped with typed exception handling and a timeout. One dead ATS board or a malformed feed degrades that source to zero results and logs it; it never takes down the run. A monkey-patch around `jobspy`'s country parser keeps 3-part international locations from crashing the scrape.
 
+### 7. Separated by responsibility, so it stays testable
+The logic is split into focused modules: `filters.py` (pure qualification, zero I/O), `scrapers.py` (every outbound call), `emailer.py` (rendering + SMTP), `config.py` (config and history I/O), and a thin `job_alert_bot_github.py` orchestrator that just wires them into `run()`. Keeping business logic pure and at module level is a deliberate invariant: it is why the filter and categorizer can be unit-tested in isolation without mocking internals, and the test files mirror the modules one-to-one. Mocks sit only at real system boundaries (`requests`, `feedparser`, `smtplib`), never on internal functions.
+
 ## Test suite
 
-**114 tests across 7 files, ~1.6s runtime.** Coverage spans the filter logic, fetcher integrations (mocked at the HTTP boundary), the categorization decision tree, the email HTML build, output-schema contracts, dedup determinism, and performance SLAs at pipeline scale. Business-logic functions live at module level specifically so they are unit-testable in isolation.
+**118 tests across 7 files, ~1.6s runtime.** Coverage spans the filter logic, fetcher integrations (mocked at the HTTP boundary), the categorization decision tree, the email HTML build, output-schema contracts, dedup determinism, and performance SLAs at pipeline scale. Business-logic functions live at module level specifically so they are unit-testable in isolation.
 
 ```bash
 uv run python -m pytest tests/ -v
@@ -172,15 +175,21 @@ If any gate fails, nothing ships.
 
 ```
 role-radar/
-├── job_alert_bot_github.py   # the pipeline (fetch, filter, categorize, dedup, email)
+├── job_alert_bot_github.py   # entrypoint: wires the modules together, owns run()
+├── config.py                 # config + dedup-history I/O (YAML, job_history.json)
+├── filters.py                # pure qualification logic (is_match, finalize_list, categorize_job, …)
+├── scrapers.py               # outbound fetchers (jobspy monkey-patch + ATS/RSS/JSON hubs)
+├── emailer.py                # tiered HTML digest + Gmail SMTP
 ├── job_alert_config.yaml     # 100% of the strategy: anchors, sources, cities, tiers
 ├── deploy.py                 # the only authorized push path (test-gated)
-├── tests/                    # 114 tests across 7 files
-├── .github/workflows/        # workflow_dispatch action (external-cron triggered)
+├── tests/                    # 118 tests across 7 files, mirroring the modules
+├── .github/workflows/        # workflow_dispatch action (external-cron) + CI on push
 ├── docs/sample-alert.png     # sample digest
 ├── TEST_SUITE.md             # full test reference
 └── README.md
 ```
+
+The pipeline is split by responsibility so each piece is independently testable: `filters.py` is pure (no I/O), `scrapers.py` owns every outbound call, `emailer.py` owns rendering and SMTP, and `job_alert_bot_github.py` is a thin orchestrator. The test files mirror this split (`test_filters`, `test_fetchers`, `test_history`, …).
 
 `job_history.json` is not on `main`; it lives on the orphan `data` branch (see [State is crash-safe](#3-state-is-crash-safe-and-main-stays-clean)).
 
