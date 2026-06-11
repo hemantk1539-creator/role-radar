@@ -72,7 +72,7 @@ flowchart TD
     FIN -->|"write new + sniped records"| DATA
 ```
 
-*Grey = the `run()` process; everything outside it is an external system the bot integrates with — the cron scheduler, the CI runner, git-branch storage, and email.*
+*Grey = the `run()` process; everything outside it is an external system the bot integrates with - the cron scheduler, the CI runner, git-branch storage, and email.*
 
 The pipeline is two engines that converge. The **global** engine crawls ATS/RSS/JSON hubs and qualifies titles with `is_match` *inside* each fetcher. The **India** engine runs `jobspy` across metros, then passes titles through the `india_is_applicable` gate and the `categorize` router. Both engines share one dedup state, merge into the final junior/blacklist snipe, and split into per-bucket emails; new and sniped records are written back to the `data` branch so nothing resurfaces.
 
@@ -121,15 +121,15 @@ Every fetcher is wrapped with typed exception handling and a timeout. One dead A
 The logic is split into focused modules: `filters.py` (pure qualification, zero I/O), `scrapers.py` (every outbound call), `emailer.py` (rendering + SMTP), `config.py` (config and history I/O), and a thin `job_alert_bot_github.py` orchestrator that just wires them into `run()`. Keeping business logic pure and at module level is a deliberate invariant: it is why the filter and categorizer can be unit-tested in isolation without mocking internals, and the test files mirror the modules one-to-one. Mocks sit only at real system boundaries (`requests`, `feedparser`, `smtplib`), never on internal functions.
 
 ### 8. Polite to the sources it depends on
-Scraping is throttled on purpose: every site call waits a randomized 4–6 seconds, and the India engine runs only three parallel workers. The point is to stay under rate limits and avoid tripping the bot-detection that gets a scraper IP-blocked — these are public boards the pipeline needs to keep working against for the long term, not one-shot targets.
+Scraping is throttled on purpose: every site call waits a randomized 4-6 seconds, and the India engine runs only three parallel workers. The point is to stay under rate limits and avoid tripping the bot-detection that gets a scraper IP-blocked - these are public boards the pipeline needs to keep working against for the long term, not one-shot targets.
 
 ## Security
 
 A live system that holds a credential and scrapes third parties, treated as one:
 
-- **One secret, and it is never in the repo.** The Gmail app password is read from `GMAIL_APP_PASSWORD` — a GitHub Actions secret in CI, an environment variable locally. The committed `job_alert_config.yaml` carries only placeholders; sender and recipient addresses are injected at runtime too, so no personal data sits in the public repo.
+- **One secret, and it is never in the repo.** The Gmail app password is read from `GMAIL_APP_PASSWORD` - a GitHub Actions secret in CI, an environment variable locally. The committed `job_alert_config.yaml` carries only placeholders; sender and recipient addresses are injected at runtime too, so no personal data sits in the public repo.
 - **All output is HTML-escaped.** Every scraped value is escaped before it enters the email, so a malformed or hostile job title cannot inject markup into the digest (a real bug this caught: a `<Contract>` title and an `R&D` title both used to break rendering).
-- **Nothing sensitive is logged.** Failures log the source name and a truncated error string — never credentials, never the SMTP exchange.
+- **Nothing sensitive is logged.** Failures log the source name and a truncated error string - never credentials, never the SMTP exchange.
 
 ## Test suite
 

@@ -19,7 +19,8 @@ import time
 import random
 import hashlib
 import concurrent.futures
-from datetime import datetime
+import dateutil.parser
+from datetime import datetime, date
 
 from config import load_config, load_history, save_history
 from filters import india_is_applicable, finalize_list, categorize_job
@@ -88,7 +89,6 @@ def run():
         # Freshness Check (Rule 19): respect global_hours_old for API/RSS results
         if j.get('date'):
             try:
-                import dateutil.parser
                 job_ts = dateutil.parser.parse(j['date']).timestamp()
                 if (now_ts - job_ts) / 3600 > global_hrs:
                     global_dropped_age += 1
@@ -179,8 +179,6 @@ def run():
                     # Double-Lock Freshness (Rule 19): catch platform leaks
                     if job.get('date_posted'):
                         try:
-                            import dateutil.parser
-                            from datetime import date
                             posted_dt = job['date_posted']
                             if isinstance(posted_dt, str):
                                 posted_dt = dateutil.parser.parse(posted_dt).date()
