@@ -72,6 +72,8 @@ flowchart TD
     FIN -->|"write new + sniped records"| DATA
 ```
 
+*Grey = the `run()` process; everything outside it is an external system the bot integrates with — the cron scheduler, the CI runner, git-branch storage, and email.*
+
 The pipeline is two engines that converge. The **global** engine crawls ATS/RSS/JSON hubs and qualifies titles with `is_match` *inside* each fetcher. The **India** engine runs `jobspy` across metros, then passes titles through the `india_is_applicable` gate and the `categorize` router. Both engines share one dedup state, merge into the final junior/blacklist snipe, and split into per-bucket emails; new and sniped records are written back to the `data` branch so nothing resurfaces.
 
 ## What gets kept vs dropped
