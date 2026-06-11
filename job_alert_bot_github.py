@@ -408,10 +408,11 @@ def run():
     
     global_kept = 0
     global_dropped_age = 0
+    global_dropped_dedup = 0
 
     for j in global_intel_raw:
         if not j.get('job_url'): continue
-        
+
         # Freshness Check (Rule 19): respect global_hours_old for API/RSS results
         if j.get('date'):
             try:
@@ -432,15 +433,19 @@ def run():
         j['signal'] = j.get('signal', '[Signal: Global-Intel]')
         j['uid'] = hashlib.md5(j['job_url'].encode('utf-8')).hexdigest()
         j['fingerprint'] = f"{j['title'].lower()}|{j['company'].lower()}"
-        
+
         # Deduplication & Bucketing
         if j['uid'] not in seen_ids and j['fingerprint'] not in seen_fingerprints:
             seen_ids.add(j['uid'])
             seen_fingerprints.add(j['fingerprint'])
             found_global_remote.append(j)
             global_kept += 1
+            print(f"    [Global New]   \"{j.get('title', '?')}\" @ {j.get('company', '?')}")
+        else:
+            global_dropped_dedup += 1
+            print(f"    [Global Dedup] \"{j.get('title', '?')}\" @ {j.get('company', '?')}")
 
-    print(f"  [Global Filter] Kept {global_kept} new roles | Dropped {global_dropped_age} stale (> {global_hrs}h) roles.")
+    print(f"  [Global Filter] Kept {global_kept} new | Dropped {global_dropped_age} stale (> {global_hrs}h) | Dropped {global_dropped_dedup} dedup.")
 
     # 2. INDIA & CITIES (Parallel v3.0)
     all_tasks = []
@@ -567,6 +572,9 @@ def run():
     found_local, sniped_local = finalize_list(found_local, blacklist)
     found_india_remote, sniped_india = finalize_list(found_india_remote, blacklist)
     found_global_remote, sniped_global = finalize_list(found_global_remote, blacklist)
+
+    for j in sniped_local + sniped_india + sniped_global:
+        print(f"  [Sniped] \"{j.get('title', '?')}\" @ {j.get('company', '?')} ({j.get('sniped_reason', '?')})")
 
     total_applicable = len(found_local) + len(found_india_remote) + len(found_global_remote)
     print(f"\n--- DONE. Found {total_found} New (Scraped) | {total_applicable} Applicable ---")
