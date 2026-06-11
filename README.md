@@ -3,7 +3,7 @@
 > A production job-discovery pipeline that scrapes 20+ sources in parallel, filters to senior QA/QE engineering-leadership roles with surgical precision, and emails a deduplicated digest three times a day, timed to the hours recruiters post in India.
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
-![Tests](https://img.shields.io/badge/tests-114%20passing-brightgreen)
+![Tests](https://img.shields.io/badge/tests-118%20passing-brightgreen)
 ![CI](https://github.com/hemantk1539-creator/role-radar/actions/workflows/ci.yml/badge.svg)
 ![Deploy gate](https://img.shields.io/badge/deploy-test--gated-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
