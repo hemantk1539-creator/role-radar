@@ -3,7 +3,7 @@
 > A production job-discovery pipeline that scrapes 20+ sources in parallel, filters to senior QA/QE engineering-leadership roles with surgical precision, and emails a deduplicated digest three times a day, timed to the hours recruiters post in India.
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org)
-[![Tests](https://img.shields.io/badge/tests-118%20passing-brightgreen)](https://github.com/hemantk1539-creator/role-radar/tree/main/tests)
+[![Tests](https://img.shields.io/badge/tests-125%20passing-brightgreen)](https://github.com/hemantk1539-creator/role-radar/tree/main/tests)
 [![CI](https://github.com/hemantk1539-creator/role-radar/actions/workflows/ci.yml/badge.svg)](https://github.com/hemantk1539-creator/role-radar/actions)
 [![Deploy gate](https://img.shields.io/badge/deploy-test--gated-orange)](https://github.com/hemantk1539-creator/role-radar/blob/main/deploy.py)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/hemantk1539-creator/role-radar/blob/main/LICENSE)
@@ -133,7 +133,7 @@ A live system that holds a credential and scrapes third parties, treated as one:
 
 ## Test suite
 
-**118 tests across 7 files, ~1.6s runtime.** Coverage spans the filter logic, fetcher integrations (mocked at the HTTP boundary), the categorization decision tree, the email HTML build, output-schema contracts, dedup determinism, and performance SLAs at pipeline scale. Business-logic functions live at module level specifically so they are unit-testable in isolation.
+**125 tests across 7 files, ~1.6s runtime.** Coverage spans the filter logic, fetcher integrations (mocked at the HTTP boundary), the categorization decision tree, the email HTML build, output-schema contracts, dedup determinism, and performance SLAs at pipeline scale. Business-logic functions live at module level specifically so they are unit-testable in isolation.
 
 ```bash
 uv run python -m pytest tests/ -v
@@ -195,7 +195,7 @@ role-radar/
 ├── emailer.py                # tiered HTML digest + Gmail SMTP
 ├── job_alert_config.yaml     # 100% of the strategy: anchors, sources, cities, tiers
 ├── deploy.py                 # the only authorized push path (test-gated)
-├── tests/                    # 118 tests across 7 files, mirroring the modules
+├── tests/                    # 125 tests across 7 files, mirroring the modules
 ├── .github/workflows/        # workflow_dispatch action (external-cron) + CI on push
 ├── docs/sample-alert.png     # sample digest
 ├── TEST_SUITE.md             # full test reference
