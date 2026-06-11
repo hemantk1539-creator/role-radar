@@ -211,9 +211,11 @@ class TestIndiaIsApplicable:
         "qa manager (c2c)",
         "automation lead - semiconductor",
         "quality lead - consumer products",
+        "qa lead (immediate joiners only)",
+        "automation manager - immediate joiners",
     ])
     def test_wired_anchors_drop_noise(self, title):
-        anchors = ["food quality", "supplier quality", "c2c", "semiconductor", "consumer products"]
+        anchors = ["food quality", "supplier quality", "c2c", "semiconductor", "consumer products", "immediate joiners"]
         assert india_is_applicable(title, "bengaluru, india",
                                    LEVELS, DOMAINS, BLACKLIST, anchors) is False
 
