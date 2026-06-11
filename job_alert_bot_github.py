@@ -338,7 +338,7 @@ def send_email(subject, jobs, config):
             html += "</table></div>"
     
     html += "<div style='margin-top: 30px; text-align: center; color: #95a5a6; font-size: 0.8em; border-top: 1px solid #eee; padding-top: 20px;'>"
-    html += "This is an automated intelligence report from your Job Alert Bot v1.2. Hub Logic: Power 6 Tiered Grid.</div></div>"
+    html += "This is an automated intelligence report from your Job Alert Bot v1.1. Hub Logic: Power 6 Tiered Grid.</div></div>"
     
     msg.attach(MIMEText(html, "html"))
 
