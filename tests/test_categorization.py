@@ -1,7 +1,7 @@
 import pytest
 from conftest import (REMOTE_SIGNALS, GLOBAL_REMOTE_SIGNALS, RESIDENCY_SIGNALS,
                       INDIA_CITY_ALIASES, INDIA_CODE, GLOBAL_LOC)
-from job_alert_bot_github import categorize_job
+from filters import categorize_job
 
 
 def categorize(title="", loc="", country=INDIA_CODE):

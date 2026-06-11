@@ -1,6 +1,6 @@
 import pytest
 from conftest import LEVELS, DOMAINS, BLOCK_ANCHORS, BLACKLIST
-from job_alert_bot_github import is_match, has_word_match, finalize_list, india_is_applicable
+from filters import is_match, has_word_match, finalize_list, india_is_applicable
 
 
 class TestIsMatch:

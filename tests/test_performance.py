@@ -1,7 +1,7 @@
 import time
 import pytest
 from conftest import LEVELS, DOMAINS, BLOCK_ANCHORS, BLACKLIST
-from job_alert_bot_github import finalize_list, has_word_match
+from filters import finalize_list, has_word_match
 
 
 class TestPerformance:

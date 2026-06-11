@@ -20,8 +20,14 @@ from datetime import datetime
 
 BOT_SCRIPT = "job_alert_bot_github.py"
 CONFIG_FILE = "job_alert_config.yaml"
+# Source modules audited for hardcoded strategy data (must live in YAML, not code).
+SOURCE_MODULES = [BOT_SCRIPT, "config.py", "filters.py", "scrapers.py", "emailer.py"]
 STAGED_FILES = [
     BOT_SCRIPT,
+    "config.py",
+    "filters.py",
+    "scrapers.py",
+    "emailer.py",
     CONFIG_FILE,
     "deploy.py",
     "requirements.txt",
@@ -79,12 +85,15 @@ def audit():
         return False
     log("Sanity Check: Logic Executable.")
 
-    # 4. Hardcode audit - strategy data must live in YAML, not in code
-    with open(BOT_SCRIPT, "r", encoding="utf-8") as f:
-        content = f.read()
-    if re.search(r'\["[^"]+",\s*"[^"]+",\s*"[^"]+"\]', content):
-        log("Hardcode Audit: FAILED (long lists found in code - move to YAML).", False)
-        return False
+    # 4. Hardcode audit - strategy data must live in YAML, not in code.
+    # Scans every source module (not just the entrypoint) so the post-split refactor
+    # cannot smuggle strategy lists into filters.py/scrapers.py outside the audit's view.
+    for module in SOURCE_MODULES:
+        with open(module, "r", encoding="utf-8") as f:
+            content = f.read()
+        if re.search(r'\["[^"]+",\s*"[^"]+",\s*"[^"]+"\]', content):
+            log(f"Hardcode Audit: FAILED (long lists found in {module} - move to YAML).", False)
+            return False
     log("Hardcode Audit: Clean.")
 
     return True

@@ -2,7 +2,8 @@ import pytest
 import hashlib
 from unittest.mock import patch, MagicMock
 from conftest import LEVELS, DOMAINS, BLOCK_ANCHORS, JOB_SCHEMA_KEYS
-from job_alert_bot_github import fetch_json, fetch_rss, fetch_ats, send_email
+from scrapers import fetch_json, fetch_rss, fetch_ats
+from emailer import send_email
 
 
 class TestJobSchema:
@@ -22,7 +23,7 @@ class TestJobSchema:
         payload = {"jobs": [{"title": "Engineering Manager QA", "companyName": "Acme",
                               "location": "Remote", "applicationLink": "https://example.com/1",
                               "pubDate": "2026-05-18"}]}
-        with patch("job_alert_bot_github.requests.get") as mock_get:
+        with patch("scrapers.requests.get") as mock_get:
             mock_get.return_value.status_code = 200
             mock_get.return_value.json.return_value = payload
             results = fetch_json("Hub", "https://api.test.com", LEVELS, DOMAINS, BLOCK_ANCHORS)
@@ -31,12 +32,12 @@ class TestJobSchema:
     def test_fetch_rss_output_has_all_required_keys(self):
         entries = [{"title": "Engineering Manager QA", "author": "Acme",
                     "link": "https://example.com/1", "published": "2026-05-18"}]
-        with patch("job_alert_bot_github.feedparser.parse", return_value=self._rss_feed(entries)):
+        with patch("scrapers.feedparser.parse", return_value=self._rss_feed(entries)):
             results = fetch_rss("WWR", "https://rss.test.com", LEVELS, DOMAINS, BLOCK_ANCHORS)
         assert all(JOB_SCHEMA_KEYS.issubset(j.keys()) for j in results)
 
     def test_fetch_ats_output_has_all_required_keys(self):
-        with patch("job_alert_bot_github.requests.get") as mock_get:
+        with patch("scrapers.requests.get") as mock_get:
             mock_get.return_value.status_code = 200
             mock_get.return_value.json.return_value = self._greenhouse_payload()
             results = fetch_ats("greenhouse", "acme", LEVELS, DOMAINS, BLOCK_ANCHORS)
@@ -89,7 +90,7 @@ class TestEmailRendering:
 
     def test_local_digest_builds_and_escapes(self, monkeypatch):
         captured = {}
-        monkeypatch.setattr("job_alert_bot_github.smtplib.SMTP", self._fake_smtp(captured))
+        monkeypatch.setattr("emailer.smtplib.SMTP", self._fake_smtp(captured))
         jobs = [{"title": "R&D Quality Manager", "company": "Acme & Co",
                  "location": "pune [Signal: Remote-Local]", "site": "linkedin",
                  "job_url": "https://x/1?a=1&b=2", "signal": "x"}]
@@ -99,19 +100,19 @@ class TestEmailRendering:
 
     def test_global_digest_builds(self, monkeypatch):
         captured = {}
-        monkeypatch.setattr("job_alert_bot_github.smtplib.SMTP", self._fake_smtp(captured))
+        monkeypatch.setattr("emailer.smtplib.SMTP", self._fake_smtp(captured))
         jobs = [{"title": "Senior Manager, QE", "company": "Globex",
                  "location": "remote", "site": "ats-globex", "job_url": "https://x/2", "signal": "ATS"}]
         assert send_email("Global Remote Alert: 1 New Global Remote Roles", jobs, self._cfg()) is True
 
     def test_empty_jobs_returns_false_without_send(self, monkeypatch):
-        monkeypatch.setattr("job_alert_bot_github.smtplib.SMTP", self._fake_smtp({}))
+        monkeypatch.setattr("emailer.smtplib.SMTP", self._fake_smtp({}))
         assert send_email("Local Alert: 0", [], self._cfg()) is False
 
     def test_env_overrides_config_email(self, monkeypatch):
         # Real addresses come from env (kept out of the public config); env must win over config.
         captured = {}
-        monkeypatch.setattr("job_alert_bot_github.smtplib.SMTP", self._fake_smtp(captured))
+        monkeypatch.setattr("emailer.smtplib.SMTP", self._fake_smtp(captured))
         monkeypatch.setenv("SENDER_EMAIL", "real-sender@gmail.com")
         monkeypatch.setenv("RECIPIENT_EMAIL", "real-recipient@gmail.com")
         jobs = [{"title": "QA Manager", "company": "Acme", "location": "pune", "site": "linkedin",
