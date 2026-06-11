@@ -19,6 +19,7 @@
 - [How it works](#how-it-works)
 - [What gets kept vs dropped](#what-gets-kept-vs-dropped)
 - [Engineering highlights](#engineering-highlights)
+- [Security](#security)
 - [Test suite](#test-suite)
 - [Tech stack](#tech-stack)
 - [Run it locally](#run-it-locally)
@@ -47,32 +48,32 @@ It is also a live system I run daily, so it is built like one: every change is t
 
 ## How it works
 
-```
-                 cron-job.org  ──(workflow_dispatch ping)──►  GitHub Actions
-                 06:00 / 11:30 / 16:30 UTC                          │
-                 (11:30 / 17:00 / 22:00 IST)                        │
-                                                                    ▼
-                                    ┌───────────────────────────────────────────────┐
-   data branch  ──restore──────────►  job_alert_bot_github.py                        │
-   (job_history.json)               │                                               │
-        ▲                           │  1. PARALLEL FETCH  (ThreadPoolExecutor)       │
-        │                           │     • global intel: ATS + RSS + JSON hubs      │
-        │                           │     • India: jobspy × 10 locations × terms     │
-        │                           │  2. FRESHNESS    drop postings > 24h (72h glob)│
-        │                           │  3. APPLICABILITY  india_is_applicable():      │
-        │                           │       blacklist? seniority∧domain? block-anchor│
-        │                           │  4. DEDUP        MD5(url) + fingerprint         │
-        │                           │  5. CATEGORIZE   local / india_remote / global │
-        │                           │  6. FINALIZE     snipe junior + blacklist      │
-        │                           └───────────────┬───────────────────────────────┘
-        │                                           │
-        └──────save (new uids+fps)─────────┐        ▼
-                                           │   Gmail SMTP  ──►  tiered HTML digest
-                                           │
-                                    (history written back to data branch)
+```mermaid
+flowchart TD
+    CRON["cron-job.org<br/>06:00 / 11:30 / 16:30 UTC<br/>(11:30 / 17:00 / 22:00 IST)"] -->|workflow_dispatch ping| GHA["GitHub Actions"]
+    DATA[("data branch<br/>job_history.json")] -->|restore history| GHA
+    GHA --> RUN
+
+    subgraph RUN ["job_alert_bot_github.py · orchestrator (run)"]
+        direction TB
+        subgraph G ["Global engine"]
+            direction TB
+            GF["fetch hubs in parallel<br/>ATS + RSS + JSON"] --> GM["is_match (in fetcher)<br/>seniority + domain, not blocked"] --> GA["freshness: 72h window"]
+        end
+        subgraph I ["India engine"]
+            direction TB
+            IJ["jobspy<br/>10 cities x search terms"] --> IA["freshness: 24h window"] --> IAP["india_is_applicable<br/>blacklist + seniority/domain + block-anchor"] --> IC["categorize<br/>local / india_remote / global"]
+        end
+        GA --> DEDUP["dedup<br/>MD5(url) + title|company fingerprint"]
+        IC --> DEDUP
+        DEDUP --> FIN["finalize<br/>snipe junior + blacklist"]
+    end
+
+    FIN --> MAIL["Gmail SMTP<br/>tiered HTML digest"]
+    FIN -->|"write new + sniped records"| DATA
 ```
 
-The pipeline is two engines that converge: a **global remote** engine (direct ATS/RSS/JSON hub crawl) and an **India** engine (`jobspy` across metros). Both feed the same applicability gate, dedup, and categorizer, then split into per-bucket emails.
+The pipeline is two engines that converge. The **global** engine crawls ATS/RSS/JSON hubs and qualifies titles with `is_match` *inside* each fetcher. The **India** engine runs `jobspy` across metros, then passes titles through the `india_is_applicable` gate and the `categorize` router. Both engines share one dedup state, merge into the final junior/blacklist snipe, and split into per-bucket emails; new and sniped records are written back to the `data` branch so nothing resurfaces.
 
 ## What gets kept vs dropped
 
@@ -117,6 +118,17 @@ Every fetcher is wrapped with typed exception handling and a timeout. One dead A
 
 ### 7. Separated by responsibility, so it stays testable
 The logic is split into focused modules: `filters.py` (pure qualification, zero I/O), `scrapers.py` (every outbound call), `emailer.py` (rendering + SMTP), `config.py` (config and history I/O), and a thin `job_alert_bot_github.py` orchestrator that just wires them into `run()`. Keeping business logic pure and at module level is a deliberate invariant: it is why the filter and categorizer can be unit-tested in isolation without mocking internals, and the test files mirror the modules one-to-one. Mocks sit only at real system boundaries (`requests`, `feedparser`, `smtplib`), never on internal functions.
+
+### 8. Polite to the sources it depends on
+Scraping is throttled on purpose: every site call waits a randomized 4–6 seconds, and the India engine runs only three parallel workers. The point is to stay under rate limits and avoid tripping the bot-detection that gets a scraper IP-blocked — these are public boards the pipeline needs to keep working against for the long term, not one-shot targets.
+
+## Security
+
+A live system that holds a credential and scrapes third parties, treated as one:
+
+- **One secret, and it is never in the repo.** The Gmail app password is read from `GMAIL_APP_PASSWORD` — a GitHub Actions secret in CI, an environment variable locally. The committed `job_alert_config.yaml` carries only placeholders; sender and recipient addresses are injected at runtime too, so no personal data sits in the public repo.
+- **All output is HTML-escaped.** Every scraped value is escaped before it enters the email, so a malformed or hostile job title cannot inject markup into the digest (a real bug this caught: a `<Contract>` title and an `R&D` title both used to break rendering).
+- **Nothing sensitive is logged.** Failures log the source name and a truncated error string — never credentials, never the SMTP exchange.
 
 ## Test suite
 
