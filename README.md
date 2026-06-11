@@ -4,7 +4,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Tests](https://img.shields.io/badge/tests-114%20passing-brightgreen)
-![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
+![CI](https://github.com/hemantk1539-creator/role-radar/actions/workflows/ci.yml/badge.svg)
 ![Deploy gate](https://img.shields.io/badge/deploy-test--gated-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
