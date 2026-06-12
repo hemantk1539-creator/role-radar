@@ -11283,5 +11283,125 @@
         "id": "dd5e38c860f1a020cfb7e14e51dba0fe",
         "fingerprint": "global head of quality (m/w/d) (de877542:li)|morgan philips executive search|remote",
         "date": "2026-06-12T06:05:52.152710"
+    },
+    {
+        "id": "45df51dba4ccd8200d4cb5018b6f1ce3",
+        "fingerprint": "head of automation|algoleap|pune",
+        "date": "2026-06-12T11:35:36.527953"
+    },
+    {
+        "id": "c2a54fdb05a006e8a477e09ea6573ac5",
+        "fingerprint": "senior system validation engineer (lead) \u2014 automation|generac|pune",
+        "date": "2026-06-12T11:35:36.527972"
+    },
+    {
+        "id": "efaaabd2e21ee90a33fed391166256c9",
+        "fingerprint": "senior quality assurance manager|crystal.|bengaluru",
+        "date": "2026-06-12T11:35:36.527975"
+    },
+    {
+        "id": "fa43e5ba3ff247e493c5bdd1b97ed376",
+        "fingerprint": "senior qa manager \u2013 video annotation & ai data operations|awign|bengaluru",
+        "date": "2026-06-12T11:35:36.527977"
+    },
+    {
+        "id": "911a04b5531b784ed5d7e59008da5a10",
+        "fingerprint": "qa lead|virtusa|bengaluru",
+        "date": "2026-06-12T11:35:36.527980"
+    },
+    {
+        "id": "3b3e9575f9975af09a4464ac9f72a3f0",
+        "fingerprint": "qa architect|indee|bengaluru",
+        "date": "2026-06-12T11:35:36.527982"
+    },
+    {
+        "id": "367e3aa30fe6a636cd37b2b5fbafe46c",
+        "fingerprint": "lead-sdet|crestron electronics|bengaluru",
+        "date": "2026-06-12T11:35:36.527984"
+    },
+    {
+        "id": "409dcce5a0df87eaa001eb17bba9d967",
+        "fingerprint": "manager quality assurance|sun pharma|bengaluru",
+        "date": "2026-06-12T11:35:36.527986"
+    },
+    {
+        "id": "f0dd8a928966aa0550929a99b78eb3bf",
+        "fingerprint": "qa team leader|bill gosling outsourcing|bengaluru",
+        "date": "2026-06-12T11:35:36.527988"
+    },
+    {
+        "id": "26f36214fbd1c9c34013dbbe83003354",
+        "fingerprint": "mgr, software testing|circana|bengaluru",
+        "date": "2026-06-12T11:35:36.527991"
+    },
+    {
+        "id": "3f1c8bd5174e25e5c1741b253fd1166c",
+        "fingerprint": "lead \u2013 quality|adaniconnex|mumbai",
+        "date": "2026-06-12T11:35:36.527993"
+    },
+    {
+        "id": "c366b95e9b7ed31a6f5f28a8e6622b4a",
+        "fingerprint": "qms manager (quality management systems)|best nanotech|hyderabad",
+        "date": "2026-06-12T11:35:36.527995"
+    },
+    {
+        "id": "8601aeae62b01b9c0996f204195041e2",
+        "fingerprint": "teamcenter qa automation lead|capgemini|hyderabad",
+        "date": "2026-06-12T11:35:36.527997"
+    },
+    {
+        "id": "d277c2420b4350289e2cde0da2a365ea",
+        "fingerprint": "automation controls manager|ashwaa engineering pvt. ltd|hyderabad",
+        "date": "2026-06-12T11:35:36.527998"
+    },
+    {
+        "id": "b587afc63216dfc12016f8d9e65af815",
+        "fingerprint": "qa lead|payoneer|gurugram",
+        "date": "2026-06-12T11:35:36.528001"
+    },
+    {
+        "id": "49bded57956afe091c5975a17e2525c4",
+        "fingerprint": "performance test engineer - senior manager|vialto|gurugram",
+        "date": "2026-06-12T11:35:36.528003"
+    },
+    {
+        "id": "343a399ae23f7af3ea73f8ae0ca15db9",
+        "fingerprint": "quality assurance manager|iera living|gurugram",
+        "date": "2026-06-12T11:35:36.528024"
+    },
+    {
+        "id": "35efba357da3fb9793c8542411c7a1b5",
+        "fingerprint": "senior quality assurance leader|yennes infotec p limited|gurugram",
+        "date": "2026-06-12T11:35:36.528026"
+    },
+    {
+        "id": "2dad28ae9a5d21bcb3aecac8dd31c2e6",
+        "fingerprint": "senior quality assurance leader|yennes infotec p limited|noida",
+        "date": "2026-06-12T11:35:36.528028"
+    },
+    {
+        "id": "584e123979979d0cfd73963fbd9605a3",
+        "fingerprint": "qa manager|dorman products|chennai",
+        "date": "2026-06-12T11:35:36.528030"
+    },
+    {
+        "id": "5e326450877e7354304e229879d89d28",
+        "fingerprint": "lead / principal sdet|arrow electronics|ahmedabad",
+        "date": "2026-06-12T11:35:36.528032"
+    },
+    {
+        "id": "9a5ddf08f30b7641b4e19f802b1a69fc",
+        "fingerprint": "lead qa manager|yosi health|remote",
+        "date": "2026-06-12T11:35:36.528035"
+    },
+    {
+        "id": "fdf34476d25d24c5878464c4f78a6001",
+        "fingerprint": "manager application engineering qa|roboyo|remote",
+        "date": "2026-06-12T11:35:36.528037"
+    },
+    {
+        "id": "ba0e6da8cf553286a027acd693989c2f",
+        "fingerprint": "assistant manager - quality|sterlite electric|remote",
+        "date": "2026-06-12T11:35:36.528039"
     }
 ]
