@@ -11898,5 +11898,55 @@
         "id": "bbd1bdb1d34aa431b841dcc6afa83b1a",
         "fingerprint": "quality assurance manager|aditya birla capital|remote",
         "date": "2026-06-16T11:35:59.952725"
+    },
+    {
+        "id": "05d555fdb097f8007215e80f01b17cd1",
+        "fingerprint": "principal execution & qa validation engineer|graphcore|bengaluru",
+        "date": "2026-06-16T16:36:03.385563"
+    },
+    {
+        "id": "2fea0636add9d4e80ba550fc4dcbd371",
+        "fingerprint": "senior staff sdet|palo alto networks|bengaluru",
+        "date": "2026-06-16T16:36:03.385579"
+    },
+    {
+        "id": "b5b1dd8d4f23b9182ed32748aab61ad9",
+        "fingerprint": "quality manager|chogori|bengaluru",
+        "date": "2026-06-16T16:36:03.385582"
+    },
+    {
+        "id": "eb553a472e030fe407432079fac12aba",
+        "fingerprint": "senior manager - building automation systems - system owner|amgen|hyderabad",
+        "date": "2026-06-16T16:36:03.385585"
+    },
+    {
+        "id": "5ff76e7a2dd6beee4ce74173077e2e18",
+        "fingerprint": "senior staff sdet|palo alto networks|hyderabad",
+        "date": "2026-06-16T16:36:03.385587"
+    },
+    {
+        "id": "3732f5e86cffcff2e70e5aa208493a04",
+        "fingerprint": "urdu qa lead - remote|yo it consulting|noida",
+        "date": "2026-06-16T16:36:03.385588"
+    },
+    {
+        "id": "246770414c1e335cd3cf25ef53b8a7e2",
+        "fingerprint": "manager software engineering (quality engineering )|caterpillar inc.|chennai",
+        "date": "2026-06-16T16:36:03.385591"
+    },
+    {
+        "id": "b82206a9bc0a442c655de5883c93a48b",
+        "fingerprint": "quality engineering lead - sdet|optum india|chennai",
+        "date": "2026-06-16T16:36:03.385593"
+    },
+    {
+        "id": "2acd0d7e94aff3a8e36320f930ac0db0",
+        "fingerprint": "global qa manager|computer futures|remote",
+        "date": "2026-06-16T16:36:03.385595"
+    },
+    {
+        "id": "2a5955d092d65af187346f00d973232d",
+        "fingerprint": "global quality manager|gi group|remote",
+        "date": "2026-06-16T16:36:03.385597"
     }
 ]
