@@ -13643,5 +13643,80 @@
         "id": "7841baa0f63fe32f59ed9cd065c5406d",
         "fingerprint": "manager - quality|larsen & toubro|remote",
         "date": "2026-06-26T06:06:10.228807"
+    },
+    {
+        "id": "3cfc07fc8c4de2eaf00eed6d58ad1c78",
+        "fingerprint": "staff software development engineer in test - performance focus|alteryx|bengaluru",
+        "date": "2026-06-26T11:36:32.302832"
+    },
+    {
+        "id": "87bd9b0ebfb70e5543e5e826f1d10001",
+        "fingerprint": "quality assurance lead|dentsu global services|pune",
+        "date": "2026-06-26T11:36:32.302847"
+    },
+    {
+        "id": "dd3fa2cf1ee148be540561e0eea1706b",
+        "fingerprint": "quality manager|tenneco|pune",
+        "date": "2026-06-26T11:36:32.302850"
+    },
+    {
+        "id": "c179e76dc86824edc5ba3ab195f5864d",
+        "fingerprint": "principal enterprise software test engineer|medtronic|hyderabad",
+        "date": "2026-06-26T11:36:32.302853"
+    },
+    {
+        "id": "7c23c18fbc08c37c6d1c90d7e144b734",
+        "fingerprint": "lead i - software testing (telecom - backoffice reporting, oracle financials)|ust|hyderabad",
+        "date": "2026-06-26T11:36:32.302855"
+    },
+    {
+        "id": "e3d0ba65805cc02abb8f3f609be18961",
+        "fingerprint": "lead mobile automation test engineer|epam systems|hyderabad",
+        "date": "2026-06-26T11:36:32.302857"
+    },
+    {
+        "id": "60fdf6edc742d2ac5a058c51e87b9fae",
+        "fingerprint": "lead i - software testing- playwright, typescript|ust|hyderabad",
+        "date": "2026-06-26T11:36:32.302860"
+    },
+    {
+        "id": "9257aa4933d2dc49226f909488faa910",
+        "fingerprint": "sr automation engineer/lead|wissen technology|noida",
+        "date": "2026-06-26T11:36:32.302862"
+    },
+    {
+        "id": "c1eb8ffc0fd84c4e822396809e8af4ad",
+        "fingerprint": "quality engineering architect|accenture services pvt ltd|noida",
+        "date": "2026-06-26T11:36:32.302865"
+    },
+    {
+        "id": "94ec603e3b0f11626ec8c652f8b9d708",
+        "fingerprint": "test lead|cognizant|chennai",
+        "date": "2026-06-26T11:36:32.302868"
+    },
+    {
+        "id": "968d10f4f5926e8d2b2c7a0f14f750d7",
+        "fingerprint": "cypress test lead|incedo inc.|chennai",
+        "date": "2026-06-26T11:36:32.302870"
+    },
+    {
+        "id": "7fe837b7c101c8bb977ad41604574c51",
+        "fingerprint": "lead mobile automation test engineer|epam systems|chennai",
+        "date": "2026-06-26T11:36:32.302872"
+    },
+    {
+        "id": "dfa7819b5b7a65f3ff72fc94763ad5d9",
+        "fingerprint": "testing - automation-manager|ey|chennai",
+        "date": "2026-06-26T11:36:32.302875"
+    },
+    {
+        "id": "593311a5421bb0fc2d14d226c0ac976b",
+        "fingerprint": "qa manager|notion @ rmit|remote",
+        "date": "2026-06-26T11:36:32.302877"
+    },
+    {
+        "id": "5d39ef13e6a423a507da3f6c5f0aac44",
+        "fingerprint": "sr. manager, support readiness & quality insights|samsara",
+        "date": "2026-06-26T11:36:32.302880"
     }
 ]
