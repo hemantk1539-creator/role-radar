@@ -14468,5 +14468,75 @@
         "id": "6f4fefc04e014a8ebc910b4bb3cd4f1d",
         "fingerprint": "test lead - assistant vice president|citi|chennai",
         "date": "2026-07-01T16:35:57.035215"
+    },
+    {
+        "id": "ce8bc0e4887a7b4cc6dd1091f0653818",
+        "fingerprint": "ai quality engineering lead|infosys|bengaluru",
+        "date": "2026-07-02T06:06:29.171228"
+    },
+    {
+        "id": "1cef03cb8ca700d9d1550fd135185d7a",
+        "fingerprint": "senior director, safety and quality|ohmium|bengaluru",
+        "date": "2026-07-02T06:06:29.171243"
+    },
+    {
+        "id": "1e9a1f4956d400ade9ae8cb471d07175",
+        "fingerprint": "architecture & design qa lead - remote|yo it consulting|pune",
+        "date": "2026-07-02T06:06:29.171247"
+    },
+    {
+        "id": "f11f9463fa40d1cde808a9bc44e9e557",
+        "fingerprint": "lead i - software testing (tdm analyst)|ust|pune",
+        "date": "2026-07-02T06:06:29.171249"
+    },
+    {
+        "id": "985df7a1648b42ae48df53e55894dc7c",
+        "fingerprint": "manager - qa|piramal pharma ltd|mumbai",
+        "date": "2026-07-02T06:06:29.171252"
+    },
+    {
+        "id": "079803f34c83f11ebf7f3dbda71914ad",
+        "fingerprint": "manager - quality control compliance specialist|piramal pharma ltd|mumbai",
+        "date": "2026-07-02T06:06:29.171254"
+    },
+    {
+        "id": "bc3c34fed7f47d76d62ee0251c829853",
+        "fingerprint": "architecture & design qa lead - remote|yo it consulting|mumbai",
+        "date": "2026-07-02T06:06:29.171256"
+    },
+    {
+        "id": "d800befa635ed1b8c6c12364a44092ac",
+        "fingerprint": "test manager (corporate banking)|qualitykiosk technologies|mumbai",
+        "date": "2026-07-02T06:06:29.171258"
+    },
+    {
+        "id": "b50a9b41d10f67eb3a82bce0326f17c2",
+        "fingerprint": "lead qa automation engineer (fx)|lseg|hyderabad",
+        "date": "2026-07-02T06:06:29.171261"
+    },
+    {
+        "id": "dfbfbac01322516d3fb64613fcef3e27",
+        "fingerprint": "qa/qc manager|d.k industries|gurugram",
+        "date": "2026-07-02T06:06:29.171263"
+    },
+    {
+        "id": "113cc5733a4e66ae9e43c4e44ffbed6c",
+        "fingerprint": "quality engineering lead|optum india|chennai",
+        "date": "2026-07-02T06:06:29.171265"
+    },
+    {
+        "id": "e7ca9ad416bfcc591fa1ff4c07d4f9eb",
+        "fingerprint": "manager, quality engineering|strategy|remote",
+        "date": "2026-07-02T06:06:29.171267"
+    },
+    {
+        "id": "0caf125afa936664d7e9d7c86cd7df0a",
+        "fingerprint": "assistant manager - quality control testing|apotex inc.|bengaluru",
+        "date": "2026-07-02T06:06:29.171270"
+    },
+    {
+        "id": "9a899c922edacabe72cc34266115bc54",
+        "fingerprint": "senior software quality assurance analyst - assistant manager|state street|hyderabad",
+        "date": "2026-07-02T06:06:29.171272"
     }
 ]
