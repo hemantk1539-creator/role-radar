@@ -14953,5 +14953,30 @@
         "id": "ff07c4c44cd7bd0d7f0c89ea1956bbda",
         "fingerprint": "deputy general manager - lead automation - khavda|adani green energy ltd.|remote",
         "date": "2026-07-04T11:35:56.861214"
+    },
+    {
+        "id": "1d36d37e979e5284853963f4a8d4f4c3",
+        "fingerprint": "test architect|zensar technologies|pune",
+        "date": "2026-07-04T16:35:54.201816"
+    },
+    {
+        "id": "e18d172fdf8b8ee88f08e8a90a4015fa",
+        "fingerprint": "quality assurance test lead|dentsu global services|bengaluru",
+        "date": "2026-07-04T16:35:54.201833"
+    },
+    {
+        "id": "121f6cbef9024f3604e65e96891ef969",
+        "fingerprint": "lead - satellite test engineer (embedded)|pixxel|bengaluru",
+        "date": "2026-07-04T16:35:54.201836"
+    },
+    {
+        "id": "584b9839f2195c72c2e7abe2f0901efa",
+        "fingerprint": "qa lead|skeps|gurugram",
+        "date": "2026-07-04T16:35:54.201839"
+    },
+    {
+        "id": "05652c3116c00a11d95161049bd2abf0",
+        "fingerprint": "principal sdet|taazaa inc|gurugram",
+        "date": "2026-07-04T16:35:54.201843"
     }
 ]
