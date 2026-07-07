@@ -15183,5 +15183,80 @@
         "id": "42c7a6f45d5f1791b474ce222f2033f7",
         "fingerprint": "qa automation - manager|iris software inc.|remote",
         "date": "2026-07-07T06:06:13.313321"
+    },
+    {
+        "id": "f08de644212aaf41856d4be40966b9b2",
+        "fingerprint": "lead engineer, functional safety & software quality|danfoss|pune",
+        "date": "2026-07-07T11:36:14.643036"
+    },
+    {
+        "id": "66ab1de75fcfc11c5a0edb46f3a826f7",
+        "fingerprint": "lead quality assurance engineer|hirojet|mumbai",
+        "date": "2026-07-07T11:36:14.643054"
+    },
+    {
+        "id": "8c1676830fcb0797e8d4bf4dc740b87c",
+        "fingerprint": "quality compliance manager|truemeds|mumbai",
+        "date": "2026-07-07T11:36:14.643056"
+    },
+    {
+        "id": "51da20934af3a3048d84ab696fd7b3af",
+        "fingerprint": "test-architect - servicenow|zeiss india|bengaluru",
+        "date": "2026-07-07T11:36:14.643059"
+    },
+    {
+        "id": "d7c915bc8a4492fd2103584d5020bc31",
+        "fingerprint": "quality intelligence transformation architect|ltm|bengaluru",
+        "date": "2026-07-07T11:36:14.643061"
+    },
+    {
+        "id": "74a414cd04ce14dbcd8b41c775fc3727",
+        "fingerprint": "design & testing section manager - sas - alfanar electric|alfanar|bengaluru",
+        "date": "2026-07-07T11:36:14.643063"
+    },
+    {
+        "id": "fbb3ff73ec1738c76d6da3c06d5fdc38",
+        "fingerprint": "lead hil test engineer|medtronic|hyderabad",
+        "date": "2026-07-07T11:36:14.643065"
+    },
+    {
+        "id": "db6a8871b7a77b0a42f30f8a8115412f",
+        "fingerprint": "engineering manager - qa & sre|pine labs|gurugram",
+        "date": "2026-07-07T11:36:14.643068"
+    },
+    {
+        "id": "a958507d2765655c6a37a3ce62f022a7",
+        "fingerprint": "quality manager|crowe capability center \u2013 india|gurugram",
+        "date": "2026-07-07T11:36:14.643070"
+    },
+    {
+        "id": "bcc3945f8913c30e5595b80a3ada3db8",
+        "fingerprint": "lead qa engineer (etl)|spectramedix|gurugram",
+        "date": "2026-07-07T11:36:14.643072"
+    },
+    {
+        "id": "303ce43fa93a943326b9e17fbe89e627",
+        "fingerprint": "head of quality|saaki argus and averil consulting|chennai",
+        "date": "2026-07-07T11:36:14.643074"
+    },
+    {
+        "id": "ddf8d059db3da79a3e47579bfc90e91c",
+        "fingerprint": "test data management architect|ltm|chennai",
+        "date": "2026-07-07T11:36:14.643076"
+    },
+    {
+        "id": "2b39295668870599900b0ab42ceba719",
+        "fingerprint": "quality assurance manager|united hr solutions pvt. ltd.|ahmedabad",
+        "date": "2026-07-07T11:36:14.643078"
+    },
+    {
+        "id": "5a6298646f54e7b30be7b3d7fc7d2199",
+        "fingerprint": "assistant quality assurance manager|amaara botanicals|gurugram",
+        "date": "2026-07-07T11:36:14.643080"
+    },
+    {
+        "id": "0313a51acb9cc49532e6b4b16d2f01a6",
+        "fingerprint": "assistant manager \u2013 quality control|amaara botanicals|gurugram",
+        "date": "2026-07-07T11:36:14.643082"
     }
 ]
