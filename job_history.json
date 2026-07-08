@@ -15483,5 +15483,145 @@
         "id": "aaae49560bac526d842a6ce817e5e011",
         "fingerprint": "assistant manager - profee quality|guidehouse|chennai",
         "date": "2026-07-08T11:36:24.597791"
+    },
+    {
+        "id": "4f6c0d2a892816aabe7639a2bb948b32",
+        "fingerprint": "software quality assurance team lead|xpel|pune",
+        "date": "2026-07-08T16:35:38.232940"
+    },
+    {
+        "id": "a6f1034b82609aa0f7e34ec8a6a119b8",
+        "fingerprint": "lead python automation test engineer with ai|epam systems|pune",
+        "date": "2026-07-08T16:35:38.232961"
+    },
+    {
+        "id": "06505e206dc051f489039c7af86efe4b",
+        "fingerprint": "lead quality engineer|crisil|pune",
+        "date": "2026-07-08T16:35:38.232964"
+    },
+    {
+        "id": "e9fc838df846bac02c676ad43619cc8e",
+        "fingerprint": "senior qa lead \u2013 agentic ai|sisa|bengaluru",
+        "date": "2026-07-08T16:35:38.232968"
+    },
+    {
+        "id": "d1e1e64b699f598d9f1a7b1dff26ca98",
+        "fingerprint": "lead python automation test engineer with ai|epam systems|bengaluru",
+        "date": "2026-07-08T16:35:38.232971"
+    },
+    {
+        "id": "ce91a3b93ba5efd50ce423462f2de566",
+        "fingerprint": "qa lead|antino|bengaluru",
+        "date": "2026-07-08T16:35:38.232974"
+    },
+    {
+        "id": "c2fd0381e1f639acbe14ee48bc268551",
+        "fingerprint": "lead quality engineer|crisil|mumbai",
+        "date": "2026-07-08T16:35:38.232978"
+    },
+    {
+        "id": "2e69cf47236c471ac0f71ffe313bb2fd",
+        "fingerprint": "senior manager \u2013 ad operations & automation|parity cube pvt. ltd.|mumbai",
+        "date": "2026-07-08T16:35:38.232981"
+    },
+    {
+        "id": "7a862203aab94fc99ee21bc87649ac9f",
+        "fingerprint": "manual test lead - internet banking|qualitykiosk technologies|mumbai",
+        "date": "2026-07-08T16:35:38.232984"
+    },
+    {
+        "id": "08918e1e5905d2d04beb07c3a3e93ed0",
+        "fingerprint": "qa lead - automation|mco (mycomplianceoffice)|hyderabad",
+        "date": "2026-07-08T16:35:38.232988"
+    },
+    {
+        "id": "8c689e9c027ecb12134d7790c3a52508",
+        "fingerprint": "deputy manager instrumentation & automation|biocon|hyderabad",
+        "date": "2026-07-08T16:35:38.232991"
+    },
+    {
+        "id": "afdcf24347b8a8d148eb8a957e9a452c",
+        "fingerprint": "lead python automation test engineer with ai|epam systems|hyderabad",
+        "date": "2026-07-08T16:35:38.232995"
+    },
+    {
+        "id": "b240a818732719101bedaf186a506dcf",
+        "fingerprint": "automation team lead|huntingcube|gurugram",
+        "date": "2026-07-08T16:35:38.232998"
+    },
+    {
+        "id": "176a4a3c22d3dcfb4f57a53d640eb7ab",
+        "fingerprint": "fruits & vegetable (quality head)|unison international consulting (the recruitment company)|gurugram",
+        "date": "2026-07-08T16:35:38.233002"
+    },
+    {
+        "id": "973a96aa3e454a938cf62b5d855c0935",
+        "fingerprint": "lead quality engineer|crisil|gurugram",
+        "date": "2026-07-08T16:35:38.233006"
+    },
+    {
+        "id": "4adc70d1605d952571c57d7370547596",
+        "fingerprint": "lead engineer  - embedded sw quality test|ge vernova|gurugram",
+        "date": "2026-07-08T16:35:38.233009"
+    },
+    {
+        "id": "fd3d2c59233da350eebcf5878b5cc9c4",
+        "fingerprint": "quality manager - auto ancillaries - gurgaon|golden opportunities|gurugram",
+        "date": "2026-07-08T16:35:38.233012"
+    },
+    {
+        "id": "8dfa488865c8fb78d4ee7837ca3c53e4",
+        "fingerprint": "senior manager - testing lead (website, spine test solutioning)|sbi card|gurugram",
+        "date": "2026-07-08T16:35:38.233016"
+    },
+    {
+        "id": "a5d1b32d24b0572aaf092096d5130cdb",
+        "fingerprint": "automation team lead|huntingcube|noida",
+        "date": "2026-07-08T16:35:38.233019"
+    },
+    {
+        "id": "44bfa88bf20cb4bddece1296a15dcc29",
+        "fingerprint": "automation team lead, india|algosec|noida",
+        "date": "2026-07-08T16:35:38.233023"
+    },
+    {
+        "id": "bf3a7ad5e8bcf03693aee5651da6b005",
+        "fingerprint": "quality site / project manager i|technip energies|noida",
+        "date": "2026-07-08T16:35:38.233026"
+    },
+    {
+        "id": "1563dcf1f18c459b3f70b2b0c32681e8",
+        "fingerprint": "sr quality and lean leader apac|ge vernova|chennai",
+        "date": "2026-07-08T16:35:38.233029"
+    },
+    {
+        "id": "6603b98c9fa5aca025a87c4da2bfea2b",
+        "fingerprint": "lead python automation test engineer with ai|epam systems|chennai",
+        "date": "2026-07-08T16:35:38.233032"
+    },
+    {
+        "id": "b9f3a463c416bcba117d018430ed5600",
+        "fingerprint": "lead quality engineer|crisil|chennai",
+        "date": "2026-07-08T16:35:38.233035"
+    },
+    {
+        "id": "4af69a05254085a0a0aad70677ecbbeb",
+        "fingerprint": "qa manager|eps (eproductivity software)|remote",
+        "date": "2026-07-08T16:35:38.233038"
+    },
+    {
+        "id": "340529fd609a7e6f2c1be29620e32417",
+        "fingerprint": "senior manager, training and quality|lexisnexis",
+        "date": "2026-07-08T16:35:38.233042"
+    },
+    {
+        "id": "d520e142991c1729fb0844f193b00282",
+        "fingerprint": "senior manager of quality, global mnc , equipment manufacturing|wilson|remote",
+        "date": "2026-07-08T16:35:38.233045"
+    },
+    {
+        "id": "e6e18320dc6cf379e691e9dddec9373d",
+        "fingerprint": "quality assistant  manager|schilthorn precision engineering pvt. ltd.|ahmedabad",
+        "date": "2026-07-08T16:35:38.233048"
     }
 ]
