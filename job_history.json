@@ -15823,5 +15823,65 @@
         "id": "da39ebd9f159f644247e85aaec21acef",
         "fingerprint": "assistant manager - lab testing|carrier|gurugram",
         "date": "2026-07-09T11:36:24.860622"
+    },
+    {
+        "id": "05b043b7223c2b3be3a2fb60c37d5466",
+        "fingerprint": "staff sdet|locus|bengaluru",
+        "date": "2026-07-09T16:35:41.078556"
+    },
+    {
+        "id": "d0411bda8f930f43d27831fed6f3e729",
+        "fingerprint": "team leader manufacturing test development|nokia|bengaluru",
+        "date": "2026-07-09T16:35:41.078571"
+    },
+    {
+        "id": "9c23a093f16274fbefc113e57169a871",
+        "fingerprint": "principal engineer-quality engineering|eli lilly and company|bengaluru",
+        "date": "2026-07-09T16:35:41.078574"
+    },
+    {
+        "id": "d16029bb287e6e81ef6b8953e8ace92f",
+        "fingerprint": "lead engineer test & validation|kk group|bengaluru",
+        "date": "2026-07-09T16:35:41.078576"
+    },
+    {
+        "id": "a98704c1e6c2f47df0496c29ddcd4f88",
+        "fingerprint": "deputy general manager - corporate quality|etenico technologies|bengaluru",
+        "date": "2026-07-09T16:35:41.078578"
+    },
+    {
+        "id": "5a2c9a6ec83fa17fcfb58df3fd98eba7",
+        "fingerprint": "programme test manager|hackajob|pune",
+        "date": "2026-07-09T16:35:41.078580"
+    },
+    {
+        "id": "08bb9c22a6fadc521d5381f48d8d1cfe",
+        "fingerprint": "lead automation engineer|wissen technology|pune",
+        "date": "2026-07-09T16:35:41.078582"
+    },
+    {
+        "id": "6b02552d845476a449c20565af103ffa",
+        "fingerprint": "automation tester - lead|golden opportunities|pune",
+        "date": "2026-07-09T16:35:41.078585"
+    },
+    {
+        "id": "1c1ac942cb95c59f0533828d436c2f25",
+        "fingerprint": "senior manager, qa documentation|amneal pharmaceuticals|hyderabad",
+        "date": "2026-07-09T16:35:41.078587"
+    },
+    {
+        "id": "2618a4be117b8261d339a4e565013432",
+        "fingerprint": "api test automation lead|huntingcube|gurugram",
+        "date": "2026-07-09T16:35:41.078589"
+    },
+    {
+        "id": "61fb6f296c322dc122b5c461aa8c5e2a",
+        "fingerprint": "manager - process excellence & quality|stemz healthcare|gurugram",
+        "date": "2026-07-09T16:35:41.078592"
+    },
+    {
+        "id": "fcffc1f9027f9d5dba0ff6969ce06a57",
+        "fingerprint": "global director qa/ra|eurotrol|remote",
+        "date": "2026-07-09T16:35:41.078594"
     }
 ]
