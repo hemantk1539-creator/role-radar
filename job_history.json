@@ -16063,5 +16063,85 @@
         "id": "40ceb0db247823815cc1ce3ca3d5a1d9",
         "fingerprint": "quality assurance lead|robomq|remote",
         "date": "2026-07-10T16:36:03.034628"
+    },
+    {
+        "id": "58eaff47c692fcff910ec28509cbdec2",
+        "fingerprint": "scrum master & test delivery lead|vois|pune",
+        "date": "2026-07-11T06:06:32.216137"
+    },
+    {
+        "id": "9cc91ad01280700c2b7a2f12ae2fc52e",
+        "fingerprint": "staff software qa engineer [t500-27497]|hme|bengaluru",
+        "date": "2026-07-11T06:06:32.216153"
+    },
+    {
+        "id": "4734beede41219cc520b93ccee171635",
+        "fingerprint": "test lead|tata consultancy services|bengaluru",
+        "date": "2026-07-11T06:06:32.216155"
+    },
+    {
+        "id": "c83e2f14018c22f0416e7af08929a7c4",
+        "fingerprint": "vehicle test architect|aumovio|bengaluru",
+        "date": "2026-07-11T06:06:32.216157"
+    },
+    {
+        "id": "8d0049bf1b27f888a6915be28398b5a5",
+        "fingerprint": "quality engineering technical leader|cisco|bengaluru",
+        "date": "2026-07-11T06:06:32.216159"
+    },
+    {
+        "id": "31f06dec0ea7a2eadbf41e5b0003db6d",
+        "fingerprint": "head of quality|bharat fritz werner limited machine tools manufacturers|bengaluru",
+        "date": "2026-07-11T06:06:32.216161"
+    },
+    {
+        "id": "5c5404a3fa3a21d659713365f832770a",
+        "fingerprint": "manager - central quality (projects)|piramal pharma ltd|mumbai",
+        "date": "2026-07-11T06:06:32.216163"
+    },
+    {
+        "id": "38bc54610eebc48bc762a3bae2ba9e55",
+        "fingerprint": "software engineering & test manager|schneider electric|hyderabad",
+        "date": "2026-07-11T06:06:32.216164"
+    },
+    {
+        "id": "cdef715c13ecbd668cd6c02ab2eb0b1e",
+        "fingerprint": "qa manager|fixed frames|hyderabad",
+        "date": "2026-07-11T06:06:32.216166"
+    },
+    {
+        "id": "c465751dcb2c55bc1fedab82a83aa2ff",
+        "fingerprint": "qa lead|liveperson|hyderabad",
+        "date": "2026-07-11T06:06:32.216168"
+    },
+    {
+        "id": "3b2dd6c443d7447d622a6772ef824e7c",
+        "fingerprint": "senior lead - quality platform architect, gpu software|amd|hyderabad",
+        "date": "2026-07-11T06:06:32.216170"
+    },
+    {
+        "id": "8529811b75a422076a6460953a963c65",
+        "fingerprint": "quality engineering lead|sourcingxpress|hyderabad",
+        "date": "2026-07-11T06:06:32.216172"
+    },
+    {
+        "id": "d21ba8cbe655e176ed2daac451f8a4eb",
+        "fingerprint": "lead quality platform engineering|amd|hyderabad",
+        "date": "2026-07-11T06:06:32.216173"
+    },
+    {
+        "id": "e2fc05357972bc7201ec8e6de368cb48",
+        "fingerprint": "test manager (manual & automation testing)|samin tekmindz|gurugram",
+        "date": "2026-07-11T06:06:32.216175"
+    },
+    {
+        "id": "117df407a07e84dd32ba048d861f4da9",
+        "fingerprint": "tech lead(manual testing)|aristocrat|gurugram",
+        "date": "2026-07-11T06:06:32.216177"
+    },
+    {
+        "id": "0bc365b5cd038e2cffabde451a9c7d3a",
+        "fingerprint": "staff software engineer in test - anywhere cloud - performance and scale|cloudera|bengaluru",
+        "date": "2026-07-11T06:06:32.216179"
     }
 ]
