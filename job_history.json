@@ -16173,5 +16173,20 @@
         "id": "86bbbcdbbad5423a241d7de4a891d772",
         "fingerprint": "assistant manager - quality|river|bengaluru",
         "date": "2026-07-11T11:36:09.349208"
+    },
+    {
+        "id": "fa3d65ec6ff5cc7ea73db58ca4810c6b",
+        "fingerprint": "senior quality engineering lead (testing) - vois|vois|pune",
+        "date": "2026-07-11T16:35:47.626160"
+    },
+    {
+        "id": "8994b926b92b34b6d2c6d2cad72d7f40",
+        "fingerprint": "test architect|vois|pune",
+        "date": "2026-07-11T16:35:47.626170"
+    },
+    {
+        "id": "4f166104e2f02e9b81a9e2caaf18d7e6",
+        "fingerprint": "test environment manager -vois|vois|pune",
+        "date": "2026-07-11T16:35:47.626173"
     }
 ]
