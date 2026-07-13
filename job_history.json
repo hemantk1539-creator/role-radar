@@ -16213,5 +16213,40 @@
         "id": "250f503f2ae8864d8a2d1605cc8b64db",
         "fingerprint": "test architect - vois|vois|pune",
         "date": "2026-07-12T16:35:30.684091"
+    },
+    {
+        "id": "9571b9a28dfd6930a99f5128561d8a9c",
+        "fingerprint": "staff sdet|gtmfund|bengaluru",
+        "date": "2026-07-13T06:06:08.792800"
+    },
+    {
+        "id": "290e7688d22000150ff43ff77c5d8e63",
+        "fingerprint": "lead consultant \u2013 ai led quality engineering (qe)|her second innings|bengaluru",
+        "date": "2026-07-13T06:06:08.792816"
+    },
+    {
+        "id": "ad871e3a2121b06c24aee353292fe8f5",
+        "fingerprint": "ai test automation architect - fti|gravity infosolutions, inc.|bengaluru",
+        "date": "2026-07-13T06:06:08.792818"
+    },
+    {
+        "id": "37dd373d9aaaefa97abebffeee9cb012",
+        "fingerprint": "security test architect|bosch global software technologies|bengaluru",
+        "date": "2026-07-13T06:06:08.792820"
+    },
+    {
+        "id": "6dfa2a06e7a9b4c00ec1ccceaf5cc149",
+        "fingerprint": "quality assurance technical lead paco|rakuten symphony|bengaluru",
+        "date": "2026-07-13T06:06:08.792822"
+    },
+    {
+        "id": "34dc215c7798e9b6af4a1eca627298c3",
+        "fingerprint": "quality assurance & quality control (qa/qc) manager|proteogenixx lifescience pvt. ltd.|gurugram",
+        "date": "2026-07-13T06:06:08.792825"
+    },
+    {
+        "id": "185888bf5b0e67605b9a8decea92e3ba",
+        "fingerprint": "experienced test engineer - medicaid test manager|gainwell technologies|remote",
+        "date": "2026-07-13T06:06:08.792846"
     }
 ]
