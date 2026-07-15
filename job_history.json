@@ -16758,5 +16758,85 @@
         "id": "8021a5ec68c2767c2184db6f7509ff6f",
         "fingerprint": "engineering manager - ubuntu hardware certification quality and test engineering|canonical",
         "date": "2026-07-15T11:36:14.279913"
+    },
+    {
+        "id": "3fadfa1270ac4f87895c9ece54f80b96",
+        "fingerprint": "qa test automation lead|unbox robotics|pune",
+        "date": "2026-07-15T16:36:22.051964"
+    },
+    {
+        "id": "42d8f7122b77fe9dbdb97de149ae550f",
+        "fingerprint": "test management lead - telecom bss/oss testing - vois|vois|pune",
+        "date": "2026-07-15T16:36:22.051980"
+    },
+    {
+        "id": "bdeacae9ba5921a80de96f75ab18b012",
+        "fingerprint": "head central quality|michael page|pune",
+        "date": "2026-07-15T16:36:22.051983"
+    },
+    {
+        "id": "8296c60257d95d998db11005313533f9",
+        "fingerprint": "principal qa engineer (playwright)|deltek|bengaluru",
+        "date": "2026-07-15T16:36:22.051986"
+    },
+    {
+        "id": "d6b14795815f9488582474319f4695c2",
+        "fingerprint": "pricing technology qa - manager-bangalore|pwc acceleration center india|bengaluru",
+        "date": "2026-07-15T16:36:22.051988"
+    },
+    {
+        "id": "b782d351bf386e91b57918a4676ccfa3",
+        "fingerprint": "automation qa lead - java & selenium|circana|bengaluru",
+        "date": "2026-07-15T16:36:22.051991"
+    },
+    {
+        "id": "5c5ea8ed52925adddedf0a96a93da7e3",
+        "fingerprint": "principal quality assurance engineer|deltek|bengaluru",
+        "date": "2026-07-15T16:36:22.051994"
+    },
+    {
+        "id": "a16e4ba3dfab8df6ee6156205e57fb6a",
+        "fingerprint": "quality assurance - c# automation - tech lead|state street|bengaluru",
+        "date": "2026-07-15T16:36:22.051996"
+    },
+    {
+        "id": "53872e6026720877b43e87028e7a2ef6",
+        "fingerprint": "senior manager \u2013 data quality & master data management|first citizens india|bengaluru",
+        "date": "2026-07-15T16:36:22.051998"
+    },
+    {
+        "id": "de76d2cf7cada269680bc26f5e0e30de",
+        "fingerprint": "sr. manager quality engineering [t500-27645]|cibc india|hyderabad",
+        "date": "2026-07-15T16:36:22.052001"
+    },
+    {
+        "id": "e6a60570260dd3d1f593cac74ec5699c",
+        "fingerprint": "qe automation lead [t500-27637]|cibc india|hyderabad",
+        "date": "2026-07-15T16:36:22.052003"
+    },
+    {
+        "id": "624fc9d1db6f550775a29f744c4f44f5",
+        "fingerprint": "embedded software - system test architect|amd|hyderabad",
+        "date": "2026-07-15T16:36:22.052006"
+    },
+    {
+        "id": "7df209b91f457fb497b2770b47d015f4",
+        "fingerprint": "quality assurance - c# automation - tech lead|state street|hyderabad",
+        "date": "2026-07-15T16:36:22.052008"
+    },
+    {
+        "id": "ff6e14d1846b799b96bba8d74b854592",
+        "fingerprint": "lead business testing consultant|simcorp|gurugram",
+        "date": "2026-07-15T16:36:22.052011"
+    },
+    {
+        "id": "56cfaf38f07d19d59ec9bdfe1e52b0dd",
+        "fingerprint": "quality assurance lead|ari|chennai",
+        "date": "2026-07-15T16:36:22.052014"
+    },
+    {
+        "id": "523a4b235ed2f4605d98fd4612c5db2e",
+        "fingerprint": "streamone automation lead|tech data apac|chennai",
+        "date": "2026-07-15T16:36:22.052016"
     }
 ]
