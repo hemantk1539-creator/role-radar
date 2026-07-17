@@ -17103,5 +17103,95 @@
         "id": "78be62aed901079bb87d3468a4b5a5d4",
         "fingerprint": "test lead|tata consultancy services|noida",
         "date": "2026-07-17T06:05:57.037921"
+    },
+    {
+        "id": "5cf24bd7b8d9a98862312d511809802d",
+        "fingerprint": "manager, software engineering in test|okta|bengaluru",
+        "date": "2026-07-17T11:35:42.016964"
+    },
+    {
+        "id": "41b3f96ec04a6dea969ceb002ea05a77",
+        "fingerprint": "architect device testing|capgemini|bengaluru",
+        "date": "2026-07-17T11:35:42.016981"
+    },
+    {
+        "id": "5e732fee81dd9c1576cdcecfd0eee6cb",
+        "fingerprint": "qa lead engineer|quest global|bengaluru",
+        "date": "2026-07-17T11:35:42.016984"
+    },
+    {
+        "id": "6d7c7d7c1b997a0ce7735b9c8632c793",
+        "fingerprint": "tosca test automation lead|tekskills inc.|bengaluru",
+        "date": "2026-07-17T11:35:42.016986"
+    },
+    {
+        "id": "07d0af9a34ea483a8568e8ef7d031d29",
+        "fingerprint": "sr. staff, software machine learning test engineer|d-matrix|bengaluru",
+        "date": "2026-07-17T11:35:42.016988"
+    },
+    {
+        "id": "eb211ad98789eb72ccc223eab6235f29",
+        "fingerprint": "lead mobile automation test engineer|epam systems|bengaluru",
+        "date": "2026-07-17T11:35:42.016990"
+    },
+    {
+        "id": "771035ffcc3702f4df8510068bfdff6a",
+        "fingerprint": "lead specialist - project quality|autoliv|bengaluru",
+        "date": "2026-07-17T11:35:42.016993"
+    },
+    {
+        "id": "332416612937f0bc8e273d9913817bbb",
+        "fingerprint": "qa department lead|saisystems health|pune",
+        "date": "2026-07-17T11:35:42.016995"
+    },
+    {
+        "id": "86ab20e8f618b655f0e68380c85c8119",
+        "fingerprint": "senior qa automation engineer / qa lead|persistent systems|pune",
+        "date": "2026-07-17T11:35:42.016997"
+    },
+    {
+        "id": "ea8d2184868ef385d4658ca27fddbcda",
+        "fingerprint": "technical solution leader - test automation, ai & medical devices|capgemini engineering|pune",
+        "date": "2026-07-17T11:35:42.017000"
+    },
+    {
+        "id": "e35787d5e1de2ea0146dc04cee6b8938",
+        "fingerprint": "lead qa automation engineer (python, networking & ai-assisted testing)|newvision software|pune",
+        "date": "2026-07-17T11:35:42.017002"
+    },
+    {
+        "id": "894ea70295ac5a49a620161228c3fd52",
+        "fingerprint": "quality assurance manager|talent integrators|gurugram",
+        "date": "2026-07-17T11:35:42.017004"
+    },
+    {
+        "id": "edf611157dc673feefed6d644b39d863",
+        "fingerprint": "manager - qa analytics and insights|american express|gurugram",
+        "date": "2026-07-17T11:35:42.017007"
+    },
+    {
+        "id": "d4ae6864d21299bc96d46a0351b2526d",
+        "fingerprint": "agm/sr manager - analytics & automation|great learning|noida",
+        "date": "2026-07-17T11:35:42.017009"
+    },
+    {
+        "id": "34959d92a22a5edb5401a74815127d8c",
+        "fingerprint": "tech lead(manual testing)|aristocrat|noida",
+        "date": "2026-07-17T11:35:42.017011"
+    },
+    {
+        "id": "27a2e59dea6c8f2f6ab52ab693bdb629",
+        "fingerprint": "lead ii - software testing|ust|chennai",
+        "date": "2026-07-17T11:35:42.017014"
+    },
+    {
+        "id": "ca6e8191729e10b6d3c4baf4ef9b4055",
+        "fingerprint": "manager, software engineering in test|okta",
+        "date": "2026-07-17T11:35:42.017016"
+    },
+    {
+        "id": "fe334cf15579abb7515ea982da10c2b7",
+        "fingerprint": "qa automation engineer - assistant manager|state street|hyderabad",
+        "date": "2026-07-17T11:35:42.017019"
     }
 ]
