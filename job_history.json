@@ -17828,5 +17828,70 @@
         "id": "c45fd883c4c280cc12a3e567fc34d951",
         "fingerprint": "assistant quality manager|linxens|mumbai",
         "date": "2026-07-22T11:37:55.478826"
+    },
+    {
+        "id": "7b295a37586a1661e0eb9342ceec3eda",
+        "fingerprint": "manager qa|sun pharma|bengaluru",
+        "date": "2026-07-22T16:38:35.083186"
+    },
+    {
+        "id": "8c20fddd9553219aaea5ffaf91f3c0ff",
+        "fingerprint": "delivery manager - qa - 1834|medline|pune",
+        "date": "2026-07-22T16:38:35.083209"
+    },
+    {
+        "id": "7e9782ed187d18afb5f7d90cda5011a8",
+        "fingerprint": "qa lead (manual + automation)|persistent systems|pune",
+        "date": "2026-07-22T16:38:35.083211"
+    },
+    {
+        "id": "4b2c17112433eccc95c218dc7f67c711",
+        "fingerprint": "senior manager - assembly line -test systems|zf group|pune",
+        "date": "2026-07-22T16:38:35.083213"
+    },
+    {
+        "id": "7ffae93e56dc7250e0d138f137d31590",
+        "fingerprint": "senior test analyst/lead test analyst - automation (selenium, playwright, appium)|nec software solutions (india)|mumbai",
+        "date": "2026-07-22T16:38:35.083215"
+    },
+    {
+        "id": "b0575c4aa1006eb05edc84c900d2d444",
+        "fingerprint": "test automation architect - cypress/javascript/typescript and python/pytest|impactqa|gurugram",
+        "date": "2026-07-22T16:38:35.083217"
+    },
+    {
+        "id": "d4a1759cda895effe7d7fff07d95cd99",
+        "fingerprint": "deputy manager, quality generalist|whirlpool india|gurugram",
+        "date": "2026-07-22T16:38:35.083218"
+    },
+    {
+        "id": "7d671a87d7a13144d6eb88db49efcfb2",
+        "fingerprint": "qa manager|broad reach ventures|hyderabad",
+        "date": "2026-07-22T16:38:35.083257"
+    },
+    {
+        "id": "e252ed1e534cff9e934b46f68f9a193b",
+        "fingerprint": "qa manager|accellor|hyderabad",
+        "date": "2026-07-22T16:38:35.083260"
+    },
+    {
+        "id": "4361dcfee16044ab65edb08bbe923b3b",
+        "fingerprint": "automation engineering manager - uipath|roboyo|hyderabad",
+        "date": "2026-07-22T16:38:35.083262"
+    },
+    {
+        "id": "eee13220bfa813e723064a47881f4104",
+        "fingerprint": "production planning / quality management lead|ntt data north america|hyderabad",
+        "date": "2026-07-22T16:38:35.083265"
+    },
+    {
+        "id": "999beb7a521cd5d01e200333dea7527c",
+        "fingerprint": "manager ii, quality|worley|hyderabad",
+        "date": "2026-07-22T16:38:35.083267"
+    },
+    {
+        "id": "aea1b373f6f63e524d18d3bd3fe35c42",
+        "fingerprint": "manager technology testing - sdet [t500-27344]|mcdonald's global office in india|remote",
+        "date": "2026-07-22T16:38:35.083269"
     }
 ]
