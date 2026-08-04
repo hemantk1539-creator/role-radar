@@ -19468,5 +19468,60 @@
         "id": "00240aa101c7d79b385e74ed4aed9724",
         "fingerprint": "alpha implementation test manager - senior manager|state street|remote",
         "date": "2026-08-03T16:35:51.866946"
+    },
+    {
+        "id": "aca6a4fde499186b22ae5cf1ea10cca7",
+        "fingerprint": "tech lead - embedded software testing i | c/embedded c | linux | vs code | ant | asciidoc | markdown|thales|bengaluru",
+        "date": "2026-08-04T06:06:18.520206"
+    },
+    {
+        "id": "9bdc2abc905b761cc4ae2933f704b9f8",
+        "fingerprint": "general manager -instrumentation, automation & digitalization|new era cleantech solution|mumbai",
+        "date": "2026-08-04T06:06:18.520222"
+    },
+    {
+        "id": "b46ae6b55e82bb5da1331056ec3f8d89",
+        "fingerprint": "ai and control automation lead - vice president|citi|mumbai",
+        "date": "2026-08-04T06:06:18.520224"
+    },
+    {
+        "id": "4868bff3cae2740558dc94a3bf52fd82",
+        "fingerprint": "quality assurance lead|arcitech|mumbai",
+        "date": "2026-08-04T06:06:18.520226"
+    },
+    {
+        "id": "e6fc6e3b2cc67b89a70a160d5b0c12f3",
+        "fingerprint": "automation - test lead|cgi|hyderabad",
+        "date": "2026-08-04T06:06:18.520227"
+    },
+    {
+        "id": "ff57fb2f7b8cfbdf3760a9bce2d0c3b8",
+        "fingerprint": "lead i - software testing- automation testing, python, playwright, typescript, api automation, aws|ust|hyderabad",
+        "date": "2026-08-04T06:06:18.520229"
+    },
+    {
+        "id": "fb076c52a6ca937e4d9193004cd2fc54",
+        "fingerprint": "lead project management specialist 2 - quality|ge vernova|gurugram",
+        "date": "2026-08-04T06:06:18.520231"
+    },
+    {
+        "id": "f1a9f7e0207b89d0d02726bc0eb03d22",
+        "fingerprint": "quality engineering lead (test lead)|accenture in india|noida",
+        "date": "2026-08-04T06:06:18.520233"
+    },
+    {
+        "id": "14ed20bf7ccefb2f3257b8e1fbd3ae2b",
+        "fingerprint": "lead engineer, quality assurance|pentair|noida",
+        "date": "2026-08-04T06:06:18.520235"
+    },
+    {
+        "id": "3bfc090d2ff9a8a5869bf5a2a888e815",
+        "fingerprint": "manager qa|accenture in india|remote",
+        "date": "2026-08-04T06:06:18.520237"
+    },
+    {
+        "id": "ebf971bee481180aa0502583d762023d",
+        "fingerprint": "manager, quality automation|ellucian|remote",
+        "date": "2026-08-04T06:06:18.520239"
     }
 ]
