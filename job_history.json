@@ -20263,5 +20263,50 @@
         "id": "2a163a6d1bc4755a41870c9066a2f146",
         "fingerprint": "avp,  quality engineering lead(l10)|synchrony|remote",
         "date": "2026-08-07T11:35:16.553150"
+    },
+    {
+        "id": "d6db0f7aee76eef8a4cd9dd8747353ee",
+        "fingerprint": "test lead - quality engineering|happiest minds technologies|bengaluru",
+        "date": "2026-08-07T16:35:47.294174"
+    },
+    {
+        "id": "29c8bf9383970c113d1185dedb12a396",
+        "fingerprint": "test module lead - quality engineering|happiest minds technologies|bengaluru",
+        "date": "2026-08-07T16:35:47.294191"
+    },
+    {
+        "id": "580b8f8e876bfd6bcd1d4edbd46cb5ae",
+        "fingerprint": "sr mgr quality professional|teva pharmaceuticals|bengaluru",
+        "date": "2026-08-07T16:35:47.294194"
+    },
+    {
+        "id": "091461ae68f610f86586edae45ade304",
+        "fingerprint": "software development engineer in test (sdet) - manager|state street|bengaluru",
+        "date": "2026-08-07T16:35:47.294197"
+    },
+    {
+        "id": "8fcd2073a76c06db94aae5e36de343b4",
+        "fingerprint": "principal qa sw engineer 10379- layer2/layer3 protocol testing- python |data center networking|storyboard|bengaluru",
+        "date": "2026-08-07T16:35:47.294200"
+    },
+    {
+        "id": "8b26f3e6a97e606a48aa965f3aafdf92",
+        "fingerprint": "quality assurance manager|majesco|mumbai",
+        "date": "2026-08-07T16:35:47.294203"
+    },
+    {
+        "id": "73ea6feb976fd6ac4ec361e9c20c3e8b",
+        "fingerprint": "staff engineer, ssd nvmqra test dev eng|micron technology|hyderabad",
+        "date": "2026-08-07T16:35:47.294205"
+    },
+    {
+        "id": "c5af5d851314a2f4f2f78af297bb1936",
+        "fingerprint": "lead qa engineer|wpp enterprise solutions|gurugram",
+        "date": "2026-08-07T16:35:47.294208"
+    },
+    {
+        "id": "666910b8cb621be808046b4bca91b9c9",
+        "fingerprint": "wlan performance testing\u00a0- staff engineer|qualcomm|chennai",
+        "date": "2026-08-07T16:35:47.294211"
     }
 ]
