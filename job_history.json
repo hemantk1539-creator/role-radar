@@ -20343,5 +20343,45 @@
         "id": "95fe5568cf7f3ae0fc139e89841540ef",
         "fingerprint": "test lead|tata consultancy services|mumbai",
         "date": "2026-08-08T11:35:23.586389"
+    },
+    {
+        "id": "9d20adea08ab2572ede85b1e4fc69db7",
+        "fingerprint": "salesforce automation qa lead-(accelq)|exasoft|bengaluru",
+        "date": "2026-08-08T16:35:13.654195"
+    },
+    {
+        "id": "52a7ade2f93a96a415bb0b0b3a4fb52c",
+        "fingerprint": "lead sdet - hadoop observability (pulse)|acceldata|bengaluru",
+        "date": "2026-08-08T16:35:13.654209"
+    },
+    {
+        "id": "8f8185e78c39a3b6db761be7bd1b206b",
+        "fingerprint": "senior performance test architect|genesis global|bengaluru",
+        "date": "2026-08-08T16:35:13.654212"
+    },
+    {
+        "id": "508c92a789825089ab32a458430b806b",
+        "fingerprint": "test manager \u2013 core banking|aqm technologies|mumbai",
+        "date": "2026-08-08T16:35:13.654215"
+    },
+    {
+        "id": "362fdaa726d785245534f433a0444f94",
+        "fingerprint": "lead - testing automation|bluelupin technologies pvt. ltd.|gurugram",
+        "date": "2026-08-08T16:35:13.654218"
+    },
+    {
+        "id": "d8b2439de98cdfaf5a0aa2764c7425bc",
+        "fingerprint": "staff test engineer (automation test developer)|vantiva internet solutions llc|chennai",
+        "date": "2026-08-08T16:35:13.654220"
+    },
+    {
+        "id": "84ae96c8291b384e5d148d2fdfbe2758",
+        "fingerprint": "software test manager|harman india|remote",
+        "date": "2026-08-08T16:35:13.654222"
+    },
+    {
+        "id": "eaab8b67ed0b7364e8e5613980bedd2a",
+        "fingerprint": "manager, solution engineering (qe \u2013 api automation testing)|western union|remote",
+        "date": "2026-08-08T16:35:13.654225"
     }
 ]
