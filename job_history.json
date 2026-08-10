@@ -20503,5 +20503,65 @@
         "id": "82151e430a9ba79b3ba7c303fcb43d71",
         "fingerprint": "test engineering chapter lead - platform and technology|qualitrol|remote",
         "date": "2026-08-10T11:35:27.225751"
+    },
+    {
+        "id": "450e91c0750584e86bb6cd9eb856dac1",
+        "fingerprint": "test architect|siemens|bengaluru",
+        "date": "2026-08-10T16:35:23.469688"
+    },
+    {
+        "id": "c0daf4f698090e00bedf196dc966b0db",
+        "fingerprint": "staff engineer (automation testing)|sciex|bengaluru",
+        "date": "2026-08-10T16:35:23.469706"
+    },
+    {
+        "id": "ad5e227971509ab5f2238fce250a4173",
+        "fingerprint": "principal software engineer in test|alegeus|bengaluru",
+        "date": "2026-08-10T16:35:23.469709"
+    },
+    {
+        "id": "e506ca7a028cf8b4a742a1bac84592d3",
+        "fingerprint": "lead software engineer: automation|sciex|bengaluru",
+        "date": "2026-08-10T16:35:23.469712"
+    },
+    {
+        "id": "7c324873e9b376b00eb4f16cbb4d837b",
+        "fingerprint": "lead qa|thermo fisher scientific|bengaluru",
+        "date": "2026-08-10T16:35:23.469714"
+    },
+    {
+        "id": "a30dd558b048c1497e1a9f4bfc19a9fd",
+        "fingerprint": "team lead- quality|marketstar|bengaluru",
+        "date": "2026-08-10T16:35:23.469716"
+    },
+    {
+        "id": "1c862fe9bd36263908f5cba24fc4bc81",
+        "fingerprint": "tosca automation lead | sap testing|teceze|mumbai",
+        "date": "2026-08-10T16:35:23.469718"
+    },
+    {
+        "id": "1f802a514e543aa3960ab1749ade8646",
+        "fingerprint": "senior quality manager - service desk|infosys bpm|pune",
+        "date": "2026-08-10T16:35:23.469720"
+    },
+    {
+        "id": "ce11ded20675db9e98588bbc74d9c33a",
+        "fingerprint": "technical lead, electronic component testing|landis+gyr emea|gurugram",
+        "date": "2026-08-10T16:35:23.469722"
+    },
+    {
+        "id": "8ce25aae5ebfe049041a5ed8edd82b54",
+        "fingerprint": "specialist/lead plant quality|aumovio|gurugram",
+        "date": "2026-08-10T16:35:23.469724"
+    },
+    {
+        "id": "4301a7c72f1219e81579a21c2bbd9e92",
+        "fingerprint": "automation test manager -java/python|kumaran systems|chennai",
+        "date": "2026-08-10T16:35:23.469726"
+    },
+    {
+        "id": "5d515b81ac174bdc756566af1a62c46c",
+        "fingerprint": "test architect|qualizeal|remote",
+        "date": "2026-08-10T16:35:23.469728"
     }
 ]
