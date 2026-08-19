@@ -21773,5 +21773,60 @@
         "id": "07a4e8a09ceaa10e91549d769d16f539",
         "fingerprint": "director, sw qa engineering|netapp|remote",
         "date": "2026-08-18T16:35:28.945663"
+    },
+    {
+        "id": "4f4d7d40e934f744c2c9c05b7c1b52d1",
+        "fingerprint": "manager, tech quality assurance|gale|bengaluru",
+        "date": "2026-08-19T06:05:51.326635"
+    },
+    {
+        "id": "2102c9715e907b3ab62d34291b184878",
+        "fingerprint": "lead software engineer- automation testing|jpmorganchase|bengaluru",
+        "date": "2026-08-19T06:05:51.326651"
+    },
+    {
+        "id": "28cae3d0e54f33156c85071dd8d26c37",
+        "fingerprint": "architect - test automation|algoshack|bengaluru",
+        "date": "2026-08-19T06:05:51.326654"
+    },
+    {
+        "id": "7408bce5cdbdcb7e73c071fb82c618ce",
+        "fingerprint": "senior quality engineer / qe lead \u2013 ai-led quality engineering|zensar technologies|pune",
+        "date": "2026-08-19T06:05:51.326657"
+    },
+    {
+        "id": "54be302b132fa7c7fe45f19eb5b9b8b8",
+        "fingerprint": "lead quality engineer|cognizant|hyderabad",
+        "date": "2026-08-19T06:05:51.326660"
+    },
+    {
+        "id": "2d5946482762a44ac0efa43567bc951c",
+        "fingerprint": "team lead engineering event intelligence & automation|roche|hyderabad",
+        "date": "2026-08-19T06:05:51.326662"
+    },
+    {
+        "id": "e17137b14c51cd5bbc61beebb4830691",
+        "fingerprint": "sr.manager, sre (sre,  sli/ slo, monitoring, automation)|vertafore|hyderabad",
+        "date": "2026-08-19T06:05:51.326665"
+    },
+    {
+        "id": "4a4e82b8c58a34c6d0f48a051db0331a",
+        "fingerprint": "lead test engineer|simcorp|gurugram",
+        "date": "2026-08-19T06:05:51.326667"
+    },
+    {
+        "id": "98995944eddcf85b2d132b583a9fb138",
+        "fingerprint": "manager \u2013 quality assurance & enablement|uniliv|gurugram",
+        "date": "2026-08-19T06:05:51.326670"
+    },
+    {
+        "id": "4f53d9d7d7f7a93832960c3bf68ece2e",
+        "fingerprint": "senior manager - qa|harris computer|remote",
+        "date": "2026-08-19T06:05:51.326672"
+    },
+    {
+        "id": "472a41a124c96a146342bfa0bbcce187",
+        "fingerprint": "test architect - vois|vois|remote",
+        "date": "2026-08-19T06:05:51.326675"
     }
 ]
