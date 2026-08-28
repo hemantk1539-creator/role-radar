@@ -23333,5 +23333,55 @@
         "id": "1c39286d1372bd8f4034d1784fe64902",
         "fingerprint": "principal qa engineer|nokia|remote",
         "date": "2026-08-28T06:06:17.837584"
+    },
+    {
+        "id": "25d315b777197c07fdba6c2dbb7edaa7",
+        "fingerprint": "ai test lead|vaisesika|bengaluru",
+        "date": "2026-08-28T11:35:48.355130"
+    },
+    {
+        "id": "e48c39fffd8d0583e61052207ba8da9c",
+        "fingerprint": "head of quality control|amor management consultants - india\u2019s premiere auto talent hiring specialists|bengaluru",
+        "date": "2026-08-28T11:35:48.355147"
+    },
+    {
+        "id": "966943c653ee58d6946904abf1b3d772",
+        "fingerprint": "quality manager / head|thompsons hr consulting pvt ltd|bengaluru",
+        "date": "2026-08-28T11:35:48.355150"
+    },
+    {
+        "id": "2a93976046c3d09fbe8c02fffcb418bc",
+        "fingerprint": "staff engineer solution test|calix india|bengaluru",
+        "date": "2026-08-28T11:35:48.355152"
+    },
+    {
+        "id": "95f04e73bba5e0450b0739e926f7ecec",
+        "fingerprint": "test lead|mouri tech|hyderabad",
+        "date": "2026-08-28T11:35:48.355154"
+    },
+    {
+        "id": "8c700ba07835c5687ddf7f9b8ff5b550",
+        "fingerprint": "firmware automation test manager|nextpower|hyderabad",
+        "date": "2026-08-28T11:35:48.355156"
+    },
+    {
+        "id": "efa908393be278653d6eed772edf419d",
+        "fingerprint": "embedded test lead|nextpower|hyderabad",
+        "date": "2026-08-28T11:35:48.355158"
+    },
+    {
+        "id": "95903cae8229565e5e900fc78bb46590",
+        "fingerprint": "quality control manager|meenu creation llp|gurugram",
+        "date": "2026-08-28T11:35:48.355160"
+    },
+    {
+        "id": "92ba6d35ea87edfc9db4263785fb02b2",
+        "fingerprint": "manager - test engineering|nokia|gurugram",
+        "date": "2026-08-28T11:35:48.355162"
+    },
+    {
+        "id": "7fd2565a80e10073ea240d766e0749ea",
+        "fingerprint": "quality assurance manager|pmi engineering exports private limited|chennai",
+        "date": "2026-08-28T11:35:48.355165"
     }
 ]
