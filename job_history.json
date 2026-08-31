@@ -23538,5 +23538,65 @@
         "id": "2b2369dbbcba9afbdb5af9819b00cb71",
         "fingerprint": "principal engineer-testing|digitalxnode|remote",
         "date": "2026-08-31T06:05:34.315066"
+    },
+    {
+        "id": "d1d6f9caf254d197bdf105160a695753",
+        "fingerprint": "web qa team lead|mouser electronics|bengaluru",
+        "date": "2026-08-31T11:35:51.688823"
+    },
+    {
+        "id": "b83449b257eb16415bdc90f10bc8de73",
+        "fingerprint": "test lead engineer \u2013 manual testing & domain validation|siemens|bengaluru",
+        "date": "2026-08-31T11:35:51.688842"
+    },
+    {
+        "id": "e167f9ad07c6b7d11aa61448bb4960a6",
+        "fingerprint": "senior automation architect with genai/ai/ml|birlasoft|bengaluru",
+        "date": "2026-08-31T11:35:51.688845"
+    },
+    {
+        "id": "39459966652ab4aa7773e862dafa31ef",
+        "fingerprint": "rpa/automation lead|simple logic it private limited|mumbai",
+        "date": "2026-08-31T11:35:51.688848"
+    },
+    {
+        "id": "00587c92fc4b3e315ba3835ab9054d9a",
+        "fingerprint": "automation test lead|bayone solutions|hyderabad",
+        "date": "2026-08-31T11:35:51.688850"
+    },
+    {
+        "id": "dd77713fb910b9d894f9c0ab7b57b899",
+        "fingerprint": "lead expert, digital quality management|dsm-firmenich|hyderabad",
+        "date": "2026-08-31T11:35:51.688852"
+    },
+    {
+        "id": "4459c8e5297178899e00e293431950ff",
+        "fingerprint": "lead quality assurance engineer|savein|gurugram",
+        "date": "2026-08-31T11:35:51.688855"
+    },
+    {
+        "id": "126c6a6eea562c914b39d964b11d26d8",
+        "fingerprint": "e-commerce qa manager / senior qa engineer|beeyoond gaming|chennai",
+        "date": "2026-08-31T11:35:51.688857"
+    },
+    {
+        "id": "9cdc677136dfa3e1c8d07f36ab419a9d",
+        "fingerprint": "test lead|infobeans|chennai",
+        "date": "2026-08-31T11:35:51.688860"
+    },
+    {
+        "id": "769e65102565429a3eecf71e2bdd78e2",
+        "fingerprint": "lead network automation architect|miratech|chennai",
+        "date": "2026-08-31T11:35:51.688862"
+    },
+    {
+        "id": "a2129c603fb418729c55ab3f3af5a05e",
+        "fingerprint": "vp, head of testing|jobcrexa|remote",
+        "date": "2026-08-31T11:35:51.688864"
+    },
+    {
+        "id": "215430cc533a9f2a4aca615945bd5358",
+        "fingerprint": "lead quality assurance engineer (automation)|aisensy|remote",
+        "date": "2026-08-31T11:35:51.688866"
     }
 ]
