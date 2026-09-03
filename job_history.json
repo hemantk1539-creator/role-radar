@@ -24173,5 +24173,75 @@
         "id": "9df74dcac73119ac6a73556ee3762f06",
         "fingerprint": "assistant general manager - engineering (quality)|sembcorp industries ltd|gurugram",
         "date": "2026-09-02T16:36:11.037698"
+    },
+    {
+        "id": "af97a61811ff7b4625ca8984b35e0e61",
+        "fingerprint": "data quality tech lead vp|citi|pune",
+        "date": "2026-09-03T06:06:05.742320"
+    },
+    {
+        "id": "3f5002eb9623297288b9d66ad75b828c",
+        "fingerprint": "ai qe engineer - manager|pwc acceleration center india|bengaluru",
+        "date": "2026-09-03T06:06:05.742339"
+    },
+    {
+        "id": "f47dec41b9713cd0a796e8f709e99b94",
+        "fingerprint": "lead java automation test engineer with ai|epam systems|bengaluru",
+        "date": "2026-09-03T06:06:05.742341"
+    },
+    {
+        "id": "d74b2a4505d574b1ca2b1b7692e3c41f",
+        "fingerprint": "lead api automation tester|cgi|bengaluru",
+        "date": "2026-09-03T06:06:05.742344"
+    },
+    {
+        "id": "6b535f05e781dd742acf6873330bd846",
+        "fingerprint": "lead web ui automation tester|cgi|bengaluru",
+        "date": "2026-09-03T06:06:05.742346"
+    },
+    {
+        "id": "ad823d20db92e7822bfd7ebddeeaae6e",
+        "fingerprint": "quality engineering manager|posha|bengaluru",
+        "date": "2026-09-03T06:06:05.742348"
+    },
+    {
+        "id": "9a4db40191083fe71e7761e61cb67573",
+        "fingerprint": "lead automation test engineer - java with playwright|epam systems|bengaluru",
+        "date": "2026-09-03T06:06:05.742350"
+    },
+    {
+        "id": "bd492ba7af5d06757602838b40c4aec6",
+        "fingerprint": "senior manager, sox testing|factset|hyderabad",
+        "date": "2026-09-03T06:06:05.742353"
+    },
+    {
+        "id": "48b9702ffcd11d66f8e0616e8b9ee3b5",
+        "fingerprint": "sr manager, imsc information architecture make/quality|johnson & johnson innovative medicine|hyderabad",
+        "date": "2026-09-03T06:06:05.742355"
+    },
+    {
+        "id": "2a32043a1cb088dbd36aa5b385729f1b",
+        "fingerprint": "quality architect|epam systems|gurugram",
+        "date": "2026-09-03T06:06:05.742358"
+    },
+    {
+        "id": "43af8e56f20c1ab8dada80a3b6961e80",
+        "fingerprint": "lead python automation test engineer|epam systems|gurugram",
+        "date": "2026-09-03T06:06:05.742360"
+    },
+    {
+        "id": "016893429f653282dbe207f9a478e31b",
+        "fingerprint": "controls testing manager, vp|natwest group|chennai",
+        "date": "2026-09-03T06:06:05.742362"
+    },
+    {
+        "id": "46c942896e7d0ab27bfa23507b23f197",
+        "fingerprint": "senior testing lead - automation, performance, security & functional qa|petadata|remote",
+        "date": "2026-09-03T06:06:05.742364"
+    },
+    {
+        "id": "7dcaa3b5d09a3fb70c4c8f8f71ad43e3",
+        "fingerprint": "qe automation engineer - manager|pwc acceleration center india|remote",
+        "date": "2026-09-03T06:06:05.742367"
     }
 ]
