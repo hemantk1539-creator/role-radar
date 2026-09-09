@@ -1,95 +1,5 @@
 [
     {
-        "id": "13f7994396b2b2733c32d23c8c70035d",
-        "fingerprint": "director, quality engineering|onetrust|bengaluru",
-        "date": "2026-03-16T12:50:22.790052"
-    },
-    {
-        "id": "906341a16f271380bfdadea7d123decf",
-        "fingerprint": "sr principal quality assurance \u2013 digital commerce|orange business|bengaluru",
-        "date": "2026-03-16T12:50:22.790067"
-    },
-    {
-        "id": "38ce3c93a9516c92de12dc1204bd6653",
-        "fingerprint": "quality team lead|policybazaar.com|gurugram",
-        "date": "2026-03-16T12:50:22.790070"
-    },
-    {
-        "id": "4f654290580f0d5f518184d7da9fa87b",
-        "fingerprint": "quality control lead|rotoris|gurugram",
-        "date": "2026-03-16T12:50:22.790072"
-    },
-    {
-        "id": "6fa288b064dd899b959e6e36d00a72cc",
-        "fingerprint": "quality assurance manager|right management|gurugram",
-        "date": "2026-03-16T12:50:22.790075"
-    },
-    {
-        "id": "1178da614e43cd2920125ad1b62abcd6",
-        "fingerprint": "sr./lead sdet (immediate joiner preferred)|aeris|noida",
-        "date": "2026-03-16T12:50:22.790077"
-    },
-    {
-        "id": "777f9c88e092fff842f5954f4f6ffb9a",
-        "fingerprint": "test lead|dreamfolks|noida",
-        "date": "2026-03-16T12:50:22.790079"
-    },
-    {
-        "id": "b578f64e215511bc11cf02289871270b",
-        "fingerprint": "team manager - hvdc automation|hitachi energy|chennai",
-        "date": "2026-03-16T12:50:22.790081"
-    },
-    {
-        "id": "8ec846f5aa8f916471573952bff62541",
-        "fingerprint": "head of quality|biotech healthcare|ahmedabad",
-        "date": "2026-03-16T12:50:22.790083"
-    },
-    {
-        "id": "ab3a245533b4171b88cab1a45e861eea",
-        "fingerprint": "senior process improvement manager - automation|commonwealth bank|bengaluru",
-        "date": "2026-03-16T19:50:25.509366"
-    },
-    {
-        "id": "ec5577c80226bf629ac18ced4b816eac",
-        "fingerprint": "manager of data quality|csc|bengaluru",
-        "date": "2026-03-16T19:50:25.509383"
-    },
-    {
-        "id": "914eb3deb9a74406519c05b776930125",
-        "fingerprint": "manager, qa - professional services|ellucian|bengaluru",
-        "date": "2026-03-16T19:50:25.509386"
-    },
-    {
-        "id": "bcd254ad2ff764c5ac38295225fef6b8",
-        "fingerprint": "staff software engineer (sdet)|netapp|bengaluru",
-        "date": "2026-03-16T19:50:25.509388"
-    },
-    {
-        "id": "c906a81316ceb0eb83cbf35254c8b20f",
-        "fingerprint": "head of ai and automation|ventra health|hyderabad",
-        "date": "2026-03-16T19:50:25.509391"
-    },
-    {
-        "id": "22610f51ced7bdd57f77cd0e8e7b3fa8",
-        "fingerprint": "salesforce qa manager(cdk india) \u2013 enterprise applications|cdk global|hyderabad",
-        "date": "2026-03-16T19:50:25.509393"
-    },
-    {
-        "id": "55915988da085a9509701341731fb5df",
-        "fingerprint": "quality engineering manager [t500-24395]|cibc india|hyderabad",
-        "date": "2026-03-16T19:50:25.509395"
-    },
-    {
-        "id": "2225f3d1b71477cd98813b018dfeb7d5",
-        "fingerprint": "senior manager - technical service operation & quality|battery smart|gurugram",
-        "date": "2026-03-16T19:50:25.509398"
-    },
-    {
-        "id": "3e1dc46631abae4f1f36a21a52e0ff21",
-        "fingerprint": "head of education quality services|swansea university / prifysgol abertawe|noida",
-        "date": "2026-03-16T19:50:25.509400"
-    },
-    {
         "id": "20a384cf31af686964519cf34863d327",
         "fingerprint": "director, global supplier quality|advanced energy|remote",
         "date": "2026-03-16T19:50:25.509403"
@@ -24998,5 +24908,95 @@
         "id": "f179f9a2a93023409cb48c9daeeaf28b",
         "fingerprint": "policy manager, quality|airbnb",
         "date": "2026-09-08T16:36:06.837199"
+    },
+    {
+        "id": "a254adbb10d8712d565715d8108bf0b5",
+        "fingerprint": "digital solutions - ai & automation - senior manager (boomi + workato) (location: india)|connor group|pune",
+        "date": "2026-09-09T06:06:29.964305"
+    },
+    {
+        "id": "73bb4ab5328e8bd691de072242b0831d",
+        "fingerprint": "sdet lead|startx med|bengaluru",
+        "date": "2026-09-09T06:06:29.964321"
+    },
+    {
+        "id": "74525e5c9faf2703dec24e7af660b4fe",
+        "fingerprint": "non-functional testing lead, vice president|natwest group|bengaluru",
+        "date": "2026-09-09T06:06:29.964325"
+    },
+    {
+        "id": "9e4161b7f23d6d9a5cc5cbb4684176f9",
+        "fingerprint": "senior manager - quality assurance|stryker|bengaluru",
+        "date": "2026-09-09T06:06:29.964327"
+    },
+    {
+        "id": "8076ce341a111a35507b4d7ce807903c",
+        "fingerprint": "lead quality assurance engineer|kpi partners|bengaluru",
+        "date": "2026-09-09T06:06:29.964329"
+    },
+    {
+        "id": "2e3536ac68a2c585ec04ac3abf2985b6",
+        "fingerprint": "manager, software quality assurance / testing: servicenow|ntt data, inc.|bengaluru",
+        "date": "2026-09-09T06:06:29.964331"
+    },
+    {
+        "id": "2cd381c72f6015407c21b57f8056100c",
+        "fingerprint": "head - quality assurance & quality control (real estate)|the management recruitment group (mrg)|mumbai",
+        "date": "2026-09-09T06:06:29.964334"
+    },
+    {
+        "id": "9bf2a37eba16205e7d4eef9bf2b8ea2c",
+        "fingerprint": "performance test lead|datamatics|mumbai",
+        "date": "2026-09-09T06:06:29.964336"
+    },
+    {
+        "id": "176de161afd0d8a021ca90928b7a8e99",
+        "fingerprint": "lead executive - annual product quality review|apotex inc.|mumbai",
+        "date": "2026-09-09T06:06:29.964339"
+    },
+    {
+        "id": "bc2d23570dec777b32cba162cc96f211",
+        "fingerprint": "automation lead|adani energy solutions ltd.|mumbai",
+        "date": "2026-09-09T06:06:29.964341"
+    },
+    {
+        "id": "0ceef3eef65196fc5d3ab3aeecc6c3cc",
+        "fingerprint": "presales solution architect, quality engineering (ai and genai)|osi digital|hyderabad",
+        "date": "2026-09-09T06:06:29.964343"
+    },
+    {
+        "id": "b57dddfba118ad805edd062cfe0fef9c",
+        "fingerprint": "senior manager - quality assurance|stryker|gurugram",
+        "date": "2026-09-09T06:06:29.964345"
+    },
+    {
+        "id": "6c66356b93951cc94644eb8615d01d1d",
+        "fingerprint": "senior member of technical staff - iii, testing & validation|mavenir|noida",
+        "date": "2026-09-09T06:06:29.964348"
+    },
+    {
+        "id": "a4efef2d016c85b83caff86674e2f5bb",
+        "fingerprint": "non-functional testing lead, vice president|natwest group|chennai",
+        "date": "2026-09-09T06:06:29.964350"
+    },
+    {
+        "id": "83e03bb2eedcaa5c07bc624bf27f9118",
+        "fingerprint": "fcs people leader quality control|barclays|chennai",
+        "date": "2026-09-09T06:06:29.964352"
+    },
+    {
+        "id": "778497cb505b1c103ebe44a74c8eebdb",
+        "fingerprint": "test architect|clearroute|remote",
+        "date": "2026-09-09T06:06:29.964355"
+    },
+    {
+        "id": "87d8d14bbc4077d593892a4e9583d612",
+        "fingerprint": "lead engineer - test automation & tools development|moniepoint group|remote",
+        "date": "2026-09-09T06:06:29.964357"
+    },
+    {
+        "id": "8cc5d43894efbf9b1c5b9cb9151e4d57",
+        "fingerprint": "global head sap manufacturing & quality|sandoz india|hyderabad",
+        "date": "2026-09-09T06:06:29.964359"
     }
 ]
