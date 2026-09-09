@@ -1,95 +1,5 @@
 [
     {
-        "id": "20a384cf31af686964519cf34863d327",
-        "fingerprint": "director, global supplier quality|advanced energy|remote",
-        "date": "2026-03-16T19:50:25.509403"
-    },
-    {
-        "id": "c3a8189aac89ffa467ce45b7c70cc9e2",
-        "fingerprint": "manager, qa - professional services|mygwork - lgbtq+ business community|bengaluru",
-        "date": "2026-03-17T06:50:01.215708"
-    },
-    {
-        "id": "15e31a46ea690f4853ac63d5f0fe621d",
-        "fingerprint": "manager, it sox - testing|orbia pune|pune",
-        "date": "2026-03-17T06:50:01.215724"
-    },
-    {
-        "id": "c8ba59fe1cbd25de374525f2e38f6433",
-        "fingerprint": "product manager - compliance workflow automation|zinnia|pune",
-        "date": "2026-03-17T06:50:01.215727"
-    },
-    {
-        "id": "69b8f257e1826044e91cab31b7001298",
-        "fingerprint": "staff quality engineer -  india|jumpcloud|pune",
-        "date": "2026-03-17T06:50:01.215729"
-    },
-    {
-        "id": "c8e20e19f007b0d5d452c4eecd076061",
-        "fingerprint": "mgr, external quality vaccines - asia|takeda|hyderabad",
-        "date": "2026-03-17T06:50:01.215731"
-    },
-    {
-        "id": "2b1faf2cdb9ff30790bdd1412ccb83d9",
-        "fingerprint": "quality engineering architect (test arch|accenture in india|gurugram",
-        "date": "2026-03-17T06:50:01.215733"
-    },
-    {
-        "id": "1eb325500f39017a5a8ea07cc099e426",
-        "fingerprint": "head of global integrated digital execution & automation solutions|biogen|remote",
-        "date": "2026-03-17T06:50:01.215735"
-    },
-    {
-        "id": "1bcd80cb4960dc784cd25c25cd1fa856",
-        "fingerprint": "sr. manager, training & quality|concentrix|bengaluru",
-        "date": "2026-03-17T12:50:09.316827"
-    },
-    {
-        "id": "03964f17d1c458024bc47740faa66413",
-        "fingerprint": "testing lead|standard chartered india|bengaluru",
-        "date": "2026-03-17T12:50:09.316850"
-    },
-    {
-        "id": "53dbf2a5f6918cbfcecae36429bfdb18",
-        "fingerprint": "head of content delivery- tech & automation|weekday ai (yc w21)|pune",
-        "date": "2026-03-17T12:50:09.316855"
-    },
-    {
-        "id": "38f2fb1b6ee957057ceaf79e72406187",
-        "fingerprint": "quality assurance manager - valves|kumars forge & valves pvt.ltd|pune",
-        "date": "2026-03-17T12:50:09.316859"
-    },
-    {
-        "id": "d59725a3697a781379fcb81bfc8b473d",
-        "fingerprint": "head of quality assurance|kumars forge & valves pvt. ltd. (kfvpl)|pune",
-        "date": "2026-03-17T12:50:09.316864"
-    },
-    {
-        "id": "dcadf4c064981ee10f42aad28cbf0066",
-        "fingerprint": "manager/sr. manager quality control|ratan industries ltd|gurugram",
-        "date": "2026-03-17T12:50:09.316867"
-    },
-    {
-        "id": "cee13deb9e7e945d52e8a10662c09770",
-        "fingerprint": "head of quality assurance|servokon systems limited|gurugram",
-        "date": "2026-03-17T12:50:09.316869"
-    },
-    {
-        "id": "192d6b531b13f3b4946b6b39174189fa",
-        "fingerprint": "automation support manager|wpp|chennai",
-        "date": "2026-03-17T12:50:09.316871"
-    },
-    {
-        "id": "4fac4bb32ab54f9bb21b6335b3e2ee7d",
-        "fingerprint": "senior sfcc test lead (8+ years )|mindbrain|chennai",
-        "date": "2026-03-17T12:50:09.316873"
-    },
-    {
-        "id": "83743f5b6a5c497bfa291a15910a4fd3",
-        "fingerprint": "data quality manager|enviropol engineers pvt. ltd.|noida",
-        "date": "2026-03-17T12:50:09.316875"
-    },
-    {
         "id": "7d7f40fb26ec73b85171721fcd1238d1",
         "fingerprint": "global reliability and quality director|celestica|remote",
         "date": "2026-03-17T12:50:09.316878"
@@ -24998,5 +24908,95 @@
         "id": "8cc5d43894efbf9b1c5b9cb9151e4d57",
         "fingerprint": "global head sap manufacturing & quality|sandoz india|hyderabad",
         "date": "2026-09-09T06:06:29.964359"
+    },
+    {
+        "id": "18d64317efd578a00b3ede09a09bd0e4",
+        "fingerprint": "lead, sw quality eng|northern trust|pune",
+        "date": "2026-09-09T11:36:02.340508"
+    },
+    {
+        "id": "99dad2cb9e068feea3bad9887661d7bb",
+        "fingerprint": "manager ii, software quality assurance|enphase energy|bengaluru",
+        "date": "2026-09-09T11:36:02.340525"
+    },
+    {
+        "id": "f5b8ae8bbbf13ddeef729bf14611e4be",
+        "fingerprint": "sdet lead - automation|refold ai|bengaluru",
+        "date": "2026-09-09T11:36:02.340527"
+    },
+    {
+        "id": "087ea6bcacc77439c68c5175f5ecde84",
+        "fingerprint": "lead quality assurance engineer|intraedge|bengaluru",
+        "date": "2026-09-09T11:36:02.340530"
+    },
+    {
+        "id": "c738f5e614d8c16be2025a393e726f1f",
+        "fingerprint": "quality assurance manager|tajsats|bengaluru",
+        "date": "2026-09-09T11:36:02.340531"
+    },
+    {
+        "id": "c444e0189c6db496383817f5ae1ab956",
+        "fingerprint": "test lead with strong automation expertise irc303869|globallogic|bengaluru",
+        "date": "2026-09-09T11:36:02.340533"
+    },
+    {
+        "id": "1213ea502539138782f7ce642fbf89e8",
+        "fingerprint": "senior qa architect / qa lead - edr/xdr/cybersecurity|mlabs|bengaluru",
+        "date": "2026-09-09T11:36:02.340535"
+    },
+    {
+        "id": "53230b38456ad1a8139af9988fe4c249",
+        "fingerprint": "quality assurance manager|valmet|mumbai",
+        "date": "2026-09-09T11:36:02.340537"
+    },
+    {
+        "id": "e9a9992c3a0ae09529df766af2fb832f",
+        "fingerprint": "lead automation|adani electricity|mumbai",
+        "date": "2026-09-09T11:36:02.340539"
+    },
+    {
+        "id": "ff565a36e5435c8438e31efe7e4f4323",
+        "fingerprint": "oracle fusion qa lead|htc global services|hyderabad",
+        "date": "2026-09-09T11:36:02.340541"
+    },
+    {
+        "id": "e16cc679f187699a901ced5a70bac174",
+        "fingerprint": "manager/senior manager quality|atain|gurugram",
+        "date": "2026-09-09T11:36:02.340543"
+    },
+    {
+        "id": "bb4bf5754a4025665b3e7bcd543d2290",
+        "fingerprint": "quality and regulatory manager|imaging iq|gurugram",
+        "date": "2026-09-09T11:36:02.340545"
+    },
+    {
+        "id": "38cebcdfadb299893281dc0d97e0c1ba",
+        "fingerprint": "automation test lead|indium|chennai",
+        "date": "2026-09-09T11:36:02.340547"
+    },
+    {
+        "id": "99e37e82152b3d7fa578c95f7e1fdd2c",
+        "fingerprint": "quality assurance manager|valmet|chennai",
+        "date": "2026-09-09T11:36:02.340549"
+    },
+    {
+        "id": "5719e248f883d3cdfd83306f04412049",
+        "fingerprint": "solution architect / tech lead - ai quality & model evaluation (us it healthcare)|isoft globl|chennai",
+        "date": "2026-09-09T11:36:02.340551"
+    },
+    {
+        "id": "218adf33709d9be88443e395f7f054c4",
+        "fingerprint": "staff sw qa engineer (performance & scale)- 10422|extreme networks|chennai",
+        "date": "2026-09-09T11:36:02.340553"
+    },
+    {
+        "id": "832585c2f18b8063bc0ed67aca276dfd",
+        "fingerprint": "qa lead (automation & ai)|caterpillar inc.|remote",
+        "date": "2026-09-09T11:36:02.340555"
+    },
+    {
+        "id": "0e138698fd1f0a329a878f93693102d7",
+        "fingerprint": "global it/ot infrastructure quality manager|lonza|hyderabad",
+        "date": "2026-09-09T11:36:02.340557"
     }
 ]
