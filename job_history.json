@@ -1,50 +1,5 @@
 [
     {
-        "id": "7d7f40fb26ec73b85171721fcd1238d1",
-        "fingerprint": "global reliability and quality director|celestica|remote",
-        "date": "2026-03-17T12:50:09.316878"
-    },
-    {
-        "id": "810fac0bb8c87ed022ac5d1e00e0cdfa",
-        "fingerprint": "qa automation lead|persistent systems|pune",
-        "date": "2026-03-17T19:50:18.755317"
-    },
-    {
-        "id": "9d8e90e5915599e0504c02241907867c",
-        "fingerprint": "head of technical support distribution automation solutions|hitachi energy|chennai",
-        "date": "2026-03-17T19:50:18.755333"
-    },
-    {
-        "id": "cfaec6cde8057e3b4b3009a0ef252dbd",
-        "fingerprint": "sr. manager - process & automation|johnson electric|chennai",
-        "date": "2026-03-17T19:50:18.755336"
-    },
-    {
-        "id": "5d55aaf2b89a10e555d5090e5a31f197",
-        "fingerprint": "system test architect|quest global|chennai",
-        "date": "2026-03-17T19:50:18.755338"
-    },
-    {
-        "id": "3adf83c2edad12b2cbba6931ea0a4bbb",
-        "fingerprint": "deputy manager -surgery coding quality team|optum india|noida",
-        "date": "2026-03-17T19:50:18.755341"
-    },
-    {
-        "id": "db84906571afa7b782b51393289a6c2c",
-        "fingerprint": "factory manufacturing test process manager \u2013 pcb testing|tata electronics|remote",
-        "date": "2026-03-17T19:50:18.755343"
-    },
-    {
-        "id": "c86ad72ab42659699405d61af168416f",
-        "fingerprint": "test architect ii|philips|bengaluru",
-        "date": "2026-03-18T06:50:09.529115"
-    },
-    {
-        "id": "26a65d2120e64a5e3b9e6a81fffe963f",
-        "fingerprint": "software quality assurance (sqa) manager \u2013 multiprotocol|silicon labs|hyderabad",
-        "date": "2026-03-18T06:50:09.529133"
-    },
-    {
         "id": "391cb83e4ccf0a3b2869e14906152e29",
         "fingerprint": "quality manager (home textiles/rugs, 18+ yrs, gurgaon)|michael page|gurugram",
         "date": "2026-03-18T06:50:09.529136"
@@ -24998,5 +24953,50 @@
         "id": "0e138698fd1f0a329a878f93693102d7",
         "fingerprint": "global it/ot infrastructure quality manager|lonza|hyderabad",
         "date": "2026-09-09T11:36:02.340557"
+    },
+    {
+        "id": "3c0b137bd6ea856defea454f4f892c3d",
+        "fingerprint": "qa lead|bridgestone americas|bengaluru",
+        "date": "2026-09-09T16:36:24.413565"
+    },
+    {
+        "id": "0aa9980da13563e20b61ad962a8bfc88",
+        "fingerprint": "qa lead (veeva iva, rte and pharma digital qa)|publicis production|bengaluru",
+        "date": "2026-09-09T16:36:24.413576"
+    },
+    {
+        "id": "a5e64c1b4ad7207ecd92ce975c7e08f2",
+        "fingerprint": "aem qa lead|bridgestone americas|bengaluru",
+        "date": "2026-09-09T16:36:24.413579"
+    },
+    {
+        "id": "3033eba772e1963a7d37444412cf5454",
+        "fingerprint": "quality engineering lead, enterprise system [t500-29276]|abercrombie & fitch co.|bengaluru",
+        "date": "2026-09-09T16:36:24.413581"
+    },
+    {
+        "id": "18e009c553b9a371b64350665d6c9218",
+        "fingerprint": "test module lead - python scripting|happiest minds technologies|bengaluru",
+        "date": "2026-09-09T16:36:24.413584"
+    },
+    {
+        "id": "d73598775a177ce329546f844403dbe0",
+        "fingerprint": "project quality manager - specialist|sandoz india|hyderabad",
+        "date": "2026-09-09T16:36:24.413586"
+    },
+    {
+        "id": "ed25613227164d12362a7b4f49d8d170",
+        "fingerprint": "senior program manager, global quality ops - platform integrity|uber|hyderabad",
+        "date": "2026-09-09T16:36:24.413588"
+    },
+    {
+        "id": "9c7b2b968cf0a960c8c3537c1d32d056",
+        "fingerprint": "assistant manager - test engineer|bnp paribas|mumbai",
+        "date": "2026-09-09T16:36:24.413591"
+    },
+    {
+        "id": "44bb59363fbd69625f40d05df97a2b35",
+        "fingerprint": "assistant manager - transactional quality (process excellence/six sigma/ business excellence) - hyderabad|wns|hyderabad",
+        "date": "2026-09-09T16:36:24.413593"
     }
 ]
