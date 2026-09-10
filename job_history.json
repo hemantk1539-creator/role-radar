@@ -1,80 +1,5 @@
 [
     {
-        "id": "4effe2256582c98612f581a076c64da0",
-        "fingerprint": "senior engineering manager quality|athenahealth|chennai",
-        "date": "2026-03-18T19:49:57.215310"
-    },
-    {
-        "id": "ed3f065f73e34a666a90ca898661d507",
-        "fingerprint": "sr. manager, qa|simple, a netsmart solution|bengaluru",
-        "date": "2026-03-19T06:49:35.761731"
-    },
-    {
-        "id": "c95aaebc449f705b70db622b48d74ccf",
-        "fingerprint": "senior manager, test engineering|sonicwall|pune",
-        "date": "2026-03-19T06:49:35.761747"
-    },
-    {
-        "id": "193f76475e695528167b125bb68d3d44",
-        "fingerprint": "workday test lead|people prime worldwide|hyderabad",
-        "date": "2026-03-19T06:49:35.761750"
-    },
-    {
-        "id": "8843c4789b7b2b98c1b1eab5c6dc33a1",
-        "fingerprint": "test architect|ericsson|noida",
-        "date": "2026-03-19T06:49:35.761753"
-    },
-    {
-        "id": "576f38e61991778896d7cce632acf8e9",
-        "fingerprint": "quality engineering architect (test arch|accenture in india|noida",
-        "date": "2026-03-19T06:49:35.761755"
-    },
-    {
-        "id": "87d0cde595a3c712de024648eeeed169",
-        "fingerprint": "quality manager|hitachi energy|remote",
-        "date": "2026-03-19T06:49:35.761757"
-    },
-    {
-        "id": "9b7f10bdf8989aa9db986ae797dc2fd9",
-        "fingerprint": "senior manager-advance quality|tata marcopolo motors ltd. dharwad|pune",
-        "date": "2026-03-19T12:49:48.521361"
-    },
-    {
-        "id": "8dc4abdb1e947cfc293e0c0030a3ab11",
-        "fingerprint": "senior manager - quality|nibe limited|pune",
-        "date": "2026-03-19T12:49:48.521376"
-    },
-    {
-        "id": "6f79e9f77c7180b0edfbedd92d3e4ba0",
-        "fingerprint": "head quality|piramal pharma ltd|hyderabad",
-        "date": "2026-03-19T12:49:48.521379"
-    },
-    {
-        "id": "dc23ce29856fd467a7e233c7f3174906",
-        "fingerprint": "manager application engineering qa|roboyo|hyderabad",
-        "date": "2026-03-19T12:49:48.521382"
-    },
-    {
-        "id": "a40ed52b7740b8c00bcc4340cdd68fa8",
-        "fingerprint": "head of quality assurance|viya|gurugram",
-        "date": "2026-03-19T12:49:48.521384"
-    },
-    {
-        "id": "368ba143a10d6baf317a4e4fef950072",
-        "fingerprint": "tech lead, quality assurance engineering - global e-commerce|tiktok|remote",
-        "date": "2026-03-19T12:49:48.521387"
-    },
-    {
-        "id": "8db273b96f75ae45a9554b01c9e9627c",
-        "fingerprint": "director of global quality|ferguson|remote",
-        "date": "2026-03-19T12:49:48.521389"
-    },
-    {
-        "id": "ecc8b7ccb4409086aba34caf1341b2f4",
-        "fingerprint": "engine testing - lead|cnh|gurugram",
-        "date": "2026-03-19T19:49:40.312256"
-    },
-    {
         "id": "4dac1171619c141b54279ed275c10d58",
         "fingerprint": "test lead \u2013 cards & payments|expleo group|chennai",
         "date": "2026-03-19T19:49:40.312272"
@@ -24998,5 +24923,80 @@
         "id": "0f7a8bf7d33f338a7c0bda15c2fa9fdb",
         "fingerprint": "staff backend engineer, database automation (go)|gitlab",
         "date": "2026-09-10T06:06:26.569292"
+    },
+    {
+        "id": "9ff4f61ceafaf13e15eee9b392b41b8f",
+        "fingerprint": "qa lead engineer|quest global|pune",
+        "date": "2026-09-10T11:35:53.265895"
+    },
+    {
+        "id": "e9f59c92fe125a48842b2ba2b7bca7db",
+        "fingerprint": "deputy general manager (dgm) \u2013 product validation & field quality|mahindra and mahindra limited [automotive and farm equipment business]|bengaluru",
+        "date": "2026-09-10T11:35:53.265911"
+    },
+    {
+        "id": "44d339f939243bd6e6f3c74ad0251125",
+        "fingerprint": "staff manager, test automation|harman india|bengaluru",
+        "date": "2026-09-10T11:35:53.265914"
+    },
+    {
+        "id": "f1605f4bd658a30ba6f3282e6733f030",
+        "fingerprint": "qa lead -iam migration|tekskills inc.|bengaluru",
+        "date": "2026-09-10T11:35:53.265916"
+    },
+    {
+        "id": "2e23bc47fff2507a1dce3eee269ae28a",
+        "fingerprint": "performance test architect|amtech software|bengaluru",
+        "date": "2026-09-10T11:35:53.265919"
+    },
+    {
+        "id": "085c4e13c1d93bc5046370f319ad3783",
+        "fingerprint": "test lead- travel insurance|aqm technologies|mumbai",
+        "date": "2026-09-10T11:35:53.265921"
+    },
+    {
+        "id": "644ae4f7db52fae61b9b5b610eb5a624",
+        "fingerprint": "k1 - chief power supply & traction (testing & commissioning) - metro - (maharashtra) - 20+ years experience|consulting engineers group uk ltd|mumbai",
+        "date": "2026-09-10T11:35:53.265923"
+    },
+    {
+        "id": "4ff04b9aca8bb7dc9b2a2c52750c4f9c",
+        "fingerprint": "test lead|coforge|hyderabad",
+        "date": "2026-09-10T11:35:53.265924"
+    },
+    {
+        "id": "89581b6affe571023001f8e8bff55508",
+        "fingerprint": "head of quality assurance (exports)  | fmcg/manufacuting/pharma|metamorph|gurugram",
+        "date": "2026-09-10T11:35:53.265926"
+    },
+    {
+        "id": "abed4605c26ab6149015df60ef5ed74f",
+        "fingerprint": "head \u2013 transactional quality|atain|gurugram",
+        "date": "2026-09-10T11:35:53.265928"
+    },
+    {
+        "id": "7466bcda17d77686a2be2a3e773af3dc",
+        "fingerprint": "quality assurance manager|nikhar hygiene products private limited|gurugram",
+        "date": "2026-09-10T11:35:53.265930"
+    },
+    {
+        "id": "32bd4c0b279098676925dc4fd532156b",
+        "fingerprint": "windows qa, test automation & devops lead engineer|atri solutions|ahmedabad",
+        "date": "2026-09-10T11:35:53.265932"
+    },
+    {
+        "id": "d006eb622b1040d2c7a70ed6b26886d8",
+        "fingerprint": "quality manager- auto component manufacturing mandatory|live connections|chennai",
+        "date": "2026-09-10T11:35:53.265934"
+    },
+    {
+        "id": "a6c2d4ce7a6b5b1d858a773378efbd42",
+        "fingerprint": "quality system manager- qms global|ofi|bengaluru",
+        "date": "2026-09-10T11:35:53.265936"
+    },
+    {
+        "id": "25115acf2713700ff66741c587005a9e",
+        "fingerprint": "qa automation engineering lead - assistant vice president|citi|chennai",
+        "date": "2026-09-10T11:35:53.265938"
     }
 ]
