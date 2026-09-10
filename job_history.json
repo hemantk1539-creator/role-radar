@@ -1,80 +1,5 @@
 [
     {
-        "id": "391cb83e4ccf0a3b2869e14906152e29",
-        "fingerprint": "quality manager (home textiles/rugs, 18+ yrs, gurgaon)|michael page|gurugram",
-        "date": "2026-03-18T06:50:09.529136"
-    },
-    {
-        "id": "1bd73d419f435a955ede9392059e672b",
-        "fingerprint": "biotech - head - quality|biotech healthcare|ahmedabad",
-        "date": "2026-03-18T06:50:09.529139"
-    },
-    {
-        "id": "56ec9d66b1dc4b395e3d45de907aaebd",
-        "fingerprint": "lead test automation|linearloop|ahmedabad",
-        "date": "2026-03-18T06:50:09.529142"
-    },
-    {
-        "id": "e4743511a7aee937cee5229a753c191d",
-        "fingerprint": "senior test manager|standard chartered india|chennai",
-        "date": "2026-03-18T06:50:09.529144"
-    },
-    {
-        "id": "97d1a7cf8ff12a907446c53e98afc31c",
-        "fingerprint": "quality operations director, trust, safety & support|epicgames",
-        "date": "2026-03-18T06:50:09.529147"
-    },
-    {
-        "id": "ee303bb5f53cd6fafc29252f625f2968",
-        "fingerprint": "quality engineering manager, data platform|netskope|bengaluru",
-        "date": "2026-03-18T12:49:57.046027"
-    },
-    {
-        "id": "f33a7a853716d33b135a3ca124eb7762",
-        "fingerprint": "senior quality manager|ge vernova|chennai",
-        "date": "2026-03-18T12:49:57.046043"
-    },
-    {
-        "id": "3c98c77a00cb3296716c47f06b3cdb72",
-        "fingerprint": "global quality director, il|avery dennison|remote",
-        "date": "2026-03-18T12:49:57.046046"
-    },
-    {
-        "id": "cce292ae04cb0802a2e31146cd5915b3",
-        "fingerprint": "supplier quality assurance manager|zeno|pune",
-        "date": "2026-03-18T19:49:57.215272"
-    },
-    {
-        "id": "eb2b3776deae02344327001eb5a2b17e",
-        "fingerprint": "technology director - workplace services and automation|wells fargo|bengaluru",
-        "date": "2026-03-18T19:49:57.215294"
-    },
-    {
-        "id": "3ed549364dc0fbcd67ef72369e01aba7",
-        "fingerprint": "sr. manager, qa|netsmart|bengaluru",
-        "date": "2026-03-18T19:49:57.215298"
-    },
-    {
-        "id": "0b1e3cd71352fddd6f5592fddd0f1332",
-        "fingerprint": "group lead - automation & ots ( 82392717 )|reliance industries limited|mumbai",
-        "date": "2026-03-18T19:49:57.215301"
-    },
-    {
-        "id": "39bf4918b7d32ad129e8a15c418aa6c8",
-        "fingerprint": "vice president, compliance and operations risk test manager|jpmorganchase|hyderabad",
-        "date": "2026-03-18T19:49:57.215303"
-    },
-    {
-        "id": "a0a035124c139aa38d15c9a8193ceea0",
-        "fingerprint": "test architect|ericsson|gurugram",
-        "date": "2026-03-18T19:49:57.215306"
-    },
-    {
-        "id": "f478f597eb77407892588ef30998f6c1",
-        "fingerprint": "t&e quality assurance team lead|transunion|chennai",
-        "date": "2026-03-18T19:49:57.215308"
-    },
-    {
         "id": "4effe2256582c98612f581a076c64da0",
         "fingerprint": "senior engineering manager quality|athenahealth|chennai",
         "date": "2026-03-18T19:49:57.215310"
@@ -24998,5 +24923,80 @@
         "id": "44bb59363fbd69625f40d05df97a2b35",
         "fingerprint": "assistant manager - transactional quality (process excellence/six sigma/ business excellence) - hyderabad|wns|hyderabad",
         "date": "2026-09-09T16:36:24.413593"
+    },
+    {
+        "id": "c7e56021c58b5ea6d36086498f1674c7",
+        "fingerprint": "lead test manager, vp|deutsche bank|bengaluru",
+        "date": "2026-09-10T06:06:26.569239"
+    },
+    {
+        "id": "397622a58f892504e4bff5313729795d",
+        "fingerprint": "senior mgr quality engineering|empower india|bengaluru",
+        "date": "2026-09-10T06:06:26.569258"
+    },
+    {
+        "id": "bad37f544bef6e5f15eb745a9f6c225c",
+        "fingerprint": "engineering manager - quality|booking holdings (nasdaq: bkng)|bengaluru",
+        "date": "2026-09-10T06:06:26.569261"
+    },
+    {
+        "id": "5f89984edc2fb0d308f494b2e4c84b26",
+        "fingerprint": "manager / avp (t24 testing) - india|thakral one|bengaluru",
+        "date": "2026-09-10T06:06:26.569263"
+    },
+    {
+        "id": "52d02dc2e152c6ad9449dc3fc96ff60c",
+        "fingerprint": "lead quality assurance engineer|thermo fisher scientific|bengaluru",
+        "date": "2026-09-10T06:06:26.569265"
+    },
+    {
+        "id": "ef40bd04a9ad0b7e0bc5852537607d86",
+        "fingerprint": "test manager|hashroot|pune",
+        "date": "2026-09-10T06:06:26.569267"
+    },
+    {
+        "id": "006d811a4643adc55570c235469d147c",
+        "fingerprint": "quality assurance manager|convertex india pvt ltd|pune",
+        "date": "2026-09-10T06:06:26.569270"
+    },
+    {
+        "id": "8e85a77f66f5f4ad3a6422a93c5e38a9",
+        "fingerprint": "sr. engineer qe ii, digital dist & ent eng|invesco|hyderabad",
+        "date": "2026-09-10T06:06:26.569272"
+    },
+    {
+        "id": "e900015c4500b7de05d13e9e66f4babf",
+        "fingerprint": "senior manager quality engineering|practice by numbers|gurugram",
+        "date": "2026-09-10T06:06:26.569275"
+    },
+    {
+        "id": "78e7b3497527f72895b7f07ae5820f0e",
+        "fingerprint": "senior technical lead - software quality assurance|heads up for tails|gurugram",
+        "date": "2026-09-10T06:06:26.569278"
+    },
+    {
+        "id": "d2e919dbfb750290f21298de8279b58a",
+        "fingerprint": "automation test lead|smtechpartner|gurugram",
+        "date": "2026-09-10T06:06:26.569282"
+    },
+    {
+        "id": "7afc521a72410514dd14bb4d612cb1cc",
+        "fingerprint": "technical training & quality manager \u2013(ai data | data annotation | llm evaluation | tier 1/2 mandatory)|careerbloc ~|gurugram",
+        "date": "2026-09-10T06:06:26.569285"
+    },
+    {
+        "id": "5da20848a040a7d9e152d1efb8af52cb",
+        "fingerprint": "lead sdet|eli lilly and company|remote",
+        "date": "2026-09-10T06:06:26.569287"
+    },
+    {
+        "id": "836ab5aa5bf7b6f082bc12d2f9d3ccd6",
+        "fingerprint": "senior principal enterprise software test engineer|medtronic|remote",
+        "date": "2026-09-10T06:06:26.569289"
+    },
+    {
+        "id": "0f7a8bf7d33f338a7c0bda15c2fa9fdb",
+        "fingerprint": "staff backend engineer, database automation (go)|gitlab",
+        "date": "2026-09-10T06:06:26.569292"
     }
 ]
