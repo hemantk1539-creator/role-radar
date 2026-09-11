@@ -1,50 +1,5 @@
 [
     {
-        "id": "345f470df9974fe7b04b7fd730a91874",
-        "fingerprint": "quality control laboratory manager|biopharm group|bengaluru",
-        "date": "2026-03-22T12:49:43.211449"
-    },
-    {
-        "id": "aaeae2a7eb29b61f54a87b9630d6c724",
-        "fingerprint": "offer quality leader- hvac/cooling|schneider electric|bengaluru",
-        "date": "2026-03-22T12:49:43.211465"
-    },
-    {
-        "id": "8406f1e54d965332daec3e2028ee1912",
-        "fingerprint": "senior/lead automation developer (sdet-python)|amd|hyderabad",
-        "date": "2026-03-22T12:49:43.211469"
-    },
-    {
-        "id": "b6639171b6e6347f83f5135270d0d027",
-        "fingerprint": "care experience quality lead|charlie health",
-        "date": "2026-03-22T12:49:43.211471"
-    },
-    {
-        "id": "32e7174486bd864368de4bedb851b463",
-        "fingerprint": "installation manager (home automation)|vibgyor|bengaluru",
-        "date": "2026-03-22T19:49:41.376244"
-    },
-    {
-        "id": "c606ae2ba82cff64c3566f66840ef53b",
-        "fingerprint": "technical engineering lead - substation automation systems|hitachi energy|bengaluru",
-        "date": "2026-03-22T19:49:41.376260"
-    },
-    {
-        "id": "fca98e36caa24adb5cb323499c10cc74",
-        "fingerprint": "staff test engineer|teradata|hyderabad",
-        "date": "2026-03-22T19:49:41.376263"
-    },
-    {
-        "id": "331a22cb548d5b933194be83bbdc61fc",
-        "fingerprint": "manager, automation specialist|standard chartered india|chennai",
-        "date": "2026-03-22T19:49:41.376265"
-    },
-    {
-        "id": "468cacce88c3744114880bccd7f35a8b",
-        "fingerprint": "test manager|capgemini|remote",
-        "date": "2026-03-22T19:49:41.376267"
-    },
-    {
         "id": "0273c055df2a8da822d39c666b77caf0",
         "fingerprint": "test engineering manager|jabil|pune",
         "date": "2026-03-23T06:49:33.825703"
@@ -24998,5 +24953,50 @@
         "id": "668c20b8a9ba604aa5af3e13a0b0356f",
         "fingerprint": "qa manager|weekday ai (yc w21)|remote",
         "date": "2026-09-11T11:35:32.110022"
+    },
+    {
+        "id": "118384240af2e03bc163ed467772964e",
+        "fingerprint": "qa automation-manager-bangalore|pwc acceleration center india|bengaluru",
+        "date": "2026-09-11T16:35:44.436507"
+    },
+    {
+        "id": "26dbceaa94819104e4ecb7ee8e8cdacb",
+        "fingerprint": "lead engineer  - test automation & tools development|moniepoint group|bengaluru",
+        "date": "2026-09-11T16:35:44.436527"
+    },
+    {
+        "id": "662194b0c3868e38073280b88249657d",
+        "fingerprint": "software engineering mgr ind- quality assurance [t500-29360]|fm|bengaluru",
+        "date": "2026-09-11T16:35:44.436531"
+    },
+    {
+        "id": "79c51b2832bce1ccb69f752c02cc323c",
+        "fingerprint": "qa lead - cb2|bridgestone americas|bengaluru",
+        "date": "2026-09-11T16:35:44.436535"
+    },
+    {
+        "id": "1c5edc0a7985f65be0f09765dba4c1f8",
+        "fingerprint": "test automation (java+selenium+rest assured) \u2013 test lead|bilvantis technologies|hyderabad",
+        "date": "2026-09-11T16:35:44.436538"
+    },
+    {
+        "id": "88a48ab32eaac9c7906439aa25126523",
+        "fingerprint": "lead firmware test automation engineer|jabil|gurugram",
+        "date": "2026-09-11T16:35:44.436540"
+    },
+    {
+        "id": "446a034221adeec3d3052d8be13565c8",
+        "fingerprint": "senior staff engineer \u2013 embedded software test and automation|stryker|gurugram",
+        "date": "2026-09-11T16:35:44.436542"
+    },
+    {
+        "id": "bd790ba504db29c04bd9c20fdf525675",
+        "fingerprint": "test technical program manager|supply chain resources group, inc.|gurugram",
+        "date": "2026-09-11T16:35:44.436544"
+    },
+    {
+        "id": "e780c4ab2cf7161d0ba856bc062a8311",
+        "fingerprint": "avp , quality engineering (qe) automation architect  ( l11 )|synchrony|remote",
+        "date": "2026-09-11T16:35:44.436546"
     }
 ]
