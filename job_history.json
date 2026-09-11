@@ -1,100 +1,5 @@
 [
     {
-        "id": "f50b7d29806691671de4437754372aea",
-        "fingerprint": "supplier quality manager (sqm)|varel energy solutions|gurugram",
-        "date": "2026-03-21T06:50:05.993485"
-    },
-    {
-        "id": "32440a2b73518535fb761f3a5980079c",
-        "fingerprint": "qa automation - lead|iris software inc.|noida",
-        "date": "2026-03-21T06:50:05.993487"
-    },
-    {
-        "id": "e353fe638ab91fcbe1a03b3c317380e9",
-        "fingerprint": "data quality/governance - project manager|citi|bengaluru",
-        "date": "2026-03-21T12:50:01.046102"
-    },
-    {
-        "id": "9d7a96074958ac7ad443873846d133de",
-        "fingerprint": "senior ml architect & domain lead pdqo (procurement, deliver, quality, operations)|siemens|bengaluru",
-        "date": "2026-03-21T12:50:01.046119"
-    },
-    {
-        "id": "e07390f2919f3119b3261a0edb613430",
-        "fingerprint": "senior manager regional fluid quality - apac|fresenius medical care|gurugram",
-        "date": "2026-03-21T12:50:01.046122"
-    },
-    {
-        "id": "8263fca475c75590c2f639c2305e7777",
-        "fingerprint": "quality engineering architect (test arch|accenture services pvt ltd|noida",
-        "date": "2026-03-21T12:50:01.046124"
-    },
-    {
-        "id": "b6152f0b76d0d9ace7d2b0779b8a14f4",
-        "fingerprint": "project manager with network automation(only female candidates) | 9 to 16 years | chennai|capgemini|chennai",
-        "date": "2026-03-21T12:50:01.046126"
-    },
-    {
-        "id": "747c57813aa000391e5fc315f9c1e681",
-        "fingerprint": "head of payment operations automation, international payment products (ipp)|mygwork - lgbtq+ business community|bengaluru",
-        "date": "2026-03-21T19:49:58.660671"
-    },
-    {
-        "id": "62d2092aaa755f016e8b9bc74af1127c",
-        "fingerprint": "quality manager - tio: enterprise agentic transformation - offshore - saravanakumar sundaram|ascendion|bengaluru",
-        "date": "2026-03-21T19:49:58.660688"
-    },
-    {
-        "id": "2cfe84f85cc7afbfaec0ac57af2f2f27",
-        "fingerprint": "servicenow- process mapping & automation - manager|state street|bengaluru",
-        "date": "2026-03-21T19:49:58.660691"
-    },
-    {
-        "id": "623b41118dcd460c579db6c4650d6bbf",
-        "fingerprint": "test lead|capgemini|pune",
-        "date": "2026-03-21T19:49:58.660693"
-    },
-    {
-        "id": "3d2bd743e8c06ca4342a69d4ad03b50c",
-        "fingerprint": "test manager|macquarie group|gurugram",
-        "date": "2026-03-21T19:49:58.660695"
-    },
-    {
-        "id": "6b09e442d4371ed122b9d910f986dc60",
-        "fingerprint": "test strategy & operations lead for integration test cycle (itc) - s4e program|siemens energy|gurugram",
-        "date": "2026-03-21T19:49:58.660698"
-    },
-    {
-        "id": "e9d1c8c4c0d71400b0ce29c62d846d63",
-        "fingerprint": "quality manager - industrial control panel manufacturing - sriperumbudur|sanvi engineering and business consulting solutions|chennai",
-        "date": "2026-03-21T19:49:58.660700"
-    },
-    {
-        "id": "200084d8d9214142b271f2d04adedcbc",
-        "fingerprint": "sr. application engineer, automation lead|elastic",
-        "date": "2026-03-21T19:49:58.660703"
-    },
-    {
-        "id": "a4102b70a77d14a43aebe4a53a13f9c1",
-        "fingerprint": "construction cum quality manager|egis road operation india|bengaluru",
-        "date": "2026-03-22T06:50:18.249680"
-    },
-    {
-        "id": "0aa446f3629f83b24d970da01c31caa1",
-        "fingerprint": "lead quality engineer|capgemini|bengaluru",
-        "date": "2026-03-22T06:50:18.249690"
-    },
-    {
-        "id": "2bfb31091ccf5e2245a8638b8fd53981",
-        "fingerprint": "plant quality leader|bd|gurugram",
-        "date": "2026-03-22T06:50:18.249693"
-    },
-    {
-        "id": "56bc81ad0aafa32571b1d085a3299c07",
-        "fingerprint": "sr. manager- global quality|sun pharma|remote",
-        "date": "2026-03-22T06:50:18.249695"
-    },
-    {
         "id": "345f470df9974fe7b04b7fd730a91874",
         "fingerprint": "quality control laboratory manager|biopharm group|bengaluru",
         "date": "2026-03-22T12:49:43.211449"
@@ -24998,5 +24903,100 @@
         "id": "b3f52813105878dfcd9d1e8d3978aa45",
         "fingerprint": "quality assurance lead consultant (amazon connect + salesforce)|neuraflash",
         "date": "2026-09-11T06:05:58.863591"
+    },
+    {
+        "id": "18d9da56ca589b7feaa19d0b7f83320d",
+        "fingerprint": "lead quality engineer|responsive|bengaluru",
+        "date": "2026-09-11T11:35:32.109966"
+    },
+    {
+        "id": "d58b51c0307d3420e686a74c54d6e086",
+        "fingerprint": "qa / sqa lead|ntt data north america|bengaluru",
+        "date": "2026-09-11T11:35:32.109981"
+    },
+    {
+        "id": "3fb388f874234f7b91bf264e34b99975",
+        "fingerprint": "qa manager|mea|bengaluru",
+        "date": "2026-09-11T11:35:32.109985"
+    },
+    {
+        "id": "537ce1dc20f27c1ef76f3fbd91ac45fd",
+        "fingerprint": "lead i - software testing (senior servicenow qa, cmdb)|ust|bengaluru",
+        "date": "2026-09-11T11:35:32.109988"
+    },
+    {
+        "id": "635cdaa1fadab0089a05a820840c7354",
+        "fingerprint": "quality head for real estate - punawale location|varma corp|pune",
+        "date": "2026-09-11T11:35:32.109990"
+    },
+    {
+        "id": "086a9c08d98f1361563ebbab9e4eac71",
+        "fingerprint": "quality head|rajput security & investigation services pvt. ltd.|mumbai",
+        "date": "2026-09-11T11:35:32.109993"
+    },
+    {
+        "id": "5f9b2be9488e53a125edabcc5ba30a01",
+        "fingerprint": "qa capability lead|intrade systems|mumbai",
+        "date": "2026-09-11T11:35:32.109995"
+    },
+    {
+        "id": "fa482359a7cf16dcced31e77533867e6",
+        "fingerprint": "quality head|rajput security & investigation services pvt. ltd.|hyderabad",
+        "date": "2026-09-11T11:35:32.109998"
+    },
+    {
+        "id": "ae613fa4507047803b09d39d0d514e89",
+        "fingerprint": "qa lead|webpt|hyderabad",
+        "date": "2026-09-11T11:35:32.110000"
+    },
+    {
+        "id": "247390bc63feb1d767e135cb7d7d163f",
+        "fingerprint": "quality leader|ingersoll rand|gurugram",
+        "date": "2026-09-11T11:35:32.110002"
+    },
+    {
+        "id": "6866dea385d2f77c1652c893e0dcd868",
+        "fingerprint": "quality head|rajput security & investigation services pvt. ltd.|gurugram",
+        "date": "2026-09-11T11:35:32.110004"
+    },
+    {
+        "id": "0c2c465eccbfa998bb1236f70500ba63",
+        "fingerprint": "senior engineerassistant manager - aoi & spi quality engineering|asti electronics india private limited|gurugram",
+        "date": "2026-09-11T11:35:32.110006"
+    },
+    {
+        "id": "f5ed99bd81b78963e82f97abfc12e7ed",
+        "fingerprint": "quality head|rajput security & investigation services pvt. ltd.|noida",
+        "date": "2026-09-11T11:35:32.110008"
+    },
+    {
+        "id": "928a96b135e6976a3729058c6950a450",
+        "fingerprint": "manager - sw development ( industrial automation )|sellryt|noida",
+        "date": "2026-09-11T11:35:32.110011"
+    },
+    {
+        "id": "bf064ee0d294f69abcb9fa13cf0b9fae",
+        "fingerprint": "automation architect|kumaran systems|chennai",
+        "date": "2026-09-11T11:35:32.110013"
+    },
+    {
+        "id": "803b99d8083a41e1692d2a8317fea45f",
+        "fingerprint": "quality head|rajput security & investigation services pvt. ltd.|chennai",
+        "date": "2026-09-11T11:35:32.110015"
+    },
+    {
+        "id": "65f91adaa2b86102314eebb83033c1d7",
+        "fingerprint": "lead ii - enterprise solutions (servicenow integration & qa consultant)|ust|chennai",
+        "date": "2026-09-11T11:35:32.110017"
+    },
+    {
+        "id": "0c639fb7ddca4197be89af8dcbed18b9",
+        "fingerprint": "quality control - manager/senior manager|zydus group|ahmedabad",
+        "date": "2026-09-11T11:35:32.110020"
+    },
+    {
+        "id": "668c20b8a9ba604aa5af3e13a0b0356f",
+        "fingerprint": "qa manager|weekday ai (yc w21)|remote",
+        "date": "2026-09-11T11:35:32.110022"
     }
 ]
