@@ -1,105 +1,5 @@
 [
     {
-        "id": "c9b63da58b7cd8ca86dfe4e634c08246",
-        "fingerprint": "head of quality|hygenco - the hydrogen company|pune",
-        "date": "2026-03-20T19:50:11.679906"
-    },
-    {
-        "id": "939a5ccfc73db41bc1d598ee05c6eaaf",
-        "fingerprint": "quality assurance head|april3rd foods private limited|bengaluru",
-        "date": "2026-03-20T19:50:11.679916"
-    },
-    {
-        "id": "c71df296e9c929bdb22a0bfefdab77ca",
-        "fingerprint": "quality systems manager|zimmer biomet|bengaluru",
-        "date": "2026-03-20T19:50:11.679919"
-    },
-    {
-        "id": "c06f391a9a1d19c3e1f3537729e52208",
-        "fingerprint": "quality manager|mtecd innovations pvt ltd (formerly m-tec industries),bangalore|bengaluru",
-        "date": "2026-03-20T19:50:11.679921"
-    },
-    {
-        "id": "9a855bf2327ca261a90952e059e77690",
-        "fingerprint": "qa & atlassian platform lead|conexus|hyderabad",
-        "date": "2026-03-20T19:50:11.679924"
-    },
-    {
-        "id": "ae6cf4d70dc385582cc7830b9c337848",
-        "fingerprint": "team lead - quality (us mortgage)|outamation|hyderabad",
-        "date": "2026-03-20T19:50:11.679926"
-    },
-    {
-        "id": "00bf29ded450daea8a631a5b75c61792",
-        "fingerprint": "lead i - software testing(c#+selenium+ api+ azure devops)|ust|hyderabad",
-        "date": "2026-03-20T19:50:11.679928"
-    },
-    {
-        "id": "12369e52aa536a2de1f6c0eb0628a575",
-        "fingerprint": "test manager|qualitykiosk technologies|gurugram",
-        "date": "2026-03-20T19:50:11.679930"
-    },
-    {
-        "id": "edec52cf6028917e32dee245fbbc8c6d",
-        "fingerprint": "qa architect|dejavoo|chennai",
-        "date": "2026-03-20T19:50:11.679932"
-    },
-    {
-        "id": "ee08d5a7d8dd1d73f455005849906dde",
-        "fingerprint": "qa/qc manager \u2013 global food manufacturer (35762)|activ8 recruitment & solutions|remote",
-        "date": "2026-03-20T19:50:11.679934"
-    },
-    {
-        "id": "d162d90bf3aa2c13d33b7c6e798c97e6",
-        "fingerprint": "quality director - mo588 - qe consolidation and transformation - offshore|ascendion|bengaluru",
-        "date": "2026-03-21T06:50:05.993446"
-    },
-    {
-        "id": "2a361c20cd55a2e297e9ed96c3cf383e",
-        "fingerprint": "director, test excellence|lytx, inc.|bengaluru",
-        "date": "2026-03-21T06:50:05.993463"
-    },
-    {
-        "id": "53e5c0978b680d3e231d593a66553969",
-        "fingerprint": "test strategy & operations lead for user acceptance test (uat) - s4e program|siemens energy|pune",
-        "date": "2026-03-21T06:50:05.993466"
-    },
-    {
-        "id": "3d48f3421c2e72c74f8f407b5eaed38b",
-        "fingerprint": "aem(adobe experience manager) ui automation testing with java script | 6 to 9 years | pune|capgemini|pune",
-        "date": "2026-03-21T06:50:05.993469"
-    },
-    {
-        "id": "5a5308a10aeba3f28eb8d12012f90243",
-        "fingerprint": "test strategy & operations lead for integration test cycle (itc) - s4e program|siemens energy|pune",
-        "date": "2026-03-21T06:50:05.993471"
-    },
-    {
-        "id": "089af2cbe8a2893fdd71889d7afbd3ba",
-        "fingerprint": "quality control manager|reco transformers pvt. ltd.|mumbai",
-        "date": "2026-03-21T06:50:05.993473"
-    },
-    {
-        "id": "918f30d9ae787d8bf6d7ca67805875d0",
-        "fingerprint": "head of quality assurance|vysystems|mumbai",
-        "date": "2026-03-21T06:50:05.993476"
-    },
-    {
-        "id": "3bfabe22f2a4965747aa6bc9fddccff8",
-        "fingerprint": "lead software engineer - sdet, java, spring|wells fargo|hyderabad",
-        "date": "2026-03-21T06:50:05.993478"
-    },
-    {
-        "id": "7943daba2b1d51d2bd3117c3f859a9dc",
-        "fingerprint": "quality assurance manager|amaara botanicals|gurugram",
-        "date": "2026-03-21T06:50:05.993480"
-    },
-    {
-        "id": "338e417eec9aa05929a063bc3b95235d",
-        "fingerprint": "test strategy & operations lead for user acceptance test (uat) - s4e program|siemens energy|gurugram",
-        "date": "2026-03-21T06:50:05.993483"
-    },
-    {
         "id": "f50b7d29806691671de4437754372aea",
         "fingerprint": "supplier quality manager (sqm)|varel energy solutions|gurugram",
         "date": "2026-03-21T06:50:05.993485"
@@ -24998,5 +24898,105 @@
         "id": "6929d46b8aebf4142fe8ff462ddee015",
         "fingerprint": "quality head- leaf spring division|akar auto industries ltd.|remote",
         "date": "2026-09-10T16:36:09.463298"
+    },
+    {
+        "id": "a0031ccbca2de516f98bae23fb696bdf",
+        "fingerprint": "r&d senior qa group lead - ems/gms|hitachi energy|bengaluru",
+        "date": "2026-09-11T06:05:58.863543"
+    },
+    {
+        "id": "7b3cb765e568259e834640f256e7dd42",
+        "fingerprint": "principal eng, test(automation),|baxter international inc.|bengaluru",
+        "date": "2026-09-11T06:05:58.863561"
+    },
+    {
+        "id": "18349783a48c85459eb1f5d21809c5e5",
+        "fingerprint": "staff test engineer - mobility|tally solutions pvt ltd|bengaluru",
+        "date": "2026-09-11T06:05:58.863563"
+    },
+    {
+        "id": "a257f5d6833e45cfc3a346166d469f4f",
+        "fingerprint": "manager - controls testing|anz|bengaluru",
+        "date": "2026-09-11T06:05:58.863565"
+    },
+    {
+        "id": "ce671fc5b13fe0c7eaa0b17b1c0d3221",
+        "fingerprint": "lead software quality process engineer|peopleplus professional services pvt. ltd.|bengaluru",
+        "date": "2026-09-11T06:05:58.863567"
+    },
+    {
+        "id": "c767b2cc650d46ebed9c46b02170c011",
+        "fingerprint": "test manager lending|qualitykiosk technologies|mumbai",
+        "date": "2026-09-11T06:05:58.863568"
+    },
+    {
+        "id": "fbfaffafc117e36c9bad92d1f9ee81c9",
+        "fingerprint": "lead automation tester|barclays|pune",
+        "date": "2026-09-11T06:05:58.863570"
+    },
+    {
+        "id": "220fced5f426725d326fadfa2916554a",
+        "fingerprint": "principal software engineer development in test|engradar|pune",
+        "date": "2026-09-11T06:05:58.863571"
+    },
+    {
+        "id": "5aa6d68ad07e164f32faa92559775f20",
+        "fingerprint": "lead ai engineer (genai platform automation python devops cloud)|haparz|pune",
+        "date": "2026-09-11T06:05:58.863573"
+    },
+    {
+        "id": "61b8dc9e675ea33e85248c34756615d1",
+        "fingerprint": "group manager payments engineering manager \u2013 intelligent automation|citi|pune",
+        "date": "2026-09-11T06:05:58.863574"
+    },
+    {
+        "id": "43dc9f619072ee4236ce7ae38c43ae22",
+        "fingerprint": "tech consultant - staff sdet automation & devops lead|ntt data north america|pune",
+        "date": "2026-09-11T06:05:58.863576"
+    },
+    {
+        "id": "5faf0246d1e890340a0c2b35229487b6",
+        "fingerprint": "staff qa engineer - wifi|capmont|hyderabad",
+        "date": "2026-09-11T06:05:58.863578"
+    },
+    {
+        "id": "95ceb2a60c3f61fb69f65598ec99199b",
+        "fingerprint": "automation lead|inadev|gurugram",
+        "date": "2026-09-11T06:05:58.863579"
+    },
+    {
+        "id": "442760d9d5e05fa4ae3ca2133498d410",
+        "fingerprint": "principal software test engineer|trintech|gurugram",
+        "date": "2026-09-11T06:05:58.863581"
+    },
+    {
+        "id": "25a1fa93d335bbce390a7d68c0cdfe8d",
+        "fingerprint": "design for quality (dfq) lead - havells cri|havells india ltd|gurugram",
+        "date": "2026-09-11T06:05:58.863583"
+    },
+    {
+        "id": "4760e86b0e6209d8d5062cedd5390146",
+        "fingerprint": "head of testing coe \u2013 wholesale lending operations, transformation - vice president|barclays|gurugram",
+        "date": "2026-09-11T06:05:58.863584"
+    },
+    {
+        "id": "4d5507f545a3a738774968aa39b4a1e5",
+        "fingerprint": "qa automation team lead|adhiran infotech|chennai",
+        "date": "2026-09-11T06:05:58.863586"
+    },
+    {
+        "id": "2e0a561a8026e30a3ec9c3828b1e3078",
+        "fingerprint": "lead engineer - test automation|veeva systems|remote",
+        "date": "2026-09-11T06:05:58.863588"
+    },
+    {
+        "id": "edf1a207233fae011a6e3ec06edb43a2",
+        "fingerprint": "lead automation & design engineer (remote, nc, us, 99999)|gxo logistics",
+        "date": "2026-09-11T06:05:58.863590"
+    },
+    {
+        "id": "b3f52813105878dfcd9d1e8d3978aa45",
+        "fingerprint": "quality assurance lead consultant (amazon connect + salesforce)|neuraflash",
+        "date": "2026-09-11T06:05:58.863591"
     }
 ]
