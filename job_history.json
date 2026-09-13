@@ -1,15 +1,5 @@
 [
     {
-        "id": "f0fa63ec8e5dfcb78a25bbf63e8e67da",
-        "fingerprint": "test manager|black box|bengaluru",
-        "date": "2026-03-23T19:50:04.068621"
-    },
-    {
-        "id": "bd9bd01c7f18490cda1249a5a4a47376",
-        "fingerprint": "it manager (manufacturing and quality)|cummins india|pune",
-        "date": "2026-03-23T19:50:04.068624"
-    },
-    {
         "id": "72facbb79b0089f209a585d861377dfc",
         "fingerprint": "lead ii - software testing|ust|mumbai",
         "date": "2026-03-23T19:50:04.068626"
@@ -24998,5 +24988,15 @@
         "id": "8ab987c9a8057137800833f2c1de0357",
         "fingerprint": "director \u2013 quality & automation engineering|jobcrexa|bengaluru",
         "date": "2026-09-13T11:35:19.334696"
+    },
+    {
+        "id": "abc344978f4cb8adb82936739bc2438c",
+        "fingerprint": "training and quality manager -tech ( tier 1 or 2 institute )|your hrm expert|gurugram",
+        "date": "2026-09-13T16:35:11.131132"
+    },
+    {
+        "id": "710a0e049df91373f6c15d6095592a81",
+        "fingerprint": "test lead | global identity and access management|colliers|remote",
+        "date": "2026-09-13T16:35:11.131152"
     }
 ]
