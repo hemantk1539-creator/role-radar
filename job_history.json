@@ -1,10 +1,5 @@
 [
     {
-        "id": "5fbcd24cecdb038b57832c84766f1597",
-        "fingerprint": "quality assurance manager|live connections|bengaluru",
-        "date": "2026-03-23T19:50:04.068618"
-    },
-    {
         "id": "f0fa63ec8e5dfcb78a25bbf63e8e67da",
         "fingerprint": "test manager|black box|bengaluru",
         "date": "2026-03-23T19:50:04.068621"
@@ -24998,5 +24993,10 @@
         "id": "0272949d64b6713635005836b18b11b6",
         "fingerprint": "sr. technical lead - manual testing|gamblingcareers.com|gurugram",
         "date": "2026-09-13T06:05:42.323927"
+    },
+    {
+        "id": "8ab987c9a8057137800833f2c1de0357",
+        "fingerprint": "director \u2013 quality & automation engineering|jobcrexa|bengaluru",
+        "date": "2026-09-13T11:35:19.334696"
     }
 ]
