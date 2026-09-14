@@ -1,25 +1,5 @@
 [
     {
-        "id": "72facbb79b0089f209a585d861377dfc",
-        "fingerprint": "lead ii - software testing|ust|mumbai",
-        "date": "2026-03-23T19:50:04.068626"
-    },
-    {
-        "id": "00ea42a0d97e7bcc1fe84fa385e1362a",
-        "fingerprint": "quality engineering manager [t500-24624]|cibc india|hyderabad",
-        "date": "2026-03-23T19:50:04.068628"
-    },
-    {
-        "id": "1a2abeae01ab7c6a9720b5e20b8ae038",
-        "fingerprint": "manager, web solutions engineering, tools, automation and infrastructure|googleplex|hyderabad",
-        "date": "2026-03-23T19:50:04.068630"
-    },
-    {
-        "id": "158acd937404a6a871b07ac0b1f614a5",
-        "fingerprint": "automation engineer lead analyst - hih - evernorth|evernorth health services|hyderabad",
-        "date": "2026-03-23T19:50:04.068633"
-    },
-    {
         "id": "4aed81b8bc161dcb607fb029c907cd8d",
         "fingerprint": "manager \u2013 quality excellence - utility|exl|gurugram",
         "date": "2026-03-23T19:50:04.068635"
@@ -24998,5 +24978,25 @@
         "id": "710a0e049df91373f6c15d6095592a81",
         "fingerprint": "test lead | global identity and access management|colliers|remote",
         "date": "2026-09-13T16:35:11.131152"
+    },
+    {
+        "id": "703243c6a6b4957434336720d3b40ce2",
+        "fingerprint": "manager i - senior software engineer, sap quality management|bristol myers squibb eu policy|hyderabad",
+        "date": "2026-09-14T06:05:17.045500"
+    },
+    {
+        "id": "5179364bf8f3b5d26e2ca6c98bcfb940",
+        "fingerprint": "quality manager in projects (qmip)|siemens|gurugram",
+        "date": "2026-09-14T06:05:17.045519"
+    },
+    {
+        "id": "aa1b793de311ad8e86c2b53a8c144152",
+        "fingerprint": "test technical program manager|supply chain resources group, inc.|noida",
+        "date": "2026-09-14T06:05:17.045526"
+    },
+    {
+        "id": "8fecf118ece3b11e3fb39bbcc2aa854d",
+        "fingerprint": "test manager lending|jobcrexa|remote",
+        "date": "2026-09-14T06:05:17.045530"
     }
 ]
