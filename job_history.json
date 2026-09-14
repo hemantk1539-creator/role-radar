@@ -1,45 +1,5 @@
 [
     {
-        "id": "fd84342d57205482d4e73d1b73e1059e",
-        "fingerprint": "sr mgr test engineering|motorola solutions|bengaluru",
-        "date": "2026-03-24T06:49:57.690554"
-    },
-    {
-        "id": "f50bc10f18ccb62a3cdb8f70e82f616b",
-        "fingerprint": "sap quality engineering - program director | 15 to 25 years | bangalore, mumbai, pune|capgemini|mumbai",
-        "date": "2026-03-24T06:49:57.690557"
-    },
-    {
-        "id": "269e4443aff0a3fb2fe846516ac8693f",
-        "fingerprint": "quality lead|siemens|mumbai",
-        "date": "2026-03-24T06:49:57.690560"
-    },
-    {
-        "id": "72868bd21aa0d3402f2ad8d2bafbc6b8",
-        "fingerprint": "quality assurance manager (corrugation)|cargo international packagings rai sonipat|gurugram",
-        "date": "2026-03-24T06:49:57.690563"
-    },
-    {
-        "id": "8628fb1260624f05cf32402f64f4062b",
-        "fingerprint": "general manager quality|ksp inc.|gurugram",
-        "date": "2026-03-24T06:49:57.690565"
-    },
-    {
-        "id": "e5fd4f5c328c9421f653617ff97b3c7a",
-        "fingerprint": "quality manager|nokia|chennai",
-        "date": "2026-03-24T06:49:57.690567"
-    },
-    {
-        "id": "52acfafe3807ac45776a45c4b5da4e7c",
-        "fingerprint": "quality manager - production|clarion cosmetics|chennai",
-        "date": "2026-03-24T06:49:57.690569"
-    },
-    {
-        "id": "f835e6282d0da8a8b5785d690ad2b690",
-        "fingerprint": "quality control manager|sonya foods pvt. ltd.|ahmedabad",
-        "date": "2026-03-24T06:49:57.690572"
-    },
-    {
         "id": "afdbab7b25acf11381c3439875c6776d",
         "fingerprint": "head of qa (bhubaneswar / odisha)|muvi.com|remote",
         "date": "2026-03-24T06:49:57.690574"
@@ -24998,5 +24958,45 @@
         "id": "acfcab43ad98c32dc22882aba314bc94",
         "fingerprint": "\u5168\u7403\u54c1\u8cea\u4fdd\u8b49\u8655\u9577 / global quality assurance director (\u53f0\u7063\u5730\u5340)|leanteq \u6fc2\u9054\u79d1\u6280|remote",
         "date": "2026-09-14T11:35:34.324368"
+    },
+    {
+        "id": "8cd694d1213bdd8b61b2fd775fc5d3b3",
+        "fingerprint": "r and da automation lead|ey|bengaluru",
+        "date": "2026-09-14T16:35:30.730755"
+    },
+    {
+        "id": "9fe9d2c11deade73323597bb0bf70f02",
+        "fingerprint": "lead i - software testing (playwright & ecommerce)|ust|bengaluru",
+        "date": "2026-09-14T16:35:30.730771"
+    },
+    {
+        "id": "f32afb0d23b566802ce8650e1bfbd4fa",
+        "fingerprint": "staff dft solutions engineer \u2013 chip methodology & automation (cma)|arm|bengaluru",
+        "date": "2026-09-14T16:35:30.730773"
+    },
+    {
+        "id": "2fb10e7c982e814ff6b2211e03851eb9",
+        "fingerprint": "security testing | technical lead|citiustech|bengaluru",
+        "date": "2026-09-14T16:35:30.730775"
+    },
+    {
+        "id": "7409211d99e7af796c0d1fc92eb61655",
+        "fingerprint": "qa lead- ai evaluation & quality|national e-governance division|gurugram",
+        "date": "2026-09-14T16:35:30.730776"
+    },
+    {
+        "id": "1a758adaa4c4f26572ec2c7f63fa605e",
+        "fingerprint": "autonomy team leader - qa|caterpillar inc.|chennai",
+        "date": "2026-09-14T16:35:30.730778"
+    },
+    {
+        "id": "11e5a954a4ea286e3d318df469392436",
+        "fingerprint": "qa automation manager \u2013 ai|talentgigs|remote",
+        "date": "2026-09-14T16:35:30.730780"
+    },
+    {
+        "id": "076be5509523371f23c18b235eb50820",
+        "fingerprint": "director, global quality|zt systems|remote",
+        "date": "2026-09-14T16:35:30.730782"
     }
 ]
