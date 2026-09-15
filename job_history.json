@@ -1,35 +1,5 @@
 [
     {
-        "id": "e27268b3178b6a0d3209ada847896a15",
-        "fingerprint": "microsoft 365 solutions architect (digital workplace & automation)|interiors with art ltd|chennai",
-        "date": "2026-03-25T06:49:49.476384"
-    },
-    {
-        "id": "331170d88dbf8c99e2780d5bddcc1b5b",
-        "fingerprint": "technical quality analyst / project manager|uplers|ahmedabad",
-        "date": "2026-03-25T06:49:49.476386"
-    },
-    {
-        "id": "fe9838652a827718a8285715b7dc0aef",
-        "fingerprint": "lead manufacturing specialist - generator quality|arabelle solutions|ahmedabad",
-        "date": "2026-03-25T06:49:49.476388"
-    },
-    {
-        "id": "ebb9678c8bff5823da8dd83744780cd0",
-        "fingerprint": "manager / senior manager- qa|meril|remote",
-        "date": "2026-03-25T06:49:49.476390"
-    },
-    {
-        "id": "75ee5471253cd97c63c98f3972081752",
-        "fingerprint": "service quality manager|aditya birla capital|remote",
-        "date": "2026-03-25T06:49:49.476392"
-    },
-    {
-        "id": "87882c7627df8b26d63f739b57650b33",
-        "fingerprint": "tech lead manager, automation|jerry",
-        "date": "2026-03-25T06:49:49.476395"
-    },
-    {
         "id": "91b3eb62cc02483d6151e13d6e4092d2",
         "fingerprint": "executive director, quality|precision medicine group|bengaluru",
         "date": "2026-03-25T12:49:46.534329"
@@ -24998,5 +24968,35 @@
         "id": "f0426a57145b298a75f7992b934e8225",
         "fingerprint": "assistant quality assurance manager|sltl group - medical division|ahmedabad",
         "date": "2026-09-15T11:35:27.401322"
+    },
+    {
+        "id": "7b0d558563120649a1720be153cc64aa",
+        "fingerprint": "senior quality assurance manager|opus recruitment solutions|bengaluru",
+        "date": "2026-09-15T16:35:39.948450"
+    },
+    {
+        "id": "17016135b481e1b53635f0b634f4f84c",
+        "fingerprint": "quality assurance manager 1|rsm us llp|bengaluru",
+        "date": "2026-09-15T16:35:39.948465"
+    },
+    {
+        "id": "10da421ff138e424e643d506ecbe5726",
+        "fingerprint": "quality assurance manager|opus recruitment solutions|hyderabad",
+        "date": "2026-09-15T16:35:39.948468"
+    },
+    {
+        "id": "2963e2f6027324a3149b1c8d3eecb2eb",
+        "fingerprint": "quality assurance lead|aisensy|noida",
+        "date": "2026-09-15T16:35:39.948470"
+    },
+    {
+        "id": "9ebe398d1de03324d770e825406c43a2",
+        "fingerprint": "[bvssk6u5] performance test lead|zettamine labs pvt. ltd.|chennai",
+        "date": "2026-09-15T16:35:39.948472"
+    },
+    {
+        "id": "1f71360345e6d8c315f15c7b1ab4d5b6",
+        "fingerprint": "quality manager - packaging|total marketing support limited|pune",
+        "date": "2026-09-15T16:35:39.948474"
     }
 ]
