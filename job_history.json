@@ -1,95 +1,5 @@
 [
     {
-        "id": "300dfa2ea352d2f650c144aae7d6f189",
-        "fingerprint": "production and quality manager|nanoclean|noida",
-        "date": "2026-03-24T12:49:49.091306"
-    },
-    {
-        "id": "3f12a2e556f3ac3c686cf45ff3131af7",
-        "fingerprint": "sr engg manager- quality engineering \u2013 platform & infrastructure|ford motor company|chennai",
-        "date": "2026-03-24T12:49:49.091308"
-    },
-    {
-        "id": "979a1f10bd15c3d0002b3f7c78debd64",
-        "fingerprint": "account manager - software testing|dentsu global services|chennai",
-        "date": "2026-03-24T12:49:49.091311"
-    },
-    {
-        "id": "37dd875b6329b2a038d010f18562c1e1",
-        "fingerprint": "manager-quality & process excellence|group bayport|ahmedabad",
-        "date": "2026-03-24T12:49:49.091313"
-    },
-    {
-        "id": "9b73ce76aa552fd20cb986bcc19b662a",
-        "fingerprint": "software test manager|harman india|bengaluru",
-        "date": "2026-03-24T19:50:20.411270"
-    },
-    {
-        "id": "37afd56d8d00c91bb5d34f24bff3a27e",
-        "fingerprint": "quality lead|optimhire it solutions pvt ltd|bengaluru",
-        "date": "2026-03-24T19:50:20.411287"
-    },
-    {
-        "id": "107fe9b5e38f5a90f811d82acbf9d499",
-        "fingerprint": "quality assurance manager|omni recruit private limited|bengaluru",
-        "date": "2026-03-24T19:50:20.411290"
-    },
-    {
-        "id": "15a471486cf48bdd75379533ce0a00ff",
-        "fingerprint": "local chapter lead testing and validation|takeda|bengaluru",
-        "date": "2026-03-24T19:50:20.411292"
-    },
-    {
-        "id": "cd95d6a53d7ca5be75f20aea5e01255f",
-        "fingerprint": "lead sdet|experian|hyderabad",
-        "date": "2026-03-24T19:50:20.411294"
-    },
-    {
-        "id": "80b0c3124bd89e3f3b007e7b4a4b8dca",
-        "fingerprint": "qa architect|virtusa|chennai",
-        "date": "2026-03-24T19:50:20.411297"
-    },
-    {
-        "id": "1148e3a6eba81bfecd882a2c0f97f830",
-        "fingerprint": "head quality sterlite copper|vedanta limited - sterlite copper|remote",
-        "date": "2026-03-24T19:50:20.411299"
-    },
-    {
-        "id": "7470720231f794967e40ec11fd3ee189",
-        "fingerprint": "software test lead|jibe erp|mumbai",
-        "date": "2026-03-25T06:49:49.476357"
-    },
-    {
-        "id": "c190df4b692e3cf9144f212fcf60ac14",
-        "fingerprint": "lead quality \u2013 precast production|adani group|mumbai",
-        "date": "2026-03-25T06:49:49.476372"
-    },
-    {
-        "id": "7693152b2c83955292a757d538610d9f",
-        "fingerprint": "sr manager, quality assurance|storable|hyderabad",
-        "date": "2026-03-25T06:49:49.476374"
-    },
-    {
-        "id": "fe4fcf3d6a9db98fe7c9c88f09099d1a",
-        "fingerprint": "sdet lead|live connections|hyderabad",
-        "date": "2026-03-25T06:49:49.476376"
-    },
-    {
-        "id": "49326ee71cb4fe0a8c17f8b0c2ff6bc8",
-        "fingerprint": "group lead - clinical quality|dr. reddy's laboratories|hyderabad",
-        "date": "2026-03-25T06:49:49.476378"
-    },
-    {
-        "id": "467601b93a272af6cde9e518afe0028b",
-        "fingerprint": "quality and process excellence lead l2|wipro|hyderabad",
-        "date": "2026-03-25T06:49:49.476380"
-    },
-    {
-        "id": "3b012dbd5daeb240d870b1be040ef3f1",
-        "fingerprint": "quality assurance manager|bazaar konnections|gurugram",
-        "date": "2026-03-25T06:49:49.476382"
-    },
-    {
         "id": "e27268b3178b6a0d3209ada847896a15",
         "fingerprint": "microsoft 365 solutions architect (digital workplace & automation)|interiors with art ltd|chennai",
         "date": "2026-03-25T06:49:49.476384"
@@ -24998,5 +24908,95 @@
         "id": "d8a7f2ab5489a54b9ae27b20889cdce2",
         "fingerprint": "assistant group solution lead- it (testing & business analyst)|inventia healthcare limited|mumbai",
         "date": "2026-09-15T06:05:04.887611"
+    },
+    {
+        "id": "c912e8b81c0b6b8a0aa25bcb18c5ac86",
+        "fingerprint": "sr avp/vp, qa/testing lead|revantage, a blackstone portfolio company|bengaluru",
+        "date": "2026-09-15T11:35:27.401262"
+    },
+    {
+        "id": "49e062bf7ec7069ad7ae200facaa9a56",
+        "fingerprint": "qa manager|ascendion|bengaluru",
+        "date": "2026-09-15T11:35:27.401278"
+    },
+    {
+        "id": "b3a057844569ce33506e8da165267534",
+        "fingerprint": "technical lead - testing|ametek|bengaluru",
+        "date": "2026-09-15T11:35:27.401281"
+    },
+    {
+        "id": "31398865eae065840c502036e3b8a2e3",
+        "fingerprint": "test module lead - bigquery|happiest minds technologies|bengaluru",
+        "date": "2026-09-15T11:35:27.401283"
+    },
+    {
+        "id": "0c359025644b016492a9e663dc8f284b",
+        "fingerprint": "lead ii - software testing (service now, atf, test automation)|ust|bengaluru",
+        "date": "2026-09-15T11:35:27.401286"
+    },
+    {
+        "id": "8fad3617d2f943c5b54cc3f38e2807ad",
+        "fingerprint": "qa lead engineer- playwright|quest global|bengaluru",
+        "date": "2026-09-15T11:35:27.401289"
+    },
+    {
+        "id": "8dbf39dea42a7dac5dab3b06dc7d3542",
+        "fingerprint": "sw test lead engineer|emerson|pune",
+        "date": "2026-09-15T11:35:27.401292"
+    },
+    {
+        "id": "b6c563c502eb5b11e79d320879a3febf",
+        "fingerprint": "lead software test engineer|siemens|pune",
+        "date": "2026-09-15T11:35:27.401294"
+    },
+    {
+        "id": "e232f30e6d5ba2c2a7233639ee66ca47",
+        "fingerprint": "head \u2013 injection moulding (production, quality & development)|lisha switches|mumbai",
+        "date": "2026-09-15T11:35:27.401297"
+    },
+    {
+        "id": "a649d28b3ed91069986f46492765191f",
+        "fingerprint": "senior etl test lead|novintix|hyderabad",
+        "date": "2026-09-15T11:35:27.401300"
+    },
+    {
+        "id": "9e5b1803212847d3e0ad9e8735309ec2",
+        "fingerprint": "senior manager, product security testing|servicenow|hyderabad",
+        "date": "2026-09-15T11:35:27.401303"
+    },
+    {
+        "id": "24ae998e15831a89f22238887ba3dfde",
+        "fingerprint": "deputy manager - enterprise testing (mobility solutions)|sbi card|gurugram",
+        "date": "2026-09-15T11:35:27.401306"
+    },
+    {
+        "id": "fecd1bbac0ddb8bf1685c00ad7c49522",
+        "fingerprint": "lead / avp - testing (tcoe)|talent toppers|noida",
+        "date": "2026-09-15T11:35:27.401308"
+    },
+    {
+        "id": "e84751b1335a5892a4db0ee8c3a8b7ec",
+        "fingerprint": "retail testing lead/senior test consultant|proso.ai|noida",
+        "date": "2026-09-15T11:35:27.401311"
+    },
+    {
+        "id": "5f68a11c029149aba60af1b355c91ede",
+        "fingerprint": "quality assurance lead|novacis innovations|chennai",
+        "date": "2026-09-15T11:35:27.401314"
+    },
+    {
+        "id": "e260ef392c4c43cbf1703c057aea398a",
+        "fingerprint": "manager - test automation|accenture in india|remote",
+        "date": "2026-09-15T11:35:27.401317"
+    },
+    {
+        "id": "6d3fc72f91be4e5003aefa8023281838",
+        "fingerprint": "manager, technical quality (london, united kingdom)|figma",
+        "date": "2026-09-15T11:35:27.401319"
+    },
+    {
+        "id": "f0426a57145b298a75f7992b934e8225",
+        "fingerprint": "assistant quality assurance manager|sltl group - medical division|ahmedabad",
+        "date": "2026-09-15T11:35:27.401322"
     }
 ]
