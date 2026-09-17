@@ -1,55 +1,5 @@
 [
     {
-        "id": "c9c0f9790c4ff1c98f0b64965e1cbed8",
-        "fingerprint": "automation solution architect|eximietas design|pune",
-        "date": "2026-03-26T19:50:15.655835"
-    },
-    {
-        "id": "927577f070b05652919230d5284d69b8",
-        "fingerprint": "production manager - set fabrication|seventy event media group|mumbai",
-        "date": "2026-03-26T19:50:15.655837"
-    },
-    {
-        "id": "1f1e7d7beea0215e9b4da036a08e1486",
-        "fingerprint": "internal control testing and automation manager|opella|hyderabad",
-        "date": "2026-03-26T19:50:15.655840"
-    },
-    {
-        "id": "e4548bb577cbcbbc54d679ed5f764639",
-        "fingerprint": "director, service management automation lead|syneos health|hyderabad",
-        "date": "2026-03-26T19:50:15.655843"
-    },
-    {
-        "id": "fdade63bc33d874d26d7f1b6e1d8e9d7",
-        "fingerprint": "qe solutions lead [t500-24727]|cibc india|hyderabad",
-        "date": "2026-03-26T19:50:15.655845"
-    },
-    {
-        "id": "36d5a5d28fc9e7a32b65e311183e61cc",
-        "fingerprint": "senior manager - powertrain (transaxle testing-maintenance)|tata marcopolo motors ltd. dharwad|ahmedabad",
-        "date": "2026-03-26T19:50:15.655848"
-    },
-    {
-        "id": "721dc3cd69309ca15103b6710836d1c3",
-        "fingerprint": "quality operations & training manager|dhl|chennai",
-        "date": "2026-03-26T19:50:15.655850"
-    },
-    {
-        "id": "ddf136ed5a76c4d875122eef359f102e",
-        "fingerprint": "system test team lead|cummins india|pune",
-        "date": "2026-03-27T06:50:04.172977"
-    },
-    {
-        "id": "78814f06469da6411e4e375aa30e36e2",
-        "fingerprint": "plant quality manager|ultratech cement|mumbai",
-        "date": "2026-03-27T06:50:04.172994"
-    },
-    {
-        "id": "843837c36b41465ce7db0c65a5e795a9",
-        "fingerprint": "manager, qa|syneos health|hyderabad",
-        "date": "2026-03-27T06:50:04.172997"
-    },
-    {
         "id": "a9fcf0232e4ceacc555d429efa63afe7",
         "fingerprint": "manager - test operations|agratas \u2013 a tata enterprise|ahmedabad",
         "date": "2026-03-27T06:50:04.172999"
@@ -24998,5 +24948,55 @@
         "id": "3b1b40389d31580e910279875f53e385",
         "fingerprint": "assistant manager - quality|dauch|pune",
         "date": "2026-09-16T16:35:41.722460"
+    },
+    {
+        "id": "b2b9b4a98afba5f885afc40c9d271071",
+        "fingerprint": "qa & testing lead engineer, avp|deutsche bank|pune",
+        "date": "2026-09-17T06:05:22.563688"
+    },
+    {
+        "id": "8c4d59e44906657dca89e7ee4ada97f8",
+        "fingerprint": "lead qa engineer|circana|bengaluru",
+        "date": "2026-09-17T06:05:22.563707"
+    },
+    {
+        "id": "72e5f028cc235e7975edae03413c978c",
+        "fingerprint": "peformance test architect|vysystems|bengaluru",
+        "date": "2026-09-17T06:05:22.563709"
+    },
+    {
+        "id": "2c5e7955c53fdd33aa19183aa863ebaa",
+        "fingerprint": "lead quality assurance engineer|origin medical research lab|bengaluru",
+        "date": "2026-09-17T06:05:22.563711"
+    },
+    {
+        "id": "7e814bc047fa39cbc3ec29197f42d85e",
+        "fingerprint": "qa/qc manager - high rise residential pmc|virtualyyst|mumbai",
+        "date": "2026-09-17T06:05:22.563713"
+    },
+    {
+        "id": "5ab67f7209626e4ebe83ddc9edc76ecf",
+        "fingerprint": "site quality manager- khavda gujrat|hitachi energy|gurugram",
+        "date": "2026-09-17T06:05:22.563715"
+    },
+    {
+        "id": "9c4d8ce31366053a628e4a48b680cb81",
+        "fingerprint": "senior manager -current quality tcf|tata marcopolo motors ltd. dharwad|ahmedabad",
+        "date": "2026-09-17T06:05:22.563718"
+    },
+    {
+        "id": "247a9ba263323530919ff4f482132847",
+        "fingerprint": "l&a testing insurance functional | manager|ey|chennai",
+        "date": "2026-09-17T06:05:22.563720"
+    },
+    {
+        "id": "cb506bcd668ced27b62c933205d83f29",
+        "fingerprint": "operational excellence & quality manager|kone|chennai",
+        "date": "2026-09-17T06:05:22.563722"
+    },
+    {
+        "id": "401400b8e8fa437f1067807df83f9529",
+        "fingerprint": "staff advanced analytics, community blueprint & quality|airbnb",
+        "date": "2026-09-17T06:05:22.563725"
     }
 ]
