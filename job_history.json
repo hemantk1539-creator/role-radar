@@ -1,45 +1,5 @@
 [
     {
-        "id": "a9fcf0232e4ceacc555d429efa63afe7",
-        "fingerprint": "manager - test operations|agratas \u2013 a tata enterprise|ahmedabad",
-        "date": "2026-03-27T06:50:04.172999"
-    },
-    {
-        "id": "f9e3d20fb394a46b19265247931c3909",
-        "fingerprint": "snr manager, test engg - dft|standard chartered india|chennai",
-        "date": "2026-03-27T06:50:04.173002"
-    },
-    {
-        "id": "c5155da971f4aad5c6607b33208e2015",
-        "fingerprint": "lead ai platform & automation engineer - gcp, vertex ai, ibm watsonx, mlflow, terraform|ups|chennai",
-        "date": "2026-03-27T06:50:04.173004"
-    },
-    {
-        "id": "d69308b2289c30d2602dac979a9bba7c",
-        "fingerprint": "avp, risk testing lead (l10)|synchrony|noida",
-        "date": "2026-03-27T06:50:04.173007"
-    },
-    {
-        "id": "3807e8a5f5725f72842525dd301e4374",
-        "fingerprint": "senior/staff engineer, qa, assembly & test, global quality|micron technology|remote",
-        "date": "2026-03-27T06:50:04.173009"
-    },
-    {
-        "id": "1f1aefca4ba721ac530a29e36b3d105d",
-        "fingerprint": "global quality control/analytical science and technology head|novartis italia|remote",
-        "date": "2026-03-27T06:50:04.173011"
-    },
-    {
-        "id": "4471140b0018179c3821f65032f10c43",
-        "fingerprint": "head of quality and regulatory|dvise medtech private limited|bengaluru",
-        "date": "2026-03-27T12:49:40.313496"
-    },
-    {
-        "id": "03d78a423c5fd44a117c4e8c25ebc4f9",
-        "fingerprint": "lead architect \u2013 ai enablement & automation (.net)|endava|bengaluru",
-        "date": "2026-03-27T12:49:40.313515"
-    },
-    {
         "id": "aab5d5b2fcc3d3529a43ef63854b68f2",
         "fingerprint": "lead - shirwal quality, acg capsules|acg world|pune",
         "date": "2026-03-27T12:49:40.313517"
@@ -24998,5 +24958,45 @@
         "id": "401400b8e8fa437f1067807df83f9529",
         "fingerprint": "staff advanced analytics, community blueprint & quality|airbnb",
         "date": "2026-09-17T06:05:22.563725"
+    },
+    {
+        "id": "3919fa8be7f5cc2a2598de4dfdd205de",
+        "fingerprint": "test architect|eightfold ai|bengaluru",
+        "date": "2026-09-17T11:35:17.625921"
+    },
+    {
+        "id": "d2337f2de2cffc45f648b0b869200e8c",
+        "fingerprint": "qa lead|aarete|pune",
+        "date": "2026-09-17T11:35:17.625958"
+    },
+    {
+        "id": "a23e148f5e7c0272cc91aca143ad17ad",
+        "fingerprint": "software engineering technical leader | ai cluster orchestrator & automation engineer | 15+ years|cisco|pune",
+        "date": "2026-09-17T11:35:17.625962"
+    },
+    {
+        "id": "1288bb4a328f00d9b37a5d74f4222131",
+        "fingerprint": "test architect l2|wipro|hyderabad",
+        "date": "2026-09-17T11:35:17.625965"
+    },
+    {
+        "id": "cfbf415abd486234186940f5958d6807",
+        "fingerprint": "quality assurance manager|opus recruitment solutions|gurugram",
+        "date": "2026-09-17T11:35:17.625967"
+    },
+    {
+        "id": "d23570daa287fdfd5ebfcf2741c6d7c7",
+        "fingerprint": "senior manager - service quality|air india express|gurugram",
+        "date": "2026-09-17T11:35:17.625970"
+    },
+    {
+        "id": "c3f2a07e8ff424329a44d76b13d4d89d",
+        "fingerprint": "quality lead - gurugram|bechtel corporation|gurugram",
+        "date": "2026-09-17T11:35:17.625972"
+    },
+    {
+        "id": "12a273b31690861d36d3614cbf963bfd",
+        "fingerprint": "qa manager for aerospace|sorath ortho \u2014 a division of sigma surgical|ahmedabad",
+        "date": "2026-09-17T11:35:17.625975"
     }
 ]
