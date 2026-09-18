@@ -1,55 +1,5 @@
 [
     {
-        "id": "1438c12d23b5f5311f2b4eaff023a5ea",
-        "fingerprint": "manager - institutional engagement & quality advancement|amdisa - association of management development institutions in south asia|hyderabad",
-        "date": "2026-03-28T06:50:01.310192"
-    },
-    {
-        "id": "bbfadca73e294963bff5a775f9ae6848",
-        "fingerprint": "quality manager, vp|natwest group|gurugram",
-        "date": "2026-03-28T06:50:01.310197"
-    },
-    {
-        "id": "5f56c50665ccd9132f025ce0a9d73ec1",
-        "fingerprint": "senior software development engineer (qa lead)|expedia group|noida",
-        "date": "2026-03-28T06:50:01.310201"
-    },
-    {
-        "id": "e6eab22f253c8a32f71f9c80aa6e10c5",
-        "fingerprint": "quality manager, vp|natwest group|chennai",
-        "date": "2026-03-28T06:50:01.310205"
-    },
-    {
-        "id": "795f7f590b688191f88ab2273088ab55",
-        "fingerprint": "global quality director|futuremeds|remote",
-        "date": "2026-03-28T06:50:01.310209"
-    },
-    {
-        "id": "b2df3bcf36f0c3d387f1d22154bf5e30",
-        "fingerprint": "test lead, uat|hsbc|hyderabad",
-        "date": "2026-03-28T12:50:08.593503"
-    },
-    {
-        "id": "d160b4755c48f302f1e0c7f8e585fe9d",
-        "fingerprint": "senior manager quality assurance|shine.com|chennai",
-        "date": "2026-03-28T12:50:08.593520"
-    },
-    {
-        "id": "e20a53775c00555058da18728cba63c2",
-        "fingerprint": "quality assurance manager|prakruti products private limited|bengaluru",
-        "date": "2026-03-28T19:50:02.627020"
-    },
-    {
-        "id": "4e81fd1b0f582c1207d3df3dbe2511df",
-        "fingerprint": "quality manager|wonderland foods|gurugram",
-        "date": "2026-03-28T19:50:02.627037"
-    },
-    {
-        "id": "5c7be1f3a0c1d8bc01f022d602c09ffb",
-        "fingerprint": "sr. technical manager, sdet|alkami technology|gurugram",
-        "date": "2026-03-28T19:50:02.627041"
-    },
-    {
         "id": "a58e470112d93289bd9df44fa564d417",
         "fingerprint": "head of testing|vml enterprise solutions|gurugram",
         "date": "2026-03-28T19:50:02.627045"
@@ -24998,5 +24948,55 @@
         "id": "8f308111b40fe1ac9f8a0279315cda67",
         "fingerprint": "[global manufacturing] future leader - quality director|vinfast|remote",
         "date": "2026-09-18T06:05:26.444369"
+    },
+    {
+        "id": "b31e60d935b8864aa711ae59758c59ee",
+        "fingerprint": "plant qa head / qa manager \u2013 nutraceuticals|moola global pvt. ltd.|bengaluru",
+        "date": "2026-09-18T11:35:34.401482"
+    },
+    {
+        "id": "bf4c96516f84868c82d0e25a3f0c8f3f",
+        "fingerprint": "automation test manager|hitachi energy|bengaluru",
+        "date": "2026-09-18T11:35:34.401499"
+    },
+    {
+        "id": "a600a735da58b0637b1fab28017e4b6f",
+        "fingerprint": "lead automation engineer (c#, azure)|radiometer|bengaluru",
+        "date": "2026-09-18T11:35:34.401502"
+    },
+    {
+        "id": "853fa69a0104abd20139bac1018a3b8d",
+        "fingerprint": "qa lead|instawork|bengaluru",
+        "date": "2026-09-18T11:35:34.401505"
+    },
+    {
+        "id": "0a2d0669189bf519c830bc937d6fd841",
+        "fingerprint": "senior software engineer - lead quality analyst with coresuite experience|cgi|bengaluru",
+        "date": "2026-09-18T11:35:34.401508"
+    },
+    {
+        "id": "50739fd7908ef2fc2ece5aaac43ea33f",
+        "fingerprint": "senior manager - quality assurance|traya|mumbai",
+        "date": "2026-09-18T11:35:34.401510"
+    },
+    {
+        "id": "fa36b127e9e34d4747b6a0ab2190c28e",
+        "fingerprint": "lead i - software testing- automation testing, playwright, typescript and aws|ust|hyderabad",
+        "date": "2026-09-18T11:35:34.401513"
+    },
+    {
+        "id": "4094b46b113a0a86fa2c0889fe2a8fda",
+        "fingerprint": "lead quality assurance engineer|clarivate|gurugram",
+        "date": "2026-09-18T11:35:34.401516"
+    },
+    {
+        "id": "949ea4bc053c6972def0325a289ed25b",
+        "fingerprint": "appium test lead|wipro|chennai",
+        "date": "2026-09-18T11:35:34.401518"
+    },
+    {
+        "id": "226fb72b70c1081f8ab0c581bc4671fa",
+        "fingerprint": "senior quality manager|tfs healthscience",
+        "date": "2026-09-18T11:35:34.401521"
     }
 ]
