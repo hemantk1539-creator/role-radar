@@ -1,60 +1,5 @@
 [
     {
-        "id": "a58e470112d93289bd9df44fa564d417",
-        "fingerprint": "head of testing|vml enterprise solutions|gurugram",
-        "date": "2026-03-28T19:50:02.627045"
-    },
-    {
-        "id": "04342ff67a68fcacca5aa6cdc3930429",
-        "fingerprint": "technical manager (air quality)|raksha elite solutions|ahmedabad",
-        "date": "2026-03-28T19:50:02.627048"
-    },
-    {
-        "id": "5b1b703b836f9d500d9dbe7cb45272f3",
-        "fingerprint": "quality team lead - us healthcare recruitment|r3 consultant|pune",
-        "date": "2026-03-29T06:49:58.133026"
-    },
-    {
-        "id": "8746fb02a298df17d1a85939ec37341d",
-        "fingerprint": "chief quality assurance expert- bid position|systra|pune",
-        "date": "2026-03-29T12:49:54.303131"
-    },
-    {
-        "id": "b43c2567a90b19ca05321b081c06e45c",
-        "fingerprint": "lead software engineer (testing automation)|societe generale global solution centre|bengaluru",
-        "date": "2026-03-29T12:49:54.303147"
-    },
-    {
-        "id": "a1e95a991ade111866f5f6cc455830df",
-        "fingerprint": "principal consultant - air quality|wsp in india|mumbai",
-        "date": "2026-03-29T19:49:09.225758"
-    },
-    {
-        "id": "af0b0cee1e41ac31a1fd70808582d8d6",
-        "fingerprint": "lead \u2013 quality assurance|emeritus|mumbai",
-        "date": "2026-03-29T19:49:09.225774"
-    },
-    {
-        "id": "3870edbf932a6146e0c2113c8812a3e5",
-        "fingerprint": "director, operations ( transformation & automation)|kroll|gurugram",
-        "date": "2026-03-29T19:49:09.225778"
-    },
-    {
-        "id": "f7e41e5a5758abc90c05f7d45810ecc3",
-        "fingerprint": "software quality assurance module lead|telus digital|gurugram",
-        "date": "2026-03-29T19:49:09.225780"
-    },
-    {
-        "id": "c486714df585d8893d0e11d39f24d572",
-        "fingerprint": "testing-insurance functional-staff|ey|chennai",
-        "date": "2026-03-29T19:49:09.225782"
-    },
-    {
-        "id": "2976961ee7d223b997a797e27a720565",
-        "fingerprint": "senior director, qms core quality governance|eli lilly and company|remote",
-        "date": "2026-03-29T19:49:09.225785"
-    },
-    {
         "id": "db55446c9d7e116764f876fa00117f57",
         "fingerprint": "principal software quality assurance engineer|cerence ai|pune",
         "date": "2026-03-30T06:49:42.084902"
@@ -24998,5 +24943,60 @@
         "id": "226fb72b70c1081f8ab0c581bc4671fa",
         "fingerprint": "senior quality manager|tfs healthscience",
         "date": "2026-09-18T11:35:34.401521"
+    },
+    {
+        "id": "d182462e1808254c621f855dadcd7f60",
+        "fingerprint": "engineering manager -embedded automation testing|saaki argus and averil consulting|pune",
+        "date": "2026-09-18T16:35:16.936003"
+    },
+    {
+        "id": "050288a5e092f66668c9c1654ca770b6",
+        "fingerprint": "quality assurance test lead|sourcingxpress|bengaluru",
+        "date": "2026-09-18T16:35:16.936019"
+    },
+    {
+        "id": "75a291163e179e364a0949c4c995e0d9",
+        "fingerprint": "automation test lead|sourcingxpress|bengaluru",
+        "date": "2026-09-18T16:35:16.936021"
+    },
+    {
+        "id": "88972c2fa1cc75445614bf21652a120a",
+        "fingerprint": "lead ii - salesforce certinia manual test lead|ust|bengaluru",
+        "date": "2026-09-18T16:35:16.936023"
+    },
+    {
+        "id": "1fc0a7434cd32c8d5293b22ed839aab3",
+        "fingerprint": "test lead - automation testing job|yash technologies|bengaluru",
+        "date": "2026-09-18T16:35:16.936025"
+    },
+    {
+        "id": "ec108019e4e192872c51063be1a83890",
+        "fingerprint": "lead automation engineer (digital publishing)|direction educare|mumbai",
+        "date": "2026-09-18T16:35:16.936027"
+    },
+    {
+        "id": "3a69c00d1e23a5160d22fa5705343963",
+        "fingerprint": "lead \u2014 platform stability & reliability test|hcltech|hyderabad",
+        "date": "2026-09-18T16:35:16.936029"
+    },
+    {
+        "id": "168a1eb61469d5bce87dd1bf0a14032a",
+        "fingerprint": "crm test manager \u2013 salesforce|synthlane|gurugram",
+        "date": "2026-09-18T16:35:16.936030"
+    },
+    {
+        "id": "83e6fd01ee84e3e378e1e27bb8ce89fe",
+        "fingerprint": "lead ai platform & automation engineer - gcp, vertex ai, ibm watsonx, mlflow, terraform|ups|chennai",
+        "date": "2026-09-18T16:35:16.936032"
+    },
+    {
+        "id": "e2585c7a29b5d85574a0353a9192a02a",
+        "fingerprint": "lead testing|michael page|ahmedabad",
+        "date": "2026-09-18T16:35:16.936034"
+    },
+    {
+        "id": "173bda8eb26b6bd55c0c39bf8fb3575e",
+        "fingerprint": "staff site reliability engineer, environment automation |gitlab",
+        "date": "2026-09-18T16:35:16.936036"
     }
 ]
