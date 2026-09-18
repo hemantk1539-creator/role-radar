@@ -1,40 +1,5 @@
 [
     {
-        "id": "759fe9550b9da44622329f3251e1222d",
-        "fingerprint": "director - automation|hca healthcare - india|hyderabad",
-        "date": "2026-03-27T19:50:07.717166"
-    },
-    {
-        "id": "c7b84f42085d914fd8f29c1d6f046f0e",
-        "fingerprint": "manager, software test|stryker|gurugram",
-        "date": "2026-03-27T19:50:07.717171"
-    },
-    {
-        "id": "d1c57aaf2f0a2e91ef1fef21f5a4e937",
-        "fingerprint": "lead software quality engineer|adobe|gurugram",
-        "date": "2026-03-27T19:50:07.717174"
-    },
-    {
-        "id": "5430e6f230252b57a354a535e17f5689",
-        "fingerprint": "proactive hire fy 26 - automation test manager (proactive)|qualitest acq|chennai",
-        "date": "2026-03-27T19:50:07.717177"
-    },
-    {
-        "id": "8b63c5c7c63c252e0467a0954ca28cee",
-        "fingerprint": "l3 ocp platform architect &amp; automation lead (platform sme)|digitalxnode|noida",
-        "date": "2026-03-27T19:50:07.717181"
-    },
-    {
-        "id": "87a2f20c9a2110e5a14fbf977be7dcdd",
-        "fingerprint": "quality manager|advance flo valves|ahmedabad",
-        "date": "2026-03-27T19:50:07.717184"
-    },
-    {
-        "id": "4681dad108a78e407461d55c1a3e6992",
-        "fingerprint": "principal qa architect|crosstab it consulting|mumbai",
-        "date": "2026-03-28T06:50:01.310172"
-    },
-    {
         "id": "1438c12d23b5f5311f2b4eaff023a5ea",
         "fingerprint": "manager - institutional engagement & quality advancement|amdisa - association of management development institutions in south asia|hyderabad",
         "date": "2026-03-28T06:50:01.310192"
@@ -24998,5 +24963,40 @@
         "id": "ee9a3fc577d7516f7b93b37e70be741f",
         "fingerprint": "global quality & opex director|netafim|remote",
         "date": "2026-09-17T16:35:26.063322"
+    },
+    {
+        "id": "06aaddd60168d818f7bfd818dac49a95",
+        "fingerprint": "[kf58cy3m] quality engineering lead \u2013 ai agents & workflow integration|zettamine labs pvt. ltd.|bengaluru",
+        "date": "2026-09-18T06:05:26.444339"
+    },
+    {
+        "id": "5b335ae378d8998158ac9daf4cac88bc",
+        "fingerprint": "principal engineer- network solution testing|hewlett packard enterprise|bengaluru",
+        "date": "2026-09-18T06:05:26.444356"
+    },
+    {
+        "id": "a8d5254cf534e5492f5c0d18a6014174",
+        "fingerprint": "lead qa|bioksha|bengaluru",
+        "date": "2026-09-18T06:05:26.444359"
+    },
+    {
+        "id": "7b31674678fc9d33595b817f0c7b6f2f",
+        "fingerprint": "test manager \u2013 ai architect / manager  - manager - operate|pwc acceleration center india|remote",
+        "date": "2026-09-18T06:05:26.444361"
+    },
+    {
+        "id": "267bb161cc4d6da19193805e3ac6b804",
+        "fingerprint": "lead sdet|crestron electronics|remote",
+        "date": "2026-09-18T06:05:26.444364"
+    },
+    {
+        "id": "bda2669cc4036d4bef32c46e3fa52a8b",
+        "fingerprint": "internal control global testing coe team lead it controls|sanofi|hyderabad",
+        "date": "2026-09-18T06:05:26.444367"
+    },
+    {
+        "id": "8f308111b40fe1ac9f8a0279315cda67",
+        "fingerprint": "[global manufacturing] future leader - quality director|vinfast|remote",
+        "date": "2026-09-18T06:05:26.444369"
     }
 ]
