@@ -1,30 +1,5 @@
 [
     {
-        "id": "db55446c9d7e116764f876fa00117f57",
-        "fingerprint": "principal software quality assurance engineer|cerence ai|pune",
-        "date": "2026-03-30T06:49:42.084902"
-    },
-    {
-        "id": "e6e0cc1fc9259505506d4eda4a1ac609",
-        "fingerprint": "quality assurance lead|nexthire|pune",
-        "date": "2026-03-30T06:49:42.084920"
-    },
-    {
-        "id": "b37828f6d026f744e916a60dae564f6e",
-        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|pune",
-        "date": "2026-03-30T06:49:42.084929"
-    },
-    {
-        "id": "5ae5b663d0eb3d77ececeaea660e2395",
-        "fingerprint": "quality assurance manager|arwade infrastructure limited|mumbai",
-        "date": "2026-03-30T06:49:42.084934"
-    },
-    {
-        "id": "7b221cf6cb7ee57c3d9b37bcf33f3765",
-        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|mumbai",
-        "date": "2026-03-30T06:49:42.084938"
-    },
-    {
         "id": "29ca9569f4c7de734b8bef20f26a6941",
         "fingerprint": "manager - quality|larsen & toubro|bengaluru",
         "date": "2026-03-30T06:49:42.084942"
@@ -24998,5 +24973,30 @@
         "id": "173bda8eb26b6bd55c0c39bf8fb3575e",
         "fingerprint": "staff site reliability engineer, environment automation |gitlab",
         "date": "2026-09-18T16:35:16.936036"
+    },
+    {
+        "id": "caa60fa37d0deb658045c43c44dcec0e",
+        "fingerprint": "manager, quality engineering|esko|bengaluru",
+        "date": "2026-09-19T06:05:18.458339"
+    },
+    {
+        "id": "356c59c017bec63f6a00b9b6d8586294",
+        "fingerprint": "lead automation engineer (c#, azure)|bioksha|bengaluru",
+        "date": "2026-09-19T06:05:18.458349"
+    },
+    {
+        "id": "f7288e89aa8a622091912df93321e864",
+        "fingerprint": "staff software development engineer test - machine learning test|tekion corp|bengaluru",
+        "date": "2026-09-19T06:05:18.458352"
+    },
+    {
+        "id": "99be21f89e6d732cfb1c00a7127899c0",
+        "fingerprint": "product qa lead|jsm consulting inc.|hyderabad",
+        "date": "2026-09-19T06:05:18.458355"
+    },
+    {
+        "id": "ca10ecf056a2f20f2fb4f6c4494c2a84",
+        "fingerprint": "governance and control manager \u2013 quality assurance avp|barclays|noida",
+        "date": "2026-09-19T06:05:18.458357"
     }
 ]
