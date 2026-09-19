@@ -1,40 +1,5 @@
 [
     {
-        "id": "29ca9569f4c7de734b8bef20f26a6941",
-        "fingerprint": "manager - quality|larsen & toubro|bengaluru",
-        "date": "2026-03-30T06:49:42.084942"
-    },
-    {
-        "id": "2699bb1b213ebb8920f403684c847642",
-        "fingerprint": "quality assurance lead|outthink|bengaluru",
-        "date": "2026-03-30T06:49:42.084947"
-    },
-    {
-        "id": "0276aeaf59b35626ffff46f3fe0b3223",
-        "fingerprint": "technical test lead|ejamerica|bengaluru",
-        "date": "2026-03-30T06:49:42.084953"
-    },
-    {
-        "id": "18abeefecd76deb250b1125e026e1ffc",
-        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|bengaluru",
-        "date": "2026-03-30T06:49:42.084959"
-    },
-    {
-        "id": "a9962fa6b2c7bbeee5a3254cd951080c",
-        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|hyderabad",
-        "date": "2026-03-30T06:49:42.084963"
-    },
-    {
-        "id": "eaddba9f31ca84c71863234a1718c936",
-        "fingerprint": "qa automation lead (remote, full-time) [as226]|smart working|ahmedabad",
-        "date": "2026-03-30T06:49:42.084966"
-    },
-    {
-        "id": "56f2833f066a5bd73aef066f4cc6939e",
-        "fingerprint": "manager, test engineering - larc cfcc|standard chartered india|chennai",
-        "date": "2026-03-30T06:49:42.084970"
-    },
-    {
         "id": "535896572bc2bd08b90f9f053452679b",
         "fingerprint": "head of quality assurance|career141|remote",
         "date": "2026-03-30T06:49:42.084973"
@@ -24998,5 +24963,40 @@
         "id": "ca10ecf056a2f20f2fb4f6c4494c2a84",
         "fingerprint": "governance and control manager \u2013 quality assurance avp|barclays|noida",
         "date": "2026-09-19T06:05:18.458357"
+    },
+    {
+        "id": "b911720a4c6ab7014ebb8995886972b8",
+        "fingerprint": "test manager lending (los+lms)|qualitykiosk technologies|mumbai",
+        "date": "2026-09-19T11:35:22.522903"
+    },
+    {
+        "id": "6a6326f7b08c91cf9141840eaa5b2b19",
+        "fingerprint": "head of quality control and assurance|vijay aterlierr fine jewels pvt. ltd.|mumbai",
+        "date": "2026-09-19T11:35:22.522920"
+    },
+    {
+        "id": "92d83cfd208487d3106d3c5c85a850bb",
+        "fingerprint": "test manager - finacle (10x/11x)|qualitykiosk technologies|mumbai",
+        "date": "2026-09-19T11:35:22.522923"
+    },
+    {
+        "id": "b3176cc1e54f2964ceb271af4cde2fb8",
+        "fingerprint": "senior manager - complaints & automation|home credit india|gurugram",
+        "date": "2026-09-19T11:35:22.522925"
+    },
+    {
+        "id": "c8c3ff81ad2e321834dd4d0651785b6f",
+        "fingerprint": "finance operation manager - accounts payable quality assurance|mckinsey & company|chennai",
+        "date": "2026-09-19T11:35:22.522927"
+    },
+    {
+        "id": "ac5616052cd1a12f2204c776407dcc5e",
+        "fingerprint": "lead automation engineer|cygnusa technologies|chennai",
+        "date": "2026-09-19T11:35:22.522929"
+    },
+    {
+        "id": "3d2d822fa92b59cf11d7274af88026d7",
+        "fingerprint": "senior manager - testing|accenture in india|remote",
+        "date": "2026-09-19T11:35:22.522931"
     }
 ]
