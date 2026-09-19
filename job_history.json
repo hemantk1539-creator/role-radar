@@ -1,20 +1,5 @@
 [
     {
-        "id": "535896572bc2bd08b90f9f053452679b",
-        "fingerprint": "head of quality assurance|career141|remote",
-        "date": "2026-03-30T06:49:42.084973"
-    },
-    {
-        "id": "6030413e0f192bbb03cdf407b769e7e2",
-        "fingerprint": "manager - quality assurance|lifestyles healthcare|bengaluru",
-        "date": "2026-03-30T12:50:14.927606"
-    },
-    {
-        "id": "33188090642b6032e495aa249a8c172a",
-        "fingerprint": "quality assurance manager|refyne india|bengaluru",
-        "date": "2026-03-30T12:50:14.927619"
-    },
-    {
         "id": "78755815cced0a8c769ed9f205938f3f",
         "fingerprint": "head of quality india|itp aero|hyderabad",
         "date": "2026-03-30T12:50:14.927621"
@@ -24998,5 +24983,20 @@
         "id": "3d2d822fa92b59cf11d7274af88026d7",
         "fingerprint": "senior manager - testing|accenture in india|remote",
         "date": "2026-09-19T11:35:22.522931"
+    },
+    {
+        "id": "7b6512c23bbcff1934ff00ac033807b1",
+        "fingerprint": "senior manager, security testing|enphase energy|bengaluru",
+        "date": "2026-09-19T16:35:26.975452"
+    },
+    {
+        "id": "822cce20c28bb303a26774c71a78ecb2",
+        "fingerprint": "lead engineer _ manual testing|citiustech|bengaluru",
+        "date": "2026-09-19T16:35:26.975469"
+    },
+    {
+        "id": "1da40a9713ee25f3425451cb85cc8655",
+        "fingerprint": "automation excellence lead|a.p. moller - maersk|pune",
+        "date": "2026-09-19T16:35:26.975472"
     }
 ]
