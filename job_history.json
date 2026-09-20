@@ -1,15 +1,5 @@
 [
     {
-        "id": "08dcc7f98645a01ca85112d930cc36cb",
-        "fingerprint": "lead qe architect|hackajob|pune",
-        "date": "2026-03-30T19:49:28.827452"
-    },
-    {
-        "id": "3c3b49ae0691c5bade576d7d9231ddc3",
-        "fingerprint": "quality engineering architect|accenture in india|pune",
-        "date": "2026-03-30T19:49:28.827465"
-    },
-    {
         "id": "ab6500cc7e91f1e95ce01a8ab8308427",
         "fingerprint": "director, quality assurance|walmart|bengaluru",
         "date": "2026-03-30T19:49:28.827468"
@@ -24998,5 +24988,15 @@
         "id": "6e6185f7bf8faf444fc16c2c40be2f52",
         "fingerprint": "assistant manager quality assurance|autoline industries limited|ahmedabad",
         "date": "2026-09-20T06:05:30.427429"
+    },
+    {
+        "id": "9c29ea23cc39f1f74bb38809409cd147",
+        "fingerprint": "senior / staff ate test engineer|krishu global tech solutions|hyderabad",
+        "date": "2026-09-20T11:35:38.676848"
+    },
+    {
+        "id": "5298813906d2bac3134bef8e90aabedd",
+        "fingerprint": "qa manager|hdfc bank|remote",
+        "date": "2026-09-20T11:35:38.676869"
     }
 ]
