@@ -1,35 +1,5 @@
 [
     {
-        "id": "78755815cced0a8c769ed9f205938f3f",
-        "fingerprint": "head of quality india|itp aero|hyderabad",
-        "date": "2026-03-30T12:50:14.927621"
-    },
-    {
-        "id": "e40caf055a56d5dde0fa656ba2cb394b",
-        "fingerprint": "test architect|tata consultancy services|hyderabad",
-        "date": "2026-03-30T12:50:14.927623"
-    },
-    {
-        "id": "2972b8757bef0e8178dc9fd05fb22e86",
-        "fingerprint": "quality manager|shrivik industries private limited|chennai",
-        "date": "2026-03-30T12:50:14.927625"
-    },
-    {
-        "id": "26671f1818cbcf5377e1b115e357c297",
-        "fingerprint": "automation lead l1|wipro|chennai",
-        "date": "2026-03-30T12:50:14.927627"
-    },
-    {
-        "id": "21b6e5afeb9c574bf7579fe0301bb4d3",
-        "fingerprint": "manager, test engineering - larc cfcc|mygwork - lgbtq+ business community|chennai",
-        "date": "2026-03-30T12:50:14.927629"
-    },
-    {
-        "id": "eb427fd982aab8712edfde218bedbcef",
-        "fingerprint": "head- quality- airport infrastructure|adani airport holdings ltd|ahmedabad",
-        "date": "2026-03-30T12:50:14.927631"
-    },
-    {
         "id": "08dcc7f98645a01ca85112d930cc36cb",
         "fingerprint": "lead qe architect|hackajob|pune",
         "date": "2026-03-30T19:49:28.827452"
@@ -24998,5 +24968,35 @@
         "id": "1da40a9713ee25f3425451cb85cc8655",
         "fingerprint": "automation excellence lead|a.p. moller - maersk|pune",
         "date": "2026-09-19T16:35:26.975472"
+    },
+    {
+        "id": "21dcec4d20d476170fbd51613e975161",
+        "fingerprint": "senior or staff ate test engineer|krishu global tech solutions|hyderabad",
+        "date": "2026-09-20T06:05:30.427402"
+    },
+    {
+        "id": "517869fb21522fc4bceb725379f3f3e5",
+        "fingerprint": "system test lead|ingersoll rand compressor systems & services|remote",
+        "date": "2026-09-20T06:05:30.427419"
+    },
+    {
+        "id": "113051cf0c1f444c2c7d97ad9d53600d",
+        "fingerprint": "qa director - china, global pcb manufacturer|\u94f6\u661f\u667a\u80fd|remote",
+        "date": "2026-09-20T06:05:30.427421"
+    },
+    {
+        "id": "3a51a762abc81525023618c83d165a1c",
+        "fingerprint": "director, quality systems global|balchem corporation|remote",
+        "date": "2026-09-20T06:05:30.427424"
+    },
+    {
+        "id": "c198d2fad66104bf0cefdc69450cfbfe",
+        "fingerprint": "senior manager, test engineering, global labs|fluence|remote",
+        "date": "2026-09-20T06:05:30.427427"
+    },
+    {
+        "id": "6e6185f7bf8faf444fc16c2c40be2f52",
+        "fingerprint": "assistant manager quality assurance|autoline industries limited|ahmedabad",
+        "date": "2026-09-20T06:05:30.427429"
     }
 ]
