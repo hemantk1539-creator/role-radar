@@ -1,45 +1,5 @@
 [
     {
-        "id": "cc2cdab3d106788f3bc9d3aef6e9b281",
-        "fingerprint": "test manager - vp|barclays|pune",
-        "date": "2026-04-01T06:50:06.557558"
-    },
-    {
-        "id": "c8703f81e0c430512b0c1c822a2cbf2a",
-        "fingerprint": "qa practice head - automation testing tools|pratiti|pune",
-        "date": "2026-04-01T06:50:06.557574"
-    },
-    {
-        "id": "89b3260616ffaab350f8b73e5b2f9d0d",
-        "fingerprint": "ai automation coe lead (genai / intelligent automation)|lueinhire.com|pune",
-        "date": "2026-04-01T06:50:06.557576"
-    },
-    {
-        "id": "edc086f16a7e6667904082ea13f78a22",
-        "fingerprint": "head of automation|thyssenkrupp nucera|mumbai",
-        "date": "2026-04-01T06:50:06.557579"
-    },
-    {
-        "id": "efe64d7ffad71e2a076457128ba5e5f7",
-        "fingerprint": "business process & automation manager (zoho ecosystem)|ad leo ltd|mumbai",
-        "date": "2026-04-01T06:50:06.557581"
-    },
-    {
-        "id": "c9f3c192c008cc92623da17683c50ec4",
-        "fingerprint": "principal test architect - playwright|happiest minds technologies|bengaluru",
-        "date": "2026-04-01T06:50:06.557583"
-    },
-    {
-        "id": "e15fcf949eeadd0d9643cf1ccbb505a0",
-        "fingerprint": "gyansys - test architect|gyansys inc.|bengaluru",
-        "date": "2026-04-01T06:50:06.557586"
-    },
-    {
-        "id": "8964ceccf1c3b9acc8ccc66f20406148",
-        "fingerprint": "senior principal enterprise software test engineer|medtronic|hyderabad",
-        "date": "2026-04-01T06:50:06.557588"
-    },
-    {
         "id": "9ef951a40e098d18ca02fe307073f02a",
         "fingerprint": "quality assurance manager|brisk olive|gurugram",
         "date": "2026-04-01T06:50:06.557590"
@@ -24998,5 +24958,45 @@
         "id": "3640e133f55b85d700807941a433f340",
         "fingerprint": "lead test automation engineer|capgemini|chennai",
         "date": "2026-09-21T11:35:20.607759"
+    },
+    {
+        "id": "eca414e6890095b084848e409cb89fcb",
+        "fingerprint": "fs risk consulting-fsrm - cstc-credit risk quality assurance-quality control-manager|ey|pune",
+        "date": "2026-09-21T16:35:30.809847"
+    },
+    {
+        "id": "42774765ecf8315e709fc3e67264f8e2",
+        "fingerprint": "lead automation engineer (digital publishing & content automation)|samridhi infotech|pune",
+        "date": "2026-09-21T16:35:30.809865"
+    },
+    {
+        "id": "b498ee3b6ae216b41f6937d4caa16e01",
+        "fingerprint": "test manager lending|adept global|mumbai",
+        "date": "2026-09-21T16:35:30.809867"
+    },
+    {
+        "id": "8aadb920d1c98f3e0c4dc7280ee99be0",
+        "fingerprint": "lead performance test engineer|ryan specialty underwriting managers|mumbai",
+        "date": "2026-09-21T16:35:30.809869"
+    },
+    {
+        "id": "a50debeef9bc1373faf5dc01f08b2753",
+        "fingerprint": "test manager microfinance|adept global|hyderabad",
+        "date": "2026-09-21T16:35:30.809870"
+    },
+    {
+        "id": "c5295a2bed48d790e28101b450c1dba9",
+        "fingerprint": "fs risk consulting-fsrm - cstc-credit risk quality assurance-quality control-manager|ey|hyderabad",
+        "date": "2026-09-21T16:35:30.809871"
+    },
+    {
+        "id": "5d586f170a77923d85fb661f93b837a6",
+        "fingerprint": "quality assurance technical lead|decklar|ahmedabad",
+        "date": "2026-09-21T16:35:30.809873"
+    },
+    {
+        "id": "6e68b7f579452cd7216b5d53752d48e2",
+        "fingerprint": "fs risk consulting-fsrm - cstc-credit risk quality assurance-quality control-manager|ey|chennai",
+        "date": "2026-09-21T16:35:30.809874"
     }
 ]
