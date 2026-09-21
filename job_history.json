@@ -1,45 +1,5 @@
 [
     {
-        "id": "ab6500cc7e91f1e95ce01a8ab8308427",
-        "fingerprint": "director, quality assurance|walmart|bengaluru",
-        "date": "2026-03-30T19:49:28.827468"
-    },
-    {
-        "id": "3850c8035d89fe36eb1b607f1eb77e22",
-        "fingerprint": "training and quality manager|faff|bengaluru",
-        "date": "2026-03-30T19:49:28.827470"
-    },
-    {
-        "id": "567915a8c9b158303a2ddeb7390ba1ca",
-        "fingerprint": "senior manager - gcc set up- hyderabad|ey|hyderabad",
-        "date": "2026-03-30T19:49:28.827472"
-    },
-    {
-        "id": "d3e8625616d83bf06346099df985b915",
-        "fingerprint": "manager / sr manager - transactional quality|igt solutions|gurugram",
-        "date": "2026-03-30T19:49:28.827474"
-    },
-    {
-        "id": "75a98621a10c2aea02663ed0e55e87b1",
-        "fingerprint": "head of stress testing governance, controls & planning|standard chartered india|chennai",
-        "date": "2026-03-30T19:49:28.827476"
-    },
-    {
-        "id": "a5ec0388222317ac7567a155b3d2db5a",
-        "fingerprint": "test manager|capgemini|chennai",
-        "date": "2026-03-30T19:49:28.827478"
-    },
-    {
-        "id": "55e5365b64a1961d59bc4343facd5430",
-        "fingerprint": "senior manager-quality/ toy induustry/plastic industry|not applicable1|ahmedabad",
-        "date": "2026-03-30T19:49:28.827480"
-    },
-    {
-        "id": "1ec0707369a8009fc43db6d6352bd940",
-        "fingerprint": "senior applied science manager, traffic quality|amazon|bengaluru",
-        "date": "2026-03-31T06:50:09.058773"
-    },
-    {
         "id": "6eeae780f1bfd1fb3e3c61e4614f9565",
         "fingerprint": "software test architect - azurioneye ai analyst|philips|bengaluru",
         "date": "2026-03-31T06:50:09.058789"
@@ -24998,5 +24958,45 @@
         "id": "5298813906d2bac3134bef8e90aabedd",
         "fingerprint": "qa manager|hdfc bank|remote",
         "date": "2026-09-20T11:35:38.676869"
+    },
+    {
+        "id": "0ea10c7248fb9516122b595ca23d2e33",
+        "fingerprint": "sr selenium/playwright test architect|birlasoft|bengaluru",
+        "date": "2026-09-21T06:05:38.795903"
+    },
+    {
+        "id": "c5be1b66b7aac612fcdffac17fef3777",
+        "fingerprint": "sr qa delivery manager-healthcare interoperability|birlasoft|bengaluru",
+        "date": "2026-09-21T06:05:38.795919"
+    },
+    {
+        "id": "00398b12da6e6e637d1ccfec80a5b80b",
+        "fingerprint": "senior manager- qa (customer service)|impetus career consultants|pune",
+        "date": "2026-09-21T06:05:38.795922"
+    },
+    {
+        "id": "a400188f6dd3625879b31d931b286cc2",
+        "fingerprint": "senior principal quality lead|palo alto networks|hyderabad",
+        "date": "2026-09-21T06:05:38.795924"
+    },
+    {
+        "id": "128304c0704cb9bfb0fc3b622adaff15",
+        "fingerprint": "quality assurance manager|umendra life sciences pvt. ltd.|ahmedabad",
+        "date": "2026-09-21T06:05:38.795927"
+    },
+    {
+        "id": "76a01ab339a4fcd1bdd704c20685ea55",
+        "fingerprint": "qa manager (automation)|tactive software systems (p) ltd|chennai",
+        "date": "2026-09-21T06:05:38.795929"
+    },
+    {
+        "id": "40547e8941c235df4ca5a21c4d0f0fbc",
+        "fingerprint": "senior test automation lead|parle biscuits pvt. ltd.|remote",
+        "date": "2026-09-21T06:05:38.795931"
+    },
+    {
+        "id": "1515ea4818e488b7e85b98c7f3ddc086",
+        "fingerprint": "global quality director|yongjiang laboratory|remote",
+        "date": "2026-09-21T06:05:38.795934"
     }
 ]
