@@ -1,100 +1,5 @@
 [
     {
-        "id": "6eeae780f1bfd1fb3e3c61e4614f9565",
-        "fingerprint": "software test architect - azurioneye ai analyst|philips|bengaluru",
-        "date": "2026-03-31T06:50:09.058789"
-    },
-    {
-        "id": "0cf8e48fceff1811a310e15910746019",
-        "fingerprint": "quality assurance lead - automation testing|prismforce|bengaluru",
-        "date": "2026-03-31T06:50:09.058791"
-    },
-    {
-        "id": "2e821f15bd5bebcee750e4b1fd06442f",
-        "fingerprint": "lead gcp (8+ yr, gcp, automation , cloud security)|innova esi|mumbai",
-        "date": "2026-03-31T06:50:09.058793"
-    },
-    {
-        "id": "e5e8562a8f548eef66b020be8c064bb2",
-        "fingerprint": "principle it technologist - tricentis testing lead|medtronic|hyderabad",
-        "date": "2026-03-31T06:50:09.058795"
-    },
-    {
-        "id": "45177ee1815bb775e394926de60a4356",
-        "fingerprint": "global quality manager (handling multisites)|transcosmos malaysia|remote",
-        "date": "2026-03-31T06:50:09.058797"
-    },
-    {
-        "id": "77eca966043b03e7066a04acfd6889f5",
-        "fingerprint": "test manager|fnz|pune",
-        "date": "2026-03-31T12:50:15.576483"
-    },
-    {
-        "id": "c230808ae9dbf7bcae621ec7c1c71414",
-        "fingerprint": "lead quality assurance drug substance- biologics|biocon biologics|bengaluru",
-        "date": "2026-03-31T12:50:15.576499"
-    },
-    {
-        "id": "abff4357fd3370f8cea0ea3a003b37a7",
-        "fingerprint": "quality control lead \u2013 retail projects|the souled store|mumbai",
-        "date": "2026-03-31T12:50:15.576502"
-    },
-    {
-        "id": "5021f671754fbf15a323ff96ef827a08",
-        "fingerprint": "qe test lead (warehouse automation & wes domain)|valuelabs|hyderabad",
-        "date": "2026-03-31T12:50:15.576503"
-    },
-    {
-        "id": "4800b9f8cc5e99f2851d42f735a04db8",
-        "fingerprint": "quality manager \u2013 (mobile pv solar lab)|job24by7|gurugram",
-        "date": "2026-03-31T12:50:15.576505"
-    },
-    {
-        "id": "b6488f0c9d3ab6aa9cb9f19a4c13ef4c",
-        "fingerprint": "quality manager, last mile aces - quality|amazon|ahmedabad",
-        "date": "2026-03-31T12:50:15.576507"
-    },
-    {
-        "id": "99e377f195de70a7692043a607597c9a",
-        "fingerprint": "quality assurance manager|hindustan infrastructure solution|ahmedabad",
-        "date": "2026-03-31T12:50:15.576509"
-    },
-    {
-        "id": "498d0f70a3d424f8e9fd38105df758ac",
-        "fingerprint": "deputy general manager / senior manager quality|syntegon|remote",
-        "date": "2026-03-31T12:50:15.576510"
-    },
-    {
-        "id": "d78b43a39c65fa3512759bacb356d434",
-        "fingerprint": "senior testing manager|lumos learning|bengaluru",
-        "date": "2026-03-31T19:50:14.016269"
-    },
-    {
-        "id": "99a072c28044fde2afa2b99772d648c6",
-        "fingerprint": "product validation & testing manager|vortex engineering works india pvt. ltd.|mumbai",
-        "date": "2026-03-31T19:50:14.016286"
-    },
-    {
-        "id": "462ba0f77ac27b0fc74236ef10690f1e",
-        "fingerprint": "senior manager - quality|kone|chennai",
-        "date": "2026-03-31T19:50:14.016289"
-    },
-    {
-        "id": "f20623b64327018583723ee1994bbb44",
-        "fingerprint": "lead analyst-test architect|cgi|chennai",
-        "date": "2026-03-31T19:50:14.016292"
-    },
-    {
-        "id": "b703ef3103a3ce70954cc847667f3c28",
-        "fingerprint": "rpa power automate architect (ai automation)|swits digital private limited|chennai",
-        "date": "2026-03-31T19:50:14.016294"
-    },
-    {
-        "id": "55db3f474f7754055fc70412ae0e753b",
-        "fingerprint": "senior director, site quality head, goa|teva pharmaceuticals|remote",
-        "date": "2026-03-31T19:50:14.016297"
-    },
-    {
         "id": "cc2cdab3d106788f3bc9d3aef6e9b281",
         "fingerprint": "test manager - vp|barclays|pune",
         "date": "2026-04-01T06:50:06.557558"
@@ -24998,5 +24903,100 @@
         "id": "1515ea4818e488b7e85b98c7f3ddc086",
         "fingerprint": "global quality director|yongjiang laboratory|remote",
         "date": "2026-09-21T06:05:38.795934"
+    },
+    {
+        "id": "a7b0d59418d526119caa6baa45a629d2",
+        "fingerprint": "qa manual & automation lead \u2013 mobile applications|duobridge|bengaluru",
+        "date": "2026-09-21T11:35:20.607704"
+    },
+    {
+        "id": "7b9ce11ea90c65b7dadbd67214cd95e4",
+        "fingerprint": "lead bi etl test engineer|capgemini|bengaluru",
+        "date": "2026-09-21T11:35:20.607720"
+    },
+    {
+        "id": "0f5db4d3af77c87cf581d257605fd11e",
+        "fingerprint": "lead bi etl test engineer|capgemini engineering|bengaluru",
+        "date": "2026-09-21T11:35:20.607723"
+    },
+    {
+        "id": "0992583d2558a89d9e3d4465812b58f4",
+        "fingerprint": "quality control manager|newjaisa technologies|bengaluru",
+        "date": "2026-09-21T11:35:20.607726"
+    },
+    {
+        "id": "e3b9f53ac63b4974d84b64df74b122ae",
+        "fingerprint": "senior test lead|hcltech|bengaluru",
+        "date": "2026-09-21T11:35:20.607728"
+    },
+    {
+        "id": "03dd5b245715c8b382b243029ed0fa99",
+        "fingerprint": "senior/test lead  sap s4 hana fico/finance testing|orion innovation|pune",
+        "date": "2026-09-21T11:35:20.607730"
+    },
+    {
+        "id": "68cc95a020f99fefce35a49150c8dd4c",
+        "fingerprint": "senior/test lead  sap s4 hana fico/finance testing|orion innovation|mumbai",
+        "date": "2026-09-21T11:35:20.607732"
+    },
+    {
+        "id": "3a20a5526d7d635b770812b0422e1790",
+        "fingerprint": "quality assurance manager|corenza|mumbai",
+        "date": "2026-09-21T11:35:20.607734"
+    },
+    {
+        "id": "b4894acfa169cdd8a2d0a8cda30f9bab",
+        "fingerprint": "senior delivery director testing|coforge|hyderabad",
+        "date": "2026-09-21T11:35:20.607736"
+    },
+    {
+        "id": "5432efd792e43ef363cb53a95d2d712d",
+        "fingerprint": "quality assurance lead|birlasoft|hyderabad",
+        "date": "2026-09-21T11:35:20.607739"
+    },
+    {
+        "id": "29286de4dbfc170bf812b1da33b8210b",
+        "fingerprint": "platform qa manager|phenom|hyderabad",
+        "date": "2026-09-21T11:35:20.607741"
+    },
+    {
+        "id": "f37d60bb5fdf901d408de65ab203c804",
+        "fingerprint": "senior/test lead  sap s4 hana fico/finance testing|orion innovation|hyderabad",
+        "date": "2026-09-21T11:35:20.607743"
+    },
+    {
+        "id": "85b4423e37e39914ebcf2029e790977d",
+        "fingerprint": "lead technical consultant_ qa automation|perficient|hyderabad",
+        "date": "2026-09-21T11:35:20.607745"
+    },
+    {
+        "id": "9c368ac478ee70d770b0ef8e7796b49b",
+        "fingerprint": "test lead with domain|zensar technologies|hyderabad",
+        "date": "2026-09-21T11:35:20.607748"
+    },
+    {
+        "id": "3e41992fd27e1f13e32d26cc64d537e5",
+        "fingerprint": "quality manager irc298730|globallogic|hyderabad",
+        "date": "2026-09-21T11:35:20.607750"
+    },
+    {
+        "id": "4d6387d754fc2ec205bc84d0ea47746f",
+        "fingerprint": "lead quality engineer|capgemini|chennai",
+        "date": "2026-09-21T11:35:20.607752"
+    },
+    {
+        "id": "7693620535b7c208470a2532813790e6",
+        "fingerprint": "lead quality engineer|capgemini engineering|chennai",
+        "date": "2026-09-21T11:35:20.607755"
+    },
+    {
+        "id": "cf2d70cc949808cbdb973b4660726c01",
+        "fingerprint": "senior/test lead  sap s4 hana fico/finance testing|orion innovation|chennai",
+        "date": "2026-09-21T11:35:20.607757"
+    },
+    {
+        "id": "3640e133f55b85d700807941a433f340",
+        "fingerprint": "lead test automation engineer|capgemini|chennai",
+        "date": "2026-09-21T11:35:20.607759"
     }
 ]
