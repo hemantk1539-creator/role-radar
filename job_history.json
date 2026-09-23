@@ -1,50 +1,5 @@
 [
     {
-        "id": "6b2fdad317778d9948d3bdd831e56937",
-        "fingerprint": "test manager|kpmg india|bengaluru",
-        "date": "2026-04-02T12:49:58.617536"
-    },
-    {
-        "id": "70402f5ba641f70aa32d6ced10c3e643",
-        "fingerprint": "testing & innovation manager|bayer|bengaluru",
-        "date": "2026-04-02T12:49:58.617539"
-    },
-    {
-        "id": "799faf1a9d468551a7955e9296c3fe81",
-        "fingerprint": "process lead - quality assurance|the whole truth foods|mumbai",
-        "date": "2026-04-02T12:49:58.617541"
-    },
-    {
-        "id": "a0ddc8241d3bf491227663b4c423b0a7",
-        "fingerprint": "training and quality manager|veefly|mumbai",
-        "date": "2026-04-02T12:49:58.617543"
-    },
-    {
-        "id": "ab62433cb56b5e731decd9ef44499972",
-        "fingerprint": "plant quality manager, ballabgarh|the goodyear tire & rubber company|gurugram",
-        "date": "2026-04-02T12:49:58.617545"
-    },
-    {
-        "id": "248cbc0c9c8d97495d667c4e05379731",
-        "fingerprint": "head of project quality|topsoe|gurugram",
-        "date": "2026-04-02T12:49:58.617547"
-    },
-    {
-        "id": "867b17b71b4a3e75294febb502369337",
-        "fingerprint": "global head of quality|inflow partnership|remote",
-        "date": "2026-04-02T12:49:58.617549"
-    },
-    {
-        "id": "8f2d79cd4c9c9405fc8d3320cef33a43",
-        "fingerprint": "business risk management - monitoring & testing - manager|state street|pune",
-        "date": "2026-04-02T19:49:56.525853"
-    },
-    {
-        "id": "09513b22c7c4d0d31f9862358fa2a62d",
-        "fingerprint": "quality manager- home appliances|livspace|bengaluru",
-        "date": "2026-04-02T19:49:56.525869"
-    },
-    {
         "id": "88b7c462b20edbb73d85491abe6d75fa",
         "fingerprint": "senior manager, quality engineering [t500-24970]|cibc india|hyderabad",
         "date": "2026-04-02T19:49:56.525871"
@@ -24998,5 +24953,50 @@
         "id": "a251f60327ef91817baf11eda9282c0f",
         "fingerprint": "director, global quality assurance director - vinted | kg|tp|remote",
         "date": "2026-09-22T16:35:32.380024"
+    },
+    {
+        "id": "79a4f6e715363461cd31dd79ced473f5",
+        "fingerprint": "head of qa/qc|tata projects|mumbai",
+        "date": "2026-09-23T06:05:35.539046"
+    },
+    {
+        "id": "60f6e1347097fbdb0d34340cbfb57d15",
+        "fingerprint": "quality engineering arch manager|accenture in india|bengaluru",
+        "date": "2026-09-23T06:05:35.539064"
+    },
+    {
+        "id": "22f84b33949d9dffc0ab6114bbe02d79",
+        "fingerprint": "head of quality assurance|athleaders|bengaluru",
+        "date": "2026-09-23T06:05:35.539066"
+    },
+    {
+        "id": "728c27498166c2e1fa02912a8ffd0891",
+        "fingerprint": "staff software quality engineer|ping identity|bengaluru",
+        "date": "2026-09-23T06:05:35.539068"
+    },
+    {
+        "id": "917a13cb7039303a7d9dc708ff98e443",
+        "fingerprint": "lead- wlan testing|capgemini engineering|bengaluru",
+        "date": "2026-09-23T06:05:35.539070"
+    },
+    {
+        "id": "9ab22061c5ec4c3bcad8860182110699",
+        "fingerprint": "sr solution architect,d&t, validation & testing|west pharmaceutical services|bengaluru",
+        "date": "2026-09-23T06:05:35.539072"
+    },
+    {
+        "id": "615d8b6cef2a6ba1b023d4cd7410d74e",
+        "fingerprint": "quality engineering arch manager|accenture in india|remote",
+        "date": "2026-09-23T06:05:35.539074"
+    },
+    {
+        "id": "378284149439027271bad755ed03290c",
+        "fingerprint": "lead consultant - sap testing job|yash technologies middle east|remote",
+        "date": "2026-09-23T06:05:35.539076"
+    },
+    {
+        "id": "6e69d9866b8ec82b7d4fb5a962b0d82f",
+        "fingerprint": "interesting job opportunity: quality assurance lead|robomq|remote",
+        "date": "2026-09-23T06:05:35.539078"
     }
 ]
