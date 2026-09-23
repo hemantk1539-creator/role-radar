@@ -1,80 +1,5 @@
 [
     {
-        "id": "2a081364c36dbb78f869b006edcda440",
-        "fingerprint": "test architect|sciex|bengaluru",
-        "date": "2026-04-03T19:49:49.181007"
-    },
-    {
-        "id": "96bd23549da65ec9cdd9e54f8ab0714f",
-        "fingerprint": "business development manager \u2013 ai & industrial automation|cogniforge technologies|gurugram",
-        "date": "2026-04-03T19:49:49.181010"
-    },
-    {
-        "id": "51956155e1fb85e3206c5cb83b1ab5d3",
-        "fingerprint": "manager \u2013 quality|prochant india|chennai",
-        "date": "2026-04-03T19:49:49.181013"
-    },
-    {
-        "id": "3074f228c5d64a46055eeb7a77b31373",
-        "fingerprint": "contractor quality lead|pfizer|chennai",
-        "date": "2026-04-03T19:49:49.181016"
-    },
-    {
-        "id": "5e54ceb149d73c31b01eb8a80b5b424a",
-        "fingerprint": "senior quality manager, global|astrix|remote",
-        "date": "2026-04-03T19:49:49.181019"
-    },
-    {
-        "id": "948a7908568308a194226e61d545062e",
-        "fingerprint": "sol architect, d&t, validation & testing|west pharmaceutical services|bengaluru",
-        "date": "2026-04-04T06:49:29.324369"
-    },
-    {
-        "id": "b0572e810013f2318860daf74da54d2e",
-        "fingerprint": "automation lead l1|wipro|pune",
-        "date": "2026-04-04T06:49:29.324386"
-    },
-    {
-        "id": "22275a8baf23d554790ea3d418c1ef72",
-        "fingerprint": "kemar automation -  chief financial officer|kemar automation|mumbai",
-        "date": "2026-04-04T06:49:29.324389"
-    },
-    {
-        "id": "9d542fd850fcbf9ac3dd321f9ec8c627",
-        "fingerprint": "manager - control testing|american express|gurugram",
-        "date": "2026-04-04T06:49:29.324392"
-    },
-    {
-        "id": "341e68fb7d68fd4485ffc4024e884f77",
-        "fingerprint": "lead functional consultant - quality compliance assurance|epam systems|gurugram",
-        "date": "2026-04-04T06:49:29.324394"
-    },
-    {
-        "id": "b65d48adf2745a20658a9e6fcf43e8ef",
-        "fingerprint": "manager - customer quality, nmipl|nissan motor corporation|gurugram",
-        "date": "2026-04-04T12:49:43.792763"
-    },
-    {
-        "id": "edf9450cfa9ff526bbdb7cff20c93f61",
-        "fingerprint": "lead ii - software testing|ust|bengaluru",
-        "date": "2026-04-04T19:49:53.672393"
-    },
-    {
-        "id": "bf7066a502a92a40048f573668f847ab",
-        "fingerprint": "quality assurance, monitoring & testing lead analyst - vice president|citi|mumbai",
-        "date": "2026-04-04T19:49:53.672407"
-    },
-    {
-        "id": "00b227c2b075849abda83bd2c4c7f07d",
-        "fingerprint": "eiu principal quality engineer|the economist|noida",
-        "date": "2026-04-04T19:49:53.672409"
-    },
-    {
-        "id": "9513de772e26d0c5a629b4859a3ee618",
-        "fingerprint": "lead - supplier quality|man truck & bus india pvt. ltd|pune",
-        "date": "2026-04-05T06:49:18.502939"
-    },
-    {
         "id": "ae475b244bdb3df32eda58426a48fc10",
         "fingerprint": "plant quality manager - ais|siemens|remote",
         "date": "2026-04-05T06:49:18.502956"
@@ -24998,5 +24923,80 @@
         "id": "fe07a884ab5473dfb21bec3ade72648a",
         "fingerprint": "ct engineering-product testing-test lead|ey|remote",
         "date": "2026-09-23T11:35:28.217561"
+    },
+    {
+        "id": "a8a87170d5191677ed50e0c1f8bacfd6",
+        "fingerprint": "quality assurance lead (assistance vice president)|delta capita|pune",
+        "date": "2026-09-23T16:35:39.940605"
+    },
+    {
+        "id": "bf5be0ee3e9ceee250c5fd10e784d391",
+        "fingerprint": "plant quality head|zf group|pune",
+        "date": "2026-09-23T16:35:39.940622"
+    },
+    {
+        "id": "54c642107c469dca8b3dc0fc82d591c3",
+        "fingerprint": "head of automation & orchestration|principal financial group|pune",
+        "date": "2026-09-23T16:35:39.940625"
+    },
+    {
+        "id": "0df0efe368069f15652c98caa3258779",
+        "fingerprint": "quality assurance lead (assistance vice president)|delta capita|bengaluru",
+        "date": "2026-09-23T16:35:39.940627"
+    },
+    {
+        "id": "c77b0050a2d8f843c8e9cf3664534357",
+        "fingerprint": "qa & testing lead analyst|the cigna group|bengaluru",
+        "date": "2026-09-23T16:35:39.940629"
+    },
+    {
+        "id": "cf1b00b2ddbb4b030ba75b2cf2e12111",
+        "fingerprint": "principal test engineer|renesas electronics|bengaluru",
+        "date": "2026-09-23T16:35:39.940631"
+    },
+    {
+        "id": "5d7f480548929d7b3a319695ab8369b5",
+        "fingerprint": "finacle lead ii - software testing|ust|bengaluru",
+        "date": "2026-09-23T16:35:39.940633"
+    },
+    {
+        "id": "0ab6353b44f03ec9aaa456ead2b06232",
+        "fingerprint": "senior manager, transactional quality|accurate background|mumbai",
+        "date": "2026-09-23T16:35:39.940636"
+    },
+    {
+        "id": "53f34b2d0dc0cf128721ed36e1077d23",
+        "fingerprint": "manager, quality engineering|ncr voyix|hyderabad",
+        "date": "2026-09-23T16:35:39.940638"
+    },
+    {
+        "id": "0fee232800c2399e07111ce7064c0d52",
+        "fingerprint": "manager, technical operations, gtech ads tools, automation and infrastructure|google|hyderabad",
+        "date": "2026-09-23T16:35:39.940640"
+    },
+    {
+        "id": "7f6efdd207209ee0d02df9f0b68b7552",
+        "fingerprint": "sdet - lead|iris software inc.|gurugram",
+        "date": "2026-09-23T16:35:39.940642"
+    },
+    {
+        "id": "ebf827409adcb1fccbe67260e146e709",
+        "fingerprint": "quality engineering architect (test arch|accenture in india|gurugram",
+        "date": "2026-09-23T16:35:39.940645"
+    },
+    {
+        "id": "592c6e4e7392a11251f9d0fd0aa8444c",
+        "fingerprint": "operations quality manager|nokia|chennai",
+        "date": "2026-09-23T16:35:39.940647"
+    },
+    {
+        "id": "6be62c87193c6265816df46d4b3c6839",
+        "fingerprint": "head of sox testing|wise|remote",
+        "date": "2026-09-23T16:35:39.940649"
+    },
+    {
+        "id": "a4f770fe5a71811a00e5357797cd220a",
+        "fingerprint": "neo group: crm automation manager|wwr",
+        "date": "2026-09-23T16:35:39.940651"
     }
 ]
