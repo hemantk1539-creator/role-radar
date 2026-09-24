@@ -1,55 +1,5 @@
 [
     {
-        "id": "ae475b244bdb3df32eda58426a48fc10",
-        "fingerprint": "plant quality manager - ais|siemens|remote",
-        "date": "2026-04-05T06:49:18.502956"
-    },
-    {
-        "id": "f33a6bab1ced4d96cea2b314bffd18c6",
-        "fingerprint": "quality assurance manager|lqi|gurugram",
-        "date": "2026-04-05T12:49:47.954766"
-    },
-    {
-        "id": "ef57b559952234c471ee3808813b316b",
-        "fingerprint": "staff engineer, qa automation (mobile & api testing)|nagarro",
-        "date": "2026-04-05T12:49:47.954786"
-    },
-    {
-        "id": "67103cef953ac7ddffe35c8abc0ed51e",
-        "fingerprint": "lead automation engineer|nne|bengaluru",
-        "date": "2026-04-05T19:49:42.685442"
-    },
-    {
-        "id": "65ce556b3940e7d60f25f0e904cd4983",
-        "fingerprint": "executive manager \u2013 qa automation architect /specialist - hyderabad|deloitte|hyderabad",
-        "date": "2026-04-05T19:49:42.685456"
-    },
-    {
-        "id": "709c27249a2d3889f689eda1d94f5cb7",
-        "fingerprint": "principal software quality engineer|pegasystems|hyderabad",
-        "date": "2026-04-05T19:49:42.685459"
-    },
-    {
-        "id": "315d9376959e22e2aa173cdb8876a131",
-        "fingerprint": "testing lead|turaminds technologies pvt ltd|hyderabad",
-        "date": "2026-04-05T19:49:42.685461"
-    },
-    {
-        "id": "86e509a58b622b249b51796cb5b93fab",
-        "fingerprint": "lead test development engineer|aptiv|chennai",
-        "date": "2026-04-05T19:49:42.685462"
-    },
-    {
-        "id": "71d1a9c5d0e0fb8ecd20ebc086e16198",
-        "fingerprint": "lead quality engineer|quest global|hyderabad",
-        "date": "2026-04-06T06:49:52.407151"
-    },
-    {
-        "id": "df1ab99d2b6439095d7a770352c7ffff",
-        "fingerprint": "head of quality assurance_aerospace|brisk olive|gurugram",
-        "date": "2026-04-06T06:49:52.407167"
-    },
-    {
         "id": "f246e0ee2d75c668889e5b618e2eaa1f",
         "fingerprint": "quality control lead|tenac-harinder industries p. ltd.|remote",
         "date": "2026-04-06T06:49:52.407170"
@@ -24998,5 +24948,55 @@
         "id": "a4f770fe5a71811a00e5357797cd220a",
         "fingerprint": "neo group: crm automation manager|wwr",
         "date": "2026-09-23T16:35:39.940651"
+    },
+    {
+        "id": "790971492cf6ebfc62cc255169c61d45",
+        "fingerprint": "architect \u2013 ai-powered performance verification automation|nvidia|pune",
+        "date": "2026-09-24T06:05:17.874010"
+    },
+    {
+        "id": "3e03cc9c82d74a8f81208edd199b4f12",
+        "fingerprint": "qa architect|mavenir|bengaluru",
+        "date": "2026-09-24T06:05:17.874026"
+    },
+    {
+        "id": "ab1f6a45b19b70376b159f64c066f759",
+        "fingerprint": "technical lead, (fcaps quality assurance)|rakuten symphony|bengaluru",
+        "date": "2026-09-24T06:05:17.874029"
+    },
+    {
+        "id": "ae22ed7d62050436e8eb787c3e5129fa",
+        "fingerprint": "cyber security lead - compliance, quality and operational excellence|relix hr consulting pvt ltd - recruitment partner for excellence|mumbai",
+        "date": "2026-09-24T06:05:17.874032"
+    },
+    {
+        "id": "f43f6929162dabe7ccbad7c0e7739341",
+        "fingerprint": "director, engineering ai evaluation & quality|factset|hyderabad",
+        "date": "2026-09-24T06:05:17.874034"
+    },
+    {
+        "id": "04893c841f2ecf3edab138098e977668",
+        "fingerprint": "senior automation test engineer / lead quality engineer|icore pioneer business solution|hyderabad",
+        "date": "2026-09-24T06:05:17.874037"
+    },
+    {
+        "id": "6deef64f46279bdc1a4f86104f7b33d1",
+        "fingerprint": "software testing lead|saarthi|gurugram",
+        "date": "2026-09-24T06:05:17.874039"
+    },
+    {
+        "id": "50d565eafa063525af7fd13c75665391",
+        "fingerprint": "type test manager \u2013 hv switchgear|ge vernova|chennai",
+        "date": "2026-09-24T06:05:17.874041"
+    },
+    {
+        "id": "97f7c4f52a76be5d094b23c2aa4c171c",
+        "fingerprint": "qa team lead (web scraping & data extraction)|hr actowiz solutions|ahmedabad",
+        "date": "2026-09-24T06:05:17.874043"
+    },
+    {
+        "id": "b6eb3c77763510f38d3dffdbe16d4f07",
+        "fingerprint": "lead software test engineer - automation anywhere|first citizens india|bengaluru",
+        "date": "2026-09-24T06:05:17.874045"
     }
 ]
