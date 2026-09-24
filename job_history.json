@@ -1,80 +1,5 @@
 [
     {
-        "id": "f246e0ee2d75c668889e5b618e2eaa1f",
-        "fingerprint": "quality control lead|tenac-harinder industries p. ltd.|remote",
-        "date": "2026-04-06T06:49:52.407170"
-    },
-    {
-        "id": "2b20ad4c4ac6e0c265ddbe6d5a1f02ba",
-        "fingerprint": "manager, quality systems|thermo fisher scientific|remote",
-        "date": "2026-04-06T06:49:52.407173"
-    },
-    {
-        "id": "e76fb042e8dde8f1599a1525608fcbc8",
-        "fingerprint": "global quality compliance manager|secure meters limited|gurugram",
-        "date": "2026-04-06T06:49:52.407175"
-    },
-    {
-        "id": "12af9993faaeb32a60aeb5df80332444",
-        "fingerprint": "test manager \u2013 global markets technology|persol apac|remote",
-        "date": "2026-04-06T06:49:52.407178"
-    },
-    {
-        "id": "88acced520aa295ddce0c66e55739c09",
-        "fingerprint": "senior manager, product quality|sandisk|bengaluru",
-        "date": "2026-04-06T12:49:59.764883"
-    },
-    {
-        "id": "25e1445b6fd93aa7946d8018a136b376",
-        "fingerprint": "quality and operations manager|criador labs|bengaluru",
-        "date": "2026-04-06T12:49:59.764899"
-    },
-    {
-        "id": "5e48d32315a92d970cf2b0cbbbad3e8e",
-        "fingerprint": "head of quality assurance|amor management consultants - india\u2019s premiere auto talent hiring specialists|bengaluru",
-        "date": "2026-04-06T12:49:59.764901"
-    },
-    {
-        "id": "8a491b79cb8960fc638031e65413c725",
-        "fingerprint": "test architect|uplers|bengaluru",
-        "date": "2026-04-06T12:49:59.764904"
-    },
-    {
-        "id": "cd28cac7824adc2c88efd6619a9227fb",
-        "fingerprint": "manager - qa - qms|global calcium|bengaluru",
-        "date": "2026-04-06T12:49:59.764906"
-    },
-    {
-        "id": "8093e2bcee21260c20ada4865cc1203c",
-        "fingerprint": "quality assurance manager|kosh innovations|pune",
-        "date": "2026-04-06T12:49:59.764908"
-    },
-    {
-        "id": "788e13f5fa9de5de0ffcddeeb059103c",
-        "fingerprint": "senior quality assurance manager|randstad enterprise|pune",
-        "date": "2026-04-06T12:49:59.764910"
-    },
-    {
-        "id": "ba7ad20844f07614f45a66d4ba743250",
-        "fingerprint": "quality assurance, director, third party risk management|morgan stanley|mumbai",
-        "date": "2026-04-06T12:49:59.764913"
-    },
-    {
-        "id": "35acbc0fd295377effc488ab50597788",
-        "fingerprint": "quality assurance manager|esse india | canada immigration consultants in delhi | visa consultant delhi|mumbai",
-        "date": "2026-04-06T12:49:59.764915"
-    },
-    {
-        "id": "6918d9464f2f02ce27e14faf549d2069",
-        "fingerprint": "quality assurance manager|kabsons gas equipment pvt. ltd.|hyderabad",
-        "date": "2026-04-06T12:49:59.764917"
-    },
-    {
-        "id": "4c5654f0fc0e1888989c3fc34d9b8c4f",
-        "fingerprint": "qa lead \u2013 it operations|lonza|hyderabad",
-        "date": "2026-04-06T12:49:59.764920"
-    },
-    {
         "id": "4ef10d6bdb18a0c0b5847a72735cc739",
         "fingerprint": "software development engineer in test lead|philodesign technologies inc|hyderabad",
         "date": "2026-04-06T12:49:59.764922"
@@ -24998,5 +24923,80 @@
         "id": "b6eb3c77763510f38d3dffdbe16d4f07",
         "fingerprint": "lead software test engineer - automation anywhere|first citizens india|bengaluru",
         "date": "2026-09-24T06:05:17.874045"
+    },
+    {
+        "id": "f01a0003347bcf3411aa1366d21243c2",
+        "fingerprint": "lead ii - software testing (tosca, sap s/4 hana)|ust|bengaluru",
+        "date": "2026-09-24T11:35:43.265032"
+    },
+    {
+        "id": "ebe853076d9d3014406c9bacae347b30",
+        "fingerprint": "test lead|wipro|bengaluru",
+        "date": "2026-09-24T11:35:43.265048"
+    },
+    {
+        "id": "2c40fa543723a9c305851656210a66be",
+        "fingerprint": "test manager - finacle labilities|qualitykiosk technologies|mumbai",
+        "date": "2026-09-24T11:35:43.265051"
+    },
+    {
+        "id": "90f18aa0ec94679e75641b9b920c569c",
+        "fingerprint": "quality assurance lead|aliens tattoo|mumbai",
+        "date": "2026-09-24T11:35:43.265054"
+    },
+    {
+        "id": "da16113954a208a62ae6e13fd8dd5c02",
+        "fingerprint": "qa/qc manager - high rise residential pmc (15+)|virtualyyst|mumbai",
+        "date": "2026-09-24T11:35:43.265057"
+    },
+    {
+        "id": "2121d1f3b162bb5025bdb982585c7850",
+        "fingerprint": "quality head|refroid technologies private limited|hyderabad",
+        "date": "2026-09-24T11:35:43.265060"
+    },
+    {
+        "id": "2818303a84bae65150ee182c81695616",
+        "fingerprint": "test architect \u2013 agentic ai / quality engineering|ejamerica|hyderabad",
+        "date": "2026-09-24T11:35:43.265062"
+    },
+    {
+        "id": "bee94a2cce358583f02b9f401ab9f46e",
+        "fingerprint": "operations deputy manager- manual testing|deloitte|hyderabad",
+        "date": "2026-09-24T11:35:43.265064"
+    },
+    {
+        "id": "dc048bb3eba865a15df4b2fe1a168d20",
+        "fingerprint": "data architect & delivery lead \u2013 data quality platform (snowflake, ai)|olympus corporation|hyderabad",
+        "date": "2026-09-24T11:35:43.265066"
+    },
+    {
+        "id": "b6710c05fe1a20e902b51120d35711a0",
+        "fingerprint": "principal sdet engineer|taazaa inc|gurugram",
+        "date": "2026-09-24T11:35:43.265069"
+    },
+    {
+        "id": "b565f5b30ff3814db327ccae4b7b0f54",
+        "fingerprint": "quality assurance manager \u2013 leather bags|orion conmerx private limited|gurugram",
+        "date": "2026-09-24T11:35:43.265071"
+    },
+    {
+        "id": "91c6ec2b3393cf7bc53b9bc24872a7e5",
+        "fingerprint": "automation lead engineer|huntingcube|gurugram",
+        "date": "2026-09-24T11:35:43.265074"
+    },
+    {
+        "id": "8aa3360cf1aca793f5759c46ebda73b7",
+        "fingerprint": "manager - process excellence & quality|stemz healthcare|noida",
+        "date": "2026-09-24T11:35:43.265076"
+    },
+    {
+        "id": "1797cbec2a0f031c4b3cda14c6d65214",
+        "fingerprint": "operations deputy manager- manual testing|deloitte|chennai",
+        "date": "2026-09-24T11:35:43.265078"
+    },
+    {
+        "id": "5eb23bb5e338f6578c5a4d84573aa681",
+        "fingerprint": "manager quality management|eminent international|ahmedabad",
+        "date": "2026-09-24T11:35:43.265081"
     }
 ]
