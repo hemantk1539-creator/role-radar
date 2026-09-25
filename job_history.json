@@ -1,55 +1,5 @@
 [
     {
-        "id": "a715322c1f301295b0af9ea74cb134c6",
-        "fingerprint": "quality assurance manager|omni recruit private limited|pune",
-        "date": "2026-04-07T12:50:23.308753"
-    },
-    {
-        "id": "f0d0c461cfd73504d13acd9b9060d1d6",
-        "fingerprint": "senior lead quality engineer - r01561550|brillio|pune",
-        "date": "2026-04-07T12:50:23.308756"
-    },
-    {
-        "id": "ceeb599b5355d37cfc854a847fc6fbbb",
-        "fingerprint": "plant quality manager - scada / protection automation|siemens|mumbai",
-        "date": "2026-04-07T12:50:23.308758"
-    },
-    {
-        "id": "524d13d06ca74a0d979286267aa2cfd2",
-        "fingerprint": "staff quality engineer -  india|jumpcloud|hyderabad",
-        "date": "2026-04-07T12:50:23.308760"
-    },
-    {
-        "id": "da68ad5c8e14dc141cff8dd6bbe9f4e0",
-        "fingerprint": "creative lead - professional shoots & quality editing|growth yogi|gurugram",
-        "date": "2026-04-07T12:50:23.308762"
-    },
-    {
-        "id": "bc7cc4e67254d30ad33f68a6d07a9a95",
-        "fingerprint": "lead sdet - revex|highlevel|noida",
-        "date": "2026-04-07T12:50:23.308765"
-    },
-    {
-        "id": "9370f20d217e93c29d6f26a1a1383dbb",
-        "fingerprint": "qa lead (magento/shopify)|magneto it solutions|ahmedabad",
-        "date": "2026-04-07T12:50:23.308768"
-    },
-    {
-        "id": "e488a0e2850cd4ac4014fa8d7916336e",
-        "fingerprint": "eop o9 global test lead|mondel\u0113z international|mumbai",
-        "date": "2026-04-07T12:50:23.308770"
-    },
-    {
-        "id": "3a9edc61d050c3ef886df3e8a3667e63",
-        "fingerprint": "test manager|worldline|pune",
-        "date": "2026-04-07T19:50:19.981518"
-    },
-    {
-        "id": "f85b15d27c1c8d28809a30d79ccfb640",
-        "fingerprint": "head - automation cabinets - manufacturing operations|siemens|mumbai",
-        "date": "2026-04-07T19:50:19.981532"
-    },
-    {
         "id": "73c399c053b24d24ed8f60e304ecf69d",
         "fingerprint": "senior manager quality engineering|optum india|hyderabad",
         "date": "2026-04-07T19:50:19.981534"
@@ -24998,5 +24948,55 @@
         "id": "214eef9f54c3fabf71244837c946ae93",
         "fingerprint": "qa architect|infobeans|remote",
         "date": "2026-09-25T11:35:22.744535"
+    },
+    {
+        "id": "5a6c597f27acd06469b800789e2dcab7",
+        "fingerprint": "quality assurance lead|fulcrum digital inc|pune",
+        "date": "2026-09-25T16:35:27.883040"
+    },
+    {
+        "id": "85dd3914bf1475456cdf5a643d4a5513",
+        "fingerprint": "principal solution test engineer 10383 - layer2/layer3 protocol testing- python |data center networking|extreme networks|bengaluru",
+        "date": "2026-09-25T16:35:27.883056"
+    },
+    {
+        "id": "89e2f0463a58cc4dec4555d5e73e3254",
+        "fingerprint": "lead i - sap functional testing|ust|bengaluru",
+        "date": "2026-09-25T16:35:27.883059"
+    },
+    {
+        "id": "3bdb319b5f1f91ce3dc0e27c6e7b7e58",
+        "fingerprint": "senior project quality & compliance manager \u2013ev|flipspaces|mumbai",
+        "date": "2026-09-25T16:35:27.883061"
+    },
+    {
+        "id": "6e316d6d047dd7e4e675f0e4cc63ec29",
+        "fingerprint": "test architect \u2013 agentic ai & quality engineering|career path solutions pvt. ltd.|hyderabad",
+        "date": "2026-09-25T16:35:27.883064"
+    },
+    {
+        "id": "11bd708a8ce0ea89a1fcaa9e21f07ec4",
+        "fingerprint": "verification & validation lead || robotics || automation || gurugram|ksa inc|gurugram",
+        "date": "2026-09-25T16:35:27.883066"
+    },
+    {
+        "id": "fa8a5a9c1216f86815e3329a03e6d8bb",
+        "fingerprint": "sdet - lead|iris software inc.|noida",
+        "date": "2026-09-25T16:35:27.883069"
+    },
+    {
+        "id": "000b323c180dcd30aa4b37a55951b7f9",
+        "fingerprint": "engineering manager -embedded automation testing|saaki argus and averil consulting|remote",
+        "date": "2026-09-25T16:35:27.883071"
+    },
+    {
+        "id": "0439a29a6717f5732b2254eb2ec77c8a",
+        "fingerprint": "senior engineering manager, sdet  - okta identity governance (oig)|okta",
+        "date": "2026-09-25T16:35:27.883073"
+    },
+    {
+        "id": "4b77c26bcda25a5b22b20301848c6f7b",
+        "fingerprint": "global test development and automation manager|\u6167\u4fe1\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8|remote",
+        "date": "2026-09-25T16:35:27.883076"
     }
 ]
