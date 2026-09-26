@@ -1,15 +1,5 @@
 [
     {
-        "id": "93f6051bacc897863dfa2680aa43db1a",
-        "fingerprint": "engineering manager - qa|youtrip|chennai",
-        "date": "2026-04-08T06:50:07.803747"
-    },
-    {
-        "id": "943ea80c9c72536a65f17a0640aab288",
-        "fingerprint": "site quality lead bim|name",
-        "date": "2026-04-08T06:50:07.803749"
-    },
-    {
         "id": "88b09daa178836ba888cf7ed05397eac",
         "fingerprint": "test architect l1|wipro|pune",
         "date": "2026-04-08T12:50:21.404193"
@@ -24998,5 +24988,15 @@
         "id": "530c9e8fbdfcda8de9aa6ee9f1189d99",
         "fingerprint": "director \u2013 qa & testing (p&c insurtech)|crystal peak|gurugram",
         "date": "2026-09-26T11:34:58.140444"
+    },
+    {
+        "id": "9d6abd13484a378615b3a4839d3940e5",
+        "fingerprint": "automation lead l1|wipro|chennai",
+        "date": "2026-09-26T16:35:12.357808"
+    },
+    {
+        "id": "19af00ec714a0041e4a1e822cb6b5a0c",
+        "fingerprint": "qa head (osd)|sun pharma|remote",
+        "date": "2026-09-26T16:35:12.357825"
     }
 ]
