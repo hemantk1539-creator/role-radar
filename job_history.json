@@ -1,15 +1,5 @@
 [
     {
-        "id": "3e94ff657b05b03c5ac2497eb5240827",
-        "fingerprint": "lead software engineer - automation testing &  java coding|mastercard|pune",
-        "date": "2026-04-08T06:50:07.803728"
-    },
-    {
-        "id": "40138b447933b679d9fab5f3acdfe048",
-        "fingerprint": "medical quality - head|stemz healthcare|chennai",
-        "date": "2026-04-08T06:50:07.803744"
-    },
-    {
         "id": "93f6051bacc897863dfa2680aa43db1a",
         "fingerprint": "engineering manager - qa|youtrip|chennai",
         "date": "2026-04-08T06:50:07.803747"
@@ -24998,5 +24988,15 @@
         "id": "fe94814c4b17e93fc304d7a168b9fdb9",
         "fingerprint": "director, global quality|weber blackstone|remote",
         "date": "2026-09-26T06:05:41.030955"
+    },
+    {
+        "id": "e1801187fca8c3deef0e48523d1c18cf",
+        "fingerprint": "test architect l1|wipro|hyderabad",
+        "date": "2026-09-26T11:34:58.140428"
+    },
+    {
+        "id": "530c9e8fbdfcda8de9aa6ee9f1189d99",
+        "fingerprint": "director \u2013 qa & testing (p&c insurtech)|crystal peak|gurugram",
+        "date": "2026-09-26T11:34:58.140444"
     }
 ]
