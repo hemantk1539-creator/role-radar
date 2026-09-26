@@ -1,40 +1,5 @@
 [
     {
-        "id": "73c399c053b24d24ed8f60e304ecf69d",
-        "fingerprint": "senior manager quality engineering|optum india|hyderabad",
-        "date": "2026-04-07T19:50:19.981534"
-    },
-    {
-        "id": "d44f0b37e6aa01dfff8d3b83c17197f9",
-        "fingerprint": "quality automation manager, utr tech in last mile|amazon|gurugram",
-        "date": "2026-04-07T19:50:19.981536"
-    },
-    {
-        "id": "36f07858509885309b377a93be922351",
-        "fingerprint": "senior manager, quality assurance|amneal pharmaceuticals|ahmedabad",
-        "date": "2026-04-07T19:50:19.981538"
-    },
-    {
-        "id": "f5b35e6f1c2a92aae240980ce2a6e286",
-        "fingerprint": "python automation lead|kumaran systems|chennai",
-        "date": "2026-04-07T19:50:19.981540"
-    },
-    {
-        "id": "90fa4e2e5cc1c7cb2ddc820f4c767173",
-        "fingerprint": "global billing operations - client set-up - senior manager|state street|bengaluru",
-        "date": "2026-04-07T19:50:19.981542"
-    },
-    {
-        "id": "18bd556917ba1624b8f8a352b73e83aa",
-        "fingerprint": "global billing operations - client set - up - manager|state street|bengaluru",
-        "date": "2026-04-07T19:50:19.981544"
-    },
-    {
-        "id": "4412089b0b524ce81eb2ef205cd27a4c",
-        "fingerprint": "global billing operations - client set-up - manager|state street|bengaluru",
-        "date": "2026-04-07T19:50:19.981546"
-    },
-    {
         "id": "3e94ff657b05b03c5ac2497eb5240827",
         "fingerprint": "lead software engineer - automation testing &  java coding|mastercard|pune",
         "date": "2026-04-08T06:50:07.803728"
@@ -24998,5 +24963,40 @@
         "id": "4b77c26bcda25a5b22b20301848c6f7b",
         "fingerprint": "global test development and automation manager|\u6167\u4fe1\u79d1\u6280\u80a1\u4efd\u6709\u9650\u516c\u53f8|remote",
         "date": "2026-09-25T16:35:27.883076"
+    },
+    {
+        "id": "857acb95e2d947eb9d11fc0f1c216b45",
+        "fingerprint": "senior staff software development engineer in test|kaseya|pune",
+        "date": "2026-09-26T06:05:41.030927"
+    },
+    {
+        "id": "bbb4c14025e81c3f7502f60bbe4a8b09",
+        "fingerprint": "staff software development engineer in test|kaseya|pune",
+        "date": "2026-09-26T06:05:41.030943"
+    },
+    {
+        "id": "f310df0900facc799bfeb96a448efe1e",
+        "fingerprint": "ind manager - quality|aon|gurugram",
+        "date": "2026-09-26T06:05:41.030946"
+    },
+    {
+        "id": "83ddb2e606d93079309d203e3b89be7e",
+        "fingerprint": "engineering manager - quality|booking holdings (nasdaq: bkng)|remote",
+        "date": "2026-09-26T06:05:41.030948"
+    },
+    {
+        "id": "e4d09f9b387359f5b3feaa61b0520b89",
+        "fingerprint": "qa manager|technoiogy@ia|remote",
+        "date": "2026-09-26T06:05:41.030951"
+    },
+    {
+        "id": "d3174283897a040bada16017f82316b1",
+        "fingerprint": "quality assurance manager 1|rsm us llp|remote",
+        "date": "2026-09-26T06:05:41.030953"
+    },
+    {
+        "id": "fe94814c4b17e93fc304d7a168b9fdb9",
+        "fingerprint": "director, global quality|weber blackstone|remote",
+        "date": "2026-09-26T06:05:41.030955"
     }
 ]
