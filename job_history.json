@@ -1,15 +1,5 @@
 [
     {
-        "id": "88b09daa178836ba888cf7ed05397eac",
-        "fingerprint": "test architect l1|wipro|pune",
-        "date": "2026-04-08T12:50:21.404193"
-    },
-    {
-        "id": "7ad61c0b8ed8ed795b31a33f342349ed",
-        "fingerprint": "qe manager - web service testing [t500-25123]|cibc india|hyderabad",
-        "date": "2026-04-08T12:50:21.404212"
-    },
-    {
         "id": "b9d9096d00ab3cfcd3ff56e9841b0ddb",
         "fingerprint": "manager, quality control|googleplex|gurugram",
         "date": "2026-04-08T12:50:21.404215"
@@ -24998,5 +24988,15 @@
         "id": "19af00ec714a0041e4a1e822cb6b5a0c",
         "fingerprint": "qa head (osd)|sun pharma|remote",
         "date": "2026-09-26T16:35:12.357825"
+    },
+    {
+        "id": "4406cd8a0fa90727c53cdba03aaeb77c",
+        "fingerprint": "automation lead l1|wipro|pune",
+        "date": "2026-09-27T06:05:43.387798"
+    },
+    {
+        "id": "b555bdec3b70eca402ad3db0cc9ab966",
+        "fingerprint": "test data management analyst - manager|pwc acceleration center india|remote",
+        "date": "2026-09-27T06:05:43.387813"
     }
 ]
