@@ -1,15 +1,5 @@
 [
     {
-        "id": "b9d9096d00ab3cfcd3ff56e9841b0ddb",
-        "fingerprint": "manager, quality control|googleplex|gurugram",
-        "date": "2026-04-08T12:50:21.404215"
-    },
-    {
-        "id": "f67e0db1c0f950a31e84cf67aa15ff0c",
-        "fingerprint": "lead quality management|softwareone|gurugram",
-        "date": "2026-04-08T12:50:21.404218"
-    },
-    {
         "id": "5f87d1ef284d70e3a462ec0c65556252",
         "fingerprint": "project quality manager|hitachi energy|noida",
         "date": "2026-04-08T12:50:21.404221"
@@ -24998,5 +24988,15 @@
         "id": "b555bdec3b70eca402ad3db0cc9ab966",
         "fingerprint": "test data management analyst - manager|pwc acceleration center india|remote",
         "date": "2026-09-27T06:05:43.387813"
+    },
+    {
+        "id": "a6dd738b1cca924e5e5d1e9966df447d",
+        "fingerprint": "sr. automation lead\u2013enterprise service workflow (servicenow)|lseg|bengaluru",
+        "date": "2026-09-27T11:35:37.642542"
+    },
+    {
+        "id": "30b169b17c45f14c7b7b376641290efc",
+        "fingerprint": "senior ate test lead | teradyne j750|texas instruments|bengaluru",
+        "date": "2026-09-27T11:35:37.642558"
     }
 ]
