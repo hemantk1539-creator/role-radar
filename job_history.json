@@ -1,80 +1,5 @@
 [
     {
-        "id": "39680db40d8845f208037caa4e8d5d43",
-        "fingerprint": "quality engineering manager [t500-25153]|cibc india|hyderabad",
-        "date": "2026-04-09T12:49:55.827449"
-    },
-    {
-        "id": "303de040679c4f0861c74de4a7dd5f2b",
-        "fingerprint": "implementation functional test lead - senior manager|state street|hyderabad",
-        "date": "2026-04-09T12:49:55.827452"
-    },
-    {
-        "id": "5c68c59d951f5d4a90771a451bd9cd1a",
-        "fingerprint": "solution architect \u2013 ai & intelligent automation|hcltech|gurugram",
-        "date": "2026-04-09T12:49:55.827454"
-    },
-    {
-        "id": "948fcbe9807ffdda3e31d832bee2434f",
-        "fingerprint": "head of quality assurance (cto -1) bfsi sector|datavruti|chennai",
-        "date": "2026-04-09T12:49:55.827456"
-    },
-    {
-        "id": "816346ec7b576423d37170a0307322ba",
-        "fingerprint": "director, supplier and manufacturing quality|peloton",
-        "date": "2026-04-09T12:49:55.827458"
-    },
-    {
-        "id": "c7304e3e62bdbd2305ea24321c553cd6",
-        "fingerprint": "head \u2013 quality, automation & delivery excellence|network intelligence|mumbai",
-        "date": "2026-04-09T19:49:57.720975"
-    },
-    {
-        "id": "6644f36e6380e66516864320f830f404",
-        "fingerprint": "manager, manufacturing automation lead|msd|hyderabad",
-        "date": "2026-04-09T19:49:57.720990"
-    },
-    {
-        "id": "6a9e0ec536643353b0fb1cc42d985133",
-        "fingerprint": "director of quality|jw marriott|gurugram",
-        "date": "2026-04-09T19:49:57.720993"
-    },
-    {
-        "id": "d88b81eb977eeaa8fdf202a0672f454e",
-        "fingerprint": "general manager quality|dynatech controls p ltd|gurugram",
-        "date": "2026-04-09T19:49:57.720996"
-    },
-    {
-        "id": "1e636b3ca5d8764656c8c336f46d3e43",
-        "fingerprint": "vice president -senior testing manager|citi|chennai",
-        "date": "2026-04-09T19:49:57.720999"
-    },
-    {
-        "id": "0a16d5fe332d71c1710b11a8f7f8c596",
-        "fingerprint": "site quality manager|larsen & toubro|remote",
-        "date": "2026-04-09T19:49:57.721001"
-    },
-    {
-        "id": "c20dde21a390d8801d00c49bca58a6b6",
-        "fingerprint": "senior cloud architect - automation|name",
-        "date": "2026-04-09T19:49:57.721004"
-    },
-    {
-        "id": "d73a4fe896a73f715ffe8dfff77f2e3c",
-        "fingerprint": "qa test lead|persistent systems|pune",
-        "date": "2026-04-10T06:50:11.033981"
-    },
-    {
-        "id": "acf773fb62f8666a09abbdceb58c86c2",
-        "fingerprint": "qa lead - testing|bristlecone|pune",
-        "date": "2026-04-10T06:50:11.033998"
-    },
-    {
-        "id": "f19245716696c2cb1b0f840fa1913141",
-        "fingerprint": "sr. product manager (data integrations | ai automation | payments / dispute management) (6-10 years)|visa|bengaluru",
-        "date": "2026-04-10T06:50:11.034001"
-    },
-    {
         "id": "e1a00a421c51145b3e7b4be6d6a94eee",
         "fingerprint": "manager corporate quality|inventia healthcare limited|mumbai",
         "date": "2026-04-10T06:50:11.034004"
@@ -24998,5 +24923,80 @@
         "id": "a70a5342310390390d8c602d16e12730",
         "fingerprint": "global head of quality partnerships & networks|galderma|remote",
         "date": "2026-09-28T11:35:21.841222"
+    },
+    {
+        "id": "97b841221af89aa71680350e095a6a03",
+        "fingerprint": "automation architect|qualityai|bengaluru",
+        "date": "2026-09-28T16:35:26.899050"
+    },
+    {
+        "id": "a5b4d6087634d4ead151f4d330344729",
+        "fingerprint": "principal information security engineer - iam (quality assurance)|first citizens india|bengaluru",
+        "date": "2026-09-28T16:35:26.899065"
+    },
+    {
+        "id": "592dc0ab76ed169c866f5e77cb706815",
+        "fingerprint": "lead ii - software testing (performance testing+aws+ loadrunner)|ust|bengaluru",
+        "date": "2026-09-28T16:35:26.899068"
+    },
+    {
+        "id": "bd1d0e5e632ea1a0d1ab960abf756329",
+        "fingerprint": "project lead - qa|mphasis|bengaluru",
+        "date": "2026-09-28T16:35:26.899071"
+    },
+    {
+        "id": "e04e7a2fb8a3b826cc770748dcdadd0c",
+        "fingerprint": "etl test lead|synechron|pune",
+        "date": "2026-09-28T16:35:26.899073"
+    },
+    {
+        "id": "ef79f004e3eadd25c5cd2f23601816fa",
+        "fingerprint": "senior test analyst/lead test analyst (automation, playwright, appium)|nec software solutions (india)|mumbai",
+        "date": "2026-09-28T16:35:26.899076"
+    },
+    {
+        "id": "cebb4a8a2de7373c2465ff1bef3387f6",
+        "fingerprint": "lead : clinical quality assurance (fsp)|tech observer|mumbai",
+        "date": "2026-09-28T16:35:26.899079"
+    },
+    {
+        "id": "e954fa24e199c5375288939bb08fc1dc",
+        "fingerprint": "director, product management ai quality & evaluation|factset|hyderabad",
+        "date": "2026-09-28T16:35:26.899081"
+    },
+    {
+        "id": "4dd93aa5009dbc936ed32f55258459f7",
+        "fingerprint": "qa lead|osi digital|hyderabad",
+        "date": "2026-09-28T16:35:26.899083"
+    },
+    {
+        "id": "b48b279c95a521d53da9ff4a16647d16",
+        "fingerprint": "quality assurance manager|wipro|hyderabad",
+        "date": "2026-09-28T16:35:26.899085"
+    },
+    {
+        "id": "ec4ba9229f61952edfb66da5f1bb46f9",
+        "fingerprint": "group lead-quality|ameriprise financial services, llc|gurugram",
+        "date": "2026-09-28T16:35:26.899088"
+    },
+    {
+        "id": "db8d67f92dbe1e8d60ab22fe4734349d",
+        "fingerprint": "head of cloud engineering & automation|hiresquad resources|gurugram",
+        "date": "2026-09-28T16:35:26.899090"
+    },
+    {
+        "id": "0ac566ad105b5cd02cfb4fc6c6eab557",
+        "fingerprint": "manager vehicle nvh test/ppc|renault nissan technology & business centre india|chennai",
+        "date": "2026-09-28T16:35:26.899092"
+    },
+    {
+        "id": "b6bf5cdb42b411870df1dc4e99ad46e9",
+        "fingerprint": "qa lead - global ad technology supervisory department (gatd)|rakuten|remote",
+        "date": "2026-09-28T16:35:26.899095"
+    },
+    {
+        "id": "d07655fbb71c94ac41695c89ee6468d5",
+        "fingerprint": "assistant manager - functional senior tester/ test lead - sepa payments|bnp paribas|chennai",
+        "date": "2026-09-28T16:35:26.899097"
     }
 ]
