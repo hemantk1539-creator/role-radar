@@ -1,90 +1,5 @@
 [
     {
-        "id": "88a2c37ce6149ee4048c238dd882a10a",
-        "fingerprint": "quality assurance manager|l\u00e0 fuori|gurugram",
-        "date": "2026-04-08T19:50:36.371453"
-    },
-    {
-        "id": "3b2bfa96d61c4090312cb654d89690d3",
-        "fingerprint": "quality engineering & ai transformation lead, aladdin engineering, director|blackrock|gurugram",
-        "date": "2026-04-08T19:50:36.371455"
-    },
-    {
-        "id": "aadd12841e7fbb3d66f90dc14237521f",
-        "fingerprint": "staff software engineer in test, pam |okta",
-        "date": "2026-04-08T19:50:36.371457"
-    },
-    {
-        "id": "02cee022b90a742e64fd996d98520a57",
-        "fingerprint": "quality assurance manager \u2013 leading global consultancy - j12675|pinpoint asia|remote",
-        "date": "2026-04-08T19:50:36.371459"
-    },
-    {
-        "id": "1827c9b033e3692bfd9de9c824515b9e",
-        "fingerprint": "director quality & vps|volvo group|bengaluru",
-        "date": "2026-04-09T06:49:58.754870"
-    },
-    {
-        "id": "a7fe2e0e6d6885668350d0c67237d32c",
-        "fingerprint": "enterprise quality assurance lead|unilever|bengaluru",
-        "date": "2026-04-09T06:49:58.754886"
-    },
-    {
-        "id": "84f54a4346f8366dccc0f732ffdab2c1",
-        "fingerprint": "quality manager|moog inc.|bengaluru",
-        "date": "2026-04-09T06:49:58.754889"
-    },
-    {
-        "id": "d914b2e3d12fe6d74db64a1438922776",
-        "fingerprint": "manager, quality assurance|lytx, inc.|bengaluru",
-        "date": "2026-04-09T06:49:58.754892"
-    },
-    {
-        "id": "a904a20b70890ac9c4ee9fc18d6e9f2f",
-        "fingerprint": "manager, technical quality (bengaluru, india)|figma",
-        "date": "2026-04-09T06:49:58.754894"
-    },
-    {
-        "id": "8f090e92c56d0e87c7f20b176a441f66",
-        "fingerprint": "technical qa manager|setoo|pune",
-        "date": "2026-04-09T12:49:55.827413"
-    },
-    {
-        "id": "9dc58e7e857f1dfdc2ba519d6f3df942",
-        "fingerprint": "manager - qa/qc|della resorts and adventure|pune",
-        "date": "2026-04-09T12:49:55.827428"
-    },
-    {
-        "id": "bf90fd179f84db61181fc5225a4e4adb",
-        "fingerprint": "quality assurance, monitoring & testing group manager - svp|citi|pune",
-        "date": "2026-04-09T12:49:55.827431"
-    },
-    {
-        "id": "7f40375c4fb89f28edb5b93a15ea9099",
-        "fingerprint": "automation testing- lead i - software testing|ust|pune",
-        "date": "2026-04-09T12:49:55.827433"
-    },
-    {
-        "id": "748e82daf70cc4a9431b490692275d5b",
-        "fingerprint": "clinical & quality manager|united hospital, bangalore|bengaluru",
-        "date": "2026-04-09T12:49:55.827435"
-    },
-    {
-        "id": "3129bdbf41a38a4fca7175f41a247dd3",
-        "fingerprint": "implementation functional test lead - senior manager|state street|bengaluru",
-        "date": "2026-04-09T12:49:55.827439"
-    },
-    {
-        "id": "0b70f5462dac8c5f07dde140d431f691",
-        "fingerprint": "lead executive - external manufacturing quality|apotex inc.|mumbai",
-        "date": "2026-04-09T12:49:55.827442"
-    },
-    {
-        "id": "7840abd703c2a9041a3282415cce26d1",
-        "fingerprint": "quality assurance manager|webmd|mumbai",
-        "date": "2026-04-09T12:49:55.827446"
-    },
-    {
         "id": "39680db40d8845f208037caa4e8d5d43",
         "fingerprint": "quality engineering manager [t500-25153]|cibc india|hyderabad",
         "date": "2026-04-09T12:49:55.827449"
@@ -24998,5 +24913,90 @@
         "id": "9dd322d0c7af9b4635667eb1032e915d",
         "fingerprint": "assistant quality manager|mphasis|bengaluru",
         "date": "2026-09-28T06:05:15.162568"
+    },
+    {
+        "id": "b84ca714677807ceea3e89751d57d6d4",
+        "fingerprint": "senior / principal qa automation engineer \u2013 ai implementations & enterprise solutions|latentbridge|pune",
+        "date": "2026-09-28T11:35:21.841167"
+    },
+    {
+        "id": "1816e043a4e3e90103d536ad2393020e",
+        "fingerprint": "sr qa/test delivery manager|birlasoft|bengaluru",
+        "date": "2026-09-28T11:35:21.841186"
+    },
+    {
+        "id": "2df18af7c99d228cbd25d57a32b8a544",
+        "fingerprint": "quality and continuous improvement program manager, youtube|google|bengaluru",
+        "date": "2026-09-28T11:35:21.841189"
+    },
+    {
+        "id": "b35b6f222d004e71e7268eda2020034d",
+        "fingerprint": "principal engineer, design for test (dft)|ayar labs|bengaluru",
+        "date": "2026-09-28T11:35:21.841191"
+    },
+    {
+        "id": "cbe915ad307dfcea9e88ebea78377ac9",
+        "fingerprint": "testing, commissioning & interface manager|siemens|bengaluru",
+        "date": "2026-09-28T11:35:21.841193"
+    },
+    {
+        "id": "c4c779a4971b5136ce80225c04ef4fac",
+        "fingerprint": "quality & testing lead|generali central life insurance|mumbai",
+        "date": "2026-09-28T11:35:21.841196"
+    },
+    {
+        "id": "a29af85743eb5155d59ad64c8fda73ed",
+        "fingerprint": "test manager micro finance los + test management for hyderabad. ( immediate joining)|qualitykiosk technologies|hyderabad",
+        "date": "2026-09-28T11:35:21.841198"
+    },
+    {
+        "id": "8798242e48883e54a1234dc0fb0eedbb",
+        "fingerprint": "sdet senior test lead|hcltech|hyderabad",
+        "date": "2026-09-28T11:35:21.841200"
+    },
+    {
+        "id": "228ac79221480b51ba083bc8630e63ad",
+        "fingerprint": "team lead - quality assurance engineer|hme solutions|hyderabad",
+        "date": "2026-09-28T11:35:21.841202"
+    },
+    {
+        "id": "50aa6980f3f17d2c3cd8e4e7174d9f51",
+        "fingerprint": "quality and continuous improvement program manager, youtube|google|hyderabad",
+        "date": "2026-09-28T11:35:21.841205"
+    },
+    {
+        "id": "99f92ce861a8e1e7c58bc1c5a80e1bd3",
+        "fingerprint": "sdet senior test lead|hcltech|gurugram",
+        "date": "2026-09-28T11:35:21.841207"
+    },
+    {
+        "id": "9a8e655c928fa31ca8af1f3c53f6057d",
+        "fingerprint": "quality assurance manager|proterial (india) private limited|gurugram",
+        "date": "2026-09-28T11:35:21.841209"
+    },
+    {
+        "id": "4be397d592e4bf5824f23e47ea97c7c1",
+        "fingerprint": "senior test manager|kumaran systems|chennai",
+        "date": "2026-09-28T11:35:21.841212"
+    },
+    {
+        "id": "a7e3e9e529cd4d995e95d258562b56c2",
+        "fingerprint": "senior quality manager \u2013 plastics compounding|chime polymers pvt ltd|chennai",
+        "date": "2026-09-28T11:35:21.841215"
+    },
+    {
+        "id": "9a1f95ca4a79cf49e56e804b2deebb8a",
+        "fingerprint": "automation team leader - shipping & logistics industry|live connections|chennai",
+        "date": "2026-09-28T11:35:21.841217"
+    },
+    {
+        "id": "6f2f641d9844e15690412c463e31205b",
+        "fingerprint": "senior delivery leader in banking qa + qe experience (uae region)|qualitykiosk technologies|remote",
+        "date": "2026-09-28T11:35:21.841220"
+    },
+    {
+        "id": "a70a5342310390390d8c602d16e12730",
+        "fingerprint": "global head of quality partnerships & networks|galderma|remote",
+        "date": "2026-09-28T11:35:21.841222"
     }
 ]
