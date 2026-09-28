@@ -1,25 +1,5 @@
 [
     {
-        "id": "5f87d1ef284d70e3a462ec0c65556252",
-        "fingerprint": "project quality manager|hitachi energy|noida",
-        "date": "2026-04-08T12:50:21.404221"
-    },
-    {
-        "id": "f754719a20cc1943017f686e0efb022c",
-        "fingerprint": "global quality manager|setonda laboratorio|remote",
-        "date": "2026-04-08T12:50:21.404223"
-    },
-    {
-        "id": "da0fdaf0c9bc8bbced7743a860be69c4",
-        "fingerprint": "clm data & quality manager|the adecco group|bengaluru",
-        "date": "2026-04-08T19:50:36.371438"
-    },
-    {
-        "id": "f2fae9ed2fe3fd0630dae73eefae42b1",
-        "fingerprint": "director of quality assurance|mco (mycomplianceoffice)|hyderabad",
-        "date": "2026-04-08T19:50:36.371451"
-    },
-    {
         "id": "88a2c37ce6149ee4048c238dd882a10a",
         "fingerprint": "quality assurance manager|l\u00e0 fuori|gurugram",
         "date": "2026-04-08T19:50:36.371453"
@@ -24998,5 +24978,25 @@
         "id": "30b169b17c45f14c7b7b376641290efc",
         "fingerprint": "senior ate test lead | teradyne j750|texas instruments|bengaluru",
         "date": "2026-09-27T11:35:37.642558"
+    },
+    {
+        "id": "5332e94ac6ba2ca1c35ee1286241f378",
+        "fingerprint": "staff software test architect|smiths detection|bengaluru",
+        "date": "2026-09-28T06:05:15.162545"
+    },
+    {
+        "id": "38b69bd3e06ab9393419a5b65f37e9e4",
+        "fingerprint": "test automation architect|last working day|pune",
+        "date": "2026-09-28T06:05:15.162563"
+    },
+    {
+        "id": "a909b4c2f5573c7ac7ef63abc79cfb14",
+        "fingerprint": "lead agentic & automation architect|infosys|hyderabad",
+        "date": "2026-09-28T06:05:15.162566"
+    },
+    {
+        "id": "9dd322d0c7af9b4635667eb1032e915d",
+        "fingerprint": "assistant quality manager|mphasis|bengaluru",
+        "date": "2026-09-28T06:05:15.162568"
     }
 ]
