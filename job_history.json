@@ -1,70 +1,5 @@
 [
     {
-        "id": "e1a00a421c51145b3e7b4be6d6a94eee",
-        "fingerprint": "manager corporate quality|inventia healthcare limited|mumbai",
-        "date": "2026-04-10T06:50:11.034004"
-    },
-    {
-        "id": "a5e9fd262137e09dc7b418fa435eb72a",
-        "fingerprint": "senior quality assurance manager , lm ( biosimilars )|sandoz india|hyderabad",
-        "date": "2026-04-10T06:50:11.034006"
-    },
-    {
-        "id": "fcbba081cbf5d7c3ef6c30f5af1bbdf6",
-        "fingerprint": "quality head- sitaram spinners pvt ltd(lycra exp compulsory)|sitaram spinners|hyderabad",
-        "date": "2026-04-10T06:50:11.034008"
-    },
-    {
-        "id": "2d6c582342319f3c2f7cd0e55a00717c",
-        "fingerprint": "quality assurance manager|indian chemical industries|ahmedabad",
-        "date": "2026-04-10T06:50:11.034010"
-    },
-    {
-        "id": "a41ca00986611a92a0ccfbf1646f31c9",
-        "fingerprint": "customer quality manager (m/f/d)|valeo|remote",
-        "date": "2026-04-10T06:50:11.034012"
-    },
-    {
-        "id": "28077cb06c4330923d2615dcf4e0f903",
-        "fingerprint": "it team lead (manufacturing and quality)|cummins india|pune",
-        "date": "2026-04-10T12:50:24.310153"
-    },
-    {
-        "id": "45ab5b352f6e2d9254ddf42d4b00bb67",
-        "fingerprint": "sr quality systems manager|minimed|pune",
-        "date": "2026-04-10T12:50:24.310168"
-    },
-    {
-        "id": "1f58bb9beba43b14848a02faed15fa44",
-        "fingerprint": "gmx-transformation architect - ai- automation -manager|ey|bengaluru",
-        "date": "2026-04-10T12:50:24.310171"
-    },
-    {
-        "id": "91c1175fda29159707a1066a91d16b7d",
-        "fingerprint": "head, testing centre of excellence|standard chartered india|bengaluru",
-        "date": "2026-04-10T12:50:24.310174"
-    },
-    {
-        "id": "03525cc10cd4b9a4922c8e44c6571c31",
-        "fingerprint": "automation engineering manager|omnissa|bengaluru",
-        "date": "2026-04-10T12:50:24.310176"
-    },
-    {
-        "id": "c20b5ebb9ecc04bef9c8e907ff38c3b1",
-        "fingerprint": "manager \u2013 quality assurance / quality control|the house of abhinandan lodha|mumbai",
-        "date": "2026-04-10T12:50:24.310178"
-    },
-    {
-        "id": "61feae5fa8b369cac398473c31f764e8",
-        "fingerprint": "manager - quality|godrej industries group|gurugram",
-        "date": "2026-04-10T12:50:24.310181"
-    },
-    {
-        "id": "9773cfb5a81dd0b0849fb8bb928243d7",
-        "fingerprint": "head-development quality assurance (dqa)|crystal crop protection limited|gurugram",
-        "date": "2026-04-10T12:50:24.310183"
-    },
-    {
         "id": "d56343235b6d8a5ee5ae1fe344168098",
         "fingerprint": "qa lead(manual) - loans & disbursement|kumaran systems|chennai",
         "date": "2026-04-10T12:50:24.310186"
@@ -24998,5 +24933,70 @@
         "id": "d07655fbb71c94ac41695c89ee6468d5",
         "fingerprint": "assistant manager - functional senior tester/ test lead - sepa payments|bnp paribas|chennai",
         "date": "2026-09-28T16:35:26.899097"
+    },
+    {
+        "id": "b76dd6663cba4b23c7d02523612bb0f5",
+        "fingerprint": "testing manager - document & notification testing|wns|bengaluru",
+        "date": "2026-09-29T06:06:06.026703"
+    },
+    {
+        "id": "58d71aeaca3fcda43f7e000b1c8510b1",
+        "fingerprint": "principal engineer, test automation,|baxter international inc.|bengaluru",
+        "date": "2026-09-29T06:06:06.026721"
+    },
+    {
+        "id": "d9e3d471aa10c482522eb177b83045e8",
+        "fingerprint": "quality & compliance head - packaged foods (manufacturing)|protein chef (lo foods)|bengaluru",
+        "date": "2026-09-29T06:06:06.026723"
+    },
+    {
+        "id": "2ab046b69455e8491758020b7616dab4",
+        "fingerprint": "senior quality engineering lead|optum india|bengaluru",
+        "date": "2026-09-29T06:06:06.026726"
+    },
+    {
+        "id": "42b81bbf2525f7451af8e77a320b46ca",
+        "fingerprint": "senior principal engineer - it quality & assurance testing|marsh|pune",
+        "date": "2026-09-29T06:06:06.026728"
+    },
+    {
+        "id": "6b50695a10baea1c1f5b8d96e56cce8a",
+        "fingerprint": "tools & testing manager|aceolution|hyderabad",
+        "date": "2026-09-29T06:06:06.026730"
+    },
+    {
+        "id": "bda229fe288e0f536af40f03e9937516",
+        "fingerprint": "senior principal enterprise software test engineer|medtronic|hyderabad",
+        "date": "2026-09-29T06:06:06.026732"
+    },
+    {
+        "id": "ad5dff35dcc1b9a52d95f9d26d79e866",
+        "fingerprint": "senior software engineering lead - react ui automation|optum india|hyderabad",
+        "date": "2026-09-29T06:06:06.026734"
+    },
+    {
+        "id": "43603d863447c29b5a9a4a974803cc33",
+        "fingerprint": "senior software engineering lead - .net, automation|optum india|gurugram",
+        "date": "2026-09-29T06:06:06.026736"
+    },
+    {
+        "id": "09b4325cf46e534665e7e9ed42845cb5",
+        "fingerprint": "senior principal engineer - it quality & assurance testing|marsh|noida",
+        "date": "2026-09-29T06:06:06.026738"
+    },
+    {
+        "id": "2a858a4181e460a72f7c22c36bda308f",
+        "fingerprint": "lead analyst - mainframe qe lead - 2|cgi|chennai",
+        "date": "2026-09-29T06:06:06.026741"
+    },
+    {
+        "id": "8a02183319d21056d81057272940e27d",
+        "fingerprint": "deputy manager-qc (vaccine-product testing)|zydus group|ahmedabad",
+        "date": "2026-09-29T06:06:06.026743"
+    },
+    {
+        "id": "4c5413bad4a5405fb05651b7067dd28b",
+        "fingerprint": "global head of product engineering and quality, motion drive products (multiple locations)|abb|bengaluru",
+        "date": "2026-09-29T06:06:06.026745"
     }
 ]
