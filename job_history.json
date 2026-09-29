@@ -1,35 +1,5 @@
 [
     {
-        "id": "d56343235b6d8a5ee5ae1fe344168098",
-        "fingerprint": "qa lead(manual) - loans & disbursement|kumaran systems|chennai",
-        "date": "2026-04-10T12:50:24.310186"
-    },
-    {
-        "id": "c8db2a9f5218d7d6555889be2fde4457",
-        "fingerprint": "sr. manager- supplier quality management|schneider electric|chennai",
-        "date": "2026-04-10T12:50:24.310188"
-    },
-    {
-        "id": "b8d182eae748834045506cc4493acd8d",
-        "fingerprint": "coe - digital experience - ux research test lead|qualitest acq|chennai",
-        "date": "2026-04-10T12:50:24.310191"
-    },
-    {
-        "id": "f820421dc8027af3453a678344faefa1",
-        "fingerprint": "test architect|ltm|noida",
-        "date": "2026-04-10T12:50:24.310193"
-    },
-    {
-        "id": "c9ed02ab0e8d13ef0b5a882ee83a6a56",
-        "fingerprint": "operations director/ gm, shenzhen - global testing company|michael page|remote",
-        "date": "2026-04-10T12:50:24.310195"
-    },
-    {
-        "id": "312c38f1b5c92d627f973c8325e30478",
-        "fingerprint": "tech manager (performance testing)|nice|pune",
-        "date": "2026-04-10T19:49:55.646206"
-    },
-    {
         "id": "9599a972255d9a55baa0b3ffc94d87fe",
         "fingerprint": "mgr. quality|schaeffler|pune",
         "date": "2026-04-10T19:49:55.646223"
@@ -24998,5 +24968,35 @@
         "id": "4c5413bad4a5405fb05651b7067dd28b",
         "fingerprint": "global head of product engineering and quality, motion drive products (multiple locations)|abb|bengaluru",
         "date": "2026-09-29T06:06:06.026745"
+    },
+    {
+        "id": "6a76c6f3a55e2794301c3a57dd98e6bc",
+        "fingerprint": "senior qa test lead|persistent systems|pune",
+        "date": "2026-09-29T11:35:34.170006"
+    },
+    {
+        "id": "cf1aad81552727aaf7dabdd93c5ce8da",
+        "fingerprint": "staff quality engineer - sdet|onetrust|bengaluru",
+        "date": "2026-09-29T11:35:34.170031"
+    },
+    {
+        "id": "b63cf1c9411ac7c5e2c64ab8beac0b9a",
+        "fingerprint": "senior lead quality engineer - r01571973|brillio|bengaluru",
+        "date": "2026-09-29T11:35:34.170035"
+    },
+    {
+        "id": "0fee2fcb06ef5e458eb6c47ea91d5f8d",
+        "fingerprint": "senior lead quality engineer - r01571974|brillio|bengaluru",
+        "date": "2026-09-29T11:35:34.170037"
+    },
+    {
+        "id": "5d589adb7a7b4de14ae3d3f464c26c44",
+        "fingerprint": "senior test lead - software testing, appium, microsoft ui automation|hcltech|bengaluru",
+        "date": "2026-09-29T11:35:34.170041"
+    },
+    {
+        "id": "bdd687617288777e3707dfbfd1bc8783",
+        "fingerprint": "playwright automation - manager|deloitte|chennai",
+        "date": "2026-09-29T11:35:34.170044"
     }
 ]
