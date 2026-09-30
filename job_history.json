@@ -1,70 +1,5 @@
 [
     {
-        "id": "f3294d27af9c359a31c5f42007fe252f",
-        "fingerprint": "manager/sr. manager, clinical gcp quality assurance|rakuten medical, inc.",
-        "date": "2026-04-12T06:49:35.770003"
-    },
-    {
-        "id": "8431674638bece953ae77d70204de1a4",
-        "fingerprint": "lead sdet|sense|bengaluru",
-        "date": "2026-04-12T12:49:13.033327"
-    },
-    {
-        "id": "e6dd84f28226226a07b3fe8f64e1c47a",
-        "fingerprint": "plant quality head|riddhi corporate services limited|gurugram",
-        "date": "2026-04-12T12:49:13.033341"
-    },
-    {
-        "id": "a5b211087489d83c29a8dd4e219cc73c",
-        "fingerprint": "dws engineering automation lead|kyndryl india|gurugram",
-        "date": "2026-04-12T12:49:13.033343"
-    },
-    {
-        "id": "61a9d0b82bd515dd218f3e1e51963beb",
-        "fingerprint": "quality control laboratory manager|intracin pharmaceutical pvt ltd|ahmedabad",
-        "date": "2026-04-12T12:49:13.033345"
-    },
-    {
-        "id": "b8f238b1a8d94a079ee0186de559caf4",
-        "fingerprint": "plant quality head|riddhi corporate services limited|noida",
-        "date": "2026-04-12T12:49:13.033347"
-    },
-    {
-        "id": "2b57e825b0a3e84b6bf94a60fd39e35c",
-        "fingerprint": "lead software development engineer in test|caizin|pune",
-        "date": "2026-04-12T19:49:34.139570"
-    },
-    {
-        "id": "3306103a16630e5db4f52571287a29d4",
-        "fingerprint": "lead qa engineer|qualys|pune",
-        "date": "2026-04-12T19:49:34.139585"
-    },
-    {
-        "id": "71d6cf22410e3a4e5ab8e02d18a4329a",
-        "fingerprint": "manager, quality assurance|summit consulting services|hyderabad",
-        "date": "2026-04-12T19:49:34.139587"
-    },
-    {
-        "id": "90bd8e6c1100a1f1b118584b2a64fb08",
-        "fingerprint": "performance test lead|valgenesis|chennai",
-        "date": "2026-04-12T19:49:34.139589"
-    },
-    {
-        "id": "b9efbd4592a770b97637fea14eeb1fac",
-        "fingerprint": "quality manager - industrial control panel manufacturing - sriperumbudur sipcot|sanvi engineering and business consulting solutions|remote",
-        "date": "2026-04-12T19:49:34.139591"
-    },
-    {
-        "id": "4c9c90818b7033f10d73e347c240bc78",
-        "fingerprint": "product manager, global ar process excellence & automation, global accounts receivable|amazon|hyderabad",
-        "date": "2026-04-12T19:49:34.139593"
-    },
-    {
-        "id": "8bbb10a2e1869a1a6b4766882b43eef9",
-        "fingerprint": "quality director l global automotive manufacturer|adecco|remote",
-        "date": "2026-04-12T19:49:34.139595"
-    },
-    {
         "id": "823467630086f643d8c564a250ebe2df",
         "fingerprint": "manager - quality|grindwell norton ltd|bengaluru",
         "date": "2026-04-13T06:50:08.012879"
@@ -24998,5 +24933,70 @@
         "id": "e43699bd14ba9e3072f5114747a81a41",
         "fingerprint": "senior staff engineer, guest & host (host listings & quality)|airbnb",
         "date": "2026-09-30T06:05:24.995025"
+    },
+    {
+        "id": "730b48ba339e7d3156b646ba631e4d2b",
+        "fingerprint": "staff qa automation engineer (python)|tarana wireless|pune",
+        "date": "2026-09-30T11:35:17.870527"
+    },
+    {
+        "id": "b5cb96b1ac9de7db1c6ec40db8f07879",
+        "fingerprint": "staff sdet (big data & agentic ai)|securonix|pune",
+        "date": "2026-09-30T11:35:17.870543"
+    },
+    {
+        "id": "c665b518e31d873cfb7c10b67d6562a3",
+        "fingerprint": "embedded automation lead|neev|pune",
+        "date": "2026-09-30T11:35:17.870545"
+    },
+    {
+        "id": "4591caec3827d6a334680cb493775c03",
+        "fingerprint": "principal architect - test automation|harman india|bengaluru",
+        "date": "2026-09-30T11:35:17.870548"
+    },
+    {
+        "id": "a7a084757704957799b29dd4c910e78b",
+        "fingerprint": "manager of engineering - test data management|the standard india|bengaluru",
+        "date": "2026-09-30T11:35:17.870551"
+    },
+    {
+        "id": "f8e619dfc0b3f61ea2aae96c8725b16e",
+        "fingerprint": "group lead, data stewardship & quality|kraft heinz|bengaluru",
+        "date": "2026-09-30T11:35:17.870553"
+    },
+    {
+        "id": "0cdd37743a909f4ec4ff95a56f85d3f9",
+        "fingerprint": "lead quality assurance analyst|reva.ai|bengaluru",
+        "date": "2026-09-30T11:35:17.870555"
+    },
+    {
+        "id": "57130223c2c3964c797be13402552b6c",
+        "fingerprint": "automation test lead|birlasoft|hyderabad",
+        "date": "2026-09-30T11:35:17.870557"
+    },
+    {
+        "id": "6982041519cf41b54c8c4cb88a836099",
+        "fingerprint": "playwright automation lead|capgemini engineering|hyderabad",
+        "date": "2026-09-30T11:35:17.870560"
+    },
+    {
+        "id": "4c2ecbd526d1dd82b4883a49e1db56d6",
+        "fingerprint": "qa manager \u2013 defence & electronics production|matrix smart technologies pvt ltd|hyderabad",
+        "date": "2026-09-30T11:35:17.870563"
+    },
+    {
+        "id": "82182d1fd3385fdc442093291deea616",
+        "fingerprint": "master data management and data quality subject matter expert lead|vsd technologies pvt. ltd. - sap gold partner|ahmedabad",
+        "date": "2026-09-30T11:35:17.870566"
+    },
+    {
+        "id": "1d859a77752d6a6f6e87d8da1027b836",
+        "fingerprint": "senior manager - qa|harris global business services (gbs)|remote",
+        "date": "2026-09-30T11:35:17.870568"
+    },
+    {
+        "id": "a2bfadc5337a8e2be4da8efb1d4c9dff",
+        "fingerprint": "staff software development engineer in test|fivetran",
+        "date": "2026-09-30T11:35:17.870571"
     }
 ]
