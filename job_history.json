@@ -1,60 +1,5 @@
 [
     {
-        "id": "59fa4446ade492872342fd364185e0c3",
-        "fingerprint": "manager qa\u2013 csv computer system validation|yo hr consultancy|gurugram",
-        "date": "2026-04-11T12:49:54.269370"
-    },
-    {
-        "id": "eb4e0d4ca039349384bf448f74357bb3",
-        "fingerprint": "senior staff sdet engineer|fivetran",
-        "date": "2026-04-11T12:49:54.269390"
-    },
-    {
-        "id": "a99e4950bb359f172e267fb64fe2653e",
-        "fingerprint": "tech lead engineer, quality|icims|hyderabad",
-        "date": "2026-04-11T19:49:58.083496"
-    },
-    {
-        "id": "2ed18b7b797db21cfc4959c34db2de38",
-        "fingerprint": "lead cloud qa irc290789|globallogic|gurugram",
-        "date": "2026-04-11T19:49:58.083513"
-    },
-    {
-        "id": "a6c3f4dfde2453546208a0c1509a6f0b",
-        "fingerprint": "tech lead \u2013 automation solutions (power platform, k2) - husky (guindy, chennai)|husky technologies|chennai",
-        "date": "2026-04-11T19:49:58.083516"
-    },
-    {
-        "id": "3e8dc0b1b5529541ebd1d266d23d23bd",
-        "fingerprint": "lead testing engineer - mechanical m/f (h/f) - safran electronics & defense services india|aerocontact|bengaluru",
-        "date": "2026-04-12T06:49:35.769971"
-    },
-    {
-        "id": "1a443d5617ab0307c1f54b4045fc42c1",
-        "fingerprint": "lead quality engineer - r01557793|brillio|bengaluru",
-        "date": "2026-04-12T06:49:35.769991"
-    },
-    {
-        "id": "5412f751988e0bef45804b90fa6fdd0c",
-        "fingerprint": "software technical lead engineer- qa|lam research|bengaluru",
-        "date": "2026-04-12T06:49:35.769995"
-    },
-    {
-        "id": "c8be9a8ac374fc662c2597e9553f1d3d",
-        "fingerprint": "technical lead - qe|dover india|bengaluru",
-        "date": "2026-04-12T06:49:35.769997"
-    },
-    {
-        "id": "5ff0acdcf29da1ef410e34c2ea13226b",
-        "fingerprint": "senior project manager home automation|shine.com|chennai",
-        "date": "2026-04-12T06:49:35.769999"
-    },
-    {
-        "id": "4d5e771ee429ee95de4f60123ab5e8b4",
-        "fingerprint": "fleet management system lead / manager (logistics & warehouse automation)|alphadroid|chennai",
-        "date": "2026-04-12T06:49:35.770001"
-    },
-    {
         "id": "f3294d27af9c359a31c5f42007fe252f",
         "fingerprint": "manager/sr. manager, clinical gcp quality assurance|rakuten medical, inc.",
         "date": "2026-04-12T06:49:35.770003"
@@ -24998,5 +24943,60 @@
         "id": "a87293bae15fe79bcbaccf36a033f58a",
         "fingerprint": "global director quality - plates (m/f/d)|xsys global|remote",
         "date": "2026-09-29T16:35:42.980877"
+    },
+    {
+        "id": "df887abaa25b0b82a18be9c534d1778e",
+        "fingerprint": "director of quality assurance|whiteslips job management consultants|pune",
+        "date": "2026-09-30T06:05:24.994988"
+    },
+    {
+        "id": "b7f69d405ed40445293fe5d193b48b69",
+        "fingerprint": "head \u2013 quality management systems (qms)|klug avalon mechatronics private limited|pune",
+        "date": "2026-09-30T06:05:24.995006"
+    },
+    {
+        "id": "988d2fb1dfc749643599ad265e2a4eb0",
+        "fingerprint": "senior manager- quality (ecommerce)|impetus career consultants|pune",
+        "date": "2026-09-30T06:05:24.995009"
+    },
+    {
+        "id": "9ff038c304ff4dfb991ea38d41e6c976",
+        "fingerprint": "lead qa engineer|siemens energy|pune",
+        "date": "2026-09-30T06:05:24.995011"
+    },
+    {
+        "id": "1ae54c5472e0157a703679a0f1c33154",
+        "fingerprint": "lead software engineer- powershell automation|cgi|bengaluru",
+        "date": "2026-09-30T06:05:24.995013"
+    },
+    {
+        "id": "af4577ec2fd669d1bef433c24401d63f",
+        "fingerprint": "senior manager - compliance testing|slice|bengaluru",
+        "date": "2026-09-30T06:05:24.995015"
+    },
+    {
+        "id": "a788cca5bd9ac5fbe0a3b13eda33a875",
+        "fingerprint": "quality assurance manager - accounting & finance|aspire for her|gurugram",
+        "date": "2026-09-30T06:05:24.995017"
+    },
+    {
+        "id": "4a98136b95af858d71b9c222bc8ecaa7",
+        "fingerprint": "manager, test automation - tax|standard chartered india|chennai",
+        "date": "2026-09-30T06:05:24.995019"
+    },
+    {
+        "id": "f4a9fa282b0db1c3d0bd2c98f573a2d1",
+        "fingerprint": "principal engineer, test automation,|baxter international inc.|remote",
+        "date": "2026-09-30T06:05:24.995021"
+    },
+    {
+        "id": "a2bf2ff31f508c531ff7044d15f4e0ae",
+        "fingerprint": "engineering manager, guest & host (host listings & quality)|airbnb",
+        "date": "2026-09-30T06:05:24.995023"
+    },
+    {
+        "id": "e43699bd14ba9e3072f5114747a81a41",
+        "fingerprint": "senior staff engineer, guest & host (host listings & quality)|airbnb",
+        "date": "2026-09-30T06:05:24.995025"
     }
 ]
