@@ -1,60 +1,5 @@
 [
     {
-        "id": "d8b797b9300c274c076fb7cff67db092",
-        "fingerprint": "quality manager, amazon now, india|amazon|noida",
-        "date": "2026-04-14T06:49:42.684159"
-    },
-    {
-        "id": "6f38860b94e651ba3764368b4d7aac36",
-        "fingerprint": "testing lead (function & automation) - capital markets (only immediate joiner accepted)|luxoft india|noida",
-        "date": "2026-04-14T06:49:42.684161"
-    },
-    {
-        "id": "268fbfbaefc405b587835349e776e168",
-        "fingerprint": "group manager - quality( ptp/rtr/o2c) - chennai|wns|chennai",
-        "date": "2026-04-14T06:49:42.684164"
-    },
-    {
-        "id": "65ac84d7b11aeb5ca5e1171b669a83d3",
-        "fingerprint": "manager - supplier quality|enzene biosciences ltd|pune",
-        "date": "2026-04-14T12:49:49.332900"
-    },
-    {
-        "id": "333ae5979afc7c81f0cade3d1575fe45",
-        "fingerprint": "senior manager \u2013 new product development & quality|swiggy|bengaluru",
-        "date": "2026-04-14T12:49:49.332920"
-    },
-    {
-        "id": "388d15632df1878290daeebf82fd1c91",
-        "fingerprint": "team manager, rcm quality and outcome improvement|modmed india|hyderabad",
-        "date": "2026-04-14T12:49:49.332923"
-    },
-    {
-        "id": "eb5ed9499c8b52ebe1359f341a11fdcf",
-        "fingerprint": "training and quality manager|detailing bull|gurugram",
-        "date": "2026-04-14T12:49:49.332925"
-    },
-    {
-        "id": "67722ef57752113afb12c5100400667a",
-        "fingerprint": "sr manager engineering, qa performance|anaplan|gurugram",
-        "date": "2026-04-14T12:49:49.332927"
-    },
-    {
-        "id": "b5ce69a562c2ea2d510f269113fb55a4",
-        "fingerprint": "qa lead|brainvire|ahmedabad",
-        "date": "2026-04-14T12:49:49.332930"
-    },
-    {
-        "id": "fa289ea18e7dc38f6770941d80aad78a",
-        "fingerprint": "dept head \u2013 homologation & testing|xfactor talent|pune",
-        "date": "2026-04-14T19:50:17.880451"
-    },
-    {
-        "id": "512c3fb0f58dec5a0c195c1b0e088684",
-        "fingerprint": "automation lead|exl|bengaluru",
-        "date": "2026-04-14T19:50:17.880465"
-    },
-    {
         "id": "b6136d4ec1d36b3aedc19b5c600c3aff",
         "fingerprint": "data quality analytics and reporting lead analyst- vice president|citi|mumbai",
         "date": "2026-04-14T19:50:17.880468"
@@ -24998,5 +24943,60 @@
         "id": "e91826687e23288a7cdf3e80cb12e329",
         "fingerprint": "qa lead / senior automation test lead (ai global product)|el4 - software studio|remote",
         "date": "2026-10-01T06:05:39.935838"
+    },
+    {
+        "id": "0bfee645d68d605837409e283064f5ce",
+        "fingerprint": "lead ii - software testing|ust|bengaluru",
+        "date": "2026-10-01T11:35:08.042573"
+    },
+    {
+        "id": "840de3ac62d434ddaa86d980f51410a1",
+        "fingerprint": "lead test engineer|eurofins|bengaluru",
+        "date": "2026-10-01T11:35:08.042589"
+    },
+    {
+        "id": "0d67f3d3703570a1f9772db35a8ed99c",
+        "fingerprint": "sdet- playwright test lead|wipro|bengaluru",
+        "date": "2026-10-01T11:35:08.042592"
+    },
+    {
+        "id": "0b4fe6af3c70e13764881c1f28f764b1",
+        "fingerprint": "technical solution leader - test automation, architect|capgemini engineering|pune",
+        "date": "2026-10-01T11:35:08.042595"
+    },
+    {
+        "id": "aa6b9522ef440433f96ab8b931e21d4d",
+        "fingerprint": "senior qa technical lead - playwright|ptc|pune",
+        "date": "2026-10-01T11:35:08.042598"
+    },
+    {
+        "id": "e2ac342d538931eb104258276ad2a3c4",
+        "fingerprint": "edifecs - qa lead|simplify alpha\u2122|hyderabad",
+        "date": "2026-10-01T11:35:08.042600"
+    },
+    {
+        "id": "9055e26481326ae0d18aa2ecb773b4f5",
+        "fingerprint": "quality assurance manager|ten : book engine|gurugram",
+        "date": "2026-10-01T11:35:08.042603"
+    },
+    {
+        "id": "2ec3ded52676808e2b97d35c55c493b0",
+        "fingerprint": "head of quality engineering|comviva|noida",
+        "date": "2026-10-01T11:35:08.042605"
+    },
+    {
+        "id": "b8e1d074a8e27d4b1e73b3144d6adb63",
+        "fingerprint": "quality assurance engineer lead|lmteq|chennai",
+        "date": "2026-10-01T11:35:08.042608"
+    },
+    {
+        "id": "ac06fe7f2286f2f582a95b38fa46b479",
+        "fingerprint": "test lead \u2013 accessibility|rapidbrains|chennai",
+        "date": "2026-10-01T11:35:08.042610"
+    },
+    {
+        "id": "0986547203b0f2e7ee2b63fe6c5b5013",
+        "fingerprint": "assistant quality assurance manager|vishay intertechnology, inc.|pune",
+        "date": "2026-10-01T11:35:08.042613"
     }
 ]
