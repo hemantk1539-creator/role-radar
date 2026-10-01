@@ -1,70 +1,5 @@
 [
     {
-        "id": "b6136d4ec1d36b3aedc19b5c600c3aff",
-        "fingerprint": "data quality analytics and reporting lead analyst- vice president|citi|mumbai",
-        "date": "2026-04-14T19:50:17.880468"
-    },
-    {
-        "id": "b8fb466ccace509b79e7bbc2fbbc0c64",
-        "fingerprint": "senior technical program manager, ai orchestration and automation|google|hyderabad",
-        "date": "2026-04-14T19:50:17.880470"
-    },
-    {
-        "id": "8866fa14d0e9bd9eb4945581589d1411",
-        "fingerprint": "lead auto qa engineer|ss&c technologies|hyderabad",
-        "date": "2026-04-14T19:50:17.880472"
-    },
-    {
-        "id": "3fac453b41ebf2add56b70f315c3c449",
-        "fingerprint": "lead ai platform architect \u2013 workflows, automation & multi-tenant saas|isir ai|noida",
-        "date": "2026-04-14T19:50:17.880473"
-    },
-    {
-        "id": "d875d7ae32bde2229cf559ac41928b51",
-        "fingerprint": "director, global quality management systems|peloton",
-        "date": "2026-04-14T19:50:17.880475"
-    },
-    {
-        "id": "c2875dda07fae193020fa966fa0f9569",
-        "fingerprint": "director, global clinical operations quality management|parexel|hyderabad",
-        "date": "2026-04-14T19:50:17.880477"
-    },
-    {
-        "id": "1bb28dc515bbc570d17ca5a45d7a955b",
-        "fingerprint": "director, quality engineering & regulatory operations|velsera|pune",
-        "date": "2026-04-15T06:50:30.571939"
-    },
-    {
-        "id": "47925d7038cdfb72619df4248a3f183f",
-        "fingerprint": "mgr, business process automation|adobe|bengaluru",
-        "date": "2026-04-15T06:50:30.571958"
-    },
-    {
-        "id": "f75c0bb84b4dea735ceb92be890a7273",
-        "fingerprint": "quality manager - customer quality & warranty|aptiv|bengaluru",
-        "date": "2026-04-15T06:50:30.571961"
-    },
-    {
-        "id": "8002476deae36119fc47cfaf81a65354",
-        "fingerprint": "manager - quality|the house of abhinandan lodha|mumbai",
-        "date": "2026-04-15T06:50:30.571963"
-    },
-    {
-        "id": "4678b0ec236828cd2fcf2bce75bb0d00",
-        "fingerprint": "quality manager|future trends constructions & infrastructure llp|hyderabad",
-        "date": "2026-04-15T06:50:30.571966"
-    },
-    {
-        "id": "419e2b1354b75701c131f1ae7a8f4a67",
-        "fingerprint": "software quality engineering manager|medtronic|hyderabad",
-        "date": "2026-04-15T06:50:30.571968"
-    },
-    {
-        "id": "1993a5371627a9a5cfb75cef35d4402d",
-        "fingerprint": "qa automation - senior manager|iris software inc.|gurugram",
-        "date": "2026-04-15T06:50:30.571971"
-    },
-    {
         "id": "70653c719855a3d1b93fde751af3bcbe",
         "fingerprint": "qa lead|flight centre travel group|gurugram",
         "date": "2026-04-15T06:50:30.571973"
@@ -24998,5 +24933,70 @@
         "id": "0986547203b0f2e7ee2b63fe6c5b5013",
         "fingerprint": "assistant quality assurance manager|vishay intertechnology, inc.|pune",
         "date": "2026-10-01T11:35:08.042613"
+    },
+    {
+        "id": "7bc442efff83f5dbcc91217fda4e181a",
+        "fingerprint": "manager, software development engineering in test|kaseya|pune",
+        "date": "2026-10-01T16:35:08.288371"
+    },
+    {
+        "id": "00fe6cc17d3d5d24d76e25a4f440059a",
+        "fingerprint": "senior test lead - quality engineering|happiest minds technologies|bengaluru",
+        "date": "2026-10-01T16:35:08.288386"
+    },
+    {
+        "id": "54728f24d9462929eb6daad46cc3639a",
+        "fingerprint": "manager, quality assurance|amazon|bengaluru",
+        "date": "2026-10-01T16:35:08.288388"
+    },
+    {
+        "id": "af3eddca72bfd88cb7733f7d11ab0044",
+        "fingerprint": "sfdc test lead|infosys|bengaluru",
+        "date": "2026-10-01T16:35:08.288391"
+    },
+    {
+        "id": "ef2c808be31a6ec8e4079d62ff030450",
+        "fingerprint": "lead quality assurance engineer|epsilon|bengaluru",
+        "date": "2026-10-01T16:35:08.288393"
+    },
+    {
+        "id": "58a6057653563752bdd398ae6ad059c9",
+        "fingerprint": "lead xstore testing|valtech|bengaluru",
+        "date": "2026-10-01T16:35:08.288395"
+    },
+    {
+        "id": "e4ae2507a62a44c43f49478e59b00084",
+        "fingerprint": "qa/qc head|larsen & toubro|mumbai",
+        "date": "2026-10-01T16:35:08.288397"
+    },
+    {
+        "id": "5296f0112fd7240e1b608dcf7630d063",
+        "fingerprint": "architect i - software testing|ust|mumbai",
+        "date": "2026-10-01T16:35:08.288399"
+    },
+    {
+        "id": "1412dcfbe20588e342e357eeb95f5624",
+        "fingerprint": "qe lead [t500-29842]|cibc india|hyderabad",
+        "date": "2026-10-01T16:35:08.288401"
+    },
+    {
+        "id": "c873b16c71f5399a44e8308e03ffc73e",
+        "fingerprint": "testing coe head - bsfi industry - gurgaon based|michael page|gurugram",
+        "date": "2026-10-01T16:35:08.288403"
+    },
+    {
+        "id": "1dccbf453373ceb47c2822d597449881",
+        "fingerprint": "quality lead|indixpert|gurugram",
+        "date": "2026-10-01T16:35:08.288405"
+    },
+    {
+        "id": "accbae1dc8d1904e27a8cd36f1eb9f77",
+        "fingerprint": "streamone automation lead|td synnex|chennai",
+        "date": "2026-10-01T16:35:08.288407"
+    },
+    {
+        "id": "556cc612430c42f255eeb53975fa4869",
+        "fingerprint": "automation test lead|ford motor company|chennai",
+        "date": "2026-10-01T16:35:08.288409"
     }
 ]
