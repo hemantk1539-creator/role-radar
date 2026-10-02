@@ -1,105 +1,5 @@
 [
     {
-        "id": "70653c719855a3d1b93fde751af3bcbe",
-        "fingerprint": "qa lead|flight centre travel group|gurugram",
-        "date": "2026-04-15T06:50:30.571973"
-    },
-    {
-        "id": "ccbe8390e56b1da88937250cbd3b027b",
-        "fingerprint": "qe practice leader/ director|telus digital|noida",
-        "date": "2026-04-15T06:50:30.571975"
-    },
-    {
-        "id": "8c0e2feab37a888e71577996fb3145ae",
-        "fingerprint": "senior technical program manager, ai orchestration and automation|google|noida",
-        "date": "2026-04-15T06:50:30.571977"
-    },
-    {
-        "id": "3e3b67f4de439de463b70fdbc2dac95c",
-        "fingerprint": "biotech - general manager - corporate quality assurance|biotech healthcare|ahmedabad",
-        "date": "2026-04-15T06:50:30.571980"
-    },
-    {
-        "id": "d1f44eb247e3c34836735c3e2ec0f05b",
-        "fingerprint": "title\n            \n                \n                    senior manager - quality|air india, bangladesh|bengaluru",
-        "date": "2026-04-15T12:50:27.783539"
-    },
-    {
-        "id": "52d55c45b6e7c115dd8226b8c7ecda41",
-        "fingerprint": "process manager - automation|first citizens india|bengaluru",
-        "date": "2026-04-15T12:50:27.783558"
-    },
-    {
-        "id": "d96df60ec5293a827154b1c824790652",
-        "fingerprint": "snr quality manager|tenneco|pune",
-        "date": "2026-04-15T12:50:27.783563"
-    },
-    {
-        "id": "928c0e79bb5847566762640fa23d831b",
-        "fingerprint": "head qa qc|bradford consultants llp|mumbai",
-        "date": "2026-04-15T12:50:27.783567"
-    },
-    {
-        "id": "d1b9060a17dfc1195493f517ada337d3",
-        "fingerprint": "lead - quality assurance|adani airport holdings ltd|mumbai",
-        "date": "2026-04-15T12:50:27.783570"
-    },
-    {
-        "id": "e4343b8f391f77e6557f6129c6f2c25d",
-        "fingerprint": "civil / csa data center qa/qc team lead|fpc global|mumbai",
-        "date": "2026-04-15T12:50:27.783574"
-    },
-    {
-        "id": "18f662aaddc003b5ef7aafabd0d0bcb6",
-        "fingerprint": "lead ii, quality engineering|s&p global|hyderabad",
-        "date": "2026-04-15T12:50:27.783578"
-    },
-    {
-        "id": "7bb5e268e8d94d094dc7792743963eef",
-        "fingerprint": "lead / avp - testing (tcoe)|talent toppers|gurugram",
-        "date": "2026-04-15T12:50:27.783582"
-    },
-    {
-        "id": "f8de83bacaa4baf234aa112c7b78df17",
-        "fingerprint": "test lead|standard chartered india|chennai",
-        "date": "2026-04-15T12:50:27.783585"
-    },
-    {
-        "id": "7819cc293124acdf9776b5026445541e",
-        "fingerprint": "manager - qa/qc|newtrace|bengaluru",
-        "date": "2026-04-15T19:50:13.186212"
-    },
-    {
-        "id": "7ace76e7e0004821539363582b8f22ef",
-        "fingerprint": "quality and process excellence lead l2|wipro|bengaluru",
-        "date": "2026-04-15T19:50:13.186230"
-    },
-    {
-        "id": "83f9b2996711ab7ec7ac0d3b44c336da",
-        "fingerprint": "manager, software test engineering|shell recharge solutions|bengaluru",
-        "date": "2026-04-15T19:50:13.186233"
-    },
-    {
-        "id": "9e5a6753b565b14c42682cd33a93af95",
-        "fingerprint": "quality manager|ghaziabad precision products pvt. ltd.|gurugram",
-        "date": "2026-04-15T19:50:13.186235"
-    },
-    {
-        "id": "5971378f459a3c9831ee57f6cd01691d",
-        "fingerprint": "quality assurance lead|accenture services pvt ltd|gurugram",
-        "date": "2026-04-15T19:50:13.186237"
-    },
-    {
-        "id": "9793bb737ccff3d1b7a139bb007926dd",
-        "fingerprint": "manager / asst. manager - automation|larsen & toubro|chennai",
-        "date": "2026-04-15T19:50:13.186239"
-    },
-    {
-        "id": "1aa6d881c43969f741b2354c70629468",
-        "fingerprint": "head of quality control|nittan india tech pvt ltd|chennai",
-        "date": "2026-04-15T19:50:13.186242"
-    },
-    {
         "id": "93b7b4033ab45ce329432881fcc7b6e9",
         "fingerprint": "salesforce qa lead|virtusa|chennai",
         "date": "2026-04-15T19:50:13.186244"
@@ -24998,5 +24898,105 @@
         "id": "556cc612430c42f255eeb53975fa4869",
         "fingerprint": "automation test lead|ford motor company|chennai",
         "date": "2026-10-01T16:35:08.288409"
+    },
+    {
+        "id": "48d57f89a263058e377098068211b43e",
+        "fingerprint": "lead quality assurance engineer|phyllo|bengaluru",
+        "date": "2026-10-02T06:05:34.631835"
+    },
+    {
+        "id": "41626c8ee47254fc31e3217a5714926d",
+        "fingerprint": "tech lead - uipath - test suite job|yash technologies middle east|bengaluru",
+        "date": "2026-10-02T06:05:34.631849"
+    },
+    {
+        "id": "8d32511025969ae852bd41145f7fb976",
+        "fingerprint": "staff quality engineer \u2014 qira ai platform|lenovo|bengaluru",
+        "date": "2026-10-02T06:05:34.631852"
+    },
+    {
+        "id": "9d457939dac2595c0e9f87775f7ed49a",
+        "fingerprint": "test strategy & operations lead for regression testing - s/4e program|siemens energy|pune",
+        "date": "2026-10-02T06:05:34.631855"
+    },
+    {
+        "id": "b0b2326c5c1b20eeb4a2d8a6a7bfa5ff",
+        "fingerprint": "business consulting - qa lead financial services|ntt data north america|pune",
+        "date": "2026-10-02T06:05:34.631857"
+    },
+    {
+        "id": "2febf5280c1aa9566e2ff5f1d85e7312",
+        "fingerprint": "quality manager|airtrunk|mumbai",
+        "date": "2026-10-02T06:05:34.631860"
+    },
+    {
+        "id": "72b95eb9cdfee74c3ae787d82d588301",
+        "fingerprint": "sr mgr quality assurance- on site cmo manager|teva pharmaceuticals|mumbai",
+        "date": "2026-10-02T06:05:34.631862"
+    },
+    {
+        "id": "7d4fc5d848ed4dbd817318dfd6342102",
+        "fingerprint": "vp technology design governance automation lead|nomura|mumbai",
+        "date": "2026-10-02T06:05:34.631864"
+    },
+    {
+        "id": "a60058eee9a488736a9c95ca27793cb1",
+        "fingerprint": "sr technical lead-testing services|birlasoft|hyderabad",
+        "date": "2026-10-02T06:05:34.631867"
+    },
+    {
+        "id": "194f40452a42fa18b20e70720897024e",
+        "fingerprint": "technical lead-testing services|birlasoft|hyderabad",
+        "date": "2026-10-02T06:05:34.631870"
+    },
+    {
+        "id": "07154721cf9c5692003c7a7f9589aac6",
+        "fingerprint": "test strategy & operations lead for regression testing - s/4e program|siemens energy|gurugram",
+        "date": "2026-10-02T06:05:34.631872"
+    },
+    {
+        "id": "88a96d9808f1abad29b7e170489b8f8d",
+        "fingerprint": "qa - lead|iris software inc.|gurugram",
+        "date": "2026-10-02T06:05:34.631875"
+    },
+    {
+        "id": "3302f2335e5014a689cc1926468b38e2",
+        "fingerprint": "qa - lead|iris software inc.|noida",
+        "date": "2026-10-02T06:05:34.631877"
+    },
+    {
+        "id": "5d01521b09574dc285f84b89f01dc815",
+        "fingerprint": "lead engineer, quality assurance|transunion|chennai",
+        "date": "2026-10-02T06:05:34.631880"
+    },
+    {
+        "id": "7d1d69ec0c7836aff524978bd412f8ea",
+        "fingerprint": "qa - lead|iris software inc.|remote",
+        "date": "2026-10-02T06:05:34.631882"
+    },
+    {
+        "id": "1a355d6d1972ff34de6d9e3b750bf63b",
+        "fingerprint": "engineering manager ii, sdet|jobgether|remote",
+        "date": "2026-10-02T06:05:34.631885"
+    },
+    {
+        "id": "8be20c209fa92326c40fcf161f3d1d5f",
+        "fingerprint": "engineering manager ii, sdet|highlevel|remote",
+        "date": "2026-10-02T06:05:34.631887"
+    },
+    {
+        "id": "3b1a5d8d716705c4992d8c42d7f52978",
+        "fingerprint": "principal software quality engineer \u2014 distributed database|aerospike|bengaluru",
+        "date": "2026-10-02T06:05:34.631889"
+    },
+    {
+        "id": "3f4aa20ac4da86b7b1612c4801a4b7ce",
+        "fingerprint": "assistant manager / manager \u2013 quality assurance (qa)|hrv pharma|hyderabad",
+        "date": "2026-10-02T06:05:34.631892"
+    },
+    {
+        "id": "0589575883abfb32760d82b4a4974468",
+        "fingerprint": "assistant manager / manager \u2013 quality control (qc)|hrv pharma|hyderabad",
+        "date": "2026-10-02T06:05:34.631894"
     }
 ]
