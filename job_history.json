@@ -1,35 +1,5 @@
 [
     {
-        "id": "93b7b4033ab45ce329432881fcc7b6e9",
-        "fingerprint": "salesforce qa lead|virtusa|chennai",
-        "date": "2026-04-15T19:50:13.186244"
-    },
-    {
-        "id": "931cfdc41c6c74b60789f7997fcaa7c7",
-        "fingerprint": "general manager quality control|selective global search pvt. ltd.|remote",
-        "date": "2026-04-15T19:50:13.186246"
-    },
-    {
-        "id": "e10cbb5d82c67fc891c2e610afe8ba16",
-        "fingerprint": "assoc dir, engineering - data quality & master data management - hyderabad hybrid|syneos health|hyderabad",
-        "date": "2026-04-15T19:50:13.186248"
-    },
-    {
-        "id": "20e26079df3c006b31689a9b50a4e8e9",
-        "fingerprint": "quality control manager|senses pharmaceuticals lmited|bengaluru",
-        "date": "2026-04-16T06:50:01.377828"
-    },
-    {
-        "id": "65316df0272bd070fca1ad32d591cc7c",
-        "fingerprint": "test manager - vp|hackajob|pune",
-        "date": "2026-04-16T06:50:01.377849"
-    },
-    {
-        "id": "28ed4e6601c4fb3a0f62fa274b28c7d6",
-        "fingerprint": "qa manager|arrise solutions (india) pvt. ltd.|hyderabad",
-        "date": "2026-04-16T06:50:01.377852"
-    },
-    {
         "id": "d964015ee26eab04362905b515799264",
         "fingerprint": "qa manager \u2013 ai driven|stackular|hyderabad",
         "date": "2026-04-16T06:50:01.377855"
@@ -24998,5 +24968,35 @@
         "id": "0589575883abfb32760d82b4a4974468",
         "fingerprint": "assistant manager / manager \u2013 quality control (qc)|hrv pharma|hyderabad",
         "date": "2026-10-02T06:05:34.631894"
+    },
+    {
+        "id": "c37ebea3333a9047a4035bcf9e6bb7f5",
+        "fingerprint": "firmware/bios validation manager - automation with ai|amd|bengaluru",
+        "date": "2026-10-02T11:35:05.107781"
+    },
+    {
+        "id": "c0f7d5b8bc7e28c207b68dd653a60517",
+        "fingerprint": "test lead/architect - client/server manageability with ai|amd|bengaluru",
+        "date": "2026-10-02T11:35:05.107800"
+    },
+    {
+        "id": "1e750f1fdcc1f4fc4f58d46d2f8f39d1",
+        "fingerprint": "technical lead-testing services|birlasoft|bengaluru",
+        "date": "2026-10-02T11:35:05.107802"
+    },
+    {
+        "id": "6dc7b6028791ef1ed56a802cae50a807",
+        "fingerprint": "erp manager /ai automation manager|questrank|ahmedabad",
+        "date": "2026-10-02T11:35:05.107804"
+    },
+    {
+        "id": "81fcb58219023d9c1004c57938c69908",
+        "fingerprint": "quality assurance engineering manager|pearson|remote",
+        "date": "2026-10-02T11:35:05.107807"
+    },
+    {
+        "id": "76b6a866615b6dcf0e4203ab6bfb0069",
+        "fingerprint": "staff test lead|ge vernova|remote",
+        "date": "2026-10-02T11:35:05.107808"
     }
 ]
