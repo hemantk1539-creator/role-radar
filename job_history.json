@@ -1,20 +1,5 @@
 [
     {
-        "id": "96b513aae49900992949c32a58a0278e",
-        "fingerprint": "head of quality|it consultancy|gurugram",
-        "date": "2026-04-16T12:49:42.614582"
-    },
-    {
-        "id": "343ffe1de398b27d2ba367fd747a4632",
-        "fingerprint": "quality manager -kokana group|foodycareers|gurugram",
-        "date": "2026-04-16T12:49:42.614584"
-    },
-    {
-        "id": "75579a96bdb02814a2bcf52d75ed7da5",
-        "fingerprint": "automation lead|gedu services|gurugram",
-        "date": "2026-04-16T12:49:42.614586"
-    },
-    {
         "id": "c488435ff8d4cb8c65ab5f975de9b1e0",
         "fingerprint": "senior engineering leader \u2013 quality (qa ownership)|foodhub|chennai",
         "date": "2026-04-16T12:49:42.614588"
@@ -24998,5 +24983,20 @@
         "id": "3195cc6837c27807051d48edb5509816",
         "fingerprint": "lead software development engineer in test|franklin templeton|hyderabad",
         "date": "2026-10-03T11:35:24.050034"
+    },
+    {
+        "id": "debe80c8508c7637a3a9c7a9ae5b6bda",
+        "fingerprint": "staff test engineer - kernel drivers (9-13 years)|sandisk|bengaluru",
+        "date": "2026-10-03T16:35:34.445097"
+    },
+    {
+        "id": "0ca0f6983cf62c5cae758848ffcdd021",
+        "fingerprint": "qa & qc manager -1|mace|mumbai",
+        "date": "2026-10-03T16:35:34.445114"
+    },
+    {
+        "id": "fa1465d85708c2b63a6fa7d7b7d5b01a",
+        "fingerprint": "quality manager|saivana garments pvt. ltd.|noida",
+        "date": "2026-10-03T16:35:34.445117"
     }
 ]
