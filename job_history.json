@@ -1,15 +1,5 @@
 [
     {
-        "id": "c60c761963f65a49c1b7fea927dacdfd",
-        "fingerprint": "production & qa manager - fmcg|harshal ambaa enterprises|pune",
-        "date": "2026-04-16T12:49:42.614574"
-    },
-    {
-        "id": "08a5be3941b92825f2fd6c8d2c9ae3ac",
-        "fingerprint": "lab manager \u2013 quality management|haystackanalytics|mumbai",
-        "date": "2026-04-16T12:49:42.614576"
-    },
-    {
         "id": "25d82f4eb569a442baf8486937db1f0b",
         "fingerprint": "head of quality control|celogen pharma private limited|mumbai",
         "date": "2026-04-16T12:49:42.614578"
@@ -24998,5 +24988,15 @@
         "id": "c9fc8968303e67ddedd5c6604564fffa",
         "fingerprint": "test strategy & operations lead for regression testing - s/4e program|siemens energy|noida",
         "date": "2026-10-02T16:35:32.008219"
+    },
+    {
+        "id": "df08eeb82e0fd0ca1de91ac32d9fe713",
+        "fingerprint": "manager qa audit|au small finance bank|mumbai",
+        "date": "2026-10-03T06:05:18.882267"
+    },
+    {
+        "id": "7d14604fad1e74575d26b914173718ce",
+        "fingerprint": "senior team manager - it testing, business support|dhl global forwarding|chennai",
+        "date": "2026-10-03T06:05:18.882283"
     }
 ]
