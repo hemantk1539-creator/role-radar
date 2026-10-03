@@ -1,15 +1,5 @@
 [
     {
-        "id": "25d82f4eb569a442baf8486937db1f0b",
-        "fingerprint": "head of quality control|celogen pharma private limited|mumbai",
-        "date": "2026-04-16T12:49:42.614578"
-    },
-    {
-        "id": "da62373d4d9356fcbdb447f84c847dc9",
-        "fingerprint": "quality assurance / control manager - food industry|connecting chains|hyderabad",
-        "date": "2026-04-16T12:49:42.614580"
-    },
-    {
         "id": "96b513aae49900992949c32a58a0278e",
         "fingerprint": "head of quality|it consultancy|gurugram",
         "date": "2026-04-16T12:49:42.614582"
@@ -24998,5 +24988,15 @@
         "id": "7d14604fad1e74575d26b914173718ce",
         "fingerprint": "senior team manager - it testing, business support|dhl global forwarding|chennai",
         "date": "2026-10-03T06:05:18.882283"
+    },
+    {
+        "id": "748028cb3e418a6ef7ae2a8f994bfbdd",
+        "fingerprint": "head of software platforms-electronics automation|titan engineering & automation limited|bengaluru",
+        "date": "2026-10-03T11:35:24.050028"
+    },
+    {
+        "id": "3195cc6837c27807051d48edb5509816",
+        "fingerprint": "lead software development engineer in test|franklin templeton|hyderabad",
+        "date": "2026-10-03T11:35:24.050034"
     }
 ]
