@@ -1,15 +1,5 @@
 [
     {
-        "id": "324cfe7f56fb551f6c29d24d141f967b",
-        "fingerprint": "director of quality control (qc)|neurodiscovery ai|gurugram",
-        "date": "2026-04-16T19:49:48.012705"
-    },
-    {
-        "id": "844234bcbc17023ac86e8296d026914a",
-        "fingerprint": "principal tech program manager, multilingual search quality|amazon|bengaluru",
-        "date": "2026-04-17T06:49:30.150617"
-    },
-    {
         "id": "5507604972a52c4a4c0851d0c2d36de3",
         "fingerprint": "manager \u2013 quality|godrej industries group|mumbai",
         "date": "2026-04-17T06:49:30.150634"
@@ -24998,5 +24988,15 @@
         "id": "5c470f3da06b7ef1cb29b155f848fb7d",
         "fingerprint": "lead automation quality engineer|lseg|remote",
         "date": "2026-10-04T06:05:35.086020"
+    },
+    {
+        "id": "ff5b55cd25fea6cb0286e1e13e348a14",
+        "fingerprint": "automation test lead|datamatics|remote",
+        "date": "2026-10-04T11:35:29.143384"
+    },
+    {
+        "id": "dc2662d118b70327b3df4c752c309f4a",
+        "fingerprint": "national quality performance manager|molina healthcare",
+        "date": "2026-10-04T11:35:29.143400"
     }
 ]
