@@ -1,20 +1,5 @@
 [
     {
-        "id": "5507604972a52c4a4c0851d0c2d36de3",
-        "fingerprint": "manager \u2013 quality|godrej industries group|mumbai",
-        "date": "2026-04-17T06:49:30.150634"
-    },
-    {
-        "id": "7e15412a9b7d2d93ee4321e0812e4e48",
-        "fingerprint": "manager - quality|godrej industries group|noida",
-        "date": "2026-04-17T06:49:30.150637"
-    },
-    {
-        "id": "b075ca44b0d6706f815e25b2b78c98e5",
-        "fingerprint": "sdet lead|liven|chennai",
-        "date": "2026-04-17T06:49:30.150639"
-    },
-    {
         "id": "7e66ea0406b7066ca0d008fd3f05e6c4",
         "fingerprint": "quality manager - medical devices|criador labs|bengaluru",
         "date": "2026-04-17T12:50:00.188857"
@@ -24998,5 +24983,20 @@
         "id": "dc2662d118b70327b3df4c752c309f4a",
         "fingerprint": "national quality performance manager|molina healthcare",
         "date": "2026-10-04T11:35:29.143400"
+    },
+    {
+        "id": "887a5b1e61d19e700e5f29d018c0bf81",
+        "fingerprint": "quality manager | fiber optic connectivity | bengaluru|michael page|bengaluru",
+        "date": "2026-10-04T16:35:10.441019"
+    },
+    {
+        "id": "62dcbf3dc160e215dadae279f21e1318",
+        "fingerprint": "qa lead (playwrite with javascript/appium/wendriverio mandatory experience)|hr team|mumbai",
+        "date": "2026-10-04T16:35:10.441037"
+    },
+    {
+        "id": "5b589757826e58874013045938514d83",
+        "fingerprint": "qa manager \u2013 test automation (python/bdd) | global mediatech saas|hyrezy tech solutions|bengaluru",
+        "date": "2026-10-04T16:35:10.441040"
     }
 ]
