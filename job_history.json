@@ -1,35 +1,5 @@
 [
     {
-        "id": "c488435ff8d4cb8c65ab5f975de9b1e0",
-        "fingerprint": "senior engineering leader \u2013 quality (qa ownership)|foodhub|chennai",
-        "date": "2026-04-16T12:49:42.614588"
-    },
-    {
-        "id": "82c7d0856171c1152e866010755aa377",
-        "fingerprint": "manager test operations|agratas \u2013 a tata enterprise|ahmedabad",
-        "date": "2026-04-16T12:49:42.614591"
-    },
-    {
-        "id": "0c28f9ccfdb8f57ce6d41a7a4493272c",
-        "fingerprint": "test automation - lead|gleecus techlabs inc.|remote",
-        "date": "2026-04-16T12:49:42.614593"
-    },
-    {
-        "id": "68058c27246d95a56b6df305f0c8b7c0",
-        "fingerprint": "quality assurance lead|roblox",
-        "date": "2026-04-16T12:49:42.614595"
-    },
-    {
-        "id": "2762fa5f2f258817227de9dc51394d25",
-        "fingerprint": "ai quality manager|uniphore|bengaluru",
-        "date": "2026-04-16T19:49:48.012686"
-    },
-    {
-        "id": "55c8ba4e3a6a74788953245662be6300",
-        "fingerprint": "manager quality|mattel, inc.|hyderabad",
-        "date": "2026-04-16T19:49:48.012701"
-    },
-    {
         "id": "324cfe7f56fb551f6c29d24d141f967b",
         "fingerprint": "director of quality control (qc)|neurodiscovery ai|gurugram",
         "date": "2026-04-16T19:49:48.012705"
@@ -24998,5 +24968,35 @@
         "id": "fa1465d85708c2b63a6fa7d7b7d5b01a",
         "fingerprint": "quality manager|saivana garments pvt. ltd.|noida",
         "date": "2026-10-03T16:35:34.445117"
+    },
+    {
+        "id": "21db6eab85767fa9c897304acebb6845",
+        "fingerprint": "staff software quality engineer \u2013 product development|illumina|bengaluru",
+        "date": "2026-10-04T06:05:35.085993"
+    },
+    {
+        "id": "3d7bb04217b9f3031213fa7fe3b71f62",
+        "fingerprint": "qa manager|dassault syst\u00e8mes|pune",
+        "date": "2026-10-04T06:05:35.086011"
+    },
+    {
+        "id": "d13933518f81cc6e78108064a6291cdf",
+        "fingerprint": "automation lead l1|wipro|mumbai",
+        "date": "2026-10-04T06:05:35.086014"
+    },
+    {
+        "id": "6d3c5dfb1dc14fd2afd265262c7cde68",
+        "fingerprint": "upholstery quality assurance manager|cmb space - millwork drafting service|hyderabad",
+        "date": "2026-10-04T06:05:35.086016"
+    },
+    {
+        "id": "6972dd4241dd07bef2c6c1c977f6020a",
+        "fingerprint": "quality manager|mace|gurugram",
+        "date": "2026-10-04T06:05:35.086018"
+    },
+    {
+        "id": "5c470f3da06b7ef1cb29b155f848fb7d",
+        "fingerprint": "lead automation quality engineer|lseg|remote",
+        "date": "2026-10-04T06:05:35.086020"
     }
 ]
