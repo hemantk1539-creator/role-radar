@@ -1,35 +1,5 @@
 [
     {
-        "id": "7e66ea0406b7066ca0d008fd3f05e6c4",
-        "fingerprint": "quality manager - medical devices|criador labs|bengaluru",
-        "date": "2026-04-17T12:50:00.188857"
-    },
-    {
-        "id": "1ebc45f32a2931c8101983086fc6af92",
-        "fingerprint": "test module lead - manual testing|happiest minds technologies|bengaluru",
-        "date": "2026-04-17T12:50:00.188875"
-    },
-    {
-        "id": "114fc369d16432cf316fc0bf3ef1133b",
-        "fingerprint": "quality assurance manager|pv sons corn milling co. pvt. ltd.|pune",
-        "date": "2026-04-17T12:50:00.188878"
-    },
-    {
-        "id": "ed1cfb91f2dabe4b93f0ff340a264156",
-        "fingerprint": "manager - quality|larsen & toubro|mumbai",
-        "date": "2026-04-17T12:50:00.188881"
-    },
-    {
-        "id": "912200b6b0cac1334409b8a5afc674f9",
-        "fingerprint": "regional quality assurance manager|the souled store|mumbai",
-        "date": "2026-04-17T12:50:00.188883"
-    },
-    {
-        "id": "9c92dbd99f724ce45a39de03168144c3",
-        "fingerprint": "senior quality assurance (qa) manager - systems|larsen & toubro|mumbai",
-        "date": "2026-04-17T12:50:00.188886"
-    },
-    {
         "id": "9038ea50f6548dc946b1ab20a92f38b6",
         "fingerprint": "senior specialist, sap testing squad lead|msd|hyderabad",
         "date": "2026-04-17T12:50:00.188888"
@@ -24998,5 +24968,35 @@
         "id": "5b589757826e58874013045938514d83",
         "fingerprint": "qa manager \u2013 test automation (python/bdd) | global mediatech saas|hyrezy tech solutions|bengaluru",
         "date": "2026-10-04T16:35:10.441040"
+    },
+    {
+        "id": "c25f87f79f54dfa8cbf3be686aa4b6cf",
+        "fingerprint": "technical lead-test automation|dover india|bengaluru",
+        "date": "2026-10-05T06:05:21.179581"
+    },
+    {
+        "id": "3a83a645c6023a9137f013a8d7ffa2b1",
+        "fingerprint": "tosca test lead|infosys|bengaluru",
+        "date": "2026-10-05T06:05:21.179600"
+    },
+    {
+        "id": "419ef4cc9ea93c648a32353250ca6763",
+        "fingerprint": "qa eng( 4 yrs)|orbion infotech|ahmedabad",
+        "date": "2026-10-05T06:05:21.179605"
+    },
+    {
+        "id": "60cca6ba561c484359d3019ab7a2963f",
+        "fingerprint": "head of quality assurance|united overseas bolts and nuts pvt ltd|remote",
+        "date": "2026-10-05T06:05:21.179610"
+    },
+    {
+        "id": "9384de7bd042ed40230eb83e6c62587c",
+        "fingerprint": "quality and project platforms lead|opella|remote",
+        "date": "2026-10-05T06:05:21.179612"
+    },
+    {
+        "id": "9f52a0d6b492057c49f46ca78f69c779",
+        "fingerprint": "qa lead|ascentt|remote",
+        "date": "2026-10-05T06:05:21.179615"
     }
 ]
