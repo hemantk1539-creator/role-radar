@@ -1,95 +1,5 @@
 [
     {
-        "id": "9038ea50f6548dc946b1ab20a92f38b6",
-        "fingerprint": "senior specialist, sap testing squad lead|msd|hyderabad",
-        "date": "2026-04-17T12:50:00.188888"
-    },
-    {
-        "id": "305058d23362c8113177bbff194c8845",
-        "fingerprint": "quality assurance manager - food industry|connecting chains|hyderabad",
-        "date": "2026-04-17T12:50:00.188889"
-    },
-    {
-        "id": "c7fb3ce802fdd5f4e8edaad4e5142e26",
-        "fingerprint": "regional quality assurance manager|the souled store|gurugram",
-        "date": "2026-04-17T12:50:00.188892"
-    },
-    {
-        "id": "8544053335da2f61696ed424b4566b10",
-        "fingerprint": "testing-automation-senior manager|ey|chennai",
-        "date": "2026-04-17T12:50:00.188894"
-    },
-    {
-        "id": "59e198b20636359e692c709ea9e7e82e",
-        "fingerprint": "qa automation manager|inchcape shipping services|chennai",
-        "date": "2026-04-17T12:50:00.188896"
-    },
-    {
-        "id": "57f2d03e5cb7d572332c58bbeea24dfc",
-        "fingerprint": "middle office automation & data enablement lead - vice president|state street|bengaluru",
-        "date": "2026-04-17T19:49:29.061455"
-    },
-    {
-        "id": "04f2c942d426b3471777271b0f0b8dd8",
-        "fingerprint": "it lead - qa and release governance|hubbell incorporated|hyderabad",
-        "date": "2026-04-17T19:49:29.061470"
-    },
-    {
-        "id": "e01f2be1d784255a7d2017c65a236af2",
-        "fingerprint": "technical coordinator/manager \u2013 testing of consumer products in labs|consumer voice india|gurugram",
-        "date": "2026-04-17T19:49:29.061473"
-    },
-    {
-        "id": "31e4988c6710a50df7d941f48ee70dfe",
-        "fingerprint": "india hub test architect|bayer|bengaluru",
-        "date": "2026-04-18T06:49:12.118560"
-    },
-    {
-        "id": "95f60cddc65f5024397f2ec61b9b2b53",
-        "fingerprint": "engineering manager testing|talent500|bengaluru",
-        "date": "2026-04-18T06:49:12.118576"
-    },
-    {
-        "id": "8e773a59f03a835165f928c7604414f9",
-        "fingerprint": "ai/automation ops lead|nokia|bengaluru",
-        "date": "2026-04-18T06:49:12.118578"
-    },
-    {
-        "id": "0608bd763834996746f7e6c49e2fab0c",
-        "fingerprint": "chief manager - quality assurance|piramal pharma ltd|mumbai",
-        "date": "2026-04-18T06:49:12.118581"
-    },
-    {
-        "id": "bd53446bd82c654f2c07005549751f2f",
-        "fingerprint": "title\n            \n                \n                    senior manager - loyalty clm & automation|air india, bangladesh|gurugram",
-        "date": "2026-04-18T06:49:12.118584"
-    },
-    {
-        "id": "aec3c279a6afd70ca26fc4ea70ce6877",
-        "fingerprint": "quality assurance manager|tata consultancy services|gurugram",
-        "date": "2026-04-18T06:49:12.118586"
-    },
-    {
-        "id": "7615988d27a5fe4918f4663435c75a74",
-        "fingerprint": "ai/automation ops lead|nokia|chennai",
-        "date": "2026-04-18T06:49:12.118588"
-    },
-    {
-        "id": "22b77b0570e54a28948de1979ae6070d",
-        "fingerprint": "senior quality assurance leader|shine.com|pune",
-        "date": "2026-04-18T12:49:44.082471"
-    },
-    {
-        "id": "833098d1d1038467f88e5ac97188a0e2",
-        "fingerprint": "quality head (die casting / tool room)|vvishingstar management consultants|pune",
-        "date": "2026-04-18T12:49:44.082489"
-    },
-    {
-        "id": "594e38c94f2f91be976d3e92c355e34f",
-        "fingerprint": "principal data quality engineer|cbre india|hyderabad",
-        "date": "2026-04-18T12:49:44.082492"
-    },
-    {
         "id": "29df1f0a67b2bd13435735c43bcf65b4",
         "fingerprint": "senior manager qa,qms & npd with two decade experience in reputed automotive mnc companies|sigma automotive materials private limited|gurugram",
         "date": "2026-04-18T12:49:44.082495"
@@ -24998,5 +24908,95 @@
         "id": "9f52a0d6b492057c49f46ca78f69c779",
         "fingerprint": "qa lead|ascentt|remote",
         "date": "2026-10-05T06:05:21.179615"
+    },
+    {
+        "id": "b897793bc9f3a53e69f3726784a36155",
+        "fingerprint": "architect i - software testing- facets|ust|bengaluru",
+        "date": "2026-10-05T11:35:25.246751"
+    },
+    {
+        "id": "72caaa015a97c437aa74523e4aa825e7",
+        "fingerprint": "technical director - design for test (dft)|leadsoc technologies pvt ltd|bengaluru",
+        "date": "2026-10-05T11:35:25.246769"
+    },
+    {
+        "id": "c3c944cda8860bfa69b95f1cb9e9e57e",
+        "fingerprint": "lead ii - software testing- e2e test lead|ust|bengaluru",
+        "date": "2026-10-05T11:35:25.246772"
+    },
+    {
+        "id": "f420c9565e040d96b353666e8b843634",
+        "fingerprint": "qa manager|eps (eproductivity software)|bengaluru",
+        "date": "2026-10-05T11:35:25.246774"
+    },
+    {
+        "id": "fa39820d266be24daeb61d6c17186c5e",
+        "fingerprint": "head - training and quality|moneyview|bengaluru",
+        "date": "2026-10-05T11:35:25.246777"
+    },
+    {
+        "id": "bb772fc64ed421fe5a1678d02f6e4c88",
+        "fingerprint": "lead ii - software testing- functional test lead- facets|ust|bengaluru",
+        "date": "2026-10-05T11:35:25.246779"
+    },
+    {
+        "id": "82f032c62af9d4112bad6baef3dec06c",
+        "fingerprint": "lead, performance test & engineering|standard chartered india|bengaluru",
+        "date": "2026-10-05T11:35:25.246782"
+    },
+    {
+        "id": "05b5e8c43f8c6f16025a6773cb758dbd",
+        "fingerprint": "d&t manager \u2013 ai & automation|general mills|mumbai",
+        "date": "2026-10-05T11:35:25.246785"
+    },
+    {
+        "id": "b941a1f3718a055be204f4b5c657c9f1",
+        "fingerprint": "quality manager \u2013 systems \u2013 new delhi|systra|gurugram",
+        "date": "2026-10-05T11:35:25.246788"
+    },
+    {
+        "id": "6d47976ae8e237a4600a06931e8d85c7",
+        "fingerprint": "vice president - head of testing|intellect design arena ltd|chennai",
+        "date": "2026-10-05T11:35:25.246790"
+    },
+    {
+        "id": "d8158df46a9b7eb9cecc5f071ff7adfa",
+        "fingerprint": "performance test lead|tata consultancy services|chennai",
+        "date": "2026-10-05T11:35:25.246793"
+    },
+    {
+        "id": "4f5abf819d0627bdeab5860e537488b0",
+        "fingerprint": "automation team lead|michael page|chennai",
+        "date": "2026-10-05T11:35:25.246795"
+    },
+    {
+        "id": "7d006e617db6f8083ee39c7cc19aeca0",
+        "fingerprint": "sr. staff sw qa engineer - cloud|gigamon|chennai",
+        "date": "2026-10-05T11:35:25.246798"
+    },
+    {
+        "id": "e807d42a45f8bd2ed6a2d1f49543dd41",
+        "fingerprint": "technical lead - automation|mobileum|remote",
+        "date": "2026-10-05T11:35:25.246800"
+    },
+    {
+        "id": "103b106d1506c211f4627cbe9651e416",
+        "fingerprint": "principal engineer, test,|baxter international inc.|remote",
+        "date": "2026-10-05T11:35:25.246803"
+    },
+    {
+        "id": "2fe8bb424835a27533e62277f6b77975",
+        "fingerprint": "lead ii - software testing (playwright, python)|ust|remote",
+        "date": "2026-10-05T11:35:25.246805"
+    },
+    {
+        "id": "898c21f79bd376322df892457acf9f76",
+        "fingerprint": "director, global quality|ladders|remote",
+        "date": "2026-10-05T11:35:25.246808"
+    },
+    {
+        "id": "619c7efc5a620b67fde183245c37596e",
+        "fingerprint": "software development engineer in test (sdet) -assistant manager|state street|bengaluru",
+        "date": "2026-10-05T11:35:25.246810"
     }
 ]
