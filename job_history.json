@@ -1,65 +1,5 @@
 [
     {
-        "id": "5e07a200bb779e2bf0412b411729c882",
-        "fingerprint": "test manager|helius technologies|hyderabad",
-        "date": "2026-04-21T12:49:31.612593"
-    },
-    {
-        "id": "bb5b5d9ce0fe3b0f0c0cab459ca8a13a",
-        "fingerprint": "lead sdet engineer with genai irc291165|globallogic|hyderabad",
-        "date": "2026-04-21T12:49:31.612596"
-    },
-    {
-        "id": "2c68549bce2954d558a6860ecb30bca2",
-        "fingerprint": "quality assurance manager|seemantni global pvt. ltd.|gurugram",
-        "date": "2026-04-21T12:49:31.612599"
-    },
-    {
-        "id": "19536a255a409235354351742da6a92a",
-        "fingerprint": "manager quality assurance|abbott|ahmedabad",
-        "date": "2026-04-21T12:49:31.612601"
-    },
-    {
-        "id": "0d0578bb71dc28d91ec5ee1b740143fd",
-        "fingerprint": "director, enterprise architecture & intelligent automation|gitlab",
-        "date": "2026-04-21T12:49:31.612603"
-    },
-    {
-        "id": "3ecd1d86b5e41c3ea5132de20674f4a5",
-        "fingerprint": "it quality senior manager - vice president|citi|pune",
-        "date": "2026-04-21T19:49:22.278392"
-    },
-    {
-        "id": "908c4144b4142f307f2e6b4342be529d",
-        "fingerprint": "quality cloud architect (sdet engineer)|clearroute|pune",
-        "date": "2026-04-21T19:49:22.278410"
-    },
-    {
-        "id": "cd68bc6761338609c000c603810cfab9",
-        "fingerprint": "team leader-  quality management|qdegrees careers|bengaluru",
-        "date": "2026-04-21T19:49:22.278413"
-    },
-    {
-        "id": "cedee820b70f9e4161f40a886a6d9645",
-        "fingerprint": "test architect - playwright|happiest minds technologies|bengaluru",
-        "date": "2026-04-21T19:49:22.278415"
-    },
-    {
-        "id": "2126e25ad665ce64f786ea5d8b2e8d0e",
-        "fingerprint": "principal engineering manager \u2013 quality engineering|montycloud|bengaluru",
-        "date": "2026-04-21T19:49:22.278417"
-    },
-    {
-        "id": "5567b1dd9be431ef6e86cc2a78b35b45",
-        "fingerprint": "manager/ senior manager - quality|emerson|remote",
-        "date": "2026-04-21T19:49:22.278419"
-    },
-    {
-        "id": "5e1706d6e8f99d3671a7241142bf501c",
-        "fingerprint": "deputy chief manager - quality control|piramal pharma ltd|pune",
-        "date": "2026-04-22T06:49:44.692459"
-    },
-    {
         "id": "e102de34c59a17e0655b001dc3c331bb",
         "fingerprint": "automation delivery director - poland|fortrea|mumbai",
         "date": "2026-04-22T06:49:44.692477"
@@ -24998,5 +24938,65 @@
         "id": "fa40029e0ed624c56929c0aa1eece6d8",
         "fingerprint": "senior staff quality engineer - sdet|arctic wolf|remote",
         "date": "2026-10-06T11:35:19.947552"
+    },
+    {
+        "id": "cc9a307c12953d58df21d87aa448764f",
+        "fingerprint": "staff software development engineer in test|sailpoint|pune",
+        "date": "2026-10-06T16:35:46.501783"
+    },
+    {
+        "id": "000deb8eb203681bc10cc36cb1964ae6",
+        "fingerprint": "principal software engineer in test|okta|bengaluru",
+        "date": "2026-10-06T16:35:46.501799"
+    },
+    {
+        "id": "566d63097c917ce900c982e3b60e2646",
+        "fingerprint": "principal test engineer|zimmer biomet|bengaluru",
+        "date": "2026-10-06T16:35:46.501802"
+    },
+    {
+        "id": "ed2caa389535c3109438b51bdbe08819",
+        "fingerprint": "quality control manager|sourcingxpress|mumbai",
+        "date": "2026-10-06T16:35:46.501805"
+    },
+    {
+        "id": "283facfd42a14278e81ff9af3d42fa6d",
+        "fingerprint": "senior manager, qa, digital|lseg|hyderabad",
+        "date": "2026-10-06T16:35:46.501808"
+    },
+    {
+        "id": "0de3454d82492ceffc74198dbe72aa32",
+        "fingerprint": "lead, tech \u2013 quality and test engineering|huntingcube|hyderabad",
+        "date": "2026-10-06T16:35:46.501810"
+    },
+    {
+        "id": "1efd7f4dec72923c92ddc36dcc7fa4cc",
+        "fingerprint": "quality assurance manager || manager quality|hiresquad resources|gurugram",
+        "date": "2026-10-06T16:35:46.501813"
+    },
+    {
+        "id": "327f4065cb264698430433cf3a628435",
+        "fingerprint": "director-quality and process excellence (us healthcare rcm operations)-chennai - go/jc/4714/2026|golden opportunities|chennai",
+        "date": "2026-10-06T16:35:46.501815"
+    },
+    {
+        "id": "32a17883b6d8e740c8bed816c5a26b8b",
+        "fingerprint": "senior test lead - quality engineering|happiest minds technologies|remote",
+        "date": "2026-10-06T16:35:46.501818"
+    },
+    {
+        "id": "dbd4365db2726e0e913bec32f2c58fc0",
+        "fingerprint": "principal software engineer in test|okta",
+        "date": "2026-10-06T16:35:46.501820"
+    },
+    {
+        "id": "5c9801a41b9c8cc5a30ae545be829d6a",
+        "fingerprint": "assistant manager - quality, thane wagle|larsen & toubro|mumbai",
+        "date": "2026-10-06T16:35:46.501822"
+    },
+    {
+        "id": "1d4a37f166ef42e6b54226491c5d9f2b",
+        "fingerprint": "assistant manager / deputy manager quality|allen|ahmedabad",
+        "date": "2026-10-06T16:35:46.501825"
     }
 ]
