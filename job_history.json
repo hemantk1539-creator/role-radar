@@ -1,85 +1,5 @@
 [
     {
-        "id": "3fbce9d1354457046731796adc093a41",
-        "fingerprint": "quality assurance manager|eurobearings|gurugram",
-        "date": "2026-04-20T06:49:43.489537"
-    },
-    {
-        "id": "b78f8617d1f56dc38d66c169e73ed418",
-        "fingerprint": "quality assurance manager|kaaiser australian education|gurugram",
-        "date": "2026-04-20T06:49:43.489540"
-    },
-    {
-        "id": "22b1f7da8a4f2b690c777718bd5f5ef2",
-        "fingerprint": "qa automation lead|shine.com|chennai",
-        "date": "2026-04-20T06:49:43.489542"
-    },
-    {
-        "id": "0edbd23db910da73bc550ea099e39125",
-        "fingerprint": "director of quality assurance|next logix consultancy pvt ltd|remote",
-        "date": "2026-04-20T06:49:43.489544"
-    },
-    {
-        "id": "d0a14fcc40046dc4c649bcc504cd951e",
-        "fingerprint": "quality assurance manager|popular foods co|bengaluru",
-        "date": "2026-04-20T12:50:13.807941"
-    },
-    {
-        "id": "a4d1c00c866408c5b93da919300c8148",
-        "fingerprint": "sr manager quality engineering \u2013 qira ai platform|lenovo|bengaluru",
-        "date": "2026-04-20T12:50:13.807960"
-    },
-    {
-        "id": "54b137e58b9d83f032b1f4ecba41141b",
-        "fingerprint": "regional quality manager|vfs global|mumbai",
-        "date": "2026-04-20T12:50:13.807963"
-    },
-    {
-        "id": "42b644ad00296da655262998b6f7129c",
-        "fingerprint": "quality head for real estate - punawale|varma corp|pune",
-        "date": "2026-04-20T12:50:13.807965"
-    },
-    {
-        "id": "ec1bb05a9d4619d2e7dd0b878469e42c",
-        "fingerprint": "automation test lead|ltm|pune",
-        "date": "2026-04-20T12:50:13.807967"
-    },
-    {
-        "id": "ffc4d4ff7c80fd584dcccdd7b9390851",
-        "fingerprint": "quality head - engineering|pearce services|gurugram",
-        "date": "2026-04-20T12:50:13.807970"
-    },
-    {
-        "id": "de2c368117c6e95d775681a16577cb78",
-        "fingerprint": "senior quality assurance leader|shine.com|gurugram",
-        "date": "2026-04-20T12:50:13.807972"
-    },
-    {
-        "id": "28e3916d98c5ffd5c4fc5077c0dc4e88",
-        "fingerprint": "manager - ai qa|zimyo|gurugram",
-        "date": "2026-04-20T12:50:13.807974"
-    },
-    {
-        "id": "ce76d406fa4c19f0f7d129805f6e2546",
-        "fingerprint": "senior quality assurance leader|shine.com|noida",
-        "date": "2026-04-20T12:50:13.807976"
-    },
-    {
-        "id": "4d1becc630d99fe470f141e6f2616c68",
-        "fingerprint": "senior manager (l5) - plant quality (powertrain)|tata marcopolo motors ltd. dharwad|ahmedabad",
-        "date": "2026-04-20T12:50:13.807978"
-    },
-    {
-        "id": "da163527cc66cb52257f02cbed7fd54b",
-        "fingerprint": "qa manager - medical device|care essentials international pvt ltd|ahmedabad",
-        "date": "2026-04-20T12:50:13.807980"
-    },
-    {
-        "id": "2203592935578c81c4109370f6ef1c39",
-        "fingerprint": "qa/qc manager \u2013 pmc (power transmission, substation & renewable integration)|aecom|ahmedabad",
-        "date": "2026-04-20T12:50:13.807983"
-    },
-    {
         "id": "bcb4a0782d0fb281bae56746315f41e6",
         "fingerprint": "deputy manager - quality & production|imerys|ahmedabad",
         "date": "2026-04-20T12:50:13.807985"
@@ -24998,5 +24918,85 @@
         "id": "fbb255cf2ca091a9678af60d35cdd979",
         "fingerprint": "test manager i|ust|remote",
         "date": "2026-10-05T16:35:25.575382"
+    },
+    {
+        "id": "f74d155b17fd59e0c1039a432b1740a6",
+        "fingerprint": "qa lead|nexthire|pune",
+        "date": "2026-10-06T06:05:22.961123"
+    },
+    {
+        "id": "693912c6875f385ac6ccb487568cd3f9",
+        "fingerprint": "lead qa|vitaledge technologies|pune",
+        "date": "2026-10-06T06:05:22.961141"
+    },
+    {
+        "id": "515492970e2305a724bed2e6f0029198",
+        "fingerprint": "delivery manager-test lead|acuity analytics|pune",
+        "date": "2026-10-06T06:05:22.961144"
+    },
+    {
+        "id": "539d112f5db7952bfc1bf3dbfa781d4f",
+        "fingerprint": "principal data engineer - data quality|mastercard|pune",
+        "date": "2026-10-06T06:05:22.961147"
+    },
+    {
+        "id": "4f82c6c6dadda8458d632e221d2e88c7",
+        "fingerprint": "automation test architect - routing/switching|acl digital|bengaluru",
+        "date": "2026-10-06T06:05:22.961150"
+    },
+    {
+        "id": "e5acc3597ab88d121a219d664dd7eb53",
+        "fingerprint": "quality team leader|taskus|mumbai",
+        "date": "2026-10-06T06:05:22.961153"
+    },
+    {
+        "id": "f6acc7ef6df675991e0c3adf67a6dd4d",
+        "fingerprint": "automation configurator, senior manager|state street|mumbai",
+        "date": "2026-10-06T06:05:22.961156"
+    },
+    {
+        "id": "48a6944d55a8117230b92396c350433d",
+        "fingerprint": "lead salesforce qa engineer|grey parrot systems llc|hyderabad",
+        "date": "2026-10-06T06:05:22.961159"
+    },
+    {
+        "id": "2f3df265a5679872c03066f85c281b54",
+        "fingerprint": "ka- 6(a): principal quality manager|systra|gurugram",
+        "date": "2026-10-06T06:05:22.961162"
+    },
+    {
+        "id": "86c1d1d8427c93c5f993468401185dfa",
+        "fingerprint": "lead qa automation engineer (playwright)|simfluent|gurugram",
+        "date": "2026-10-06T06:05:22.961165"
+    },
+    {
+        "id": "2888207d653754a8ca3f845962694a69",
+        "fingerprint": "quality leader|ingersoll rand compressor systems & services|noida",
+        "date": "2026-10-06T06:05:22.961168"
+    },
+    {
+        "id": "43a8af91c036818374ae926d86095678",
+        "fingerprint": "rpa automation team leader|michael page|chennai",
+        "date": "2026-10-06T06:05:22.961170"
+    },
+    {
+        "id": "cc53657d65f3bab8bc17bb009b2bbd9b",
+        "fingerprint": "qa manual lead|xktalent inc. - rimutee",
+        "date": "2026-10-06T06:05:22.961173"
+    },
+    {
+        "id": "9975043faf237796d9e4751c649f5bd1",
+        "fingerprint": "senior manager, quality, volume tiers|airbnb",
+        "date": "2026-10-06T06:05:22.961176"
+    },
+    {
+        "id": "bc82759c17a4bff0843183d01e653f8b",
+        "fingerprint": "qa director - china, global pcb manufacturer|messring gmbh|remote",
+        "date": "2026-10-06T06:05:22.961179"
+    },
+    {
+        "id": "b7f6976dc0a4b9df610325f691df6730",
+        "fingerprint": "global quality director, il|avery dennison|remote",
+        "date": "2026-10-06T06:05:22.961181"
     }
 ]
