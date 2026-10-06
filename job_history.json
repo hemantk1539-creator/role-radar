@@ -1,90 +1,5 @@
 [
     {
-        "id": "bcb4a0782d0fb281bae56746315f41e6",
-        "fingerprint": "deputy manager - quality & production|imerys|ahmedabad",
-        "date": "2026-04-20T12:50:13.807985"
-    },
-    {
-        "id": "17f5c0a0c7f6ee902adf433a95280978",
-        "fingerprint": "testing - automation-senior manager|ey|bengaluru",
-        "date": "2026-04-20T19:50:01.676269"
-    },
-    {
-        "id": "7d43df31263a7c7adaa947c5129b552e",
-        "fingerprint": "quality manager|siemens|pune",
-        "date": "2026-04-20T19:50:01.676291"
-    },
-    {
-        "id": "83004cf3d86a5e3217a2857dcd69a000",
-        "fingerprint": "functional test senior manager|m&g global services private limited|pune",
-        "date": "2026-04-20T19:50:01.676293"
-    },
-    {
-        "id": "5cc87a54b59223cdf5e99dc7dc010167",
-        "fingerprint": "automation test senior manager|m&g global services private limited|pune",
-        "date": "2026-04-20T19:50:01.676296"
-    },
-    {
-        "id": "0240078855601cbce3096b358615b0c0",
-        "fingerprint": "functional test senior manager|m&g global services private limited|mumbai",
-        "date": "2026-04-20T19:50:01.676299"
-    },
-    {
-        "id": "7ad7a2eb06b804ea631cde23896000f4",
-        "fingerprint": "automation test senior manager|m&g global services private limited|mumbai",
-        "date": "2026-04-20T19:50:01.676301"
-    },
-    {
-        "id": "53fa084533c306ba285edd3a82455a10",
-        "fingerprint": "quality engineering manager [t500-25341]|cibc india|hyderabad",
-        "date": "2026-04-20T19:50:01.676303"
-    },
-    {
-        "id": "d7b909a293ee86c068aec3c6c8250e85",
-        "fingerprint": "quality engineering manager [t500-25342]|cibc india|hyderabad",
-        "date": "2026-04-20T19:50:01.676305"
-    },
-    {
-        "id": "f9e156940355ad59c413097aa3c67637",
-        "fingerprint": "qa architect|sureify|hyderabad",
-        "date": "2026-04-20T19:50:01.676307"
-    },
-    {
-        "id": "a509b249b704101907784e793df0f68e",
-        "fingerprint": "quality assurance manager|kaaiser australian education|noida",
-        "date": "2026-04-20T19:50:01.676310"
-    },
-    {
-        "id": "192eab62d33677f7734a3bd816381bf4",
-        "fingerprint": "manager, quality control|googleplex|noida",
-        "date": "2026-04-20T19:50:01.676312"
-    },
-    {
-        "id": "2c80a095445107e8556939ca17aef6ec",
-        "fingerprint": "deputy general manager of quality - refrigerator|havells india ltd|remote",
-        "date": "2026-04-20T19:50:01.676315"
-    },
-    {
-        "id": "8c14752b72a1b60bda1c316bb71fd4b9",
-        "fingerprint": "manager, quality control|google|gurugram",
-        "date": "2026-04-21T06:49:46.494868"
-    },
-    {
-        "id": "856f4e6f0ca070cf15a1cdd8f7f1f519",
-        "fingerprint": "manager-quality engineering|nab|gurugram",
-        "date": "2026-04-21T06:49:46.494884"
-    },
-    {
-        "id": "cb8feae3908644f214b5ccc3ea439a2e",
-        "fingerprint": "global head of quality assurance & test automation|litmus|remote",
-        "date": "2026-04-21T06:49:46.494887"
-    },
-    {
-        "id": "b60452ea3c85b26ad463da3e10fbf788",
-        "fingerprint": "sap s/4 hana test manager|connexions|bengaluru",
-        "date": "2026-04-21T12:49:31.612577"
-    },
-    {
         "id": "5e07a200bb779e2bf0412b411729c882",
         "fingerprint": "test manager|helius technologies|hyderabad",
         "date": "2026-04-21T12:49:31.612593"
@@ -24998,5 +24913,90 @@
         "id": "b7f6976dc0a4b9df610325f691df6730",
         "fingerprint": "global quality director, il|avery dennison|remote",
         "date": "2026-10-06T06:05:22.961181"
+    },
+    {
+        "id": "e7b7cb1a2b3ebd04ad47c3cff2cde156",
+        "fingerprint": "quality assurance lead|sutherland global service limited|bengaluru",
+        "date": "2026-10-06T11:35:19.947508"
+    },
+    {
+        "id": "b9c3c6bd0a5fa83d8a1bbed8dfc7e6bf",
+        "fingerprint": "lead ii - embedded testing|ust|bengaluru",
+        "date": "2026-10-06T11:35:19.947522"
+    },
+    {
+        "id": "3a76af2d62507b4641d08926aa680ec4",
+        "fingerprint": "senior qa engineer / qa lead \u2013 cloud, networking & ai automation|netgear|bengaluru",
+        "date": "2026-10-06T11:35:19.947525"
+    },
+    {
+        "id": "9f317726efed27d8a289a4df3f2fbe16",
+        "fingerprint": "test architect - ai automation|happiest minds technologies|bengaluru",
+        "date": "2026-10-06T11:35:19.947527"
+    },
+    {
+        "id": "442560bd4a24b413bccc34909fc45fd8",
+        "fingerprint": "head of quality assurance|tmangoes hr consulting|pune",
+        "date": "2026-10-06T11:35:19.947529"
+    },
+    {
+        "id": "19252879cb2edb70482366090e0fdf5b",
+        "fingerprint": "director of ai, automation|live connections|pune",
+        "date": "2026-10-06T11:35:19.947531"
+    },
+    {
+        "id": "7a0de8a660bfcdce98987657c9fa1f31",
+        "fingerprint": "sap program test manager|talentmatics|mumbai",
+        "date": "2026-10-06T11:35:19.947533"
+    },
+    {
+        "id": "f90307a02ae04b062f048e96804a3363",
+        "fingerprint": "qa/qc head|mace|mumbai",
+        "date": "2026-10-06T11:35:19.947534"
+    },
+    {
+        "id": "662665c1ced2c178d7f747e6fda4f3f5",
+        "fingerprint": "qa manager|experian|hyderabad",
+        "date": "2026-10-06T11:35:19.947536"
+    },
+    {
+        "id": "3f20044b7e561225ae0346d995aa4e71",
+        "fingerprint": "sr./lead qa automation engineer \u2013 ai agent|simcorp|hyderabad",
+        "date": "2026-10-06T11:35:19.947538"
+    },
+    {
+        "id": "3edab820d35f3fa42cd39495fc78a93e",
+        "fingerprint": "head - plant quality|aumovio|gurugram",
+        "date": "2026-10-06T11:35:19.947540"
+    },
+    {
+        "id": "a40b76eac561b5c555cdf0d8220c1fe9",
+        "fingerprint": "senior manager - testing|sbi card|gurugram",
+        "date": "2026-10-06T11:35:19.947542"
+    },
+    {
+        "id": "3787d25c484fc1ea5c230b544f4d54cc",
+        "fingerprint": "sr./lead qa automation engineer \u2013 ai agent|simcorp|gurugram",
+        "date": "2026-10-06T11:35:19.947544"
+    },
+    {
+        "id": "8f2e7a9494b73bb766e28146099a7476",
+        "fingerprint": "lead quality assurance engineer|ienergizer|gurugram",
+        "date": "2026-10-06T11:35:19.947546"
+    },
+    {
+        "id": "ec233cc3a21e7bac8550f001698358f7",
+        "fingerprint": "staff ai agentic automation engineer|ets|gurugram",
+        "date": "2026-10-06T11:35:19.947548"
+    },
+    {
+        "id": "85aa55c761744062cf5aab134481924d",
+        "fingerprint": "qa/qc manager|mata amritanandamayi mandir trust|chennai",
+        "date": "2026-10-06T11:35:19.947550"
+    },
+    {
+        "id": "fa40029e0ed624c56929c0aa1eece6d8",
+        "fingerprint": "senior staff quality engineer - sdet|arctic wolf|remote",
+        "date": "2026-10-06T11:35:19.947552"
     }
 ]
