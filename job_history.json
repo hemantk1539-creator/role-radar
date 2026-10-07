@@ -1,75 +1,5 @@
 [
     {
-        "id": "63eeec00dd677c402884a18e3e34e1e0",
-        "fingerprint": "director-quality|alight solutions|noida",
-        "date": "2026-04-23T12:49:35.194418"
-    },
-    {
-        "id": "2f8b183f55531c7e8d7800ed4d777952",
-        "fingerprint": "project manager (qa)|movate|chennai",
-        "date": "2026-04-23T12:49:35.194420"
-    },
-    {
-        "id": "17567f9fdcacb7855404d9d6b918a864",
-        "fingerprint": "it quality tech lead analyst|citi|chennai",
-        "date": "2026-04-23T12:49:35.194422"
-    },
-    {
-        "id": "c59eed64fca59044f3c628982fca1d37",
-        "fingerprint": "automation quality assurance \u2013 technical lead -vice president|citi|pune",
-        "date": "2026-04-23T19:49:51.134689"
-    },
-    {
-        "id": "9f22d1a606f7db85ae3024bbb8f5db0a",
-        "fingerprint": "technical manager : testing|trane technologies|bengaluru",
-        "date": "2026-04-23T19:49:51.134706"
-    },
-    {
-        "id": "e61cfe4dc42adfa84136ce6a5e2a7bf5",
-        "fingerprint": "jewellery quality assurance manager|titan company limited|bengaluru",
-        "date": "2026-04-23T19:49:51.134709"
-    },
-    {
-        "id": "924af33b066e6201f1e459a436aae5e3",
-        "fingerprint": "quality and escalation manager|hp|mumbai",
-        "date": "2026-04-23T19:49:51.134711"
-    },
-    {
-        "id": "29cdd176c1c2bf80fd16c75f620dbde0",
-        "fingerprint": "quality control manager|lumen technologies india|noida",
-        "date": "2026-04-23T19:49:51.134714"
-    },
-    {
-        "id": "158dbe162515f32f531b43300aa23af0",
-        "fingerprint": "digital software engineering senior group manager  \u2013 head of quality & performance engineering|citi|chennai",
-        "date": "2026-04-23T19:49:51.134716"
-    },
-    {
-        "id": "a7857035edb7ac3d1159f7862b209cc4",
-        "fingerprint": "quality assurance manager|pharmanovia|chennai",
-        "date": "2026-04-23T19:49:51.134718"
-    },
-    {
-        "id": "57fdd2efc3cfca8d77c0da00f7afc6ce",
-        "fingerprint": "personnel search services group - head quality assurance (pss07935) ( 0-0 yrs )|etcio - cloud data center|hyderabad",
-        "date": "2026-04-24T06:49:30.865553"
-    },
-    {
-        "id": "d6e55346bcc2fc965466b3be6f7d6011",
-        "fingerprint": "state street - platform & automation lead engineer, avp ( 12-0 yrs )|etcio - cloud data center|hyderabad",
-        "date": "2026-04-24T06:49:30.865570"
-    },
-    {
-        "id": "b91e4ce69408f69470ef8da5e00337e7",
-        "fingerprint": "quality and process excellence lead l2|wipro|gurugram",
-        "date": "2026-04-24T06:49:30.865573"
-    },
-    {
-        "id": "9cf0d09ff880af5e67aa7cf7ca54463c",
-        "fingerprint": "head of quality control|grandpitstop|gurugram",
-        "date": "2026-04-24T06:49:30.865576"
-    },
-    {
         "id": "0cb6aca1b8175e904d2e20c9db2925c0",
         "fingerprint": "lead automation & robotics engineer|care yu automation|chennai",
         "date": "2026-04-24T06:49:30.865579"
@@ -24998,5 +24928,75 @@
         "id": "9f2136265e3039e01681917e3fd0cb07",
         "fingerprint": "current: lead qa engineer|wwr",
         "date": "2026-10-07T11:34:55.860368"
+    },
+    {
+        "id": "0cd330be9f0c949f15eb1480a5cdeb96",
+        "fingerprint": "adas \u2013 test architect (tk914fi rm 4489)|source-right|bengaluru",
+        "date": "2026-10-07T16:35:36.129249"
+    },
+    {
+        "id": "fe86d247f73642cf471d2c4e54ac4b09",
+        "fingerprint": "system test and automation architect|amd|bengaluru",
+        "date": "2026-10-07T16:35:36.129269"
+    },
+    {
+        "id": "97e619af5d690304ef5c5d94737af832",
+        "fingerprint": "technical lead, functional testing|dover india|bengaluru",
+        "date": "2026-10-07T16:35:36.129271"
+    },
+    {
+        "id": "51a9f7ad87056f7db3aa07fbe4f7481d",
+        "fingerprint": "test architect - playwright automation|newvision software|pune",
+        "date": "2026-10-07T16:35:36.129274"
+    },
+    {
+        "id": "a287b5ad6a75b8f45b01accdd4f8407c",
+        "fingerprint": "lead qa-playwright automation|newvision software|pune",
+        "date": "2026-10-07T16:35:36.129275"
+    },
+    {
+        "id": "4a29f95d3d8174f17f9ff872a2ba9b55",
+        "fingerprint": "test lead - automation testing-selenium job|yash technologies middle east|pune",
+        "date": "2026-10-07T16:35:36.129277"
+    },
+    {
+        "id": "3a25d62ab71ab826996090e31651ff38",
+        "fingerprint": "test module lead - selenium|happiest minds technologies|pune",
+        "date": "2026-10-07T16:35:36.129279"
+    },
+    {
+        "id": "89e99d8abc0b81dfef4428c680ece83c",
+        "fingerprint": "director ai & automation|medline|pune",
+        "date": "2026-10-07T16:35:36.129280"
+    },
+    {
+        "id": "8e0d7a05026abcbf02effc1006cfa918",
+        "fingerprint": "test lead|vois|pune",
+        "date": "2026-10-07T16:35:36.129282"
+    },
+    {
+        "id": "2278ea5b88d693220d44831deb564850",
+        "fingerprint": "quality lead - profee|guidehouse|hyderabad",
+        "date": "2026-10-07T16:35:36.129284"
+    },
+    {
+        "id": "8f82c3ec1a96d799e015fa66b08f36e2",
+        "fingerprint": "technical lead - playwright automation|chubb|hyderabad",
+        "date": "2026-10-07T16:35:36.129286"
+    },
+    {
+        "id": "07e389fc586fe3490626121c9936a0bb",
+        "fingerprint": "principal devops engineer \u2013 build, release and cloud automation|revvity|hyderabad",
+        "date": "2026-10-07T16:35:36.129287"
+    },
+    {
+        "id": "8f754e92d88052062234a25ff4faf65f",
+        "fingerprint": "staff quality engineer \u2014 qira ai platform|lenovo|remote",
+        "date": "2026-10-07T16:35:36.129289"
+    },
+    {
+        "id": "6a160c18f34a7ea40ec0d7b6cd0ea3ee",
+        "fingerprint": "global qa director|testronic|remote",
+        "date": "2026-10-07T16:35:36.129291"
     }
 ]
