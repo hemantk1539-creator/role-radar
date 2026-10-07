@@ -1,60 +1,5 @@
 [
     {
-        "id": "e102de34c59a17e0655b001dc3c331bb",
-        "fingerprint": "automation delivery director - poland|fortrea|mumbai",
-        "date": "2026-04-22T06:49:44.692477"
-    },
-    {
-        "id": "0a6b928f7360d23446aeb76918bd6371",
-        "fingerprint": "senior quality assurance manager|fine group|mumbai",
-        "date": "2026-04-22T06:49:44.692480"
-    },
-    {
-        "id": "2e30d526f728226ce387b5e8ccade612",
-        "fingerprint": "senior manager - corporate quality|inventia healthcare limited|mumbai",
-        "date": "2026-04-22T06:49:44.692482"
-    },
-    {
-        "id": "a3751cd04633bb9e03402d95eeda8167",
-        "fingerprint": "head - operational transformation : food testing lab|geo-chem india|mumbai",
-        "date": "2026-04-22T06:49:44.692484"
-    },
-    {
-        "id": "82f763bc7bca1ccf4becdf8f2b7d0d7a",
-        "fingerprint": "automation delivery director - poland|fortrea|hyderabad",
-        "date": "2026-04-22T06:49:44.692486"
-    },
-    {
-        "id": "267704c329a019dc80cf4ce3f075aa6d",
-        "fingerprint": "nap network test automation development manager|nokia|chennai",
-        "date": "2026-04-22T06:49:44.692488"
-    },
-    {
-        "id": "0ac23c96cb4e99739982496c585af52c",
-        "fingerprint": "lead quality engineer|soleos energy limited|ahmedabad",
-        "date": "2026-04-22T06:49:44.692490"
-    },
-    {
-        "id": "3e44a75d077d5672889aa022ae6b377b",
-        "fingerprint": "global audit manager - supplier quality management|siemens|chennai",
-        "date": "2026-04-22T06:49:44.692492"
-    },
-    {
-        "id": "c7e4b3cb3dd39997ff1c4c3e3426c981",
-        "fingerprint": "automation delivery director - poland|fortrea|bengaluru",
-        "date": "2026-04-22T12:50:15.630277"
-    },
-    {
-        "id": "f08336bdaca4e9497afed5bdd1536d2b",
-        "fingerprint": "manager, quality assurance - digital analytics (l09)|whitecrow research|hyderabad",
-        "date": "2026-04-22T12:50:15.630295"
-    },
-    {
-        "id": "87ed60a76f54b0da0543631b97441ed0",
-        "fingerprint": "senior qe manager - etl testing [t500-24971]|cibc india|hyderabad",
-        "date": "2026-04-22T12:50:15.630298"
-    },
-    {
         "id": "1848ea7860a307c3b40d1954a43e7cba",
         "fingerprint": "quality systems manager|sotalent|hyderabad",
         "date": "2026-04-22T12:50:15.630300"
@@ -24998,5 +24943,60 @@
         "id": "1d4a37f166ef42e6b54226491c5d9f2b",
         "fingerprint": "assistant manager / deputy manager quality|allen|ahmedabad",
         "date": "2026-10-06T16:35:46.501825"
+    },
+    {
+        "id": "11f74c0f37d53d3a0dd9c1a5893e8dcc",
+        "fingerprint": "quality assurance & standards manager|airbnb|bengaluru",
+        "date": "2026-10-07T06:05:23.376071"
+    },
+    {
+        "id": "94b4185ecf7297ad0b56360ff65942c5",
+        "fingerprint": "sfcc lead qa|dentsu global services|bengaluru",
+        "date": "2026-10-07T06:05:23.376088"
+    },
+    {
+        "id": "ada4d9fb39466252fac1f6e25b9617e0",
+        "fingerprint": "functional testing-technical lead-testing services|birlasoft|bengaluru",
+        "date": "2026-10-07T06:05:23.376091"
+    },
+    {
+        "id": "426d4524345b1c7cf945423f1d938a09",
+        "fingerprint": "devsecops technical lead \u2013 cloud platform engineering | automation | ci/cd | infrastructure as code | cloud security | devsecops|ltimindtree|pune",
+        "date": "2026-10-07T06:05:23.376093"
+    },
+    {
+        "id": "66642f2948ae4195c1387a5406e6b4a2",
+        "fingerprint": "product quality & deployment lead (bus & truck, ev preferred)|transvolt mobility|mumbai",
+        "date": "2026-10-07T06:05:23.376096"
+    },
+    {
+        "id": "225778a3005da18091a7ab01b483001e",
+        "fingerprint": "hiring-healthcare rcm qa manager|practolytics|hyderabad",
+        "date": "2026-10-07T06:05:23.376098"
+    },
+    {
+        "id": "394ac4efb8756e122a9388e60e26030b",
+        "fingerprint": "sdet team lead|verisk|hyderabad",
+        "date": "2026-10-07T06:05:23.376101"
+    },
+    {
+        "id": "035357747731538c6a9c4c81faf7e10a",
+        "fingerprint": "qa manager|onespan|gurugram",
+        "date": "2026-10-07T06:05:23.376103"
+    },
+    {
+        "id": "3ac9e19fee63e0fc33c91a22951cc7f6",
+        "fingerprint": "product integrity / testing & compliance manager \u2013 apparel|stridelogic|gurugram",
+        "date": "2026-10-07T06:05:23.376106"
+    },
+    {
+        "id": "8be75875a120a34d9d84b7680a7526e3",
+        "fingerprint": "founding qa lead (remote - india)|uplers|remote",
+        "date": "2026-10-07T06:05:23.376108"
+    },
+    {
+        "id": "f3b7b0efb657f258603e566fb04fed99",
+        "fingerprint": "quality assurance & standards manager|airbnb",
+        "date": "2026-10-07T06:05:23.376110"
     }
 ]
