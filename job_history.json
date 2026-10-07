@@ -1,100 +1,5 @@
 [
     {
-        "id": "1848ea7860a307c3b40d1954a43e7cba",
-        "fingerprint": "quality systems manager|sotalent|hyderabad",
-        "date": "2026-04-22T12:50:15.630300"
-    },
-    {
-        "id": "d3ac93ec7997ba345938dfb36c4bfe65",
-        "fingerprint": "automation leader|hcltech|gurugram",
-        "date": "2026-04-22T12:50:15.630301"
-    },
-    {
-        "id": "98ab3afe406654caa20208a330426934",
-        "fingerprint": "mask quality lead|tata electronics|ahmedabad",
-        "date": "2026-04-22T12:50:15.630303"
-    },
-    {
-        "id": "f96200c6fb0d8abfcb51ac9be941dcc0",
-        "fingerprint": "business development manager (industrial automation)|engage experts international|ahmedabad",
-        "date": "2026-04-22T12:50:15.630305"
-    },
-    {
-        "id": "01ba8bbb276735be3f9d972bd0b53533",
-        "fingerprint": "head \u2013 quality|pun\u00e9 gas|pune",
-        "date": "2026-04-22T19:50:00.308471"
-    },
-    {
-        "id": "75a18928cbba5aad0ac877c481514b4f",
-        "fingerprint": "business manager - energy and industrial automation|ul solutions|bengaluru",
-        "date": "2026-04-22T19:50:00.308491"
-    },
-    {
-        "id": "90f776f6ebeb5e592d705fecf5573abf",
-        "fingerprint": "automation engineering manager -uipath|roboyo|hyderabad",
-        "date": "2026-04-22T19:50:00.308495"
-    },
-    {
-        "id": "74c8436945d09b54e46a2b4351a8d465",
-        "fingerprint": "qa manager - food industry|connecting chains|hyderabad",
-        "date": "2026-04-22T19:50:00.308497"
-    },
-    {
-        "id": "622aadebbb63bc1ce6fe6a946b703d4b",
-        "fingerprint": "business analysis and qa lead|wilhelmsen port services|chennai",
-        "date": "2026-04-22T19:50:00.308499"
-    },
-    {
-        "id": "f78152ccaf8fa3e4ef02b49c7f61d654",
-        "fingerprint": "senior automation architect|qualitest acq|chennai",
-        "date": "2026-04-22T19:50:00.308501"
-    },
-    {
-        "id": "b0e6d52ebf60eb739d97619a23d74134",
-        "fingerprint": "avp, sox testing lead (l10)|synchrony|pune",
-        "date": "2026-04-23T06:49:48.289127"
-    },
-    {
-        "id": "647747860e97bdcefb7a8456d86eb138",
-        "fingerprint": "principal engineer-qe|dover india|bengaluru",
-        "date": "2026-04-23T06:49:48.289143"
-    },
-    {
-        "id": "89d229360523356a104f3c913b6ba538",
-        "fingerprint": "quality assurance lead - manual &amp; automation testing|sampoorna consultants|bengaluru",
-        "date": "2026-04-23T06:49:48.289146"
-    },
-    {
-        "id": "cac3944efbd6599319e9a2b6ff896633",
-        "fingerprint": "manager, d&t, process automation|dsm-firmenich|hyderabad",
-        "date": "2026-04-23T06:49:48.289148"
-    },
-    {
-        "id": "f6c0743816d4afe6b93f7f67fcab0cf4",
-        "fingerprint": "quality engineering architect|accenture in india|hyderabad",
-        "date": "2026-04-23T06:49:48.289150"
-    },
-    {
-        "id": "2fb0a91bb6736cfe249ee9323c7b751e",
-        "fingerprint": "quality control manager|zenner india|gurugram",
-        "date": "2026-04-23T06:49:48.289152"
-    },
-    {
-        "id": "f340f4763b8abc19b5995f4829e1eafe",
-        "fingerprint": "qa lead \u2013 automation (api & ui)|habilelabs|gurugram",
-        "date": "2026-04-23T06:49:48.289154"
-    },
-    {
-        "id": "c6eba6e069d1e9e78ba3fbdca800ba06",
-        "fingerprint": "senior / executive director - quality assurance, global central laboratories|thermo fisher scientific|delhi",
-        "date": "2026-04-23T06:49:48.289157"
-    },
-    {
-        "id": "5f88968479e3a3fb0909dfb7d27c29aa",
-        "fingerprint": "senior technical lead - test/interface/uc board bring up|hcltech|bengaluru",
-        "date": "2026-04-23T12:49:35.194403"
-    },
-    {
         "id": "63eeec00dd677c402884a18e3e34e1e0",
         "fingerprint": "director-quality|alight solutions|noida",
         "date": "2026-04-23T12:49:35.194418"
@@ -24998,5 +24903,100 @@
         "id": "f3b7b0efb657f258603e566fb04fed99",
         "fingerprint": "quality assurance & standards manager|airbnb",
         "date": "2026-10-07T06:05:23.376110"
+    },
+    {
+        "id": "eb24224ea1c5c7f77a8408ce155585dd",
+        "fingerprint": "qa lead \u2013 selenium with c#|tesslogs it solutions|bengaluru",
+        "date": "2026-10-07T11:34:55.860308"
+    },
+    {
+        "id": "bea66ee2bd4a6628d0c5aee520a9331d",
+        "fingerprint": "system test lead \u2013 iot network platform (rf mesh)|moutups|bengaluru",
+        "date": "2026-10-07T11:34:55.860327"
+    },
+    {
+        "id": "84a47f67211fb70eb475db98db77291f",
+        "fingerprint": "test lead|infinite computer solutions|bengaluru",
+        "date": "2026-10-07T11:34:55.860330"
+    },
+    {
+        "id": "4a0507f53cea6f4197dbf063feec3692",
+        "fingerprint": "lead qa engineer|qualys|pune",
+        "date": "2026-10-07T11:34:55.860332"
+    },
+    {
+        "id": "26f1ee4d04d0788ed88b07574fc18ea6",
+        "fingerprint": "manager - salesforce qa|riveron india|pune",
+        "date": "2026-10-07T11:34:55.860335"
+    },
+    {
+        "id": "114113ed45cdadf683ef3456cded8b72",
+        "fingerprint": "lead quality assurance engineer|onit|pune",
+        "date": "2026-10-07T11:34:55.860337"
+    },
+    {
+        "id": "b40a5d651633456860c45c73b921ddd4",
+        "fingerprint": "lead quality assurance engineer|onit india|pune",
+        "date": "2026-10-07T11:34:55.860339"
+    },
+    {
+        "id": "0bf336e4802489fee59a94ab245a0d85",
+        "fingerprint": "senior quality assurance quality control manager|samsung c&t india pvt. ltd|mumbai",
+        "date": "2026-10-07T11:34:55.860341"
+    },
+    {
+        "id": "39c9b92a5836d19c7c6816c04df0e687",
+        "fingerprint": "head-culinary operations, quality & cost control|trinetra venture india private limited|mumbai",
+        "date": "2026-10-07T11:34:55.860344"
+    },
+    {
+        "id": "5f945a7d70c870e127b589f0410bbf4f",
+        "fingerprint": "standardization & quality control manager|parsi dairy farm private limited|mumbai",
+        "date": "2026-10-07T11:34:55.860347"
+    },
+    {
+        "id": "5872fbf6b09ecc0406f3426088725b0c",
+        "fingerprint": "lead ii - software testing- sdet- java, testng, automation framework design & development, api|ust|hyderabad",
+        "date": "2026-10-07T11:34:55.860349"
+    },
+    {
+        "id": "09f86990d4398c79813e51b8eeed700b",
+        "fingerprint": "lead i - software testing- automation qa- java + testng + selenium + automation framework + agile|ust|hyderabad",
+        "date": "2026-10-07T11:34:55.860352"
+    },
+    {
+        "id": "b4c3652b55977ec86b8e994327851989",
+        "fingerprint": "test lead|brainstack technologies (a unit of aqueduct advisors pvt ltd)|gurugram",
+        "date": "2026-10-07T11:34:55.860354"
+    },
+    {
+        "id": "3d6a77f5b78716e00c3e5280beed0eca",
+        "fingerprint": "service quality lead|whirlpool india|gurugram",
+        "date": "2026-10-07T11:34:55.860356"
+    },
+    {
+        "id": "3af7cef3eaec01aac5bd91b330e97ef1",
+        "fingerprint": "quality assurance manager|vedanshiv garments pvt ltd|gurugram",
+        "date": "2026-10-07T11:34:55.860358"
+    },
+    {
+        "id": "eba0257f18d12c12aa010f6e3f589258",
+        "fingerprint": "test operations manager|agratas \u2013 a tata enterprise|ahmedabad",
+        "date": "2026-10-07T11:34:55.860360"
+    },
+    {
+        "id": "c86fa55e89253a51e5db956a40d2dfa6",
+        "fingerprint": "vp, head of testing|intellect design arena ltd|chennai",
+        "date": "2026-10-07T11:34:55.860363"
+    },
+    {
+        "id": "d9c15832e1cd247eadf9ebb93ea9855f",
+        "fingerprint": "senior staff software engineer in test|druva|remote",
+        "date": "2026-10-07T11:34:55.860365"
+    },
+    {
+        "id": "9f2136265e3039e01681917e3fd0cb07",
+        "fingerprint": "current: lead qa engineer|wwr",
+        "date": "2026-10-07T11:34:55.860368"
     }
 ]
