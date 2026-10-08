@@ -1,70 +1,5 @@
 [
     {
-        "id": "df28b09e232dda07197ab8647aed665a",
-        "fingerprint": "oracle (cpq) quality assurance --lead i - software testing|ust|pune",
-        "date": "2026-04-25T19:49:47.953132"
-    },
-    {
-        "id": "0e00b6804c01b03734ae92ab0dc9ffbe",
-        "fingerprint": "software test manager|siemens electronic systems design & manufacturing|bengaluru",
-        "date": "2026-04-26T06:50:02.652960"
-    },
-    {
-        "id": "bd7796892e3c1cd0bc85c4060fdac241",
-        "fingerprint": "director quality assurance engineer|trimont|hyderabad",
-        "date": "2026-04-26T06:50:02.652974"
-    },
-    {
-        "id": "b4d9b452e15d236485acf8a3c2b0490b",
-        "fingerprint": "avp, sox testing lead (l10)|synchrony|hyderabad",
-        "date": "2026-04-26T06:50:02.652977"
-    },
-    {
-        "id": "895190f1845964ed588c1ce6e91553a7",
-        "fingerprint": "sr. staff test engineer|teradata|hyderabad",
-        "date": "2026-04-26T06:50:02.652980"
-    },
-    {
-        "id": "db6efca5c126610077585631213ca156",
-        "fingerprint": "senior manager, global customer quality|danfoss india|remote",
-        "date": "2026-04-26T06:50:02.652982"
-    },
-    {
-        "id": "a9b61eb6662978d715a69b244441da99",
-        "fingerprint": "avp, sox testing lead (l10)|synchrony|bengaluru",
-        "date": "2026-04-26T12:49:19.548463"
-    },
-    {
-        "id": "9e771ef23d7e168de884499da0a70bfd",
-        "fingerprint": "quality assurance manager metals|shine.com|hyderabad",
-        "date": "2026-04-26T12:49:19.548479"
-    },
-    {
-        "id": "0c630c41d4ea712cdd43d476c8c2a951",
-        "fingerprint": "manager - cloud automation software engineer|macquarie group|hyderabad",
-        "date": "2026-04-26T12:49:19.548482"
-    },
-    {
-        "id": "10c0b7eb731f0fa9574db3abc61f8caa",
-        "fingerprint": "quality - manager|ey|hyderabad",
-        "date": "2026-04-26T12:49:19.548485"
-    },
-    {
-        "id": "b248cb5b7b9f3bace80c1a121b98c650",
-        "fingerprint": "head of quality assurance|best group|gurugram",
-        "date": "2026-04-26T12:49:19.548487"
-    },
-    {
-        "id": "7c4ee94701453ab3e39a7bc20a5893bc",
-        "fingerprint": "senior quality control manager|shine.com|gurugram",
-        "date": "2026-04-26T12:49:19.548489"
-    },
-    {
-        "id": "93b38a82d785402c5a3d5406bc54839f",
-        "fingerprint": "field quality improvement dy manager|nissan motor corporation|chennai",
-        "date": "2026-04-26T12:49:19.548491"
-    },
-    {
         "id": "577b38fc71aaa2032d09d44385e75da5",
         "fingerprint": "senior quality control manager|shine.com|chennai",
         "date": "2026-04-26T12:49:19.548494"
@@ -24998,5 +24933,70 @@
         "id": "e3c73cd3eb6b5b7aa82edef87d05ee90",
         "fingerprint": "director global quality (m/f/x)|wieland group|remote",
         "date": "2026-10-08T11:35:17.219873"
+    },
+    {
+        "id": "101e4637213c7b425de06ec92e03cc51",
+        "fingerprint": "qa lead|palo alto networks|pune",
+        "date": "2026-10-08T16:35:16.689766"
+    },
+    {
+        "id": "0b9e37f008246e1a1d3cbbcb626a8c06",
+        "fingerprint": "senior qa lead|emagine|bengaluru",
+        "date": "2026-10-08T16:35:16.689781"
+    },
+    {
+        "id": "0aaeedbbdcbd00c49999194539a68a3d",
+        "fingerprint": "test lead - switching and routing|happiest minds technologies|bengaluru",
+        "date": "2026-10-08T16:35:16.689783"
+    },
+    {
+        "id": "1e2ee41bd8d49750b60f9c55a9fdac81",
+        "fingerprint": "test module lead - switching and routing|happiest minds technologies|bengaluru",
+        "date": "2026-10-08T16:35:16.689785"
+    },
+    {
+        "id": "2e69c15362f7d05698cf6265d7c8b80d",
+        "fingerprint": "gestc - senior playwright test automation architect - tax senior - hyderabad|deloitte|hyderabad",
+        "date": "2026-10-08T16:35:16.689787"
+    },
+    {
+        "id": "5fe6579a7f94fe3cda94d38b1d4cbcb3",
+        "fingerprint": "people technology testing and release lead|wise|hyderabad",
+        "date": "2026-10-08T16:35:16.689789"
+    },
+    {
+        "id": "3fe8093814838434a7d182ac0b8d2ff0",
+        "fingerprint": "lead i - software testing|ust|hyderabad",
+        "date": "2026-10-08T16:35:16.689791"
+    },
+    {
+        "id": "49e952c1bf9893a5e14dec1d4b5e2ab4",
+        "fingerprint": "qe program director|iris software inc.|gurugram",
+        "date": "2026-10-08T16:35:16.689792"
+    },
+    {
+        "id": "65f9c82b8e12662521ef0dfd9a8580a3",
+        "fingerprint": "quality manager in projects (f/d/m)|siemens|gurugram",
+        "date": "2026-10-08T16:35:16.689795"
+    },
+    {
+        "id": "c6032e46bc58aac4917f078e30ebcc36",
+        "fingerprint": "manager- quality|euronics india|gurugram",
+        "date": "2026-10-08T16:35:16.689796"
+    },
+    {
+        "id": "37b830eedf88e8f24bd3e9a50c6113cd",
+        "fingerprint": "site quality manager - bhadla rajasthan|hitachi energy|gurugram",
+        "date": "2026-10-08T16:35:16.689798"
+    },
+    {
+        "id": "3a124ed2913d349990060b6eda5a7300",
+        "fingerprint": "director, sdet|highlevel|remote",
+        "date": "2026-10-08T16:35:16.689800"
+    },
+    {
+        "id": "a2899d2051a007b01a3cb8b2565ec642",
+        "fingerprint": "assistant manager, quality|euronics india|gurugram",
+        "date": "2026-10-08T16:35:16.689801"
     }
 ]
