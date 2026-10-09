@@ -1,60 +1,5 @@
 [
     {
-        "id": "38876b1f82c85ff7d61e0702b5193713",
-        "fingerprint": "senior manager quality assurance|emmes group|bengaluru",
-        "date": "2026-04-28T12:49:57.228415"
-    },
-    {
-        "id": "b7a08644f4ac33ac57eb01a075aab319",
-        "fingerprint": "manager - supplier quality assurance - imea|zf group|pune",
-        "date": "2026-04-28T12:49:57.228417"
-    },
-    {
-        "id": "18729e1719c6f95b1f0fcb02d3b070ab",
-        "fingerprint": "senior lead quality engineer - r01555359|brillio|pune",
-        "date": "2026-04-28T12:49:57.228419"
-    },
-    {
-        "id": "2b8a8045717997f9e8876cba7376901c",
-        "fingerprint": "director quality|alight solutions|gurugram",
-        "date": "2026-04-28T12:49:57.228421"
-    },
-    {
-        "id": "00942839240ee71e8cb12371210f6f7c",
-        "fingerprint": "senior quality assurance manager-injection molding|fortune plastech|bengaluru",
-        "date": "2026-04-28T19:49:59.443478"
-    },
-    {
-        "id": "cde28d30e5aadd65a2459305ed4fd04f",
-        "fingerprint": "lead quality engineer|shine.com|mumbai",
-        "date": "2026-04-28T19:49:59.443493"
-    },
-    {
-        "id": "84b1d92eafe008d4431fcbb357277c15",
-        "fingerprint": "ar quality manager|ascent health solutions|hyderabad",
-        "date": "2026-04-28T19:49:59.443495"
-    },
-    {
-        "id": "7770481f6a37e9a10c842262ddb26f4c",
-        "fingerprint": "qa manager operations|sandoz india|hyderabad",
-        "date": "2026-04-28T19:49:59.443497"
-    },
-    {
-        "id": "1605931e3c4705879cb0f1c4b9254eaa",
-        "fingerprint": "project lead - integration and test hvdc control and protection system|siemens|noida",
-        "date": "2026-04-28T19:49:59.443499"
-    },
-    {
-        "id": "e7101bd5b1c6fae1def39219f2755556",
-        "fingerprint": "technical project manager \u2013 ai & automation projects|libre tax service|ahmedabad",
-        "date": "2026-04-28T19:49:59.443501"
-    },
-    {
-        "id": "f191f8b5f3d4a51075a027d08ff3aa98",
-        "fingerprint": "testing-delivery head|datamatics|remote",
-        "date": "2026-04-28T19:49:59.443502"
-    },
-    {
         "id": "f26b018a17abe7f9c93115f320367cee",
         "fingerprint": "operations manager, quality assurance|monzo",
         "date": "2026-04-28T19:49:59.443504"
@@ -24998,5 +24943,60 @@
         "id": "69cb6d3c7131e4fb0d8d77759818e18c",
         "fingerprint": "lead software development engineer in test - mobile|highlevel|remote",
         "date": "2026-10-09T11:35:06.040089"
+    },
+    {
+        "id": "48247731488c3fd06600cb7bd389f9c7",
+        "fingerprint": "lead engineer qa|ansira|bengaluru",
+        "date": "2026-10-09T16:35:08.826672"
+    },
+    {
+        "id": "9f3371065be06ad0ff97fb74cbe5f13d",
+        "fingerprint": "lead quality engineer - r01572680|brillio|bengaluru",
+        "date": "2026-10-09T16:35:08.826690"
+    },
+    {
+        "id": "21365eabffc96912de70a29677507c02",
+        "fingerprint": "design quality leader (aspice) (tt58si rm 4502)|source-right|pune",
+        "date": "2026-10-09T16:35:08.826693"
+    },
+    {
+        "id": "cad3225e3d500cfe8701390aa2ceec08",
+        "fingerprint": "design quality leader|emagine|pune",
+        "date": "2026-10-09T16:35:08.826695"
+    },
+    {
+        "id": "05dcb8ba31e609355852af26ece78f18",
+        "fingerprint": "lead quality engineer|cadence|pune",
+        "date": "2026-10-09T16:35:08.826697"
+    },
+    {
+        "id": "2aa5ba8179bda52634052fe8af2f12f3",
+        "fingerprint": "technical leader-embedded software development ( yocto) industrial automation domain|us based mnc|pune",
+        "date": "2026-10-09T16:35:08.826700"
+    },
+    {
+        "id": "28c1564e8c55358d47ce2ced2df10900",
+        "fingerprint": "quality assurance manager|nova nova|mumbai",
+        "date": "2026-10-09T16:35:08.826701"
+    },
+    {
+        "id": "f1155c701743a213e13f961e2704fb7a",
+        "fingerprint": "lead software dev engineer test ii|metlife|hyderabad",
+        "date": "2026-10-09T16:35:08.826704"
+    },
+    {
+        "id": "7f93995a41159b6e24594fef47e8a3ee",
+        "fingerprint": "test lead|digile|hyderabad",
+        "date": "2026-10-09T16:35:08.826705"
+    },
+    {
+        "id": "70b1b0f1ef60e1e47e8f969269c8dfeb",
+        "fingerprint": "senior manager - quality assurance|stryker|noida",
+        "date": "2026-10-09T16:35:08.826707"
+    },
+    {
+        "id": "0e0a8292b9116a12adb3b945f74a2eb4",
+        "fingerprint": "manager - quality profee multispecialty e/m|guidehouse|chennai",
+        "date": "2026-10-09T16:35:08.826709"
     }
 ]
