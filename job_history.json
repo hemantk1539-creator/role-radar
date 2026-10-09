@@ -1,95 +1,5 @@
 [
     {
-        "id": "577b38fc71aaa2032d09d44385e75da5",
-        "fingerprint": "senior quality control manager|shine.com|chennai",
-        "date": "2026-04-26T12:49:19.548494"
-    },
-    {
-        "id": "1e7d1aa2d274ca8baf8cd1e1ef96e5a2",
-        "fingerprint": "sdet lead|qualitest acq|bengaluru",
-        "date": "2026-04-27T06:49:45.835451"
-    },
-    {
-        "id": "c610d9971512bcd916bf174efb31ab5e",
-        "fingerprint": "quality assurance manager|prasanna packaging machinery pvt ltd|mumbai",
-        "date": "2026-04-27T06:49:45.835467"
-    },
-    {
-        "id": "0187dfff7b3adf78940436a806b53dd0",
-        "fingerprint": "manager / deputy manager quality|syntegon|remote",
-        "date": "2026-04-27T06:49:45.835470"
-    },
-    {
-        "id": "d2a58c3920d32e34200babc55cedbffc",
-        "fingerprint": "qa manager \u2013 customer audits & compliance|remal|mumbai",
-        "date": "2026-04-27T12:49:42.406791"
-    },
-    {
-        "id": "905b00e74126c1a48769926153477908",
-        "fingerprint": "deputy manager - quality (integrated projects)|piramal pharma ltd|mumbai",
-        "date": "2026-04-27T12:49:42.406808"
-    },
-    {
-        "id": "3b69ffe02e6254932d3161d25fdd911b",
-        "fingerprint": "manager - procurement automation & analytics|lseg|bengaluru",
-        "date": "2026-04-27T12:49:42.406812"
-    },
-    {
-        "id": "49e3dca849b2c16a91ba953fd185fd0b",
-        "fingerprint": "test manager - quality engineering|happiest minds technologies|bengaluru",
-        "date": "2026-04-27T12:49:42.406814"
-    },
-    {
-        "id": "8be153b0699b46d3d0470bd9934a8d26",
-        "fingerprint": "quality and escalation manager|hp|pune",
-        "date": "2026-04-27T12:49:42.406816"
-    },
-    {
-        "id": "f801bb868b3cf25e068e7c1ef7292dbd",
-        "fingerprint": "senior staff software engineer in test (dcp)|druva|pune",
-        "date": "2026-04-27T12:49:42.406818"
-    },
-    {
-        "id": "89dc3b1626e4d8fcbfd0b694c4c4ff30",
-        "fingerprint": "quality director|shine.com|hyderabad",
-        "date": "2026-04-27T12:49:42.406820"
-    },
-    {
-        "id": "7c6017d295b9c5bf0b55c7916b63d358",
-        "fingerprint": "clinical director (quality) - radiology|apollo radiology international|hyderabad",
-        "date": "2026-04-27T12:49:42.406823"
-    },
-    {
-        "id": "c664563e8969a1bdcaabaa477f33cae3",
-        "fingerprint": "team manager - qa|wsa \u2013 wonderful sound for all|hyderabad",
-        "date": "2026-04-27T12:49:42.406825"
-    },
-    {
-        "id": "a3e437a261ac60941a633ea7db52225c",
-        "fingerprint": "solution architect manufacturing and quality|opella|hyderabad",
-        "date": "2026-04-27T12:49:42.406827"
-    },
-    {
-        "id": "cb6b0d746b4d5c23d8d5b3b3374157de",
-        "fingerprint": "senior qa specialist \u2013 single-use systems (sus) / supplier quality lead|sotalent|hyderabad",
-        "date": "2026-04-27T12:49:42.406829"
-    },
-    {
-        "id": "5360684a793ac2cc3ad877fa7961ce72",
-        "fingerprint": "quality gm/qa manager(for garment manufacturing exports house)|fashionc overseas|gurugram",
-        "date": "2026-04-27T12:49:42.406831"
-    },
-    {
-        "id": "de5ebcee6444847e25d64acfa005ad04",
-        "fingerprint": "business operations & ai automation lead|myoperator|gurugram",
-        "date": "2026-04-27T12:49:42.406833"
-    },
-    {
-        "id": "08ea12c463c859e580fd00a189227898",
-        "fingerprint": "training and quality manager|detailing bull|noida",
-        "date": "2026-04-27T12:49:42.406836"
-    },
-    {
         "id": "481d9424306a088d730301dac8e7ddeb",
         "fingerprint": "head-development quality assurance (dqa)|crystal crop protection limited|noida",
         "date": "2026-04-27T12:49:42.406838"
@@ -24998,5 +24908,95 @@
         "id": "a2899d2051a007b01a3cb8b2565ec642",
         "fingerprint": "assistant manager, quality|euronics india|gurugram",
         "date": "2026-10-08T16:35:16.689801"
+    },
+    {
+        "id": "88c320f99b55055cd340d71c0808543b",
+        "fingerprint": "lead software automation test engineer (java, selenium)- 9+ years|fis|pune",
+        "date": "2026-10-09T06:05:21.629283"
+    },
+    {
+        "id": "c28529c456806f1c055d9bc711e5a31c",
+        "fingerprint": "business development head (automation biw projects)|automation|pune",
+        "date": "2026-10-09T06:05:21.629297"
+    },
+    {
+        "id": "0c65785ff1888e812d87b918e3c6bdaa",
+        "fingerprint": "test analyst lead \u2014 sit/regression automation (systematics)- manager|pwc acceleration center india|bengaluru",
+        "date": "2026-10-09T06:05:21.629300"
+    },
+    {
+        "id": "0e5e03dd2b873cabd0270de23d86f961",
+        "fingerprint": "design for test (dft) lead|mulya technologies|bengaluru",
+        "date": "2026-10-09T06:05:21.629302"
+    },
+    {
+        "id": "ecdbb8bfff19da34b7d46a825f2ef1f9",
+        "fingerprint": "api+ tosca technical lead-testing services|birlasoft|bengaluru",
+        "date": "2026-10-09T06:05:21.629304"
+    },
+    {
+        "id": "b76bd4d3068614accf626cba59d59184",
+        "fingerprint": "regional etail quality improvement manager (operations)|blue dart|mumbai",
+        "date": "2026-10-09T06:05:21.629306"
+    },
+    {
+        "id": "710d74b88c5b9b3b5dbf1d9596ced4bd",
+        "fingerprint": "regional dp quality improvement manager|blue dart|mumbai",
+        "date": "2026-10-09T06:05:21.629309"
+    },
+    {
+        "id": "84c6b41dd237e18901747c8494573a58",
+        "fingerprint": "quality engineering manager|optum india|hyderabad",
+        "date": "2026-10-09T06:05:21.629311"
+    },
+    {
+        "id": "3d14ee32d9346ddddd2e282dd6ca9794",
+        "fingerprint": "quality engineering manager (java, python, genai, selenium, playwright)|optum india|gurugram",
+        "date": "2026-10-09T06:05:21.629312"
+    },
+    {
+        "id": "0a48c9878f2673ab42ec06553a93eab2",
+        "fingerprint": "qa lead|post a resume|ahmedabad",
+        "date": "2026-10-09T06:05:21.629315"
+    },
+    {
+        "id": "54dc981dfd2c3e87d369b403f6a579be",
+        "fingerprint": "quality control lead|innovus rollers private limited|ahmedabad",
+        "date": "2026-10-09T06:05:21.629317"
+    },
+    {
+        "id": "bbd110e86a27a33dc1531dd476180876",
+        "fingerprint": "product integrity / testing & compliance manager \u2013 apparel|stridelogic|noida",
+        "date": "2026-10-09T06:05:21.629319"
+    },
+    {
+        "id": "c1b45daf39ec32f37795afa37441abb0",
+        "fingerprint": "manager, risk data quality|standard chartered india|chennai",
+        "date": "2026-10-09T06:05:21.629321"
+    },
+    {
+        "id": "9891f8a3961773a55a79a3b2b3f1d6c5",
+        "fingerprint": "director - qa & engineering|pairsoft|remote",
+        "date": "2026-10-09T06:05:21.629323"
+    },
+    {
+        "id": "dd69025adf20740befaf722e044e9a1d",
+        "fingerprint": "\ud83c\udfd6\ufe0fsystems optimization & automation lead - job code: 1782142842931|coconut",
+        "date": "2026-10-09T06:05:21.629325"
+    },
+    {
+        "id": "902595b2519603972dc79f63723af225",
+        "fingerprint": "qa supervisor to lead quality operations across apparels, hardgoods & softgoods for a reputed global mnc in gurgaon|stap management consultants|gurugram",
+        "date": "2026-10-09T06:05:21.629327"
+    },
+    {
+        "id": "e3673a19499f5cd47e1eb68cc11a4cf1",
+        "fingerprint": "global quality director|messring gmbh|remote",
+        "date": "2026-10-09T06:05:21.629330"
+    },
+    {
+        "id": "0ac31fed4f2137038fff05213b84c35f",
+        "fingerprint": "qa lead / senior automation test lead (ai global product)|11x studio|remote",
+        "date": "2026-10-09T06:05:21.629331"
     }
 ]
