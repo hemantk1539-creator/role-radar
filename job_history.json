@@ -1,70 +1,5 @@
 [
     {
-        "id": "481d9424306a088d730301dac8e7ddeb",
-        "fingerprint": "head-development quality assurance (dqa)|crystal crop protection limited|noida",
-        "date": "2026-04-27T12:49:42.406838"
-    },
-    {
-        "id": "479019444102678b6c1c06fac4742c6d",
-        "fingerprint": "quality and lean manager|ge vernova|chennai",
-        "date": "2026-04-27T12:49:42.406840"
-    },
-    {
-        "id": "4eecf9806e7b834ec8b0570ef3bb8507",
-        "fingerprint": "quality manager - hospital industry|kauvery hospital|chennai",
-        "date": "2026-04-27T12:49:42.406842"
-    },
-    {
-        "id": "502d49525f6fdbb7a4b4f33f1d6ea225",
-        "fingerprint": "sap test manager|cardinal health|bengaluru",
-        "date": "2026-04-27T19:50:09.785570"
-    },
-    {
-        "id": "da4ba1941072b7cef5ec4df6e0f09db9",
-        "fingerprint": "quality assurance manager (3-4 years)|bdi group (india)|pune",
-        "date": "2026-04-27T19:50:09.785584"
-    },
-    {
-        "id": "7433da893d0517be05bb4b0c90cd964e",
-        "fingerprint": "country quality manager|sanofi|mumbai",
-        "date": "2026-04-27T19:50:09.785587"
-    },
-    {
-        "id": "9188ea76944f2580f3e1913090825f70",
-        "fingerprint": "qa lead (manual + automation + ai)|saisystems health|pune",
-        "date": "2026-04-28T06:49:40.446872"
-    },
-    {
-        "id": "32db4a4b067f4e94e07b78bb8a047873",
-        "fingerprint": "seniot manager (operations via calling set up)|nobroker hr|bengaluru",
-        "date": "2026-04-28T06:49:40.446891"
-    },
-    {
-        "id": "dd78d660de924c355d080849f511984a",
-        "fingerprint": "quality and escalation manager|mygwork - lgbtq+ business community|mumbai",
-        "date": "2026-04-28T06:49:40.446894"
-    },
-    {
-        "id": "1c25d947d5ffaa737e12661569c7ec26",
-        "fingerprint": "sr quality manager, amazon customer service|amazon|hyderabad",
-        "date": "2026-04-28T06:49:40.446896"
-    },
-    {
-        "id": "dd1f70b69d83ba4428200908aa8ced38",
-        "fingerprint": "lead ii - software testing (performance testing +apache jmeter monitoring tools)|ust|hyderabad",
-        "date": "2026-04-28T06:49:40.446898"
-    },
-    {
-        "id": "4129687581ad9229b207d31ca8dcca23",
-        "fingerprint": "sr quality manager, amazon customer service|amazon|gurugram",
-        "date": "2026-04-28T06:49:40.446900"
-    },
-    {
-        "id": "3863426e8a251bbf5616748cdfa58873",
-        "fingerprint": "test architect | mcu & flash memory specialist (j750 platform)|texas instruments|bengaluru",
-        "date": "2026-04-28T12:49:57.228398"
-    },
-    {
         "id": "38876b1f82c85ff7d61e0702b5193713",
         "fingerprint": "senior manager quality assurance|emmes group|bengaluru",
         "date": "2026-04-28T12:49:57.228415"
@@ -24998,5 +24933,70 @@
         "id": "0ac31fed4f2137038fff05213b84c35f",
         "fingerprint": "qa lead / senior automation test lead (ai global product)|11x studio|remote",
         "date": "2026-10-09T06:05:21.629331"
+    },
+    {
+        "id": "ec42bcf2001d7511d7596f2d89df9423",
+        "fingerprint": "test delivery manager - presales|test yantra|bengaluru",
+        "date": "2026-10-09T11:35:06.040052"
+    },
+    {
+        "id": "a9fd14f6b03d025575bf32a959bd7f34",
+        "fingerprint": "test architect - automatic train protection (atp) - railway infrastructure|siemens|pune",
+        "date": "2026-10-09T11:35:06.040068"
+    },
+    {
+        "id": "d6e61417f7a6796b78d6a97eda9b4e18",
+        "fingerprint": "quality assurance manager|jibe erp|mumbai",
+        "date": "2026-10-09T11:35:06.040071"
+    },
+    {
+        "id": "2bf006777e199aff61ece963a8207bc3",
+        "fingerprint": "flutter test architect|infai|mumbai",
+        "date": "2026-10-09T11:35:06.040073"
+    },
+    {
+        "id": "437bcc1320ae8258dda8a4ddc8c0c61a",
+        "fingerprint": "senior manager - corporate quality audit|sun pharma|mumbai",
+        "date": "2026-10-09T11:35:06.040075"
+    },
+    {
+        "id": "5c2b94369548085b58d74659441a04e8",
+        "fingerprint": "quality manager|pvr controls|mumbai",
+        "date": "2026-10-09T11:35:06.040077"
+    },
+    {
+        "id": "844bdefd50da7bdb6d515ec677c74e7d",
+        "fingerprint": "sap test manager|people prime worldwide|hyderabad",
+        "date": "2026-10-09T11:35:06.040079"
+    },
+    {
+        "id": "f6414715ed8ed3f8b64b28f304e2c0d0",
+        "fingerprint": "senior performance testing engineer - team lead|state street|hyderabad",
+        "date": "2026-10-09T11:35:06.040080"
+    },
+    {
+        "id": "8c9f7235b1bac9c62297d11045f1242e",
+        "fingerprint": "automation test architect sr technical lead-testing services|birlasoft|gurugram",
+        "date": "2026-10-09T11:35:06.040082"
+    },
+    {
+        "id": "0252c601fb11df72d1937996f94f005d",
+        "fingerprint": "quality engineering manager|ms/dhaariwal buildtech limited|gurugram",
+        "date": "2026-10-09T11:35:06.040084"
+    },
+    {
+        "id": "805b37fbcce7eeb7f8383da7d6bc955a",
+        "fingerprint": "head of quality assurance|saaki argus and averil consulting|chennai",
+        "date": "2026-10-09T11:35:06.040086"
+    },
+    {
+        "id": "671dd0db4602b2d5b8f48eacd6275eff",
+        "fingerprint": "manufacturing quality manager|simpson & co. ltd.|chennai",
+        "date": "2026-10-09T11:35:06.040088"
+    },
+    {
+        "id": "69cb6d3c7131e4fb0d8d77759818e18c",
+        "fingerprint": "lead software development engineer in test - mobile|highlevel|remote",
+        "date": "2026-10-09T11:35:06.040089"
     }
 ]
