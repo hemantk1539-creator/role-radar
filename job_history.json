@@ -1,50 +1,5 @@
 [
     {
-        "id": "f26b018a17abe7f9c93115f320367cee",
-        "fingerprint": "operations manager, quality assurance|monzo",
-        "date": "2026-04-28T19:49:59.443504"
-    },
-    {
-        "id": "aad362cb34405dea018061be1fd702e1",
-        "fingerprint": "manager - compliance testing|godrej capital|mumbai",
-        "date": "2026-04-29T06:49:42.011940"
-    },
-    {
-        "id": "7193022cbdd620d811510c394f664080",
-        "fingerprint": "lead quality engineer|scitara corporation|mumbai",
-        "date": "2026-04-29T06:49:42.011956"
-    },
-    {
-        "id": "568fae2a39ba26abfeddae11ced3d1fa",
-        "fingerprint": "yarn qa manager|whizzo|bengaluru",
-        "date": "2026-04-29T12:49:48.265196"
-    },
-    {
-        "id": "e87eb50312728caf8a8a55a7a80f5efe",
-        "fingerprint": "manager - quality|ge vernova|bengaluru",
-        "date": "2026-04-29T12:49:48.265215"
-    },
-    {
-        "id": "e061c66e190fce310b5678b6f358d78a",
-        "fingerprint": "asst. project manager-qa/qc -mep|team4 lifespaces|hyderabad",
-        "date": "2026-04-29T12:49:48.265218"
-    },
-    {
-        "id": "68a8107e0f18fc183b02b1b995412d75",
-        "fingerprint": "lead - quality|adaniconnex|hyderabad",
-        "date": "2026-04-29T12:49:48.265220"
-    },
-    {
-        "id": "caf229d39f40d04cb853b9d0ab22a9e7",
-        "fingerprint": "quality assurance manager|netweb technologies india ltd.|gurugram",
-        "date": "2026-04-29T12:49:48.265222"
-    },
-    {
-        "id": "a4d5bf52c7d92104f74681c9da67a6d8",
-        "fingerprint": "quality assurance manager|winfra|gurugram",
-        "date": "2026-04-29T12:49:48.265224"
-    },
-    {
         "id": "6a6ea59f95bc8b39ce6389efd6e575f3",
         "fingerprint": "group manager - transactional quality (ptp/rtr/otc) - pct - chennai - ref99254x_2026241905|wns|chennai",
         "date": "2026-04-29T12:49:48.265226"
@@ -24998,5 +24953,50 @@
         "id": "0e0a8292b9116a12adb3b945f74a2eb4",
         "fingerprint": "manager - quality profee multispecialty e/m|guidehouse|chennai",
         "date": "2026-10-09T16:35:08.826709"
+    },
+    {
+        "id": "4b606568d2ba6a1a78a854c9d3a9fcd5",
+        "fingerprint": "test module lead - payroll|happiest minds technologies|bengaluru",
+        "date": "2026-10-10T06:05:02.562955"
+    },
+    {
+        "id": "81ba0fe33651f9d3be22cbaac0644b4a",
+        "fingerprint": "test lead - switching and routing|sure services pvt ltd|bengaluru",
+        "date": "2026-10-10T06:05:02.562969"
+    },
+    {
+        "id": "cdf423279f2242075df6f2478a61f54f",
+        "fingerprint": "lead automation engineer|ge healthcare|bengaluru",
+        "date": "2026-10-10T06:05:02.562972"
+    },
+    {
+        "id": "306423ea2b768e418890add3beeddde0",
+        "fingerprint": "test lead|ge healthcare|bengaluru",
+        "date": "2026-10-10T06:05:02.562974"
+    },
+    {
+        "id": "7b2c11b5856ff32ba4390746ab71cf00",
+        "fingerprint": "senior director, operational excellence & quality improvement - bangalore / mumbai|nielsen|bengaluru",
+        "date": "2026-10-10T06:05:02.562977"
+    },
+    {
+        "id": "8bf8f9ad10d30f80870374c0210d9773",
+        "fingerprint": "qa lead drive 9th oct 2026|centre for computational technologies (cctech)|pune",
+        "date": "2026-10-10T06:05:02.562979"
+    },
+    {
+        "id": "027fed849f2dd436b3e4b26fb05a3b81",
+        "fingerprint": "production and quality manager|hindustan parking infrastructure pvt. ltd (hpipl)|gurugram",
+        "date": "2026-10-10T06:05:02.562981"
+    },
+    {
+        "id": "ca0027ecfe70add8ccfea7104edfae82",
+        "fingerprint": "sr. technical lead - game testing|gamblingcareers.com|noida",
+        "date": "2026-10-10T06:05:02.562983"
+    },
+    {
+        "id": "eb427fd982aab8712edfde218bedbcef",
+        "fingerprint": "head- quality- airport infrastructure|adani airport holdings ltd|ahmedabad",
+        "date": "2026-10-10T06:05:02.562986"
     }
 ]
