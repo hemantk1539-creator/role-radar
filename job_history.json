@@ -1,40 +1,5 @@
 [
     {
-        "id": "6a6ea59f95bc8b39ce6389efd6e575f3",
-        "fingerprint": "group manager - transactional quality (ptp/rtr/otc) - pct - chennai - ref99254x_2026241905|wns|chennai",
-        "date": "2026-04-29T12:49:48.265226"
-    },
-    {
-        "id": "ae283d94a7f029c32347afa0ac402002",
-        "fingerprint": "manager-advanced technical support-energy automation|schneider electric|noida",
-        "date": "2026-04-29T12:49:48.265228"
-    },
-    {
-        "id": "c11849181d0d7501d7edfcddf3c9c0eb",
-        "fingerprint": "lead quality auditor \u2013 electrical (global tech program | india | part-time contract)|sqa services, inc.|ahmedabad",
-        "date": "2026-04-29T12:49:48.265230"
-    },
-    {
-        "id": "8afd7d2f8dd92c6fd6b878901088dc39",
-        "fingerprint": "sr mgr test engineering|silvus technologies|bengaluru",
-        "date": "2026-04-29T19:49:28.688306"
-    },
-    {
-        "id": "0f675cf23c4cc81563883ff9b68a51e5",
-        "fingerprint": "food quality & ehs head (qhse) - from food companies|sg oasis hr consultancy pvt ltd|mumbai",
-        "date": "2026-04-29T19:49:28.688322"
-    },
-    {
-        "id": "44376873e6f8713099da82553f722266",
-        "fingerprint": "manager - servicenow automation lead|bnp paribas|chennai",
-        "date": "2026-04-29T19:49:28.688325"
-    },
-    {
-        "id": "c7b3dbbe9fb446494b02132a66104004",
-        "fingerprint": "manager/ senior manager - faas- automation & solution architect - gurgaon/bangalore/chennai|ey|chennai",
-        "date": "2026-04-29T19:49:28.688327"
-    },
-    {
         "id": "1037b7868fe0586933f7543c127d6479",
         "fingerprint": "lead software development engineer in test- vice president|citi|chennai",
         "date": "2026-04-29T19:49:28.688330"
@@ -24998,5 +24963,40 @@
         "id": "eb427fd982aab8712edfde218bedbcef",
         "fingerprint": "head- quality- airport infrastructure|adani airport holdings ltd|ahmedabad",
         "date": "2026-10-10T06:05:02.562986"
+    },
+    {
+        "id": "f7cad44973b271d2b385e149e1f86b64",
+        "fingerprint": "quality head|alpauls|bengaluru",
+        "date": "2026-10-10T11:34:58.631131"
+    },
+    {
+        "id": "aa1cbde480270fd420e6344c0eb0688b",
+        "fingerprint": "head of quality control|popvax|hyderabad",
+        "date": "2026-10-10T11:34:58.631146"
+    },
+    {
+        "id": "6257907c8cbfa3eb8ce4bb5f682f4b5d",
+        "fingerprint": "senior staff/staff/senior lead - camera image quality|qualcomm innovation center, inc.|hyderabad",
+        "date": "2026-10-10T11:34:58.631148"
+    },
+    {
+        "id": "83ec5d3420f5f862be8a4398e431b6a8",
+        "fingerprint": "quality assurance manager|altron cast pvt ltd|gurugram",
+        "date": "2026-10-10T11:34:58.631149"
+    },
+    {
+        "id": "a066bfa1b92e7d9bb3d3745fa41d24aa",
+        "fingerprint": "manager - quality assurance|sterlingtoolsltd|gurugram",
+        "date": "2026-10-10T11:34:58.631151"
+    },
+    {
+        "id": "167b584e0366127d187b88786d45631b",
+        "fingerprint": "test lead - networking automation|hcltech|chennai",
+        "date": "2026-10-10T11:34:58.631153"
+    },
+    {
+        "id": "e931f98f0951b0896631c70875d67ff3",
+        "fingerprint": "head of qa|scottill healthcare pvt ltd|remote",
+        "date": "2026-10-10T11:34:58.631154"
     }
 ]
