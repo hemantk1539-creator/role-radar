@@ -1,15 +1,5 @@
 [
     {
-        "id": "1037b7868fe0586933f7543c127d6479",
-        "fingerprint": "lead software development engineer in test- vice president|citi|chennai",
-        "date": "2026-04-29T19:49:28.688330"
-    },
-    {
-        "id": "6e16d8d8a0bf3c71250e763ab856252d",
-        "fingerprint": "staff test lead|ge vernova|hyderabad",
-        "date": "2026-04-30T06:49:37.578481"
-    },
-    {
         "id": "c0aff179af45d12f490d970dfcf52dc5",
         "fingerprint": "techinal manager / lab incharge - building material testing|elca laboratories|mumbai",
         "date": "2026-04-30T12:49:39.044042"
@@ -24998,5 +24988,15 @@
         "id": "e931f98f0951b0896631c70875d67ff3",
         "fingerprint": "head of qa|scottill healthcare pvt ltd|remote",
         "date": "2026-10-10T11:34:58.631154"
+    },
+    {
+        "id": "cc6856a03de3dffce10c22398cec0627",
+        "fingerprint": "head of quality control|royal tools india( royal group)|gurugram",
+        "date": "2026-10-10T16:34:15.174123"
+    },
+    {
+        "id": "5c8bd6719de8b56f2349332659ad48d2",
+        "fingerprint": "quality control lead|risebird|gurugram",
+        "date": "2026-10-10T16:34:15.174139"
     }
 ]
