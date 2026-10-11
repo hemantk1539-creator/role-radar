@@ -1,25 +1,5 @@
 [
     {
-        "id": "dd4fecceeebb896076e25e9686ff75a2",
-        "fingerprint": "senior quality assurance leader|shine.com|mumbai",
-        "date": "2026-04-30T19:49:18.034492"
-    },
-    {
-        "id": "4de7ae8597c4ab8aca5eaddef2d43f2e",
-        "fingerprint": "senior quality assurance leader|shine.com|hyderabad",
-        "date": "2026-04-30T19:49:18.034495"
-    },
-    {
-        "id": "f3bb8cb9f5469d978ca7efba49b83cff",
-        "fingerprint": "depot quality manager|alstom|noida",
-        "date": "2026-04-30T19:49:18.034498"
-    },
-    {
-        "id": "d455353613af70aa63cc26a15a89a2dc",
-        "fingerprint": "senior quality assurance leader|shine.com|chennai",
-        "date": "2026-04-30T19:49:18.034500"
-    },
-    {
         "id": "806737828e9cc43e8725728c034e91df",
         "fingerprint": "sr quality manager|pradip plastic moulders pvt ltd|pune",
         "date": "2026-05-01T06:49:41.707828"
@@ -24998,5 +24978,25 @@
         "id": "616cb0192a7c6518d81008833375b102",
         "fingerprint": "assistant manager - quality assurance|sterlingtoolsltd|noida",
         "date": "2026-10-11T06:05:03.458698"
+    },
+    {
+        "id": "9e276f567b89724013bbc88db7c1b563",
+        "fingerprint": "technical lead - jira workflow & automation engineering|arm|bengaluru",
+        "date": "2026-10-11T11:34:51.287245"
+    },
+    {
+        "id": "49a9d49a7febd227490851d7b0b393fb",
+        "fingerprint": "sr. product & automation manager|expertrons|mumbai",
+        "date": "2026-10-11T11:34:51.287259"
+    },
+    {
+        "id": "0ed6a30752d9c23912e11aa5cacd56f4",
+        "fingerprint": "head \u2013 quality department|frontier energies|hyderabad",
+        "date": "2026-10-11T11:34:51.287262"
+    },
+    {
+        "id": "5cc79083d612fcc0c6e04aebed36b2c2",
+        "fingerprint": "lead qa engineer|healthedge|hyderabad",
+        "date": "2026-10-11T11:34:51.287263"
     }
 ]
