@@ -1,30 +1,5 @@
 [
     {
-        "id": "c0aff179af45d12f490d970dfcf52dc5",
-        "fingerprint": "techinal manager / lab incharge - building material testing|elca laboratories|mumbai",
-        "date": "2026-04-30T12:49:39.044042"
-    },
-    {
-        "id": "ddba01f44ba62520099e76e17ea978d8",
-        "fingerprint": "head pv quality assurance - go/jc/2897/2026|golden opportunities|chennai",
-        "date": "2026-04-30T12:49:39.044059"
-    },
-    {
-        "id": "0f0ff3dcaf300f5c4898d2782f5ac4df",
-        "fingerprint": "senior team lead - global quality operations|uber|remote",
-        "date": "2026-04-30T12:49:39.044062"
-    },
-    {
-        "id": "6d8d4c72eb3515064196762e3882131f",
-        "fingerprint": "senior quality assurance leader|shine.com|bengaluru",
-        "date": "2026-04-30T19:49:18.034473"
-    },
-    {
-        "id": "1362b60a01ef0ec1d3d65a07c2647c89",
-        "fingerprint": "senior test manager|dentsu|bengaluru",
-        "date": "2026-04-30T19:49:18.034489"
-    },
-    {
         "id": "dd4fecceeebb896076e25e9686ff75a2",
         "fingerprint": "senior quality assurance leader|shine.com|mumbai",
         "date": "2026-04-30T19:49:18.034492"
@@ -24998,5 +24973,30 @@
         "id": "5c8bd6719de8b56f2349332659ad48d2",
         "fingerprint": "quality control lead|risebird|gurugram",
         "date": "2026-10-10T16:34:15.174139"
+    },
+    {
+        "id": "ae800e5f81778cdb7eca5f9a9cb1f66c",
+        "fingerprint": "ai enabled qa automation lead|indexnine technologies|pune",
+        "date": "2026-10-11T06:05:03.458673"
+    },
+    {
+        "id": "a34fd08e7e7fdfb4a646b71f90b11e53",
+        "fingerprint": "senior quality & regulatory manager|beiersdorf|mumbai",
+        "date": "2026-10-11T06:05:03.458690"
+    },
+    {
+        "id": "195ba264203009988bd52f2a70df8ac9",
+        "fingerprint": "head of quality assurance|whiteslips job management consultants|remote",
+        "date": "2026-10-11T06:05:03.458693"
+    },
+    {
+        "id": "71f287990ebf3131f66f59e2e576a29f",
+        "fingerprint": "principal software development engineer in test|insightsoftware|remote",
+        "date": "2026-10-11T06:05:03.458696"
+    },
+    {
+        "id": "616cb0192a7c6518d81008833375b102",
+        "fingerprint": "assistant manager - quality assurance|sterlingtoolsltd|noida",
+        "date": "2026-10-11T06:05:03.458698"
     }
 ]
