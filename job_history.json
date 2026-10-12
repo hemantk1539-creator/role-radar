@@ -1,40 +1,5 @@
 [
     {
-        "id": "18c9ace22cfd2bf373e0feb4418e4ce6",
-        "fingerprint": "test architect|siemens|chennai",
-        "date": "2026-05-01T06:49:41.707853"
-    },
-    {
-        "id": "e18c40e03b279b897248b67d1be68244",
-        "fingerprint": "quality director|shine.com|bengaluru",
-        "date": "2026-05-01T12:49:52.111790"
-    },
-    {
-        "id": "22d498066ef4c861afc304f924fca161",
-        "fingerprint": "tech lead manager - quality engineering|fam|bengaluru",
-        "date": "2026-05-01T12:49:52.111815"
-    },
-    {
-        "id": "d444d86dd24bb1b87f7e5ecaf4d7598d",
-        "fingerprint": "technical manager \u2013 qa & solutions engineering|verdeshell technologies|gurugram",
-        "date": "2026-05-01T12:49:52.111820"
-    },
-    {
-        "id": "ec4b7cde00fe45e3154130a8edfd8c20",
-        "fingerprint": "manager / sr manager - transactional quality ( travel)|igt solutions|gurugram",
-        "date": "2026-05-01T12:49:52.111824"
-    },
-    {
-        "id": "c673847b656c50da5fa80c2ab028ad50",
-        "fingerprint": "manager/senior manager quality|igt solutions|gurugram",
-        "date": "2026-05-01T12:49:52.111828"
-    },
-    {
-        "id": "db59bef8a9a53878616caad86d125fe6",
-        "fingerprint": "automation manager|ericsson|gurugram",
-        "date": "2026-05-01T12:49:52.111833"
-    },
-    {
         "id": "f2ce176c95a4aa11394682771293cda9",
         "fingerprint": "quality & certification lead - energy storage (bess)|ampin energy transition|gurugram",
         "date": "2026-05-01T12:49:52.111837"
@@ -24998,5 +24963,40 @@
         "id": "eab2a2b2b7dbcbeecae7ae3f5087676e",
         "fingerprint": "assistant manager/manager - assurance - faas -liquidity regulatory reporting design and testing|ey|gurugram",
         "date": "2026-10-11T16:34:47.223558"
+    },
+    {
+        "id": "0e33e0bd3897d5c2cb42b3fed2b978d7",
+        "fingerprint": "quality assurance manager (python and selenium)|arcitech|mumbai",
+        "date": "2026-10-12T06:04:44.364338"
+    },
+    {
+        "id": "57e7a7db0fe65d2ace35f9f78a1362ea",
+        "fingerprint": "lead software test automation engineer - selenium with c# and api testing (rest)|wolters kluwer|pune",
+        "date": "2026-10-12T06:04:44.364355"
+    },
+    {
+        "id": "abd90523ea2abf12d4cc2582ff4e5d99",
+        "fingerprint": "qa/ devops automation engineer (cyber security) - tech lead|state street|bengaluru",
+        "date": "2026-10-12T06:04:44.364357"
+    },
+    {
+        "id": "7d00d8370ba040eecb797fec213b793f",
+        "fingerprint": "quality assurance manager|admech|gurugram",
+        "date": "2026-10-12T06:04:44.364359"
+    },
+    {
+        "id": "e9430a948985c27cbc6d6552e3b98304",
+        "fingerprint": "quality assurance manager|pkm industries pvt.ltd|gurugram",
+        "date": "2026-10-12T06:04:44.364383"
+    },
+    {
+        "id": "bd6fe697e94c126484c6b050a75a6636",
+        "fingerprint": "head of qa / quality engineering|flam|remote",
+        "date": "2026-10-12T06:04:44.364386"
+    },
+    {
+        "id": "d795c19df4d3f77793f0f8d273560ac2",
+        "fingerprint": "assistant manager/manager - assurance - faas -regulatory reporting testing support- pan ind|ey|gurugram",
+        "date": "2026-10-12T06:04:44.364388"
     }
 ]
