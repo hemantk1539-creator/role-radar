@@ -1,70 +1,5 @@
 [
     {
-        "id": "98eda2fa4e0f009a64059a9ef55f3780",
-        "fingerprint": "sap test manager|cencora|pune",
-        "date": "2026-05-05T12:50:11.868872"
-    },
-    {
-        "id": "e22ad48ee3a2026bd7abcd73cef412b2",
-        "fingerprint": "senior qa manager (ai-driven testing transformation)|careerxperts consulting|pune",
-        "date": "2026-05-05T12:50:11.868874"
-    },
-    {
-        "id": "bafdd26ca61b31690c4f3a836ab7f42d",
-        "fingerprint": "test lead - corporate functions technology|m&g india|pune",
-        "date": "2026-05-05T12:50:11.868877"
-    },
-    {
-        "id": "3ab85b7cbc7302ab0856bf408cb253bb",
-        "fingerprint": "head- quality|live connections|hyderabad",
-        "date": "2026-05-05T12:50:11.868880"
-    },
-    {
-        "id": "e8ed0ff687172e21047594f89bd3375d",
-        "fingerprint": "test architect|qualizeal|hyderabad",
-        "date": "2026-05-05T12:50:11.868883"
-    },
-    {
-        "id": "6a42117886c82adf218b52d3d4701467",
-        "fingerprint": "group lead-development quality assurance|dr. reddy's laboratories|hyderabad",
-        "date": "2026-05-05T12:50:11.868885"
-    },
-    {
-        "id": "dad0bbee8652d506d728ce9976fc827d",
-        "fingerprint": "qa - asst. manager (biologics)|promea therapeutics|hyderabad",
-        "date": "2026-05-05T12:50:11.868888"
-    },
-    {
-        "id": "f28d202f2cbde14a8bac0a4bbe6beba0",
-        "fingerprint": "engineering manager - test automation|veeva systems|hyderabad",
-        "date": "2026-05-05T12:50:11.868891"
-    },
-    {
-        "id": "2e2c51bb9f6f855daa67223c5a60eef4",
-        "fingerprint": "vp - data quality lead|hsbc|hyderabad",
-        "date": "2026-05-05T12:50:11.868894"
-    },
-    {
-        "id": "e697cf91d85b999c6f465e537358541d",
-        "fingerprint": "senior data quality manager i|mygwork - lgbtq+ business community|chennai",
-        "date": "2026-05-05T12:50:11.868897"
-    },
-    {
-        "id": "19f272019d741519ca3f52b5b0cba0f0",
-        "fingerprint": "deputy manager, quality control|amneal pharmaceuticals|ahmedabad",
-        "date": "2026-05-05T12:50:11.868900"
-    },
-    {
-        "id": "f836efab0850f2112663b1df7465219c",
-        "fingerprint": "head - quality assurance & control|isprava|remote",
-        "date": "2026-05-05T12:50:11.868902"
-    },
-    {
-        "id": "94c59e54c0104e75567d742e9700af6c",
-        "fingerprint": "test senior manager|fluence|bengaluru",
-        "date": "2026-05-05T19:50:14.829722"
-    },
-    {
         "id": "8638857d3568b237d682b99a1cc33100",
         "fingerprint": "quality assurance automation lead|tata consultancy services|pune",
         "date": "2026-05-05T19:50:14.829732"
@@ -24998,5 +24933,70 @@
         "id": "f53a4b4b8a7b07e0011702c82e6bf015",
         "fingerprint": "manager ii, software quality assurance|enphase energy|remote",
         "date": "2026-10-13T11:33:36.557237"
+    },
+    {
+        "id": "f5f1fb144e32badc4574da29f8fbcdfb",
+        "fingerprint": "quality automation - manager|pwc acceleration center india|bengaluru",
+        "date": "2026-10-13T16:34:10.481516"
+    },
+    {
+        "id": "7ea0232898807c5a263cf80fede47aa1",
+        "fingerprint": "test development engineering technical leader|cisco|bengaluru",
+        "date": "2026-10-13T16:34:10.481536"
+    },
+    {
+        "id": "cc18eecaa3fe200d3c38a0b9544ba0e4",
+        "fingerprint": "quality assurance manager || manager quality|international bpo|bengaluru",
+        "date": "2026-10-13T16:34:10.481538"
+    },
+    {
+        "id": "1c2310d5ab14551c715dd0fe15c0b44d",
+        "fingerprint": "advance lead engineer - test automation|wabtec corporation|bengaluru",
+        "date": "2026-10-13T16:34:10.481540"
+    },
+    {
+        "id": "e86270273f53c5420321a94ebe4f23fb",
+        "fingerprint": "lead ii - software testing (e2e test lead - facets)|ust|bengaluru",
+        "date": "2026-10-13T16:34:10.481542"
+    },
+    {
+        "id": "57fb04386846a3a503ee28c7f521ef2d",
+        "fingerprint": "principal engineer-software test&release|sasken technologies limited|bengaluru",
+        "date": "2026-10-13T16:34:10.481544"
+    },
+    {
+        "id": "dcf55e9e79d554fd8f3b5c575979fac2",
+        "fingerprint": "lead, penetration testing|standard chartered india|bengaluru",
+        "date": "2026-10-13T16:34:10.481546"
+    },
+    {
+        "id": "668e429c6fe209a3f27744baf1f9fc2a",
+        "fingerprint": "test architect|qualitykiosk technologies|mumbai",
+        "date": "2026-10-13T16:34:10.481548"
+    },
+    {
+        "id": "e3b6aa7f25ff54f14d48471f99388515",
+        "fingerprint": "quality assurance lead, uk/europe|tide|hyderabad",
+        "date": "2026-10-13T16:34:10.481550"
+    },
+    {
+        "id": "5d5aaf5d08aa2233e1b3629a69cbe135",
+        "fingerprint": "technical lead - ai specialist / automation engineer|gamblingcareers.com|gurugram",
+        "date": "2026-10-13T16:34:10.481552"
+    },
+    {
+        "id": "eec91adfd51e0e7d946fb8da8196b363",
+        "fingerprint": "technical lead - ai specialist / automation engineer|gamblingcareers.com|noida",
+        "date": "2026-10-13T16:34:10.481554"
+    },
+    {
+        "id": "e78be8fa6102d5b5aee2e13fa0534085",
+        "fingerprint": "sr mgr, quality assurance|renesas electronics|ahmedabad",
+        "date": "2026-10-13T16:34:10.481555"
+    },
+    {
+        "id": "8ffca7b5b73f3d4a8859f8ecc04d101e",
+        "fingerprint": "quality lead|rockwell automation|chennai",
+        "date": "2026-10-13T16:34:10.481557"
     }
 ]
