@@ -1,80 +1,5 @@
 [
     {
-        "id": "2a611b7745d28dd8ac328320bb4d6ff5",
-        "fingerprint": "quality & npd head|ganges internationale pvt. ltd.|chennai",
-        "date": "2026-05-04T19:50:08.049017"
-    },
-    {
-        "id": "90b18ade68534f048642bc2553dfae80",
-        "fingerprint": "director, global finished goods quality|carhartt|remote",
-        "date": "2026-05-04T19:50:08.049019"
-    },
-    {
-        "id": "0e89c7a478e4b55b4f44cb1525f1ee3a",
-        "fingerprint": "global quality manager|uvision group|remote",
-        "date": "2026-05-04T19:50:08.049021"
-    },
-    {
-        "id": "d0ccbf054f34ece92a7fad36e67ca994",
-        "fingerprint": "national delivery excellence- qa process quality lead- senior manager|pwc acceleration center india|bengaluru",
-        "date": "2026-05-05T06:49:28.738617"
-    },
-    {
-        "id": "2bd714499ca10a96ea6c957b2a24dddd",
-        "fingerprint": "qa manager|weekday ai (yc w21)|bengaluru",
-        "date": "2026-05-05T06:49:28.738635"
-    },
-    {
-        "id": "ebd1b6640f1841f8c9e23e8b832cdac3",
-        "fingerprint": "in_manager_qa automation lead _data& analytics_advisory_bangalore|pwc india|bengaluru",
-        "date": "2026-05-05T06:49:28.738638"
-    },
-    {
-        "id": "97533d8ffd6e9cba4310090148c75dbc",
-        "fingerprint": "industrial quality leader|schneider electric|bengaluru",
-        "date": "2026-05-05T06:49:28.738640"
-    },
-    {
-        "id": "e3de1d45d904a531989381700e1dd9b5",
-        "fingerprint": "senior qa manager - bio alliance & launch governance|sandoz india|hyderabad",
-        "date": "2026-05-05T06:49:28.738643"
-    },
-    {
-        "id": "c70371ec5ff481245cc6e9073953c0d6",
-        "fingerprint": "manager - quality (projects)|sterlite electric|hyderabad",
-        "date": "2026-05-05T06:49:28.738645"
-    },
-    {
-        "id": "40f91a9f59c0703499136707e1b24f94",
-        "fingerprint": "group manager - transactional quality - gurgaon|wns|gurugram",
-        "date": "2026-05-05T06:49:28.738647"
-    },
-    {
-        "id": "ac31d03287105babf35e962c06d73009",
-        "fingerprint": "quality control manager garment export house|deswal sourcing solutions pvt ltd|gurugram",
-        "date": "2026-05-05T06:49:28.738649"
-    },
-    {
-        "id": "e43ff24ab7ef511d1c2a288c38027867",
-        "fingerprint": "head automation|adani enterprises limited|ahmedabad",
-        "date": "2026-05-05T06:49:28.738651"
-    },
-    {
-        "id": "eaa1afd5ee8260b0a694815246aadf14",
-        "fingerprint": "operations process automation lead, avp|deutsche bank|bengaluru",
-        "date": "2026-05-05T12:50:11.868847"
-    },
-    {
-        "id": "fdc758f403e56c05df5e026bb828b57e",
-        "fingerprint": "quality assurance manager|jac recruitment|bengaluru",
-        "date": "2026-05-05T12:50:11.868865"
-    },
-    {
-        "id": "1bf1277fc761d7b6d73374b0793a8767",
-        "fingerprint": "test automation manager (devops)|five9|bengaluru",
-        "date": "2026-05-05T12:50:11.868869"
-    },
-    {
         "id": "98eda2fa4e0f009a64059a9ef55f3780",
         "fingerprint": "sap test manager|cencora|pune",
         "date": "2026-05-05T12:50:11.868872"
@@ -24998,5 +24923,80 @@
         "id": "ee8b54c02624ff2dce54cfcfc5c51917",
         "fingerprint": "e trading quality assurance lead - assistant vice president|citi|pune",
         "date": "2026-10-13T06:03:59.096059"
+    },
+    {
+        "id": "13138894028f67ba67df5d2672051c91",
+        "fingerprint": "lead - full-stack quality engineering & ai (india/malaysia)|standard chartered india|bengaluru",
+        "date": "2026-10-13T11:33:36.557199"
+    },
+    {
+        "id": "cfa57249db12834cc5791a844a58e752",
+        "fingerprint": "test lead \u2013 asset & wealth management technology|acenet|bengaluru",
+        "date": "2026-10-13T11:33:36.557215"
+    },
+    {
+        "id": "ef0808e5925c24d25c5b256e2fda4e6e",
+        "fingerprint": "lead i - software testing (e2e test lead)|ust|bengaluru",
+        "date": "2026-10-13T11:33:36.557217"
+    },
+    {
+        "id": "268604caf8d0768405bed947cb365f03",
+        "fingerprint": "lead ii - software testing (performance testing & tdm lead)|ust|bengaluru",
+        "date": "2026-10-13T11:33:36.557219"
+    },
+    {
+        "id": "34788f885d348fb18c01ef70cec81562",
+        "fingerprint": "lead sfcc qa - adyen payment|simpliigence|bengaluru",
+        "date": "2026-10-13T11:33:36.557220"
+    },
+    {
+        "id": "f5fb050006ce06802b5753084d3cc7e8",
+        "fingerprint": "quality assurance architect|rebit | reserve bank information technology pvt. ltd.|mumbai",
+        "date": "2026-10-13T11:33:36.557222"
+    },
+    {
+        "id": "74bbc69ab66e4ccb07e24b69cd8260b8",
+        "fingerprint": "lead sdet|innocito|hyderabad",
+        "date": "2026-10-13T11:33:36.557224"
+    },
+    {
+        "id": "a34de9d47878b1043a4b12882b9e4417",
+        "fingerprint": "lead data quality engineer|finarb|hyderabad",
+        "date": "2026-10-13T11:33:36.557225"
+    },
+    {
+        "id": "2014d40f7fd4877d20dd9ae42de4587e",
+        "fingerprint": "qa automation lead - manager|state street|hyderabad",
+        "date": "2026-10-13T11:33:36.557227"
+    },
+    {
+        "id": "fbae2d33b899b81ff5649f042ea2ebbf",
+        "fingerprint": "qa engineer - tech lead|state street|hyderabad",
+        "date": "2026-10-13T11:33:36.557228"
+    },
+    {
+        "id": "76654c70321dd5eb8ff667f8c7c9e0a3",
+        "fingerprint": "quality assurance head|simran hirring consultancy|noida",
+        "date": "2026-10-13T11:33:36.557230"
+    },
+    {
+        "id": "c571bc644c9fbc93b8605b6aa2425f33",
+        "fingerprint": "qa head (work from office)|fidelis healthcare pvt. ltd.|noida",
+        "date": "2026-10-13T11:33:36.557232"
+    },
+    {
+        "id": "5c85314bac16234b2ed4407c91c3ba50",
+        "fingerprint": "engineering lead- automation & ai|mars cosmetics|noida",
+        "date": "2026-10-13T11:33:36.557234"
+    },
+    {
+        "id": "0965d9ed1200292b4e55b426349a8f6c",
+        "fingerprint": "test architecture senior manager - operate|pwc acceleration center india|remote",
+        "date": "2026-10-13T11:33:36.557236"
+    },
+    {
+        "id": "f53a4b4b8a7b07e0011702c82e6bf015",
+        "fingerprint": "manager ii, software quality assurance|enphase energy|remote",
+        "date": "2026-10-13T11:33:36.557237"
     }
 ]
