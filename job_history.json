@@ -1,65 +1,5 @@
 [
     {
-        "id": "99fa290736cc1ccd724b4205d23712f0",
-        "fingerprint": "sr. manager- qa/qc and r&d - khopoli|normet group|pune",
-        "date": "2026-05-04T12:49:49.582666"
-    },
-    {
-        "id": "026172a401721dff76f00596c28af120",
-        "fingerprint": "manager (qa & logistic, planning & dispatch)|gimpex pvt limited|hyderabad",
-        "date": "2026-05-04T12:49:49.582669"
-    },
-    {
-        "id": "ca06caf0e77ad45b8c65c8c5acca417f",
-        "fingerprint": "deputy manager supplier quality management|schneider electric|chennai",
-        "date": "2026-05-04T12:49:49.582671"
-    },
-    {
-        "id": "cda04d03aa950c2b229cc918dd1c0fe7",
-        "fingerprint": "quality management system (qms) manager|the madras seva sadan|chennai",
-        "date": "2026-05-04T12:49:49.582673"
-    },
-    {
-        "id": "21dc11e3005d37aab3fbb06def7917f3",
-        "fingerprint": "director of quality - hospital|stemz healthcare|chennai",
-        "date": "2026-05-04T12:49:49.582675"
-    },
-    {
-        "id": "46ae126cb8234d26a70f787e4fce8903",
-        "fingerprint": "technical lead, software test automation|kla|chennai",
-        "date": "2026-05-04T12:49:49.582677"
-    },
-    {
-        "id": "522afc4c96db1e91f1ba0371f6d4da34",
-        "fingerprint": "project quality manager|technip energies|ahmedabad",
-        "date": "2026-05-04T12:49:49.582679"
-    },
-    {
-        "id": "247efd89d5b8cf9dfa1d9aec6b9a1a37",
-        "fingerprint": "global head, quality reliability assurance|primestaff management services|remote",
-        "date": "2026-05-04T12:49:49.582681"
-    },
-    {
-        "id": "d35c37f8aa73dcda1dad434a6bdfc405",
-        "fingerprint": "qa manager|sage|bengaluru",
-        "date": "2026-05-04T19:50:08.048994"
-    },
-    {
-        "id": "d4c530131964c80366a16a04624ab678",
-        "fingerprint": "cft - avp test manager|m&g india|pune",
-        "date": "2026-05-04T19:50:08.049010"
-    },
-    {
-        "id": "e1e779d26e58ec3ced8042ceb48b50d4",
-        "fingerprint": "director, engineering execution & quality enablement|s&p global|hyderabad",
-        "date": "2026-05-04T19:50:08.049013"
-    },
-    {
-        "id": "fc839fe063a4fe68825319d95e57dbd0",
-        "fingerprint": "qa engineering lead|chubb|hyderabad",
-        "date": "2026-05-04T19:50:08.049015"
-    },
-    {
         "id": "2a611b7745d28dd8ac328320bb4d6ff5",
         "fingerprint": "quality & npd head|ganges internationale pvt. ltd.|chennai",
         "date": "2026-05-04T19:50:08.049017"
@@ -24998,5 +24938,65 @@
         "id": "ac0ab9239dbeeadc8ff1869ecc71ef2f",
         "fingerprint": "qa tech lead|arrow electronics|ahmedabad",
         "date": "2026-10-12T16:34:06.556833"
+    },
+    {
+        "id": "48be68bf435c97d08266ba4e1318ce12",
+        "fingerprint": "head of quality assurance|sri management consultants & placement services|pune",
+        "date": "2026-10-13T06:03:59.096021"
+    },
+    {
+        "id": "cc072afacd8661561547ff3d7062c7e9",
+        "fingerprint": "test chapter lead - platform and technology|qualitrol|bengaluru",
+        "date": "2026-10-13T06:03:59.096039"
+    },
+    {
+        "id": "43287bac70742d8c67640ca1c04554e7",
+        "fingerprint": "software quality engineering manager|applied materials india|bengaluru",
+        "date": "2026-10-13T06:03:59.096042"
+    },
+    {
+        "id": "17578b37a8fdf0f972e41eccc1cbb718",
+        "fingerprint": "qa project manager|birlasoft|bengaluru",
+        "date": "2026-10-13T06:03:59.096043"
+    },
+    {
+        "id": "e8067eeb4fffac4e2fc23127bb0369a6",
+        "fingerprint": "senior quality assurance manager|rebit | reserve bank information technology pvt. ltd.|mumbai",
+        "date": "2026-10-13T06:03:59.096046"
+    },
+    {
+        "id": "5d5b8af51ec84242fd5941925c0430e0",
+        "fingerprint": "senior manager - qa (swift payments) [t500-30035]|cibc india|hyderabad",
+        "date": "2026-10-13T06:03:59.096047"
+    },
+    {
+        "id": "671525991e5c976fd5d0f09192cb1e6b",
+        "fingerprint": "quality assurance quality control manager|naandi water | certified b corp|hyderabad",
+        "date": "2026-10-13T06:03:59.096049"
+    },
+    {
+        "id": "8f46b3b64e0fe390762184f3d6dd92ed",
+        "fingerprint": "qa lead|techsatviks|hyderabad",
+        "date": "2026-10-13T06:03:59.096051"
+    },
+    {
+        "id": "999ccf928f2d791ad55e762663397e7a",
+        "fingerprint": "training & quality manager|westin hotels & resorts|noida",
+        "date": "2026-10-13T06:03:59.096053"
+    },
+    {
+        "id": "c083f04955a665a6a199a3364574e5b3",
+        "fingerprint": "manager - development quality assurance|sun pharma|noida",
+        "date": "2026-10-13T06:03:59.096056"
+    },
+    {
+        "id": "40e82949f6718d8eefa75d44a7567c5f",
+        "fingerprint": "test automation architect|last working day|remote",
+        "date": "2026-10-13T06:03:59.096058"
+    },
+    {
+        "id": "ee8b54c02624ff2dce54cfcfc5c51917",
+        "fingerprint": "e trading quality assurance lead - assistant vice president|citi|pune",
+        "date": "2026-10-13T06:03:59.096059"
     }
 ]
