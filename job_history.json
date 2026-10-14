@@ -1,95 +1,5 @@
 [
     {
-        "id": "d0f83dba83780af7c102e43bca596e84",
-        "fingerprint": "manager - quality assurance (pcba)|schneider electric|bengaluru",
-        "date": "2026-05-07T12:49:37.113342"
-    },
-    {
-        "id": "d0dae137f737282a816de8ccab78ed34",
-        "fingerprint": "qa manager|arup|hyderabad",
-        "date": "2026-05-07T12:49:37.113345"
-    },
-    {
-        "id": "8457bef0bd7d1f75769506d112c19e35",
-        "fingerprint": "lead i - software testing with playwright|ust|hyderabad",
-        "date": "2026-05-07T12:49:37.113347"
-    },
-    {
-        "id": "809f4697ec5c3f33f334bc1eb1b4f778",
-        "fingerprint": "software quality assurance manager|repro india limited|gurugram",
-        "date": "2026-05-07T12:49:37.113349"
-    },
-    {
-        "id": "6b43c058b4a541cfc276470d1084da00",
-        "fingerprint": "qa manager|arup|gurugram",
-        "date": "2026-05-07T12:49:37.113352"
-    },
-    {
-        "id": "8ba8a1369196e226deda63b6e4f92dfe",
-        "fingerprint": "manager - quality assurance (r2p)|standard chartered india|chennai",
-        "date": "2026-05-07T12:49:37.113355"
-    },
-    {
-        "id": "200092c417c768f94c68509b88b35835",
-        "fingerprint": "sqa lead - automation|linearloop|ahmedabad",
-        "date": "2026-05-07T12:49:37.113357"
-    },
-    {
-        "id": "99663d3f7340e7176b639e2579745c68",
-        "fingerprint": "senior quality engineering manager|optum india|bengaluru",
-        "date": "2026-05-07T19:50:04.892516"
-    },
-    {
-        "id": "1e8c5d1b982b8bd28f5b129ba8974fdc",
-        "fingerprint": "principal software qa engineer|autodesk|pune",
-        "date": "2026-05-07T19:50:04.892534"
-    },
-    {
-        "id": "52b02933a9a132a1a341831438b980d6",
-        "fingerprint": "quality assurance manager|azista industries private limited|ahmedabad",
-        "date": "2026-05-07T19:50:04.892537"
-    },
-    {
-        "id": "76da1882f9781bdf0ec9afbaaa3b3fee",
-        "fingerprint": "rc - regulatory compliance - quality consultant - sap - manager|ey|chennai",
-        "date": "2026-05-07T19:50:04.892539"
-    },
-    {
-        "id": "dad6bb43fb7b7c0fce07132acce3f387",
-        "fingerprint": "quality manager|om export india pvt ltd|pune",
-        "date": "2026-05-08T06:49:39.503508"
-    },
-    {
-        "id": "ab5d1b0b19d70e18bbf33236ca72742d",
-        "fingerprint": "lead software engineer (qe automation)|williams-sonoma, inc.|pune",
-        "date": "2026-05-08T06:49:39.503524"
-    },
-    {
-        "id": "e70f9d83e39f013a42fea7c239f1f8dc",
-        "fingerprint": "area development manager-home automation(pune)|assa abloy group|mumbai",
-        "date": "2026-05-08T06:49:39.503527"
-    },
-    {
-        "id": "34d11cd561377da009ac5fc58a27bee2",
-        "fingerprint": "test automation lead|accenture in india|hyderabad",
-        "date": "2026-05-08T06:49:39.503529"
-    },
-    {
-        "id": "5967c47e9889fe8d3fc1317430f10a01",
-        "fingerprint": "lead qa engineer|s&p global|hyderabad",
-        "date": "2026-05-08T06:49:39.503531"
-    },
-    {
-        "id": "a421e4593f0595cebfba39e4a3baac3b",
-        "fingerprint": "digital quality, mes/recipe cvs lead|lonza|hyderabad",
-        "date": "2026-05-08T06:49:39.503533"
-    },
-    {
-        "id": "ead947288bda46ba525676a119a64c2b",
-        "fingerprint": "lead i - software testing (automation- playwright)|ust|hyderabad",
-        "date": "2026-05-08T06:49:39.503535"
-    },
-    {
         "id": "7a4d7b9bf8fc9fd44b3730ee180e2bbb",
         "fingerprint": "lead engineer-automation|carrier|hyderabad",
         "date": "2026-05-08T06:49:39.503536"
@@ -24998,5 +24908,95 @@
         "id": "001cb4c9bc098151c4be1952c8a345e7",
         "fingerprint": "lead qa engineer|qualys|remote",
         "date": "2026-10-14T11:34:26.040055"
+    },
+    {
+        "id": "24690bb17d3590ce23344cda0d3568fa",
+        "fingerprint": "senior test automation manager|vois|pune",
+        "date": "2026-10-14T16:35:15.482315"
+    },
+    {
+        "id": "a7d5b5a1ffdb4c1b5ee88ea08e7be7f1",
+        "fingerprint": "sap test manager|neev|pune",
+        "date": "2026-10-14T16:35:15.482332"
+    },
+    {
+        "id": "df5655ded603848dce43b0168ed0e14c",
+        "fingerprint": "general manager - transformational quality|wns|pune",
+        "date": "2026-10-14T16:35:15.482334"
+    },
+    {
+        "id": "c1018f8a2bc6e15c00204a08fa71e906",
+        "fingerprint": "python automation engineer/lead|arrow electronics|pune",
+        "date": "2026-10-14T16:35:15.482335"
+    },
+    {
+        "id": "517065d3144d5aa2603f02d1cd9c3b43",
+        "fingerprint": "principal, infrastructure automation (ansible) - pune|northern trust|pune",
+        "date": "2026-10-14T16:35:15.482337"
+    },
+    {
+        "id": "1884a328fa556b963dd3d5a82d934fe6",
+        "fingerprint": "sap test manager|neev|bengaluru",
+        "date": "2026-10-14T16:35:15.482339"
+    },
+    {
+        "id": "2d0e6b47b2d7cbb8694fa21a0b9d50c2",
+        "fingerprint": "test lead|railscarma|bengaluru",
+        "date": "2026-10-14T16:35:15.482340"
+    },
+    {
+        "id": "20c43462000287ab36f017fc428bb605",
+        "fingerprint": "sap test manager|neev|mumbai",
+        "date": "2026-10-14T16:35:15.482342"
+    },
+    {
+        "id": "33145dd7d639db9fc5fb7b24ce566751",
+        "fingerprint": "quality assurance manager|sellerscommerce|hyderabad",
+        "date": "2026-10-14T16:35:15.482344"
+    },
+    {
+        "id": "d509c06f45218e927e310377ca1c38d4",
+        "fingerprint": "sap test manager|neev|hyderabad",
+        "date": "2026-10-14T16:35:15.482346"
+    },
+    {
+        "id": "50af210bcc51bbae0eb27de659b6e5a8",
+        "fingerprint": "manager program manager, relay operations center quality and customer experience, north america|amazon|hyderabad",
+        "date": "2026-10-14T16:35:15.482348"
+    },
+    {
+        "id": "3fb3221f1a5f9a1fceec63ede22c5eea",
+        "fingerprint": "sap test manager|neev|gurugram",
+        "date": "2026-10-14T16:35:15.482350"
+    },
+    {
+        "id": "cf84bf66bc144dbf9cf563baf1117248",
+        "fingerprint": "lead qa - automation (selenium/playwright)|globeia|gurugram",
+        "date": "2026-10-14T16:35:15.482352"
+    },
+    {
+        "id": "ccd7b4cbd93d0ab04b0312ed1a636823",
+        "fingerprint": "sap test manager|neev|chennai",
+        "date": "2026-10-14T16:35:15.482353"
+    },
+    {
+        "id": "b235776f03833678280f9cc479c120ad",
+        "fingerprint": "team leader quality - surgery coding@hyd location|acn healthcare rcm services pvt ltd|chennai",
+        "date": "2026-10-14T16:35:15.482355"
+    },
+    {
+        "id": "b144359d25246c25c9b889d3ac34da8f",
+        "fingerprint": "automation architect|yitroglobal|chennai",
+        "date": "2026-10-14T16:35:15.482357"
+    },
+    {
+        "id": "800a3838f07ea155ef3ee844d3ef0343",
+        "fingerprint": "python automation engineer/lead|arrow electronics|ahmedabad",
+        "date": "2026-10-14T16:35:15.482359"
+    },
+    {
+        "id": "df1746f601d4e7c8dcf8f004ef754487",
+        "fingerprint": "staff software engineer, qe|alphasense|remote",
+        "date": "2026-10-14T16:35:15.482360"
     }
 ]
