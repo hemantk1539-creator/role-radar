@@ -1,85 +1,5 @@
 [
     {
-        "id": "83c55d150460727a00a094a600df1b18",
-        "fingerprint": "operations & automation manager|gotrails|bengaluru",
-        "date": "2026-05-08T12:49:51.642812"
-    },
-    {
-        "id": "2c00963c886dd26f40014d9c6d32ee2c",
-        "fingerprint": "python testing consultant/architect|infosys|bengaluru",
-        "date": "2026-05-08T12:49:51.642814"
-    },
-    {
-        "id": "a816ad618d9b9e4b23b96ffcb00a699f",
-        "fingerprint": "lead software quality engineer|signify|bengaluru",
-        "date": "2026-05-08T12:49:51.642816"
-    },
-    {
-        "id": "b898d6515810f980a5abbfc3965bffc4",
-        "fingerprint": "quality head - india|id fresh food|bengaluru",
-        "date": "2026-05-08T12:49:51.642818"
-    },
-    {
-        "id": "d51c052dcab13972b0aeb722a2d1bfe6",
-        "fingerprint": "manager, quality systems & operations|eclinical solutions|bengaluru",
-        "date": "2026-05-08T12:49:51.642820"
-    },
-    {
-        "id": "28ce92da98784ba6b051ffd0a2d6d691",
-        "fingerprint": "qa lead (ai quality & android)|quest global|pune",
-        "date": "2026-05-08T12:49:51.642822"
-    },
-    {
-        "id": "65763f58a6d4cc936979da5ec2fb91b7",
-        "fingerprint": "qa architect|cyberark|pune",
-        "date": "2026-05-08T12:49:51.642824"
-    },
-    {
-        "id": "ed6722015e56298690dbd2b3612f270b",
-        "fingerprint": "quality lead|barclays|pune",
-        "date": "2026-05-08T12:49:51.642826"
-    },
-    {
-        "id": "8a0f2d2e16f6df361f069fafcd3a32f4",
-        "fingerprint": "quality manager - revenue cycle management (rcm) - chennai - go/jc/3116/2026|golden opportunities|pune",
-        "date": "2026-05-08T12:49:51.642828"
-    },
-    {
-        "id": "74ff98f3e71bf5c9dc1c59c312618dfd",
-        "fingerprint": "quality & training manager \u2013 customer success|veefly|mumbai",
-        "date": "2026-05-08T12:49:51.642830"
-    },
-    {
-        "id": "b1e2278df6aa6645cc350555663e80c4",
-        "fingerprint": "lead sdet|ust|hyderabad",
-        "date": "2026-05-08T12:49:51.642832"
-    },
-    {
-        "id": "2c1d395d385c8c26a7d7cc9f90ae930f",
-        "fingerprint": "manager - quality assurance|trueblue india|gurugram",
-        "date": "2026-05-08T12:49:51.642834"
-    },
-    {
-        "id": "0a19e40cd8fe5bced8b97231f3ddcde7",
-        "fingerprint": "quality assurance lead|roblox|gurugram",
-        "date": "2026-05-08T12:49:51.642836"
-    },
-    {
-        "id": "756b1660433e9ccf2fdeaf70ac90c5a9",
-        "fingerprint": "senior business development manager - valve test|power tech development w.l.l|chennai",
-        "date": "2026-05-08T12:49:51.642855"
-    },
-    {
-        "id": "76f09509edd022c31131b22e5cf7b905",
-        "fingerprint": "sap pen testing - lead solution advisor|deloitte|chennai",
-        "date": "2026-05-08T12:49:51.642858"
-    },
-    {
-        "id": "c7ecb40a7ed3f8bcafa9015fc3417cdf",
-        "fingerprint": "software quality assurance lead|acl digital|ahmedabad",
-        "date": "2026-05-08T12:49:51.642860"
-    },
-    {
         "id": "b7ebba5013750640670b58cb33a6307f",
         "fingerprint": "quality assurance architect|acl digital|ahmedabad",
         "date": "2026-05-08T12:49:51.642861"
@@ -24998,5 +24918,85 @@
         "id": "9c120ca63162f99b95fa1e0eb42c4315",
         "fingerprint": "ai test architect|wsa \u2013 wonderful sound for all|remote",
         "date": "2026-10-15T06:04:15.058055"
+    },
+    {
+        "id": "57973a160baea3883ddf3851b37f7be2",
+        "fingerprint": "head of quality assurance|lagrange point international|bengaluru",
+        "date": "2026-10-15T11:35:10.350177"
+    },
+    {
+        "id": "427c184868450df30c482cc67cb57b72",
+        "fingerprint": "quality assurance manager|sasmos het technologies limited|bengaluru",
+        "date": "2026-10-15T11:35:10.350192"
+    },
+    {
+        "id": "c3aa6b2a208704db3b1033bf2a1197cd",
+        "fingerprint": "director, quality engineering ind [t500-30161]|talent500|pune",
+        "date": "2026-10-15T11:35:10.350195"
+    },
+    {
+        "id": "95bad611c7b61c79634eaf9fb82e4e75",
+        "fingerprint": "principal ai quality engineer|rib software|pune",
+        "date": "2026-10-15T11:35:10.350197"
+    },
+    {
+        "id": "4b2020227debb456ebc1fc473cf07515",
+        "fingerprint": "testing & validation manager|rheinmetall|pune",
+        "date": "2026-10-15T11:35:10.350200"
+    },
+    {
+        "id": "fbec1b36f5134a4ccd868e65cf764762",
+        "fingerprint": "principal qa automation engineer|randstad enterprise|pune",
+        "date": "2026-10-15T11:35:10.350202"
+    },
+    {
+        "id": "29ea14861c94180c52ad2dacd2d46ce7",
+        "fingerprint": "test manager, ai|mufg pension & market services|mumbai",
+        "date": "2026-10-15T11:35:10.350204"
+    },
+    {
+        "id": "cb106ecb2e609d0316683ef7cf85ffa4",
+        "fingerprint": "quality assurance manager|dsd recruitment|mumbai",
+        "date": "2026-10-15T11:35:10.350207"
+    },
+    {
+        "id": "bb03cdb880bc0710721d6bc8b36343dd",
+        "fingerprint": "test lead|qualitykiosk technologies|mumbai",
+        "date": "2026-10-15T11:35:10.350251"
+    },
+    {
+        "id": "dd1d5fb13b56f185a85b72c72ed9f823",
+        "fingerprint": "lead quality assurance engineer|ajackus|mumbai",
+        "date": "2026-10-15T11:35:10.350253"
+    },
+    {
+        "id": "ae8038f17c9c9cf8780ae59ba1220c90",
+        "fingerprint": "quality engineering lead \u2013 data validation & automation expert (ai enabled)|blumetra solutions|hyderabad",
+        "date": "2026-10-15T11:35:10.350256"
+    },
+    {
+        "id": "81dcc5b41f4de4e7c1a86da06b1cf624",
+        "fingerprint": "lead - product quality|tata advanced systems limited|gurugram",
+        "date": "2026-10-15T11:35:10.350258"
+    },
+    {
+        "id": "526dccc2d1027560af15dc45e6854713",
+        "fingerprint": "manager - quality, training & special initiatives|wsp in india|gurugram",
+        "date": "2026-10-15T11:35:10.350260"
+    },
+    {
+        "id": "a4c0e71767c0f1a1f650c13ee20a00a4",
+        "fingerprint": "automation lead|amratpal a vision|ahmedabad",
+        "date": "2026-10-15T11:35:10.350263"
+    },
+    {
+        "id": "9a36e849bd894af63d18caae08cd79e8",
+        "fingerprint": "principal quality engineering|logiqlink technologies|remote",
+        "date": "2026-10-15T11:35:10.350265"
+    },
+    {
+        "id": "c11f0d8329a6fcc45defe77063ddceb3",
+        "fingerprint": "sdet lead|robomq|remote",
+        "date": "2026-10-15T11:35:10.350268"
     }
 ]
