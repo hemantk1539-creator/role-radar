@@ -1,30 +1,5 @@
 [
     {
-        "id": "b7ebba5013750640670b58cb33a6307f",
-        "fingerprint": "quality assurance architect|acl digital|ahmedabad",
-        "date": "2026-05-08T12:49:51.642861"
-    },
-    {
-        "id": "9e5c6931749052cfd5d7052415702d9d",
-        "fingerprint": "principal quality engineer - sdet|onetrust|bengaluru",
-        "date": "2026-05-08T19:50:27.489529"
-    },
-    {
-        "id": "d351509bd86f138d7622c6bb2cf16470",
-        "fingerprint": "quality assurance automation lead|impetus|bengaluru",
-        "date": "2026-05-08T19:50:27.489549"
-    },
-    {
-        "id": "db535210fbbbe15f3e79037b3db7be63",
-        "fingerprint": "site quality manager|jabil|pune",
-        "date": "2026-05-08T19:50:27.489551"
-    },
-    {
-        "id": "8d6802bf14c833d298a431a3374b1687",
-        "fingerprint": "qa lead|mizuho|pune",
-        "date": "2026-05-08T19:50:27.489554"
-    },
-    {
         "id": "0cafc8832e0e1049966f66bef22ec8dc",
         "fingerprint": "senior lead quality engineer - r01559275|brillio|pune",
         "date": "2026-05-08T19:50:27.489556"
@@ -24998,5 +24973,30 @@
         "id": "c11f0d8329a6fcc45defe77063ddceb3",
         "fingerprint": "sdet lead|robomq|remote",
         "date": "2026-10-15T11:35:10.350268"
+    },
+    {
+        "id": "917a22b0a69c4c1446748aa44f667007",
+        "fingerprint": "qa lead engineer|valtech|bengaluru",
+        "date": "2026-10-15T16:36:03.653543"
+    },
+    {
+        "id": "f79aa5cc65e30e3aee1b1bc12722799e",
+        "fingerprint": "staff software development engineer - python automation + networking|zscaler|hyderabad",
+        "date": "2026-10-15T16:36:03.653559"
+    },
+    {
+        "id": "ca8cb1851b5eb1d22bad781094d3b932",
+        "fingerprint": "controls and testing lead|fnz|gurugram",
+        "date": "2026-10-15T16:36:03.653562"
+    },
+    {
+        "id": "7fd28565945d8cb5d61e70e1c2894ce8",
+        "fingerprint": "technical lead, device penetration testing|eykon|gurugram",
+        "date": "2026-10-15T16:36:03.653564"
+    },
+    {
+        "id": "f3d2c6768769af0f611a49e8df87c46b",
+        "fingerprint": "quality assurance manager|nodeshift|remote",
+        "date": "2026-10-15T16:36:03.653567"
     }
 ]
