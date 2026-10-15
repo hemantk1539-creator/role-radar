@@ -1,60 +1,5 @@
 [
     {
-        "id": "7a4d7b9bf8fc9fd44b3730ee180e2bbb",
-        "fingerprint": "lead engineer-automation|carrier|hyderabad",
-        "date": "2026-05-08T06:49:39.503536"
-    },
-    {
-        "id": "87e155eda0eef9c9756f5ac0a6c20d90",
-        "fingerprint": "senior lead engineer (qa)|alight solutions|gurugram",
-        "date": "2026-05-08T06:49:39.503538"
-    },
-    {
-        "id": "2eac528088ce88c0c9d353a1153ee160",
-        "fingerprint": "qa lead (rpa+python)|people, jobs, and news|gurugram",
-        "date": "2026-05-08T06:49:39.503540"
-    },
-    {
-        "id": "afe00628c9e30e1256f6d1ed085e4c5f",
-        "fingerprint": "gen ai/ agentic testing lead 5b|birlasoft|gurugram",
-        "date": "2026-05-08T06:49:39.503542"
-    },
-    {
-        "id": "b58301c16eaa4ec411e90534324d3cee",
-        "fingerprint": "manual - technical lead-testing services|birlasoft|gurugram",
-        "date": "2026-05-08T06:49:39.503544"
-    },
-    {
-        "id": "b36df4438e93259cfd33b7728cee92b7",
-        "fingerprint": "workday hcm test lead|wpp|chennai",
-        "date": "2026-05-08T06:49:39.503546"
-    },
-    {
-        "id": "63c757aa53748504f6a147f11e01c80a",
-        "fingerprint": "staff software engineer, ai and automation|okta",
-        "date": "2026-05-08T06:49:39.503547"
-    },
-    {
-        "id": "83f0b81bddf62d41b0961632ec9f66a4",
-        "fingerprint": "test manager - playwright|happiest minds technologies|bengaluru",
-        "date": "2026-05-08T12:49:51.642787"
-    },
-    {
-        "id": "398c6120a397039fa1e9a4f3bd8cf304",
-        "fingerprint": "manager - systems automation (medical device testing) [t500-25773]|ansr|bengaluru",
-        "date": "2026-05-08T12:49:51.642805"
-    },
-    {
-        "id": "2a98aae3cc89102620c08c4ca7a6c6a1",
-        "fingerprint": "qa leader engineer|ht media group|bengaluru",
-        "date": "2026-05-08T12:49:51.642808"
-    },
-    {
-        "id": "056302897fe139b16350313d9356409d",
-        "fingerprint": "quality lead engineer \u2013 automation (selenium, playwright, api, ci/cd) | 10+ years | bangalore | immediate joiner|ust|bengaluru",
-        "date": "2026-05-08T12:49:51.642810"
-    },
-    {
         "id": "83c55d150460727a00a094a600df1b18",
         "fingerprint": "operations & automation manager|gotrails|bengaluru",
         "date": "2026-05-08T12:49:51.642812"
@@ -24998,5 +24943,60 @@
         "id": "df1746f601d4e7c8dcf8f004ef754487",
         "fingerprint": "staff software engineer, qe|alphasense|remote",
         "date": "2026-10-14T16:35:15.482360"
+    },
+    {
+        "id": "2cc17647592ce8599a8d9aaf01c88565",
+        "fingerprint": "qa manual & automation lead \u2013 mobile applications|gloinnt solutions pvt. ltd.|bengaluru",
+        "date": "2026-10-15T06:04:15.058020"
+    },
+    {
+        "id": "8137a104fdba9ba2d2fd79fbf1097326",
+        "fingerprint": "gpp test lead (perm) - india|thakral one|bengaluru",
+        "date": "2026-10-15T06:04:15.058036"
+    },
+    {
+        "id": "c0fa3dc1575f86a3792141d09f5189cb",
+        "fingerprint": "automation test lead|eurofins|bengaluru",
+        "date": "2026-10-15T06:04:15.058039"
+    },
+    {
+        "id": "06157af5be6eb3003c04e4db78d63338",
+        "fingerprint": "qa test lead|eurofins|bengaluru",
+        "date": "2026-10-15T06:04:15.058041"
+    },
+    {
+        "id": "d82d235eedff98cae3e560232b0650df",
+        "fingerprint": "test lead- qa automation + playwright|cgi|bengaluru",
+        "date": "2026-10-15T06:04:15.058043"
+    },
+    {
+        "id": "b3546cb426e31349556bb52a51b79bc5",
+        "fingerprint": "test lead (webdriver+playwright)|eurofins|bengaluru",
+        "date": "2026-10-15T06:04:15.058045"
+    },
+    {
+        "id": "d20a0049102dd853f7813ad65f185953",
+        "fingerprint": "messaging & signaling test / qa lead|tata consultancy services|bengaluru",
+        "date": "2026-10-15T06:04:15.058047"
+    },
+    {
+        "id": "f6d44975fabfe85e070768fb458d7fa5",
+        "fingerprint": "test automation lead|lcipl|bengaluru",
+        "date": "2026-10-15T06:04:15.058048"
+    },
+    {
+        "id": "0d1d160e30ea09e3f25a0975d4c4d1b7",
+        "fingerprint": "senior qa manager|takeda|mumbai",
+        "date": "2026-10-15T06:04:15.058050"
+    },
+    {
+        "id": "e5d91e077fb8b02467ce6b31fc890197",
+        "fingerprint": "manager i - senior software engineer, sap quality management|bristol myers squibb|hyderabad",
+        "date": "2026-10-15T06:04:15.058052"
+    },
+    {
+        "id": "9c120ca63162f99b95fa1e0eb42c4315",
+        "fingerprint": "ai test architect|wsa \u2013 wonderful sound for all|remote",
+        "date": "2026-10-15T06:04:15.058055"
     }
 ]
