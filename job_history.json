@@ -1,70 +1,5 @@
 [
     {
-        "id": "269510ecac1d1ca3e8cfd5db28865cf4",
-        "fingerprint": "director of revenue systems and ai automation (offshore)|caul group",
-        "date": "2026-05-09T06:50:06.154466"
-    },
-    {
-        "id": "4bdc5426eb808fe59f408dc8e9fd0a9d",
-        "fingerprint": "digital content & ai automation manager|okta",
-        "date": "2026-05-09T06:50:06.154468"
-    },
-    {
-        "id": "10476d131b804810b3d422b6522404d4",
-        "fingerprint": "technical project manager - agile, scrum, product owner, ai & automation (7+ yrs)|cisco|bengaluru",
-        "date": "2026-05-09T12:49:20.795843"
-    },
-    {
-        "id": "3967132d35febf5fc9a3aaf009adcce3",
-        "fingerprint": "quality assurance manager|sj contracts pvt ltd|mumbai",
-        "date": "2026-05-09T12:49:20.795860"
-    },
-    {
-        "id": "12dafcbb9afbafe3209f85483418fdb5",
-        "fingerprint": "principal engineer - it quality & assurance testing|marsh risk|mumbai",
-        "date": "2026-05-09T12:49:20.795863"
-    },
-    {
-        "id": "9f6131d4166ae306bd7e3bb8bba1c500",
-        "fingerprint": "qa architect|roboyo|hyderabad",
-        "date": "2026-05-09T12:49:20.795865"
-    },
-    {
-        "id": "27e3d2f2af6afcd573c39c4c896967ea",
-        "fingerprint": "lead i - software testing (automation testing, java, selenium, api testing, rest assured)|ust|hyderabad",
-        "date": "2026-05-09T12:49:20.795867"
-    },
-    {
-        "id": "f8f4386465660ea853cc56da1ea4e64e",
-        "fingerprint": "lead quality engineer|talentmate|chennai",
-        "date": "2026-05-09T12:49:20.795869"
-    },
-    {
-        "id": "d970c82b1cb46ead9449af76a271b87e",
-        "fingerprint": "quality assurance manager|smurfit westrock|remote",
-        "date": "2026-05-09T12:49:20.795871"
-    },
-    {
-        "id": "cff80f46446ee0744b136462286f8a6a",
-        "fingerprint": "ots automation lead - vice president|jpmorganchase|bengaluru",
-        "date": "2026-05-09T19:49:48.610645"
-    },
-    {
-        "id": "7bae24ea88f6dfae266b3aed4e1aa238",
-        "fingerprint": "manager technical quality assurance engineering|epsilon|bengaluru",
-        "date": "2026-05-09T19:49:48.610663"
-    },
-    {
-        "id": "f4c74ba23e4fac6c7d3dd6507c351f7c",
-        "fingerprint": "sap pen testing - lead solution advisor|deloitte|pune",
-        "date": "2026-05-09T19:49:48.610666"
-    },
-    {
-        "id": "0db21f0db0508eb12a61933bc83b4139",
-        "fingerprint": "test lead / business analyst / test analyst - los projects - mumbai (work from office )|aqm technologies|mumbai",
-        "date": "2026-05-09T19:49:48.610670"
-    },
-    {
         "id": "6b2f80cb7a44bc438c3e97e6e65426ed",
         "fingerprint": "senior qa engineer / qa lead (product & release) [2+ years exp.]|shoshin tech|hyderabad",
         "date": "2026-05-09T19:49:48.610673"
@@ -24998,5 +24933,70 @@
         "id": "bf21608148bcc50dcf86ffe8cdbc33a9",
         "fingerprint": "sdet manager|epicgames",
         "date": "2026-10-16T06:05:17.901950"
+    },
+    {
+        "id": "de4b721cd714f60fd16cb0a4f86d1139",
+        "fingerprint": "quality assurance engineering manager|whiteslips job management consultants|bengaluru",
+        "date": "2026-10-16T11:34:56.588855"
+    },
+    {
+        "id": "77845cbcfc85c29c0a3359789850cdbd",
+        "fingerprint": "software test engineering technical leader | python, networking/security, ai | 9 to 14 years | bangalore|cisco|bengaluru",
+        "date": "2026-10-16T11:34:56.588868"
+    },
+    {
+        "id": "d74b05fd4de5a694ebdb2d065b0e3316",
+        "fingerprint": "qa automation lead|willware technologies|bengaluru",
+        "date": "2026-10-16T11:34:56.588870"
+    },
+    {
+        "id": "698e5b8570c70921eaaffd80f0335407",
+        "fingerprint": "technical architect \u2013 design for test (dft)|leadsoc technologies pvt ltd|bengaluru",
+        "date": "2026-10-16T11:34:56.588873"
+    },
+    {
+        "id": "0312a8658d6012ef94be068f52b2f417",
+        "fingerprint": "pen testing - manager|deloitte|pune",
+        "date": "2026-10-16T11:34:56.588874"
+    },
+    {
+        "id": "e4f3f76d59d00d99c981b07478e18d03",
+        "fingerprint": "manager \u2013 quality assurance|lupin ltd|pune",
+        "date": "2026-10-16T11:34:56.588877"
+    },
+    {
+        "id": "8ac5ca3175f5d6b997d2974e68ab2de4",
+        "fingerprint": "manager \u2013 quality assurance|lupin|pune",
+        "date": "2026-10-16T11:34:56.588878"
+    },
+    {
+        "id": "5562c178818e5d2be713333727ad2b21",
+        "fingerprint": "head \u2013 quality assurance & quality control (qa/qc)|consult pro|mumbai",
+        "date": "2026-10-16T11:34:56.588881"
+    },
+    {
+        "id": "7f4717b7f7554f6c9028a9e850af46ee",
+        "fingerprint": "mobile automation(xcuit+ java) testing lead|wipro|hyderabad",
+        "date": "2026-10-16T11:34:56.588882"
+    },
+    {
+        "id": "92a73688268b68febef9453ca4810885",
+        "fingerprint": "manager \u2013 development quality assurance|qvents.in|gurugram",
+        "date": "2026-10-16T11:34:56.588884"
+    },
+    {
+        "id": "6cca775f4c00f41275e1111a295649c0",
+        "fingerprint": "quality assurance manager|urmi lifesciences|noida",
+        "date": "2026-10-16T11:34:56.588886"
+    },
+    {
+        "id": "e13917ebcb8d8e9bbb036f673fde91c5",
+        "fingerprint": "quality insights lead|airbnb",
+        "date": "2026-10-16T11:34:56.588888"
+    },
+    {
+        "id": "c556e3e1fca66177be30afb4d8731b08",
+        "fingerprint": "lead sdet (remote, anywhere in pakistan, usd salary)|hr pod careers|remote",
+        "date": "2026-10-16T11:34:56.588890"
     }
 ]
