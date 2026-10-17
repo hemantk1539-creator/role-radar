@@ -1,40 +1,5 @@
 [
     {
-        "id": "f2b525d0acaad3639e6999b033e963d0",
-        "fingerprint": "global head of quality assurance, vp iii - state street investment management|state street|remote",
-        "date": "2026-05-10T19:49:33.182819"
-    },
-    {
-        "id": "d836da5a30cc3ecb522f823fb6bed524",
-        "fingerprint": "head quality - cluster (manufacturing cluster - pune)|varroc|pune",
-        "date": "2026-05-11T06:49:41.144740"
-    },
-    {
-        "id": "c45c0dfd82cb11c3b6d19ff36187dce3",
-        "fingerprint": "site quality manager|mygwork - lgbtq+ business community|pune",
-        "date": "2026-05-11T06:49:41.144760"
-    },
-    {
-        "id": "e504450efec0991cffe7092e5997fcc5",
-        "fingerprint": "guidewire qa automation architect|guidewire software|bengaluru",
-        "date": "2026-05-11T06:49:41.144763"
-    },
-    {
-        "id": "0ef964a04bdbf7f1143d8ce39f5bf70b",
-        "fingerprint": "quality manager|menschen consulting pvt. ltd.|mumbai",
-        "date": "2026-05-11T06:49:41.144765"
-    },
-    {
-        "id": "d8ae6b9e5d423a1728d7b0a5e897c1a8",
-        "fingerprint": "test architect|ust|hyderabad",
-        "date": "2026-05-11T06:49:41.144768"
-    },
-    {
-        "id": "2d68094da475e76f5651c29f77457152",
-        "fingerprint": "lead ai qa engineer|intellectt inc|hyderabad",
-        "date": "2026-05-11T06:49:41.144770"
-    },
-    {
         "id": "df533b9c14a6ec352ff2edcf3e9837f3",
         "fingerprint": "lead engineer - test automation|veeva systems|hyderabad",
         "date": "2026-05-11T06:49:41.144772"
@@ -24998,5 +24963,40 @@
         "id": "95f43845f38cdfc8aa2150aab79c91a3",
         "fingerprint": "assistant director - product quality|hsbc|bengaluru",
         "date": "2026-10-17T06:04:27.130078"
+    },
+    {
+        "id": "7c95e29f33b9b6d262e36a5c16aae865",
+        "fingerprint": "oracle functional testing - manager|pwc acceleration center india|bengaluru",
+        "date": "2026-10-17T11:34:05.000346"
+    },
+    {
+        "id": "b90ea69de3659407c5d3b5a54476b873",
+        "fingerprint": "manager testing mv ais panels|siemens|mumbai",
+        "date": "2026-10-17T11:34:05.000365"
+    },
+    {
+        "id": "7e275c80822ff1efb318b494a6724888",
+        "fingerprint": "qa/qc manager|coldweld engineers pvt ltd.|mumbai",
+        "date": "2026-10-17T11:34:05.000368"
+    },
+    {
+        "id": "6126792d3c00200ca21ddb28387c1011",
+        "fingerprint": "project manager-testing & commissioning|sgs india pvt ltd|mumbai",
+        "date": "2026-10-17T11:34:05.000370"
+    },
+    {
+        "id": "5d4aebd236b290290c191a653f737fa3",
+        "fingerprint": "manager intelligent automation|ameriprise financial services, llc|gurugram",
+        "date": "2026-10-17T11:34:05.000372"
+    },
+    {
+        "id": "794a6ee17172b117640e0ee638f067ee",
+        "fingerprint": "pen testing - manager|deloitte|chennai",
+        "date": "2026-10-17T11:34:05.000375"
+    },
+    {
+        "id": "ef652dbb1a715151a86f88983a0efd0f",
+        "fingerprint": "qa qc manager - heat exchanger, vessels & tanks|dynatherm alloys private limited - india|chennai",
+        "date": "2026-10-17T11:34:05.000377"
     }
 ]
