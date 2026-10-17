@@ -1,30 +1,5 @@
 [
     {
-        "id": "857b02da5bae911bfa88568868617890",
-        "fingerprint": "quality manager (hands-on / manufacturing / iso 9001:2015)|a hiring company|remote",
-        "date": "2026-05-10T06:49:51.942222"
-    },
-    {
-        "id": "6cc277b6e0a09fdb0af7e5b9314c742c",
-        "fingerprint": "principal qa engineer - genesys|ttec digital|hyderabad",
-        "date": "2026-05-10T12:50:05.720275"
-    },
-    {
-        "id": "ab58d0e746a895d387cc7b9a1c703fce",
-        "fingerprint": "team lead, tech quality assurance|gale|bengaluru",
-        "date": "2026-05-10T19:49:33.182747"
-    },
-    {
-        "id": "18fd81732f242fdb7cc5b62ccc66d8fd",
-        "fingerprint": "lead qa engineer|blend|hyderabad",
-        "date": "2026-05-10T19:49:33.182763"
-    },
-    {
-        "id": "c5c183addb93dd012ce09371eb651f8d",
-        "fingerprint": "intelligent automation lead (power platform / ai-ml)|roboquess infotech private limited|gurugram",
-        "date": "2026-05-10T19:49:33.182767"
-    },
-    {
         "id": "f2b525d0acaad3639e6999b033e963d0",
         "fingerprint": "global head of quality assurance, vp iii - state street investment management|state street|remote",
         "date": "2026-05-10T19:49:33.182819"
@@ -24998,5 +24973,30 @@
         "id": "c4827154afaafc021e0ed77ad68e43bf",
         "fingerprint": "ai qe engineer - manager|pwc acceleration center india|remote",
         "date": "2026-10-16T16:34:40.437817"
+    },
+    {
+        "id": "b2a33b34fe43d69addd5483c1ea7d9fe",
+        "fingerprint": "lead engineer \u2013 quality engineering|reveille technologies,inc|pune",
+        "date": "2026-10-17T06:04:27.130053"
+    },
+    {
+        "id": "f5fae25a31de13bd5887388d9de16c26",
+        "fingerprint": "lead quality automation engineer - mainframe|bmc software|pune",
+        "date": "2026-10-17T06:04:27.130071"
+    },
+    {
+        "id": "ba35ddcafbbd694e6cbd297c5b63e1ea",
+        "fingerprint": "quality team lead - performance assurance- ahmedabad, india|qatar airways|ahmedabad",
+        "date": "2026-10-17T06:04:27.130073"
+    },
+    {
+        "id": "7b19108c1493374ba4ec9ebb333c1806",
+        "fingerprint": "test automation architect|htc global services|remote",
+        "date": "2026-10-17T06:04:27.130075"
+    },
+    {
+        "id": "95f43845f38cdfc8aa2150aab79c91a3",
+        "fingerprint": "assistant director - product quality|hsbc|bengaluru",
+        "date": "2026-10-17T06:04:27.130078"
     }
 ]
