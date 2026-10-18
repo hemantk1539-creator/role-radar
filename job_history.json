@@ -1,30 +1,5 @@
 [
     {
-        "id": "3208ae587baa184467098830383dcf9f",
-        "fingerprint": "qa lead|valuelabs|hyderabad",
-        "date": "2026-05-11T12:49:45.418171"
-    },
-    {
-        "id": "8990d3bb856c31aa3d9f9241d1fbe22f",
-        "fingerprint": "quality control laboratory manager|bio-state consulting|gurugram",
-        "date": "2026-05-11T12:49:45.418174"
-    },
-    {
-        "id": "e0d47fc9e9b177e6dcbe2b076b8da9d9",
-        "fingerprint": "data quality manager (f/m/d)|siemens energy|gurugram",
-        "date": "2026-05-11T12:49:45.418176"
-    },
-    {
-        "id": "0d298f918b1aaaa20405ca5eb8481f22",
-        "fingerprint": "principal testing services consultant|simcorp|gurugram",
-        "date": "2026-05-11T12:49:45.418178"
-    },
-    {
-        "id": "7b8455761614f3a1d1ed2f264f786596",
-        "fingerprint": "manager - clinical process and quality manager|sun pharma|gurugram",
-        "date": "2026-05-11T12:49:45.418180"
-    },
-    {
         "id": "47aa0264961430e0dc7f27d1e50f7dfe",
         "fingerprint": "qa project manager|persistent systems|pune",
         "date": "2026-05-11T19:49:59.988646"
@@ -24998,5 +24973,30 @@
         "id": "4a3c2d0fcf95b08287691d21edab1401",
         "fingerprint": "training & quality assistant manager - back office|datamark, inc.|chennai",
         "date": "2026-10-17T16:34:40.197689"
+    },
+    {
+        "id": "b1f3f745161ac1b91ceda26ec49c2c2b",
+        "fingerprint": "gspann - pos automation test lead - cypress/playwright testing|gspann technologies, inc|bengaluru",
+        "date": "2026-10-18T06:03:50.147721"
+    },
+    {
+        "id": "e0e3a665e01e1798c5bbb7dd0520e94b",
+        "fingerprint": "quality -manager|ey|bengaluru",
+        "date": "2026-10-18T06:03:50.147735"
+    },
+    {
+        "id": "68f0e17a11882c9ac72a10ede5b50865",
+        "fingerprint": "automation test lead|infosys|bengaluru",
+        "date": "2026-10-18T06:03:50.147738"
+    },
+    {
+        "id": "aee1666ecb6b454932985c686e0d73f9",
+        "fingerprint": "gspann - performance test lead - jmeter/loadrunner|gspann technologies, inc|gurugram",
+        "date": "2026-10-18T06:03:50.147740"
+    },
+    {
+        "id": "5d516a6f1bf2d5d14bde97bd7e0e1e66",
+        "fingerprint": "manager, quality engineering (tcf)|concentrix|remote",
+        "date": "2026-10-18T06:03:50.147742"
     }
 ]
