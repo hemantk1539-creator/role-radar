@@ -1,35 +1,5 @@
 [
     {
-        "id": "47aa0264961430e0dc7f27d1e50f7dfe",
-        "fingerprint": "qa project manager|persistent systems|pune",
-        "date": "2026-05-11T19:49:59.988646"
-    },
-    {
-        "id": "901a50af1dddc76670a8a8e081b84f9b",
-        "fingerprint": "deputy manager / manager - electrical -test systems|zf group|pune",
-        "date": "2026-05-11T19:49:59.988665"
-    },
-    {
-        "id": "d167721f4c81725c61053697910fe1cb",
-        "fingerprint": "automation lead|hackajob|pune",
-        "date": "2026-05-11T19:49:59.988668"
-    },
-    {
-        "id": "dfb12dc242d150d9b8c642995cefbfa2",
-        "fingerprint": "accessibility test lead|persistent systems|pune",
-        "date": "2026-05-11T19:49:59.988670"
-    },
-    {
-        "id": "4116c09fda02c92eda9f6662b0b22c6b",
-        "fingerprint": "it quality tech lead analyst - vice president|citi|pune",
-        "date": "2026-05-11T19:49:59.988673"
-    },
-    {
-        "id": "0a6d07aea1ad5d8bd4c72a0cbfda04f2",
-        "fingerprint": "director \u2013 ai/ml & automation|iqvia laboratories|bengaluru",
-        "date": "2026-05-11T19:49:59.988675"
-    },
-    {
         "id": "c0e3b3f3746f53202aeeb71dbce8b0cb",
         "fingerprint": "director \u2013 ai/ml & automation|iqvia|bengaluru",
         "date": "2026-05-11T19:49:59.988677"
@@ -24998,5 +24968,35 @@
         "id": "5d516a6f1bf2d5d14bde97bd7e0e1e66",
         "fingerprint": "manager, quality engineering (tcf)|concentrix|remote",
         "date": "2026-10-18T06:03:50.147742"
+    },
+    {
+        "id": "a1c489165f1f2b6430c01b07a2cb250d",
+        "fingerprint": "lead \u2013 forward deployment engineer (python / automation)|ptc|pune",
+        "date": "2026-10-18T11:34:21.835481"
+    },
+    {
+        "id": "34ca903fc3cbaa44b3b5e19d8f784d93",
+        "fingerprint": "pen testing - manager|deloitte|hyderabad",
+        "date": "2026-10-18T11:34:21.835496"
+    },
+    {
+        "id": "03cd5df5cedfd8d77adc663d7fd61b8d",
+        "fingerprint": "director - quality|pwc india|gurugram",
+        "date": "2026-10-18T11:34:21.835499"
+    },
+    {
+        "id": "3aba0443bccabd73d82a79d88bc25fb0",
+        "fingerprint": "analytics lead \u2013 data, ai & automation|mars cosmetics|gurugram",
+        "date": "2026-10-18T11:34:21.835502"
+    },
+    {
+        "id": "c07c7e1a7becc525b372b6d5ee706fd2",
+        "fingerprint": "quality manager (qa/qc) \u2013 aluminium furnace package | india & ksa|gillespie & powers, inc.|chennai",
+        "date": "2026-10-18T11:34:21.835504"
+    },
+    {
+        "id": "9df2533779e7caaf66f5c8c275368b39",
+        "fingerprint": "qa automation lead (data engineering)- india|juniper square|remote",
+        "date": "2026-10-18T11:34:21.835506"
     }
 ]
