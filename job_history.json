@@ -1,35 +1,5 @@
 [
     {
-        "id": "cd8527cb8cfd97846ee8028d7b2fef81",
-        "fingerprint": "lead quality engineer i|delta technology hub|bengaluru",
-        "date": "2026-05-11T19:49:59.988681"
-    },
-    {
-        "id": "cc2cd85280dc45983f23032fdccdac22",
-        "fingerprint": "salesforce automation qa lead | python | selenium | api testing | ci/cd|xml international|bengaluru",
-        "date": "2026-05-11T19:49:59.988683"
-    },
-    {
-        "id": "8cb3d703e5f159db100ec3fe800690ee",
-        "fingerprint": "deputy manager - quality|schneider electric|bengaluru",
-        "date": "2026-05-11T19:49:59.988685"
-    },
-    {
-        "id": "0f1f8440a98a6bab504b90e29da9935b",
-        "fingerprint": "testing lead|idfc first bank|mumbai",
-        "date": "2026-05-11T19:49:59.988688"
-    },
-    {
-        "id": "58cbe1910b047f9e504469e027f22ef7",
-        "fingerprint": "quality assurance and quality control manager-facade works|envelopetechnik facade consultancy llp.|mumbai",
-        "date": "2026-05-11T19:49:59.988690"
-    },
-    {
-        "id": "8de46003e874dc639f3077f3e2406707",
-        "fingerprint": "senior manager, quality assurance (qa specialist)|m&g india|mumbai",
-        "date": "2026-05-11T19:49:59.988692"
-    },
-    {
         "id": "e3518636d813a924b14b5f8418e194d4",
         "fingerprint": "qa lead (freelancer)|deccan ai experts|mumbai",
         "date": "2026-05-11T19:49:59.988694"
@@ -24998,5 +24968,35 @@
         "id": "0c630c41d4ea712cdd43d476c8c2a951",
         "fingerprint": "manager - cloud automation software engineer|macquarie group|hyderabad",
         "date": "2026-10-18T16:34:27.880790"
+    },
+    {
+        "id": "9124ffbcffffcb7e750aa7eaf882c526",
+        "fingerprint": "senior engineering manager \u2013  performance engineering - qa|caterpillar inc.|chennai",
+        "date": "2026-10-19T06:04:17.987649"
+    },
+    {
+        "id": "0e19bb2327ec5d96cf6f2bef3fcc37bc",
+        "fingerprint": "director of qa automation|crewlia|remote",
+        "date": "2026-10-19T06:04:17.987661"
+    },
+    {
+        "id": "e56b79653a38258ee10bdc317c341c54",
+        "fingerprint": "head of qa automation|crewlia|remote",
+        "date": "2026-10-19T06:04:17.987667"
+    },
+    {
+        "id": "e7cd7230487fca06a918ad5e0046d6a5",
+        "fingerprint": "manager, software development & engineering - manual testing qa|charles schwab india|remote",
+        "date": "2026-10-19T06:04:17.987670"
+    },
+    {
+        "id": "55042b359ba8efb93e4a1750a384fb71",
+        "fingerprint": "manager, software development engineer-sdet automation testing|charles schwab india|remote",
+        "date": "2026-10-19T06:04:17.987672"
+    },
+    {
+        "id": "15efb31f149f22b7cb83487da5b11be4",
+        "fingerprint": "qa automation manager|crewlia|remote",
+        "date": "2026-10-19T06:04:17.987675"
     }
 ]
