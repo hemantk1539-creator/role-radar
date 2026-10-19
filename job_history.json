@@ -1,70 +1,5 @@
 [
     {
-        "id": "e3518636d813a924b14b5f8418e194d4",
-        "fingerprint": "qa lead (freelancer)|deccan ai experts|mumbai",
-        "date": "2026-05-11T19:49:59.988694"
-    },
-    {
-        "id": "8081868c4cf13e39225c1cdf538ddef8",
-        "fingerprint": "senior manager - qa (swift payments) [t500-25839]|cibc india|hyderabad",
-        "date": "2026-05-11T19:49:59.988696"
-    },
-    {
-        "id": "27fbcb5aafbdf155247e948d7f8bc264",
-        "fingerprint": "lead test automation engineer p3 (pa2026q1jb018)|ss&c technologies|hyderabad",
-        "date": "2026-05-11T19:49:59.988699"
-    },
-    {
-        "id": "60986bf263f5435ebaad6dff89b757bb",
-        "fingerprint": "qa lead (freelancer)|deccan ai experts|hyderabad",
-        "date": "2026-05-11T19:49:59.988706"
-    },
-    {
-        "id": "411c3969c2337e9281a1287505878eb3",
-        "fingerprint": "senior quality engineer - test automation lead|onespan|gurugram",
-        "date": "2026-05-11T19:49:59.988709"
-    },
-    {
-        "id": "d34388312869d2ba126c5c03dc5dcfbc",
-        "fingerprint": "qa lead (playwright)|infostride|gurugram",
-        "date": "2026-05-11T19:49:59.988711"
-    },
-    {
-        "id": "70bbf94147fafbcaf21bf35491a91466",
-        "fingerprint": "qa lead (freelancer)|deccan ai experts|gurugram",
-        "date": "2026-05-11T19:49:59.988713"
-    },
-    {
-        "id": "b3568fca0f82ff60824d81274b87ccc5",
-        "fingerprint": "sdwan/l3 test engineering technical leader | l2/l3 security | network automation | ipsec and cloud security(11-15 years)|cisco|chennai",
-        "date": "2026-05-11T19:49:59.988715"
-    },
-    {
-        "id": "98d5afa9304acbaf31ae92829039e97f",
-        "fingerprint": "qa lead (freelancer)|deccan ai experts|chennai",
-        "date": "2026-05-11T19:49:59.988717"
-    },
-    {
-        "id": "2e8faf73b0a5f2f990af6ef101675a0f",
-        "fingerprint": "python test lead - banking /capital markets|luxoft|chennai",
-        "date": "2026-05-11T19:49:59.988719"
-    },
-    {
-        "id": "906d40a4c1b6f823ef9cdbf2d7c3d0f6",
-        "fingerprint": "head automation|whiteslips job management consultants|ahmedabad",
-        "date": "2026-05-11T19:49:59.988721"
-    },
-    {
-        "id": "0b1ed9d015ee529bf32f07edb537128f",
-        "fingerprint": "senior quality systems manager|heartland food products group|remote",
-        "date": "2026-05-11T19:49:59.988723"
-    },
-    {
-        "id": "4801d070989d15b6693eabf7793712f4",
-        "fingerprint": "quality assurance manager|refyne india|remote",
-        "date": "2026-05-11T19:49:59.988725"
-    },
-    {
         "id": "8b0a7400d39116fa1efdf0ed68b5bfb2",
         "fingerprint": "manager, test and tools development engineering|nvidia|pune",
         "date": "2026-05-12T06:49:49.042582"
@@ -24998,5 +24933,70 @@
         "id": "15efb31f149f22b7cb83487da5b11be4",
         "fingerprint": "qa automation manager|crewlia|remote",
         "date": "2026-10-19T06:04:17.987675"
+    },
+    {
+        "id": "43f697d712770d15553f648fd69e7634",
+        "fingerprint": "director, software engineering | enterprise ai platforms, infrastructure & automation|cisco|bengaluru",
+        "date": "2026-10-19T11:34:30.542563"
+    },
+    {
+        "id": "74442e0726b5ecf90b8f251e269bc557",
+        "fingerprint": "head of system reliability and quality|azista space|bengaluru",
+        "date": "2026-10-19T11:34:30.542579"
+    },
+    {
+        "id": "51401bfda71a16f5bea3dde56798149c",
+        "fingerprint": "principal software automation engineer|sage|bengaluru",
+        "date": "2026-10-19T11:34:30.542582"
+    },
+    {
+        "id": "ce49ae22f8cce589b300b39fa7922b33",
+        "fingerprint": "test lead|dataweave|bengaluru",
+        "date": "2026-10-19T11:34:30.542585"
+    },
+    {
+        "id": "4b902e11d5c6402f2bbe737305e4f489",
+        "fingerprint": "test lead - python|happiest minds technologies|bengaluru",
+        "date": "2026-10-19T11:34:30.542587"
+    },
+    {
+        "id": "bc665dfd7e45fa4beb127e8e6ebd57f1",
+        "fingerprint": "sr architect testing|last working day|pune",
+        "date": "2026-10-19T11:34:30.542590"
+    },
+    {
+        "id": "4c4519695f8a13ff5939e342dd8e99f5",
+        "fingerprint": "staff sw test engineer|abbott|hyderabad",
+        "date": "2026-10-19T11:34:30.542592"
+    },
+    {
+        "id": "d986a978f15b8bdcc5e97be3de2aab18",
+        "fingerprint": "senior lead engineer testing|adtran|hyderabad",
+        "date": "2026-10-19T11:34:30.542594"
+    },
+    {
+        "id": "1b8ae8f878562ae11bab65479cee9fd4",
+        "fingerprint": "cloud automation lead / architect|aperam global services india|hyderabad",
+        "date": "2026-10-19T11:34:30.542596"
+    },
+    {
+        "id": "c7c4d11b22003dda5b519a45b36ff05d",
+        "fingerprint": "quality assurance regulatory affairs manager|las ventures pvt. ltd.|gurugram",
+        "date": "2026-10-19T11:34:30.542598"
+    },
+    {
+        "id": "38b5e922c3d63984ec314e4bfb51b4b4",
+        "fingerprint": "lead automation engineer|vensure employer solutions|remote",
+        "date": "2026-10-19T11:34:30.542601"
+    },
+    {
+        "id": "43cb19c77bf4eb6cba77cdc7e7e4ec72",
+        "fingerprint": "test architect \u2013 automation testing (100% automation)|clevanoo llc|remote",
+        "date": "2026-10-19T11:34:30.542603"
+    },
+    {
+        "id": "da3d877f693bea2e59c09d184e4805fe",
+        "fingerprint": "sr. engineer qe ii, digital dist & ent eng|invesco|remote",
+        "date": "2026-10-19T11:34:30.542605"
     }
 ]
